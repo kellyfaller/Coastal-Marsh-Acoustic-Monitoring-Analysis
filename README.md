@@ -49,7 +49,7 @@ Here are some highlights of the repository:
 
 The data used in these analysis scripts were **downloaded using the backup feature on the Arbimon platform**, and all species presence data was derived from extensive pattern matching analyses performed in Arbimon. This link leads to my **project insights** page, showcasing the results and data visualizations generated through Arbimon’s analytical tools.
 
-👉 [Arbimon Project Page]([https://arbimon.org/callback?code=yrXh-_w8r3NlXemSxjCQTbOo02F5dTsSWYLY6HPIGgpea&state=S1FYOUE4SXoucmRkaXo2NC1XNy04NWVRS1Z4Ym5oUHY1cVBWZENPT21JaQ%3D%3D])
+👉 [Arbimon Project Page](https://arbimon.org/p/glades-restoration-soundscape-project/overview)
 
 > [!NOTE]
 If you’re interested in **how these results were achieved**—or want to learn more about the various analytical features in Arbimon—I’d be more than happy to discuss the process. Feel free to **reach out to me** with questions or collaboration ideas!

@@ -18,7 +18,7 @@ This project was a **collaboration between the USFWS Coastal Program and Rutgers
 - The **USFWS Coastal Program** provided equipment, field time, project management, and other crucial support to make the acoustic monitoring of marsh restoration possible.
   
 ![Logo-Rutgers-University](https://github.com/user-attachments/assets/4b78e982-aa08-4271-8ae8-94149396a7a2)
-![Seal_of_the_United_States_Fish_and_Wildlife_Service svg](https://github.com/user-attachments/assets/5f8eb39d-8474-4597-bb94-2fa88cdb95bd)
+![Seal_of_the_United_States_Fish_and_Wildlife_Service svg](https://github.com/user-attachments/assets/b3790da4-e694-41a8-9533-9a045ca4328c)
 ![Coastal Program Logo (Black Text) (1)](https://github.com/user-attachments/assets/e0ea9aa0-3f94-41db-945b-09c0f36e7f06)
 
 ## 📁 Project Resources and Folder Structure

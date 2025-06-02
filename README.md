@@ -1,4 +1,4 @@
-# Soundscape-Analysis-Rare-Bird-Detection
+# Coastal Marsh Acoustic Monitoring Analysis
 This repository contains R Markdown scripts and supporting code for analyzing acoustic monitoring data collected from marshes along the **Delaware and Barnegat Bays**. The primary goal of this project is to understand how birds respond to changes in marsh habitat, particularly those changes that result from restoration practices.
 
 ## 🔍 Purpose

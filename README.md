@@ -65,11 +65,11 @@ I hope that by sharing this code on GitHub, other researchers and practitioners 
 ✅ Adapt the visualizations and metrics for different sites and monitoring goals.  
 ✅ Contribute back improvements or adaptations to build a stronger community of practice.
 
-I am happy for others to adapt and use this code—**as long as credit is given**.
+I am happy for others to adapt and use this code—**as long as credit is given**. Also, if you like my work and would like to support me, please visit the **Sponsor this Project** banner listed on the right part of the screen. Anything helps!
 
 ##  Citation
 
-If you use or adapt these scripts for your own work, please cite them as described in the included [`CITATION.cff`](CITATION.cff) file also found in the "Docs" folder.
+If you use or adapt these scripts for your own work, please cite them as described in the included [`CITATION.cff`](CITATION.cff) file also found in the "Docs" folder. 
 
 ## Contact Information
 

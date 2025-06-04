@@ -15,7 +15,7 @@ By analyzing daily and seasonal patterns in acoustic indices and species presenc
 
 ## Project Collaboration
 
-This project was a **collaboration between the USFWS Coastal Program and Rutgers University**.  
+This project was a **collaboration between the USFWS Coastal Program and Rutgers University**, with enormous support from Danielle McCulloch from USFWS.
 - **Rutgers University involvement** was led by **Kelly Faller** as part of her **Master’s thesis**. She conducted the data management, analysis, and report generation.  
 - The **USFWS Coastal Program** provided equipment, field time, project management, and other crucial support to make the acoustic monitoring of marsh restoration possible.
   

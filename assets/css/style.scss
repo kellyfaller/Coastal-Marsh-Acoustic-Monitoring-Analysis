@@ -27,3 +27,29 @@ blockquote {
   padding: 0.5em 1em;
   margin: 1em 0;
 }
+
+.timeline {
+  list-style: none;
+  padding: 0;
+  margin: 2em 0;
+}
+
+.timeline li {
+  position: relative;
+  margin-bottom: 1.5em;
+  padding-left: 1.5em;
+  border-left: 3px solid #2a7ae2; /* Cayman's accent color */
+}
+
+.timeline li::before {
+  content: "📍";
+  position: absolute;
+  left: -0.8em;
+  top: 0;
+  font-size: 1.2em;
+}
+
+.timeline li strong {
+  color: #2a7ae2;
+  font-weight: 600;
+}

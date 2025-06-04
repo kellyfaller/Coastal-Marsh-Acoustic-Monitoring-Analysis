@@ -1,0 +1,29 @@
+---
+---
+
+@import "{{ site.theme }}"; // import default Cayman styles
+
+body {
+  font-family: "Arial", sans-serif;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #2a7ae2; /* Cayman's accent color */
+}
+
+a {
+  color: #2a7ae2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+blockquote {
+  border-left: 4px solid #f39c12;
+  background: #fdf5e6;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+}

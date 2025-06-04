@@ -3,6 +3,26 @@
 
 @import "{{ site.theme }}"; // import default Cayman styles
 
+.page-header {
+  background: url("/assets/img/GitHub_Pages_Banner.png") no-repeat center center;
+  background-size: cover;
+  color: #ffffff; /* white text for better contrast */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); /* subtle shadow for readability */
+}
+
+.page-header h1, .page-header h2 {
+  color: #ffffff;
+}
+
+.page-header a.btn {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+.page-header a.btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
 body {
   font-family: "Arial", sans-serif;
   color: #333;

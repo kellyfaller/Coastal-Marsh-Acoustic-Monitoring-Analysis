@@ -1,0 +1,215 @@
+---
+title: 'Junk Code: Acoustics'
+author: "Kelly Faller"
+date: "2024-10-28"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Kernal Densities and Activity Overlap
+
+My idea behind this is to give more information about when certain species are calling
+relative to other species. Shows a bit of the overlap, or lackthereof, in bird activity temporally. 
+Additionally, adding in anthrophony and anuran activity because I see a relationship between
+anthropogenic disturbance and anuran/arthropod activity. It seems like most of the anthro
+disturbance is happening in the evening, which is when nocturnal animals, anurans, and arthropods
+are most active. 
+
+*For more on Kernal Densities, [here is a link to wiki](https://en.wikipedia.org/wiki/Kernel_density_estimation)*
+
+```{r Kernal, echo=FALSE,include= FALSE, fig.height=10, fig.width=15}
+
+activityOverlap(species_data, "Seaside Sparrow", "Clapper Rail", speciesCol = "Common_Name",
+  recordDateTimeCol = "DateTime", recordDateTimeFormat = "ymd HMS", plotR = TRUE,
+  writePNG = FALSE, addLegend = TRUE, legendPosition = "topleft", plotDirectory,
+  createDir = FALSE, pngMaxPix = 1000, add.rug = TRUE, overlapEstimator = c("Dhat1", "Dhat4", "Dhat5"))
+
+activityOverlap(species_data, "Eastern Whip-poor-will", "Tree Swallow", speciesCol = "Common_Name",
+  recordDateTimeCol = "DateTime", recordDateTimeFormat = "ymd HMS", plotR = TRUE,
+  writePNG = FALSE, addLegend = TRUE, legendPosition = "topleft", plotDirectory,
+  createDir = FALSE, pngMaxPix = 1000, add.rug = TRUE, overlapEstimator = c("Dhat1", "Dhat4", "Dhat5"))
+
+activityOverlap(species_data,"Fireworks","Engine",speciesCol = "Common_Name",
+  recordDateTimeCol = "DateTime", recordDateTimeFormat = "ymd HMS", plotR = TRUE,
+  writePNG = FALSE, addLegend = TRUE, legendPosition = "topleft", plotDirectory,
+  createDir = FALSE, pngMaxPix = 1000, add.rug = TRUE, overlapEstimator = c("Dhat1", "Dhat4", "Dhat5"))
+
+activityOverlap(species_data, "Anthrophony", "Anuran",speciesCol = "Guild",
+  recordDateTimeCol = "DateTime", recordDateTimeFormat = "ymd HMS", plotR = TRUE,
+  writePNG = FALSE, addLegend = TRUE, legendPosition = "topleft",plotDirectory,
+  createDir = FALSE,pngMaxPix = 1000, add.rug = TRUE, overlapEstimator = c("Dhat1", "Dhat4", "Dhat5"))
+
+```
+
+## Radial Plots and Histograms
+
+Graphics to show activty patterns of different species of interest. Can get
+one for each species if you write code "allSpecies = TRUE", but we have too many.
+
+```{r Radial, echo=TRUE,fig.height=10, fig.width=15}
+
+activityRadial(species_data, "Seaside Sparrow", allSpecies = FALSE,
+  speciesCol = "Common_Name", recordDateTimeCol = "DateTime",
+  recordDateTimeFormat = "ymd HMS", byNumber = FALSE, plotR = TRUE,
+  writePNG = FALSE, plotDirectory, createDir = FALSE, pngMaxPix = 1000, grid.col="gray", 
+  lwd = 1.75, rad.col="transparent")
+
+activityHistogram(species_data, "Seaside Sparrow", allSpecies = FALSE,
+  speciesCol = "Common_Name", recordDateTimeCol = "DateTime",
+  recordDateTimeFormat = "ymd HMS", plotR = TRUE,writePNG = FALSE,
+  plotDirectory, createDir = FALSE, pngMaxPix = 1000)
+
+activityHistogram(species_data, "Clapper Rail", allSpecies = FALSE,
+  speciesCol = "Common_Name", recordDateTimeCol = "DateTime",
+  recordDateTimeFormat = "ymd HMS", plotR = TRUE,writePNG = FALSE,
+  plotDirectory, createDir = FALSE, pngMaxPix = 1000)
+
+activityHistogram(species_data, "Bald Eagle", allSpecies = FALSE,
+  speciesCol = "Common_Name", recordDateTimeCol = "DateTime",
+  recordDateTimeFormat = "ymd HMS", plotR = TRUE,writePNG = FALSE,
+  plotDirectory, createDir = FALSE, pngMaxPix = 1000)
+
+#nelson's sparrow needs to be referred to by species name because of a weird bug in the birdnet code
+activityHistogram(species_data, "Ammospiza nelsoni", allSpecies = FALSE,
+  speciesCol = "Scientific_Name", recordDateTimeCol = "DateTime",
+  recordDateTimeFormat = "ymd HMS", plotR = TRUE,writePNG = FALSE,
+  plotDirectory, createDir = FALSE, pngMaxPix = 1000)
+
+activityHistogram(species_data, "Greater Yellowlegs", allSpecies = FALSE,
+  speciesCol = "Common_Name", recordDateTimeCol = "DateTime",
+  recordDateTimeFormat = "ymd HMS", plotR = TRUE,writePNG = FALSE,
+  plotDirectory, createDir = FALSE, pngMaxPix = 1000)
+
+activityHistogram(species_data, "Marsh Wren", allSpecies = FALSE,
+  speciesCol = "Common_Name", recordDateTimeCol = "DateTime",
+  recordDateTimeFormat = "ymd HMS", plotR = TRUE,writePNG = FALSE,
+  plotDirectory, createDir = FALSE, pngMaxPix = 1000)
+
+activityHistogram(species_data, "Great Horned Owl", allSpecies = FALSE,
+  speciesCol = "Common_Name", recordDateTimeCol = "DateTime",
+  recordDateTimeFormat = "ymd HMS", plotR = TRUE,writePNG = FALSE,
+  plotDirectory, createDir = FALSE, pngMaxPix = 1000)
+
+activityHistogram(species_data, "Osprey", allSpecies = FALSE,
+  speciesCol = "Common_Name", recordDateTimeCol = "DateTime",
+  recordDateTimeFormat = "ymd HMS", plotR = TRUE,writePNG = FALSE,
+  plotDirectory, createDir = FALSE, pngMaxPix = 1000)
+
+activityHistogram(species_data, "Anthrophony", allSpecies = FALSE,
+  speciesCol = "Guild", recordDateTimeCol = "DateTime",
+  recordDateTimeFormat = "ymd HMS", plotR = TRUE,writePNG = FALSE,
+  plotDirectory, createDir = FALSE, pngMaxPix = 1000)
+
+activityHistogram(species_data, "Mammal", allSpecies = FALSE,
+  speciesCol = "Guild", recordDateTimeCol = "DateTime",
+  recordDateTimeFormat = "ymd HMS", plotR = TRUE,writePNG = FALSE,
+  plotDirectory, createDir = FALSE, pngMaxPix = 1000)
+
+activityHistogram(species_data, "Anuran", allSpecies = FALSE,
+  speciesCol = "Guild", recordDateTimeCol = "DateTime",
+  recordDateTimeFormat = "ymd HMS", plotR = TRUE,writePNG = FALSE,
+  plotDirectory, createDir = FALSE, pngMaxPix = 1000)
+
+```
+
+# Detection Probabilities 
+Keeping this chunk here for future use with [unmarked package](https://cran.r-project.org/web/packages/unmarked/index.html).
+Would love to tackle some occupancy modeling and species detection probabilities in future work.
+May be important for understanding how passive acoustic monitoring is limited by the detection 
+from the devices. Could be further explored by conducting point counts and comparing species
+detections from the two methods.
+
+```{r Detection Prob, echo=TRUE,fig.height=10, fig.width=15}
+
+```
+
+
+# Word Cloud
+
+Just for fun and for presentations. The larger the font, the more common the bird is in the data. 
+Made in both scientific name and common name forms. Could be filtered by station if I want a 
+station-specific word cloud for any reason. Not sure why there is so much empty white space.
+
+Will animate in future.
+
+``` {r Word Cloud, echo=TRUE,fig.height=12, fig.width=15}
+
+library(ggwordcloud)
+library(gganimate) 
+
+species_breakdown2 <- species_breakdown %>%
+   left_join(dplyr::select(species_list, c(Scientific_Name, Common_Name)), by = 'Scientific_Name')
+
+#wc_scientific <-
+  ggplot(species_breakdown2, aes(label = Scientific_Name, size = Count, color = Scientific_Name)) +
+  geom_text_wordcloud() +
+  scale_size_area(max_size = 25) +
+  theme_minimal()#+
+  #transition_time(year) +
+  #labs(title = 'Day: {frame_time}')
+
+# wc_common <-
+  ggplot(species_breakdown2, aes(label = Common_Name, size = Count, color = Scientific_Name)) +
+  geom_text_wordcloud() +
+  scale_size_area(max_size = 25) +
+  theme_minimal()#+
+  #transition_time(year) +
+  #labs(title = 'Day: {frame_time}')
+
+#animate(wc_scientific, end_pause=30)
+#anim_save("wc_scientific.gif")
+
+#animate(wc_common, end_pause=30)
+#anim_save("wc_common.gif")
+```
+
+``` {r beep, echo=FALSE}
+
+beep(0)
+
+```
+# **Example Audio File**
+
+Below is a representative audio file for the project. The acoustic recording units (ARUs) are set to record 2 hours before sunrise and 2 hours after sunset. They are on for 30 min then off for 30 min. They record in 2 minute chunks. To keep the html size within sharing limits, I've snipped the 2 min recording to a 30 second chunk.
+
+The audio file below is a dusk chorus including a Nelson's Sparrow. The audio was recorded on 05/03/2023 at 20:10. 
+
+```{r Audio, echo= FALSE}
+library(embedr) #no longer working
+embed_audio(
+  src = "C:/Users/kfaller/Documents/GitHub/Acoustics/Audio/SMM02_20230503_201002_2.wav",
+  type = "wav", attribute = "controls")
+
+```
+
+This is the spectrogram associated with the file. The x axis represents time and the y axis represents frequency. Reading it from left to right, you can see the calls of the birds in the audio file. 
+
+```{r echo=FALSE, out.width = "100%", fig.align = "center"}
+knitr::include_graphics("C:/Users/kfaller/Documents/GitHub/Acoustics/Images/SMM02_20230503_201002_2.png")
+```
+
+
+# **Survey Report**
+Needs to be adjusted in the future with true retrieval dates. Also must be adjusted for nights when the ARU was dead (aka needs to reflect true deployment scenarios). For now, is a fun tool to use to quickly count detector "trap" nights. Comes from a package that works with camera traps, so the language is specific to camera trapping, but being that they are both passive monitoring methods, this package is easily used for acoustic monitors.
+
+```{r Report, echo=FALSE}
+
+ARUop_noproblem <- cameraOperation(CTtable      = as.data.frame(aru_locations),
+                                    stationCol   = "Station",
+                                    setupCol     = "Setup_Date",
+                                    retrievalCol = "Retrieval_Date",
+                                    writecsv     = FALSE,
+                                    hasProblems  = FALSE,
+                                    dateFormat   = "ymd")
+
+surveyReport(
+  recordTable = species_data, CTtable = as.data.frame(aru_locations),
+  camOp = ARUop_noproblem, speciesCol = "Scientific_Name",
+  stationCol = "Station", setupCol     = "Setup_Date",
+  retrievalCol = "Retrieval_Date", CTDateFormat = "ymd",
+  recordDateTimeCol = "DateTime", recordDateTimeFormat = "ymd HMS",
+  Xcol = "long_x", Ycol= "lat_y",makezip = FALSE)
+```
+

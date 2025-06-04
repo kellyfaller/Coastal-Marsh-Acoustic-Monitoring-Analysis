@@ -1,0 +1,73 @@
+---
+title: "Arbimon Data Prep Script"
+author: "Kelly Faller"
+date: "2024-10-11"
+output: html_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load Packages
+
+```{r, warning=FALSE, include=FALSE}
+
+library(tidyverse)
+library(lubridate)
+library(bit64)
+library(magrittr)
+
+```
+
+## Create one CSV
+
+When dowloading the backup off of Arbimon, if you have a large number of recordings, there will be several CSV files that have a record of those recordings. This chunk will takethe folder full of those CSV files and creating one large CSV.
+
+Changing the working directory back to my personal wd that connects with GitHub
+
+```{r CSV Binding, include=FALSE}
+
+setwd('C:/Users/kfaller/Documents/GitHub/Acoustics/Arbimon Data/Recording Files')
+
+# bind all CSV files
+df<-list.files(path='C:/Users/kfaller/Documents/GitHub/Acoustics/Arbimon Data/Recording Files')%>% 
+    lapply(read_csv) %>% 
+    bind_rows 
+
+# Load the metadata dataset (this should be an output of Arbimon backup. Double check that the name of the CSV is the one that it created for you)
+metadata <- read.csv("C:/Users/kfaller/Documents/GitHub/Acoustics/Arbimon Data/sites.0001.csv")
+
+# merge the metadata into the recording CSV so that you have the site name, not just site number (which is arbitrarily made up by Arbimon)
+
+recording_data<- merge(df, metadata, by = "site_id")
+
+```
+
+## Lubridate
+
+Working with datetime and creating a new column for Julian day. With Julian day, we can track the time each ARU was recording and create recording schedule graphics.
+
+```{r CSV Binding, include=FALSE}
+
+# Convert the datetime column to POSIXct format (adjust the format to match your data)
+recording_data$datetime <- as.POSIXct(recording_data$datetime, format = "%m/%d/%Y %H:%M:%S")
+
+# Add a new column with Julian day using lubridate's yday() function so we can make recording schedule graphics
+recording_data$Julian_Day <- yday(recording_data$datetime)
+
+# Add a new column with the year using lubridate's year() function so that we can filter by year
+recording_data$Year <- year(recording_data$datetime)
+
+```
+
+## Final Output
+
+Creating a final CSV :)
+
+```{r Final, include=FALSE}
+
+write.csv(recording_data,"C:/Users/kfaller/Documents/GitHub/Acoustics/Recording_Metadata.csv", row.names = FALSE)
+
+```

@@ -1,0 +1,128 @@
+---
+title: "BirdNET Outputs Data Prep"
+author: "Kelly Faller"
+date: '2023-06-08'
+output: html_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load Packages
+
+
+```{r, warning=FALSE, include=FALSE}
+
+library(tidyverse)
+library(lubridate)
+library(bit64)
+library(magrittr)
+library(plyr)
+library(readr)
+library(data.table)
+library(chron)
+
+```
+
+## Create one CSV
+
+Taking the folder full of individual CSV files for each output file (in BirdNET, there is one for every recording) and creating one master CSV
+
+Changing the working directory back to my personal wd that connects with GitHub
+
+Working directory set up - location where the CSV's will be held. This will change every time you run the script. Currently it is referencing my working ARU external
+harddrive. I have it broken down by station, deployment, and day
+
+```{r CSV Binding, include=FALSE}
+
+setwd('D:/Acoustic Data/GAR_01/Deployment 1; BirdNET Output/5-1-23')
+
+# read file path
+all_paths <-
+  list.files(path = "D:/Acoustic Data/GAR_01/Deployment 1; BirdNET Output/5-1-23",
+             pattern = "*.csv",
+             full.names = TRUE)
+
+# read file content
+all_content <-
+  all_paths %>%
+  lapply(read.table,
+         header = TRUE,
+         sep = ",",
+         encoding = "UTF-8")
+
+# read file name
+all_filenames <- all_paths %>%
+  basename() %>%
+  as.list()
+
+# combine file content list and file name list
+all_lists <- mapply(c, all_content, all_filenames, SIMPLIFY = FALSE)
+
+# unlist all lists and change column name
+all_result <- rbindlist(all_lists, fill = T)
+
+# change column name
+names(all_result)[1] <- "Start_s"
+names(all_result)[2] <- "End_s"
+names(all_result)[3] <- "Scientific_Name"
+names(all_result)[4] <- "Common_Name"
+names(all_result)[5] <- "Confidence"
+names(all_result)[6] <- "File_Name"
+
+species_data <- all_result  %>% separate(File_Name, c("Detector_ID", "Date", "Time_Extra"), sep = "_") %>% 
+                                mutate(Time = substr(Time_Extra, 1, 6)) %>%
+                                select(- Time_Extra) 
+
+species_data$Time <-  times(gsub("(..)(..)(..)", "\\1:\\2:\\3", species_data$Time))
+species_data$Date <-  ymd(species_data$Date)
+species_data$DateTime <- as.POSIXct(as.character(paste(species_data$Date, species_data$Time)), format="%Y-%m-%d %H:%M:%S")
+#species_data2 <- mutate(Vocalization_Time=Time+seconds(Start_s))
+
+write.csv(species_data,"D:/BirdNET Output Combined CSVs/GAR_01_5-01-23.csv", row.names = FALSE)  
+
+```
+
+## Create final CSV
+
+Combining the CSVs created from above chunk and create a final working CSV for graphics
+Must add in Site, Statiom, and Deployment first in each CSV before running this.
+
+```{r CSV Binding, include=FALSE}
+
+setwd('C:/Users/kfaller/Documents/GitHub/Acoustics/Species Identification Files')
+
+# read file path
+all_paths <-
+  list.files(path = "C:/Users/kfaller/Documents/GitHub/Acoustics/Species Identification Files",
+             pattern = "*.csv",
+             full.names = TRUE)
+
+# read file content
+all_content <-
+  all_paths %>%
+  lapply(read.table,
+         header = TRUE,
+         sep = ",",
+         encoding = "UTF-8")
+
+# read file name
+all_filenames <- all_paths %>%
+  basename() %>%
+  as.list()
+
+# combine file content list and file name list
+all_lists <- mapply(c, all_content, all_filenames, SIMPLIFY = FALSE)
+
+# unlist all lists and change column name
+all_result <- rbindlist(all_lists, fill = T)
+# change column name
+names(all_result)[13] <- "File_Name"
+
+write.csv(all_result,"C:/Users/kfaller/Documents/GitHub/Acoustics/Species Id Data.csv", row.names = FALSE)  
+
+```
+
+

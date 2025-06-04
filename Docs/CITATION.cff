@@ -1,0 +1,24 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Coastal Marsh Acoustic Monitoring Analysis
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Kelly
+    family-names: Faller
+    email: kellynfaller@gmail.com
+    name-particle: Kelly
+    affiliation: Rutgers University
+    orcid: 'https://orcid.org/0000-0001-7607-010X'
+repository-code: >-
+  https://github.com/kellyfaller/Coastal-Marsh-Acoustic-Monitoring-Analysis
+keywords:
+  - bioacoustics
+  - marsh monitoring
+license: MIT
+version: '1.0'
+date-released: '2025-06-02'

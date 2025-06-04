@@ -1,0 +1,73 @@
+---
+title: "Data Prep Script"
+author: "Kelly Faller"
+date: '2023-05-20'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load Packages
+
+
+```{r, warning=FALSE, include=FALSE}
+
+library(tidyverse)
+library(lubridate)
+library(bit64)
+library(magrittr)
+
+
+```
+## Create one CSV
+
+Taking the folder full of individual CSV files for each logger and creating one master CSV
+
+Changing the working directory back to my personal wd that connects with GitHub
+
+```{r CSV Binding, include=FALSE}
+
+setwd('C:/Users/kfaller/Documents/GitHub/Acoustics/Acoustic Index Files')
+
+df<-list.files(path='C:/Users/kfaller/Documents/GitHub/Acoustics/Acoustic Index Files')%>% 
+    lapply(read_csv) %>% 
+    bind_rows 
+
+setwd('C:/Users/kfaller/Documents/GitHub/Acoustics')
+
+write.csv(df,"ARU_Data_Indicies.csv", row.names = FALSE)  
+
+aru_data1<- read.csv("ARU_Data_Indicies.csv", header=TRUE, sep = ",", stringsAsFactors=FALSE)
+
+```
+
+## Lubridate
+
+Work with dates, times, datetimes.The column title "TIME" is the minute and second.
+The column title "Hour" is ...hour. I want this in a format that reads as one time. 
+
+
+```{r Lubridate, echo=FALSE}
+
+aru_data2 <- aru_data1 %>% 
+    rename(MINUTESECOND = TIME)%>% 
+    unite(TIME, HOUR, MINUTESECOND, sep = ":") 
+
+aru_data3 <- aru_data2 %>%
+   dplyr::mutate(TIME2 = substr(TIME, 1, nchar(TIME)-3))%>% 
+   unite(DATETIME, DATE, TIME2, sep = " ") 
+
+aru_data3$DATETIME <- mdy_hms(aru_data3$DATETIME)
+
+aru_data4 <- aru_data3 %>%  mutate(DATE = as.Date(DATETIME)) %>%
+         mutate(DATE = format(DATE, "%m/%d/%Y"))
+
+aru_data4$DATE <- mdy(aru_data4$DATE)
+
+write.csv(aru_data4,"ARU_Data_Indicies.csv", row.names = FALSE)     
+
+```
+
+

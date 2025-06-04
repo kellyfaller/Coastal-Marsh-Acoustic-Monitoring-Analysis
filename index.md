@@ -12,12 +12,20 @@ Welcome to my research landing page! This site highlights ongoing work to unders
 - Visuals and updates on this important work
 
 ---
+## 📚 Table of Contents
 
-> **IMPORTANT:** These data and scripts are **preliminary** and subject to updates. BirdNET-based analyses require **manual verification**, especially for rare species detections.
-
+- [Project Overview](#project-overview)
+- [Project Collaboration](#project-collaboration)
+- [Project Timeline](#project-timeline)
+- [Explore the Marsh](#explore-the-marsh)
+- [Explore the Results](#explore-the-results)
+- [Explore the Results](#explore-the-results)
+- [Why Open Source?](#why-open-source)
+- [Citation](#citation)
+- [Contact](#contact)
 ---
 
-## Purpose
+## Project Overview
 
 The primary goal of this project is to:
 
@@ -36,17 +44,18 @@ This project was a **collaboration between the USFWS Coastal Program and Rutgers
 
 ---
 
-## 📁 Repository Overview
+## Project Timeline
 
-The repository that supports this project includes:
+<ul class="timeline">
+  <li><strong>2024</strong>: Initial deployments at Cattus Island and the Lighthouse Center. Recordings from late June to late September. Proof-of-concept year with collaboration building.</li>
+  <li><strong>2025</strong>: Expanded monitoring. Acoustic recorders deployed early June to capture 1.5 months of the breeding season, as defined by the <a href="https://www.tidalmarshbirds.org/index.php/publicly-availablr-products/products/vegatation-sampling-protocols/marsh-survey-protocols/221-sharp-callbacksurvey-protocol-2025/file">SHARP protocols</a>.</li>
+  <li><strong>2026</strong>: Continued monitoring and data analysis. Restoration activities scheduled for early 2026; preliminary findings to be shared later in the year.</li>
+  <li><strong>2027</strong>: Continued data analysis and sharing results. Thesis defense and reporting alongside ongoing monitoring.</li>
+  <li><strong>2028 and beyond</strong>: Ongoing post-restoration monitoring for success metrics.</li>
+</ul>
+---
 
-- **Main Analysis**: Scripts in `02-Acoustics-Analysis.Rmd`  
-- **BirdNET Appendix**: Scripts in `03-BirdNET-Analysis.Rmd`  
-- **Data Inputs**: CSV and shapefiles (not included in the repository but referenced in scripts).
-- **Outputs**: Summary tables and plots exploring daily acoustic complexity, biodiversity, anthropogenic disturbance, and species presence.
-
-👉 **See the full project repository:**  
-[GitHub Repository](https://github.com/kellyfaller/Coastal-Marsh-Acoustic-Monitoring-Analysis)
+## Explore the Marsh
 
 ---
 

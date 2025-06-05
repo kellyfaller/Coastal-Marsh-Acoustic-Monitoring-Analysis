@@ -3,25 +3,7 @@
 
 @import "{{ site.theme }}"; // import default Cayman styles
 
-.page-header {
-  background: url("/Coastal-Marsh-Acoustic-Monitoring-Analysis/assets/img/banner.jpg") no-repeat center center;
-  background-size: cover;
-  height: 400px;
-}
 
-.page-header h1,
-.page-header h2 {
-  display: none;
-}
-
-.page-header a.btn {
-  border: 2px solid #ffffff;
-  color: #ffffff;
-}
-
-.page-header a.btn:hover {
-  background: rgba(255, 255, 255, 0.1);
-}
 
 body {
   font-family: "Arial", sans-serif;

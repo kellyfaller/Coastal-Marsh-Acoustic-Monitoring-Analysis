@@ -1,0 +1,35 @@
+title: Coastal Marsh Acoustic Monitoring
+description: Research landing page for tracking acoustic monitoring efforts in coastal marshes along the Delaware and Barnegat Bays.
+url: "https://kellyfaller.github.io" # your GitHub username site
+baseurl: "/Coastal-Marsh-Acoustic-Monitoring-Analysis" # repo name for project site
+
+# Theme
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-include-cache
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: single
+      author_profile: true
+
+# Author settings
+author:
+  name: "Kelly Faller"
+  avatar: "/assets/img/profile.jpg" # optional
+  bio: "Graduate Student, Rutgers University"
+  location: "NJ, USA"
+  email: "kellynfaller@gmail.com"
+
+# Google Analytics, Disqus (optional)
+google_analytics: ""
+comments: false

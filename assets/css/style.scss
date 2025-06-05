@@ -3,6 +3,26 @@
 
 @import "{{ site.theme }}"; // import default Cayman styles
 
+.page-header {
+  background: url("/assets/img/banner.jpg") no-repeat center center;
+  background-size: cover;
+  color: #ffffff; /* white text for better contrast */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); /* subtle shadow for readability */
+}
+
+.page-header h1, .page-header h2 {
+  color: #ffffff;
+}
+
+.page-header a.btn {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+.page-header a.btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
 body {
   font-family: "Arial", sans-serif;
   color: #333;
@@ -26,4 +46,30 @@ blockquote {
   background: #fdf5e6;
   padding: 0.5em 1em;
   margin: 1em 0;
+}
+
+.timeline {
+  list-style: none;
+  padding: 0;
+  margin: 2em 0;
+}
+
+.timeline li {
+  position: relative;
+  margin-bottom: 1.5em;
+  padding-left: 1.5em;
+  border-left: 3px solid #2a7ae2; /* Cayman's accent color */
+}
+
+.timeline li::before {
+  content: "📍";
+  position: absolute;
+  left: -0.8em;
+  top: 0;
+  font-size: 1.2em;
+}
+
+.timeline li strong {
+  color: #2a7ae2;
+  font-weight: 600;
 }

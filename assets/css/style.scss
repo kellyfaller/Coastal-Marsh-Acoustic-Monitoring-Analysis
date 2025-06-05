@@ -6,16 +6,12 @@
 .page-header {
   background: url("/Coastal-Marsh-Acoustic-Monitoring-Analysis/assets/img/banner.jpg") no-repeat center center;
   background-size: cover;
-  color: #ffffff; /* white text for better contrast */
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); /* subtle shadow for readability */
+  height: 400px;
 }
 
-.page-header h1 {
-  color: #ffffff;
-}
-
+.page-header h1,
 .page-header h2 {
-  display: none; /* Hide subtitle in header */
+  display: none;
 }
 
 .page-header a.btn {

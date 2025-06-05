@@ -8,10 +8,10 @@ header:
 excerpt: "Tracking acoustic monitoring efforts in coastal marshes along the Delaware and Barnegat Bays."
 ---
 
-Welcome to my research landing page! This site highlights ongoing work to understand how birds respond to changes in marsh habitat at two sites in the Barnegat Bay, **Cattus Island and the Lighthouse Center for Natural Resource Education**. On this page, you’ll find information about:
+Welcome to my research landing page! This site highlights ongoing work to understand how birds respond to restoration in marsh habitat at two sites in the Barnegat Bay, **Cattus Island and the Lighthouse Center for Natural Resource Education**. On this page, you’ll find information about:
 
 - Project goals and methods
-- Visuals and updates on this important work
+- Visuals and project updates
 - Contact information for collaboration
 
 Please visit my [GitHub repository](https://github.com/kellyfaller/Coastal-Marsh-Acoustic-Monitoring-Analysis) for open-sourced code and tools to aid in your own research in bioacoustics.

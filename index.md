@@ -4,6 +4,7 @@ title: Coastal Marsh Acoustic Monitoring
 ---
 
 # Coastal Marsh Acoustic Monitoring
+### Research landing page for tracking acoustic monitoring efforts in coastal marshes along the Delaware and Barnegat Bays.
 
 Welcome to my research landing page! This site highlights ongoing work to understand how birds respond to changes in marsh habitat, especially in the **Delaware and Barnegat Bays**. Here you’ll find:
 

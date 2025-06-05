@@ -2,6 +2,7 @@
 layout: default
 title: Coastal Marsh Acoustic Monitoring
 ---
+![Screenshot 2025-06-04 220340](https://github.com/user-attachments/assets/43400e2c-1956-43a4-a6e1-c1c2fca19384)
 
 # Coastal Marsh Acoustic Monitoring
 ### Research landing page for tracking acoustic monitoring efforts in coastal marshes along the Delaware and Barnegat Bays.

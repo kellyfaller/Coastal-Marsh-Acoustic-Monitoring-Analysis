@@ -1,0 +1,11 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Project Overview"
+    url: /#project-overview
+  - title: "Timeline"
+    url: /#project-timeline
+  - title: "Results"
+    url: /#explore-the-results
+  - title: "Contact"
+    url: /#contact

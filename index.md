@@ -24,6 +24,7 @@ Please visit my [GitHub repository](https://github.com/kellyfaller/Coastal-Marsh
 - [Project Overview](#project-overview)
 - [Project Collaboration](#project-collaboration)
 - [Project Timeline](#project-timeline)
+- [Field Photos](#field-photos)
 - [Explore the Marsh](#explore-the-marsh)
 - [Explore the Results](#explore-the-results)
 - [Why Open Source?](#why-open-source)

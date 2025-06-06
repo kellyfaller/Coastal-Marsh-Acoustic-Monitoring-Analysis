@@ -67,16 +67,16 @@ This project was a **collaboration between the USFWS Coastal Program and Rutgers
 
 Here’s a snapshot of our fieldwork:
 
-![Deploying acoustic recorder](/Coastal-Marsh-Acoustic-Monitoring-Analysis/field-photos/cattus_area_4_deploying.jpg)
+![cattus_area_4_deploying](https://github.com/user-attachments/assets/86df0eb6-673c-41a9-bfed-7b3acd77629a)
 *Setting up an acoustic recorder in Area 4 at Cattus Island.*
 
-![Cattus Island Marsh (Area 4)](/Coastal-Marsh-Acoustic-Monitoring-Analysis/field-photos/Cattus_Area_4.jpg)
-*A view of the marsh habitat in Area 4, showing typical vegetation and water levels.*
+![Cattus_Area_4](https://github.com/user-attachments/assets/b1992b8e-54f1-400d-954f-adbe2d036bbe)
+*A view of the marsh habitat in Area 4 in Cattus Island, showing marsh ditches and ponding in some serious need of sediment to raise the elevation.*
 
-![USFWS Coastal Program Biologist hard at work](/Coastal-Marsh-Acoustic-Monitoring-Analysis/field-photos/dani_cat_area_1.jpg)
+![dani_cat_area_1](https://github.com/user-attachments/assets/671718ae-0543-462a-9f9b-70ede2b11746)
 *Danielle McCulloch (USFWS) deploying acoustic equipment in Area 1 of Cattus Island.*
 
-![Cornell SwiftOne Detector](/Coastal-Marsh-Acoustic-Monitoring-Analysis/field-photos/detector.jpg)
+![detector](https://github.com/user-attachments/assets/e064cbfd-c55c-4438-8b9c-0551cd1f13dc)
 *A close-up of the Cornell SwiftOne acoustic detector used in the marsh study.*
 
 ---

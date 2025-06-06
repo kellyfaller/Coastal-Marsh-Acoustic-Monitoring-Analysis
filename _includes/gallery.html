@@ -18,38 +18,14 @@
 
 <figure class="{{ gallery_layout }} {{ include.class }}">
   {% for img in gallery %}
-    {% if img.url %}
-      <a href="{{ img.url | relative_url }}"
-        {% if img.title %}title="{{ img.title }}"{% endif %}>
-          <img src="{{ img.image_path | relative_url }}"
-               alt="{% if img.alt %}{{ img.alt }}{% endif %}">
-      </a>
-    {% else %}
+    <a href="{{ img.url | relative_url }}" title="{{ img.title }}">
       <img src="{{ img.image_path | relative_url }}"
-           alt="{% if img.alt %}{{ img.alt }}{% endif %}">
-    {% endif %}
+           alt="{{ img.alt }}"
+           style="display: inline-block; max-width: 100%; height: auto; margin-bottom: 1em;">
+    </a>
   {% endfor %}
   {% if include.caption %}
-    <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
+    <figcaption style="text-align: center; font-style: italic;">{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
   {% endif %}
 </figure>
 
-<figure class="{{ gallery_layout }} {{ include.class }}">
-  {% for img in gallery %}
-    {% if img.url %}
-      <a href="{{ img.url | relative_url }}"
-         {% if img.title %}title="{{ img.title }}"{% endif %}>
-        <img src="{{ img.image_path | relative_url }}"
-             alt="{{ img.alt | escape }}"
-             style="display:inline-block; max-width:100%; margin-bottom:1em;">
-      </a>
-    {% else %}
-      <img src="{{ img.image_path | relative_url }}"
-           alt="{{ img.alt | escape }}"
-           style="display:inline-block; max-width:100%; margin-bottom:1em;">
-    {% endif %}
-  {% endfor %}
-  {% if include.caption %}
-    <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
-  {% endif %}
-</figure>

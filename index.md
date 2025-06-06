@@ -9,13 +9,16 @@ excerpt: "Tracking acoustic monitoring efforts in coastal marshes along the Dela
 ---
 ![banner](https://github.com/user-attachments/assets/57cf5a0d-2a7e-42cc-8f21-9cba5df74dae)
 
-Welcome to my research landing page! This site highlights ongoing work to understand how birds respond to restoration in marsh habitat at two sites in the Barnegat Bay, **Cattus Island and the Lighthouse Center for Natural Resource Education**. On this page, you’ll find information about:
+Welcome to my research landing page! This site highlights ongoing work to understand how birds respond to marsh restoration at two sites in the Barnegat Bay, NJ, **Cattus Island and the Lighthouse Center for Natural Resource Education**. The primary way this project will be collecting data on birds is through *soundscape ecology*, or the study of acoustic relationships between living organisms and their environment. This work is the focus of Kelly Faller's Master's project at Rutgers University. 
+
+On this page, you’ll find information about:
 
 - Project goals and methods
-- Visuals and project updates
+- Audio and pictures of the study sites
+- Data visuals and project updates
 - Contact information for collaboration
 
-Please visit my [GitHub repository](https://github.com/kellyfaller/Coastal-Marsh-Acoustic-Monitoring-Analysis) for open-sourced code and tools to aid in your own research in bioacoustics.
+Please visit my [GitHub repository](https://github.com/kellyfaller/Coastal-Marsh-Acoustic-Monitoring-Analysis) for open-sourced code and tools to aid in your own research in soundscape ecology.
 
 ---
 
@@ -36,14 +39,14 @@ Please visit my [GitHub repository](https://github.com/kellyfaller/Coastal-Marsh
 The primary goal of this project is to:
 - Evaluate how marsh restoration influences the acoustic environment.
 - Provide a reproducible framework for analyzing **passive acoustic monitoring (PAM)** data in tidal wetland habitats.
-- Make this analysis pipeline **open source** and adaptable for other bioacousticians and conservation scientists.
+- Make this analysis pipeline **open source** and adaptable for other acoustic ecologists, restoration practitioners, land managers, and conservation scientists.
 
 ---
 
 ## Project Collaboration
-This project was a **collaboration between the USFWS Coastal Program and Rutgers University**, with invaluable support from Danielle McCulloch (USFWS).
+This project is a **collaboration between the USFWS Coastal Program and Rutgers University**, with invaluable support from Danielle McCulloch, USFWS Coastal Program Biologist.
 
-- **Rutgers University involvement**: Led by **Kelly Faller** as part of her **Master’s thesis**. Kelly conducted the data management, analysis, and report generation.
+- **Rutgers University involvement** was led by **Kelly Faller** as part of her **Master’s thesis**. Kelly conducted the data management, analysis, and report generation.
 - The **USFWS Coastal Program** provided equipment, field time, project management, and other crucial support.
   
 ![Logo-Rutgers-University](https://github.com/user-attachments/assets/1aebd824-cd45-4858-8b44-491ba4f2e531)
@@ -107,7 +110,9 @@ How many species were you able to identify?
 ## Explore the Results
 The data used in these analyses were **downloaded using the backup feature on the Arbimon platform**, and all species presence data was derived from extensive pattern matching analyses in Arbimon.
 
-👉 [Arbimon Project Page](https://arbimon.org/p/glades-restoration-soundscape-project/overview)
+👉 [Arbimon Project Page](https://arbimon.org/p/salt-marsh-restoration-soundscape-project/overview)
+
+To learn more about a similar project focused on low-cost and low-tech restoration techniques in marshes within the Delaware Bay, check out this [Arbimon Project Page](https://arbimon.org/p/glades-restoration-soundscape-project/overview)
 
 ---
 

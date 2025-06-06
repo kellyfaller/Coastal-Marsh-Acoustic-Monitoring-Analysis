@@ -24,6 +24,7 @@ Please visit my [GitHub repository](https://github.com/kellyfaller/Coastal-Marsh
 
 ## 📚 Table of Contents
 - [Project Overview](#project-overview)
+- [Methods](#methodology)
 - [Project Collaboration](#project-collaboration)
 - [Project Timeline](#project-timeline)
 - [Field Photos](#field-photos)
@@ -41,6 +42,11 @@ The primary goal of this project is to:
 - Provide a reproducible framework for analyzing **passive acoustic monitoring (PAM)** data in tidal wetland habitats.
 - Make this analysis pipeline **open source** and adaptable for other acoustic ecologists, restoration practitioners, land managers, and conservation scientists.
 
+---
+
+## Methodology
+
+<!-- Add methods here and links to the documentation -->
 ---
 
 ## Project Collaboration

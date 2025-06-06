@@ -25,7 +25,7 @@ defaults:
 # Author settings
 author:
   name: "Kelly Faller"
-  avatar: "/assets/css/img/author.jpg" 
+  avatar: "/Coastal-Marsh-Acoustic-Monitoring-Analysis/assets/css/img/author.jpg" 
   bio: "Graduate Student, Rutgers University"
   location: "NJ, USA"
   email: "kellynfaller@gmail.com"

@@ -7,6 +7,7 @@ header:
   caption: "Welcome to my research landing page"
 excerpt: "Tracking acoustic monitoring efforts in coastal marshes along the Delaware and Barnegat Bays."
 ---
+![banner](https://github.com/user-attachments/assets/57cf5a0d-2a7e-42cc-8f21-9cba5df74dae)
 
 Welcome to my research landing page! This site highlights ongoing work to understand how birds respond to restoration in marsh habitat at two sites in the Barnegat Bay, **Cattus Island and the Lighthouse Center for Natural Resource Education**. On this page, you’ll find information about:
 
@@ -16,7 +17,6 @@ Welcome to my research landing page! This site highlights ongoing work to unders
 
 Please visit my [GitHub repository](https://github.com/kellyfaller/Coastal-Marsh-Acoustic-Monitoring-Analysis) for open-sourced code and tools to aid in your own research in bioacoustics.
 
-![banner](https://github.com/user-attachments/assets/57cf5a0d-2a7e-42cc-8f21-9cba5df74dae)
 ---
 
 ## 📚 Table of Contents

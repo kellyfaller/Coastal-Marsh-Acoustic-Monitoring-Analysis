@@ -84,8 +84,10 @@ Here’s a snapshot of our fieldwork:
 ## Explore the Marsh
 <!-- Add info about the marsh/what it needs for restoration/what restoration is happening and why, audio samples, or field notes here -->
 
+Want to know what a soundscape of the marsh sounds like? Below is an audio file recorded in a salt marsh along the Delaware Bay in early May 2023. The recording is from roughly 8 PM. What you'll experience is a typical spring dusk chorus. Birds exhibit heightened periods of singing activity at dawn and dusk. The reason whh is actually something that science has not quite figured out yet. There are many hypotheses for why. You can hear more about that here: [The Field Guides Podcast: Ep. 73 The Dawn Chorus (Part 1)](https://www.thefieldguidespodcast.com/new-blog/2024/8/24/ep-67-fishers-in-the-field-a-hike-with-carnivore-researcher-dr-scott-lapoint-cjfme-5z8gz-em7y6-w4f4x)
+
 <audio controls>
-  <source src="https://kellyfaller.github.io/Coastal-Marsh-Acoustic-Monitoring-Analysis//Audio/SMM02_20230503_201002_2.wav" type="audio/wav">
+  <source src="https://kellyfaller.github.io/Coastal-Marsh-Acoustic-Monitoring-Analysis/Audio/SMM02_20230503_201002_2.wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
 

@@ -18,7 +18,7 @@ On this page, you’ll find information about:
 - Data visuals and project updates
 - Contact information for collaboration
 
-Please visit my [GitHub repository](https://github.com/kellyfaller/Coastal-Marsh-Acoustic-Monitoring-Analysis) for open-sourced code and tools to aid in your own research in soundscape ecology.
+Please visit the [GitHub repository](https://github.com/kellyfaller/Coastal-Marsh-Acoustic-Monitoring-Analysis) for open-sourced code and tools to aid in your own research in soundscape ecology.
 
 ---
 

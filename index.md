@@ -90,8 +90,6 @@ Want to know what a soundscape of the marsh sounds like? Below is an audio file 
   <source src="https://kellyfaller.github.io/Coastal-Marsh-Acoustic-Monitoring-Analysis/Audio/SMM02_20230503_201002_2.wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
-
-[Download the audio](https://kellyfaller.github.io/Coastal-Marsh-Acoustic-Monitoring-Analysis/Audio/SMM02_20230503_201002_2.wav)
 ---
 
 ## Explore the Results

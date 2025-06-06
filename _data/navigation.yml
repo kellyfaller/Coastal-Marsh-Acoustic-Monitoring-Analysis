@@ -6,7 +6,7 @@ main:
   - title: "Timeline"
     url: /#project-timeline
   - title: "Field Photos"
-    url: #field-photos
+    url: /#field-photos
   - title: "Results"
     url: /#explore-the-results
   - title: "Contact"

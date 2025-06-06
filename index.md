@@ -93,7 +93,8 @@ Want to know what a soundscape of the marsh sounds like? Below is an audio file 
 
 How many species were you able to identify?
 
-figure>
+<div style="margin: 2em 0; text-align: center;">
+  <figure>
     <img src="https://github.com/user-attachments/assets/818f87db-1421-4083-b80f-c68900e0a3c6" alt="Sunrise at the marsh in Cedar Creek, DE." style="max-width: 100%; height: auto; margin-top: 1em;">
     <figcaption style="font-size: 0.9em; color: #666; margin-top: 0.5em;">
       Sunrise at the marsh in Cedar Creek, DE.

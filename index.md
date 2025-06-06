@@ -63,11 +63,11 @@ This project is a **collaboration between the USFWS Coastal Program and Rutgers 
 
 ## Project Timeline
 <ul class="timeline">
-  <li><strong>2024</strong>: Initial deployments at Cattus Island and the Lighthouse Center. Recordings from late June to late September. Proof-of-concept year with collaboration building.</li>
-  <li><strong>2025</strong>: Expanded monitoring during breeding season. Acoustic recorders deployed early June. <a href="https://www.tidalmarshbirds.org/index.php/publicly-availablr-products/products/vegatation-sampling-protocols/marsh-survey-protocols/221-sharp-callbacksurvey-protocol-2025/file">SHARP protocols</a>.</li>
-  <li><strong>2026</strong>: Continued monitoring and data analysis. Restoration activities in early 2026; preliminary findings shared later.</li>
+  <li><strong>2024</strong>: Initial deployments at Cattus Island and the Lighthouse Center. Field recordings were collected from late June through late September. Due to the limitations of recording period, this year is considered a proof-of-concept and collaboration-building year.</li>
+  <li><strong>2025</strong>: Expanded monitoring during breeding season. Acoustic recorders were deployed in early June and will collect field data through late October, incorporating fall migration season. SHARP point count and call-back surveys were completed during the breeding season window as per the <a href="https://www.tidalmarshbirds.org/index.php/publicly-availablr-products/products/vegatation-sampling-protocols/marsh-survey-protocols/221-sharp-callbacksurvey-protocol-2025/file">SHARP protocols</a>.</li>
+  <li><strong>2026</strong>: Continued monitoring and data analysis. Restoration activities planned for early 2026; preliminary findings will be shared with core partners.</li>
   <li><strong>2027</strong>: Continued data analysis and thesis defense alongside ongoing monitoring.</li>
-  <li><strong>2028 and beyond</strong>: Ongoing post-restoration monitoring for success metrics.</li>
+  <li><strong>2028 and beyond</strong>: Ongoing post-restoration monitoring for adaptive management and an understanding of long-term marsh soundscape change.</li>
 </ul>
 
 ---

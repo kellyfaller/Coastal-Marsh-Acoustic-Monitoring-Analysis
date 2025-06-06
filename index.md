@@ -9,7 +9,7 @@ excerpt: "Tracking acoustic monitoring efforts in coastal marshes along the Dela
 ---
 ![banner](https://github.com/user-attachments/assets/57cf5a0d-2a7e-42cc-8f21-9cba5df74dae)
 
-Welcome to my research landing page! This site highlights ongoing work to understand how birds respond to marsh restoration at two sites in the Barnegat Bay, NJ, **Cattus Island and the Lighthouse Center for Natural Resource Education**. The primary way this project will be collecting data on birds is through *soundscape ecology*, or the study of acoustic relationships between living organisms and their environment. This work is the focus of Kelly Faller's Master's project at Rutgers University. 
+Welcome to my research landing page! This site highlights ongoing work to understand how birds respond to marsh restoration at two sites in the Barnegat Bay, NJ, **Cattus Island and the Lighthouse Center for Natural Resource Education**. The primary way this project will be collecting data on birds is through *soundscape ecology*, or the study of acoustic relationships between living organisms and their environment. 
 
 On this page, you’ll find information about:
 

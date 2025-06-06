@@ -54,7 +54,7 @@ The primary goal of this project is to:
 This project is a **collaboration between the USFWS Coastal Program and Rutgers University**, with invaluable support from Danielle McCulloch, USFWS Coastal Program Biologist.
 
 - **Rutgers University involvement** was led by **Kelly Faller** as part of her **Master’s thesis** in the [Graduate Program in Ecology and Evolution](https://ecoevo.rutgers.edu/), under the advisement of Dr. Richard (Rick) G. Lathrop, the Director of the [Center for Remote Sensing and Spatial Analysis (CRSSA)](https://crssa.rutgers.edu/). Kelly conducted fieldwork, data management, analysis, and report generation. 
-- The **USFWS Coastal Program** provided equipment, field time, project management, and other crucial support.
+- The **USFWS Coastal Program** involvement was led by **Danielle McCulloch**. USFWS provided equipment, field time, project management, and other crucial support. This project was designed by the USFWS and would simply *not* have happened without their efforts and continued support.
   
 ![Logo-Rutgers-University](https://github.com/user-attachments/assets/1aebd824-cd45-4858-8b44-491ba4f2e531)
 ![Coastal Program Logo](https://github.com/user-attachments/assets/6b9ac4e6-4c64-4760-916d-b4e1bc581400)

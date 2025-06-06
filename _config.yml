@@ -31,10 +31,10 @@ author:
   email: "kellynfaller@gmail.com"
   links:
     - label: "Personal Website"
-      icon: "/assets/img/Project_logo.jpg" 
+      icon: "/assets/css/img/Project_logo.jpg" 
       url: "kellynfaller.wixsite.com/aboutme"
     - label: "LinkedIn" 
-      icon: "/assets/img/linkedin.jpg"
+      icon: "/assets/css/img/linkedin.jpg"
       url: "https://www.linkedin.com/in/kellynfaller/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"

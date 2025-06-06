@@ -1,6 +1,6 @@
 ---
 title: "Coastal Marsh Acoustic Monitoring"
-layout: splash
+layout: single
 header:
   overlay_image: /Coastal-Marsh-Acoustic-Monitoring-Analysis/assets/css/img/banner.jpg
   overlay_filter: 0.3
@@ -8,6 +8,7 @@ header:
 excerpt: "Tracking acoustic monitoring efforts in coastal marshes along the Delaware and Barnegat Bays."
 author_profile: true
 ---
+
 
 Welcome to my research landing page! This site highlights ongoing work to understand how birds respond to restoration in marsh habitat at two sites in the Barnegat Bay, **Cattus Island and the Lighthouse Center for Natural Resource Education**. On this page, you’ll find information about:
 
@@ -55,6 +56,24 @@ This project was a **collaboration between the USFWS Coastal Program and Rutgers
   <li><strong>2027</strong>: Continued data analysis and thesis defense alongside ongoing monitoring.</li>
   <li><strong>2028 and beyond</strong>: Ongoing post-restoration monitoring for success metrics.</li>
 </ul>
+
+---
+
+# Field Photos
+
+Here’s a snapshot of our fieldwork:
+
+![Deploying acoustic recorder](/Coastal-Marsh-Acoustic-Monitoring-Analysis/field-photos/cattus_area_4_deploying.jpg)
+*Setting up an acoustic recorder in Area 4 at Cattus Island.*
+
+![Cattus Island Marsh (Area 4)](/Coastal-Marsh-Acoustic-Monitoring-Analysis/field-photos/Cattus_Area_4.jpg)
+*A view of the marsh habitat in Area 4, showing typical vegetation and water levels.*
+
+![USFWS Coastal Program Biologist hard at work](/Coastal-Marsh-Acoustic-Monitoring-Analysis/field-photos/dani_cat_area_1.jpg)
+*Danielle McCulloch (USFWS) deploying acoustic equipment in Area 1 of Cattus Island.*
+
+![Cornell SwiftOne Detector](/Coastal-Marsh-Acoustic-Monitoring-Analysis/field-photos/detector.jpg)
+*A close-up of the Cornell SwiftOne acoustic detector used in the marsh study.*
 
 ---
 

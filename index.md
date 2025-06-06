@@ -46,6 +46,7 @@ The primary goal of this project is to:
 
 ## Methodology
 
+*Coming soon*
 <!-- Add methods here and links to the documentation -->
 ---
 

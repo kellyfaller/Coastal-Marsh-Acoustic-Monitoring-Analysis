@@ -68,22 +68,28 @@ This project was a **collaboration between the USFWS Coastal Program and Rutgers
 Here’s a snapshot of our fieldwork:
 
 ![cattus_area_4_deploying](https://github.com/user-attachments/assets/86df0eb6-673c-41a9-bfed-7b3acd77629a)
-*Setting up an acoustic recorder in Area 4 at Cattus Island.*
+*Setting up an acoustic recorder in Area 4 at Cattus Island on 6/3/25.*
 
 ![Cattus_Area_4](https://github.com/user-attachments/assets/b1992b8e-54f1-400d-954f-adbe2d036bbe)
-*A view of the marsh habitat in Area 4 in Cattus Island, showing marsh ditches and ponding in some serious need of sediment to raise the elevation.*
+*A view of the marsh habitat in Area 4 in Cattus Island  on 6/3/25, showing marsh ditches, OMWM, and ponding. This marsh is in some serious need of sediment to raise the elevation!*
 
 ![dani_cat_area_1](https://github.com/user-attachments/assets/671718ae-0543-462a-9f9b-70ede2b11746)
-*Danielle McCulloch (USFWS) deploying acoustic equipment in Area 1 of Cattus Island.*
+*Danielle McCulloch (USFWS Coastal Program Biologist) deploying acoustic equipment in Area 1 of Cattus Island on 6/3/25.*
 
 ![detector](https://github.com/user-attachments/assets/e064cbfd-c55c-4438-8b9c-0551cd1f13dc)
-*A close-up of the Cornell SwiftOne acoustic detector used in the marsh study.*
+*A close-up of the [Cornell SwiftOne](https://www.birds.cornell.edu/ccb/swift/) acoustic detector. These detectors are being used in this study to capture the soundscapes of the marsh.*
 
 ---
 
 ## Explore the Marsh
-<!-- Add images, audio samples, or field notes here -->
+<!-- Add info about the marsh/what it needs for restoration/what restoration is happening and why, audio samples, or field notes here -->
 
+<audio controls>
+  <source src="https://kellyfaller.github.io/Coastal-Marsh-Acoustic-Monitoring-Analysis//Audio/SMM02_20230503_201002_2.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+[Download the audio](https://kellyfaller.github.io/Coastal-Marsh-Acoustic-Monitoring-Analysis/Audio/SMM02_20230503_201002_2.wav)
 ---
 
 ## Explore the Results

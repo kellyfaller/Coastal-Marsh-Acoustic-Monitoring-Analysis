@@ -45,6 +45,10 @@ This project was a **collaboration between the USFWS Coastal Program and Rutgers
 
 - **Rutgers University involvement**: Led by **Kelly Faller** as part of her **Master’s thesis**. Kelly conducted the data management, analysis, and report generation.
 - The **USFWS Coastal Program** provided equipment, field time, project management, and other crucial support.
+  
+![Logo-Rutgers-University](https://github.com/user-attachments/assets/1aebd824-cd45-4858-8b44-491ba4f2e531)
+![Coastal Program Logo](https://github.com/user-attachments/assets/6b9ac4e6-4c64-4760-916d-b4e1bc581400)
+![Seal_of_the_United_States_Fish_and_Wildlife_Service svg](https://github.com/user-attachments/assets/d381bc29-eacc-4c65-b012-c19ff6e175d9)
 
 ---
 
@@ -59,7 +63,7 @@ This project was a **collaboration between the USFWS Coastal Program and Rutgers
 
 ---
 
-# Field Photos
+## Field Photos
 
 Here’s a snapshot of our fieldwork:
 

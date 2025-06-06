@@ -110,9 +110,6 @@ If you use or adapt these scripts, please cite them as described in the included
 ---
 
 ## Contact
-**Kelly Faller**  
-Graduate Student, Rutgers University  
-[kellynfaller@gmail.com](mailto:kellynfaller@gmail.com)
 
 {% include author-profile.html author=site.author %}
 

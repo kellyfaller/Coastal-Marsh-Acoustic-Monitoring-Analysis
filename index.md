@@ -90,6 +90,15 @@ Want to know what a soundscape of the marsh sounds like? Below is an audio file 
   <source src="https://kellyfaller.github.io/Coastal-Marsh-Acoustic-Monitoring-Analysis/Audio/SMM02_20230503_201002_2.wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
+
+figure>
+    <img src="https://github.com/user-attachments/assets/818f87db-1421-4083-b80f-c68900e0a3c6" alt="Sunrise at the marsh in Cedar Creek, DE." style="max-width: 100%; height: auto; margin-top: 1em;">
+    <figcaption style="font-size: 0.9em; color: #666; margin-top: 0.5em;">
+      Sunrise at the marsh in Cedar Creek, DE.
+    </figcaption>
+  </figure>
+</div>
+
 ---
 
 ## Explore the Results

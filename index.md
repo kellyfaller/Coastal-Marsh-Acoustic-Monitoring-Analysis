@@ -2,7 +2,7 @@
 layout: splash
 title: "Coastal Marsh Acoustic Monitoring"
 header:
-  overlay_image: /Coastal-Marsh-Acoustic-Monitoring-Analysis/assets/css/img/banner.jpg
+  overlay_image: ![banner](https://github.com/user-attachments/assets/bb054cc6-919d-428d-b5f2-4409eff76ab7)
   overlay_filter: 0.3
   caption: "Welcome to my research landing page"
 excerpt: "Tracking acoustic monitoring efforts in coastal marshes along the Delaware and Barnegat Bays."

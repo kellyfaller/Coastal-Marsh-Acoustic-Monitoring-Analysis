@@ -9,7 +9,7 @@ excerpt: "Tracking acoustic monitoring efforts in coastal marshes along the Dela
 ---
 ![banner](https://github.com/user-attachments/assets/57cf5a0d-2a7e-42cc-8f21-9cba5df74dae)
 
-Welcome to my research landing page! This site highlights ongoing work to understand how birds respond to marsh restoration at two sites in the Barnegat Bay, NJ, **Cattus Island and the Lighthouse Center for Natural Resource Education**. The primary way this project will be collecting data on birds is through *soundscape ecology*, or the study of acoustic relationships between living organisms and their environment. 
+Welcome to my research landing page! This site highlights ongoing work to understand how birds respond to marsh restoration at two sites in the Barnegat Bay, NJ, **Cattus Island and the Lighthouse Center for Natural Resource Education**. The focal species of this project is the [eastern black rail](https://www.fws.gov/species/eastern-black-rail-laterallus-jamaicensis-jamaicensis) (*Laterallus jamaicensis jamaicensis*), a federally endangered marsh bird. They occur in NJ (despite some USFWS range maps), but are often very secretive and hard to detect. We are interested in how black rail and other indicator bird populations respond to restoration techniques. The primary way this project will be collecting data on birds is through *soundscape ecology*, or the study of acoustic relationships between living organisms and their environment. 
 
 On this page, you’ll find information about:
 

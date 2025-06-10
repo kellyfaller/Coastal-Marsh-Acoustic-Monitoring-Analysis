@@ -1,0 +1,249 @@
+---
+title: "Acoustic Calculation Script"
+author: "Kelly Faller (adapted)"
+date: "2025-06-09"
+output: 
+  html_document:
+    toc: true
+    number_sections: true
+    toc_float: true
+    theme: flatly
+    code_folding: hide
+---
+
+```{r setup, echo=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Purpose
+This code is meant to generate acoustic index values and conduct bioacoustic calculations in the absence of Kaliedoscope. Kaliedoscope (Wildlife Acoustics) is fantastic and can run these calculations very quickly. However, the software comes at an annual rate of $399. This code, which has been cobbled together from sources found in the citation section, will generate values using R. This ensures the project is free and continues the open science ideals. 
+
+A great resource for how to conduct bioacoustics in R is the book "Sound Analysis and Synthesis with R" by Jérôme Sueur (https://link.springer.com/book/10.1007/978-3-319-77647-7).
+
+# Methods
+This is where you would write the methodology (if necessary)
+
+```{r Pic, out.width='50%', fig.align='center'}
+#| fig.cap="Figure 1. Photograph caption." # update cation
+
+knitr::include_graphics("1000033633.jpg") # update photo here
+```
+
+## Data Handling
+
+Load Packages
+
+```{r Libraries, warning=FALSE, message=FALSE}
+#RMD
+library(bookdown)
+library(knitr)
+library(kableExtra)
+library(slickR)
+library(here)
+library(janitor) 
+
+#General data
+library(tidyverse)
+library(tidyr)
+library(lubridate)
+library(vtable)
+library(here)
+
+#graphics
+library(ggplot2)
+library(scales)
+library(ggpubr)
+library(rstatix)
+library(ggpmisc)
+library(timetk)
+library(plotly)
+library(data.table)
+library(ggimage)
+library(multcomp)
+library(ggbeeswarm)
+
+#bioacoustics
+library(tuneR)
+library(seewave)
+library()
+```
+
+Load Data
+
+```{r Loading, warning=FALSE}
+
+#clear global environment
+rm(list=ls())
+
+# Define directories
+data_dir <- here("data") #adjust
+output_dir <- here("output") #adjust
+figures_dir <- here("figures") #adjust
+
+# Reading CSV files into data frames- adjust with your specifications
+df <- read_csv(file.path(data_dir, "your_file.csv")) %>%
+  clean_names()
+
+
+```
+
+Formatting
+
+```{r Formatting, warning=FALSE}
+
+# Below is an example
+
+df_clean <- df %>%
+  drop_na() %>%
+  mutate(date = ymd(date_column))
+
+```
+
+
+# Graphics
+
+## First Group
+
+All this needs to be updated for your real graphics (Change first group to whatever you are displaying - dont 
+forget chunk name)
+
+```{r First Group, warning=FALSE, fig.height=9, fig.width=13}
+#| fig.cap= "Figure 3. Figure caption again." # adjust fig caption
+
+ggplot # here is where your graphic goes
+
+```
+
+## Second Group
+
+```{r Second Group, warning=FALSE, fig.height=9, fig.width=13}
+#| fig.cap="Figure 4. Fig caption."
+
+ggplot
+
+```
+
+## Third Group
+
+```{r Third Group, warning=FALSE, fig.height=9, fig.width=13}
+#| fig.cap="Figure 4. Fig caption."
+
+ggplot
+
+```
+
+## Summary table
+
+```{r Summaries, warning=FALSE}
+
+#Below is an example. Adjust for your data. 
+
+vegdata_table<-vegdatajoin3 %>% 
+  filter(Veg=="vegetated") %>% 
+  group_by(Site) %>% 
+         summarize(avg_bearing= round(mean(Bearing,na.rm = TRUE),2),
+                  avg_vegobstruct= round(mean(Veg_obstruction,na.rm = TRUE),0),
+                  avg_veg_cover= round(mean(Total_cover,na.rm = TRUE),0),
+                  avg_max_veg= round(mean(Max_veg,na.rm = TRUE),0)
+         )
+# Below is an example also. Adjust further.
+
+table1<-kable(vegdata_table,
+              col.names=c("Site name", "Bearing Capacity (cm)", "Vegetation obstruction (%)", "Vegetation Cover (%)", "Maximum vegetation height (cm)"),
+              align = "c",
+              caption= "Table 1. Means of field metrics for each area of interest.") %>% 
+  kable_classic("hover")
+
+table1
+
+```
+
+# Maps
+
+If a map is necessary for your data display. Adjust as needed.
+
+```{r Map set up}
+
+# Below is an example. Adjust for your data. 
+
+maplng <- -75.15925
+maplat <- 39.045748
+
+locations_sf<-vegdatajoin3 %>% 
+  st_as_sf(coords=c("E","N"), crs=6527)
+
+#check projections
+#mapview(locations_sf) 
+
+locations_projected<-locations_sf %>% 
+  st_transform(crs=4326) %>% 
+  mutate(Long=st_coordinates(.)[,1],
+         Lat=st_coordinates(.)[,2]
+  )
+
+css_fix <- "div.info.legend.leaflet-control br {clear: both;}" # CSS to correct spacing
+html_fix <- htmltools::tags$style(type = "text/css", css_fix)  # Convert CSS to HTML
+```
+
+## Group 1 Metric Map 
+
+Adjust the name for what you are displaying. Above was the set up, here is the actual map. 
+
+```{r Map Bearing, dpi=300, warning=FALSE, message=FALSE}
+
+# Below is an example. Adjust as needed. 
+
+pal <- colorFactor(palette = c("#F8766D", "#7cae00", "#00bfc4", "#c77cff"), domain = locations_projected$Bin_Score_Bearing)
+
+leaflet(data = locations_projected, height = 725, width = "100%") %>%
+  setView(lng = maplng, lat = maplat, zoom = 10) %>%
+  addProviderTiles(providers$Esri.WorldImagery) %>%
+  addCircleMarkers(~Long, ~Lat,
+    radius = 3,
+    fillColor = ~ pal(Bin_Score_Bearing),
+    stroke = TRUE,
+    color = "white",
+    weight = 0.75,
+    fillOpacity = 0.75,
+    popup = ~ paste("<strong> Point ID: </strong>", Point_ID,"<br>",
+                    "<strong> Bearing Capacity (cm): </strong>", Bearing)
+  ) %>%
+  addLegend(
+    "bottomright",
+    pal = pal,
+    values = ~ as.factor(Bin_Score_Bearing),
+    opacity = .98,
+    title = "Bearing capacity bin score"
+  )
+```
+
+# Save Outputs
+
+```{r Save, warning=FALSE} 
+write_csv(df_clean, file.path(output_dir, "clean_data.csv"))
+ggsave("figures/myplot.png", width = 10, height = 15) #adjust
+```
+
+<div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;"></div>
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

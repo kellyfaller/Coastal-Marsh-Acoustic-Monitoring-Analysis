@@ -1,4 +1,6 @@
 # Coastal Marsh Acoustic Monitoring Analysis
+[![DOI](https://zenodo.org/badge/688634085.svg)](https://doi.org/10.5281/zenodo.15692883)
+
 Welcome to the Coastal Marsh Acoustic Monitoring project repository!  
 
 This repository contains open-source R Markdown scripts and supporting code for analyzing acoustic monitoring data collected from marshes along the **Delaware and Barnegat Bays**. The primary goal of this project is to understand how birds respond to changes in marsh habitat, particularly those changes that result from restoration practices.

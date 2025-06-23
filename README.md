@@ -31,7 +31,6 @@ This repository is organized to keep your data and scripts well structured for r
 
 Here are some highlights of the repository:
 - **Main Analysis**: `02-Acoustics-Analysis.Rmd`  
-- **BirdNET Appendix**: `03-BirdNET-Analysis.Rmd`  
 - **Data Inputs**: CSV and shapefiles (not included in the repository, but scripts are set up to process them).
 - **Outputs**: Summary tables and plots exploring daily acoustic complexity, biodiversity, anthropogenic disturbance, and species presence.
 

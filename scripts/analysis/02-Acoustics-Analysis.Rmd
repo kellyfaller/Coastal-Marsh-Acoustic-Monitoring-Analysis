@@ -12,29 +12,7 @@ output:
     df_print: paged
     code_folding: hide
 params:
-  # ==== User Inputs (edit these only) ====
-  # Inputs
-
-  aru_locations:    "../Metadata/Acoustic Project Sites.csv"            # Site/location metadata
-  recording_metadata: "../Metadata/Recording_Metadata.csv"
-  arbimon_pm_results: "C:/Users/kelly/Documents/Master's Project Files/Arbimon Backups/salt-marsh-restoration-soundscape-project_2025-08-12_export/pattern_matching_rois.0001.csv"
-  arbimon_species_metadata: "C:/Users/kelly/Documents/Master's Project Files/Arbimon Backups/salt-marsh-restoration-soundscape-project_2025-08-12_export/species.0001.csv"
-  # Outputs
-  output_dir: "C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/Outputs"   # Where results should be written
-  use_leaflet_map: true       # set FALSE to skip the map if you don't want it
-  # Acoustic index generation parameters
-  min_freq_hz: 300          # For acoustic index generation. Decide what this will be for your project
-  max_freq_hz: 10000        # For acoustic index generation. Decide what this will be for your project
-  db_threshold: -35         # For ADI specifically
-  session_length: 900       # Recording length in seconds. Adjust for different duty cycle set-ups. This is for a 15 min recording during a 15 min on 45 min off duty cycle.
-  cores: 10                 # This is the amount of computational power that you are using in your computer. Check your computer's settings to see how many cores you have.
-  # Optional image overlay
-  sparrow_image_path: "../Images/SALS.png" 
-  # Map settings
-  site_crs: 4326 # If in state plane or other projected coords, set that EPSG (e.g., 6527).
-  map_center_lng: -75.15925
-  map_center_lat: 39.045748
-  # ======================================
+ config_path: "configs/project.yml"
 ---
 
 ```{r Clear, warning=FALSE, message=FALSE}

@@ -1,7 +1,7 @@
 ---
 title: "02-Acoustic Analysis"
 author: "Kelly Faller"
-date: "2024-10-28"
+date: "`r format(Sys.Date())`"
 output:
   html_document:
     theme: flatly
@@ -12,36 +12,72 @@ output:
     df_print: paged
     code_folding: hide
 params:
-  output_dir: "Outputs/"
+  # ==== User Inputs (edit these only) ====
+  # Inputs
+
+  aru_locations:    "../Metadata/Acoustic Project Sites.csv"            # Site/location metadata
+  recording_metadata: "../Metadata/Recording_Metadata.csv"
+  arbimon_pm_results: "C:/Users/kelly/Documents/Master's Project Files/Arbimon Backups/salt-marsh-restoration-soundscape-project_2025-08-12_export/pattern_matching_rois.0001.csv"
+  arbimon_species_metadata: "C:/Users/kelly/Documents/Master's Project Files/Arbimon Backups/salt-marsh-restoration-soundscape-project_2025-08-12_export/species.0001.csv"
+  # Outputs
+  output_dir: "C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/Outputs"   # Where results should be written
+  use_leaflet_map: true       # set FALSE to skip the map if you don't want it
+  # Acoustic index generation parameters
+  min_freq_hz: 300          # For acoustic index generation. Decide what this will be for your project
+  max_freq_hz: 10000        # For acoustic index generation. Decide what this will be for your project
+  db_threshold: -35         # For ADI specifically
+  session_length: 900       # Recording length in seconds. Adjust for different duty cycle set-ups. This is for a 15 min recording during a 15 min on 45 min off duty cycle.
+  cores: 10                 # This is the amount of computational power that you are using in your computer. Check your computer's settings to see how many cores you have.
+  # Optional image overlay
+  sparrow_image_path: "../Images/SALS.png" 
+  # Map settings
+  site_crs: 4326 # If in state plane or other projected coords, set that EPSG (e.g., 6527).
+  map_center_lng: -75.15925
+  map_center_lat: 39.045748
+  # ======================================
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-# Purpose
-This project analyzes acoustic monitoring data to assess patterns in species detections and call durations.
-
-```{r Purpose, out.width='50%', fig.align='center'}
-#| fig.cap="Image 1. Field deployment of an acoustic recording unit (ARU) in a coastal marsh habitat. This photograph highlights the setup of the ARU on a PVC mounting pole, used for long-term acoustic monitoring of wetland soundscapes. Photo by Theodore Diehl."
-
-knitr::include_graphics("../Images/GAR_01.jpg")
-```
-
-# Methods
-INCLUDE METHODS HERE!!!!!!!!
-
-## Data Handling
-
-Clear Environment
-
-```{r, warning=FALSE, message=FALSE}
+```{r Clear, warning=FALSE, message=FALSE}
+# Clear environment for a clean workspace.
 rm(list=ls())
 ```
 
-Load Packages
+```{r setup, include=FALSE}
+# Reproducible knitr defaults
+knitr::opts_chunk$set(
+  echo = TRUE, message = FALSE, warning = FALSE, fig.align = "center"
+)
 
-```{r, warning=FALSE, message=FALSE}
+# Helpers
+`%||%` <- function(x, y) if (is.null(x) || (is.character(x) && x == "")) y else x
+
+# Resolve paths safely on any OS
+fp <- function(...){ normalizePath(file.path(...), mustWork = FALSE) }
+
+dir.create(params$output_dir, showWarnings = FALSE, recursive = TRUE)
+dir.create(fp(params$output_dir, "Acoustic_Index"), showWarnings = FALSE, recursive = TRUE)
+
+paths <- list(
+  wav_dir               = fp(params$wav_dir),
+  aru_locations         = fp(params$aru_locations),
+  recording_metadata    = fp(params$recording_metadata),
+  arbimon_pm_results    = fp(params$arbimon_pm_results),
+  arbimon_species_meta  = fp(params$arbimon_species_metadata),
+  output_dir            = fp(params$output_dir),
+  sparrow_image_path    = fp(params$sparrow_image_path)
+)
+
+min_f   <- as.numeric(params$min_freq_hz)
+max_f   <- as.numeric(params$max_freq_hz)
+db_thr  <- as.numeric(params$db_threshold)
+sess_s  <- as.integer(params$session_length)
+cores   <- as.integer(params$cores)
+
+# Optional parquet precheck if you ever add it later
+have_arrow <- requireNamespace("arrow", quietly = TRUE)
+```
+
+```{r Loading Libraries, warning=FALSE, message=FALSE}
 library(ggplot2)
 library(tidyverse)
 library(lubridate)
@@ -62,6 +98,7 @@ library(hms)
 library(cowplot)
 library(data.table)
 library(viridis)
+library(vroom)
 #maps
 library(leaflet)
 library(leaflet.extras)
@@ -75,51 +112,246 @@ library(fmsb)
 library(vtable)
 #audio will turn on if necessary
 library(embed)
+#soundscape
+library(seewave)
+library(tuneR)
+library(soundecology)
+#occupancy
+library(vegan)
 ```
 
-Load Data
+# Purpose
+This project analyzes acoustic monitoring data to assess patterns in species detections and call durations.
 
-*NOTE: Use data prep scripts first before loading data! Will need to run the Arbimon Data Prep Script to get the Recordings.csv file.*
+```{r Purpose, out.width='50%', fig.align='center'}
+#| fig.cap="Image 1. Field deployment of an acoustic recording unit (ARU) in a coastal marsh habitat. This photograph highlights the setup of the ARU on a PVC mounting pole, used for long-term acoustic monitoring of wetland soundscapes. Photo by Theodore Diehl."
 
-Run for all
+knitr::include_graphics("../Images/GAR_01.jpg")
+```
+
+# Project Methods
+INCLUDE METHODS HERE!!!!!!!!
+
+## Load Data
+
+Before getting to this stage. You should
+* Run Arbimon data prep script to produce Recording_Metadata.csv.
+* Create a CSV file with the ARU station location metadata and save it to where 'aru_locations' says above. It should have 5 columns, "Name", "long_x", "lat_y", "easting_X", and "northing_Y". This is not super necessary since the metadata has the location in it, but it is currently used in this script.
+
 ```{r Loading All, include=FALSE}
-aru_locations<- read.csv("../Metadata/Acoustic Project Sites.csv", header=TRUE, sep = ",", stringsAsFactors=FALSE)
+aru_locations <- readr::read_csv(params$aru_locations, show_col_types = FALSE)
+stopifnot(nrow(aru_locations) > 0)
 ```
 
 Arbimon
 ```{r Loading Arbimon, include=FALSE}
+recording_metadata <- vroom::vroom(paths$recording_metadata, show_col_types = FALSE)
+pm_results         <- vroom::vroom(paths$arbimon_pm_results, show_col_types = FALSE)
+species_metadata   <- vroom::vroom(paths$arbimon_species_meta, show_col_types = FALSE)
 
-recording_metadata<- read.csv("../Data/Arbimon Data/Recording_Metadata.csv", header=TRUE, sep = ",", stringsAsFactors=FALSE)
-pm_results<- read.csv("../Data/Arbimon Data/pattern_matching_rois.0001.csv", header=TRUE, sep = ",", stringsAsFactors=FALSE)
-species_metadata<- read.csv("../Data/Arbimon Data/species.0001.csv", header=TRUE, sep = ",", stringsAsFactors=FALSE)
+stopifnot(nrow(aru_locations) > 0)
 
-# lubridate formatting
-recording_metadata$datetime <- ymd_hms(recording_metadata$datetime)
+# Robust datetime handling from prep output:
+# Accept 'datetime_parsed' (preferred) or fallback to 'datetime'
+parse_dt <- function(x, tz = "UTC") {
+  if (inherits(x, "POSIXct")) return(with_tz(x, tz))
+  x_norm <- if (is.character(x)) sub("Z$", "+00:00", x) else x  # handle trailing Z
+  try_order <- function(fun, ...) suppressWarnings(fun(...))
+  out <- try_order(ymd_hms, x_norm, tz = tz, quiet = TRUE)
+  if (all(is.na(out))) out <- try_order(mdy_hms, x_norm, tz = tz, quiet = TRUE)
+  if (all(is.na(out))) out <- try_order(ymd_hm,  x_norm, tz = tz, quiet = TRUE)
+  if (all(is.na(out))) out <- try_order(mdy_hm,  x_norm, tz = tz, quiet = TRUE)
+  if (all(is.na(out))) out <- try_order(ymd,     x_norm, tz = tz, quiet = TRUE)
+  if (all(is.na(out))) out <- try_order(mdy,     x_norm, tz = tz, quiet = TRUE)
+  out
+}
+
+dt_col <- dplyr::case_when(
+  "datetime_parsed" %in% names(recording_metadata) ~ "datetime_parsed",
+  "datetime"        %in% names(recording_metadata) ~ "datetime",
+  TRUE ~ NA_character_
+)
+if (is.na(dt_col)) stop("recording_metadata needs a datetime column (datetime_parsed or datetime).")
+
+recording_metadata <- recording_metadata %>%
+  mutate(
+    datetime_parsed = if (dt_col == "datetime_parsed") .data[[dt_col]] else parse_dt(.data[[dt_col]], tz = "UTC"),
+    Year            = if (!"Year" %in% names(.)) year(datetime_parsed) else Year,
+    Julian_Day      = if (!"Julian_Day" %in% names(.)) yday(datetime_parsed) else Julian_Day
+  )
+
+# Optional 'name' fallback
+if (!"name" %in% names(recording_metadata)) {
+  nm <- intersect(c("site","station","recorder","Site","Station","Recorder"), names(recording_metadata))[1]
+  if (!is.na(nm)) recording_metadata$name <- recording_metadata[[nm]]
+}
+
+# Quick sanity prints
+message(glue("recording_metadata: {nrow(recording_metadata)} rows, {ncol(recording_metadata)} cols"))
+rng <- range(recording_metadata$datetime_parsed, na.rm = TRUE)
+message(glue("Recording datetime range: {rng[1]} -> {rng[2]}"))
 ```
 
-Kaleidoscope
-```{r Loading Kaleidoscope, include=FALSE}
+Arbimon Joins  (species + recordings)
 
-index_data <- read.csv("../Data/aru_data_twilight.csv", header=TRUE, sep = ",", stringsAsFactors=FALSE)
-# lubridate formatting
-index_data$DATETIME <- ymd_hms(index_data$DATETIME)
-index_data$DATE<- ymd(index_data$DATE)
-index_data$TIME <- as.POSIXct(index_data$TIME, format="%H:%M:%S")
+This chunk takes the pattern matching results (species detections) and joins the time, date, location, and other metadata associated with the detection.
+
+```{r Join Arbimon, include=FALSE}
+req_pm_cols <- c("species_id", "recording_id")
+req_sm_cols <- c("species_id")
+req_rm_cols <- c("recording_id")
+
+if (!all(req_pm_cols %in% names(pm_results))) {
+  stop("arbimon_pm_results is missing: ", paste(setdiff(req_pm_cols, names(pm_results)), collapse=", "))
+}
+if (!all(req_sm_cols %in% names(species_metadata))) {
+  stop("arbimon_species_metadata is missing: ", paste(setdiff(req_sm_cols, names(species_metadata)), collapse=", "))
+}
+if (!all(req_rm_cols %in% names(recording_metadata))) {
+  stop("recording_metadata is missing: ", paste(setdiff(req_rm_cols, names(recording_metadata)), collapse=", "))
+}
+
+species_IDs <- pm_results %>%
+  dplyr::left_join(species_metadata, by = "species_id") %>%
+  dplyr::left_join(recording_metadata, by = "recording_id")
 ```
 
-Data Wrangling - Yeehaw!
+Kaleidoscope (currently not running, instead generating index values with this script). If it is needed in the future, change the eval=FALSE. It can be deleted or changed to "TRUE".
+```{r Loading Kaleidoscope, eval = FALSE, include=FALSE}
+index_data <- readr::read_csv("../Data/aru_data_twilight.csv", show_col_types = FALSE)
+index_data$DATETIME <- lubridate::ymd_hms(index_data$DATETIME)
+index_data$DATE     <- lubridate::ymd(index_data$DATE)
+index_data$TIME     <- as.POSIXct(index_data$TIME, format="%H:%M:%S")
+```
+
+Pulling in acoustic index values run in the data prep script for acoustic index generation.
+
+```{r Index Manipulation, include=FALSE}
+# Function to extract metadata from FILENAME column. This will be adjusted for your site.
+extract_metadata <- function(df) {
+  # Handle missing DB_THRESHOLD gracefully
+  if (!"DB_THRESHOLD" %in% names(df)) df$DB_THRESHOLD <- NA_character_
+  # File name regex: adjust pattern to your naming scheme
+  # Assumes something like '..._YYYYMMDD_HHMMSS.wav' present in FILENAME
+  df %>%
+    mutate(
+      DB_THRESHOLD = as.character(DB_THRESHOLD),
+      site_name = stringr::str_extract(FILENAME, "CAT_\\d+|LHC_\\d+|[A-Za-z0-9_-]+"),
+      ts_raw = stringr::str_extract(FILENAME, "[0-9]{8}_[0-9]{6}"),
+      ts_fmt = ifelse(!is.na(ts_raw), stringr::str_replace(ts_raw, "_", " "), NA_character_),
+      recording_datetime = suppressWarnings(lubridate::ymd_hms(ts_fmt, quiet = TRUE, tz = "UTC"))
+    )
+}
+read_if_exists <- function(path){
+  if (file.exists(path)) readr::read_csv(path, show_col_types = FALSE) else NULL
+}
+
+ACI  <- read_if_exists(fp(ix_dir, "resultACI_F.csv"))   %>% { if(!is.null(.)) extract_metadata(.) else NULL }
+ADI  <- read_if_exists(fp(ix_dir, "resultADI_F_35db.csv")) %>% { if(!is.null(.)) extract_metadata(.) else NULL }
+AEI  <- read_if_exists(fp(ix_dir, "resultAEI_F.csv"))   %>% { if(!is.null(.)) extract_metadata(.) else NULL }
+BI   <- read_if_exists(fp(ix_dir, "resultBI_F.csv"))    %>% { if(!is.null(.)) extract_metadata(.) else NULL }
+H_ix <- read_if_exists(fp(ix_dir, "resultH_F.csv"))     %>% { if(!is.null(.)) extract_metadata(.) else NULL }
+NDSI <- read_if_exists(fp(ix_dir, "resultNDSI_F.csv"))  %>% { if(!is.null(.)) extract_metadata(.) else NULL }
+
+indexresults <- dplyr::bind_rows(
+  dplyr::mutate(ACI,  index="ACI"),
+  dplyr::mutate(ADI,  index="ADI"),
+  dplyr::mutate(AEI,  index="AEI"),
+  dplyr::mutate(BI,   index="BI"),
+  dplyr::mutate(H_ix, index="H"),
+  dplyr::mutate(NDSI, index="NDSI")
+)
+
+stopifnot(nrow(indexresults) > 0)
+
+# Make a wide table with one row per file
+numeric_cols <- names(indexresults)[sapply(indexresults, is.numeric)]
+indices_wide <- indexresults %>%
+  pivot_wider(names_from = index, values_from = all_of(numeric_cols), values_fn = mean, names_sep = "_") %>%
+  mutate(
+    STATION = site_name,
+    DATETIME = recording_datetime,
+    DATE = as.Date(DATETIME),
+    TIME = hms::as_hms(DATETIME)
+  )
+
+# Summaries across time period to understand temporal component to call rate.
+day_avg_index <- indices_wide %>%
+  group_by(DAY = as.POSIXct(lubridate::floor_date(DATETIME, "day")), DATE, STATION, .drop=FALSE) %>%
+  summarize(
+    avg_NDSI = mean(NDSI_value, na.rm=TRUE),
+    sd_NDSI  = sd(NDSI_value, na.rm=TRUE)/sqrt(dplyr::n()),
+    avg_ACI  = mean(ACI_value,  na.rm=TRUE),
+    sd_ACI   = sd(ACI_value,    na.rm=TRUE)/sqrt(dplyr::n()),
+    avg_ADI  = mean(ADI_value,  na.rm=TRUE),
+    sd_ADI   = sd(ADI_value,    na.rm=TRUE)/sqrt(dplyr::n()),
+    avg_AEI  = mean(AEI_value,  na.rm=TRUE),
+    sd_AEI   = sd(AEI_value,    na.rm=TRUE)/sqrt(dplyr::n()),
+    avg_BI   = mean(BI_value,   na.rm=TRUE),
+    sd_BI    = sd(BI_value,     na.rm=TRUE)/sqrt(dplyr::n()),
+    .groups = "drop"
+  )
+
+month_avg_index <- indices_wide %>%
+  mutate(MONTH = lubridate::floor_date(DATE, "month")) %>%
+  group_by(MONTH, STATION, .drop=FALSE) %>%
+  summarize(
+    avg_NDSI = mean(NDSI_value, na.rm=TRUE),
+    avg_ACI  = mean(ACI_value,  na.rm=TRUE),
+    avg_ADI  = mean(ADI_value,  na.rm=TRUE),
+    avg_AEI  = mean(AEI_value,  na.rm=TRUE),
+    avg_BI   = mean(BI_value,   na.rm=TRUE),
+    .groups="drop"
+  )
+
+year_avg_index <- indices_wide %>%
+  mutate(YEAR = lubridate::floor_date(DATE, "year")) %>%
+  group_by(YEAR, STATION, .drop=FALSE) %>%
+  summarize(
+    avg_NDSI = mean(NDSI_value, na.rm=TRUE),
+    avg_ACI  = mean(ACI_value,  na.rm=TRUE),
+    avg_ADI  = mean(ADI_value,  na.rm=TRUE),
+    avg_AEI  = mean(AEI_value,  na.rm=TRUE),
+    avg_BI   = mean(BI_value,   na.rm=TRUE),
+    .groups="drop"
+  )
+
+# Time-of-day summary into bins by hour.
+if (!"Twilight" %in% names(indices_wide)) {
+  indices_wide <- indices_wide %>% mutate(
+    Twilight = case_when(
+      lubridate::hour(DATETIME) %in% 5:9   ~ "morning",
+      lubridate::hour(DATETIME) %in% 10:15 ~ "mid-day",
+      lubridate::hour(DATETIME) %in% 16:20 ~ "evening",
+      TRUE ~ "night"
+    )
+  )
+}
+index_timeofday <- indices_wide %>%
+  group_by(Twilight, DATE, STATION, .drop=FALSE) %>%
+  summarize(
+    avg_NDSI = mean(NDSI_value, na.rm=TRUE),
+    avg_ACI  = mean(ACI_value,  na.rm=TRUE),
+    avg_ADI  = mean(ADI_value,  na.rm=TRUE),
+    avg_AEI  = mean(AEI_value,  na.rm=TRUE),
+    avg_BI   = mean(BI_value,   na.rm=TRUE),
+    .groups="drop"
+  ) %>%
+  mutate(Twilight = factor(Twilight, levels=c("morning","mid-day","evening","night")))
+```
+
+## Data Wrangling - Yeehaw!
 
 Arbimon
 ```{r YeeHaw Arbimon, include=FALSE}
-
-# create a new dataframe that has the species IDs with metadata associated with it
-species_ID1<- merge(pm_results, species_metadata, by = "species_id")
-species_IDs <- merge(species_ID1, recording_metadata, by = "recording_id")          
-
+species_ID1 <- merge(pm_results, species_metadata, by = "species_id")
+species_IDs <- merge(species_ID1, recording_metadata, by = "recording_id")         
 ```
 
 Kaleidoscope
-```{r YeeHaw Kaleidoscope, include=FALSE}
+
+Currently being unused, since Kaleidoscope is not being used to generate acoustic index values.These summaries are included in the index generation chunk for the all-R acoustic index calculations.
+```{r YeeHaw Kaleidoscope, eval = FALSE, include=FALSE}
 avg_index <- index_data %>%   dplyr::group_by(DATETIME, DATE, SITE, STATION, DEPLOYMENT) %>%
           dplyr::summarize(avg_NDSI = mean(NDSI, na.rm = TRUE),
                    sd_NDSI=sd(NDSI,na.rm = T)/sqrt(length(NDSI)),
@@ -220,57 +452,105 @@ index_timeofday$Twilight<-factor(index_timeofday$Twilight, levels=c("morning","m
 index_timeofday$DATE<-ymd(index_timeofday$DATE)
 ```
 
-# Site Map
-
-Spatial formatting
+# Site Map (leaflet)
 
 ```{r Map set up}
+# --- Build locations_sf robustly and map it ---
+suppressPackageStartupMessages({
+  library(dplyr)
+  library(sf)
+  library(leaflet)
+})
 
-# Center Coordinates
-maplng <- -75.15925 #adjust when possible
-maplat <- 39.045748 #adjust when possible
+# Safe coalescer for label fields
+`%or%` <- function(x, y) {
+  if (is.null(x) || length(x) == 0) return(y)
+  if (length(x) == 1 && (is.na(x) || (is.character(x) && !nzchar(x)))) return(y)
+  x
+}
 
-# Convert to sf object
-locations_sf<-vegdatajoin3 %>%  #adjust where this data is coming from
-  st_as_sf(coords=c("E","N"), crs=6527)
+# 0) Basic check
+stopifnot(exists("aru_locations"), is.data.frame(aru_locations))
 
-#check projections
-#mapview(locations_sf) 
-
-# Extract transformed coordinates
-locations_projected<-locations_sf %>% 
-  st_transform(crs=4326) %>% 
-  mutate(Long=st_coordinates(.)[,1],
-         Lat=st_coordinates(.)[,2]
+# 1) Normalize column names and map likely headers
+aru_norm <- aru_locations %>%
+  dplyr::rename_with(tolower) %>%  # <<-- correct function name
+  dplyr::rename(
+    name     = dplyr::any_of(c("name","site","site_id","station")),
+    lon      = dplyr::any_of(c("long_x","longitude","lon","long","x","long_dd")),
+    lat      = dplyr::any_of(c("lat_y","latitude","lat","y","lat_dd")),
+    easting  = dplyr::any_of(c("e","east","easting","x_utm")),
+    northing = dplyr::any_of(c("n","north","northing","y_utm"))
   )
 
-css_fix <- "div.info.legend.leaflet-control br {clear: both;}" # CSS to correct spacing
-html_fix <- htmltools::tags$style(type = "text/css", css_fix)  # Convert CSS to HTML
+have_ll <- all(c("lon","lat") %in% names(aru_norm)) &&
+           any(!is.na(aru_norm$lon)) && any(!is.na(aru_norm$lat))
+have_en <- all(c("easting","northing") %in% names(aru_norm)) &&
+           any(!is.na(aru_norm$easting)) && any(!is.na(aru_norm$northing))
+
+if (!have_ll && !have_en) {
+  stop("ARU locations need either Longitude/Latitude (e.g., long_x/lat_y) ",
+       "or Easting/Northing columns.\nColumns present: ",
+       paste(names(aru_norm), collapse=", "))
+}
+
+# 2) Make sf points (Leaflet needs EPSG:4326)
+if (have_ll) {
+  message("Using lon/lat (EPSG:4326) from columns: ",
+          paste(c("lon","lat"), collapse=", "))
+  locations_sf <- sf::st_as_sf(
+    aru_norm %>% filter(!is.na(lon), !is.na(lat)),
+    coords = c("lon","lat"),
+    crs = 4326
+  )
+} else {
+  # If you only have Easting/Northing, set the correct CRS for them.
+  # This assumes NAD83 / UTM Zone 18N (EPSG:26918). Change en_crs if yours differs.
+  en_crs <- 26918
+  message("Using easting/northing; assuming CRS = EPSG:", en_crs,
+          " (NAD83 / UTM 18N). Change 'en_crs' if different.")
+  tmp_sf <- sf::st_as_sf(
+    aru_norm %>% filter(!is.na(easting), !is.na(northing)),
+    coords = c("easting","northing"),
+    crs = en_crs
+  )
+  locations_sf <- sf::st_transform(tmp_sf, 4326)
+}
+
+# 3) Expose Long/Lat columns for plotting / popups
+coords <- sf::st_coordinates(locations_sf)
+locations_projected <- locations_sf %>%
+  mutate(Long = coords[,1], Lat = coords[,2])
+
+stopifnot(nrow(locations_projected) > 0)
 ```
 
 ## Site Map
 
 ```{r Map Sites, dpi=300, warning=FALSE, message=FALSE}
 
+pal <- leaflet::colorFactor("Set1",
+                            domain = (locations_projected$name %or% locations_projected$Name))
+
+maplng <- mean(locations_projected$Long, na.rm = TRUE)
+maplat <- mean(locations_projected$Lat,  na.rm = TRUE)
+
 leaflet(data = locations_projected, height = 725, width = "100%") %>%
   setView(lng = maplng, lat = maplat, zoom = 10) %>%
   addProviderTiles(providers$Esri.WorldImagery) %>%
-  addCircleMarkers(~Long, ~Lat,
+  addCircleMarkers(
+    ~Long, ~Lat,
     radius = 3,
-    fillColor = ~ pal(name), #adjusted already
-    stroke = TRUE,
-    color = "white",
-    weight = 0.75,
+    fillColor = ~pal(name %or% Name),
+    stroke = TRUE, color = "white", weight = 0.75,
     fillOpacity = 0.75,
-    popup = ~ paste("<strong> ARU Location: </strong>", Point_ID,"<br>") #adjust
-  ) %>% 
-  addLegend(
-    "bottomright",
-    pal = pal,
-    values = ~ as.factor(),#maybe in here it can be restoration or control
-    opacity = .98,
-    title = "ARU Location"
-  )
+    popup = ~ paste0("<strong>ARU: </strong>", (name %or% Name),
+                     "<br><strong>Lon: </strong>", round(Long,6),
+                     "<br><strong>Lat: </strong>", round(Lat,6))
+  ) %>%
+  addLegend("bottomright", pal = pal,
+            values = ~ (name %or% Name),
+            opacity = .95, title = "ARU Location")
 ```
 
 ## Recording Schedule Graphics

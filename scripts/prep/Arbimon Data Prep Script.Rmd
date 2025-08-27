@@ -1,0 +1,171 @@
+---
+title: "Arbimon Data Prep Script"
+author: "Kelly Faller"
+date: "2024-10-11"
+output: html_document
+# >>> Edit only these params <<<
+params:
+  project_dir: "C:/Users/kelly/Documents/Master's Project Files/Arbimon Backups/salt-marsh-restoration-soundscape-project_2025-08-12_export"
+  recordings_pattern: '^recordings\.'          # matches recordings.0001, recordings.0002, ...
+  sites_pattern: '^sites\.\d+(\.csv)?$'
+  # EITHER provide the explicit metadata file path OR leave null to auto-detect with sites_pattern
+  metadata_file: null
+
+  join_by_recording: ["site_id"]
+  join_by_metadata:  ["site_id"]
+
+  datetime_candidates: ["datetime", "timestamp", "date_time"]
+  datetime_orders: ["Y-m-d H:M:S", "m/d/Y H:M:S", "Y-m-dTH:M:SZ"]
+  tz: "UTC"
+
+  keep_columns: null
+
+  output_file: "C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/Metadata/Recording_Metadata.csv"
+  write_parquet: false
+  parquet_file: "C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/Metadata/Recording_Metadata.parquet"
+---
+
+This document provides a standardized workflow for preparing Arbimon project data for analysis.
+To begin, log in to your Arbimon account and request a full project backup from the site. Arbimon will email you a download link to a .zip file containing all of your project data.
+Unzip this file to your computer. Inside, you will find the Recording Files CSVs (often split into multiple files if your project is large, starting with recordings.0001.csv), pattern matching results (pattern_matchings.0001.csv), site information (sites.0001.csv), as well as other analytical results and  metadata files. These files are the inputs for this prep script, which will combine, clean, and format them into a single dataset ready for analysis. Please do not adjust the code below, as it is written to be repeatable by any user of this script. The only information you should be changing is above in the YAML header. The parameters is where you will input your own file paths and parameters used wihtin the document. After that, it should be ready to go!
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+
+suppressPackageStartupMessages({
+  library(tidyverse)
+  library(lubridate)
+  library(vroom)     
+  library(fs)        
+  library(glue)      
+})
+
+# for optional parquet
+have_arrow <- requireNamespace("arrow", quietly = TRUE)
+```
+
+Locate and combine recording files (recording.0001.csv)
+```{r CSV Binding, include=FALSE}
+stopifnot(fs::dir_exists(params$project_dir))
+
+all_files <- fs::dir_ls(path = params$project_dir, recurse = FALSE, type = "file")
+rec_files <- all_files[grepl(params$recordings_pattern, fs::path_file(all_files), perl = TRUE)]
+
+if (length(rec_files) == 0) {
+  stop(glue("No files matching '{params$recordings_pattern}' found in '{params$project_dir}'."))
+}
+
+message(glue("Found {length(rec_files)} recording file(s). Combining..."))
+
+recordings_raw <- vroom::vroom(rec_files, .name_repair = "unique")
+message(glue("Combined recordings: {nrow(recordings_raw)} rows x {ncol(recordings_raw)} cols"))
+
+glimpse(recordings_raw, width = 80)
+
+# Esure downstream chunks have this even if you skip the join
+recordings <- recordings_raw
+
+```
+Load and join site metadata
+
+```{r}
+meta_path <- NULL
+
+if (!is.null(params$metadata_file)) {
+  meta_path <- params$metadata_file
+  if (!fs::file_exists(meta_path)) stop(glue("metadata_file not found: {meta_path}"))
+} else {
+  site_candidates <- all_files[grepl(params$sites_pattern, fs::path_file(all_files), perl = TRUE)]
+  if (length(site_candidates) >= 1) meta_path <- site_candidates[1]
+}
+
+if (!is.null(meta_path)) {
+  metadata <- vroom::vroom(meta_path, .name_repair = "unique")
+  message(glue("Loaded metadata '{fs::path_file(meta_path)}': {nrow(metadata)} rows x {ncol(metadata)} cols"))
+
+  rec_cols  <- as.character(params$join_by_recording)
+  meta_cols <- as.character(params$join_by_metadata)
+  stopifnot(length(rec_cols) == length(meta_cols))
+
+  if (length(setdiff(rec_cols, names(recordings))) > 0) stop("Recording join column missing.")
+  if (length(setdiff(meta_cols, names(metadata))) > 0)  stop("Metadata join column missing.")
+
+  join_map <- stats::setNames(meta_cols, rec_cols)
+  recordings <- dplyr::left_join(recordings, metadata, by = join_map)
+  message(glue("After join: {nrow(recordings)} rows x {ncol(recordings)} cols"))
+} else {
+  message("No metadata file used (none specified and none auto-detected). Skipping join.")
+}
+
+```
+
+Parse datetime & add calendar fields
+
+```{r CSV Binding, include=FALSE}
+# Pick first existing datetime column from candidates
+dt_col <- NULL
+for (c in params$datetime_candidates) {
+  if (c %in% names(recordings)) { dt_col <- c; break }
+}
+if (is.null(dt_col)) {
+  stop(glue("None of the datetime candidates found in data: {paste(params$datetime_candidates, collapse=', ')}"))
+}
+
+# Helper: robust parse using multiple orders, handle trailing 'Z' (UTC)
+parse_dt <- function(x, orders, tz = "UTC") {
+  if (inherits(x, "POSIXct")) return(with_tz(x, tz))
+
+  # Normalize ISO-8601 'Z' to '+00:00' (timezone offset) so parser is happy
+  x_norm <- if (is.character(x)) sub("Z$", "+00:00", x) else x
+
+  # Try lubridate’s fast helpers first, then fallback to parse_date_time
+  out <- suppressWarnings(lubridate::ymd_hms(x_norm, tz = tz, quiet = TRUE))
+  if (all(is.na(out))) out <- suppressWarnings(lubridate::mdy_hms(x_norm, tz = tz, quiet = TRUE))
+  if (all(is.na(out))) out <- suppressWarnings(lubridate::ymd_hm (x_norm, tz = tz, quiet = TRUE))
+  if (all(is.na(out))) out <- suppressWarnings(lubridate::mdy_hm (x_norm, tz = tz, quiet = TRUE))
+  if (all(is.na(out))) out <- suppressWarnings(lubridate::ymd    (x_norm, tz = tz, quiet = TRUE))
+  if (all(is.na(out))) out <- suppressWarnings(lubridate::mdy    (x_norm, tz = tz, quiet = TRUE))
+
+  # Final fallback uses your YAML orders
+  if (all(is.na(out))) {
+    out <- suppressWarnings(lubridate::parse_date_time(x_norm, orders = orders, tz = tz, quiet = TRUE))
+  }
+  out
+}
+
+recordings <- recordings %>%
+  mutate(
+    datetime_parsed = parse_dt(.data[[dt_col]], params$datetime_orders, params$tz),
+    Julian_Day = yday(datetime_parsed),
+    Year       = year(datetime_parsed)
+  )
+
+parsed_rate <- mean(!is.na(recordings$datetime_parsed)) * 100
+message(glue("Datetime parse success from column '{dt_col}': {round(parsed_rate, 1)}%"))
+if (parsed_rate == 0) {
+  stop(glue("Failed to parse any datetimes from '{dt_col}'. Check 'datetime_orders' and your data format."))
+}
+
+```
+
+Final outputs
+
+```{r Final, include=FALSE}
+
+# Ensure output folders exist
+fs::dir_create(fs::path_dir(params$output_file))
+readr::write_csv(recordings, params$output_file)
+size <- fs::file_info(params$output_file)$size
+message(glue("Wrote CSV: {params$output_file} ({format(size, big.mark=',')} bytes)"))
+
+if (isTRUE(params$write_parquet)) {
+  if (!have_arrow) {
+    warning("write_parquet = TRUE but the 'arrow' package is not installed; skipping Parquet.")
+  } else {
+    fs::dir_create(fs::path_dir(params$parquet_file))
+    arrow::write_parquet(recordings, params$parquet_file)
+    message(glue("Wrote Parquet: {params$parquet_file}"))
+  }
+}
+
+```

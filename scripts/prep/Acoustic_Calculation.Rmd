@@ -1,0 +1,156 @@
+---
+title: "Acoustic Calculation Script"
+author: "Kelly Faller (adapted)"
+date: "2025-06-09"
+output: 
+  html_document:
+    toc: true
+    number_sections: true
+    toc_float: true
+    theme: flatly
+    code_folding: hide
+params:
+  write_combined: true
+---
+# Purpose
+This code is meant to generate acoustic index values and conduct bioacoustic calculations in the absence of Kaliedoscope. Kaliedoscope (Wildlife Acoustics) is fantastic and can run these calculations very quickly. However, the software comes at an annual rate of $399. 
+
+This code is coming from Donovan Tye's "acoustic indices.R" script. I've amended the end of the script to create one dataset for queries.
+
+```{r setup, include= FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+
+# ==== USER SETTINGS - change these for each project ====
+main_dir <- "D:/Acoustic Data/Masters - Cattus and LHC"  # top-level directory
+output_dir <- "C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/Outputs/Acoustic_Index" #where you want the outputs to go
+cores <- 10 # how much computational power you need
+min_freq   <- 0
+max_freq   <- 22000
+db_thresh  <- -35
+
+# Create output directory if missing
+if (!dir.exists(output_dir)) dir.create(output_dir, recursive = TRUE)
+
+suppressPackageStartupMessages({
+  library(tidyverse)
+  library(lubridate)
+  library(glue)
+  library(tuneR)
+  library(seewave)
+  library(soundecology)
+})
+
+# helper: only keep folders that actually contain WAVs
+has_wavs <- function(path) any(grepl("(?i)\\.wav$", list.files(path, full.names = FALSE)))
+subfolders <- list.dirs(main_dir, recursive = TRUE, full.names = TRUE)
+subfolders <- subfolders[vapply(subfolders, has_wavs, logical(1))]
+stopifnot(length(subfolders) > 0)
+
+```
+
+```{r Run Indices}
+run_indices <- function(wav_dir, out_prefix) {
+  message("Processing: ", out_prefix, " @ ", wav_dir, 
+          " | band ", min_freq, "–", max_freq, " Hz")
+
+  # ACI
+  multiple_sounds(
+    directory  = wav_dir,
+    resultfile = file.path(output_dir, paste0(out_prefix, "_ACI_F.csv")),
+    soundindex = "acoustic_complexity",
+    min_freq   = min_freq, 
+    max_freq   = max_freq, 
+    no_cores   = cores
+  )
+
+  # ADI
+  multiple_sounds(
+    directory  = wav_dir,
+    resultfile = file.path(output_dir, paste0(out_prefix, "_ADI_F_35db.csv")),
+    soundindex = "acoustic_diversity",
+    db_threshold = db_thresh,
+    no_cores   = cores
+  )
+
+  # AEI
+  multiple_sounds(
+    directory  = wav_dir,
+    resultfile = file.path(output_dir, paste0(out_prefix, "_AEI_F.csv")),
+    soundindex = "acoustic_evenness",
+    no_cores   = cores
+  )
+
+  # BI
+  multiple_sounds(
+    directory  = wav_dir,
+    resultfile = file.path(output_dir, paste0(out_prefix, "_BI_F.csv")),
+    soundindex = "bioacoustic_index",
+    min_freq   = min_freq, 
+    max_freq   = max_freq, 
+    no_cores   = cores
+  )
+
+  # NDSI (defaults OK; leave band out unless you want to constrain)
+  multiple_sounds(
+    directory  = wav_dir,
+    resultfile = file.path(output_dir, paste0(out_prefix, "_NDSI_F.csv")),
+    soundindex = "ndsi",
+    no_cores   = cores
+  )
+
+  # Acoustic Entropy (H)
+  multiple_sounds(
+    directory  = wav_dir,
+    resultfile = file.path(output_dir, paste0(out_prefix, "_H_F.csv")),
+    soundindex = "H",
+    no_cores   = cores
+  )
+}
+
+for (folder in subfolders) {
+  run_indices(folder, basename(folder))
+}
+```
+
+Create one large dataset for queries. 
+
+```{r Combine, eval = params$write_combined}
+`%||%` <- function(x, y) if (is.null(x)) y else x
+
+extract_metadata <- function(df, csv_path) {
+  site_pat <- "(?i)[A-Z]{2,5}_[A-Z]{0,3}\\d{1,3}"  # e.g., CAT_A1, LHC_01
+  ts_str   <- stringr::str_extract(df$FILENAME %||% "", "\\d{8}_\\d{6}")
+  site_fn  <- stringr::str_extract(df$FILENAME %||% "", site_pat)
+  site_csv <- toupper(sub("_(ACI|ADI|AEI|BI|NDSI|H).*", "", basename(csv_path)))
+
+  # normalize DB_THRESHOLD if present
+  has_db <- names(df)[tolower(names(df)) == "db_threshold"]
+  if (length(has_db) == 1 && !"DB_THRESHOLD" %in% names(df)) {
+    df$DB_THRESHOLD <- as.character(df[[has_db]])
+  } else if (!"DB_THRESHOLD" %in% names(df)) {
+    df$DB_THRESHOLD <- NA_character_
+  }
+
+  df %>%
+    dplyr::mutate(
+      site_name = dplyr::coalesce(site_fn, site_csv),
+      recording_datetime = suppressWarnings(
+        lubridate::ymd_hms(stringr::str_replace(ts_str, "_", " "), tz = "UTC", quiet = TRUE)
+      )
+    )
+}
+
+all_csvs <- list.files(output_dir, pattern = "_(ACI|ADI|AEI|BI|NDSI|H)_F\\.csv$", full.names = TRUE)
+
+if (length(all_csvs)) {
+  ResultsData <- purrr::map_dfr(all_csvs, ~{
+    df <- suppressMessages(readr::read_csv(.x, show_col_types = FALSE))
+    extract_metadata(df, .x)
+  })
+  out_file <- file.path(output_dir, "all_indices_combined.csv")
+  readr::write_csv(ResultsData, out_file)
+  message("Combined file: ", out_file)
+} else {
+  warning("No per-index CSVs found to combine in: ", output_dir)
+}
+```

@@ -1,0 +1,19 @@
+paths:
+  aru_locations: "data/metadata/aru_sites_stations.csv"
+  recording_metadata: "data/metadata/recording_metadata.csv"
+  arbimon_pm_results: "data/metadata/recording_metadata.csv"
+  arbimon_species_meta: "data/metadata/species_list.csv"
+  indices_dir: "outputs/indices/"
+  birdnet_predictions: "outputs/predictions/predictions.csv"
+outputs:
+  processed_dir: "data/processed"
+  figures_dir:   "outputs/figures"
+  reports_dir:   "outputs/reports"
+params:
+  min_freq_hz: 0
+  max_freq_hz: 16000
+  db_threshold: -35
+  session_length: 900
+  site_crs: 4326
+  cores: 10
+  thresholds: [0.5, 0.75, 0.9, 0.95]

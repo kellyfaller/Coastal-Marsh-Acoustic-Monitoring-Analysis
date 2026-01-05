@@ -18,41 +18,9 @@ params:
 ```{r Clear, warning=FALSE, message=FALSE}
 # Clear environment for a clean workspace.
 rm(list=ls())
-```
 
-```{r setup, include=FALSE}
-# Reproducible knitr defaults
-knitr::opts_chunk$set(
-  echo = TRUE, message = FALSE, warning = FALSE, fig.align = "center"
-)
-
-# Helpers
-`%||%` <- function(x, y) if (is.null(x) || (is.character(x) && x == "")) y else x
-
-# Resolve paths safely on any OS
-fp <- function(...){ normalizePath(file.path(...), mustWork = FALSE) }
-
-dir.create(params$output_dir, showWarnings = FALSE, recursive = TRUE)
-dir.create(fp(params$output_dir, "Acoustic_Index"), showWarnings = FALSE, recursive = TRUE)
-
-paths <- list(
-  wav_dir               = fp(params$wav_dir),
-  aru_locations         = fp(params$aru_locations),
-  recording_metadata    = fp(params$recording_metadata),
-  arbimon_pm_results    = fp(params$arbimon_pm_results),
-  arbimon_species_meta  = fp(params$arbimon_species_metadata),
-  output_dir            = fp(params$output_dir),
-  sparrow_image_path    = fp(params$sparrow_image_path)
-)
-
-min_f   <- as.numeric(params$min_freq_hz)
-max_f   <- as.numeric(params$max_freq_hz)
-db_thr  <- as.numeric(params$db_threshold)
-sess_s  <- as.integer(params$session_length)
-cores   <- as.integer(params$cores)
-
-# Optional parquet precheck if you ever add it later
-have_arrow <- requireNamespace("arrow", quietly = TRUE)
+#figure out a way to run without this
+setwd("C:\\Users\\kelly\\Documents\\GitHub\\Soundscape-Analysis-Rare-Bird-Detection")
 ```
 
 ```{r Loading Libraries, warning=FALSE, message=FALSE}
@@ -88,7 +56,7 @@ library(camtrapR)
 library(fmsb)
 #summary
 library(vtable)
-#audio will turn on if necessary
+#audio 
 library(embed)
 #soundscape
 library(seewave)
@@ -104,7 +72,8 @@ This project analyzes acoustic monitoring data to assess patterns in species det
 ```{r Purpose, out.width='50%', fig.align='center'}
 #| fig.cap="Image 1. Field deployment of an acoustic recording unit (ARU) in a coastal marsh habitat. This photograph highlights the setup of the ARU on a PVC mounting pole, used for long-term acoustic monitoring of wetland soundscapes. Photo by Theodore Diehl."
 
-knitr::include_graphics("../Images/GAR_01.jpg")
+#figure out a way to automate this. having a hard time with "../docs/images/GAR_01.jpg"
+knitr::include_graphics("C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/docs/images/GAR_01.jpg")
 ```
 
 # Project Methods
@@ -117,17 +86,18 @@ Before getting to this stage. You should
 * Create a CSV file with the ARU station location metadata and save it to where 'aru_locations' says above. It should have 5 columns, "Name", "long_x", "lat_y", "easting_X", and "northing_Y". This is not super necessary since the metadata has the location in it, but it is currently used in this script.
 
 ```{r Loading All, include=FALSE}
-aru_locations <- readr::read_csv(params$aru_locations, show_col_types = FALSE)
-stopifnot(nrow(aru_locations) > 0)
+
+#figure out a way to automate this. having a hard time with automation 
+aru_locations <- readr::read_csv("C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/data/metadata/aru_sites_stations.csv", show_col_types = FALSE)
+
 ```
 
 Arbimon
 ```{r Loading Arbimon, include=FALSE}
-recording_metadata <- vroom::vroom(paths$recording_metadata, show_col_types = FALSE)
-pm_results         <- vroom::vroom(paths$arbimon_pm_results, show_col_types = FALSE)
-species_metadata   <- vroom::vroom(paths$arbimon_species_meta, show_col_types = FALSE)
+recording_metadata <- readr::read_csv("C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/data/metadata/recording_metadata.csv", show_col_types = FALSE)
+pm_results         <- readr::read_csv("C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/data/arbimon/pm_detections.csv", show_col_types = FALSE)
+species_metadata   <-  readr::read_csv("C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/data/arbimon/species.0001.csv", show_col_types = FALSE)
 
-stopifnot(nrow(aru_locations) > 0)
 
 # Robust datetime handling from prep output:
 # Accept 'datetime_parsed' (preferred) or fallback to 'datetime'
@@ -164,10 +134,6 @@ if (!"name" %in% names(recording_metadata)) {
   if (!is.na(nm)) recording_metadata$name <- recording_metadata[[nm]]
 }
 
-# Quick sanity prints
-message(glue("recording_metadata: {nrow(recording_metadata)} rows, {ncol(recording_metadata)} cols"))
-rng <- range(recording_metadata$datetime_parsed, na.rm = TRUE)
-message(glue("Recording datetime range: {rng[1]} -> {rng[2]}"))
 ```
 
 Arbimon Joins  (species + recordings)
@@ -321,6 +287,8 @@ index_timeofday <- indices_wide %>%
 ## Data Wrangling - Yeehaw!
 
 Arbimon
+
+# this seems to double up what was there before?????
 ```{r YeeHaw Arbimon, include=FALSE}
 species_ID1 <- merge(pm_results, species_metadata, by = "species_id")
 species_IDs <- merge(species_ID1, recording_metadata, by = "recording_id")         
@@ -977,5 +945,6 @@ plot_grid(a,
           ncol= 3,
           labels="AUTO")
 ```
+
 
 <div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;"></div>

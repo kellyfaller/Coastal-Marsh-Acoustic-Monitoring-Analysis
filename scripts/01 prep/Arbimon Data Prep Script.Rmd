@@ -65,17 +65,12 @@ pick_datetime_col <- function(df, candidates) {
 
 # robust parser allowing multiple formats
 parse_dt <- function(x, orders, tz = "UTC") {
-  # already POSIXct? just retimezone
   if (inherits(x, "POSIXct")) return(lubridate::with_tz(x, tz))
-
-  # coerce to character and normalize common ISO-8601 shapes:
-  # - replace 'T' separator with space
-  # - drop trailing 'Z' (treat as UTC)
-  # - trim whitespace
-  xc <- trimws(as.character(x))
-  xc <- sub("T", " ", xc, fixed = TRUE)
-  had_z <- grepl("Z$", xc, perl = TRUE)
-  xc <- sub("Z$", "", xc, perl = TRUE)
+ 
+  xc <- trimws(as.character(x)) # coerce to character and normalize common ISO-8601 shapes
+  xc <- sub("T", " ", xc, fixed = TRUE)  # replace 'T' separator with space
+  had_z <- grepl("Z$", xc, perl = TRUE) # drop trailing 'Z' (treat as UTC)
+  xc <- sub("Z$", "", xc, perl = TRUE)  # trim whitespace
 
   # first try fast parser for ymd_hms
   dt <- suppressWarnings(lubridate::ymd_hms(xc, tz = tz, quiet = TRUE))

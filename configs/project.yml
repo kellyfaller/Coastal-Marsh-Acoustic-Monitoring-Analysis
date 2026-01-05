@@ -1,24 +1,42 @@
 paths:
   aru_locations: "data/metadata/aru_sites_stations.csv"
   recording_metadata: "data/metadata/recording_metadata.csv"
-  arbimon_pm_results: "data/metadata/recording_metadata.csv"
+  arbimon_pm_results: "data/arbimon/pm_detections.csv"
   arbimon_species_meta: "data/metadata/species_list.csv"
-  indices_dir: "outputs/indices/"
-  birdnet_predictions: "outputs/predictions/predictions.csv"
+  # point counts
+  cattus_2025_pc: "data/point_count/Cattus_2025_Point_Count_Data_KFaller.csv"
+  lhc_2025_pc: "data/point_count/LHC_2025_Point_Count_Data_KFaller.csv"
+  site_metadata: "data/metadata/pointcount_site_metadata.csv"
+  habitat_lookup: "data/point_count/spp_lookup_table.csv"
+  # birdNET
+  birdnet_results: "data/processed/birdNET/birdNET_results_2025.csv"
+  bird_guild: "data/metadata/species_list.csv"
 outputs:
   processed_dir: "data/processed"
   figures_dir:   "outputs/figures"
   reports_dir:   "outputs/reports"
+  indices_dir: "outputs/indices"
+  models_dir: "outputs/models"
 params:
+ # point count analysis
+  individual_birds: ["CLRA","BLRA","LEBI","AMBI","SORA","VIRA","KIRA","COGA"]
+  focal_species: "RWBL" # for the density/abundance graphics. Specify which bird to run with
+  total_area_m2: 2326317 
+  point_count_radius: 200 #m2
+ # graphics
+  height: 10
+  width: 15
+  dpi: 300
+ # acoustic index generation 
   min_freq_hz: 0
   max_freq_hz: 16000
   db_threshold: -35
   session_length: 900
-  site_crs: 4326
   cores: 10
+  # mapping and embedded images/audio
+  site_crs: 4326
   thresholds: [0.5, 0.75, 0.9, 0.95]
   use_leaflet_map: true       
-  sparrow_image_path: "../docs/images/SALS.png"
-  site_crs: 4326 
+  sparrow_image_path: "docs/images/SALS.png"
   map_center_lng: -75.15925
   map_center_lat: 39.045748

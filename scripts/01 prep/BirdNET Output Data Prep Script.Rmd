@@ -1,0 +1,141 @@
+---
+title: "BirdNET Outputs Data Prep"
+author: "Kelly Faller"
+date: '2023-06-08'
+output: html_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load Packages
+
+
+```{r, warning=FALSE, include=FALSE}
+library(tidyverse)
+library(lubridate)
+library(bit64)
+library(magrittr)
+library(plyr)
+library(readr)
+library(data.table)
+library(chron)
+```
+
+## Create one CSV
+
+Taking the folder full of individual CSV files for each output file (in BirdNET, there is one for every recording) and creating one master CSV
+
+Changing the working directory back to my personal wd that connects with GitHub
+
+Working directory set up - location where the CSV's will be held. This will change every time you run the script. Currently it is referencing my working ARU external
+harddrive. I have it broken down by station, deployment, and day
+
+```{r CSV Binding, include=FALSE}
+root <- "C:/Users/kelly/Documents/Master's Project Files/02_data_processed/birdNET/2025/CAT_A1"
+
+all_paths <- list.files(
+  path = root,
+  pattern = "BirdNET\\.results\\.csv$",
+  full.names = TRUE,
+  recursive = TRUE
+)
+
+all_content <- lapply(all_paths, function(p) {
+  x <- tryCatch(fread(p, encoding = "UTF-8", data.table = FALSE),
+               error = function(e) NULL)
+  if (is.null(x) || nrow(x) == 0) return(NULL)
+  x
+})
+all_content <- Filter(Negate(is.null), all_content)
+
+all_result <- rbindlist(all_content, fill = TRUE)
+
+# FIX: rename the first 6 columns by position (Start/End/Scientific/Common/Confidence/File)
+all_result <- as.data.frame(all_result)
+if (ncol(all_result) >= 6) {
+  names(all_result)[1:6] <- c("Start_s","End_s","Scientific_Name","Common_Name","Confidence","File")
+}
+
+# drop any non-detection rows if present
+all_result <- all_result %>% filter(!is.na(Start_s))
+
+# parse Detector_ID/Date/Time from File path and create Year + DateTime
+species_data <- all_result %>%
+  mutate(
+    Audio_File = basename(as.character(File)),
+    Audio_Stem = sub("\\.wav$", "", Audio_File, ignore.case = TRUE)
+  ) %>%
+  separate(Audio_Stem, c("Detector_ID", "Date", "Time"), sep = "_", extra = "drop") %>%
+  mutate(
+    Time = substr(Time, 1, 6),
+    Date = ymd(Date),
+    Year = year(Date),
+    DateTime = ymd_hms(paste(Date, Time), tz = "UTC")
+  )
+
+# ---- Metadata join (Year + Unit) ----
+meta_path <- "C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/data/metadata/LHC-Cattus_ARU_Site_Metadata.csv"
+metadata <- fread(meta_path, encoding = "UTF-8", data.table = FALSE)
+
+metadata <- metadata %>%
+  mutate(
+    Year = as.integer(Year),
+    Unit = trimws(as.character(Unit))
+  )
+
+species_data <- species_data %>%
+  mutate(Detector_ID = trimws(as.character(Detector_ID))) %>%
+  left_join(
+    metadata %>% select(Year, Unit, Site, Station, Lat, Long),
+    by = c("Year" = "Year", "Detector_ID" = "Unit")
+  )
+
+write.csv(
+  species_data,
+  "C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/data/processed/birdNET/2025 individual/CAT_A1_BirdNET_processed.csv",
+  row.names = FALSE
+)
+
+```
+
+## Create final CSV
+
+Combining the CSVs created from above chunk and create a final working CSV for graphics
+
+```{r CSV Binding, include=FALSE}
+
+# read file path
+all_paths <-
+  list.files(path = "C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/data/processed/birdNET/2025 individual/",
+             pattern = "*.csv",
+             full.names = TRUE)
+
+# read file content
+all_content <-
+  all_paths %>%
+  lapply(read.table,
+         header = TRUE,
+         sep = ",",
+         encoding = "UTF-8")
+
+# read file name
+all_filenames <- all_paths %>%
+  basename() %>%
+  as.list()
+
+# combine file content list and file name list
+all_lists <- mapply(c, all_content, all_filenames, SIMPLIFY = FALSE)
+
+# unlist all lists and change column name
+all_result <- rbindlist(all_lists, fill = T)
+# change column name
+names(all_result)[13] <- "File_Name"
+
+write.csv(all_result,"C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/data/processed/birdNET/birdNET_results_2025.csv", row.names = FALSE)  
+
+```
+
+

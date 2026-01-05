@@ -1,0 +1,551 @@
+---
+title: "LCLT Bird Script"
+author: "Kelly Faller"
+date: "2024-10-16"
+output: html_document
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load Packages
+
+```{r, warning=FALSE, include=FALSE}
+#graphics
+library(ggplot2)
+library(tidyverse)
+library(lubridate)
+library(scales)
+library(ggpubr)
+library(rstatix)
+library(ggpmisc)
+library(tibble)
+library(timetk)
+library(plotly)
+library(data.table)
+library(plyr)
+library(multcomp)
+library(purrr)
+library(ggsignif)
+# density and abundance estimations
+library(leaflet)
+library(vegan)
+library(gt)
+library(knitr)
+library(kableExtra)
+library(envalysis)
+library(sads)
+library(effects)
+library(unmarked)
+#reproducibility
+library(yaml)
+library(here)
+#summary
+library(vtable)
+```
+
+## Load Data
+
+This is using the YAML.project in the configs folder. The idea here is to not have hard coded file paths baked into the R script. Adjust file paths and parameters there when necessary.The rest of the code should run without tweaks.
+```{r Loading, include=FALSE}
+#run YAML 
+cfg <- yaml::read_yaml(here("configs", "project.yml"))
+cfg$paths   <- lapply(cfg$paths, here)
+cfg$outputs <- lapply(cfg$outputs, here)
+invisible(lapply(cfg$outputs, dir.create, recursive = TRUE, showWarnings = FALSE))
+
+# Reading CSV files into data frames using YAML 
+cattus_2025_pc   <- readr::read_csv(cfg$paths$cattus_2025_pc,   show_col_types = FALSE)
+lhc_2025_pc      <- readr::read_csv(cfg$paths$lhc_2025_pc,      show_col_types = FALSE)
+site_metadata    <- readr::read_csv(cfg$paths$site_metadata,    show_col_types = FALSE)
+habitat_lookup   <- readr::read_csv(cfg$paths$habitat_lookup,   show_col_types = FALSE)
+
+#combining sites
+point_counts_2025 <- rbind(cattus_2025_pc, lhc_2025_pc)
+#cleaning the name of the column Point ID to take out space (computers hate spaces)
+point_counts_2025 <- dplyr::rename(point_counts_2025, Point_ID = 'Point ID')
+```
+
+## Formatting
+
+```{r Formatting, include=FALSE}
+# creating a datetime column and formatting times
+point_counts_2025 <- point_counts_2025 %>% 
+    unite(Datetime, SurveyDate, SurveyTime, sep = " ", remove= FALSE) 
+
+point_counts_2025 <- point_counts_2025 |>
+  dplyr::mutate(
+    SurveyDate = lubridate::dmy(SurveyDate),
+    Datetime   = lubridate::dmy_hms(Datetime),
+    Year       = lubridate::year(Datetime))
+
+#adding in lat and long info for each line of code
+point_counts_2025 <- point_counts_2025 %>%
+  left_join(
+    site_metadata %>% dplyr::select(Point_ID, Lat, Long),
+    by = "Point_ID")
+
+#including habitat type (really rough categories. mostly for filtering out upland)
+point_counts_2025 <- point_counts_2025 %>%
+  left_join(
+    habitat_lookup%>% dplyr::select(AlphaCode, Habitat),
+    by = "AlphaCode")
+
+# Creating a specific subgroup of birds that are treated differently in the dataset so I can filter them out. These birds are recorded on an individual basis, rather than as a species population. Basically, what that means is that there are multiple rows assicated with one Point_ID. R hates that because it needs all data for one point to fit into one row. The code below handles this issue.
+individual_birds <- cfg$params$individual_birds
+
+# creating a new dataset without the birds being treated as individuals
+
+# Community birds dataset (excluding individual birds) - only the columns called out in id_cols are included, so if other data is needed later, fill those column headers in. For example, if we want to know how tides relate to bird diversity, we would have to add tides back in. 
+community_bird_data <- point_counts_2025 %>%
+    filter(!AlphaCode %in% individual_birds) %>%
+    pivot_wider(
+        id_cols = c("Point_ID", "Datetime", "DistBand", "Site", "Tide", "VisitNum", "Habitat"),
+        names_from = "AlphaCode", 
+        values_from = "TotalCount")
+
+# Cleaning up community bird data by unnesting any list columns
+community_bird_data <- community_bird_data %>%
+    mutate(across(where(is.list), ~map(., first))) %>%
+    unnest(cols = everything())
+
+# Individual birds dataset (including only individual species) - only the columns called out in id_cols are included, so if other data is needed later, fill those column headers in. For example, if we want to know how tides relate to bird diversity, we would have to add tides back in
+individual_bird_data <- point_counts_2025 %>%
+    filter(AlphaCode %in% individual_birds) %>%
+    pivot_wider(
+        id_cols = c("Point_ID", "Datetime", "DistBand", "Site", "Tide", "VisitNum", "Habitat"), 
+        names_from = "AlphaCode", 
+        values_from = "TotalCount", 
+        values_fn = sum )
+
+# FINALLY, merge the two datasets to have a final dataset to use for graphics and analysis- only the columns called out in id_cols are included, so add those new columns in!
+
+point_counts_2025_clean <- full_join(community_bird_data, individual_bird_data, by = c("Point_ID", "Datetime", "DistBand", "Site", "Tide", "VisitNum", "Habitat"))
+
+```
+
+# Extra formatting for summarizing
+
+```{r Formatting Summaries, include=FALSE}
+
+point_counts_2025_clean <- point_counts_2025_clean %>%
+  mutate(Site = factor(Site),VisitNum = factor(VisitNum),Point_ID = factor(Point_ID), Habitat = factor(Habitat) )
+
+# Shannon Diversity Index (H')
+shannon_diversity <- function(x) {
+    p <- x / sum(x, na.rm = TRUE)
+    p <- p[p > 0]  # Filter out zeroes
+    -sum(p * log(p), na.rm = TRUE)}
+
+# Calculate total count, species richness, and shannon diversity. The order of these is important because we do not want the value of the new columns to be included in the calculations of the successive columns
+point_counts_2025_clean <- point_counts_2025_clean %>%
+  dplyr::mutate(
+    Total_Count = rowSums(
+      dplyr::select(., -c(Point_ID, Datetime, DistBand, Site, Tide, VisitNum, Habitat)) %>%
+        dplyr::select_if(is.numeric),
+      na.rm = TRUE))
+
+point_counts_2025_clean <- point_counts_2025_clean %>%
+  dplyr::mutate(
+    Species_Richness = rowSums(
+      (dplyr::select(., -c(Point_ID, Datetime, DistBand, Site, Tide, VisitNum, Habitat, Total_Count)) %>%
+         dplyr::select_if(is.numeric)) > 0,
+      na.rm = TRUE))
+
+point_counts_2025_clean <- point_counts_2025_clean %>%
+  dplyr::mutate(
+    Shannon_Diversity = apply(
+      dplyr::select(., -c(Point_ID, Datetime, DistBand, Site, Tide, VisitNum, Habitat,
+                          Total_Count, Species_Richness)) %>%
+        dplyr::select_if(is.numeric), 1, shannon_diversity))
+```
+
+# Graphics
+
+Adjust any graphic parameters in the YAML, aka height, width, DPI.
+
+```{r , echo=TRUE,fig.height=10, fig.width=15}
+total_count <- ggplot(point_counts_2025_clean, aes(x = Point_ID, y = Total_Count, color = VisitNum)) +
+  geom_boxplot() +
+  facet_wrap(~ Site, scales = "free_x") +
+  labs( title = "Total Bird Count by Site",
+    x = "Point ID",
+    y = "Total bird count") +
+  theme_publish(base_size = 18) +
+  theme(panel.grid.minor = element_blank(),
+    panel.grid.major.x = element_blank(),
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    strip.text = element_text(face = "bold"),
+    legend.position = "right")
+
+ggplot2::ggsave(
+  filename = file.path(cfg$outputs$figures_dir, "total_count_point_counts.png"),
+  plot = total_count, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
+
+marsh_total_count <- ggplot(point_counts_2025_clean %>% filter(Habitat != "Upland"), aes(x = Point_ID, y = Total_Count, color = VisitNum)) +
+  geom_boxplot() +
+  facet_wrap(~ Site, scales = "free_x") +
+  labs( title = "Total Marsh Bird Count by Site",
+    x = "Point ID",
+    y = "Total bird count") +
+  theme_publish(base_size = 18) +
+  theme(panel.grid.minor = element_blank(),
+    panel.grid.major.x = element_blank(),
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    strip.text = element_text(face = "bold"),
+    legend.position = "right")
+
+ggplot2::ggsave(
+  filename = file.path(cfg$outputs$figures_dir, "marsh_spp_total_count_point_counts.png"),
+  plot = marsh_total_count, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
+
+shannon <- ggplot(point_counts_2025_clean, aes(x = Point_ID, y = Shannon_Diversity, color = VisitNum)) +
+  geom_boxplot() +
+  facet_wrap(~ Site, scales = "free_x") +
+  labs( title = "Shannon Diversity by Site",
+    x = "Point ID",
+    y = "Shannon Diversity" ) +
+  theme_publish(base_size = 18) +
+  theme(panel.grid.minor = element_blank(),
+    panel.grid.major.x = element_blank(),
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    strip.text = element_text(face = "bold"),
+    legend.position = "right")
+
+ggplot2::ggsave(
+  filename = file.path(cfg$outputs$figures_dir, "shannon_diversity_point_counts.png"),
+  plot = shannon, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
+
+richness <- ggplot(point_counts_2025_clean, aes(x = Point_ID, y = Species_Richness, color = VisitNum)) +
+  geom_boxplot() +
+  facet_wrap(~ Site, scales = "free_x") +
+  labs( title = "Species Richness by Site",
+    x = "Point ID",
+    y = "Species Richness" ) +
+  theme_publish(base_size = 18) +
+  theme(panel.grid.minor = element_blank(),
+    panel.grid.major.x = element_blank(),
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    strip.text = element_text(face = "bold"),
+    legend.position = "right")
+
+ggplot2::ggsave(
+  filename = file.path(cfg$outputs$figures_dir, "species_richness_boxwhisker_point_counts.png"),
+  plot = richness, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
+
+bar_richness <- point_counts_2025 %>%
+  dplyr::group_by(Point_ID) %>%
+  dplyr::summarise(
+    richness = dplyr::n_distinct(AlphaCode),
+    .groups = "drop") %>%
+  ggplot(aes(x = Point_ID, y = richness, fill = Point_ID)) +
+  geom_col() +
+  labs(y = "Observed Species Richness", x = "Location") +
+  theme_publish() +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    legend.position = "none")
+
+ggplot2::ggsave(
+  filename = file.path(cfg$outputs$figures_dir, "species_richness_bar_point_counts.png"),
+  plot = bar_richness, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
+
+```
+
+```{r, echo=TRUE,fig.height=10, fig.width=15}
+
+cattus_data_with_proportions <- cattus_2025_pc %>% filter(DistBand == c("0-50m", "51-100m")) %>%
+  group_by(Site, AlphaCode) %>%
+  dplyr::summarize(Count = dplyr::n(), .groups = "drop") %>%
+  group_by(Site) %>%
+  mutate(TotalCount = sum(Count),
+         Percent = (Count / TotalCount) * 100) %>%
+  ungroup()
+
+lhc_data_with_proportions <- lhc_2025_pc %>% filter(DistBand == c("0-50m", "51-100m")) %>%
+  group_by(Site, AlphaCode) %>%
+  dplyr::summarize(Count = dplyr::n(), .groups = "drop") %>%
+  group_by(Site) %>%
+  mutate(TotalCount = sum(Count),
+         Percent = (Count / TotalCount) * 100) %>%
+  ungroup()
+
+cattus_spp_composition <- ggplot(
+  cattus_data_with_proportions %>% filter(Percent >= 1) %>%
+    mutate(AlphaCode = reorder(AlphaCode, Percent)),
+  aes(x = AlphaCode, y = Percent)) +
+  geom_col(width = 0.8, alpha = 0.9) +
+  coord_flip() +
+  scale_y_continuous(labels = label_percent(scale = 1)) +
+  labs(
+    title = "Cattus Island Species Composition (≥ 1% of detections) <100 m",
+    x = NULL,
+    y = "Percent of total detections") +
+  theme_publish(base_size = 18) +
+  theme(panel.grid.minor = element_blank())
+
+ggplot2::ggsave(
+  filename = file.path(cfg$outputs$figures_dir, "cattus_spp_composition.png"),
+  plot = cattus_spp_composition, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
+
+lhc_spp_composition <- ggplot(
+  lhc_data_with_proportions %>%
+    filter(Percent >= 1) %>%
+    mutate(AlphaCode = reorder(AlphaCode, Percent)),
+  aes(x = AlphaCode, y = Percent)) +
+  geom_col(width = 0.8, alpha = 0.9) +
+  coord_flip() +
+  scale_y_continuous(labels = label_percent(scale = 1)) +
+  labs(
+    title = "Lighthouse Center Species Composition (≥ 1% of detections) <100 m",
+    x = NULL,
+    y = "Percent of total detections" ) +
+  theme_publish(base_size = 18) +
+  theme(panel.grid.minor = element_blank())
+
+ggplot2::ggsave(
+  filename = file.path(cfg$outputs$figures_dir, "lhc_spp_composition.png"),
+  plot = lhc_spp_composition, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
+
+```
+
+## Summaries
+```{r , echo=TRUE}
+#total distinct species across all point counts
+n_distinct(point_counts_2025$AlphaCode)
+
+#sumamry table
+st(point_counts_2025_clean %>% dplyr::select(c("Total_Count", "Species_Richness", "Shannon_Diversity", "DistBand", "Site", "Habitat")))
+```
+## Point Count Maps
+
+Adapting code from Serge Morand & Kittipong Chaisiri of HealthDEEP-CNRS, derived from https://rpubs.com/HealthDEEP/1377217
+
+Displaying point count sites with buffers and levels of abundance.
+
+```{r , echo=TRUE}
+
+#create a unique species dataframe so each dot represents the number of unique species
+alpha_species_by_point <- point_counts_2025 %>%
+  dplyr::filter(!is.na(AlphaCode)) %>%
+  dplyr::group_by(Site, Point_ID, AlphaCode) %>%
+  dplyr::summarise(
+    Lat  = dplyr::first(Lat),
+    Long = dplyr::first(Long),
+    .groups = "drop")
+
+leaflet() %>%
+  addTiles() %>%
+  addCircleMarkers(data = alpha_species_by_point,
+                   label = ~as.character(AlphaCode),
+                   popup = leafpop::popupTable(alpha_species_by_point),
+                   fillColor = "blue", weight = 0.5,
+                   ~ Long,
+                   ~ Lat,
+                   group = "birds",
+                   clusterOptions = markerClusterOptions(),
+                   stroke = FALSE, fillOpacity = 0.6) %>%
+  addProviderTiles(providers$Esri.WorldStreetMap,group ="WSM") %>%
+  addTiles(group = "OSM") %>%
+  addTiles(urlTemplate = "https://mts1.google.com/vt/lyrs=s&hl=en&src=app&x={x}&y={y}&z={z}&s=G",
+           attribution = 'Google',group ="Google") %>%
+  addLayersControl(baseGroups = c("WSM","OSM","Google"),
+                   overlayGroups = c("birds"),
+                   options = layersControlOptions(collapsed = FALSE)) %>%
+  addScaleBar(position = "bottomright",
+              scaleBarOptions(maxWidth = 100, metric = TRUE, imperial = FALSE,
+                              updateWhenIdle = TRUE))  
+
+```
+
+This code is derived from the above author and uses the Vegan r package. It generates a community matrix to estimates the total species pool for the study area, accounting for imperfect detection and undersampling.
+
+The chaos estimator is the true species richness by looking at rare species and assuming how many rare species may have been missed.For my example, my total n value was 71 species, but based on how many species were only detected once or twice, the true species pool is likely around 98 species.This has a standard error of ~17.5 species, which is substantial uncertainty. Based on the result, I likely missed 25-30 species. However, this is a calculation rather than a fact.
+
+The first order jackknife tells us a similar metric from the chaos, using species detected in only one sample to estimate the unseen species using a more conservative approach. In my example, it brought the true total down to 89 with a standard error of around 5. This means I undersampled roughly 18 species.the second order jackknife uses species not just seen in one sample, but also two. So this is less conservative and brought it closer to 100 species.
+
+The boorstrap is a resampling estimator and is the lowest and most conservative, suggesting at least 79 species were present. This means only 8 species were missed.
+
+Across the point count surveys, I observed 71 bird species. However, multiple species pool estimators suggest that true species richness is substantially higher (approximately 80–100 species), indicating incomplete sampling and the presence of undetected or rarely detected species. This pattern is consistent with point count surveys, where detectability varies among species due to behavior, abundance, and habitat use.This leaves room for improvement with acoustic data.
+
+```{r, echo=TRUE,fig.height=10, fig.width=15}
+
+# i need to collapse data into a the matrix to create the further calculations. Because of the nature of the datasheet, we are indicating the separate distance bands of birds simultaneously while conducting each point count. The below code will collapse the distance bands because I am not seeing these as separate surveys, but rather one survey accounting for data differently. If I want to consider each distance band a unique survey in the future, I should take that out.
+comm_matrix <- point_counts_2025_clean %>%
+  mutate(Year = year(Datetime)) %>%
+  group_by(Point_ID, VisitNum, Year) %>%
+  summarise_if(is.numeric, sum, na.rm = TRUE) %>%
+  ungroup() %>%
+  dplyr::select(-Point_ID, -VisitNum, -Year) %>%
+  mutate_all(~ replace_na(.x, 0))
+
+#making sure it doesnt add these into the matrix because it was. 
+comm_matrix <- comm_matrix[, !names(comm_matrix) %in% c("Total_Count", "Species_Richness", "Shannon_Diversity")]
+
+pool <- specpool(comm_matrix)
+
+kable(pool, caption = "Species Pool Estimators") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover"))
+```
+
+This code was also derived from the above author using the Vegan r package. This chunk of code creates a species accumulation curve for the point count data. This curve will tell us at what number of point counts would reach a species plateau based on the matric provided. If the curve has not plateaued, sampling is incomplete. If it is still rising, this means that at this number of surveys, additional surveys would still bring new species. Shallow slopes result in diminishing returns and steep slopes mean that the area is undersampled. 
+
+The x axis in my case were actually including 12 sites with 24 total surveys (two surveys at each site within the breeding season). Each visit is being treated as an independent sample.It is normally titled "locations" with one survey at each site being the standard, but I resampled due to the SHARP protocol.
+
+My species area curve is steep at first and then begins to gentle, but doesn't fully plateau. The most common species were detected early in sampling, but additional sampling would continue to add new (rare) species.This can be where ARUs are used to reach that plateau. I am interpreting this to mean that if point counts are done, then when doing species detections with acoustic data, I can just focus on the rare species to determine presence or density through acoustic means.Point count sampling captured most but not all species present in the system. Remaining undetected species are likely rare, cryptic, or transient.
+
+The accumulation curve approaching but not reaching an asymptote reinforces the conclusion that true richness exceeds observed richness, with undetected species remaining with an observed richness at 71 spp, and an estimated pool of 80-100 species.
+
+```{r, echo=TRUE,fig.height=10, fig.width=15}
+spec_accum <- specaccum(comm_matrix, method = "random")
+
+plot(spec_accum, ci.type = "poly", col = "blue", lwd = 2,
+     ci.lty = 0, ci.col = "lightblue",
+     xlab = "Number of Surveys", ylab = "Species Richness")
+```
+Density estimation. Also derived from above. Reformatted with ChatGPT to make it easyt to plug and play different spp. 
+
+This code currently models spatial variation in observed abundance using Poisson generalized linear models. Models currently include only geographic coordinates describe spatial gradients in counts but do not represent mechanistic drivers of density. Therefore, abundance estimates derived from these models are interpreted as indices rather than true density estimates. Habitat-based models provide more ecologically meaningful inference.
+
+Other options for the glm estimators should be considered when the data is gathered. Ideas would be vegetation type, habitat, elevation. It would be a good idea to still use spatial smoothing (e.g.TotalCount ~ Habitat + s(Long, Lat) ) or even site effects (TotalCount ~ Habitat + (1 | Point_ID) ).
+
+```{r, echo=TRUE,fig.height=10, fig.width=15}
+# Chosen species to be changed in the YAML
+species_code <- cfg$params$focal_species
+
+# 1) Filter to one species
+data_spp <- point_counts_2025 %>%
+  dplyr::filter(AlphaCode == species_code)
+
+# 2) Fit model using predictors. Currently running with lat and long but when I get some veg metrics or other good indicators in there, that would be a much better predictor than location.
+m1 <- glm(
+  TotalCount ~ Long + Lat,
+  data = data_spp,
+  family = poisson)
+
+# 3) Tables
+tidy_m1 <- broom::tidy(m1, conf.int = TRUE)
+
+stats_m1 <- broom::glance(m1) |>
+  dplyr::select(AIC, deviance, df.residual, logLik)
+
+gt::gt(tidy_m1) |>
+  gt::tab_header(title = paste0("Poisson GLM Coefficients (", species_code, ")")) |>
+  gt::fmt_number(columns = where(is.numeric), decimals = 3)
+
+gt::gt(stats_m1) |>
+  gt::tab_header(title = paste0("Model Fit Statistics (", species_code, ")")) |>
+  gt::fmt_number(columns = where(is.numeric), decimals = 3)
+
+# 4) Effects + predictions
+effects_obj <- effects::allEffects(m1)
+
+plot(
+  effects_obj,
+  ylab = "Expected count",
+  type = "response")
+
+data_spp$predicted_count <- predict(m1, type = "response")
+
+# plotting the predicted density vs the observed density 
+ggplot2::ggplot(data_spp, ggplot2::aes(x = Point_ID)) +
+  ggplot2::geom_col(ggplot2::aes(y = predicted_count), fill = "grey60") +
+  ggplot2::geom_point(
+    ggplot2::aes(y = TotalCount, shape = DistBand, color = as.factor(VisitNum)),
+    size = 3
+  ) +
+  ggplot2::labs(
+    title = paste0("Observed (points) vs Predicted (bars) Count per Point (", species_code, ")"),
+    x = "Point",
+    y = "Count"
+  ) +
+  theme_publish() +
+  ggplot2::theme(axis.text.x = ggplot2::element_text(angle = 45, hjust = 1))
+
+# 5) Density + scaling summary. Using a fixed point count radius of 200 m2, which the data does include. Decide if I want to restrict to 50 or 100 m for future iterations. Adjust in the YAML. WOuld have to filter by distance bin also (in YAML and then add to code)
+data_spp$density_m2 <- data_spp$predicted_count / (pi * cfg$params$point_count_radius^2)
+
+abundance_mean <- mean(data_spp$predicted_count, na.rm = TRUE)
+density_mean   <- mean(data_spp$density_m2, na.rm = TRUE)
+
+total_area_m2 <- cfg$params$total_area_m2
+total_number  <- density_mean * total_area_m2
+
+data.frame(abundance_mean, density_mean, total_number) |>
+  dplyr::rename(
+    `abundance (mean among plot)` = abundance_mean,
+    `density (per m^2)` = density_mean,
+    `total estimated abundance (total sampling area)` = total_number
+  ) |>
+  gt::gt()
+```
+
+Using unmarked. Also derived from above. Reformatted with ChatGPT.
+
+This workflow estimates abundance for a single focal species using an N-mixture model (via the unmarked package). N-mixture models use repeated counts at the same locations to separate two processes:
+
+1. True abundance at a site (how many individuals are actually present), and
+2. Detection probability (the chance we detect individuals during a visit, even if they are present).
+
+Because point counts do not detect all birds perfectly, the model treats the observed counts as an imperfect sample of the true abundance.
+
+At present, this code fits a baseline N-mixture model that estimates abundance for a focal species using repeated point counts at each site. The current model assumes constant abundance and constant detectability because covariates are not yet included. In future iterations, the model can be expanded by adding site-level covariates (e.g., LiDAR structure, vegetation composition, hydrology) to explain variation in abundance, and visit-level covariates (e.g., tide, time of day, wind) to explain variation in detection probability.
+```{r, echo=TRUE,fig.height=10, fig.width=15}
+
+# 1) Choose focal species column - edited in YAML
+species_code <- cfg$params$focal_species
+
+# 2) Build site (Point_ID) x replicate (VisitNum) count table
+# This produces ONE row per Point_ID and ONE column per VisitNum
+y_df <- point_counts_2025_clean %>%
+  dplyr::select(Point_ID, VisitNum, dplyr::all_of(species_code)) %>%
+  dplyr::mutate(
+    VisitNum = as.character(VisitNum),
+    .count = tidyr::replace_na(.data[[species_code]], 0)
+  ) %>%
+  dplyr::group_by(Point_ID, VisitNum) %>%
+  dplyr::summarise(count = sum(.count, na.rm = TRUE), .groups = "drop") %>%
+  tidyr::pivot_wider(
+    names_from  = VisitNum,
+    values_from = count,
+    values_fill = 0
+  ) %>%
+  dplyr::arrange(Point_ID)
+
+# y must be a numeric matrix (no Point_ID column)
+y_mat <- as.matrix(dplyr::select(y_df, -Point_ID))
+
+# 3) Build site covariates (currenly only ising point ID, should add in more later like veg, hydro, elevation, etc.) - 
+siteCovs <- y_df %>% dplyr::select(Point_ID)
+
+# 4) Fit N-mixture (pcount) model
+umf <- unmarked::unmarkedFramePCount(y = y_mat, siteCovs = siteCovs)
+fm1 <- unmarked::pcount(~1 ~1, data = umf, K = 50) # assumes no predictors aka detection and abundance are constant and the max number of species is 50. Change in the future to include more covariates like elevation, vegetation cover, etc.
+
+# 5) Predict abundance per site
+
+pred <- predict(fm1, type = "state") #making predictions with the fm1 aka abundance does not vary spatially or by habitat
+siteCovs$predicted_abundance <- pred$Predicted
+
+# 6) Density + scaling to total area (200 m radius currently but change in YAML)
+plot_area_m2 <- pi * cfg$params$total_area_m2
+
+siteCovs$density_m2 <- siteCovs$predicted_abundance / plot_area_m2
+
+predicted_abund <- mean(siteCovs$predicted_abundance, na.rm = TRUE)
+density_mean    <- mean(siteCovs$density_m2, na.rm = TRUE)
+
+total_number  <- density_mean * cfg$params$total_area_m2
+
+# 7) Summary table
+data.frame(predicted_abund, density_mean, total_number) %>%
+  dplyr::rename(
+    `abundance (mean among plot)` = predicted_abund,
+    `density (per m^2)` = density_mean,
+    `total estimated abundance (total sampling area)` = total_number
+  ) %>%
+  gt::gt()
+
+```
+
+

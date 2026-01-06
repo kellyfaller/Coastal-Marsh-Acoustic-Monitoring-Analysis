@@ -38,6 +38,8 @@ library(tidyverse)
 library(dplyr)
 library(tidyr)
 library(lubridate)
+library(tidytext)
+library(scales)
 #reproducibility
 library(yaml)
 library(here)
@@ -50,6 +52,17 @@ library(viridis)
 #sumamry
 library(vtable)
 library(data.table)
+# density and abundance estimations
+library(leaflet)
+library(vegan)
+library(gt)
+library(knitr)
+library(kableExtra)
+library(envalysis)
+library(sads)
+library(effects)
+library(unmarked)
+library(glue)
 ```
 Data
 ```{r YAML data, include=FALSE}
@@ -73,7 +86,6 @@ species_data_birdnet$DateTime <- mdy_hm(species_data_birdnet$DateTime)
 
 #make a month and week column
 species_data_birdnet <- species_data_birdnet %>%
-  filter(!is.na(Lower_Guild), !is.na(DateTime)) %>%
   mutate(Month = lubridate::month(DateTime, label = TRUE, abbr = TRUE),  Week  = lubridate::week(DateTime))
   
 ```
@@ -119,55 +131,116 @@ Data is visualized in two ways, common species and guilds. Guilds gives a good o
 
 #| fig.cap= "Appendix Figure 1: Guild breakdown for all sites."
 
-ggplot(species_data_birdnet, aes(x = Month, fill = Lower_Guild)) +
-  geom_bar(color = NA) +
-  coord_polar(start = 0) +
-  theme_bw(base_size = 15) +
-  labs(
-    title = "All Station Guild Breakdown (Monthly)",
-    x = NULL,
-    y = "Detections"
-  )
+year_one<- cfg$params$year_one
+year_two<- cfg$params$year_two
 
-ggplot(species_data_birdnet, aes(x = factor(Week), fill = Lower_Guild)) +
+ggplot(species_data_birdnet %>% filter(Year == year_one,
+      !is.na(Month)), aes(x = Month, fill = Lower_Guild)) +
   geom_bar(color = NA) +
   coord_polar(start = 0) +
   theme_bw(base_size = 15) +
-  labs(
-    title = "All Station Guild Breakdown (Weekly)",
+  labs( 
+    title = paste0("All Station Guild Breakdown (Monthly) ", year_one),
     x = NULL,
     y = "Detections")
 
-ggplot(data= species_data_birdnet, aes(x= DateTime, fill= Lower_Guild), na.rm=T)+ 
+ggplot(species_data_birdnet %>% filter(Year == year_two,
+      !is.na(Month)), aes(x = Month, fill = Lower_Guild)) +
+  geom_bar(color = NA) +
+  coord_polar(start = 0) +
+  theme_bw(base_size = 15) +
+  labs( 
+    title = paste0("All Station Guild Breakdown (Monthly) ", year_two),
+    x = NULL,
+    y = "Detections")
+
+ggplot(species_data_birdnet%>% filter(Year == year_one, !is.na(Week)), aes(x = factor(Week), fill = Lower_Guild)) +
+  geom_bar(color = NA) +
+  coord_polar(start = 0) +
+  theme_bw(base_size = 15) +
+  labs(
+    title = paste0("All Station Guild Breakdown (Weekly) ", year_one),
+    x = NULL,
+    y = "Detections")
+
+ggplot(species_data_birdnet%>% filter(Year == year_two, !is.na(Week)), aes(x = factor(Week), fill = Lower_Guild)) +
+  geom_bar(color = NA) +
+  coord_polar(start = 0) +
+  theme_bw(base_size = 15) +
+  labs(
+    title = paste0("All Station Guild Breakdown (Weekly) ", year_two),
+    x = NULL,
+    y = "Detections")
+
+ggplot(data= species_data_birdnet%>% filter(Year == year_one), aes(x= DateTime, fill= Lower_Guild), na.rm=T)+ 
          geom_histogram()+ coord_polar()+
          theme_bw(base_size=15)+
-         ggtitle("All Station Guild Breakdown")+
+         ggtitle("All Station Guild Breakdown ", year_one)+
+         labs(x= "DateTime", y= "Guild")
+
+ggplot(data= species_data_birdnet%>% filter(Year == year_two), aes(x= DateTime, fill= Lower_Guild), na.rm=T)+ 
+         geom_histogram()+ coord_polar()+
+         theme_bw(base_size=15)+
+         ggtitle("All Station Guild Breakdown ", year_two)+
          labs(x= "DateTime", y= "Guild")
 ```
 
-```{r Species Diversity2, echo=FALSE,fig.height=12, fig.width=18}
+```{r Species Diversity2, echo=FALSE,fig.height=18, fig.width=18}
 # remove rows with missing values we care about
-x <- species_data_birdnet[!is.na(species_data_birdnet$Station) &
-                          !is.na(species_data_birdnet$Common_Name), ]
 
-# counts per Station × Common_Name
+x <- species_data_birdnet[!is.na(species_data_birdnet$Station) &
+                          !is.na(species_data_birdnet$Common_Name) &
+                          !is.na(species_data_birdnet$Year), ]
+
+
+# keep only years of interest from yaml
+x <- x[x$Year %in% c(year_one, year_two), ]
+
+# counts per Station × Common_Name x Year
 counts <- as.data.frame(
-  table(x$Station, x$Common_Name),
+  table(x$Station, x$Year, x$Common_Name),
   stringsAsFactors = FALSE)
 
-colnames(counts) <- c("Station", "Common_Name", "Count")
+colnames(counts) <- c("Station", "Year", "Common_Name", "Count")
 
 # drop zero counts
 counts <- counts[counts$Count > 0, ]
 
-# percent within Station
+# percent within Station 
 counts$Percent <- ave(
   counts$Count,
-  counts$Station,
+  counts$Station, counts$Year,
   FUN = function(z) z / sum(z))
 
 # keep only ≥ 1%
 species_over_1percent_detections  <- counts[counts$Percent >= 0.01, ]
+
+delta_df <- species_over_1percent_detections %>%
+  dplyr::select(Station, Year, Common_Name, Percent) %>%
+  tidyr::pivot_wider(
+    names_from = Year,
+    values_from = Percent,
+    values_fill = 0) %>%
+  dplyr::mutate(
+    Delta = .data[[as.character(year_two)]] - .data[[as.character(year_one)]])
+
+ggplot(delta_df, aes(x = Common_Name, y = Delta)) +
+  geom_col() +
+  geom_text(
+    aes(label = scales::percent(Delta, accuracy = 0.01),
+      vjust = ifelse(Delta < 0, 2, -1.5)),
+    size = 2.75) +
+  facet_grid(~ Station, scales = "free_x") +
+  scale_y_continuous(labels = scales::percent) +
+  labs(y = paste0("Change in percent of detections (", year_two, " - ", year_one, ")"),
+    title = paste0("Change in BirdNET species detections of species with >1% of total detections from ", year_one, " to ", year_two)) +
+  theme_bw(base_size = 18) +
+  geom_hline(yintercept = 0, color = "black")+
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1))+
+         theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
+            annotate("rect", xmin=-Inf, xmax=Inf, ymin=-Inf, ymax=0, alpha=0.15, fill="#F8766D")+
+            annotate("rect", xmin=-Inf, xmax=Inf, ymin=0, ymax=Inf, alpha=0.15, fill="#7cae00")
+
 
 ggplot(species_over_1percent_detections, aes(x = Common_Name, y = Percent, fill = Common_Name)) +
   geom_col() +
@@ -175,7 +248,7 @@ ggplot(species_over_1percent_detections, aes(x = Common_Name, y = Percent, fill 
     aes(label = scales::percent(Percent, accuracy = 0.01)),
     vjust = -0.5,
     size = 3) +
-  facet_grid(~ Station, scales= "free_x" ) +
+  facet_grid(Year ~ Station, scales= "free_x" ) +
   scale_y_continuous(labels = scales::percent) +
   labs(
     y = "Percent",
@@ -186,44 +259,30 @@ ggplot(species_over_1percent_detections, aes(x = Common_Name, y = Percent, fill 
   theme(
     axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1) )
 
-# high and low confidence species. to indicate how good the model is at identifying certain species over others
-df <- species_data_birdnet %>%
-  filter(!is.na(Common_Name), !is.na(Confidence)) %>%
-  mutate(
-    Confidence = as.numeric(gsub("%", "", Confidence)),
-    Confidence = ifelse(max(Confidence, na.rm = TRUE) > 1.5, Confidence / 100, Confidence)
-  )
-
-# Summarize confidence by species
-by_species <- df %>%
-  dplyr::group_by(Common_Name) %>%
-  dplyr::summarise(
-    mean_conf = mean(Confidence, na.rm = TRUE),
-    max_conf  = max(Confidence, na.rm = TRUE),
-    n = dplyr::n(),
-    .groups = "drop"
-  ) %>%
-  dplyr::filter(n >= 5)
-
-# Pick top and low-confidence species
-top_species <- by_species %>% slice_max(max_conf, n = 10)
-low_species <- by_species %>% filter(mean_conf >= 0.25, mean_conf <= 0.40) %>% slice_min(mean_conf, n = 10)
-
-plot_df <- bind_rows(
-  top_species %>% mutate(group = "Highest confidence (top 10 by max)"),
-  low_species %>% mutate(group = "Low confidence (0.25–0.40; bottom 10 by mean)"))
-
 ```
 
 ```{r Species Diversity3, echo=FALSE,fig.height=12, fig.width=18}
 
-#| fig.cap= "Appendix Figure 3: Guild breakdown by site during the first deployment (4/26/23 to 5/7/23). Passerines were the most common guild represented in the data due to the high level of SESP detections."
+#| #fig.cap= "Appendix Figure 3: Guild breakdown by site during the first deployment (4/26/23 to 5/7/23). Passerines were the most common guild represented in the data due to the high level of SESP detections."
 
-ggplot(species_data_birdnet, aes(x= Lower_Guild,  group= Station)) + 
+ggplot(species_data_birdnet%>% filter(Year == year_one), aes(x= Lower_Guild,  group= Station)) + 
     geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count") +
     geom_text(aes( label = scales::percent(..prop..,accuracy=0.1),
                    y= ..prop.. ), stat= "count", vjust =- 1.5, size= 2.5) +
     labs(x= "Guild", y = "Percent", fill="Lower_Guild") + 
+         ggtitle("Station Guild Breakdown ", year_one)+
+  guides(fill= FALSE)+
+         theme_bw(base_size=18)+
+    facet_grid(~Station) +
+    scale_y_continuous(labels = scales::percent)+ 
+         theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+
+ggplot(species_data_birdnet%>% filter(Year == year_two), aes(x= Lower_Guild,  group= Station)) + 
+    geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count") +
+    geom_text(aes( label = scales::percent(..prop..,accuracy=0.1),
+                   y= ..prop.. ), stat= "count", vjust =- 1.5, size= 2.5) +
+    labs(x= "Guild", y = "Percent", fill="Lower_Guild") + 
+         ggtitle("Station Guild Breakdown ", year_two)+
   guides(fill= FALSE)+
          theme_bw(base_size=18)+
     facet_grid(~Station) +
@@ -236,8 +295,246 @@ Gives further context to the data, but in a tabular form rather than graphically
 Broken down by site, station, acoustic indices, site types, and condfidence levels.
 
 ```{r Summaries, echo=TRUE}
-st(species_data_birdnet %>% dplyr::select(c("Site", "Station", "Confidence", "Common_Birds")), group= 'Common_Birds', group.long = TRUE)
+st(species_data_birdnet %>% dplyr::select(c("Year", "Site", "Station", "Confidence", "Common_Birds")), group= 'Common_Birds', group.long = TRUE)
 st(species_breakdown)
 
 ```
+## Community Ecology Approach
+Using vegan package, etc. Add more info here later as this evolves.
+
+```{r Community Matrix, echo=TRUE}
+
+# Build a matrix of species detections to run future code on. This is not filtering any detections. It may be worth including a section above on post-processing for false positives and negatives. Currently, (1/6/26) this code is just the raw results. Change this note when that updates.
+
+#doing one per year
+#year one
+file_species_year_one <- species_data_birdnet %>%
+  filter(!is.na(Scientific_Name), Year == year_one) %>%
+  group_by(File_Name, Station, Common_Name) %>%
+  dplyr::summarise(
+    detections = dplyr::n(),
+    .groups = "drop"
+  )
+
+comm_abund_year_one <- file_species_year_one %>%
+  pivot_wider(names_from = Common_Name,
+              values_from = detections,
+              values_fill = 0)
+
+comm_matrix_year_one <- comm_abund_year_one %>%
+  dplyr::select(-Station, -File_Name)
+
+comm_pa_year_one <- comm_matrix_year_one
+comm_pa_year_one[comm_pa_year_one > 0] <- 1 #creates a presence/ absence matrix rather than the number of detections. Avoids calling rate bias.
+
+# Next, as a temporary solution for a lack of post-processing procedure, this code will filter some of the matrix data to get rid of some species that are likely true false positives since they occur in less than 3 files. To be considered "present" in this matrix, you have to be at this site for more than 3 files (which are 15 min recordings).In this case, it got rid of 7 species.
+
+species_site_occ_year_one <- file_species_year_one %>%
+  dplyr::distinct(File_Name, Common_Name) %>%     # file-level presence
+  dplyr::count(Common_Name, name = "n_files")
+
+valid_species_year_one <- species_site_occ_year_one %>%
+  dplyr::filter(n_files >= 3) %>%
+  dplyr::pull(Common_Name)
+
+comm_pa_filt_year_one <- comm_pa_year_one[, colnames(comm_pa_year_one) %in% valid_species_year_one, drop = FALSE]
+
+# year two
+file_species_year_two <- species_data_birdnet %>%
+  filter(!is.na(Scientific_Name), Year == year_two) %>%
+  group_by(File_Name, Station, Common_Name) %>%
+  dplyr::summarise(
+    detections = dplyr::n(),
+    .groups = "drop"
+  )
+
+comm_abund_year_two <- file_species_year_two %>%
+  pivot_wider(names_from = Common_Name,
+              values_from = detections,
+              values_fill = 0)
+
+comm_matrix_year_two <- comm_abund_year_two %>%
+  dplyr::select(-Station, -File_Name)
+
+comm_pa_year_two <- comm_matrix_year_two
+comm_pa_year_two[comm_pa_year_two > 0] <- 1 #creates a presence/ absence matrix rather than the number of detections. Avoids calling rate bias.
+
+# Next, as a temporary solution for a lack of post-processing procedure, this code will filter some of the matrix data to get rid of some species that are likely true false positives since they occur in less than 3 files. To be considered "present" in this matrix, you have to be at this site for more than 3 files (which are 15 min recordings).In this case, it got rid of 7 species.
+
+
+species_site_occ_year_two <- file_species_year_two %>%
+  dplyr::distinct(File_Name, Common_Name) %>%     # file-level presence
+  dplyr::count(Common_Name, name = "n_files")
+
+valid_species_year_two <- species_site_occ_year_two %>%
+  dplyr::filter(n_files >= 3) %>%
+  dplyr::pull(Common_Name)
+
+comm_pa_filt_year_two <- comm_pa_year_two[, colnames(comm_pa_year_two) %in% valid_species_year_two, drop = FALSE]
+
+```
+
+Because BirdNET confidence scores are not calibrated probabilities of correct classification and may not reliably reflect species-level accuracy, the results below currently do not have confidence-based filtering. 
+
+This code is derived from the above author and uses the Vegan r package. It generates a community matrix to estimates the total species pool for the study area, accounting for imperfect detection and undersampling.
+
+For more info on it, look at the point count script. 
+
+
+```{r Species Pool, echo=TRUE}
+pool_year_one <- specpool(comm_pa_filt_year_one)
+
+kable(pool_year_one, caption = "Species Pool Estimators") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover"))
+
+pool_year_two <- specpool(comm_pa_filt_year_two)
+
+kable(pool_year_two, caption = "Species Pool Estimators") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover"))
+
+
+```
+
+```{r Species accumulation curve, echo=TRUE,fig.height=10, fig.width=15}
+spec_accum_year_one <- specaccum(comm_pa_filt_year_one, method = "random")
+
+plot(spec_accum_year_one, ci.type = "poly", col = "blue", lwd = 2,
+     ci.lty = 0, ci.col = "lightblue",
+     xlab = "Recordings", ylab = "Species Richness", main= paste("Species Accumulation Curve ", year_one))
+
+spec_accum_year_two <- specaccum(comm_pa_filt_year_two, method = "random")
+
+plot(spec_accum_year_two, ci.type = "poly", col = "blue", lwd = 2,
+     ci.lty = 0, ci.col = "lightblue",
+     xlab = "Recordings", ylab = "Species Richness", main= paste("Species Accumulation Curve ", year_two))
+
+# now i want to run it on individual species, since this is a community approach. So we get to full richness, but how long should you record for SALS? or others? Also, I want to take into account that for BLRA, a full season of monitoring would be still appropriate
+```
+
+Still need to think about and contend with the fact that these are across multiple sites. Should I restrict to one site first? Adapt the code and note when a decision is made.
+```{r Species Driven Accumulation Curves, echo=TRUE,fig.height=10, fig.width=15}
+# Chosen species to be changed in the YAML
+species_code <- cfg$params$focal_species_birdNET
+
+#year one
+
+# Extract presence vector - literally a matrix of just that one species selected above
+sp_vec_year_one <- as.integer(comm_pa_filt_year_one[[species_code]])  # 0/1 values per recording
+n_samples_year_one <- length(sp_vec_year_one)
+stopifnot(n_samples_year_one > 1)  
+
+# Randomize recording order many times
+set.seed(123)
+n_perm <- 500
+
+accum_mat_year_one <- replicate(n_perm, {
+  ord <- sample(sp_vec_year_one, size = n_samples_year_one, replace = FALSE)
+  as.integer(cumsum(ord) > 0)   # 0 until first detection, then 1 thereafter
+})
+
+#Summarise mean + 95% interval across permutations
+acc_df_year_one <- tibble(
+  recordings = 1:n_samples_year_one,
+  mean = rowMeans(accum_mat_year_one),
+  lo = apply(accum_mat_year_one, 1, quantile, probs = 0.025),
+  hi = apply(accum_mat_year_one, 1, quantile, probs = 0.975))
+
+ggplot(acc_df_year_one, aes(recordings, mean)) +
+  geom_ribbon(aes(ymin = lo, ymax = hi), alpha = 0.2) +
+  geom_step(linewidth = 1) +
+  scale_y_continuous(limits = c(0, 1)) +
+  labs(
+    title = paste0(species_code, " accumulation curve ", year_one),
+    x = "Number of recordings",
+    y = "Cumulative detection probability"
+  ) +
+  theme_publish(base_size= 15)
+
+# Find first recording where mean detection probability == 1
+cutoff_n_year_one <- acc_df_year_one %>%
+  dplyr::filter(mean >= 1) %>%
+  dplyr::slice(1) %>%
+  dplyr::pull(recordings)
+
+if (length(cutoff_n_year_one) == 0) {
+  cutoff_n_year_one <- max(acc_df_year_one$recordings)
+}
+
+acc_df_trunc_year_one <- acc_df_year_one %>%
+  dplyr::filter(recordings <= cutoff_n_year_one)
+
+ggplot(acc_df_trunc_year_one, aes(recordings, mean)) +
+  geom_ribbon(aes(ymin = lo, ymax = hi), alpha = 0.2) +
+  geom_step(linewidth = 1) +
+  scale_y_continuous(limits = c(0, 1), expand = expansion(mult = c(0, 0.02))) +
+  scale_x_continuous(expand = expansion(mult = c(0, 0.02))) +
+  labs(
+    title = glue("{species_code} accumulation curve (truncated)  {year_one}"),
+    x = "Number of recordings",
+    y = "Cumulative detection probability"
+  ) +
+  theme_publish(base_size = 15)
+
+# year two 
+
+# Extract presence vector - literally a matrix of just that one species selected above
+sp_vec_year_two <- as.integer(comm_pa_filt_year_two[[species_code]])  # 0/1 values per recording
+n_samples_year_two <- length(sp_vec_year_two)
+stopifnot(n_samples_year_two > 1)  
+
+# Randomize recording order many times
+set.seed(123)
+n_perm <- 500
+
+accum_mat_year_two <- replicate(n_perm, {
+  ord <- sample(sp_vec_year_two, size = n_samples_year_two, replace = FALSE)
+  as.integer(cumsum(ord) > 0)   # 0 until first detection, then 1 thereafter
+})
+
+#Summarise mean + 95% interval across permutations
+acc_df_year_two <- tibble(
+  recordings = 1:n_samples_year_two,
+  mean = rowMeans(accum_mat_year_two),
+  lo = apply(accum_mat_year_two, 1, quantile, probs = 0.025),
+  hi = apply(accum_mat_year_two, 1, quantile, probs = 0.975))
+
+ggplot(acc_df_year_two, aes(recordings, mean)) +
+  geom_ribbon(aes(ymin = lo, ymax = hi), alpha = 0.2) +
+  geom_step(linewidth = 1) +
+  scale_y_continuous(limits = c(0, 1)) +
+  labs(
+    title = paste0(species_code, " accumulation curve ", year_two),
+    x = "Number of recordings",
+    y = "Cumulative detection probability"
+  ) +
+  theme_publish(base_size= 15)
+
+# Find first recording where mean detection probability == 1
+cutoff_n_year_two <- acc_df_year_two %>%
+  dplyr::filter(mean >= 1) %>%
+  dplyr::slice(1) %>%
+  dplyr::pull(recordings)
+
+if (length(cutoff_n_year_two) == 0) {
+  cutoff_n_year_two <- max(acc_df_year_two$recordings)
+}
+
+acc_df_trunc_year_two <- acc_df_year_two %>%
+  dplyr::filter(recordings <= cutoff_n_year_two)
+
+ggplot(acc_df_trunc_year_two, aes(recordings, mean)) +
+  geom_ribbon(aes(ymin = lo, ymax = hi), alpha = 0.2) +
+  geom_step(linewidth = 1) +
+  scale_y_continuous(limits = c(0, 1), expand = expansion(mult = c(0, 0.02))) +
+  scale_x_continuous(expand = expansion(mult = c(0, 0.02))) +
+  labs(
+    title = glue("{species_code} accumulation curve (truncated) {year_two}"),
+    x = "Number of recordings",
+    y = "Cumulative detection probability"
+  ) +
+  theme_publish(base_size = 15)
+
+```
+
+
 <div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;"></div>

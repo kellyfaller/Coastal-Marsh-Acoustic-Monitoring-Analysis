@@ -9,7 +9,7 @@ paths:
   site_metadata: "data/metadata/pointcount_site_metadata.csv"
   habitat_lookup: "data/point_count/spp_lookup_table.csv"
   # birdNET
-  birdnet_results: "data/processed/birdNET/birdNET_results_2025.csv"
+  birdnet_results: "data/processed/birdNET/birdNET_results.csv"
   bird_guild: "data/metadata/species_list.csv"
 outputs:
   processed_dir: "data/processed"
@@ -18,11 +18,16 @@ outputs:
   indices_dir: "outputs/indices"
   models_dir: "outputs/models"
 params:
+ # project information
+  year_one: 2024
+  year_two: 2025
+  year_three: 2026
  # point count analysis
   individual_birds: ["CLRA","BLRA","LEBI","AMBI","SORA","VIRA","KIRA","COGA"]
   focal_species: "RWBL" # for the density/abundance graphics. Specify which bird to run with
+  focal_species_birdNET: "Saltmarsh Sparrow"
   total_area_m2: 2326317 
-  point_count_radius: 200 #m2
+  point_count_radius: 200 #m2 
  # graphics
   height: 10
   width: 15

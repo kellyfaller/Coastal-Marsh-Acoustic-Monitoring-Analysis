@@ -34,7 +34,7 @@ Working directory set up - location where the CSV's will be held. This will chan
 harddrive. I have it broken down by station, deployment, and day
 
 ```{r CSV Binding, include=FALSE}
-root <- "C:/Users/kelly/Documents/Master's Project Files/02_data_processed/birdNET/2025/CAT_A1"
+root <- "C:/Users/kelly/Documents/Master's Project Files/02_data_processed/birdNET/2024/LHC_01"
 
 all_paths <- list.files(
   path = root,
@@ -95,9 +95,146 @@ species_data <- species_data %>%
 
 write.csv(
   species_data,
-  "C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/data/processed/birdNET/2025 individual/CAT_A1_BirdNET_processed.csv",
+  "C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/data/processed/birdNET/individual/LHC_01_2024_BirdNET_processed.csv",
   row.names = FALSE
 )
+
+```
+
+rebuild
+```{r rebuilt, include=FALSE}
+# Replace your entire script with this (robust + adds a stable filename column)
+# Libraries
+
+
+root <- "C:/Users/kelly/Documents/Master's Project Files/02_data_processed/birdNET/2024/LHC_01"
+
+all_paths <- list.files(
+  path = root,
+  pattern = "BirdNET\\.results\\.csv$",
+  full.names = TRUE,
+  recursive = TRUE
+)
+
+all_content <- lapply(all_paths, function(p) {
+  x <- tryCatch(
+    fread(p, encoding = "UTF-8", data.table = FALSE),
+    error = function(e) NULL
+  )
+  if (is.null(x) || nrow(x) == 0) return(NULL)
+  x
+})
+all_content <- Filter(Negate(is.null), all_content)
+
+all_result <- rbindlist(all_content, fill = TRUE)
+
+# Rename the first 6 columns by position (Start/End/Scientific/Common/Confidence/FilePath)
+all_result <- as.data.frame(all_result)
+if (ncol(all_result) >= 6) {
+  names(all_result)[1:6] <- c(
+    "Start_s", "End_s", "Scientific_Name", "Common_Name", "Confidence", "File"
+  )
+}
+
+# Drop any non-detection rows if present
+all_result <- all_result %>% filter(!is.na(Start_s))
+
+# ---- Parse metadata from filename (robust to 3/4/6-part stems) ----
+parse_birdnet_stem <- function(stem) {
+  parts <- unlist(strsplit(stem, "_", fixed = TRUE))
+  n <- length(parts)
+
+  # defaults
+  out <- list(
+    File_Site   = NA_character_,
+    Detector_ID = NA_character_,  # e.g., LHC_01
+    Unit        = NA_character_,  # e.g., Unit4 (often what metadata uses)
+    Date_chr    = NA_character_,
+    Time_chr    = NA_character_
+  )
+
+  if (n == 3) {
+    # old: detector_date_time
+    out$Detector_ID <- parts[1]
+    out$Date_chr    <- parts[2]
+    out$Time_chr    <- parts[3]
+  } else if (n == 4) {
+    # new simple: site_detector_date_time
+    out$File_Site   <- parts[1]
+    out$Detector_ID <- parts[2]
+    out$Date_chr    <- parts[3]
+    out$Time_chr    <- parts[4]
+  } else if (n >= 6) {
+    # current: LighthouseCenter_LHC_01_Unit4_YYYYMMDD_HHMMSS
+    # Take last two as date/time, token before date as Unit, first token as site.
+    out$File_Site <- parts[1]
+    out$Unit      <- parts[n - 2]
+    out$Date_chr  <- parts[n - 1]
+    out$Time_chr  <- parts[n]
+
+    # Detector_ID as the middle tokens excluding [site] and [unit/date/time]
+    # For your example this becomes LHC_01
+    middle <- parts[2:(n - 3)]
+    out$Detector_ID <- paste(middle, collapse = "_")
+  } else {
+    # fallback: at least try last two as date/time if present
+    if (n >= 2) {
+      out$Date_chr <- parts[n - 1]
+      out$Time_chr <- parts[n]
+    }
+    if (n >= 1) out$Detector_ID <- parts[1]
+  }
+
+  as.data.frame(out, stringsAsFactors = FALSE)
+}
+
+species_data <- all_result %>%
+  mutate(
+    Audio_File = basename(as.character(File)),
+    Audio_Stem = sub("\\.wav$", "", Audio_File, ignore.case = TRUE)
+  )
+
+parsed_df <- do.call(
+  rbind,
+  lapply(species_data$Audio_Stem, parse_birdnet_stem)
+)
+
+species_data <- bind_cols(species_data, parsed_df) %>%
+  mutate(
+    Time_chr = substr(Time_chr, 1, 6),
+    Date = ymd(Date_chr),
+    Year = year(Date),
+    DateTime = ymd_hms(paste(Date_chr, Time_chr), tz = "UTC")
+  )
+
+# ---- Metadata join (Year + Unit) ----
+meta_path <- "C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/data/metadata/LHC-Cattus_ARU_Site_Metadata.csv"
+metadata <- fread(meta_path, encoding = "UTF-8", data.table = FALSE)
+
+metadata <- metadata %>%
+  mutate(
+    Year = as.integer(Year),
+    Unit = trimws(as.character(Unit))
+  ) %>%
+  dplyr::rename(Meta_Site = Site)   # prevent Site.x / Site.y collisions
+
+species_data <- species_data %>%
+  mutate(
+    Year = as.integer(Year),
+    Unit = trimws(as.character(Unit)),
+    Detector_ID = trimws(as.character(Detector_ID))
+  ) %>%
+  left_join(
+    metadata %>% select(Year, Unit, Meta_Site, Station, Lat, Long),
+    by = c("Year" = "Year", "Unit" = "Unit")
+  )
+
+write.csv(
+  species_data,
+  "C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/data/processed/birdNET/individual/LHC_01_2024_BirdNET_processed.csv",
+  row.names = FALSE
+)
+
 
 ```
 
@@ -105,11 +242,11 @@ write.csv(
 
 Combining the CSVs created from above chunk and create a final working CSV for graphics
 
-```{r CSV Binding, include=FALSE}
+```{r CSV Binding2, include=FALSE}
 
 # read file path
 all_paths <-
-  list.files(path = "C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/data/processed/birdNET/2025 individual/",
+  list.files(path = "C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/data/processed/birdNET/individual/",
              pattern = "*.csv",
              full.names = TRUE)
 
@@ -131,11 +268,49 @@ all_lists <- mapply(c, all_content, all_filenames, SIMPLIFY = FALSE)
 
 # unlist all lists and change column name
 all_result <- rbindlist(all_lists, fill = T)
-# change column name
-names(all_result)[13] <- "File_Name"
 
-write.csv(all_result,"C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/data/processed/birdNET/birdNET_results_2025.csv", row.names = FALSE)  
+
+write.csv(all_result,"C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/data/processed/birdNET/birdNET_results.csv", row.names = FALSE)  
 
 ```
+
+rebuilding
+
+```{r CSV Binding rebuilt, include=FALSE}
+
+# Replace your entire script with this (robust + adds a stable filename column)
+
+library(data.table)
+
+# 1) List CSV files (use a proper regex for .csv)
+all_paths <- list.files(
+  path = "C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/data/processed/birdNET/individual/",
+  pattern = "\\.csv$",
+  full.names = TRUE
+)
+
+# 2) Read each CSV robustly, and add a consistent source_file column
+all_result <- rbindlist(
+  lapply(all_paths, function(p) {
+    dt <- fread(
+      p,
+      encoding = "UTF-8"
+      # If you suspect messy quotes, you can try either of these:
+      # , quote = "\""
+      # , fill = TRUE
+    )
+    dt[, source_file := basename(p)]
+    dt
+  }),
+  fill = TRUE
+)
+
+# 3) Write combined output
+fwrite(
+  all_result,
+  file = "C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/data/processed/birdNET/birdNET_results.csv"
+)
+```
+
 
 

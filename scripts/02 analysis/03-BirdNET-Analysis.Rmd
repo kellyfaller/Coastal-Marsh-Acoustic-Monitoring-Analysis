@@ -88,6 +88,8 @@ species_data_birdnet$DateTime <- mdy_hm(species_data_birdnet$DateTime)
 species_data_birdnet <- species_data_birdnet %>%
   mutate(Month = lubridate::month(DateTime, label = TRUE, abbr = TRUE),  Week  = lubridate::week(DateTime))
   
+
+#booboobaby
 ```
 
 # BirdNet Species Summaries

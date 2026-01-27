@@ -75,7 +75,7 @@ If you use or adapt these scripts for your own work, please cite them as describ
 ## Contact Information
 
 For questions about this repository or to contribute, please reach out:  
-- Kelly Faller, Graduate Student, Rutgers University kellynfaller@gmail.com
+- Kelly Faller, Graduate Student, Rutgers University kellynfaller@gmail.com kelly.faller@rutgers.edu
 
 If you have questions or would like to contribute, feel free to open an issue or fork the repository.  
 Happy listening! 🎧

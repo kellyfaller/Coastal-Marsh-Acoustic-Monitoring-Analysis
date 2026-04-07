@@ -376,3 +376,45 @@ glimpse(recordings_raw, width = 80)
 recordings <- recordings_raw
 
 ```
+
+
+THIS IS FROM THE LAST ANALYSIS. PLEASE ONLY USE IF NECESSARY. I DID NOT WANT TO DELETE. 
+
+```{r Setup Arbimon, include=FALSE}
+
+# Robust datetime handling from prep output:
+# Accept 'datetime_parsed' (preferred) or fallback to 'datetime'
+parse_dt <- function(x, tz = "UTC") {
+  if (inherits(x, "POSIXct")) return(with_tz(x, tz))
+  x_norm <- if (is.character(x)) sub("Z$", "+00:00", x) else x  # handle trailing Z
+  try_order <- function(fun, ...) suppressWarnings(fun(...))
+  out <- try_order(ymd_hms, x_norm, tz = tz, quiet = TRUE)
+  if (all(is.na(out))) out <- try_order(mdy_hms, x_norm, tz = tz, quiet = TRUE)
+  if (all(is.na(out))) out <- try_order(ymd_hm,  x_norm, tz = tz, quiet = TRUE)
+  if (all(is.na(out))) out <- try_order(mdy_hm,  x_norm, tz = tz, quiet = TRUE)
+  if (all(is.na(out))) out <- try_order(ymd,     x_norm, tz = tz, quiet = TRUE)
+  if (all(is.na(out))) out <- try_order(mdy,     x_norm, tz = tz, quiet = TRUE)
+  out
+}
+
+dt_col <- dplyr::case_when(
+  "datetime_parsed" %in% names(recording_metadata) ~ "datetime_parsed",
+  "datetime"        %in% names(recording_metadata) ~ "datetime",
+  TRUE ~ NA_character_
+)
+if (is.na(dt_col)) stop("recording_metadata needs a datetime column (datetime_parsed or datetime).")
+
+recording_metadata <- recording_metadata %>%
+  mutate(
+    datetime_parsed = if (dt_col == "datetime_parsed") .data[[dt_col]] else parse_dt(.data[[dt_col]], tz = "UTC"),
+    Year            = if (!"Year" %in% names(.)) year(datetime_parsed) else Year,
+    Julian_Day      = if (!"Julian_Day" %in% names(.)) yday(datetime_parsed) else Julian_Day
+  )
+
+# Optional 'name' fallback
+if (!"name" %in% names(recording_metadata)) {
+  nm <- intersect(c("site","station","recorder","Site","Station","Recorder"), names(recording_metadata))[1]
+  if (!is.na(nm)) recording_metadata$name <- recording_metadata[[nm]]
+}
+
+```

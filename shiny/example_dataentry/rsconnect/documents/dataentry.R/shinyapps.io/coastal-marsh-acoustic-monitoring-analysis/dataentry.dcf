@@ -1,0 +1,12 @@
+name: dataentry
+title: dataentry
+username: coastal-marsh-acoustic-monitoring-analysis
+account: coastal-marsh-acoustic-monitoring-analysis
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 17011365
+bundleId: 11777707
+url: https://marsh-bioacoustics.shinyapps.io/dataentry/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

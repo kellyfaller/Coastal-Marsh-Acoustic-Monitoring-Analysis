@@ -1,0 +1,12 @@
+name: visualizations
+title: visualizations
+username: coastal-marsh-acoustic-monitoring-analysis
+account: coastal-marsh-acoustic-monitoring-analysis
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 17011947
+bundleId: 11811850
+url: https://marsh-bioacoustics.shinyapps.io/visualizations/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

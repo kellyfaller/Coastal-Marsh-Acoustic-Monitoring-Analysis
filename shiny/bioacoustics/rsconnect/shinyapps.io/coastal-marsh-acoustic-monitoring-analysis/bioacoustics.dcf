@@ -1,0 +1,12 @@
+name: bioacoustics
+title: bioacoustics
+username: coastal-marsh-acoustic-monitoring-analysis
+account: coastal-marsh-acoustic-monitoring-analysis
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 17009422
+bundleId: 11775822
+url: https://coastal-marsh-acoustic-monitoring-analysis.shinyapps.io/bioacoustics/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

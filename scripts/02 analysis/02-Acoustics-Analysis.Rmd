@@ -2,25 +2,11 @@
 title: "02-Acoustic Analysis"
 author: "Kelly Faller"
 date: "`r format(Sys.Date())`"
-output:
-  html_document:
-    theme: flatly
-    toc: true
-    toc_float: true
-    number_sections: true
-    highlight: tango
-    df_print: paged
-    code_folding: hide
-params:
- config_path: "configs/project.yml"
+output: html_document
 ---
 
-```{r Clear, warning=FALSE, message=FALSE}
-# Clear environment for a clean workspace.
-rm(list=ls())
-
-#figure out a way to run without this
-setwd("C:\\Users\\kelly\\Documents\\GitHub\\Soundscape-Analysis-Rare-Bird-Detection")
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r Loading Libraries, warning=FALSE, message=FALSE}
@@ -45,6 +31,9 @@ library(cowplot)
 library(data.table)
 library(viridis)
 library(vroom)
+#reproducibility
+library(yaml)
+library(here)
 #maps
 library(leaflet)
 library(leaflet.extras)
@@ -66,6 +55,30 @@ library(soundecology)
 library(vegan)
 ```
 
+## Load Data
+
+Before getting to this stage. You should
+* Run Arbimon data prep script to produce Recording_Metadata.csv.
+* Create a CSV file with the ARU station location metadata and save it to where 'aru_locations' says above. It should have 5 columns, "Name", "long_x", "lat_y", "easting_X", and "northing_Y". This is not super necessary since the metadata has the location in it, but it is currently used in this script.
+```{r YAML data, include=FALSE}
+#run YAML 
+cfg <- yaml::read_yaml(here("configs", "project.yml"))
+cfg$paths   <- lapply(cfg$paths, here)
+cfg$outputs <- lapply(cfg$outputs, here)
+invisible(lapply(cfg$outputs, dir.create, recursive = TRUE, showWarnings = FALSE))
+#arbimon
+aru_locations      <- readr::read_csv(cfg$paths$aru_locations,   show_col_types = FALSE) 
+recording_metadata <- readr::read_csv(cfg$paths$recording_metadata,   show_col_types = FALSE) 
+pm_results         <- readr::read_csv(cfg$paths$arbimon_pm_results,   show_col_types = FALSE)
+species_metadata   <- readr::read_csv(cfg$paths$arbimon_species_meta,   show_col_types = FALSE)
+#kaliedoscope
+#index_data <- readr::read_csv("../Data/aru_data_twilight.csv", show_col_types = FALSE)
+
+
+year_one<- cfg$params$year_one
+year_two<- cfg$params$year_two
+```
+
 # Purpose
 This project analyzes acoustic monitoring data to assess patterns in species detections and call durations.
 
@@ -79,62 +92,7 @@ knitr::include_graphics("C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rar
 # Project Methods
 INCLUDE METHODS HERE!!!!!!!!
 
-## Load Data
 
-Before getting to this stage. You should
-* Run Arbimon data prep script to produce Recording_Metadata.csv.
-* Create a CSV file with the ARU station location metadata and save it to where 'aru_locations' says above. It should have 5 columns, "Name", "long_x", "lat_y", "easting_X", and "northing_Y". This is not super necessary since the metadata has the location in it, but it is currently used in this script.
-
-```{r Loading All, include=FALSE}
-
-#figure out a way to automate this. having a hard time with automation 
-aru_locations <- readr::read_csv("C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/data/metadata/aru_sites_stations.csv", show_col_types = FALSE)
-
-```
-
-Arbimon
-```{r Loading Arbimon, include=FALSE}
-recording_metadata <- readr::read_csv("C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/data/metadata/recording_metadata.csv", show_col_types = FALSE)
-pm_results         <- readr::read_csv("C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/data/arbimon/pm_detections.csv", show_col_types = FALSE)
-species_metadata   <-  readr::read_csv("C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/data/arbimon/species.0001.csv", show_col_types = FALSE)
-
-
-# Robust datetime handling from prep output:
-# Accept 'datetime_parsed' (preferred) or fallback to 'datetime'
-parse_dt <- function(x, tz = "UTC") {
-  if (inherits(x, "POSIXct")) return(with_tz(x, tz))
-  x_norm <- if (is.character(x)) sub("Z$", "+00:00", x) else x  # handle trailing Z
-  try_order <- function(fun, ...) suppressWarnings(fun(...))
-  out <- try_order(ymd_hms, x_norm, tz = tz, quiet = TRUE)
-  if (all(is.na(out))) out <- try_order(mdy_hms, x_norm, tz = tz, quiet = TRUE)
-  if (all(is.na(out))) out <- try_order(ymd_hm,  x_norm, tz = tz, quiet = TRUE)
-  if (all(is.na(out))) out <- try_order(mdy_hm,  x_norm, tz = tz, quiet = TRUE)
-  if (all(is.na(out))) out <- try_order(ymd,     x_norm, tz = tz, quiet = TRUE)
-  if (all(is.na(out))) out <- try_order(mdy,     x_norm, tz = tz, quiet = TRUE)
-  out
-}
-
-dt_col <- dplyr::case_when(
-  "datetime_parsed" %in% names(recording_metadata) ~ "datetime_parsed",
-  "datetime"        %in% names(recording_metadata) ~ "datetime",
-  TRUE ~ NA_character_
-)
-if (is.na(dt_col)) stop("recording_metadata needs a datetime column (datetime_parsed or datetime).")
-
-recording_metadata <- recording_metadata %>%
-  mutate(
-    datetime_parsed = if (dt_col == "datetime_parsed") .data[[dt_col]] else parse_dt(.data[[dt_col]], tz = "UTC"),
-    Year            = if (!"Year" %in% names(.)) year(datetime_parsed) else Year,
-    Julian_Day      = if (!"Julian_Day" %in% names(.)) yday(datetime_parsed) else Julian_Day
-  )
-
-# Optional 'name' fallback
-if (!"name" %in% names(recording_metadata)) {
-  nm <- intersect(c("site","station","recorder","Site","Station","Recorder"), names(recording_metadata))[1]
-  if (!is.na(nm)) recording_metadata$name <- recording_metadata[[nm]]
-}
-
-```
 
 Arbimon Joins  (species + recordings)
 
@@ -162,7 +120,7 @@ species_IDs <- pm_results %>%
 
 Kaleidoscope (currently not running, instead generating index values with this script). If it is needed in the future, change the eval=FALSE. It can be deleted or changed to "TRUE".
 ```{r Loading Kaleidoscope, eval = FALSE, include=FALSE}
-index_data <- readr::read_csv("../Data/aru_data_twilight.csv", show_col_types = FALSE)
+
 index_data$DATETIME <- lubridate::ymd_hms(index_data$DATETIME)
 index_data$DATE     <- lubridate::ymd(index_data$DATE)
 index_data$TIME     <- as.POSIXct(index_data$TIME, format="%H:%M:%S")
@@ -402,12 +360,6 @@ index_timeofday$DATE<-ymd(index_timeofday$DATE)
 
 ```{r Map set up}
 # --- Build locations_sf robustly and map it ---
-suppressPackageStartupMessages({
-  library(dplyr)
-  library(sf)
-  library(leaflet)
-})
-
 # Safe coalescer for label fields
 `%or%` <- function(x, y) {
   if (is.null(x) || length(x) == 0) return(y)
@@ -504,30 +456,30 @@ leaflet(data = locations_projected, height = 725, width = "100%") %>%
 Visualization of recording periods per year. 
 This is based off of the recording data extracted from Arbimon, but applies to all the analyzed data. It is the backbone information to put all the indices and species IDs in context.
 ```{r Recording Graphics, echo=TRUE, fig.height=10, fig.width=15}
-#| fig.cap= "Figure 1. Activity periods for each autonomous recorder in 2023. Each recorder is represented by a horizontal segment, and individual detection events are marked by colored points along the Julian day axis."
 
-# 2023 Recording Schedule
-ggplot(recording_metadata %>% filter (Year == "2023", name != "TEST Bait Site (Throwaway)"), aes(x = Julian_Day, y = name)) +
+# Year One Recording Schedule
+ggplot(recording_metadata %>% filter (Year == year_one), aes(x = Julian_Day, y = name)) +
   geom_segment(aes(xend = Julian_Day, yend = name), color = "gray") +  
   geom_point(aes(color = as.factor(name)), size = 4) +  
   scale_color_viridis_d() +  
-  scale_x_continuous(breaks = seq(0, 365, by = 5)) + 
-  labs(x = "Julian Day", y = "Recorder (Site ID)",
-       title = "Julian Days Each Recorder Was Active in 2023") +
+  scale_x_continuous(breaks = seq(0, 365, by = 5)) + labs( 
+    title = paste0("Julian Days Each Recorder Was Active in ", year_one),
+    x = "Julian Day",
+    y = "Recorder (Site ID)")+
+  coord_cartesian(xlim = c(115, 255)) +
   theme_minimal(base_size = 15) +
-  theme(panel.grid.major.y = element_blank())+
+  theme(panel.grid.major.y = element_blank())+  
   theme(legend.position = "none")
 
-#| fig.cap= "Figure 2. Activity periods for each autonomous recorder in 2024. Each recorder is represented by a horizontal segment, and individual detection events are marked by colored points along the Julian day axis.."
-
-# 2024 Recording Schedule
-ggplot(recording_metadata %>% filter (Year == "2024"), aes(x = Julian_Day, y = name)) +
+# Year Two Recording Schedule
+ggplot(recording_metadata %>% filter (Year == year_two), aes(x = Julian_Day, y = name)) +
   geom_segment(aes(xend = Julian_Day, yend = name), color = "gray") +  
   geom_point(aes(color = as.factor(name)), size = 4) +  
   scale_color_viridis_d() +  
-  scale_x_continuous(breaks = seq(0, 365, by = 5)) + 
-  labs(x = "Julian Day", y = "Recorder (Site ID)",
-       title = "Julian Days Each Recorder Was Active in 2024") +
+  scale_x_continuous(breaks = seq(0, 365, by = 5)) + labs( 
+    title = paste0("Julian Days Each Recorder Was Active in ", year_two),
+    x = "Julian Day",
+    y = "Recorder (Site ID)")+
   coord_cartesian(xlim = c(115, 255)) +
   theme_minimal(base_size = 15) +
   theme(panel.grid.major.y = element_blank())+  
@@ -541,28 +493,30 @@ ggplot(recording_metadata %>% filter (Year == "2024"), aes(x = Julian_Day, y = n
 
 ```{r SALS Graphics, echo=TRUE, fig.height=10, fig.width=15}
 
-sparrow_image <- png::readPNG("C:/Users/kfaller/Documents/GitHub/Acoustics/Images/SALS.png")  # Load your image
+sparrow_image <- png::readPNG("C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/docs/images/SALS.png") 
 sparrow_grob <- rasterGrob(sparrow_image, interpolate = TRUE)
 
 #| fig.cap= "Figure 3. Daily presence and absence of Saltmarsh Sparrows (Ammospiza caudacuta) at monitored sites in 2024. Green tiles represent days when sparrows were detected, while gray tiles show absences. A sparrow illustration is included for visual context."
 
-ggplot(species_IDs %>% filter(scientific_name == "Ammospiza caudacuta", Year == "2024"), 
-    aes(x = Julian_Day, y = name, fill = factor(validated))) +
+#year one
+ggplot(species_IDs %>% filter(scientific_name.x == "Ammospiza caudacuta", Year.y == year_one), 
+    aes(x = Julian_Day.y, y = name, fill = factor(validated))) +
     geom_tile(color = "white") +  
     scale_fill_manual(values = c("0" = "gray", "1" = "darkgreen"), name = "Presence") + 
     scale_x_continuous(breaks = seq(0, 365, by = 5)) + 
-    labs(x = "Julian Day", y = "Site ID", title = "2024 Saltmarsh Sparrow Presence/Absence") +
+    labs(x = "Julian Day", y = "Site ID", title = paste0( year_one, " Saltmarsh Sparrow Presence/Absence")) +
     theme_bw(base_size = 15)+
     annotation_custom(sparrow_grob, xmin=160, xmax=175, ymin=0, ymax=3)
 
 #| fig.cap= "Figure 4. Daily presence and absence of Saltmarsh Sparrows (Ammospiza caudacuta) at monitored sites in 2023. Green tiles represent days when sparrows were detected, while gray tiles show absences. A sparrow illustration is included for visual context."
 
-  ggplot(species_IDs %>% filter(scientific_name == "Ammospiza caudacuta", Year == "2023"), 
-         aes(x = Julian_Day, y = name, fill = factor(validated))) +
+#year two
+ggplot(species_IDs %>% filter(scientific_name.x == "Ammospiza caudacuta", Year.y == year_two), 
+    aes(x = Julian_Day.y, y = name, fill = factor(validated))) +
     geom_tile(color = "white") +  
     scale_fill_manual(values = c("0" = "gray", "1" = "darkgreen"), name = "Presence") + 
-    scale_x_continuous(breaks = seq(0, 365, by = 5)) +  
-    labs(x = "Julian Day", y = "Site ID", title = "2023 Saltmarsh Sparrow Presence/Absence") +
+    scale_x_continuous(breaks = seq(0, 365, by = 5)) + 
+    labs(x = "Julian Day", y = "Site ID", title = paste0( year_two, " Saltmarsh Sparrow Presence/Absence")) +
     theme_bw(base_size = 15)+
     annotation_custom(sparrow_grob, xmin=160, xmax=175, ymin=0, ymax=3)
   

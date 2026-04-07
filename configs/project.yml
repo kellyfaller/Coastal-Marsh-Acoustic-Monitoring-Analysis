@@ -1,8 +1,8 @@
 paths:
   aru_locations: "data/metadata/aru_sites_stations.csv"
-  recording_metadata: "data/metadata/recording_metadata.csv"
+  recording_metadata: "data/metadata/Recording_Metadata.csv"
   arbimon_pm_results: "data/arbimon/pm_detections.csv"
-  arbimon_species_meta: "data/metadata/species_list.csv"
+  arbimon_species_meta: "data/arbimon/species.0001.csv"
   # point counts
   cattus_2025_pc: "data/point_count/Cattus_2025_Point_Count_Data_KFaller.csv"
   lhc_2025_pc: "data/point_count/LHC_2025_Point_Count_Data_KFaller.csv"
@@ -17,6 +17,8 @@ outputs:
   reports_dir:   "outputs/reports"
   indices_dir: "outputs/indices"
   models_dir: "outputs/models"
+photos:
+  sparrow_image: "C:/Users/kfaller/Documents/GitHub/Acoustics/Images/SALS.png"
 params:
  # project information
   year_one: 2024

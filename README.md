@@ -1,5 +1,4 @@
 # Coastal Marsh Acoustic Monitoring Analysis
-[![DOI](https://zenodo.org/badge/688634085.svg)](https://doi.org/10.5281/zenodo.15692883)
 
 Welcome to the Coastal Marsh Acoustic Monitoring project repository!  
 

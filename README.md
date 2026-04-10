@@ -27,6 +27,7 @@ This project was a **collaboration between the USFWS Coastal Program and Rutgers
 ![Seal_of_the_United_States_Fish_and_Wildlife_Service svg](https://github.com/user-attachments/assets/b3790da4-e694-41a8-9533-9a045ca4328c)
 ![Coastal Program Logo (Black Text) (1)](https://github.com/user-attachments/assets/e0ea9aa0-3f94-41db-945b-09c0f36e7f06)
 
+---
 ## 📁 Project Resources and Folder Structure
 
 This repository is organized to keep your data and scripts well structured for reproducibility and easy navigation:
@@ -50,6 +51,7 @@ Here are some highlights of the repository:
 >[!IMPORTANT]
 > These data and scripts are **preliminary** and subject to updates. The work is still underway. Final updates will be made to the repository **after March 2027**. Until then, it is a working repository that will be growing and changing.
 
+---
 ## Explore the Results
 
 The data used in these analysis scripts were **downloaded using the backup feature on the Arbimon platform**, and all species presence data was derived from extensive pattern matching analyses performed in Arbimon. This link leads to my **project insights** page, showcasing the results and data visualizations generated through Arbimon’s analytical tools.

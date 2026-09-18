@@ -16,7 +16,7 @@ By analyzing daily and seasonal patterns in acoustic indices and species presenc
 
 ## Project Collaboration
 
-This project was a **collaboration between the USFWS Coastal Program and Rutgers University**, with enormous support from Danielle McCulloch, Brian Marsh, and Kaity Ripple from the USFWS.
+This project was a **collaboration between the USFWS Coastal Program and Rutgers University**, with enormous support from Danielle McCulloch, Brian Marsh, and Kaity Ripple from the USFWS. Since the start of this project, Danielle McCulloch has moved on to the American Littoral Society.
 - **Rutgers University involvement** was led by **Kelly Faller** as part of her **Master’s thesis**. She conducted the data management, analysis, and report generation.
 - The **USFWS Coastal Program** provided equipment, field time, project management, and other crucial support to make the acoustic monitoring of marsh restoration possible.
 - **Ducks Unlimited** provided support for the project and allowed it to be conducted on restoration sites managed by DU. Appreciation goes to Jim Feaga for his leadership and advocacy. 

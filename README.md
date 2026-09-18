@@ -17,11 +17,12 @@ By analyzing daily and seasonal patterns in acoustic indices and species presenc
 ## Project Collaboration
 
 This project was a **collaboration between the USFWS Coastal Program and Rutgers University**, with enormous support from Danielle McCulloch, Brian Marsh, and Kaity Ripple from the USFWS.
-- **Rutgers University involvement** was led by **Kelly Faller** as part of her **Master’s thesis**. She conducted the data management, analysis, and report generation.  
+- **Rutgers University involvement** was led by **Kelly Faller** as part of her **Master’s thesis**. She conducted the data management, analysis, and report generation.
 - The **USFWS Coastal Program** provided equipment, field time, project management, and other crucial support to make the acoustic monitoring of marsh restoration possible.
 - **Ducks Unlimited** provided support for the project and allowed it to be conducted on restoration sites managed by DU. Appreciation goes to Jim Feaga for his leadership and advocacy. 
 - **The Nature Conservancy** Adrianna Zito-Livingston and colleagues allowed the project to be conducted at one of their managed restoration sites and gave field and technological support.
 - **Ocean County Parks** Half of the field sites were located in Cattus Island County Park, within Ocean County. Jason Hoger provided support through permitting and allowing access to the field sites. Nikki Vernachio provided logistical support for field visits and will support continued work after the thesis is complete.
+- **Chan Zuckerberg Foundation through ORCA** provided funding for this project.
   
 ![Logo-Rutgers-University](https://github.com/user-attachments/assets/4b78e982-aa08-4271-8ae8-94149396a7a2)
 ![Seal_of_the_United_States_Fish_and_Wildlife_Service svg](https://github.com/user-attachments/assets/b3790da4-e694-41a8-9533-9a045ca4328c)

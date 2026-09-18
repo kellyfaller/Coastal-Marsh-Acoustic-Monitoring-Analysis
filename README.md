@@ -72,6 +72,11 @@ I hope that by sharing this code on GitHub, other researchers and practitioners 
 
 I am happy for others to adapt and use this code—**as long as credit is given**. Also, if you like my work and would like to support me, please visit the **Sponsor this Project** banner listed on the right part of the screen. Anything helps!
 
+---
+## Funding Source
+
+This project has been made possible in part by grant 2024-349547 from the Chan Zuckerberg Initiative DAF, an advised fund of the Silicon Valley Community Foundation.
+
 ##  Citation
 
 If you use or adapt these scripts for your own work, please cite them as described in the included [`CITATION.cff`](CITATION.cff) file also found in the "Docs" folder. 

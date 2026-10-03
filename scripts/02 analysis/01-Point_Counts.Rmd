@@ -59,11 +59,19 @@ cattus_2025_pc   <- readr::read_csv(cfg$paths$cattus_2025_pc,   show_col_types =
 lhc_2025_pc      <- readr::read_csv(cfg$paths$lhc_2025_pc,      show_col_types = FALSE)
 site_metadata    <- readr::read_csv(cfg$paths$site_metadata,    show_col_types = FALSE)
 habitat_lookup   <- readr::read_csv(cfg$paths$habitat_lookup,   show_col_types = FALSE)
+cattus_2026_pc   <- readr::read_csv(cfg$paths$cattus_2026_pc,   show_col_types = FALSE)
+lhc_2026_pc      <- readr::read_csv(cfg$paths$lhc_2026_pc,      show_col_types = FALSE)
+
 
 #combining sites
+#a;; will need to get adjusted when i get lhc 2023 data
 point_counts_2025 <- rbind(cattus_2025_pc, lhc_2025_pc)
+point_counts_2026 <- rbind(cattus_2026_pc, lhc_2026_pc)
+point_counts_all  <- rbind(cattus_2025_pc, lhc_2025_pc, cattus_2026_pc, lhc_2026_pc)
 #cleaning the name of the column Point ID to take out space (computers hate spaces)
 point_counts_2025 <- dplyr::rename(point_counts_2025, Point_ID = 'Point ID')
+point_counts_2026 <- dplyr::rename(point_counts_2026, Point_ID = 'Point ID')
+point_counts_all <- dplyr::rename(point_counts_all, Point_ID = 'Point ID')
 ```
 
 ## Formatting

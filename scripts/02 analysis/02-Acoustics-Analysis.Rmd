@@ -72,6 +72,8 @@ recording_metadata <- readr::read_csv(cfg$paths$recording_metadata,   show_col_t
 pm_results         <- readr::read_csv(cfg$paths$arbimon_pm_results,   show_col_types = FALSE)
 species_metadata   <- readr::read_csv(cfg$paths$arbimon_species_meta,   show_col_types = FALSE)
 #kaliedoscope
+index              <- readr::read_csv(cfg$paths$index,   show_col_types = FALSE)
+
 #index_data <- readr::read_csv("../Data/aru_data_twilight.csv", show_col_types = FALSE)
 
 
@@ -118,128 +120,130 @@ species_IDs <- pm_results %>%
   dplyr::left_join(recording_metadata, by = "recording_id")
 ```
 
-Kaleidoscope (currently not running, instead generating index values with this script). If it is needed in the future, change the eval=FALSE. It can be deleted or changed to "TRUE".
-```{r Loading Kaleidoscope, eval = FALSE, include=FALSE}
+Processing acoustic index values
 
-index_data$DATETIME <- lubridate::ymd_hms(index_data$DATETIME)
-index_data$DATE     <- lubridate::ymd(index_data$DATE)
-index_data$TIME     <- as.POSIXct(index_data$TIME, format="%H:%M:%S")
+```{r Acoustic Index, include=TRUE, echo = TRUE}
+
+index <- index %>%
+  mutate(
+    Twilight  = factor(case_when(
+        hour >= 4  & hour < 11 ~ "morning",
+        hour >= 11 & hour < 16 ~ "mid-day",
+        hour >= 16 & hour < 20 ~ "evening",
+        TRUE                   ~ "night"),
+      levels = c("morning", "mid-day", "evening", "night")))
+
+# Helper to compute all acoustic index summaries
+summarize_indices <- function(df) {
+  df %>%
+    dplyr::summarize(
+      avg_NDSI = mean(ndsi, na.rm = TRUE),
+      sd_NDSI  = sd(ndsi,  na.rm = TRUE) / sqrt(sum(!is.na(ndsi))),
+      avg_ACI  = mean(aci,  na.rm = TRUE),
+      sd_ACI   = sd(aci,   na.rm = TRUE) / sqrt(sum(!is.na(aci))),
+      avg_ADI  = mean(adi,  na.rm = TRUE),
+      sd_ADI   = sd(adi,   na.rm = TRUE) / sqrt(sum(!is.na(adi))),
+      avg_BI   = mean(bi,   na.rm = TRUE),
+      sd_BI    = sd(bi,    na.rm = TRUE) / sqrt(sum(!is.na(bi))))}
+
+month_avg_index <- index %>%
+  mutate(MONTH = floor_date(recorded_at, "month")) %>%
+  dplyr::group_by(MONTH, station) %>%
+  summarize_indices()
+
+day_avg_index <- index %>%
+  mutate(DAY = floor_date(recorded_at, "day")) %>%
+  dplyr::group_by(DAY, station) %>%
+  summarize_indices()
+
+station_avg_index <- index %>%
+  dplyr::group_by(station) %>%
+  summarize_indices()
+
+year_avg_index <- index %>%
+  mutate(YEAR = floor_date(recorded_at, "year")) %>%
+  dplyr::group_by(YEAR, station) %>%
+  summarize_indices()
+
+index_timeofday <- index %>%
+  dplyr::group_by(Twilight, date, station) %>%
+  summarize_indices()
+
+#MAKE THE BELOW CODE REPRODUCIBLE
+
+ggplot(index %>% filter(year==year_one),aes(x=date,y=hour,fill=bi))+
+  facet_wrap(~station, ncol=1)+
+  geom_raster()+
+  theme_classic()+
+  theme(legend.position="bottom")+
+  scale_fill_viridis(option ="rocket",limits = c(0,400))+
+  scale_x_date(date_labels = "%j")+
+  labs(x="Julian day", y="Hour of the day", fill="BI", title="Bioacoustics Index 2024")
+
+ggplot(index %>% filter(year==year_two),aes(x=date,y=hour,fill=bi))+
+  facet_wrap(~station, ncol=1)+
+  geom_raster()+
+  theme_classic()+
+  theme(legend.position="bottom")+
+  scale_fill_viridis(option ="rocket",limits = c(0,400))+
+  scale_x_date(date_labels = "%j")+
+  labs(x="Julian day", y="Hour of the day", fill="BI", title="Bioacoustics Index 2025")
+
+ggplot(index %>% filter(year==year_one),aes(x=date,y=hour,fill=ndsi))+
+  facet_wrap(~station, ncol=1)+
+  geom_raster()+
+  theme_classic()+
+  theme(legend.position="bottom")+
+  scale_fill_viridis(option ="mako",limits = c(-1,1))+
+  scale_x_date(date_labels = "%j")+
+  labs(x="Julian day", y="Hour of the day", fill="NDSI", title="Anthropogenic Disturbance 2024")
+
+ggplot(index %>% filter(year==year_two),aes(x=date,y=hour,fill=ndsi))+
+  facet_wrap(~station, ncol=1)+
+  geom_raster()+
+  theme_classic()+
+  theme(legend.position="bottom")+
+  scale_fill_viridis(option ="mako",limits = c(-1,1))+
+  scale_x_date(date_labels = "%j")+
+  labs(x="Julian day", y="Hour of the day", fill="BI", title="Anthropogenic Disturbance 2025")
+
+ggplot(index %>% filter(year==year_one),aes(x=date,y=hour,fill=aci))+
+  facet_wrap(~station, ncol=1)+
+  geom_raster()+
+  theme_classic()+
+  theme(legend.position="bottom")+
+  scale_fill_viridis(option ="turbo",limits = c(140,275))+
+  scale_x_date(date_labels = "%j")+
+  labs(x="Julian day", y="Hour of the day", fill="NDSI", title= "Complexity 2024")
+
+ggplot(index %>% filter(year==year_two),aes(x=date,y=hour,fill=aci))+
+  facet_wrap(~station, ncol=1)+
+  geom_raster()+
+  theme_classic()+
+  theme(legend.position="bottom")+
+  scale_fill_viridis(option ="turbo",limits = c(140,275))+
+  scale_x_date(date_labels = "%j")+
+  labs(x="Julian day", y="Hour of the day", fill="BI", title= "Complexity 2025")
+
 ```
 
-Pulling in acoustic index values run in the data prep script for acoustic index generation.
+```{r, echo=TRUE,fig.height=10, fig.width=15}
 
-```{r Index Manipulation, include=FALSE}
-# Function to extract metadata from FILENAME column. This will be adjusted for your site.
-extract_metadata <- function(df) {
-  # Handle missing DB_THRESHOLD gracefully
-  if (!"DB_THRESHOLD" %in% names(df)) df$DB_THRESHOLD <- NA_character_
-  # File name regex: adjust pattern to your naming scheme
-  # Assumes something like '..._YYYYMMDD_HHMMSS.wav' present in FILENAME
-  df %>%
-    mutate(
-      DB_THRESHOLD = as.character(DB_THRESHOLD),
-      site_name = stringr::str_extract(FILENAME, "CAT_\\d+|LHC_\\d+|[A-Za-z0-9_-]+"),
-      ts_raw = stringr::str_extract(FILENAME, "[0-9]{8}_[0-9]{6}"),
-      ts_fmt = ifelse(!is.na(ts_raw), stringr::str_replace(ts_raw, "_", " "), NA_character_),
-      recording_datetime = suppressWarnings(lubridate::ymd_hms(ts_fmt, quiet = TRUE, tz = "UTC"))
-    )
-}
-read_if_exists <- function(path){
-  if (file.exists(path)) readr::read_csv(path, show_col_types = FALSE) else NULL
-}
-
-ACI  <- read_if_exists(fp(ix_dir, "resultACI_F.csv"))   %>% { if(!is.null(.)) extract_metadata(.) else NULL }
-ADI  <- read_if_exists(fp(ix_dir, "resultADI_F_35db.csv")) %>% { if(!is.null(.)) extract_metadata(.) else NULL }
-AEI  <- read_if_exists(fp(ix_dir, "resultAEI_F.csv"))   %>% { if(!is.null(.)) extract_metadata(.) else NULL }
-BI   <- read_if_exists(fp(ix_dir, "resultBI_F.csv"))    %>% { if(!is.null(.)) extract_metadata(.) else NULL }
-H_ix <- read_if_exists(fp(ix_dir, "resultH_F.csv"))     %>% { if(!is.null(.)) extract_metadata(.) else NULL }
-NDSI <- read_if_exists(fp(ix_dir, "resultNDSI_F.csv"))  %>% { if(!is.null(.)) extract_metadata(.) else NULL }
-
-indexresults <- dplyr::bind_rows(
-  dplyr::mutate(ACI,  index="ACI"),
-  dplyr::mutate(ADI,  index="ADI"),
-  dplyr::mutate(AEI,  index="AEI"),
-  dplyr::mutate(BI,   index="BI"),
-  dplyr::mutate(H_ix, index="H"),
-  dplyr::mutate(NDSI, index="NDSI")
+index_timeofday$date_fac <- factor(
+  format(index_timeofday$date, "%j"),
+  levels = unique(format(sort(index_timeofday$date), "%j"))
 )
 
-stopifnot(nrow(indexresults) > 0)
+ggplot(index_timeofday, aes(x = date_fac, y = avg_ACI, color = station)) +
+  facet_grid(station ~ Twilight, scales = "free_x", space = "free_x") +
+  geom_point(aes(size = avg_ACI)) +
+  theme_bw(base_size=15) +
+  theme( legend.position = "bottom",
+    axis.text.x = element_text(angle = 45, hjust = 1) ) +
+  labs(y = "Mean ACI - complexity", x = "Julian day", color = "") +
+  scale_size_continuous(range = c(1, 3.5)) +
+  guides(size = "none", color = "none")
 
-# Make a wide table with one row per file
-numeric_cols <- names(indexresults)[sapply(indexresults, is.numeric)]
-indices_wide <- indexresults %>%
-  pivot_wider(names_from = index, values_from = all_of(numeric_cols), values_fn = mean, names_sep = "_") %>%
-  mutate(
-    STATION = site_name,
-    DATETIME = recording_datetime,
-    DATE = as.Date(DATETIME),
-    TIME = hms::as_hms(DATETIME)
-  )
-
-# Summaries across time period to understand temporal component to call rate.
-day_avg_index <- indices_wide %>%
-  group_by(DAY = as.POSIXct(lubridate::floor_date(DATETIME, "day")), DATE, STATION, .drop=FALSE) %>%
-  summarize(
-    avg_NDSI = mean(NDSI_value, na.rm=TRUE),
-    sd_NDSI  = sd(NDSI_value, na.rm=TRUE)/sqrt(dplyr::n()),
-    avg_ACI  = mean(ACI_value,  na.rm=TRUE),
-    sd_ACI   = sd(ACI_value,    na.rm=TRUE)/sqrt(dplyr::n()),
-    avg_ADI  = mean(ADI_value,  na.rm=TRUE),
-    sd_ADI   = sd(ADI_value,    na.rm=TRUE)/sqrt(dplyr::n()),
-    avg_AEI  = mean(AEI_value,  na.rm=TRUE),
-    sd_AEI   = sd(AEI_value,    na.rm=TRUE)/sqrt(dplyr::n()),
-    avg_BI   = mean(BI_value,   na.rm=TRUE),
-    sd_BI    = sd(BI_value,     na.rm=TRUE)/sqrt(dplyr::n()),
-    .groups = "drop"
-  )
-
-month_avg_index <- indices_wide %>%
-  mutate(MONTH = lubridate::floor_date(DATE, "month")) %>%
-  group_by(MONTH, STATION, .drop=FALSE) %>%
-  summarize(
-    avg_NDSI = mean(NDSI_value, na.rm=TRUE),
-    avg_ACI  = mean(ACI_value,  na.rm=TRUE),
-    avg_ADI  = mean(ADI_value,  na.rm=TRUE),
-    avg_AEI  = mean(AEI_value,  na.rm=TRUE),
-    avg_BI   = mean(BI_value,   na.rm=TRUE),
-    .groups="drop"
-  )
-
-year_avg_index <- indices_wide %>%
-  mutate(YEAR = lubridate::floor_date(DATE, "year")) %>%
-  group_by(YEAR, STATION, .drop=FALSE) %>%
-  summarize(
-    avg_NDSI = mean(NDSI_value, na.rm=TRUE),
-    avg_ACI  = mean(ACI_value,  na.rm=TRUE),
-    avg_ADI  = mean(ADI_value,  na.rm=TRUE),
-    avg_AEI  = mean(AEI_value,  na.rm=TRUE),
-    avg_BI   = mean(BI_value,   na.rm=TRUE),
-    .groups="drop"
-  )
-
-# Time-of-day summary into bins by hour.
-if (!"Twilight" %in% names(indices_wide)) {
-  indices_wide <- indices_wide %>% mutate(
-    Twilight = case_when(
-      lubridate::hour(DATETIME) %in% 5:9   ~ "morning",
-      lubridate::hour(DATETIME) %in% 10:15 ~ "mid-day",
-      lubridate::hour(DATETIME) %in% 16:20 ~ "evening",
-      TRUE ~ "night"
-    )
-  )
-}
-index_timeofday <- indices_wide %>%
-  group_by(Twilight, DATE, STATION, .drop=FALSE) %>%
-  summarize(
-    avg_NDSI = mean(NDSI_value, na.rm=TRUE),
-    avg_ACI  = mean(ACI_value,  na.rm=TRUE),
-    avg_ADI  = mean(ADI_value,  na.rm=TRUE),
-    avg_AEI  = mean(AEI_value,  na.rm=TRUE),
-    avg_BI   = mean(BI_value,   na.rm=TRUE),
-    .groups="drop"
-  ) %>%
-  mutate(Twilight = factor(Twilight, levels=c("morning","mid-day","evening","night")))
 ```
 
 ## Data Wrangling - Yeehaw!

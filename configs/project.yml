@@ -5,12 +5,16 @@ paths:
   arbimon_species_meta: "data/arbimon/species.0001.csv"
   # point counts
   cattus_2025_pc: "data/point_count/Cattus_2025_Point_Count_Data_KFaller.csv"
+  cattus_2026_pc: "data/point_count/Cattus_2026_Point_Count_Data_KFaller.csv"
   lhc_2025_pc: "data/point_count/LHC_2025_Point_Count_Data_KFaller.csv"
+  lhc_2026_pc: "data/point_count/LHC_2026_Point_Count_Data_KFaller.csv"  
   site_metadata: "data/metadata/pointcount_site_metadata.csv"
   habitat_lookup: "data/point_count/spp_lookup_table.csv"
   # birdNET
   birdnet_results: "data/processed/birdNET/birdNET_results.csv"
   bird_guild: "data/metadata/species_list.csv"
+  # Kaleidoscope Acoustic Index
+  index: "data/processed/kaleidoscope_outputs/acoustic_indices_20242025combined.csv"
 outputs:
   processed_dir: "data/processed"
   figures_dir:   "outputs/figures"

@@ -1,106 +1,54 @@
 library(DBI)
 library(RPostgres)
 library(dplyr)
-library(readr)
-library(stringr)
 library(glue)
-library(lubridate)
 
-con <- list(
-  RPostgres::Postgres(),
-  host = "aws-0-us-west-2.pooler.supabase.com", dbname = "postgres",
-  user = "postgres.nfyvxsccktlojkvvnvdb", password = "spartinapatens", port =  5432, 
-  sslmode  = "require")
+# Reads Kaleidoscope acoustic index outputs and appends any new rows to the acoustic_indices table in the database.
+# Uses the same reader as "Kaleidoscope Data Prep Script.Rmd" (R/kaleidoscope_functions.R).
+source(here::here("R", "kaleidoscope_functions.R"))
+
+# Database credentials are read from environment variables so they never live in the repository.
+# Put them in your user .Renviron file (open it with usethis::edit_r_environ()), then restart R:
+#   KALEIDOSCOPE_DB_HOST=aws-0-us-west-2.pooler.supabase.com
+#   KALEIDOSCOPE_DB_USER=postgres.<project id>
+#   KALEIDOSCOPE_DB_PASSWORD=<password>
+db_env <- c(host = "KALEIDOSCOPE_DB_HOST", user = "KALEIDOSCOPE_DB_USER", password = "KALEIDOSCOPE_DB_PASSWORD")
+missing_env <- db_env[Sys.getenv(db_env) == ""]
+if (length(missing_env)) stop("Set these environment variables first (see top of this script): ", paste(missing_env, collapse = ", "))
 
 # Root of your Kaleidoscope outputs folder
 # Structure: kaleidoscope_root / year / station / acousticindex.csv
-kaleidoscope_root <- "C:\\Users\\kelly\\Documents\\GitHub\\Soundscape-Analysis-Rare-Bird-Detection\\data\\processed\\kaleidoscope_outputs\\"
+kaleidoscope_root <- here::here("data", "processed", "kaleidoscope_outputs")
 
-# Find all acousticindex.csv files recursively
-all_index_files <- list.files(
-  path       = kaleidoscope_root,
-  pattern    = "acousticindex\\.csv$",
-  full.names = TRUE,
-  recursive  = TRUE
-)
+combined <- read_kaleidoscope_indices(kaleidoscope_root, tz = "America/New_York")
+checks <- check_kaleidoscope_indices(combined)
+print(checks$by_station)
+print(checks$problems)
+if (any(checks$problems[["Unparsed date-times"]] > 0)) stop("Some date-times couldn't be parsed - fix before uploading.")
 
-cat("Found", length(all_index_files), "acousticindex.csv files\n")
-print(all_index_files)
-
-# Read and annotate each file
-all_indices <- lapply(all_index_files, function(filepath) {
-  
-  # Parse year and station from folder path
-  # e.g. .../Kaleidoscope Outputs/2024/CAT_A1/acousticindex.csv
-  parts   <- str_split(dirname(filepath), "[/\\\\]")[[1]]
-  station <- tail(parts, 1)          # last folder = station
-  year    <- tail(parts, 2)[1]       # second-to-last = year
-  
-  # Read the CSV
-  df <- tryCatch(
-    read_csv(filepath, show_col_types = FALSE),
-    error = function(e) { cat("Error reading:", filepath, "\n"); return(NULL) }
-  )
-  if (is.null(df) || nrow(df) == 0) return(NULL)
-  
-  # Standardize column names to lowercase
-  names(df) <- tolower(names(df))
-  
-  # Add provenance columns from folder path
-  df <- df %>%
-    mutate(
-      station         = station,
-      year            = as.integer(year),
-      # Parse datetime from filename
-      # filename format: Cattus_CAT_A1_Unit 1_20240629_050000.wav
-      filename        = `in file`,
-      date_chr        = str_extract(filename, "\\d{8}(?=_\\d{6})"),
-      time_chr        = str_extract(filename, "(?<=_\\d{8}_)\\d{6}"),
-      recorded_at     = ymd_hms(paste(date_chr, time_chr), tz = "UTC"),
-      kaleidoscope_version = "5.9.0",
-      source_file     = filepath
-    ) %>%
-    select(
-      filename,
-      station,
-      year,
-      recorded_at,
-      date    = date,
-      time    = time,
-      hour,
-      duration,
-      ndsi,
-      aci,
-      adi,
-      bi,
-      kaleidoscope_version,
-      source_file
-    )
-  
-  cat(glue("  {station} {year}: {nrow(df)} recordings\n"))
-  return(df)
-})
-
-# Combine all stations and years
-combined <- bind_rows(Filter(Negate(is.null), all_indices))
-cat(glue("\nTotal rows to import: {nrow(combined)}\n"))
-
-# Write to database — append only, skip duplicates
-# The unique key is filename + station to prevent double-importing
-# Reconnect fresh before writing
 con <- dbConnect(
   RPostgres::Postgres(),
-  host     = "aws-0-us-west-2.pooler.supabase.com",
-  dbname   = "postgres",
-  user     = "postgres.nfyvxsccktlojkvvnvdb",
-  password = "spartinapatens",
-  port     = 5432,
+  host     = Sys.getenv("KALEIDOSCOPE_DB_HOST"),
+  dbname   = Sys.getenv("KALEIDOSCOPE_DB_NAME", "postgres"),
+  user     = Sys.getenv("KALEIDOSCOPE_DB_USER"),
+  password = Sys.getenv("KALEIDOSCOPE_DB_PASSWORD"),
+  port     = as.integer(Sys.getenv("KALEIDOSCOPE_DB_PORT", "5432")),
   sslmode  = "require"
 )
 
-dbWriteTable(con, "acoustic_indices", combined, append = TRUE)
+# Append only rows that aren't already in the table. The unique key is filename + station, so re-running the
+# script after adding a new station or year doesn't double-import the old ones.
+if (dbExistsTable(con, "acoustic_indices")) {
+  existing <- dbGetQuery(con, "SELECT DISTINCT filename, station FROM acoustic_indices")
+  new_rows <- anti_join(combined, existing, by = c("filename", "station"))
+} else {
+  new_rows <- combined
+}
+cat(glue("{nrow(combined)} rows read, {nrow(combined) - nrow(new_rows)} already in the database, {nrow(new_rows)} to import"), "\n")
 
-cat(glue("\nImported {nrow(combined)} acoustic index records\n"))
+if (nrow(new_rows)) dbWriteTable(con, "acoustic_indices", new_rows, append = TRUE)
+
+cat(glue("Imported {nrow(new_rows)} acoustic index records"), "\n")
 
 # Verify
 summary <- dbGetQuery(con, "

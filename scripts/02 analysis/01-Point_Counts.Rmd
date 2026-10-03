@@ -2,7 +2,10 @@
 title: "LCLT Bird Script"
 author: "Kelly Faller"
 date: "2024-10-16"
-output: html_document
+output:
+  html_document:
+    toc: true
+    toc_float: true
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -42,41 +45,40 @@ library(yaml)
 library(here)
 #summary
 library(vtable)
+# also used with pkg:: (install if missing): leafpop, broom
 ```
 
 ## Load Data
 
 This is using the YAML.project in the configs folder. The idea here is to not have hard coded file paths baked into the R script. Adjust file paths and parameters there when necessary.The rest of the code should run without tweaks.
 ```{r Loading, include=FALSE}
-#run YAML 
+#run YAML
 cfg <- yaml::read_yaml(here("configs", "project.yml"))
 cfg$paths   <- lapply(cfg$paths, here)
 cfg$outputs <- lapply(cfg$outputs, here)
 invisible(lapply(cfg$outputs, dir.create, recursive = TRUE, showWarnings = FALSE))
 
-# Reading CSV files into data frames using YAML 
-cattus_2025_pc   <- readr::read_csv(cfg$paths$cattus_2025_pc,   show_col_types = FALSE)
-lhc_2025_pc      <- readr::read_csv(cfg$paths$lhc_2025_pc,      show_col_types = FALSE)
+# Reading CSV files into data frames using YAML.
+# Every column is read in as text first because the files don't agree on column types (e.g. Distance is a number in one file and text like "150+" in another), which breaks rbind. The columns we need as numbers get converted in the Formatting chunk.
+# Each file is also tagged with its survey year. Year comes from the file rather than the SurveyDate column so a typo in a date (e.g. Cattus 2025 visit 1 is entered as 19-06-2026) doesn't move a survey into the wrong year.
+read_point_counts <- function(path, year) {
+  readr::read_csv(path, col_types = readr::cols(.default = readr::col_character())) %>%
+    dplyr::rename(Point_ID = 'Point ID') %>%  #cleaning the name of the column Point ID to take out space (computers hate spaces)
+    dplyr::mutate(Year = year)
+}
+
+cattus_2025_pc   <- read_point_counts(cfg$paths$cattus_2025_pc, 2025)
+lhc_2025_pc      <- read_point_counts(cfg$paths$lhc_2025_pc,    2025)
+cattus_2026_pc   <- read_point_counts(cfg$paths$cattus_2026_pc, 2026)
+lhc_2026_pc      <- read_point_counts(cfg$paths$lhc_2026_pc,    2026)
 site_metadata    <- readr::read_csv(cfg$paths$site_metadata,    show_col_types = FALSE)
 habitat_lookup   <- readr::read_csv(cfg$paths$habitat_lookup,   show_col_types = FALSE)
-cattus_2026_pc   <- readr::read_csv(cfg$paths$cattus_2026_pc,   show_col_types = FALSE)
-lhc_2026_pc      <- readr::read_csv(cfg$paths$lhc_2026_pc,      show_col_types = FALSE)
-
-# Tagging each file with its survey year. Year comes from the file rather than the SurveyDate column so a typo in a date (e.g. Cattus 2025 visit 1 is entered as 19-06-2026) doesn't move a survey into the wrong year.
-cattus_2025_pc <- cattus_2025_pc %>% mutate(Year = 2025)
-lhc_2025_pc    <- lhc_2025_pc    %>% mutate(Year = 2025)
-cattus_2026_pc <- cattus_2026_pc %>% mutate(Year = 2026)
-lhc_2026_pc    <- lhc_2026_pc    %>% mutate(Year = 2026)
 
 #combining sites
 #a;; will need to get adjusted when i get lhc 2023 data
-point_counts_2025 <- rbind(cattus_2025_pc, lhc_2025_pc)
-point_counts_2026 <- rbind(cattus_2026_pc, lhc_2026_pc)
-point_counts_all  <- rbind(cattus_2025_pc, lhc_2025_pc, cattus_2026_pc, lhc_2026_pc)
-#cleaning the name of the column Point ID to take out space (computers hate spaces)
-point_counts_2025 <- dplyr::rename(point_counts_2025, Point_ID = 'Point ID')
-point_counts_2026 <- dplyr::rename(point_counts_2026, Point_ID = 'Point ID')
-point_counts_all <- dplyr::rename(point_counts_all, Point_ID = 'Point ID')
+point_counts_2025_raw <- rbind(cattus_2025_pc, lhc_2025_pc)
+point_counts_2026_raw <- rbind(cattus_2026_pc, lhc_2026_pc)
+point_counts_all_raw  <- rbind(cattus_2025_pc, lhc_2025_pc, cattus_2026_pc, lhc_2026_pc)
 ```
 
 ## Formatting
@@ -84,6 +86,32 @@ point_counts_all <- dplyr::rename(point_counts_all, Point_ID = 'Point ID')
 The same formatting steps get run on point_counts_2025, point_counts_2026, and point_counts_all, so they are written as functions once and then applied to each dataset. That way a fix only has to be made in one place.
 
 ```{r Formatting, include=FALSE}
+# Species codes that showed up in the 2026 data but aren't in spp_lookup_table.csv yet. These are my best guess at the habitat category - CHECK THEM and then add them to the lookup table csv (anything already in the csv wins over this list, so once they're in the csv this list does nothing). GRFL and VOYE aren't standard 4-letter codes and are left as "Unclassified" until they're checked on the datasheet.
+habitat_additions <- tibble::tribble(
+  ~AlphaCode, ~Habitat,
+  "AMGO", "Upland",        # American Goldfinch
+  "BLSK", "Marsh",         # Black Skimmer
+  "BTGR", "Marsh",         # Boat-tailed Grackle
+  "COHA", "Upland",        # Cooper's Hawk
+  "EABL", "Upland",        # Eastern Bluebird
+  "EWPE", "Upland",        # Eastern Wood-Pewee
+  "GRYE", "Marsh",         # Greater Yellowlegs
+  "KIRA", "Marsh",         # King Rail
+  "REVI", "Upland",        # Red-eyed Vireo
+  "SEPL", "Marsh",         # Semipalmated Plover
+  "SESA", "Marsh",         # Semipalmated Sandpiper
+  "SOSA", "Marsh",         # Solitary Sandpiper
+  "UNNH", "Marsh",         # unidentified night-heron
+  "UNSA", "Marsh",         # unidentified sandpiper
+  "WTSP", "Upland")        # White-throated Sparrow
+
+habitat_lookup_full <- dplyr::bind_rows(
+  habitat_lookup %>% dplyr::select(AlphaCode, Habitat),
+  habitat_additions %>% dplyr::filter(!AlphaCode %in% habitat_lookup$AlphaCode))
+
+# TRUE for species that were identified to species. Unidentified birds (UNSA, UNNH, "Sparrow Unidentified") still count toward total birds, but not toward species richness or diversity. The pattern is set in the YAML.
+is_identified <- function(code) !grepl(cfg$params$unidentified_pattern, code)
+
 # creating a datetime column and formatting times.
 # NOTE: the 2025 datasheets write dates as day-month-year with dashes (30-06-2025) and the 2026 datasheets write them as month/day/year with slashes (6/28/2026). The separator is used to pick the right parser so both years read in correctly.
 format_point_counts <- function(df) {
@@ -92,73 +120,24 @@ format_point_counts <- function(df) {
       SurveyDate = dplyr::if_else(grepl("/", SurveyDate),
                                   lubridate::mdy(SurveyDate, quiet = TRUE),
                                   lubridate::dmy(SurveyDate, quiet = TRUE)),
-      # readr usually reads SurveyTime in as a time (07:09:00), but this also handles it if it comes in as text (7:09 AM)
-      Datetime   = lubridate::parse_date_time(paste(SurveyDate, SurveyTime), orders = c("Ymd HMS", "Ymd IMp"))) %>%
+      Datetime   = lubridate::parse_date_time(paste(SurveyDate, SurveyTime), orders = c("Ymd IMp", "Ymd HMS", "Ymd HM")),
+      dplyr::across(c(TotalCount, VisitNum, TempF, Sky, WindSp, Noise), ~ suppressWarnings(as.numeric(.x))),
+      # a missing distance band becomes "Unknown" so those birds aren't silently dropped
+      DistBand   = dplyr::if_else(is.na(DistBand) | DistBand == "NA", "Unknown", DistBand),
+      DistBand   = factor(DistBand, levels = c("0-50m", "51-100m", ">100m", "Unknown")),
+      Identified = is_identified(AlphaCode)) %>%
     #adding in lat and long info for each line of code
     dplyr::left_join(
       site_metadata %>% dplyr::select(Point_ID, Lat, Long),
       by = "Point_ID") %>%
-    #including habitat type (really rough categories. mostly for filtering out upland)
-    dplyr::left_join(
-      habitat_lookup %>% dplyr::select(AlphaCode, Habitat),
-      by = "AlphaCode")
+    #including habitat type (really rough categories. mostly for filtering out upland). Codes that aren't in the lookup get "Unclassified" so they're never silently dropped by a habitat filter
+    dplyr::left_join(habitat_lookup_full, by = "AlphaCode") %>%
+    dplyr::mutate(Habitat = tidyr::replace_na(Habitat, "Unclassified"))
 }
 
-point_counts_2025 <- format_point_counts(point_counts_2025)
-point_counts_2026 <- format_point_counts(point_counts_2026)
-point_counts_all  <- format_point_counts(point_counts_all)
-
-# flagging any survey where the date on the datasheet doesn't match the year of the file it came from (Year is set from the file in the Loading chunk)
-date_mismatch <- point_counts_all %>%
-  dplyr::filter(lubridate::year(SurveyDate) != Year) %>%
-  dplyr::distinct(Site, Point_ID, VisitNum, Year, SurveyDate)
-if (nrow(date_mismatch) > 0) {
-  warning("SurveyDate year does not match the file year for ", nrow(date_mismatch),
-          " survey(s). Check the datasheets:\n",
-          paste(capture.output(print(date_mismatch)), collapse = "\n"))
-}
-
-# Creating a specific subgroup of birds that are treated differently in the dataset so I can filter them out. These birds are recorded on an individual basis, rather than as a species population. Basically, what that means is that there are multiple rows assicated with one Point_ID. R hates that because it needs all data for one point to fit into one row. The code below handles this issue.
-individual_birds <- cfg$params$individual_birds
-
-# only the columns called out in id_cols are included, so if other data is needed later, fill those column headers in. For example, if we want to know how tides relate to bird diversity, we would have to add tides back in. Year is included so 2025 and 2026 surveys stay separate in point_counts_all.
-id_cols <- c("Point_ID", "Year", "Datetime", "DistBand", "Site", "Tide", "VisitNum", "Habitat")
-
-clean_point_counts <- function(df) {
-  # Community birds dataset (excluding individual birds)
-  community_bird_data <- df %>%
-    dplyr::filter(!AlphaCode %in% individual_birds) %>%
-    pivot_wider(
-      id_cols = dplyr::all_of(id_cols),
-      names_from = "AlphaCode",
-      values_from = "TotalCount")
-
-  # Cleaning up community bird data by unnesting any list columns
-  community_bird_data <- community_bird_data %>%
-    dplyr::mutate(across(where(is.list), ~map(., first))) %>%
-    unnest(cols = everything())
-
-  # Individual birds dataset (including only individual species)
-  individual_bird_data <- df %>%
-    dplyr::filter(AlphaCode %in% individual_birds) %>%
-    pivot_wider(
-      id_cols = dplyr::all_of(id_cols),
-      names_from = "AlphaCode",
-      values_from = "TotalCount",
-      values_fn = sum)
-
-  # FINALLY, merge the two datasets to have a final dataset to use for graphics and analysis
-  dplyr::full_join(community_bird_data, individual_bird_data, by = id_cols)
-}
-
-point_counts_2025_clean <- clean_point_counts(point_counts_2025)
-point_counts_2026_clean <- clean_point_counts(point_counts_2026)
-point_counts_all_clean  <- clean_point_counts(point_counts_all)
-```
-
-# Extra formatting for summarizing
-
-```{r Formatting Summaries, include=FALSE}
+point_counts_2025 <- format_point_counts(point_counts_2025_raw)
+point_counts_2026 <- format_point_counts(point_counts_2026_raw)
+point_counts_all  <- format_point_counts(point_counts_all_raw)
 
 # Shannon Diversity Index (H')
 shannon_diversity <- function(x) {
@@ -166,107 +145,315 @@ shannon_diversity <- function(x) {
     p <- p[p > 0]  # Filter out zeroes
     -sum(p * log(p), na.rm = TRUE)}
 
-# Calculate total count, species richness, and shannon diversity. Only the species columns (everything that isn't an id column) go into the calculations, so the new columns never get counted in the successive columns
-add_diversity_metrics <- function(df) {
-  df <- df %>%
-    dplyr::mutate(Site = factor(Site), VisitNum = factor(VisitNum), Point_ID = factor(Point_ID),
-                  Habitat = factor(Habitat), Year = factor(Year))
-
-  spp_cols <- setdiff(names(df)[sapply(df, is.numeric)], id_cols)
-  spp <- as.matrix(df[spp_cols])
-
+# Calculates total birds, species richness, and Shannon diversity for whatever grouping is given (e.g. one survey, one distance band of one survey, one site-year).
+# - duplicate rows of the same species are added together first (the old pivot_wider code kept only the first one)
+# - rows with TotalCount = 0 (birds only noted outside the count period) don't count toward richness
+# - unidentified birds count toward Total_Count but not richness or diversity
+summarise_metrics <- function(df, ...) {
   df %>%
-    dplyr::mutate(
-      Total_Count       = rowSums(spp, na.rm = TRUE),
-      Species_Richness  = rowSums(spp > 0, na.rm = TRUE),
-      Shannon_Diversity = apply(spp, 1, shannon_diversity))
+    dplyr::group_by(..., AlphaCode, Identified) %>%
+    dplyr::summarise(Count = sum(TotalCount, na.rm = TRUE), .groups = "drop") %>%
+    dplyr::group_by(...) %>%
+    dplyr::summarise(
+      Total_Count       = sum(Count),
+      Species_Richness  = sum(Count > 0 & Identified),
+      Shannon_Diversity = shannon_diversity(Count[Identified]),
+      .groups = "drop")
 }
 
-point_counts_2025_clean <- add_diversity_metrics(point_counts_2025_clean)
-point_counts_2026_clean <- add_diversity_metrics(point_counts_2026_clean)
-point_counts_all_clean  <- add_diversity_metrics(point_counts_all_clean)
+# One row per survey (Point x Visit x Year) with all distance bands combined. This is the main unit for comparing points and years.
+survey_cols <- c("Year", "Site", "Point_ID", "VisitNum", "SurveyDate", "Tide")
+
+make_survey_metrics <- function(df) {
+  summarise_metrics(df, Year, Site, Point_ID, VisitNum, SurveyDate, Tide) %>%
+    dplyr::mutate(Year = factor(Year), VisitNum = factor(VisitNum))
+}
+
+# The "clean" wide datasets: one row per survey x distance band, one column per (identified) species, plus the metrics for that row. These feed the box plots, vegan and unmarked.
+id_cols <- c("Point_ID", "Year", "Datetime", "DistBand", "Site", "Tide", "VisitNum")
+
+clean_point_counts <- function(df) {
+  wide <- df %>%
+    dplyr::filter(Identified) %>%
+    dplyr::group_by(dplyr::across(dplyr::all_of(c(id_cols, "AlphaCode")))) %>%
+    dplyr::summarise(Count = sum(TotalCount, na.rm = TRUE), .groups = "drop") %>%
+    tidyr::pivot_wider(names_from = AlphaCode, values_from = Count, values_fill = 0)
+
+  metrics <- summarise_metrics(df, Point_ID, Year, Datetime, DistBand, Site, Tide, VisitNum)
+
+  dplyr::left_join(wide, metrics, by = id_cols) %>%
+    dplyr::mutate(Site = factor(Site), VisitNum = factor(VisitNum), Point_ID = factor(Point_ID), Year = factor(Year))
+}
+
+point_counts_2025_clean <- clean_point_counts(point_counts_2025)
+point_counts_2026_clean <- clean_point_counts(point_counts_2026)
+point_counts_all_clean  <- clean_point_counts(point_counts_all)
+
+# Same thing but only for marsh birds (everything that isn't Upland, same as the old Habitat != "Upland" filter)
+marsh_2025_clean <- clean_point_counts(point_counts_2025 %>% filter(Habitat != "Upland"))
+marsh_2026_clean <- clean_point_counts(point_counts_2026 %>% filter(Habitat != "Upland"))
+marsh_all_clean  <- clean_point_counts(point_counts_all  %>% filter(Habitat != "Upland"))
+
+survey_level_all <- make_survey_metrics(point_counts_all)
+
+# Points surveyed in every year. LHC_07 was added in 2026, so it is left out of anything that compares years point-for-point.
+shared_points <- point_counts_all %>%
+  dplyr::distinct(Point_ID, Year) %>%
+  dplyr::count(Point_ID, name = "n_years") %>%
+  dplyr::filter(n_years == dplyr::n_distinct(point_counts_all$Year)) %>%
+  dplyr::pull(Point_ID)
+
+year_levels <- as.character(sort(unique(point_counts_all$Year)))
+year_a <- year_levels[1]
+year_b <- year_levels[length(year_levels)]
+```
+
+# Data QC
+
+Checks on the raw datasheets before anything gets summarized. Each table lists the records that need a look; the last column of the summary says how the script handles them so nothing gets dropped silently. Fix what you can in the csv files and these tables will shrink.
+
+```{r QC, echo=TRUE}
+qc_all <- point_counts_all  # formatted data, all years
+
+# 1) Survey effort: which points were surveyed on which dates. LHC_07 was added in 2026, so it only has 2026 dates.
+effort_table <- qc_all %>%
+  dplyr::distinct(Site, Point_ID, Year, VisitNum, SurveyDate) %>%
+  dplyr::mutate(Survey = paste0(Year, " visit ", VisitNum)) %>%
+  dplyr::select(Site, Point_ID, Survey, SurveyDate) %>%
+  dplyr::mutate(SurveyDate = format(SurveyDate, "%d %b %Y")) %>%
+  tidyr::pivot_wider(names_from = Survey, values_from = SurveyDate, values_fill = "not surveyed") %>%
+  dplyr::arrange(Site, Point_ID)
+
+kable(effort_table, caption = "Survey effort: survey date for each point and visit") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed"))
+
+qc_all %>%
+  dplyr::group_by(Site, Year) %>%
+  dplyr::summarise(Points = dplyr::n_distinct(Point_ID),
+                   Surveys = dplyr::n_distinct(paste(Point_ID, VisitNum)),
+                   Records = dplyr::n(), .groups = "drop") %>%
+  kable(caption = "Survey effort by site and year") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed"))
+
+# 2) Survey dates that don't match the year of the file they came from
+qc_date <- qc_all %>%
+  dplyr::filter(lubridate::year(SurveyDate) != Year) %>%
+  dplyr::distinct(Site, Point_ID, Year, VisitNum, SurveyDate)
+
+# 3) Species codes that aren't in spp_lookup_table.csv
+qc_lookup <- qc_all %>%
+  dplyr::filter(!AlphaCode %in% habitat_lookup$AlphaCode) %>%
+  dplyr::group_by(AlphaCode) %>%
+  dplyr::summarise(Years = paste(sort(unique(Year)), collapse = ", "),
+                   Records = dplyr::n(), Birds = sum(TotalCount, na.rm = TRUE), .groups = "drop") %>%
+  dplyr::left_join(habitat_additions %>% dplyr::rename(`Habitat used (temporary)` = Habitat), by = "AlphaCode") %>%
+  dplyr::mutate(`Habitat used (temporary)` = tidyr::replace_na(`Habitat used (temporary)`, "Unclassified"))
+
+# 4) Unidentified birds
+qc_unid <- qc_all %>%
+  dplyr::filter(!Identified) %>%
+  dplyr::select(Year, Point_ID, VisitNum, AlphaCode, TotalCount, Comments)
+
+# 5) The same species entered more than once in the same distance band of the same survey (these get added together)
+qc_dup <- qc_all %>%
+  dplyr::count(Year, Point_ID, VisitNum, DistBand, AlphaCode, name = "Rows") %>%
+  dplyr::filter(Rows > 1)
+
+# 6) Rows with TotalCount = 0 or missing (usually birds only noted outside the count period)
+qc_zero <- qc_all %>%
+  dplyr::filter(is.na(TotalCount) | TotalCount == 0) %>%
+  dplyr::select(Year, Point_ID, VisitNum, AlphaCode, TotalCount, Outside, Comments)
+
+# 7) TotalCount doesn't equal the passive minutes + callback periods + outside columns
+period_cols <- c("Min 1", "Min 2", "Min 3", "Min 4", "Min 5", "BLRA", "LEBI", "SORA", "VIRA", "KIRA", "CLRA", "AMBI", "COMO", "Outside")
+qc_periods <- qc_all %>%
+  dplyr::mutate(Period_Sum = rowSums(dplyr::across(dplyr::all_of(period_cols), ~ suppressWarnings(as.numeric(.x))), na.rm = TRUE)) %>%
+  dplyr::filter(Period_Sum != TotalCount) %>%
+  dplyr::select(Year, Point_ID, VisitNum, AlphaCode, TotalCount, Period_Sum, dplyr::all_of(period_cols))
+
+# 8) Missing distance band
+qc_band <- qc_all %>%
+  dplyr::filter(DistBand == "Unknown") %>%
+  dplyr::select(Year, Point_ID, VisitNum, AlphaCode, TotalCount)
+
+# 9) Points with no coordinates in pointcount_site_metadata.csv
+qc_coords <- qc_all %>%
+  dplyr::filter(is.na(Lat) | is.na(Long)) %>%
+  dplyr::distinct(Year, Point_ID)
+
+# 10) More than one date/time/tide entered for a single survey
+qc_survey <- qc_all %>%
+  dplyr::distinct(Year, Point_ID, VisitNum, SurveyDate, SurveyTime, Tide) %>%
+  dplyr::count(Year, Point_ID, VisitNum, name = "Versions") %>%
+  dplyr::filter(Versions > 1)
+
+qc_summary <- tibble::tribble(
+  ~Check, ~Issues, ~`How the script handles it`,
+  "Survey date doesn't match file year", nrow(qc_date), "Year is taken from the file, not the date",
+  "Species code not in spp_lookup_table.csv", nrow(qc_lookup), "Temporary habitat from habitat_additions (Formatting chunk), otherwise 'Unclassified'",
+  "Unidentified bird records", nrow(qc_unid), "Counted in total birds, left out of richness/diversity/accumulation",
+  "Duplicate species rows in a survey x distance band", nrow(qc_dup), "Counts are added together",
+  "TotalCount is 0 or missing", nrow(qc_zero), "Left out of counts and richness (still on the map popups)",
+  "TotalCount differs from sum of count periods", nrow(qc_periods), "TotalCount is used as entered - check the datasheet",
+  "Missing distance band", nrow(qc_band), "Kept as 'Unknown' band (in totals, not on ring maps)",
+  "Point missing coordinates", nrow(qc_coords), "Point won't show on maps",
+  "Survey with more than one date/time/tide", nrow(qc_survey), "Each version becomes its own row - fix the datasheet")
+
+kable(qc_summary, caption = "QC summary") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed")) %>%
+  row_spec(which(qc_summary$Issues > 0), bold = TRUE)
+
+show_qc <- function(df, caption) {
+  if (nrow(df) == 0) return(invisible(NULL))
+  kable(df, caption = caption) %>%
+    kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed")) %>%
+    scroll_box(height = if (nrow(df) > 12) "350px" else NULL)
+}
+
+show_qc(qc_date,    "Survey dates that don't match the file year")
+show_qc(qc_lookup,  "Species codes missing from spp_lookup_table.csv (add these to the csv)")
+show_qc(qc_unid,    "Unidentified birds")
+show_qc(qc_dup,     "Species entered more than once in the same survey x distance band")
+show_qc(qc_zero,    "Rows with TotalCount 0 or missing")
+show_qc(qc_periods, "TotalCount doesn't match the sum of the count periods")
+show_qc(qc_band,    "Missing distance band")
+show_qc(qc_coords,  "Points without coordinates")
+show_qc(qc_survey,  "Surveys with more than one date/time/tide entered")
+```
+
+# Summaries
+
+Broken down by site and year. "Per survey" values are averages over every Point x Visit survey, so they aren't inflated by LHC_07 being added in 2026. "Species detected" is a total for the site-year, which does go up with more surveys, so the shared-points column (points surveyed both years) is the fair year-to-year comparison.
+
+```{r Summaries, echo=TRUE}
+mean_se <- function(x) sprintf("%.1f ± %.1f", mean(x), sd(x) / sqrt(length(x)))
+
+site_year_species <- function(df) {
+  df %>%
+    dplyr::filter(Identified, TotalCount > 0) %>%
+    dplyr::group_by(Site, Year) %>%
+    dplyr::summarise(spp = dplyr::n_distinct(AlphaCode), .groups = "drop")
+}
+
+summary_by_site_year <- survey_level_all %>%
+  dplyr::mutate(Year = as.numeric(as.character(Year))) %>%
+  dplyr::group_by(Site, Year) %>%
+  dplyr::summarise(
+    Points  = dplyr::n_distinct(Point_ID),
+    Surveys = dplyr::n(),
+    `Total birds` = sum(Total_Count),
+    `Birds per survey` = mean_se(Total_Count),
+    `Species per survey` = mean_se(Species_Richness),
+    `Shannon per survey` = sprintf("%.2f ± %.2f", mean(Shannon_Diversity), sd(Shannon_Diversity) / sqrt(dplyr::n())),
+    .groups = "drop") %>%
+  dplyr::left_join(site_year_species(point_counts_all) %>% dplyr::rename(`Species detected (all points)` = spp), by = c("Site", "Year")) %>%
+  dplyr::left_join(site_year_species(point_counts_all %>% dplyr::filter(Point_ID %in% shared_points)) %>%
+                     dplyr::rename(`Species detected (shared points)` = spp), by = c("Site", "Year")) %>%
+  dplyr::left_join(site_year_species(point_counts_all %>% dplyr::filter(Habitat == "Marsh")) %>%
+                     dplyr::rename(`Marsh species detected` = spp), by = c("Site", "Year"))
+
+study_area_species <- point_counts_all %>%
+  dplyr::filter(Identified, TotalCount > 0) %>%
+  dplyr::group_by(Year) %>%
+  dplyr::summarise(`Species detected (both sites)` = dplyr::n_distinct(AlphaCode), .groups = "drop")
+
+kable(summary_by_site_year, caption = "Point count summary by site and year (mean ± SE per survey)") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed"))
+
+kable(study_area_species, caption = "Species detected across both sites") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed"))
+```
+
+The original vtable summaries, now split by site within each year.
+
+```{r , echo=TRUE}
+#sumamry table 2025, by site
+st(point_counts_2025_clean %>% dplyr::select(c("Total_Count", "Species_Richness", "Shannon_Diversity", "DistBand", "Site")), group = "Site")
+
+#sumamry table 2026, by site
+st(point_counts_2026_clean %>% dplyr::select(c("Total_Count", "Species_Richness", "Shannon_Diversity", "DistBand", "Site")), group = "Site")
+
+#sumamry table all years, by year (survey level so each survey counts once)
+st(survey_level_all %>% dplyr::select(c("Total_Count", "Species_Richness", "Shannon_Diversity", "Site", "Year")), group = "Year")
+```
+
+### Species checklist
+
+Every species detected, with the number of birds counted at each site in each year (all points). Highlighted rows were only detected in one of the two years at that site.
+
+```{r Species Checklist, echo=TRUE}
+checklist <- point_counts_all %>%
+  dplyr::filter(TotalCount > 0) %>%
+  dplyr::mutate(Column = paste(ifelse(Site == "Cattus Island", "CAT", "LHC"), Year)) %>%
+  dplyr::group_by(Habitat, AlphaCode, Column) %>%
+  dplyr::summarise(Birds = sum(TotalCount), .groups = "drop") %>%
+  tidyr::pivot_wider(names_from = Column, values_from = Birds, values_fill = 0) %>%
+  dplyr::select(Habitat, AlphaCode, dplyr::any_of(c(paste("CAT", year_levels), paste("LHC", year_levels)))) %>%
+  dplyr::arrange(Habitat, AlphaCode)
+
+one_year_only <- which(
+  (checklist[[paste("CAT", year_a)]] > 0) != (checklist[[paste("CAT", year_b)]] > 0) |
+  (checklist[[paste("LHC", year_a)]] > 0) != (checklist[[paste("LHC", year_b)]] > 0))
+
+kable(checklist, caption = "Birds counted per species, site and year") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("hover", "condensed")) %>%
+  row_spec(one_year_only, background = "#FFF3CD") %>%
+  scroll_box(height = "500px")
 ```
 
 # Graphics
 
 Adjust any graphic parameters in the YAML, aka height, width, DPI.
 
+Each box is the spread of values across the distance bands of a point (one value per survey x distance band), split by visit. The survey-level versions further down are usually easier to read.
+
+```{r Graphic Helpers, include=FALSE}
+# shared look for all the box plots so they only need to be styled once
+pc_boxplot <- function(data, y, title, ylab, by_year = FALSE) {
+  p <- ggplot(data, aes(x = Point_ID, y = .data[[y]], color = VisitNum)) +
+    geom_boxplot() +
+    labs(title = title, x = "Point ID", y = ylab) +
+    theme_publish(base_size = 18) +
+    theme(panel.grid.minor = element_blank(),
+      panel.grid.major.x = element_blank(),
+      axis.text.x = element_text(angle = 45, hjust = 1),
+      strip.text = element_text(face = "bold"),
+      legend.position = "right")
+  if (by_year) p + facet_grid(Year ~ Site, scales = "free_x") else p + facet_wrap(~ Site, scales = "free_x")
+}
+
+# observed species richness (identified species, count > 0) at each point, all visits and bands combined
+point_richness <- function(df) {
+  df %>%
+    dplyr::filter(Identified, TotalCount > 0) %>%
+    dplyr::group_by(Year, Site, Point_ID) %>%
+    dplyr::summarise(richness = dplyr::n_distinct(AlphaCode), .groups = "drop")
+}
+
+save_fig <- function(plot, name, height = cfg$params$height, width = cfg$params$width) {
+  ggplot2::ggsave(
+    filename = file.path(cfg$outputs$figures_dir, name),
+    plot = plot, height = height, width = width, dpi = cfg$params$dpi)
+  plot
+}
+```
+
 ### 2025
 
 ```{r , echo=TRUE,fig.height=10, fig.width=15}
-total_count <- ggplot(point_counts_2025_clean, aes(x = Point_ID, y = Total_Count, color = VisitNum)) +
-  geom_boxplot() +
-  facet_wrap(~ Site, scales = "free_x") +
-  labs( title = "Total Bird Count by Site",
-    x = "Point ID",
-    y = "Total bird count") +
-  theme_publish(base_size = 18) +
-  theme(panel.grid.minor = element_blank(),
-    panel.grid.major.x = element_blank(),
-    axis.text.x = element_text(angle = 45, hjust = 1),
-    strip.text = element_text(face = "bold"),
-    legend.position = "right")
+total_count <- pc_boxplot(point_counts_2025_clean, "Total_Count", "Total Bird Count by Site", "Total bird count")
+save_fig(total_count, "total_count_point_counts.png")
 
-ggplot2::ggsave(
-  filename = file.path(cfg$outputs$figures_dir, "total_count_point_counts.png"),
-  plot = total_count, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
+marsh_total_count <- pc_boxplot(marsh_2025_clean, "Total_Count", "Total Marsh Bird Count by Site", "Total bird count")
+save_fig(marsh_total_count, "marsh_spp_total_count_point_counts.png")
 
-marsh_total_count <- ggplot(point_counts_2025_clean %>% filter(Habitat != "Upland"), aes(x = Point_ID, y = Total_Count, color = VisitNum)) +
-  geom_boxplot() +
-  facet_wrap(~ Site, scales = "free_x") +
-  labs( title = "Total Marsh Bird Count by Site",
-    x = "Point ID",
-    y = "Total bird count") +
-  theme_publish(base_size = 18) +
-  theme(panel.grid.minor = element_blank(),
-    panel.grid.major.x = element_blank(),
-    axis.text.x = element_text(angle = 45, hjust = 1),
-    strip.text = element_text(face = "bold"),
-    legend.position = "right")
+shannon <- pc_boxplot(point_counts_2025_clean, "Shannon_Diversity", "Shannon Diversity by Site", "Shannon Diversity")
+save_fig(shannon, "shannon_diversity_point_counts.png")
 
-ggplot2::ggsave(
-  filename = file.path(cfg$outputs$figures_dir, "marsh_spp_total_count_point_counts.png"),
-  plot = marsh_total_count, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
+richness <- pc_boxplot(point_counts_2025_clean, "Species_Richness", "Species Richness by Site", "Species Richness")
+save_fig(richness, "species_richness_boxwhisker_point_counts.png")
 
-shannon <- ggplot(point_counts_2025_clean, aes(x = Point_ID, y = Shannon_Diversity, color = VisitNum)) +
-  geom_boxplot() +
-  facet_wrap(~ Site, scales = "free_x") +
-  labs( title = "Shannon Diversity by Site",
-    x = "Point ID",
-    y = "Shannon Diversity" ) +
-  theme_publish(base_size = 18) +
-  theme(panel.grid.minor = element_blank(),
-    panel.grid.major.x = element_blank(),
-    axis.text.x = element_text(angle = 45, hjust = 1),
-    strip.text = element_text(face = "bold"),
-    legend.position = "right")
-
-ggplot2::ggsave(
-  filename = file.path(cfg$outputs$figures_dir, "shannon_diversity_point_counts.png"),
-  plot = shannon, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
-
-richness <- ggplot(point_counts_2025_clean, aes(x = Point_ID, y = Species_Richness, color = VisitNum)) +
-  geom_boxplot() +
-  facet_wrap(~ Site, scales = "free_x") +
-  labs( title = "Species Richness by Site",
-    x = "Point ID",
-    y = "Species Richness" ) +
-  theme_publish(base_size = 18) +
-  theme(panel.grid.minor = element_blank(),
-    panel.grid.major.x = element_blank(),
-    axis.text.x = element_text(angle = 45, hjust = 1),
-    strip.text = element_text(face = "bold"),
-    legend.position = "right")
-
-ggplot2::ggsave(
-  filename = file.path(cfg$outputs$figures_dir, "species_richness_boxwhisker_point_counts.png"),
-  plot = richness, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
-
-bar_richness <- point_counts_2025 %>%
-  dplyr::group_by(Point_ID) %>%
-  dplyr::summarise(
-    richness = dplyr::n_distinct(AlphaCode),
-    .groups = "drop") %>%
+bar_richness <- point_richness(point_counts_2025) %>%
   ggplot(aes(x = Point_ID, y = richness, fill = Point_ID)) +
   geom_col() +
   labs(y = "Observed Species Richness", x = "Location") +
@@ -274,89 +461,25 @@ bar_richness <- point_counts_2025 %>%
   theme(
     axis.text.x = element_text(angle = 45, hjust = 1),
     legend.position = "none")
-
-ggplot2::ggsave(
-  filename = file.path(cfg$outputs$figures_dir, "species_richness_bar_point_counts.png"),
-  plot = bar_richness, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
-
+save_fig(bar_richness, "species_richness_bar_point_counts.png")
 ```
 
 ### 2026
 
 ```{r , echo=TRUE,fig.height=10, fig.width=15}
-total_count_2026 <- ggplot(point_counts_2026_clean, aes(x = Point_ID, y = Total_Count, color = VisitNum)) +
-  geom_boxplot() +
-  facet_wrap(~ Site, scales = "free_x") +
-  labs( title = "Total Bird Count by Site (2026)",
-    x = "Point ID",
-    y = "Total bird count") +
-  theme_publish(base_size = 18) +
-  theme(panel.grid.minor = element_blank(),
-    panel.grid.major.x = element_blank(),
-    axis.text.x = element_text(angle = 45, hjust = 1),
-    strip.text = element_text(face = "bold"),
-    legend.position = "right")
+total_count_2026 <- pc_boxplot(point_counts_2026_clean, "Total_Count", "Total Bird Count by Site (2026)", "Total bird count")
+save_fig(total_count_2026, "total_count_point_counts_2026.png")
 
-ggplot2::ggsave(
-  filename = file.path(cfg$outputs$figures_dir, "total_count_point_counts_2026.png"),
-  plot = total_count_2026, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
+marsh_total_count_2026 <- pc_boxplot(marsh_2026_clean, "Total_Count", "Total Marsh Bird Count by Site (2026)", "Total bird count")
+save_fig(marsh_total_count_2026, "marsh_spp_total_count_point_counts_2026.png")
 
-marsh_total_count_2026 <- ggplot(point_counts_2026_clean %>% filter(Habitat != "Upland"), aes(x = Point_ID, y = Total_Count, color = VisitNum)) +
-  geom_boxplot() +
-  facet_wrap(~ Site, scales = "free_x") +
-  labs( title = "Total Marsh Bird Count by Site (2026)",
-    x = "Point ID",
-    y = "Total bird count") +
-  theme_publish(base_size = 18) +
-  theme(panel.grid.minor = element_blank(),
-    panel.grid.major.x = element_blank(),
-    axis.text.x = element_text(angle = 45, hjust = 1),
-    strip.text = element_text(face = "bold"),
-    legend.position = "right")
+shannon_2026 <- pc_boxplot(point_counts_2026_clean, "Shannon_Diversity", "Shannon Diversity by Site (2026)", "Shannon Diversity")
+save_fig(shannon_2026, "shannon_diversity_point_counts_2026.png")
 
-ggplot2::ggsave(
-  filename = file.path(cfg$outputs$figures_dir, "marsh_spp_total_count_point_counts_2026.png"),
-  plot = marsh_total_count_2026, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
+richness_2026 <- pc_boxplot(point_counts_2026_clean, "Species_Richness", "Species Richness by Site (2026)", "Species Richness")
+save_fig(richness_2026, "species_richness_boxwhisker_point_counts_2026.png")
 
-shannon_2026 <- ggplot(point_counts_2026_clean, aes(x = Point_ID, y = Shannon_Diversity, color = VisitNum)) +
-  geom_boxplot() +
-  facet_wrap(~ Site, scales = "free_x") +
-  labs( title = "Shannon Diversity by Site (2026)",
-    x = "Point ID",
-    y = "Shannon Diversity" ) +
-  theme_publish(base_size = 18) +
-  theme(panel.grid.minor = element_blank(),
-    panel.grid.major.x = element_blank(),
-    axis.text.x = element_text(angle = 45, hjust = 1),
-    strip.text = element_text(face = "bold"),
-    legend.position = "right")
-
-ggplot2::ggsave(
-  filename = file.path(cfg$outputs$figures_dir, "shannon_diversity_point_counts_2026.png"),
-  plot = shannon_2026, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
-
-richness_2026 <- ggplot(point_counts_2026_clean, aes(x = Point_ID, y = Species_Richness, color = VisitNum)) +
-  geom_boxplot() +
-  facet_wrap(~ Site, scales = "free_x") +
-  labs( title = "Species Richness by Site (2026)",
-    x = "Point ID",
-    y = "Species Richness" ) +
-  theme_publish(base_size = 18) +
-  theme(panel.grid.minor = element_blank(),
-    panel.grid.major.x = element_blank(),
-    axis.text.x = element_text(angle = 45, hjust = 1),
-    strip.text = element_text(face = "bold"),
-    legend.position = "right")
-
-ggplot2::ggsave(
-  filename = file.path(cfg$outputs$figures_dir, "species_richness_boxwhisker_point_counts_2026.png"),
-  plot = richness_2026, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
-
-bar_richness_2026 <- point_counts_2026 %>%
-  dplyr::group_by(Point_ID) %>%
-  dplyr::summarise(
-    richness = dplyr::n_distinct(AlphaCode),
-    .groups = "drop") %>%
+bar_richness_2026 <- point_richness(point_counts_2026) %>%
   ggplot(aes(x = Point_ID, y = richness, fill = Point_ID)) +
   geom_col() +
   labs(y = "Observed Species Richness", x = "Location", title = "2026") +
@@ -364,11 +487,7 @@ bar_richness_2026 <- point_counts_2026 %>%
   theme(
     axis.text.x = element_text(angle = 45, hjust = 1),
     legend.position = "none")
-
-ggplot2::ggsave(
-  filename = file.path(cfg$outputs$figures_dir, "species_richness_bar_point_counts_2026.png"),
-  plot = bar_richness_2026, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
-
+save_fig(bar_richness_2026, "species_richness_bar_point_counts_2026.png")
 ```
 
 ### All years (faceted by year)
@@ -376,409 +495,369 @@ ggplot2::ggsave(
 Rows are years and columns are sites, so the same point can be compared straight up and down between years. LHC_07 was added in 2026 so it only shows up in the 2026 row.
 
 ```{r , echo=TRUE,fig.height=14, fig.width=15}
-total_count_all <- ggplot(point_counts_all_clean, aes(x = Point_ID, y = Total_Count, color = VisitNum)) +
-  geom_boxplot() +
-  facet_grid(Year ~ Site, scales = "free_x") +
-  labs( title = "Total Bird Count by Site and Year",
-    x = "Point ID",
-    y = "Total bird count") +
+total_count_all <- pc_boxplot(point_counts_all_clean, "Total_Count", "Total Bird Count by Site and Year", "Total bird count", by_year = TRUE)
+save_fig(total_count_all, "total_count_point_counts_all_years.png")
+
+marsh_total_count_all <- pc_boxplot(marsh_all_clean, "Total_Count", "Total Marsh Bird Count by Site and Year", "Total bird count", by_year = TRUE)
+save_fig(marsh_total_count_all, "marsh_spp_total_count_point_counts_all_years.png")
+
+shannon_all <- pc_boxplot(point_counts_all_clean, "Shannon_Diversity", "Shannon Diversity by Site and Year", "Shannon Diversity", by_year = TRUE)
+save_fig(shannon_all, "shannon_diversity_point_counts_all_years.png")
+
+richness_all <- pc_boxplot(point_counts_all_clean, "Species_Richness", "Species Richness by Site and Year", "Species Richness", by_year = TRUE)
+save_fig(richness_all, "species_richness_boxwhisker_point_counts_all_years.png")
+
+# side-by-side bars so each point's two years sit next to each other
+bar_richness_all <- point_richness(point_counts_all) %>%
+  dplyr::mutate(Year = factor(Year)) %>%
+  ggplot(aes(x = Point_ID, y = richness, fill = Year)) +
+  geom_col(position = position_dodge(width = 0.8), width = 0.8) +
+  geom_text(aes(label = richness), position = position_dodge(width = 0.8), vjust = -0.4, size = 4) +
+  facet_wrap(~ Site, scales = "free_x") +
+  labs(y = "Observed Species Richness (both visits)", x = "Location", fill = "Year",
+       title = "Species richness at each point by year") +
   theme_publish(base_size = 18) +
-  theme(panel.grid.minor = element_blank(),
-    panel.grid.major.x = element_blank(),
-    axis.text.x = element_text(angle = 45, hjust = 1),
-    strip.text = element_text(face = "bold"),
-    legend.position = "right")
-
-ggplot2::ggsave(
-  filename = file.path(cfg$outputs$figures_dir, "total_count_point_counts_all_years.png"),
-  plot = total_count_all, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
-
-marsh_total_count_all <- ggplot(point_counts_all_clean %>% filter(Habitat != "Upland"), aes(x = Point_ID, y = Total_Count, color = VisitNum)) +
-  geom_boxplot() +
-  facet_grid(Year ~ Site, scales = "free_x") +
-  labs( title = "Total Marsh Bird Count by Site and Year",
-    x = "Point ID",
-    y = "Total bird count") +
-  theme_publish(base_size = 18) +
-  theme(panel.grid.minor = element_blank(),
-    panel.grid.major.x = element_blank(),
-    axis.text.x = element_text(angle = 45, hjust = 1),
-    strip.text = element_text(face = "bold"),
-    legend.position = "right")
-
-ggplot2::ggsave(
-  filename = file.path(cfg$outputs$figures_dir, "marsh_spp_total_count_point_counts_all_years.png"),
-  plot = marsh_total_count_all, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
-
-shannon_all <- ggplot(point_counts_all_clean, aes(x = Point_ID, y = Shannon_Diversity, color = VisitNum)) +
-  geom_boxplot() +
-  facet_grid(Year ~ Site, scales = "free_x") +
-  labs( title = "Shannon Diversity by Site and Year",
-    x = "Point ID",
-    y = "Shannon Diversity" ) +
-  theme_publish(base_size = 18) +
-  theme(panel.grid.minor = element_blank(),
-    panel.grid.major.x = element_blank(),
-    axis.text.x = element_text(angle = 45, hjust = 1),
-    strip.text = element_text(face = "bold"),
-    legend.position = "right")
-
-ggplot2::ggsave(
-  filename = file.path(cfg$outputs$figures_dir, "shannon_diversity_point_counts_all_years.png"),
-  plot = shannon_all, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
-
-richness_all <- ggplot(point_counts_all_clean, aes(x = Point_ID, y = Species_Richness, color = VisitNum)) +
-  geom_boxplot() +
-  facet_grid(Year ~ Site, scales = "free_x") +
-  labs( title = "Species Richness by Site and Year",
-    x = "Point ID",
-    y = "Species Richness" ) +
-  theme_publish(base_size = 18) +
-  theme(panel.grid.minor = element_blank(),
-    panel.grid.major.x = element_blank(),
-    axis.text.x = element_text(angle = 45, hjust = 1),
-    strip.text = element_text(face = "bold"),
-    legend.position = "right")
-
-ggplot2::ggsave(
-  filename = file.path(cfg$outputs$figures_dir, "species_richness_boxwhisker_point_counts_all_years.png"),
-  plot = richness_all, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
-
-bar_richness_all <- point_counts_all %>%
-  dplyr::group_by(Year, Point_ID) %>%
-  dplyr::summarise(
-    richness = dplyr::n_distinct(AlphaCode),
-    .groups = "drop") %>%
-  ggplot(aes(x = Point_ID, y = richness, fill = Point_ID)) +
-  geom_col() +
-  facet_wrap(~ Year, ncol = 1) +
-  labs(y = "Observed Species Richness", x = "Location") +
-  theme_publish() +
   theme(
     axis.text.x = element_text(angle = 45, hjust = 1),
     strip.text = element_text(face = "bold"),
-    legend.position = "none")
-
-ggplot2::ggsave(
-  filename = file.path(cfg$outputs$figures_dir, "species_richness_bar_point_counts_all_years.png"),
-  plot = bar_richness_all, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
-
+    legend.position = "right")
+save_fig(bar_richness_all, "species_richness_bar_point_counts_all_years.png")
 ```
+
 ### Species composition
 
-NOTE: the distance band filter uses `%in%` (not `==`). `==` with two values compares row by row against alternating values and silently drops about half the <100 m detections. `dplyr::mutate` is also called explicitly so plyr's `mutate` (which ignores `group_by`) doesn't compute the percentages over both sites at once.
+The distance band filter uses `%in%` (the old `==` with two values compared row by row against alternating values and dropped about half the <100 m detections).
 
-```{r, echo=TRUE,fig.height=10, fig.width=15}
+```{r Composition Helper, include=FALSE}
+# percent of detections (rows) for each species within 100 m, by whatever grouping is given
+composition <- function(df, ...) {
+  df %>%
+    filter(DistBand %in% c("0-50m", "51-100m"), TotalCount > 0) %>%
+    dplyr::group_by(..., AlphaCode) %>%
+    dplyr::summarise(Count = dplyr::n(), .groups = "drop") %>%
+    dplyr::group_by(...) %>%
+    dplyr::mutate(TotalCount = sum(Count), Percent = (Count / TotalCount) * 100) %>%
+    dplyr::ungroup()
+}
 
-cattus_data_with_proportions <- cattus_2025_pc %>% filter(DistBand %in% c("0-50m", "51-100m")) %>%
-  group_by(Site, AlphaCode) %>%
-  dplyr::summarize(Count = dplyr::n(), .groups = "drop") %>%
-  group_by(Site) %>%
-  dplyr::mutate(TotalCount = sum(Count),
-         Percent = (Count / TotalCount) * 100) %>%
-  ungroup()
-
-lhc_data_with_proportions <- lhc_2025_pc %>% filter(DistBand %in% c("0-50m", "51-100m")) %>%
-  group_by(Site, AlphaCode) %>%
-  dplyr::summarize(Count = dplyr::n(), .groups = "drop") %>%
-  group_by(Site) %>%
-  dplyr::mutate(TotalCount = sum(Count),
-         Percent = (Count / TotalCount) * 100) %>%
-  ungroup()
-
-cattus_spp_composition <- ggplot(
-  cattus_data_with_proportions %>% filter(Percent >= 1) %>%
-    dplyr::mutate(AlphaCode = reorder(AlphaCode, Percent)),
-  aes(x = AlphaCode, y = Percent)) +
-  geom_col(width = 0.8, alpha = 0.9) +
-  coord_flip() +
-  scale_y_continuous(labels = label_percent(scale = 1)) +
-  labs(
-    title = "Cattus Island Species Composition (≥ 1% of detections) <100 m",
-    x = NULL,
-    y = "Percent of total detections") +
-  theme_publish(base_size = 18) +
-  theme(panel.grid.minor = element_blank())
-
-ggplot2::ggsave(
-  filename = file.path(cfg$outputs$figures_dir, "cattus_spp_composition.png"),
-  plot = cattus_spp_composition, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
-
-lhc_spp_composition <- ggplot(
-  lhc_data_with_proportions %>%
-    filter(Percent >= 1) %>%
-    dplyr::mutate(AlphaCode = reorder(AlphaCode, Percent)),
-  aes(x = AlphaCode, y = Percent)) +
-  geom_col(width = 0.8, alpha = 0.9) +
-  coord_flip() +
-  scale_y_continuous(labels = label_percent(scale = 1)) +
-  labs(
-    title = "Lighthouse Center Species Composition (≥ 1% of detections) <100 m",
-    x = NULL,
-    y = "Percent of total detections" ) +
-  theme_publish(base_size = 18) +
-  theme(panel.grid.minor = element_blank())
-
-ggplot2::ggsave(
-  filename = file.path(cfg$outputs$figures_dir, "lhc_spp_composition.png"),
-  plot = lhc_spp_composition, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
-
-```
-
-```{r, echo=TRUE,fig.height=10, fig.width=15}
-
-cattus_data_with_proportions_2026 <- cattus_2026_pc %>% filter(DistBand %in% c("0-50m", "51-100m")) %>%
-  group_by(Site, AlphaCode) %>%
-  dplyr::summarize(Count = dplyr::n(), .groups = "drop") %>%
-  group_by(Site) %>%
-  dplyr::mutate(TotalCount = sum(Count),
-         Percent = (Count / TotalCount) * 100) %>%
-  ungroup()
-
-lhc_data_with_proportions_2026 <- lhc_2026_pc %>% filter(DistBand %in% c("0-50m", "51-100m")) %>%
-  group_by(Site, AlphaCode) %>%
-  dplyr::summarize(Count = dplyr::n(), .groups = "drop") %>%
-  group_by(Site) %>%
-  dplyr::mutate(TotalCount = sum(Count),
-         Percent = (Count / TotalCount) * 100) %>%
-  ungroup()
-
-cattus_spp_composition_2026 <- ggplot(
-  cattus_data_with_proportions_2026 %>% filter(Percent >= 1) %>%
-    dplyr::mutate(AlphaCode = reorder(AlphaCode, Percent)),
-  aes(x = AlphaCode, y = Percent)) +
-  geom_col(width = 0.8, alpha = 0.9) +
-  coord_flip() +
-  scale_y_continuous(labels = label_percent(scale = 1)) +
-  labs(
-    title = "Cattus Island Species Composition 2026 (≥ 1% of detections) <100 m",
-    x = NULL,
-    y = "Percent of total detections") +
-  theme_publish(base_size = 18) +
-  theme(panel.grid.minor = element_blank())
-
-ggplot2::ggsave(
-  filename = file.path(cfg$outputs$figures_dir, "cattus_spp_composition_2026.png"),
-  plot = cattus_spp_composition_2026, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
-
-lhc_spp_composition_2026 <- ggplot(
-  lhc_data_with_proportions_2026 %>%
-    filter(Percent >= 1) %>%
-    dplyr::mutate(AlphaCode = reorder(AlphaCode, Percent)),
-  aes(x = AlphaCode, y = Percent)) +
-  geom_col(width = 0.8, alpha = 0.9) +
-  coord_flip() +
-  scale_y_continuous(labels = label_percent(scale = 1)) +
-  labs(
-    title = "Lighthouse Center Species Composition 2026 (≥ 1% of detections) <100 m",
-    x = NULL,
-    y = "Percent of total detections" ) +
-  theme_publish(base_size = 18) +
-  theme(panel.grid.minor = element_blank())
-
-ggplot2::ggsave(
-  filename = file.path(cfg$outputs$figures_dir, "lhc_spp_composition_2026.png"),
-  plot = lhc_spp_composition_2026, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
-
-```
-
-All years, faceted by year. Species are ordered by their combined percent across both years so the bars line up between panels.
-
-```{r, echo=TRUE,fig.height=12, fig.width=15}
-
-data_with_proportions_all <- point_counts_all %>% filter(DistBand %in% c("0-50m", "51-100m")) %>%
-  group_by(Year, Site, AlphaCode) %>%
-  dplyr::summarize(Count = dplyr::n(), .groups = "drop") %>%
-  group_by(Year, Site) %>%
-  dplyr::mutate(TotalCount = sum(Count),
-         Percent = (Count / TotalCount) * 100) %>%
-  ungroup()
-
-# keeping any species that hit 1% in either year, so a species that dropped below 1% still shows up in the other year's panel
-plot_spp_composition_all <- function(site_name, title) {
-  site_data <- data_with_proportions_all %>% filter(Site == site_name)
-  keep_spp  <- site_data %>% filter(Percent >= 1) %>% dplyr::pull(AlphaCode) %>% unique()
-  site_data %>%
+plot_composition <- function(df, title, by_year = FALSE) {
+  # keeping any species that hit 1% in any panel, ordered by its combined percent so bars line up between years
+  keep_spp <- df %>% filter(Percent >= 1) %>% dplyr::pull(AlphaCode) %>% unique()
+  p <- df %>%
     filter(AlphaCode %in% keep_spp) %>%
     dplyr::mutate(AlphaCode = reorder(AlphaCode, Percent, FUN = sum)) %>%
     ggplot(aes(x = AlphaCode, y = Percent)) +
     geom_col(width = 0.8, alpha = 0.9) +
     coord_flip() +
-    facet_wrap(~ Year) +
     scale_y_continuous(labels = label_percent(scale = 1)) +
     labs(title = title, x = NULL, y = "Percent of total detections") +
     theme_publish(base_size = 18) +
-    theme(panel.grid.minor = element_blank(),
-          strip.text = element_text(face = "bold"))
+    theme(panel.grid.minor = element_blank(), strip.text = element_text(face = "bold"))
+  if (by_year) p + facet_wrap(~ Year) else p
 }
-
-cattus_spp_composition_all <- plot_spp_composition_all("Cattus Island", "Cattus Island Species Composition by Year (≥ 1% of detections) <100 m")
-lhc_spp_composition_all    <- plot_spp_composition_all("Lighthouse Center", "Lighthouse Center Species Composition by Year (≥ 1% of detections) <100 m")
-
-cattus_spp_composition_all
-lhc_spp_composition_all
-
-ggplot2::ggsave(
-  filename = file.path(cfg$outputs$figures_dir, "cattus_spp_composition_all_years.png"),
-  plot = cattus_spp_composition_all, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
-
-ggplot2::ggsave(
-  filename = file.path(cfg$outputs$figures_dir, "lhc_spp_composition_all_years.png"),
-  plot = lhc_spp_composition_all, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
-
 ```
 
-## Summaries
-```{r , echo=TRUE}
-#total distinct species across all point counts
-n_distinct(point_counts_2025$AlphaCode)
+```{r, echo=TRUE,fig.height=10, fig.width=15}
+cattus_data_with_proportions <- composition(point_counts_2025 %>% filter(Site == "Cattus Island"), Site)
+lhc_data_with_proportions    <- composition(point_counts_2025 %>% filter(Site == "Lighthouse Center"), Site)
 
-#sumamry table
-st(point_counts_2025_clean %>% dplyr::select(c("Total_Count", "Species_Richness", "Shannon_Diversity", "DistBand", "Site", "Habitat")))
+cattus_spp_composition <- plot_composition(cattus_data_with_proportions, "Cattus Island Species Composition (≥ 1% of detections) <100 m")
+save_fig(cattus_spp_composition, "cattus_spp_composition.png")
+
+lhc_spp_composition <- plot_composition(lhc_data_with_proportions, "Lighthouse Center Species Composition (≥ 1% of detections) <100 m")
+save_fig(lhc_spp_composition, "lhc_spp_composition.png")
 ```
 
-```{r , echo=TRUE}
-#total distinct species across all 2026 point counts
-n_distinct(point_counts_2026$AlphaCode)
+```{r, echo=TRUE,fig.height=10, fig.width=15}
+cattus_data_with_proportions_2026 <- composition(point_counts_2026 %>% filter(Site == "Cattus Island"), Site)
+lhc_data_with_proportions_2026    <- composition(point_counts_2026 %>% filter(Site == "Lighthouse Center"), Site)
 
-#sumamry table
-st(point_counts_2026_clean %>% dplyr::select(c("Total_Count", "Species_Richness", "Shannon_Diversity", "DistBand", "Site", "Habitat")))
+cattus_spp_composition_2026 <- plot_composition(cattus_data_with_proportions_2026, "Cattus Island Species Composition 2026 (≥ 1% of detections) <100 m")
+save_fig(cattus_spp_composition_2026, "cattus_spp_composition_2026.png")
+
+lhc_spp_composition_2026 <- plot_composition(lhc_data_with_proportions_2026, "Lighthouse Center Species Composition 2026 (≥ 1% of detections) <100 m")
+save_fig(lhc_spp_composition_2026, "lhc_spp_composition_2026.png")
 ```
 
-```{r , echo=TRUE}
-#total distinct species across both years, and per year
-n_distinct(point_counts_all$AlphaCode)
+All years, faceted by year.
 
-point_counts_all %>%
-  dplyr::group_by(Year) %>%
-  dplyr::summarise(n_species = dplyr::n_distinct(AlphaCode), .groups = "drop")
+```{r, echo=TRUE,fig.height=12, fig.width=15}
+cattus_spp_composition_all <- plot_composition(
+  composition(point_counts_all %>% filter(Site == "Cattus Island"), Year, Site),
+  "Cattus Island Species Composition by Year (≥ 1% of detections) <100 m", by_year = TRUE)
+save_fig(cattus_spp_composition_all, "cattus_spp_composition_all_years.png")
 
-#sumamry table, split by year
-st(point_counts_all_clean %>% dplyr::select(c("Total_Count", "Species_Richness", "Shannon_Diversity", "DistBand", "Site", "Habitat", "Year")),
-   group = "Year")
+lhc_spp_composition_all <- plot_composition(
+  composition(point_counts_all %>% filter(Site == "Lighthouse Center"), Year, Site),
+  "Lighthouse Center Species Composition by Year (≥ 1% of detections) <100 m", by_year = TRUE)
+save_fig(lhc_spp_composition_all, "lhc_spp_composition_all_years.png")
 ```
-## Point Count Maps
+
+# Point Count Maps
 
 Adapting code from Serge Morand & Kittipong Chaisiri of HealthDEEP-CNRS, derived from https://rpubs.com/HealthDEEP/1377217
 
-Displaying point count sites with buffers and levels of abundance.
+Displaying point count sites with buffers and levels of abundance. Each year is its own layer (toggle them in the layer control), so the map works like a facet by year. LHC_07 only appears in the 2026 layer.
 
-```{r , echo=TRUE}
-
+```{r Map Helpers, include=FALSE}
 #create a unique species dataframe so each dot represents the number of unique species
-alpha_species_by_point <- point_counts_2025 %>%
-  dplyr::filter(!is.na(AlphaCode)) %>%
-  dplyr::group_by(Site, Point_ID, AlphaCode) %>%
-  dplyr::summarise(
-    Lat  = dplyr::first(Lat),
-    Long = dplyr::first(Long),
-    .groups = "drop")
-
-leaflet() %>%
-  addTiles() %>%
-  addCircleMarkers(data = alpha_species_by_point,
-                   label = ~as.character(AlphaCode),
-                   popup = leafpop::popupTable(alpha_species_by_point),
-                   fillColor = "blue", weight = 0.5,
-                   ~ Long,
-                   ~ Lat,
-                   group = "birds",
-                   clusterOptions = markerClusterOptions(),
-                   stroke = FALSE, fillOpacity = 0.6) %>%
-  addProviderTiles(providers$Esri.WorldStreetMap,group ="WSM") %>%
-  addTiles(group = "OSM") %>%
-  addTiles(urlTemplate = "https://mts1.google.com/vt/lyrs=s&hl=en&src=app&x={x}&y={y}&z={z}&s=G",
-           attribution = 'Google',group ="Google") %>%
-  addLayersControl(baseGroups = c("WSM","OSM","Google"),
-                   overlayGroups = c("birds"),
-                   options = layersControlOptions(collapsed = FALSE)) %>%
-  addScaleBar(position = "bottomright",
-              scaleBarOptions(maxWidth = 100, metric = TRUE, imperial = FALSE,
-                              updateWhenIdle = TRUE))  
-
-```
-
-2026 point counts map.
-
-```{r , echo=TRUE}
-
-alpha_species_by_point_2026 <- point_counts_2026 %>%
-  dplyr::filter(!is.na(AlphaCode)) %>%
-  dplyr::group_by(Site, Point_ID, AlphaCode) %>%
-  dplyr::summarise(
-    Lat  = dplyr::first(Lat),
-    Long = dplyr::first(Long),
-    .groups = "drop")
-
-leaflet() %>%
-  addTiles() %>%
-  addCircleMarkers(data = alpha_species_by_point_2026,
-                   label = ~as.character(AlphaCode),
-                   popup = leafpop::popupTable(alpha_species_by_point_2026),
-                   fillColor = "blue", weight = 0.5,
-                   ~ Long,
-                   ~ Lat,
-                   group = "birds",
-                   clusterOptions = markerClusterOptions(),
-                   stroke = FALSE, fillOpacity = 0.6) %>%
-  addProviderTiles(providers$Esri.WorldStreetMap,group ="WSM") %>%
-  addTiles(group = "OSM") %>%
-  addTiles(urlTemplate = "https://mts1.google.com/vt/lyrs=s&hl=en&src=app&x={x}&y={y}&z={z}&s=G",
-           attribution = 'Google',group ="Google") %>%
-  addLayersControl(baseGroups = c("WSM","OSM","Google"),
-                   overlayGroups = c("birds"),
-                   options = layersControlOptions(collapsed = FALSE)) %>%
-  addScaleBar(position = "bottomright",
-              scaleBarOptions(maxWidth = 100, metric = TRUE, imperial = FALSE,
-                              updateWhenIdle = TRUE))
-
-```
-
-All years map. Each year is its own layer (toggle them on and off in the layer control) so the map works like a facet by year.
-
-```{r , echo=TRUE}
-
-alpha_species_by_point_all <- point_counts_all %>%
-  dplyr::filter(!is.na(AlphaCode)) %>%
-  dplyr::group_by(Year, Site, Point_ID, AlphaCode) %>%
-  dplyr::summarise(
-    Lat  = dplyr::first(Lat),
-    Long = dplyr::first(Long),
-    .groups = "drop")
-
-year_layers <- as.character(sort(unique(alpha_species_by_point_all$Year)))
-year_colors <- c("blue", "darkorange", "darkgreen", "purple")[seq_along(year_layers)]
-
-map_all <- leaflet() %>%
-  addTiles()
-
-for (i in seq_along(year_layers)) {
-  year_data <- alpha_species_by_point_all %>% dplyr::filter(Year == year_layers[i])
-  map_all <- map_all %>%
-    addCircleMarkers(data = year_data,
-                     label = ~as.character(AlphaCode),
-                     popup = leafpop::popupTable(year_data),
-                     fillColor = year_colors[i], weight = 0.5,
-                     ~ Long,
-                     ~ Lat,
-                     group = year_layers[i],
-                     clusterOptions = markerClusterOptions(),
-                     stroke = FALSE, fillOpacity = 0.6)
+species_by_point <- function(df) {
+  df %>%
+    dplyr::filter(!is.na(AlphaCode)) %>%
+    dplyr::group_by(Year, Site, Point_ID, AlphaCode) %>%
+    dplyr::summarise(
+      Lat  = dplyr::first(Lat),
+      Long = dplyr::first(Long),
+      .groups = "drop")
 }
 
-map_all %>%
-  addProviderTiles(providers$Esri.WorldStreetMap,group ="WSM") %>%
-  addTiles(group = "OSM") %>%
-  addTiles(urlTemplate = "https://mts1.google.com/vt/lyrs=s&hl=en&src=app&x={x}&y={y}&z={z}&s=G",
-           attribution = 'Google',group ="Google") %>%
-  addLayersControl(baseGroups = c("WSM","OSM","Google"),
-                   overlayGroups = year_layers,
-                   options = layersControlOptions(collapsed = FALSE)) %>%
-  addScaleBar(position = "bottomright",
-              scaleBarOptions(maxWidth = 100, metric = TRUE, imperial = FALSE,
-                              updateWhenIdle = TRUE))
+add_base_layers <- function(map, overlay_groups) {
+  map %>%
+    addProviderTiles(providers$Esri.WorldImagery, group = "Satellite") %>%
+    addProviderTiles(providers$Esri.WorldStreetMap,group ="WSM") %>%
+    addTiles(group = "OSM") %>%
+    addTiles(urlTemplate = "https://mts1.google.com/vt/lyrs=s&hl=en&src=app&x={x}&y={y}&z={z}&s=G",
+             attribution = 'Google',group ="Google") %>%
+    addLayersControl(baseGroups = c("Satellite", "WSM","OSM","Google"),
+                     overlayGroups = overlay_groups,
+                     options = layersControlOptions(collapsed = FALSE)) %>%
+    addScaleBar(position = "bottomright",
+                scaleBarOptions(maxWidth = 100, metric = TRUE, imperial = FALSE,
+                                updateWhenIdle = TRUE))
+}
 
+species_cluster_map <- function(df) {
+  pts <- species_by_point(df)
+  layers <- as.character(sort(unique(pts$Year)))
+  colors <- c("blue", "darkorange", "darkgreen", "purple")[seq_along(layers)]
+  map <- leaflet()
+  for (i in seq_along(layers)) {
+    year_data <- pts %>% dplyr::filter(Year == layers[i])
+    map <- map %>%
+      addCircleMarkers(data = year_data,
+                       label = ~as.character(AlphaCode),
+                       popup = leafpop::popupTable(year_data),
+                       fillColor = colors[i], weight = 0.5,
+                       ~ Long,
+                       ~ Lat,
+                       group = layers[i],
+                       clusterOptions = markerClusterOptions(),
+                       stroke = FALSE, fillOpacity = 0.6)
+  }
+  add_base_layers(map, layers)
+}
 ```
+
+```{r , echo=TRUE}
+species_cluster_map(point_counts_2025)
+```
+
+```{r , echo=TRUE}
+species_cluster_map(point_counts_2026)
+```
+
+```{r , echo=TRUE}
+species_cluster_map(point_counts_all)
+```
+
+## Distance band ring maps
+
+Each point is drawn as three rings that match the distance bands on the datasheet: 0–50 m (inner), 50–100 m (middle), and 100–200 m (outer, the ">100m" band). Ring colour is the number of species detected in that band across both visits.
+
+- The **2025** and **2026** layers use the same colour scale so they can be compared directly.
+- The **Change** layer shows 2026 minus 2025 (blue = more species in 2026, red = fewer). LHC_07 is grey in the Change layer because it was only surveyed in 2026.
+- Click a ring to see the species list for that band, or for the Change layer, which species were gained and lost.
+
+Neighbouring points' outer rings overlap (as in the GIS buffers), so turn layers on one at a time.
+
+```{r Ring Data, include=FALSE}
+ring_radii <- setNames(unlist(cfg$params$distance_rings_m), c("0-50m", "51-100m", ">100m"))
+ring_labels <- c("0-50m" = "0–50 m", "51-100m" = "50–100 m", ">100m" = "100–200 m")
+
+# species detected in each distance band at each point and year (both visits combined). Bands with no birds get 0.
+band_species <- point_counts_all %>%
+  dplyr::filter(Identified, TotalCount > 0, DistBand %in% names(ring_radii)) %>%
+  dplyr::group_by(Site, Point_ID, Year, DistBand, AlphaCode) %>%
+  dplyr::summarise(Birds = sum(TotalCount), .groups = "drop")
+
+point_years <- point_counts_all %>% dplyr::distinct(Site, Point_ID, Year, Lat, Long)
+
+ring_data <- point_years %>%
+  tidyr::crossing(DistBand = names(ring_radii)) %>%
+  dplyr::mutate(DistBand = factor(DistBand, levels = levels(point_counts_all$DistBand))) %>%
+  dplyr::left_join(
+    band_species %>%
+      dplyr::group_by(Point_ID, Year, DistBand) %>%
+      dplyr::summarise(Richness = dplyr::n_distinct(AlphaCode),
+                       Birds = sum(Birds),
+                       Species = paste(sort(unique(AlphaCode)), collapse = ", "),
+                       .groups = "drop"),
+    by = c("Point_ID", "Year", "DistBand")) %>%
+  dplyr::mutate(Richness = tidyr::replace_na(Richness, 0L),
+                Birds = tidyr::replace_na(Birds, 0),
+                Species = tidyr::replace_na(Species, "none"),
+                Radius = ring_radii[as.character(DistBand)],
+                Band = ring_labels[as.character(DistBand)])
+
+# gained / lost species per point and band between the first and last year
+band_lists <- band_species %>%
+  dplyr::group_by(Point_ID, DistBand, Year) %>%
+  dplyr::summarise(spp = list(unique(AlphaCode)), .groups = "drop") %>%
+  tidyr::pivot_wider(names_from = Year, values_from = spp, names_prefix = "Y")
+
+ring_change <- ring_data %>%
+  dplyr::select(Site, Point_ID, Year, DistBand, Band, Radius, Lat, Long, Richness) %>%
+  tidyr::pivot_wider(names_from = Year, values_from = Richness, names_prefix = "R") %>%
+  dplyr::mutate(Change = .data[[paste0("R", year_b)]] - .data[[paste0("R", year_a)]]) %>%
+  dplyr::left_join(band_lists, by = c("Point_ID", "DistBand")) %>%
+  dplyr::mutate(
+    Gained = purrr::map2_chr(.data[[paste0("Y", year_b)]], .data[[paste0("Y", year_a)]],
+                             ~ paste(sort(setdiff(unlist(.x), unlist(.y))), collapse = ", ")),
+    Lost   = purrr::map2_chr(.data[[paste0("Y", year_a)]], .data[[paste0("Y", year_b)]],
+                             ~ paste(sort(setdiff(unlist(.x), unlist(.y))), collapse = ", ")))
+```
+
+```{r Ring Map, echo=TRUE}
+rich_pal   <- colorNumeric("YlGnBu", domain = c(0, max(ring_data$Richness)))
+change_max <- max(abs(ring_change$Change), na.rm = TRUE)
+change_pal <- colorNumeric("RdBu", domain = c(-change_max, change_max), na.color = "#BDBDBD")
+
+ring_map <- leaflet()
+
+# draw the outer rings first so the smaller ones sit on top
+for (band in rev(names(ring_radii))) {
+  for (yr in year_levels) {
+    rd <- ring_data %>% dplyr::filter(Year == yr, DistBand == band)
+    ring_map <- ring_map %>%
+      addCircles(data = rd, lng = ~Long, lat = ~Lat, radius = ~Radius,
+                 fillColor = ~rich_pal(Richness), fillOpacity = 0.75,
+                 color = "white", weight = 1, group = yr,
+                 label = ~paste0(Point_ID, " ", Band, ": ", Richness, " species"),
+                 popup = ~paste0("<b>", Point_ID, " &ndash; ", Band, " &ndash; ", Year, "</b><br>",
+                                 Richness, " species, ", Birds, " birds<br>", Species))
+  }
+  cd <- ring_change %>% dplyr::filter(DistBand == band)
+  ring_map <- ring_map %>%
+    addCircles(data = cd, lng = ~Long, lat = ~Lat, radius = ~Radius,
+               fillColor = ~change_pal(Change), fillOpacity = 0.8,
+               color = "white", weight = 1, group = "Change",
+               label = ~paste0(Point_ID, " ", Band, ": ",
+                               ifelse(is.na(Change), paste("only surveyed in", year_b), sprintf("%+d species", Change))),
+               popup = ~paste0("<b>", Point_ID, " &ndash; ", Band, " &ndash; change ", year_a, " to ", year_b, "</b><br>",
+                               ifelse(is.na(Change), paste("Only surveyed in", year_b),
+                                      paste0(sprintf("%+d species", Change),
+                                             "<br><b>Gained:</b> ", ifelse(Gained == "", "none", Gained),
+                                             "<br><b>Lost:</b> ", ifelse(Lost == "", "none", Lost)))))
+}
+
+ring_map %>%
+  addLabelOnlyMarkers(data = point_years %>% dplyr::distinct(Point_ID, Lat, Long),
+                      lng = ~Long, lat = ~Lat, label = ~Point_ID,
+                      labelOptions = labelOptions(noHide = TRUE, direction = "center", textOnly = TRUE,
+                                                  style = list("font-weight" = "bold", "color" = "black"))) %>%
+  addLegend("bottomleft", pal = rich_pal, values = c(0, max(ring_data$Richness)),
+            title = "Species in band") %>%
+  addLegend("bottomright", pal = change_pal, values = c(-change_max, change_max),
+            title = paste("Change in species<br>", year_a, "to", year_b), group = "Change") %>%
+  add_base_layers(c(year_levels, "Change")) %>%
+  hideGroup(c(year_levels[-1], "Change"))
+```
+
+### Ring diagrams (static, for reports)
+
+The same rings drawn as one "target" per point so nothing overlaps. Numbers are species detected in each band. Rings are drawn to scale (0–50, 50–100, 100–200 m), which is why the outer band is so much bigger: it covers 75% of the 200 m circle.
+
+```{r Ring Diagram Helpers, include=FALSE}
+# builds a filled ring (annulus) as a polygon with a hole, centred on 0,0, in metres
+annulus <- function(r_in, r_out, n = 120) {
+  t <- seq(0, 2 * pi, length.out = n)
+  outer <- data.frame(x = r_out * cos(t), y = r_out * sin(t), sub = 1)
+  inner <- if (r_in > 0) data.frame(x = r_in * cos(rev(t)), y = r_in * sin(rev(t)), sub = 2) else NULL
+  rbind(outer, inner)
+}
+
+ring_inner <- setNames(c(0, head(unlist(cfg$params$distance_rings_m), -1)), names(ring_radii))
+
+# one ring polygon per row of df (one row = one point x band), with the row's data attached
+ring_polys <- function(df) {
+  df$.id <- seq_len(nrow(df))
+  polys <- purrr::map_dfr(df$.id, function(i) {
+    band <- as.character(df$DistBand[i])
+    cbind(.id = i, annulus(ring_inner[band], ring_radii[band]))
+  })
+  dplyr::left_join(polys, df, by = ".id")
+}
+
+ring_label_pos <- function(df) {
+  df %>% dplyr::mutate(
+    y = ifelse(DistBand == "0-50m", 0, (ring_inner[as.character(DistBand)] + ring_radii[as.character(DistBand)]) / 2),
+    x = 0)
+}
+
+ring_theme <- theme_void(base_size = 16) +
+  theme(strip.text = element_text(face = "bold", margin = margin(4, 4, 4, 4)),
+        plot.title = element_text(face = "bold"),
+        legend.position = "right")
+```
+
+```{r Ring Diagrams, echo=TRUE, fig.height=9, fig.width=16}
+for (site in sort(unique(ring_data$Site))) {
+  site_rings <- ring_data %>% dplyr::filter(Site == site)
+
+  richness_rings <- ggplot(ring_polys(site_rings), aes(x, y)) +
+    geom_polygon(aes(group = interaction(.id), subgroup = sub, fill = Richness), color = "white", linewidth = 0.4) +
+    geom_label(data = ring_label_pos(site_rings), aes(label = Richness), size = 4, label.size = 0, alpha = 0.7) +
+    facet_grid(Year ~ Point_ID, switch = "y") +
+    coord_equal() +
+    scale_fill_distiller(palette = "YlGnBu", direction = 1, limits = c(0, max(ring_data$Richness))) +
+    labs(title = paste(site, "– species detected in each distance band"),
+         subtitle = "Inner = 0–50 m, middle = 50–100 m, outer = 100–200 m",
+         fill = "Species") +
+    ring_theme
+  print(richness_rings)
+  save_fig(richness_rings, paste0(gsub(" ", "_", tolower(site)), "_distance_band_rings.png"), height = 7, width = 16)
+
+  site_change <- ring_change %>% dplyr::filter(Site == site)
+  change_rings <- ggplot(ring_polys(site_change), aes(x, y)) +
+    geom_polygon(aes(group = interaction(.id), subgroup = sub, fill = Change), color = "white", linewidth = 0.4) +
+    geom_label(data = ring_label_pos(site_change),
+               aes(label = ifelse(is.na(Change), "new", sprintf("%+d", Change))), size = 4, label.size = 0, alpha = 0.7) +
+    facet_wrap(~ Point_ID, nrow = 1) +
+    coord_equal() +
+    scale_fill_distiller(palette = "RdBu", direction = 1, limits = c(-change_max, change_max), na.value = "grey80") +
+    labs(title = paste(site, "– change in species per distance band,", year_a, "to", year_b),
+         subtitle = "Blue = more species in the later year, red = fewer",
+         fill = "Change") +
+    ring_theme
+  print(change_rings)
+  save_fig(change_rings, paste0(gsub(" ", "_", tolower(site)), "_distance_band_ring_change.png"), height = 4.5, width = 16)
+}
+```
+
+Focal species rings: the same idea for a single species (set `focal_species` in the YAML). Numbers are birds counted in each band (both visits combined).
+
+```{r Focal Species Rings, echo=TRUE, fig.height=9, fig.width=16}
+focal_rings <- point_years %>%
+  tidyr::crossing(DistBand = names(ring_radii)) %>%
+  dplyr::mutate(DistBand = factor(DistBand, levels = levels(point_counts_all$DistBand))) %>%
+  dplyr::left_join(
+    band_species %>% dplyr::filter(AlphaCode == cfg$params$focal_species) %>% dplyr::select(Point_ID, Year, DistBand, Birds),
+    by = c("Point_ID", "Year", "DistBand")) %>%
+  dplyr::mutate(Birds = tidyr::replace_na(Birds, 0))
+
+focal_ring_plot <- ggplot(ring_polys(focal_rings), aes(x, y)) +
+  geom_polygon(aes(group = interaction(.id), subgroup = sub, fill = Birds), color = "white", linewidth = 0.4) +
+  geom_label(data = ring_label_pos(focal_rings), aes(label = Birds), size = 3.5, label.size = 0, alpha = 0.7) +
+  facet_grid(Year ~ Point_ID, switch = "y") +
+  coord_equal() +
+  scale_fill_distiller(palette = "Greens", direction = 1) +
+  labs(title = paste(cfg$params$focal_species, "– birds counted in each distance band"),
+       subtitle = "Inner = 0–50 m, middle = 50–100 m, outer = 100–200 m", fill = "Birds") +
+  ring_theme
+save_fig(focal_ring_plot, paste0("focal_species_rings_", cfg$params$focal_species, ".png"), height = 7, width = 22)
+```
+
+# Species Pool and Sampling Sufficiency
 
 This code is derived from the above author and uses the Vegan r package. It generates a community matrix to estimates the total species pool for the study area, accounting for imperfect detection and undersampling.
 
@@ -790,74 +869,49 @@ The boorstrap is a resampling estimator and is the lowest and most conservative,
 
 Across the point count surveys, I observed 71 bird species. However, multiple species pool estimators suggest that true species richness is substantially higher (approximately 80–100 species), indicating incomplete sampling and the presence of undetected or rarely detected species. This pattern is consistent with point count surveys, where detectability varies among species due to behavior, abundance, and habitat use.This leaves room for improvement with acoustic data.
 
-```{r, echo=TRUE,fig.height=10, fig.width=15}
+(Those numbers were written for the 2025 data before the QC fixes; unidentified birds and outside-the-count records are now left out, so the tables below will differ slightly.)
 
+```{r Community Matrices, include=FALSE}
 # i need to collapse data into a the matrix to create the further calculations. Because of the nature of the datasheet, we are indicating the separate distance bands of birds simultaneously while conducting each point count. The below code will collapse the distance bands because I am not seeing these as separate surveys, but rather one survey accounting for data differently. If I want to consider each distance band a unique survey in the future, I should take that out.
-comm_matrix <- point_counts_2025_clean %>%
-  group_by(Point_ID, VisitNum, Year) %>%
-  summarise_if(is.numeric, sum, na.rm = TRUE) %>%
-  ungroup() %>%
-  dplyr::select(-Point_ID, -VisitNum, -Year) %>%
-  mutate_all(~ replace_na(.x, 0))
+make_comm <- function(clean_df) {
+  surveys <- clean_df %>%
+    dplyr::select(-dplyr::any_of(c("Total_Count", "Species_Richness", "Shannon_Diversity"))) %>%
+    group_by(Point_ID, VisitNum, Year, Site) %>%
+    summarise_if(is.numeric, sum, na.rm = TRUE) %>%
+    ungroup()
+  list(info = surveys %>% dplyr::select(Point_ID, VisitNum, Year, Site),
+       matrix = surveys %>% dplyr::select(-Point_ID, -VisitNum, -Year, -Site) %>% mutate_all(~ replace_na(.x, 0)))
+}
 
-#making sure it doesnt add these into the matrix because it was. 
-comm_matrix <- comm_matrix[, !names(comm_matrix) %in% c("Total_Count", "Species_Richness", "Shannon_Diversity")]
+comm_2025 <- make_comm(point_counts_2025_clean)
+comm_2026 <- make_comm(point_counts_2026_clean)
+comm_all  <- make_comm(point_counts_all_clean)
 
-pool <- specpool(comm_matrix)
-
-kable(pool, caption = "Species Pool Estimators") %>%
-  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover"))
+comm_matrix      <- comm_2025$matrix
+comm_matrix_2026 <- comm_2026$matrix
+comm_matrix_all  <- comm_all$matrix
 ```
 
-2026 species pool.
-
-```{r, echo=TRUE,fig.height=10, fig.width=15}
-
-comm_matrix_2026 <- point_counts_2026_clean %>%
-  group_by(Point_ID, VisitNum, Year) %>%
-  summarise_if(is.numeric, sum, na.rm = TRUE) %>%
-  ungroup() %>%
-  dplyr::select(-Point_ID, -VisitNum, -Year) %>%
-  mutate_all(~ replace_na(.x, 0))
-
-comm_matrix_2026 <- comm_matrix_2026[, !names(comm_matrix_2026) %in% c("Total_Count", "Species_Richness", "Shannon_Diversity")]
+```{r, echo=TRUE}
+pool <- specpool(comm_matrix)
+kable(pool, caption = "Species Pool Estimators (2025)") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover"))
 
 pool_2026 <- specpool(comm_matrix_2026)
-
 kable(pool_2026, caption = "Species Pool Estimators (2026)") %>%
   kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover"))
-```
 
-All years. The first table pools both years together (each Point_ID x Visit x Year is one survey). The second table uses the `pool` argument in specpool to give separate estimates for each year from the same matrix, so the years are directly comparable (same species columns).
-
-```{r, echo=TRUE,fig.height=10, fig.width=15}
-
-comm_all_surveys <- point_counts_all_clean %>%
-  group_by(Point_ID, VisitNum, Year) %>%
-  summarise_if(is.numeric, sum, na.rm = TRUE) %>%
-  ungroup()
-
-# keeping the year for each row so specpool can split by it
-survey_years <- comm_all_surveys$Year
-
-comm_matrix_all <- comm_all_surveys %>%
-  dplyr::select(-Point_ID, -VisitNum, -Year) %>%
-  mutate_all(~ replace_na(.x, 0))
-
-comm_matrix_all <- comm_matrix_all[, !names(comm_matrix_all) %in% c("Total_Count", "Species_Richness", "Shannon_Diversity")]
-
+# all years: both years pooled, then split by year and by site x year using the pool argument
 pool_all <- specpool(comm_matrix_all)
-
 kable(pool_all, caption = "Species Pool Estimators (all years combined)") %>%
   kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover"))
 
-pool_by_year <- specpool(comm_matrix_all, pool = survey_years)
-
-kable(pool_by_year, caption = "Species Pool Estimators by Year") %>%
+pool_by_site_year <- specpool(comm_matrix_all, pool = paste(comm_all$info$Site, comm_all$info$Year))
+kable(pool_by_site_year, digits = 1, caption = "Species Pool Estimators by Site and Year") %>%
   kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover"))
 ```
 
-This code was also derived from the above author using the Vegan r package. This chunk of code creates a species accumulation curve for the point count data. This curve will tell us at what number of point counts would reach a species plateau based on the matric provided. If the curve has not plateaued, sampling is incomplete. If it is still rising, this means that at this number of surveys, additional surveys would still bring new species. Shallow slopes result in diminishing returns and steep slopes mean that the area is undersampled. 
+This code was also derived from the above author using the Vegan r package. This chunk of code creates a species accumulation curve for the point count data. This curve will tell us at what number of point counts would reach a species plateau based on the matric provided. If the curve has not plateaued, sampling is incomplete. If it is still rising, this means that at this number of surveys, additional surveys would still bring new species. Shallow slopes result in diminishing returns and steep slopes mean that the area is undersampled.
 
 The x axis in my case were actually including 12 sites with 24 total surveys (two surveys at each site within the breeding season). Each visit is being treated as an independent sample.It is normally titled "locations" with one survey at each site being the standard, but I resampled due to the SHARP protocol.
 
@@ -870,12 +924,8 @@ spec_accum <- specaccum(comm_matrix, method = "random")
 
 plot(spec_accum, ci.type = "poly", col = "blue", lwd = 2,
      ci.lty = 0, ci.col = "lightblue",
-     xlab = "Number of Surveys", ylab = "Species Richness")
-```
+     xlab = "Number of Surveys", ylab = "Species Richness", main = "2025")
 
-2026 species accumulation curve.
-
-```{r, echo=TRUE,fig.height=10, fig.width=15}
 spec_accum_2026 <- specaccum(comm_matrix_2026, method = "random")
 
 plot(spec_accum_2026, ci.type = "poly", col = "blue", lwd = 2,
@@ -883,34 +933,607 @@ plot(spec_accum_2026, ci.type = "poly", col = "blue", lwd = 2,
      xlab = "Number of Surveys", ylab = "Species Richness", main = "2026")
 ```
 
-All years. One curve per year (plotted together so the years can be compared on the same axes), plus the combined curve for both years. If the 2026 curve sits above 2025 at the same number of surveys, more species were picked up per unit of effort in 2026. The combined curve shows how much the second year of sampling added to the overall species list. Note 2026 has two more surveys because LHC_07 was added.
+## Was sampling effort sufficient?
 
-```{r, echo=TRUE,fig.height=10, fig.width=15}
+The accumulation curves above only show the surveys we have. To judge whether that was enough, the curves below are broken out by **site and year**, and each one is **extrapolated** (dashed) to twice the number of surveys using the incidence-based method from Chao et al. (2014), the same method the iNEXT package uses. A survey = one visit to one point (all distance bands combined), and only identified species are used.
 
-accum_to_df <- function(acc, label) {
-  data.frame(Surveys = acc$sites, Richness = acc$richness, SD = acc$sd, Curve = label)
+How to read the table:
+
+- **Chao2**: estimated total number of species present (seen + missed), based on how many species were seen in only one survey (Q1, "uniques") or two surveys (Q2, "duplicates"). Lots of uniques and few duplicates means many species are still being missed.
+- **Inventory completeness**: observed species ÷ Chao2. The share of the estimated species pool we actually recorded.
+- **Sample coverage**: the chance that a bird detection on the *next* survey would be a species we already have. This is the better measure of whether effort was "enough": coverage above ~90% means the common and moderately common species are well sampled, and what's left is rare, cryptic, or passing-through species. It doesn't depend on the (uncertain) Chao2 estimate.
+- **Surveys needed**: how many *additional* point visits it would take to record 90% / 95% of the estimated pool. Divide by the number of points to get the number of additional full rounds of visits.
+
+"Both years" pools all surveys at a site, i.e. the species inventory after two seasons.
+
+```{r Sufficiency Functions, include=FALSE}
+# incidence frequencies: for each identified species, the number of surveys it was detected in
+incidence <- function(df) {
+  surveys <- df %>% dplyr::distinct(Year, Point_ID, VisitNum)
+  Y <- df %>%
+    dplyr::filter(Identified, TotalCount > 0) %>%
+    dplyr::distinct(Year, Point_ID, VisitNum, AlphaCode) %>%
+    dplyr::count(AlphaCode, name = "Y") %>%
+    dplyr::pull(Y)
+  list(Y = Y, T = nrow(surveys), n_points = dplyr::n_distinct(surveys$Point_ID))
 }
 
-accum_by_year <- lapply(split(comm_matrix_all, survey_years), specaccum, method = "random")
+# Chao2, sample coverage and the extrapolation formula (Chao et al. 2014, Ecological Monographs; Colwell et al. 2012)
+sufficiency_stats <- function(inc, targets = unlist(cfg$params$sufficiency_targets)) {
+  Y <- inc$Y; T <- inc$T
+  Sobs <- length(Y); Q1 <- sum(Y == 1); Q2 <- sum(Y == 2); U <- sum(Y)
+  Q0 <- if (Q2 > 0) ((T - 1) / T) * Q1^2 / (2 * Q2) else ((T - 1) / T) * Q1 * (Q1 - 1) / 2
+  chao2 <- Sobs + Q0
+  coverage <- if (Q2 > 0) 1 - (Q1 / U) * ((T - 1) * Q1 / ((T - 1) * Q1 + 2 * Q2)) else
+                          1 - (Q1 / U) * ((T - 1) * (Q1 - 1) / ((T - 1) * (Q1 - 1) + 2))
+  surveys_needed <- sapply(targets, function(g) {
+    if (Q0 <= 0 || g * chao2 <= Sobs) return(0)
+    ceiling(log(1 - (g * chao2 - Sobs) / Q0) / log(1 - Q1 / (T * Q0 + Q1)))
+  })
+  out <- data.frame(Surveys = T, Points = inc$n_points, Observed = Sobs, Uniques = Q1, Duplicates = Q2,
+                    Chao2 = chao2, Completeness = Sobs / chao2, Coverage = coverage)
+  for (i in seq_along(targets)) out[[paste0("Surveys_to_", targets[i] * 100, "pct")]] <- surveys_needed[i]
+  out
+}
 
-accum_all_df <- dplyr::bind_rows(
-  lapply(names(accum_by_year), function(y) accum_to_df(accum_by_year[[y]], y)),
-  accum_to_df(specaccum(comm_matrix_all, method = "random"), "All years combined"))
+# expected species for t surveys: interpolation (rarefaction) up to T, extrapolation beyond T
+accumulation_curve <- function(inc, max_t = 2 * inc$T) {
+  Y <- inc$Y; T <- inc$T
+  Sobs <- length(Y); Q1 <- sum(Y == 1); Q2 <- sum(Y == 2)
+  Q0 <- if (Q2 > 0) ((T - 1) / T) * Q1^2 / (2 * Q2) else ((T - 1) / T) * Q1 * (Q1 - 1) / 2
+  t <- seq_len(max_t)
+  S <- sapply(t, function(tt) {
+    if (tt <= T) sum(1 - exp(lchoose(T - Y, tt) - lchoose(T, tt)))
+    else if (Q0 == 0) Sobs
+    else Sobs + Q0 * (1 - (1 - Q1 / (T * Q0 + Q1))^(tt - T))
+  })
+  data.frame(Surveys = t, Species = S, Method = ifelse(t <= T, "Observed (rarefied)", "Extrapolated"))
+}
 
-spec_accum_all <- ggplot(accum_all_df, aes(x = Surveys, y = Richness, color = Curve, fill = Curve)) +
-  geom_ribbon(aes(ymin = Richness - 1.96 * SD, ymax = Richness + 1.96 * SD), alpha = 0.2, color = NA) +
-  geom_line(linewidth = 1.2) +
-  labs(title = "Species Accumulation by Year",
-       x = "Number of Surveys", y = "Species Richness", color = NULL, fill = NULL) +
-  theme_publish(base_size = 18) +
-  theme(panel.grid.minor = element_blank(), legend.position = "right")
-
-spec_accum_all
-
-ggplot2::ggsave(
-  filename = file.path(cfg$outputs$figures_dir, "species_accumulation_all_years.png"),
-  plot = spec_accum_all, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
+# all the groups to run: each site x year, each site with both years pooled, and both sites together
+sufficiency_groups <- function(df) {
+  sites <- c(sort(unique(df$Site)), "Both sites")
+  yrs   <- c(year_levels, "Both years")
+  grid <- expand.grid(Site = sites, Year = yrs, stringsAsFactors = FALSE)
+  purrr::pmap(grid, function(Site, Year) {
+    d <- df
+    if (Site != "Both sites") d <- d[d$Site == Site, ]
+    if (Year != "Both years") d <- d[d$Year == as.numeric(Year), ]
+    list(Site = Site, Year = Year, inc = incidence(d))
+  })
+}
 ```
+
+```{r Sufficiency, echo=TRUE, fig.height=8, fig.width=16}
+groups <- sufficiency_groups(point_counts_all)
+
+sufficiency_table <- purrr::map_dfr(groups, function(g) cbind(Site = g$Site, Year = g$Year, sufficiency_stats(g$inc)))
+
+curves <- purrr::map_dfr(groups, function(g) {
+  st <- sufficiency_stats(g$inc)
+  cbind(Site = g$Site, Year = g$Year, Chao2 = st$Chao2, accumulation_curve(g$inc))
+}) %>%
+  dplyr::mutate(Site = factor(Site, levels = unique(sufficiency_table$Site)),
+                Year = factor(Year, levels = c(year_levels, "Both years")))
+
+observed_pts <- curves %>%
+  dplyr::group_by(Site, Year) %>%
+  dplyr::filter(Method == "Observed (rarefied)") %>%
+  dplyr::slice_max(Surveys, n = 1)
+
+accumulation_extrap <- ggplot(curves, aes(x = Surveys, y = Species, color = Year)) +
+  geom_line(data = dplyr::filter(curves, Method == "Observed (rarefied)"), linewidth = 1.3) +
+  geom_line(data = dplyr::filter(curves, Method == "Extrapolated"), linewidth = 1, linetype = "dashed") +
+  geom_point(data = observed_pts, size = 3.5) +
+  geom_hline(data = dplyr::distinct(curves, Site, Year, Chao2), aes(yintercept = Chao2, color = Year),
+             linetype = "dotted", linewidth = 0.8) +
+  facet_wrap(~ Site, scales = "free_x") +
+  labs(title = "Species accumulation with extrapolation to twice the effort",
+       subtitle = "Solid = surveys done, dot = actual effort, dashed = extrapolated, dotted = Chao2 estimate of total species",
+       x = "Number of surveys (point visits)", y = "Species", color = NULL) +
+  theme_publish(base_size = 18) +
+  theme(panel.grid.minor = element_blank(), strip.text = element_text(face = "bold"), legend.position = "bottom")
+save_fig(accumulation_extrap, "species_accumulation_extrapolated.png")
+
+sufficiency_table %>%
+  dplyr::mutate(Chao2 = round(Chao2, 1),
+                Completeness = scales::percent(Completeness, accuracy = 1),
+                Coverage = scales::percent(Coverage, accuracy = 1)) %>%
+  kable(caption = "Sampling sufficiency by site and year",
+        col.names = c("Site", "Year", "Surveys", "Points", "Species observed", "Uniques (Q1)", "Duplicates (Q2)",
+                      "Chao2 estimate", "Inventory completeness", "Sample coverage",
+                      paste0("Extra surveys for ", unlist(cfg$params$sufficiency_targets) * 100, "% of pool"))) %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed")) %>%
+  collapse_rows(columns = 1, valign = "top")
+```
+
+```{r Sufficiency Text, echo=FALSE, results="asis"}
+# writes a plain-language sentence for each site x year so the interpretation updates with the data
+target_cols <- grep("^Surveys_to_", names(sufficiency_table), value = TRUE)
+for (i in seq_len(nrow(sufficiency_table))) {
+  r <- sufficiency_table[i, ]
+  rounds <- r[[target_cols[1]]] / r$Points
+  verdict <- if (r$Coverage >= 0.95) "effort was sufficient for all but the rarest species" else
+             if (r$Coverage >= 0.90) "effort was sufficient for common and moderately common species, but rare species are still being missed" else
+             "effort was not yet sufficient; each new survey is still adding species regularly"
+  cat(sprintf("- **%s, %s**: %d surveys recorded %d species out of an estimated %.0f (%.0f%% complete). Sample coverage was %.0f%%, so %s. Reaching %d%% of the estimated pool would take about %d more point visits (≈ %.1f more rounds of visits to all %d points).\n",
+              r$Site, r$Year, r$Surveys, r$Observed, r$Chao2, 100 * r$Completeness, 100 * r$Coverage, verdict,
+              round(100 * unlist(cfg$params$sufficiency_targets)[1]), r[[target_cols[1]]], rounds, r$Points))
+}
+```
+
+Things to keep in mind: Chao2 is a *minimum* estimate and gets unstable when there are few duplicates (Q2), and the number of surveys needed goes up quickly for the last few rare species, so 95% targets can look very large. Species that are only passing through (flyovers, migrants late in the window) inflate the uniques; restricting to marsh species or to detections within 100 m would give a tighter estimate for the species the monitoring is really about. The gap between observed and estimated species is where ARU recordings can add the most.
+
+### Sufficiency for marsh species only
+
+Same analysis restricted to marsh-associated species (Habitat = Marsh in the lookup table), since these are the focus of the monitoring.
+
+```{r Sufficiency Marsh, echo=TRUE}
+marsh_groups <- sufficiency_groups(point_counts_all %>% dplyr::filter(Habitat == "Marsh"))
+
+purrr::map_dfr(marsh_groups, function(g) cbind(Site = g$Site, Year = g$Year, sufficiency_stats(g$inc))) %>%
+  dplyr::mutate(Chao2 = round(Chao2, 1),
+                Completeness = scales::percent(Completeness, accuracy = 1),
+                Coverage = scales::percent(Coverage, accuracy = 1)) %>%
+  kable(caption = "Sampling sufficiency for marsh species",
+        col.names = c("Site", "Year", "Surveys", "Points", "Species observed", "Uniques (Q1)", "Duplicates (Q2)",
+                      "Chao2 estimate", "Inventory completeness", "Sample coverage",
+                      paste0("Extra surveys for ", unlist(cfg$params$sufficiency_targets) * 100, "% of pool"))) %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed")) %>%
+  collapse_rows(columns = 1, valign = "top")
+```
+
+# Year-to-Year Comparison
+
+With only two years of data there is no real "trend" to fit (any two points make a straight line), so this section focuses on what two years can actually tell us, starting with the simplest views.
+
+Year comparisons use **only the points surveyed in both years** (LHC_07 was added in 2026), so a difference isn't just the extra point. LHC_07 is still included everywhere else (summaries, maps, rings, 2026 figures). Caveats: survey dates, tides and weather differed between years, and one year-to-year difference can't separate a real population change from normal year-to-year variation. Treat these as a baseline for future years. Once a third year is added, the paired tests can be swapped for mixed models with Point_ID as a random effect (e.g. `lme4::glmer(Total_Count ~ Year + VisitNum + (1 | Point_ID), family = poisson)`).
+
+```{r Year Comparison Data, include=FALSE}
+shared_long   <- point_counts_all %>% dplyr::filter(Point_ID %in% shared_points)
+survey_shared <- survey_level_all %>% dplyr::filter(Point_ID %in% shared_points)
+marsh_survey_shared <- make_survey_metrics(shared_long %>% dplyr::filter(Habitat == "Marsh"))
+focal_survey_shared <- shared_long %>%
+  dplyr::distinct(Year, Site, Point_ID, VisitNum) %>%
+  dplyr::left_join(shared_long %>%
+                     dplyr::filter(AlphaCode == cfg$params$focal_species) %>%
+                     dplyr::group_by(Year, Site, Point_ID, VisitNum) %>%
+                     dplyr::summarise(Birds = sum(TotalCount, na.rm = TRUE), .groups = "drop"),
+                   by = c("Year", "Site", "Point_ID", "VisitNum")) %>%
+  dplyr::mutate(Birds = tidyr::replace_na(Birds, 0), Year = factor(Year))
+
+survey_level_long <- survey_shared %>%
+  tidyr::pivot_longer(c(Total_Count, Species_Richness, Shannon_Diversity),
+                      names_to = "Metric", values_to = "Value") %>%
+  dplyr::mutate(Metric = factor(Metric,
+                                levels = c("Total_Count", "Species_Richness", "Shannon_Diversity"),
+                                labels = c("Birds per survey", "Species per survey", "Shannon diversity")),
+                # putting every survey on the same dummy year so the years line up on one calendar axis
+                Season_Date = as.Date(paste0("2000-", format(SurveyDate, "%m-%d"))))
+
+# species presence per site and year (shared points), used for turnover
+spp_presence <- shared_long %>%
+  dplyr::filter(Identified, TotalCount > 0) %>%
+  dplyr::distinct(Site, Year, AlphaCode) %>%
+  dplyr::bind_rows(dplyr::mutate(., Site = "Both sites") %>% dplyr::distinct()) %>%
+  dplyr::mutate(Year = as.character(Year), present = TRUE) %>%
+  tidyr::pivot_wider(names_from = Year, values_from = present, values_fill = FALSE) %>%
+  dplyr::rename(in_a = dplyr::all_of(year_a), in_b = dplyr::all_of(year_b))
+```
+
+## Scorecard
+
+One table with the headline numbers for each site, side by side by year. Arrows show the direction of change. Everything is per survey or on shared points, so the years are directly comparable.
+
+```{r Scorecard, echo=TRUE}
+add_both <- function(df) dplyr::bind_rows(df, dplyr::mutate(df, Site = "Both sites"))
+
+score_means <- function(df, value, label) {
+  add_both(df) %>%
+    dplyr::group_by(Site, Year = as.character(Year)) %>%
+    dplyr::summarise(Value = mean({{ value }}), .groups = "drop") %>%
+    dplyr::mutate(Metric = label)
+}
+
+scorecard <- dplyr::bind_rows(
+  add_both(point_counts_all) %>%
+    dplyr::group_by(Site, Year = as.character(Year)) %>%
+    dplyr::summarise(Value = dplyr::n_distinct(Point_ID), .groups = "drop") %>%
+    dplyr::mutate(Metric = "Points surveyed (all)"),
+  spp_presence %>%
+    tidyr::pivot_longer(c(in_a, in_b), names_to = "Year", values_to = "present") %>%
+    dplyr::mutate(Year = ifelse(Year == "in_a", year_a, year_b)) %>%
+    dplyr::group_by(Site, Year) %>%
+    dplyr::summarise(Value = sum(present), .groups = "drop") %>%
+    dplyr::mutate(Metric = "Species detected"),
+  score_means(survey_shared, Species_Richness, "Species per survey"),
+  score_means(survey_shared, Total_Count, "Birds per survey"),
+  score_means(survey_shared, Shannon_Diversity, "Shannon diversity per survey"),
+  score_means(marsh_survey_shared, Species_Richness, "Marsh species per survey"),
+  score_means(marsh_survey_shared, Total_Count, "Marsh birds per survey"),
+  score_means(focal_survey_shared, Birds, paste(cfg$params$focal_species, "per survey"))) %>%
+  dplyr::mutate(Site = factor(Site, levels = c(sort(unique(point_counts_all$Site)), "Both sites")),
+                Metric = factor(Metric, levels = unique(Metric))) %>%
+  tidyr::pivot_wider(names_from = Year, values_from = Value) %>%
+  dplyr::mutate(
+    a = .data[[year_a]], b = .data[[year_b]],
+    Change = b - a,
+    `% change` = ifelse(a == 0, NA, 100 * (b - a) / a),
+    ` ` = dplyr::case_when(abs(`% change`) < 5 | is.na(`% change`) ~ "≈", Change > 0 ~ "▲", TRUE ~ "▼")) %>%
+  dplyr::arrange(Site, Metric)
+
+scorecard %>%
+  dplyr::transmute(Site, Metric,
+                   !!year_a := round(a, 2), !!year_b := round(b, 2),
+                   Change = sprintf("%+.2f", Change),
+                   `% change` = ifelse(is.na(`% change`), "", sprintf("%+.0f%%", `% change`)), ` `) %>%
+  kable(caption = paste0("Scorecard, ", year_a, " vs ", year_b, " (points surveyed both years; 'Points surveyed' counts all points)"), align = "llrrrrc") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed")) %>%
+  column_spec(7, color = ifelse(scorecard$` ` == "▲", "#1B7837", ifelse(scorecard$` ` == "▼", "#B2182B", "grey50")), bold = TRUE) %>%
+  collapse_rows(columns = 1, valign = "top")
+```
+
+## Year side by side
+
+The simplest comparison: average per survey with standard error bars, for each site and year.
+
+```{r Year Bars, echo=TRUE, fig.height=7, fig.width=15}
+year_bars <- survey_level_long %>%
+  dplyr::group_by(Site, Year, Metric) %>%
+  dplyr::summarise(Mean = mean(Value), SE = sd(Value) / sqrt(dplyr::n()), .groups = "drop") %>%
+  ggplot(aes(x = Site, y = Mean, fill = Year)) +
+  geom_col(position = position_dodge(width = 0.8), width = 0.75) +
+  geom_errorbar(aes(ymin = Mean - SE, ymax = Mean + SE), position = position_dodge(width = 0.8), width = 0.25) +
+  geom_text(aes(y = Mean + SE, label = round(Mean, 1)), position = position_dodge(width = 0.8), vjust = -0.5, size = 4.5) +
+  facet_wrap(~ Metric, scales = "free_y") +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.12))) +
+  labs(title = "Average per survey by site and year (mean ± SE, points surveyed both years)", x = NULL, y = NULL) +
+  theme_publish(base_size = 18) +
+  theme(panel.grid.minor = element_blank(), strip.text = element_text(face = "bold"), legend.position = "right")
+save_fig(year_bars, "year_comparison_bars.png")
+```
+
+## Paired point-level change
+
+Each line is one point (averaged over its two visits in each year). Lines going up mean that point had more birds/species in the later year. The table uses a paired Wilcoxon signed-rank test, which is appropriate for a small number of paired points and doesn't assume normal data. With only 6 points per site, a site-level test can't get below p ≈ 0.03 even if every point changes in the same direction, so focus on the direction and size of the change (mean change, number of points up vs down) more than the p-values.
+
+```{r Paired Change, echo=TRUE, fig.height=10, fig.width=15}
+point_year_means <- survey_level_long %>%
+  dplyr::group_by(Site, Point_ID, Year, Metric) %>%
+  dplyr::summarise(Value = mean(Value), .groups = "drop")
+
+paired_change <- ggplot(point_year_means, aes(x = Year, y = Value, group = Point_ID, color = Site)) +
+  geom_line(linewidth = 1, alpha = 0.7) +
+  geom_point(size = 3) +
+  stat_summary(aes(group = Site), fun = mean, geom = "line", linewidth = 2.5, linetype = "dashed") +
+  facet_wrap(~ Metric, scales = "free_y") +
+  labs(title = "Change at each point between years (dashed = site mean)",
+       x = NULL, y = NULL) +
+  theme_publish(base_size = 18) +
+  theme(panel.grid.minor = element_blank(),
+        strip.text = element_text(face = "bold"),
+        legend.position = "bottom")
+save_fig(paired_change, "paired_point_change_by_year.png")
+
+paired_wide <- point_year_means %>%
+  tidyr::pivot_wider(names_from = Year, values_from = Value) %>%
+  dplyr::rename(before = dplyr::all_of(year_a), after = dplyr::all_of(year_b))
+
+paired_test <- function(df) {
+  df %>%
+    dplyr::summarise(
+      n_points    = dplyr::n(),
+      mean_before = mean(before),
+      mean_after  = mean(after),
+      mean_change = mean(after - before),
+      n_increased = sum(after > before),
+      n_decreased = sum(after < before),
+      p_value     = suppressWarnings(wilcox.test(after, before, paired = TRUE, exact = FALSE)$p.value),
+      .groups = "drop")
+}
+
+dplyr::bind_rows(
+  paired_wide %>% dplyr::group_by(Metric) %>% paired_test() %>% dplyr::mutate(Site = "Both sites"),
+  paired_wide %>% dplyr::group_by(Site, Metric) %>% paired_test()) %>%
+  dplyr::select(Site, Metric, dplyr::everything()) %>%
+  dplyr::rename(!!paste("mean", year_a) := mean_before, !!paste("mean", year_b) := mean_after) %>%
+  kable(digits = c(0, 0, 0, 2, 2, 2, 0, 0, 3),
+        caption = paste("Paired change per point,", year_a, "to", year_b, "(paired Wilcoxon signed-rank test)")) %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed")) %>%
+  collapse_rows(columns = 1, valign = "top")
+```
+
+## Within-season timing
+
+Each small point is one survey, the large points and lines are the mean for each visit. Because both years are drawn on the same calendar, this shows whether the visit 1 to visit 2 change looked the same each year and whether surveys were done at a similar time of the season (2026 visit 1 was about two weeks earlier than 2025).
+
+```{r Seasonal Timing, echo=TRUE, fig.height=12, fig.width=15}
+visit_means <- survey_level_long %>%
+  dplyr::group_by(Site, Year, VisitNum, Metric) %>%
+  dplyr::summarise(
+    Season_Date = mean(Season_Date),
+    Mean = mean(Value),
+    SE   = sd(Value) / sqrt(dplyr::n()),
+    .groups = "drop")
+
+seasonal_timing <- ggplot(survey_level_long, aes(x = Season_Date, y = Value, color = Year)) +
+  geom_jitter(width = 0.6, height = 0, alpha = 0.4, size = 2) +
+  geom_line(data = visit_means, aes(y = Mean, group = Year), linewidth = 1.2) +
+  geom_pointrange(data = visit_means, aes(y = Mean, ymin = Mean - SE, ymax = Mean + SE), size = 0.8) +
+  facet_grid(Metric ~ Site, scales = "free_y") +
+  scale_x_date(date_labels = "%b %d") +
+  labs(title = "Within-season change by year (mean ± SE per visit)",
+       x = "Survey date", y = NULL, color = "Year") +
+  theme_publish(base_size = 18) +
+  theme(panel.grid.minor = element_blank(),
+        strip.text = element_text(face = "bold"),
+        legend.position = "right")
+save_fig(seasonal_timing, "seasonal_timing_by_year.png")
+```
+
+## Year effect models
+
+GLMs on the survey-level data with Year, Site, their interaction (does the year difference differ between sites?), and VisitNum (early vs late season). Total count uses a quasi-Poisson family because bird counts are usually more variable than a Poisson assumes (flocks). Estimates are exponentiated, so they read as rate ratios: a Year estimate of 0.80 means 20% fewer birds per survey in the later year at the reference site (Cattus Island), holding visit constant.
+
+```{r Year GLM, echo=TRUE}
+glm_count_year <- glm(Total_Count ~ Year * Site + VisitNum,
+                      data = survey_shared, family = quasipoisson)
+
+glm_richness_year <- glm(Species_Richness ~ Year * Site + VisitNum,
+                         data = survey_shared, family = poisson)
+
+kable(broom::tidy(glm_count_year, conf.int = TRUE, exponentiate = TRUE), digits = 3,
+      caption = "Total count ~ Year * Site + Visit (quasi-Poisson, rate ratios)") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed"))
+
+kable(broom::tidy(glm_richness_year, conf.int = TRUE, exponentiate = TRUE), digits = 3,
+      caption = "Species richness ~ Year * Site + Visit (Poisson, rate ratios)") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed"))
+```
+
+## Species turnover
+
+Total species richness was similar between years, but that hides a lot of change in *which* species were present. Jaccard similarity is the share of the combined species list that was seen in both years (1 = identical lists, 0 = no species in common). Species seen in only one year are often rare species with one or two detections, so this partly reflects chance detections of rare birds; that ties back to the sampling sufficiency section.
+
+```{r Species Turnover, echo=TRUE, fig.height=6, fig.width=15}
+spp_turnover <- spp_presence %>%
+  dplyr::group_by(Site) %>%
+  dplyr::summarise(
+    Shared    = sum(in_a & in_b),
+    Lost      = sum(in_a & !in_b),
+    Gained    = sum(!in_a & in_b),
+    Jaccard   = Shared / (Shared + Lost + Gained),
+    !!paste("Only in", year_a) := paste(sort(AlphaCode[in_a & !in_b]), collapse = ", "),
+    !!paste("Only in", year_b) := paste(sort(AlphaCode[!in_a & in_b]), collapse = ", "),
+    .groups = "drop")
+
+kable(spp_turnover, digits = 2, caption = paste("Species turnover between", year_a, "and", year_b, "(points surveyed both years)")) %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed"))
+
+turnover_plot <- spp_turnover %>%
+  dplyr::select(Site, Lost, Shared, Gained) %>%
+  tidyr::pivot_longer(-Site, names_to = "Status", values_to = "Species") %>%
+  dplyr::mutate(Status = factor(Status, levels = c("Lost", "Shared", "Gained"),
+                                labels = c(paste("Only in", year_a), "Both years", paste("Only in", year_b)))) %>%
+  ggplot(aes(y = Site, x = Species, fill = Status)) +
+  geom_col(width = 0.6) +
+  geom_text(aes(label = Species), position = position_stack(vjust = 0.5), color = "white", fontface = "bold", size = 5) +
+  scale_fill_manual(values = c("#B2182B", "grey55", "#2166AC")) +
+  labs(title = "Same richness, different species", x = "Number of species", y = NULL, fill = NULL) +
+  theme_publish(base_size = 18) +
+  theme(panel.grid.minor = element_blank(), legend.position = "bottom")
+save_fig(turnover_plot, "species_turnover.png")
+```
+
+## Which species went up or down?
+
+Average birds per survey in each year for every species with at least 10 birds across both years (points surveyed both years). The dot on the left/right shows each year, and the line between them is the change, so the longest lines are the biggest changes. Colour shows the direction. Big swings in flocking species (gulls, terns, swallows) usually reflect one big flock on one survey rather than a real change, so look for consistent changes in resident marsh species.
+
+```{r Species Dumbbell, echo=TRUE, fig.height=14, fig.width=15}
+surveys_per_site_year <- survey_shared %>%
+  dplyr::count(Site, Year, name = "n_surveys") %>%
+  dplyr::mutate(Year = as.character(Year))
+
+spp_change <- shared_long %>%
+  dplyr::filter(Identified) %>%
+  dplyr::mutate(Year = as.character(Year)) %>%
+  dplyr::group_by(Site, Year, Habitat, AlphaCode) %>%
+  dplyr::summarise(Total = sum(TotalCount, na.rm = TRUE), .groups = "drop") %>%
+  # filling in a 0 for species seen at a site in one year but not the other
+  dplyr::group_by(Site) %>%
+  tidyr::complete(Year, tidyr::nesting(Habitat, AlphaCode), fill = list(Total = 0)) %>%
+  dplyr::ungroup() %>%
+  dplyr::left_join(surveys_per_site_year, by = c("Site", "Year")) %>%
+  dplyr::mutate(Per_Survey = Total / n_surveys) %>%
+  dplyr::group_by(Site, AlphaCode) %>%
+  dplyr::filter(sum(Total) >= 10) %>%
+  dplyr::mutate(Change = Per_Survey[Year == year_b] - Per_Survey[Year == year_a],
+                Direction = ifelse(Change >= 0, paste("Higher in", year_b), paste("Lower in", year_b))) %>%
+  dplyr::ungroup() %>%
+  dplyr::mutate(Label = reorder(paste(AlphaCode, Site, sep = "___"), Change))
+
+species_dumbbell <- ggplot(spp_change, aes(y = Label, x = Per_Survey)) +
+  geom_line(aes(group = Label, color = Direction), linewidth = 2.5, alpha = 0.6) +
+  geom_point(aes(shape = Year), size = 3.5, fill = "white") +
+  facet_wrap(~ Site, scales = "free_y") +
+  scale_y_discrete(labels = function(x) sub("___.*$", "", x)) +
+  scale_shape_manual(values = c(21, 19)) +
+  scale_color_manual(values = c("#2166AC", "#B2182B")) +
+  labs(title = paste("Change in birds per survey,", year_a, "to", year_b),
+       subtitle = "Species with ≥ 10 birds across both years, points surveyed both years",
+       x = "Average birds per survey", y = NULL, color = NULL, shape = NULL) +
+  theme_publish(base_size = 18) +
+  theme(panel.grid.minor = element_blank(), strip.text = element_text(face = "bold"), legend.position = "bottom")
+save_fig(species_dumbbell, "species_change_dumbbell.png")
+```
+
+## Community shift (NMDS)
+
+An ordination places each survey on a map where surveys with similar bird communities sit close together (Bray–Curtis on square-root counts, identified species, shared points). Arrows go from each point's 2025 average position to its 2026 position, so long arrows that all point the same way mean the community shifted between years, while short or random arrows mean it stayed about the same. The PERMANOVA table tests how much of the community difference is explained by site and by year (R² = share of variation; permutations are restricted within points so each point is only compared to itself).
+
+```{r NMDS, echo=TRUE, fig.height=9, fig.width=12}
+comm_shared <- make_comm(point_counts_all_clean %>% dplyr::filter(Point_ID %in% shared_points))
+comm_shared$matrix <- comm_shared$matrix[, colSums(comm_shared$matrix) > 0]
+
+set.seed(42)
+nmds <- vegan::metaMDS(sqrt(comm_shared$matrix), distance = "bray", k = 2, trymax = 100, trace = FALSE)
+
+nmds_scores <- cbind(comm_shared$info, as.data.frame(vegan::scores(nmds, display = "sites")))
+nmds_centroids <- nmds_scores %>%
+  dplyr::group_by(Site, Point_ID, Year) %>%
+  dplyr::summarise(NMDS1 = mean(NMDS1), NMDS2 = mean(NMDS2), .groups = "drop") %>%
+  tidyr::pivot_wider(names_from = Year, values_from = c(NMDS1, NMDS2))
+
+nmds_plot <- ggplot(nmds_scores, aes(NMDS1, NMDS2)) +
+  stat_ellipse(aes(color = Site, linetype = Year), linewidth = 0.8, level = 0.68) +
+  geom_point(aes(color = Site, shape = Year), size = 3, alpha = 0.6) +
+  geom_segment(data = nmds_centroids,
+               aes(x = .data[[paste0("NMDS1_", year_a)]], y = .data[[paste0("NMDS2_", year_a)]],
+                   xend = .data[[paste0("NMDS1_", year_b)]], yend = .data[[paste0("NMDS2_", year_b)]], color = Site),
+               arrow = arrow(length = unit(0.25, "cm")), linewidth = 0.9) +
+  geom_text(data = nmds_centroids,
+            aes(x = .data[[paste0("NMDS1_", year_b)]], y = .data[[paste0("NMDS2_", year_b)]], label = Point_ID),
+            size = 3.5, vjust = -0.8, check_overlap = TRUE) +
+  coord_equal() +
+  labs(title = "Bird community by survey (NMDS)",
+       subtitle = sprintf("Arrows: each point's shift from %s to %s. Stress = %.2f (< 0.2 is a usable 2-D picture)", year_a, year_b, nmds$stress)) +
+  theme_publish(base_size = 16) +
+  theme(panel.grid.minor = element_blank(), legend.position = "right")
+save_fig(nmds_plot, "nmds_community_by_year.png")
+
+perm <- permute::how(blocks = comm_shared$info$Point_ID, nperm = 999)
+set.seed(42)
+permanova_year <- vegan::adonis2(sqrt(comm_shared$matrix) ~ Year + VisitNum,
+                                 data = comm_shared$info, method = "bray", permutations = perm)
+set.seed(42)
+permanova_site <- vegan::adonis2(sqrt(comm_shared$matrix) ~ Site + Year + VisitNum,
+                                 data = comm_shared$info, method = "bray", by = "margin", permutations = 999)
+
+kable(as.data.frame(permanova_year), digits = 3,
+      caption = "PERMANOVA: year and visit effects (permutations within points)") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed"))
+kable(as.data.frame(permanova_site), digits = 3,
+      caption = "PERMANOVA: site, year and visit (marginal effects)") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed"))
+```
+
+# More Ways to Look at the Point Counts
+
+## Where each species was found
+
+A grid of every species (rows, grouped by habitat) at every point (columns), coloured by the number of birds counted (both visits combined). This makes it easy to see which species are widespread, which are tied to one site or a few points, and what appeared or disappeared between years.
+
+```{r Species Heatmap, echo=TRUE, fig.height=24, fig.width=16}
+heat_data <- point_counts_all %>%
+  dplyr::filter(Identified, TotalCount > 0) %>%
+  dplyr::group_by(Habitat, AlphaCode, Site, Point_ID, Year) %>%
+  dplyr::summarise(Birds = sum(TotalCount), .groups = "drop") %>%
+  dplyr::mutate(Year = factor(Year),
+                AlphaCode = reorder(AlphaCode, Birds, FUN = sum))
+
+species_heatmap <- ggplot(heat_data, aes(x = Point_ID, y = AlphaCode, fill = Birds)) +
+  geom_tile(color = "white", linewidth = 0.3) +
+  facet_grid(Habitat ~ Year + Site, scales = "free", space = "free") +
+  scale_fill_viridis_c(trans = "log10", option = "mako", direction = -1) +
+  labs(title = "Birds counted per species and point", x = NULL, y = NULL, fill = "Birds") +
+  theme_publish(base_size = 13) +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1),
+        strip.text = element_text(face = "bold"),
+        strip.text.y = element_text(angle = 0),
+        panel.grid = element_blank(),
+        legend.position = "right")
+save_fig(species_heatmap, "species_by_point_heatmap.png", height = 24, width = 16)
+```
+
+## Rank-abundance curves
+
+Species ranked from most to least abundant at each site (log scale). A steep curve means a few species make up most of the birds (low evenness); a flatter, longer curve means a more even and diverse community. The top species are labelled.
+
+```{r Rank Abundance, echo=TRUE, fig.height=8, fig.width=15}
+rank_data <- shared_long %>%
+  dplyr::filter(Identified, TotalCount > 0) %>%
+  dplyr::group_by(Site, Year, AlphaCode) %>%
+  dplyr::summarise(Birds = sum(TotalCount), .groups = "drop") %>%
+  dplyr::group_by(Site, Year) %>%
+  dplyr::arrange(dplyr::desc(Birds), .by_group = TRUE) %>%
+  dplyr::mutate(Rank = dplyr::row_number(), Proportion = Birds / sum(Birds)) %>%
+  dplyr::ungroup() %>%
+  dplyr::mutate(Year = factor(Year))
+
+rank_abundance <- ggplot(rank_data, aes(Rank, Proportion, color = Year)) +
+  geom_line(linewidth = 1.1) +
+  geom_point(size = 2) +
+  geom_text(data = dplyr::filter(rank_data, Rank <= 4), aes(label = AlphaCode),
+            hjust = -0.25, size = 4, show.legend = FALSE, check_overlap = TRUE) +
+  facet_wrap(~ Site) +
+  scale_y_log10(labels = scales::label_percent(accuracy = 0.1)) +
+  labs(title = "Rank-abundance by site and year (points surveyed both years)",
+       x = "Species rank", y = "Share of all birds counted (log scale)") +
+  theme_publish(base_size = 18) +
+  theme(panel.grid.minor = element_blank(), strip.text = element_text(face = "bold"))
+save_fig(rank_abundance, "rank_abundance.png")
+```
+
+## Marsh vs upland birds
+
+Share of birds and species that are marsh, upland, or use both, by site and year (all points). A shift toward upland species at a marsh point can be an early sign of habitat change (or just a different survey date).
+
+```{r Habitat Composition, echo=TRUE, fig.height=7, fig.width=15}
+habitat_comp <- point_counts_all %>%
+  dplyr::filter(TotalCount > 0) %>%
+  dplyr::group_by(Site, Year, Habitat) %>%
+  dplyr::summarise(Birds = sum(TotalCount),
+                   Species = dplyr::n_distinct(AlphaCode[Identified]), .groups = "drop") %>%
+  tidyr::pivot_longer(c(Birds, Species), names_to = "Measure", values_to = "Value") %>%
+  dplyr::group_by(Site, Year, Measure) %>%
+  dplyr::mutate(Share = Value / sum(Value)) %>%
+  dplyr::ungroup() %>%
+  dplyr::mutate(Year = factor(Year),
+                Measure = ifelse(Measure == "Birds", "Share of birds", "Share of species"))
+
+habitat_plot <- ggplot(habitat_comp, aes(x = Year, y = Share, fill = Habitat)) +
+  geom_col(width = 0.7) +
+  geom_text(aes(label = ifelse(Share >= 0.05, scales::percent(Share, accuracy = 1), "")),
+            position = position_stack(vjust = 0.5), size = 4.5, color = "white", fontface = "bold") +
+  facet_grid(Measure ~ Site) +
+  scale_y_continuous(labels = scales::label_percent()) +
+  scale_fill_manual(values = c("Marsh" = "#1B7837", "Upland/Marsh" = "#A6611A", "Upland" = "#DFC27D", "Unclassified" = "grey60")) +
+  labs(title = "Marsh vs upland birds by site and year", x = NULL, y = NULL) +
+  theme_publish(base_size = 18) +
+  theme(panel.grid.minor = element_blank(), strip.text = element_text(face = "bold"))
+save_fig(habitat_plot, "habitat_composition_by_year.png")
+```
+
+## Detections by distance band
+
+Share of birds detected in each distance band. Most species are harder to detect farther away, so a big share of birds in the outer band usually means flyovers or loud/conspicuous species. If the distance pattern changes a lot between years, differences in counts may partly be differences in detectability (e.g. wind, noise, vegetation height) rather than abundance.
+
+```{r Distance Bands, echo=TRUE, fig.height=7, fig.width=15}
+band_comp <- point_counts_all %>%
+  dplyr::filter(TotalCount > 0, DistBand != "Unknown") %>%
+  dplyr::mutate(Group = ifelse(Habitat == "Marsh", "Marsh species", "Other species")) %>%
+  dplyr::group_by(Site, Year, Group, DistBand) %>%
+  dplyr::summarise(Birds = sum(TotalCount), .groups = "drop") %>%
+  dplyr::group_by(Site, Year, Group) %>%
+  dplyr::mutate(Share = Birds / sum(Birds)) %>%
+  dplyr::ungroup() %>%
+  dplyr::mutate(Year = factor(Year), Band = factor(ring_labels[as.character(DistBand)], levels = ring_labels))
+
+band_plot <- ggplot(band_comp, aes(x = Year, y = Share, fill = Band)) +
+  geom_col(width = 0.7) +
+  geom_text(aes(label = scales::percent(Share, accuracy = 1)), position = position_stack(vjust = 0.5),
+            size = 4.5, color = "white", fontface = "bold") +
+  facet_grid(Group ~ Site) +
+  scale_y_continuous(labels = scales::label_percent()) +
+  scale_fill_manual(values = c("#08519C", "#4292C6", "#9ECAE1")) +
+  labs(title = "Share of birds by distance band", x = NULL, y = NULL, fill = "Distance band") +
+  theme_publish(base_size = 18) +
+  theme(panel.grid.minor = element_blank(), strip.text = element_text(face = "bold"))
+save_fig(band_plot, "distance_band_share_by_year.png")
+```
+
+# Density and Abundance Models
+
 Density estimation. Also derived from above. Reformatted with ChatGPT to make it easyt to plug and play different spp. 
 
 This code currently models spatial variation in observed abundance using Poisson generalized linear models. Models currently include only geographic coordinates describe spatial gradients in counts but do not represent mechanistic drivers of density. Therefore, abundance estimates derived from these models are interpreted as indices rather than true density estimates. Habitat-based models provide more ecologically meaningful inference.
@@ -1270,259 +1893,3 @@ siteCovs_all %>%
   gt::gt()
 ```
 
-# Year-to-Year Comparison (2025 vs 2026)
-
-With only two years of data there is no real "trend" to fit (any two points make a straight line), so this section focuses on what two years can actually tell us:
-
-1. **Within-season timing**: how counts change from visit 1 to visit 2 in each year, plotted on a shared calendar so the years overlay.
-2. **Paired point-level change**: each point is compared to itself between years, which removes point-to-point differences (habitat, location) from the comparison.
-3. **Year effect models**: a simple GLM with Year, Site, and Visit to see if the year difference holds up after accounting for site and visit.
-4. **Species turnover**: which species were gained, lost, or shared between years, and which common species went up or down.
-
-All of these use **only the points surveyed in both years** (LHC_07 was added in 2026, so it is dropped here) so differences aren't caused by a change in effort. Survey-level metrics are calculated by summing all distance bands for a point visit (one value per Point x Visit x Year), so each survey only counts once.
-
-Caveats: survey dates, tides, and weather differed between years, and one year-to-year difference can't separate a real population change from normal year-to-year variation. Treat results as a baseline for future years rather than evidence of a trend. Once a third year is added, the paired tests can be swapped for mixed models with Point_ID as a random effect (e.g. `lme4::glmer(Total_Count ~ Year + VisitNum + (1 | Point_ID), family = poisson)`).
-
-```{r Year Comparison Data, echo=TRUE}
-# points that were surveyed in every year
-shared_points <- point_counts_all %>%
-  dplyr::distinct(Point_ID, Year) %>%
-  dplyr::count(Point_ID, name = "n_years") %>%
-  dplyr::filter(n_years == dplyr::n_distinct(point_counts_all$Year)) %>%
-  dplyr::pull(Point_ID)
-
-shared_points
-
-# one row per survey (Point x Visit x Year), all distance bands combined
-survey_level_all <- point_counts_all %>%
-  dplyr::filter(Point_ID %in% shared_points, !is.na(AlphaCode)) %>%
-  dplyr::group_by(Year, Site, Point_ID, VisitNum, SurveyDate, AlphaCode) %>%
-  dplyr::summarise(Count = sum(TotalCount, na.rm = TRUE), .groups = "drop") %>%
-  dplyr::group_by(Year, Site, Point_ID, VisitNum, SurveyDate) %>%
-  dplyr::summarise(
-    Total_Count       = sum(Count),
-    Species_Richness  = sum(Count > 0),
-    Shannon_Diversity = shannon_diversity(Count),
-    .groups = "drop") %>%
-  dplyr::mutate(
-    Year     = factor(Year),
-    VisitNum = factor(VisitNum),
-    # putting every survey on the same dummy year so 2025 and 2026 line up on one calendar axis
-    Season_Date = as.Date(paste0("2000-", format(SurveyDate, "%m-%d"))))
-
-survey_level_long <- survey_level_all %>%
-  tidyr::pivot_longer(c(Total_Count, Species_Richness, Shannon_Diversity),
-                      names_to = "Metric", values_to = "Value") %>%
-  dplyr::mutate(Metric = factor(Metric,
-                                levels = c("Total_Count", "Species_Richness", "Shannon_Diversity"),
-                                labels = c("Total count", "Species richness", "Shannon diversity")))
-
-# summary table: mean ± SE for each site and year
-survey_level_long %>%
-  dplyr::group_by(Site, Year, Metric) %>%
-  dplyr::summarise(
-    n_surveys = dplyr::n(),
-    Mean = mean(Value),
-    SE   = sd(Value) / sqrt(dplyr::n()),
-    .groups = "drop") %>%
-  dplyr::mutate(`Mean ± SE` = sprintf("%.2f ± %.2f", Mean, SE)) %>%
-  dplyr::select(Site, Year, Metric, n_surveys, `Mean ± SE`) %>%
-  tidyr::pivot_wider(names_from = Metric, values_from = `Mean ± SE`) %>%
-  gt::gt(groupname_col = "Site") %>%
-  gt::tab_header(title = "Survey-level summary by site and year (points surveyed both years)")
-```
-
-### Within-season timing
-
-Each small point is one survey, the large points and lines are the mean for each visit. Because both years are drawn on the same calendar, this shows whether the visit 1 to visit 2 change looked the same each year and whether surveys were done at a similar time of the season.
-
-```{r Seasonal Timing, echo=TRUE, fig.height=12, fig.width=15}
-visit_means <- survey_level_long %>%
-  dplyr::group_by(Site, Year, VisitNum, Metric) %>%
-  dplyr::summarise(
-    Season_Date = mean(Season_Date),
-    Mean = mean(Value),
-    SE   = sd(Value) / sqrt(dplyr::n()),
-    .groups = "drop")
-
-seasonal_timing <- ggplot(survey_level_long, aes(x = Season_Date, y = Value, color = Year)) +
-  geom_jitter(width = 0.6, height = 0, alpha = 0.4, size = 2) +
-  geom_line(data = visit_means, aes(y = Mean, group = Year), linewidth = 1.2) +
-  geom_pointrange(data = visit_means, aes(y = Mean, ymin = Mean - SE, ymax = Mean + SE), size = 0.8) +
-  facet_grid(Metric ~ Site, scales = "free_y") +
-  scale_x_date(date_labels = "%b %d") +
-  labs(title = "Within-season change by year (mean ± SE per visit)",
-       x = "Survey date", y = NULL, color = "Year") +
-  theme_publish(base_size = 18) +
-  theme(panel.grid.minor = element_blank(),
-        strip.text = element_text(face = "bold"),
-        legend.position = "right")
-
-seasonal_timing
-
-ggplot2::ggsave(
-  filename = file.path(cfg$outputs$figures_dir, "seasonal_timing_by_year.png"),
-  plot = seasonal_timing, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
-```
-
-### Paired point-level change
-
-Each line is one point (averaged over its two visits in each year). Lines going up mean that point had more birds/species in 2026. The table uses a paired Wilcoxon signed-rank test, which is appropriate for a small number of paired points and doesn't assume normal data. With only 6 points per site, a site-level test can't get below p ≈ 0.03 even if every point changes in the same direction, so focus on the direction and size of the change (mean change) more than the p-values.
-
-```{r Paired Change, echo=TRUE, fig.height=10, fig.width=15}
-year_levels <- levels(survey_level_long$Year)
-year_a <- year_levels[1]
-year_b <- year_levels[length(year_levels)]
-
-point_year_means <- survey_level_long %>%
-  dplyr::group_by(Site, Point_ID, Year, Metric) %>%
-  dplyr::summarise(Value = mean(Value), .groups = "drop")
-
-paired_change <- ggplot(point_year_means, aes(x = Year, y = Value, group = Point_ID, color = Site)) +
-  geom_line(linewidth = 1, alpha = 0.7) +
-  geom_point(size = 3) +
-  stat_summary(aes(group = Site), fun = mean, geom = "line", linewidth = 2.5, linetype = "dashed") +
-  facet_wrap(~ Metric, scales = "free_y") +
-  labs(title = "Change at each point between years (dashed = site mean)",
-       x = NULL, y = NULL) +
-  theme_publish(base_size = 18) +
-  theme(panel.grid.minor = element_blank(),
-        strip.text = element_text(face = "bold"),
-        legend.position = "bottom")
-
-paired_change
-
-ggplot2::ggsave(
-  filename = file.path(cfg$outputs$figures_dir, "paired_point_change_by_year.png"),
-  plot = paired_change, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
-
-paired_wide <- point_year_means %>%
-  tidyr::pivot_wider(names_from = Year, values_from = Value) %>%
-  dplyr::rename(before = dplyr::all_of(year_a), after = dplyr::all_of(year_b))
-
-paired_test <- function(df) {
-  df %>%
-    dplyr::summarise(
-      n_points    = dplyr::n(),
-      mean_before = mean(before),
-      mean_after  = mean(after),
-      mean_change = mean(after - before),
-      n_increased = sum(after > before),
-      n_decreased = sum(after < before),
-      p_value     = suppressWarnings(wilcox.test(after, before, paired = TRUE, exact = FALSE)$p.value),
-      .groups = "drop")
-}
-
-dplyr::bind_rows(
-  paired_wide %>% dplyr::group_by(Metric) %>% paired_test() %>% dplyr::mutate(Site = "Both sites"),
-  paired_wide %>% dplyr::group_by(Site, Metric) %>% paired_test()) %>%
-  dplyr::select(Site, Metric, dplyr::everything()) %>%
-  dplyr::rename(!!paste("mean", year_a) := mean_before, !!paste("mean", year_b) := mean_after) %>%
-  gt::gt(groupname_col = "Site") %>%
-  gt::fmt_number(columns = where(is.numeric), decimals = 2) %>%
-  gt::fmt_number(columns = c(n_points, n_increased, n_decreased), decimals = 0) %>%
-  gt::fmt_number(columns = p_value, decimals = 3) %>%
-  gt::tab_header(title = paste("Paired change per point,", year_a, "to", year_b),
-                 subtitle = "Paired Wilcoxon signed-rank test")
-```
-
-### Year effect models
-
-GLMs on the survey-level data with Year, Site, their interaction (does the year difference differ between sites?), and VisitNum (early vs late season). Total count uses a quasi-Poisson family because bird counts are usually more variable than a Poisson assumes (flocks). Estimates are exponentiated, so they read as rate ratios: a Year estimate of 1.25 means 25% more birds per survey in the second year at the reference site (Cattus Island), holding visit constant.
-
-```{r Year GLM, echo=TRUE}
-glm_count_year <- glm(Total_Count ~ Year * Site + VisitNum,
-                      data = survey_level_all, family = quasipoisson)
-
-glm_richness_year <- glm(Species_Richness ~ Year * Site + VisitNum,
-                         data = survey_level_all, family = poisson)
-
-gt::gt(broom::tidy(glm_count_year, conf.int = TRUE, exponentiate = TRUE)) |>
-  gt::tab_header(title = "Total count ~ Year * Site + Visit (quasi-Poisson)",
-                 subtitle = "Estimates are rate ratios") |>
-  gt::fmt_number(columns = where(is.numeric), decimals = 3)
-
-gt::gt(broom::tidy(glm_richness_year, conf.int = TRUE, exponentiate = TRUE)) |>
-  gt::tab_header(title = "Species richness ~ Year * Site + Visit (Poisson)",
-                 subtitle = "Estimates are rate ratios") |>
-  gt::fmt_number(columns = where(is.numeric), decimals = 3)
-```
-
-### Species turnover
-
-Species found at each site in each year (points surveyed both years only). Jaccard similarity is the share of the combined species list that was seen in both years (1 = identical lists, 0 = no species in common). Species seen in only one year are often rare species with one or two detections, so this mostly reflects detection of rare birds, which ties back to the species pool estimates above.
-
-```{r Species Turnover, echo=TRUE}
-spp_presence <- point_counts_all %>%
-  dplyr::filter(Point_ID %in% shared_points, !is.na(AlphaCode)) %>%
-  dplyr::distinct(Site, Year, AlphaCode) %>%
-  dplyr::mutate(Year = factor(Year), present = TRUE) %>%
-  tidyr::pivot_wider(names_from = Year, values_from = present, values_fill = FALSE) %>%
-  dplyr::rename(in_a = dplyr::all_of(year_a), in_b = dplyr::all_of(year_b))
-
-spp_turnover <- spp_presence %>%
-  dplyr::group_by(Site) %>%
-  dplyr::summarise(
-    Shared    = sum(in_a & in_b),
-    Lost      = sum(in_a & !in_b),
-    Gained    = sum(!in_a & in_b),
-    Jaccard   = Shared / (Shared + Lost + Gained),
-    `Only in first year`  = paste(sort(AlphaCode[in_a & !in_b]), collapse = ", "),
-    `Only in second year` = paste(sort(AlphaCode[!in_a & in_b]), collapse = ", "),
-    .groups = "drop")
-
-kable(spp_turnover, digits = 2,
-      caption = paste("Species turnover between", year_a, "and", year_b)) %>%
-  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover"))
-```
-
-### Change in common species
-
-Change in the average count per survey for species with at least 10 individuals across both years, shown on a log2 scale (+1 = doubled, -1 = halved). One is added to each average before taking the ratio so species missing in one year don't produce infinite values. Big swings in flocking species (gulls, terns, swallows) usually reflect one big flock on one survey rather than a real change, so look for consistent changes in resident marsh species.
-
-```{r Common Species Change, echo=TRUE, fig.height=12, fig.width=15}
-surveys_per_site_year <- survey_level_all %>%
-  dplyr::count(Site, Year, name = "n_surveys")
-
-spp_change <- point_counts_all %>%
-  dplyr::filter(Point_ID %in% shared_points, !is.na(AlphaCode)) %>%
-  dplyr::mutate(Year = factor(Year)) %>%
-  dplyr::group_by(Site, Year, AlphaCode) %>%
-  dplyr::summarise(Total = sum(TotalCount, na.rm = TRUE), .groups = "drop") %>%
-  # filling in a 0 for species seen at a site in one year but not the other
-  dplyr::group_by(Site) %>%
-  tidyr::complete(Year, AlphaCode, fill = list(Total = 0)) %>%
-  dplyr::ungroup() %>%
-  dplyr::left_join(surveys_per_site_year, by = c("Site", "Year")) %>%
-  dplyr::mutate(Per_Survey = Total / n_surveys) %>%
-  dplyr::select(Site, Year, AlphaCode, Total, Per_Survey) %>%
-  tidyr::pivot_wider(names_from = Year, values_from = c(Total, Per_Survey)) %>%
-  dplyr::mutate(
-    Total_both = .data[[paste0("Total_", year_a)]] + .data[[paste0("Total_", year_b)]],
-    log2_change = log2((.data[[paste0("Per_Survey_", year_b)]] + 1) /
-                       (.data[[paste0("Per_Survey_", year_a)]] + 1))) %>%
-  dplyr::filter(Total_both >= 10)
-
-common_spp_change <- spp_change %>%
-  dplyr::mutate(AlphaCode = reorder(paste(AlphaCode, Site, sep = "___"), log2_change),
-                Direction = ifelse(log2_change >= 0, paste("Higher in", year_b), paste("Lower in", year_b))) %>%
-  ggplot(aes(x = AlphaCode, y = log2_change, fill = Direction)) +
-  geom_col(width = 0.8) +
-  geom_hline(yintercept = 0) +
-  coord_flip() +
-  facet_wrap(~ Site, scales = "free_y") +
-  scale_x_discrete(labels = function(x) sub("___.*$", "", x)) +
-  labs(title = paste("Change in common species,", year_a, "to", year_b),
-       subtitle = "Species with ≥ 10 individuals across both years, points surveyed both years",
-       x = NULL, y = "log2 change in mean count per survey", fill = NULL) +
-  theme_publish(base_size = 18) +
-  theme(panel.grid.minor = element_blank(),
-        strip.text = element_text(face = "bold"),
-        legend.position = "bottom")
-
-common_spp_change
-
-ggplot2::ggsave(
-  filename = file.path(cfg$outputs$figures_dir, "common_species_change_by_year.png"),
-  plot = common_spp_change, height = cfg$params$height, width = cfg$params$width, dpi = cfg$params$dpi)
-```

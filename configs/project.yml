@@ -33,7 +33,10 @@ params:
   focal_species: "RWBL" # for the density/abundance graphics. Specify which bird to run with
   focal_species_birdNET: "Saltmarsh Sparrow"
   total_area_m2: 2326317 
-  point_count_radius: 200 #m2 
+  point_count_radius: 200 #m2
+  unidentified_pattern: "^UN[A-Z]{2}$|Unidentified" # codes matching this are kept in counts but left out of species richness/diversity
+  distance_rings_m: [50, 100, 200] # outer edge of each distance band (0-50m, 51-100m, >100m) for the ring maps
+  sufficiency_targets: [0.9, 0.95] # share of the estimated species pool used for "surveys needed" in the sampling sufficiency table
  # graphics
   height: 10
   width: 15

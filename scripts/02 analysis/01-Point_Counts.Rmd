@@ -1417,6 +1417,271 @@ kable(as.data.frame(permanova_site), digits = 3,
   kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed"))
 ```
 
+# Visit 1 vs Visit 2: What Does the Second Visit Add?
+
+The point counts follow the SHARP rapid assessment design: two visits to each point during the breeding season (May 1 – July 15), at least 10 days apart. The second visit is there because cryptic marsh birds are easy to miss on any one survey, so a species that is present may only be detected on one of the two visits. This section looks at how much the second visit changes what we know about **which species occupy which points**, for both sites and both years. Every point, including LHC_07, has its two visits, so all points are used.
+
+Terms used below:
+
+- **Detection history**: for each species at each point in a year, whether it was detected on visit 1 only, visit 2 only, or both visits.
+- **Naive occupancy**: the share of points where a species was detected at least once. With one visit this is based on visit 1 only; with two visits it is visit 1 *or* visit 2.
+- **Per-visit detection probability (p)**: the chance of detecting a species on one visit at a point where it is present. With two visits it can be estimated from how often a species is detected on *both* visits versus only one (if it's usually seen on both, p is high; if it's usually seen on just one, p is low). Formula: p = 2 × (points with both) ÷ (2 × (points with both) + points with one), the closed-form estimate of a constant-p, two-visit occupancy model (MacKenzie et al. 2002). It assumes a point stays occupied between the two visits (no birds arriving or leaving mid-season), which is the same assumption SHARP makes.
+- **Detection with two visits**: 1 − (1 − p)², the chance a present species is detected at least once across both visits.
+
+```{r Visit Data, include=FALSE}
+concern_spp <- unlist(cfg$params$marsh_species_of_concern)
+
+# one row per species x point x year, with whether it was detected on each visit
+visit_hist <- point_counts_all %>%
+  dplyr::filter(Identified, TotalCount > 0) %>%
+  dplyr::distinct(Year, Site, Point_ID, VisitNum, AlphaCode, Habitat) %>%
+  dplyr::mutate(present = TRUE) %>%
+  tidyr::pivot_wider(names_from = VisitNum, values_from = present, values_fill = FALSE, names_prefix = "V") %>%
+  dplyr::mutate(History = factor(dplyr::case_when(V1 & V2 ~ "Both visits",
+                                                  V1 ~ "Visit 1 only",
+                                                  TRUE ~ "Visit 2 only"),
+                                 levels = c("Visit 1 only", "Both visits", "Visit 2 only")),
+                Year = factor(Year))
+
+history_colors <- c("Visit 1 only" = "#E08214", "Both visits" = "#542788", "Visit 2 only" = "#8073AC")
+
+# all point-years that were surveyed (the denominator for occupancy)
+point_years_surveyed <- point_counts_all %>%
+  dplyr::distinct(Year, Site, Point_ID) %>%
+  dplyr::mutate(Year = factor(Year))
+
+# closed-form two-visit occupancy estimates for one species (constant p, MacKenzie et al. 2002)
+two_visit_estimates <- function(n_points, n_both, n_one) {
+  occupied <- n_both + n_one
+  p  <- ifelse(n_both > 0, 2 * n_both / (2 * n_both + n_one), NA_real_)
+  p2 <- 1 - (1 - p)^2
+  psi <- pmin(1, occupied / (n_points * p2))
+  visits_95 <- ifelse(is.na(p), NA_real_, ifelse(p >= 0.95, 1, ceiling(log(0.05) / log(1 - p))))
+  data.frame(p = p, p2 = p2, psi = psi, visits_95 = visits_95)
+}
+```
+
+## How many new species does visit 2 add at each point?
+
+Each bar is all the species detected at a point in a year. The dark part was already found on visit 1, and the light part was **only** found on visit 2. The label is the share of the point's species list that would have been missed with a single visit.
+
+```{r Visit 2 Additions, echo=TRUE, fig.height=11, fig.width=16}
+visit_additions <- visit_hist %>%
+  dplyr::group_by(Year, Site, Point_ID) %>%
+  dplyr::summarise(`Found on visit 1` = sum(V1),
+                   `Added on visit 2` = sum(!V1 & V2),
+                   .groups = "drop") %>%
+  dplyr::mutate(Total = `Found on visit 1` + `Added on visit 2`,
+                Pct_added = `Added on visit 2` / Total)
+
+visit_additions_plot <- visit_additions %>%
+  tidyr::pivot_longer(c(`Found on visit 1`, `Added on visit 2`), names_to = "Part", values_to = "Species") %>%
+  dplyr::mutate(Part = factor(Part, levels = c("Added on visit 2", "Found on visit 1"))) %>%
+  ggplot(aes(x = Point_ID, y = Species, fill = Part)) +
+  geom_col(width = 0.75) +
+  geom_text(data = visit_additions, aes(x = Point_ID, y = Total, label = scales::percent(Pct_added, accuracy = 1)),
+            inherit.aes = FALSE, vjust = -0.4, size = 4.5) +
+  facet_grid(Year ~ Site, scales = "free_x", space = "free_x") +
+  scale_fill_manual(values = c("Found on visit 1" = "#2D004B", "Added on visit 2" = "#B2ABD2")) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.1))) +
+  labs(title = "Species found on visit 1 and added on visit 2",
+       subtitle = "Label = share of each point's species that were only detected on the second visit",
+       x = NULL, y = "Species detected at the point", fill = NULL) +
+  theme_publish(base_size = 18) +
+  theme(panel.grid.minor = element_blank(), strip.text = element_text(face = "bold"),
+        axis.text.x = element_text(angle = 45, hjust = 1), legend.position = "bottom")
+save_fig(visit_additions_plot, "visit2_species_added.png", height = 11, width = 16)
+
+# summary by site and year, for all species and for marsh species
+visit_add_summary <- function(df, label) {
+  df %>%
+    dplyr::group_by(Year, Site, Point_ID) %>%
+    dplyr::summarise(v1 = sum(V1), total = dplyr::n(), .groups = "drop") %>%
+    dplyr::group_by(Site, Year) %>%
+    dplyr::summarise(Points = dplyr::n(),
+                     `Species per point, visit 1 only` = round(mean(v1), 1),
+                     `Species per point, both visits` = round(mean(total), 1),
+                     `Share added by visit 2` = scales::percent(1 - sum(v1) / sum(total), accuracy = 1),
+                     .groups = "drop") %>%
+    dplyr::mutate(Species = label, .before = 1)
+}
+
+dplyr::bind_rows(visit_add_summary(visit_hist, "All species"),
+                 visit_add_summary(visit_hist %>% dplyr::filter(Habitat == "Marsh"), "Marsh species")) %>%
+  kable(caption = "How much the second visit adds to each point's species list") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed")) %>%
+  collapse_rows(columns = 1:2, valign = "top")
+```
+
+## Were species detected on one visit or both?
+
+Every time a species was recorded at a point in a year counts as one "species-point". These bars show how many of those were detected on both visits (consistently present and detectable) versus on just one visit. A large share of single-visit records means one visit alone would miss many occupied points, which is the reason for SHARP's two-visit design. Visit 1 only can also mean a bird stopped using the point (e.g. early nesters or migrants passing through), and visit 2 only can mean a bird arrived later in the season.
+
+```{r Detection History Bars, echo=TRUE, fig.height=8, fig.width=16}
+history_summary <- dplyr::bind_rows(
+  visit_hist %>% dplyr::mutate(Group = "All species"),
+  visit_hist %>% dplyr::filter(Habitat == "Marsh") %>% dplyr::mutate(Group = "Marsh species")) %>%
+  dplyr::count(Group, Site, Year, History, name = "Records") %>%
+  dplyr::group_by(Group, Site, Year) %>%
+  dplyr::mutate(Share = Records / sum(Records)) %>%
+  dplyr::ungroup()
+
+history_bars <- ggplot(history_summary, aes(x = Year, y = Records, fill = History)) +
+  geom_col(width = 0.7) +
+  geom_text(aes(label = paste0(Records, "\n(", scales::percent(Share, accuracy = 1), ")")),
+            position = position_stack(vjust = 0.5), color = "white", size = 3.8, fontface = "bold", lineheight = 0.85) +
+  facet_grid(Group ~ Site, scales = "free_y") +
+  scale_fill_manual(values = history_colors) +
+  labs(title = "Detection history of species at points",
+       subtitle = "Number of species-point records (share of the total)",
+       x = NULL, y = "Species-point records", fill = NULL) +
+  theme_publish(base_size = 18) +
+  theme(panel.grid.minor = element_blank(), strip.text = element_text(face = "bold"), legend.position = "right")
+save_fig(history_bars, "visit_detection_history.png", height = 8, width = 16)
+```
+
+## Point-by-point occupancy of marsh species
+
+Each tile is a marsh species at a point, coloured by when it was detected. Blank = not detected on either visit. Reading across a row shows how consistently a species used the points; comparing the two years shows whether occupancy changed. Species of concern (set in the YAML) are marked with *.
+
+```{r Occupancy Grid, echo=TRUE, fig.height=14, fig.width=17}
+marsh_hist <- visit_hist %>%
+  dplyr::filter(Habitat == "Marsh") %>%
+  dplyr::mutate(Label = ifelse(AlphaCode %in% concern_spp, paste0(AlphaCode, " *"), AlphaCode))
+
+# ordering species by how many points they occupied overall
+spp_order <- marsh_hist %>% dplyr::count(Label) %>% dplyr::arrange(n) %>% dplyr::pull(Label)
+
+occupancy_grid <- ggplot(marsh_hist %>% dplyr::mutate(Label = factor(Label, levels = spp_order)),
+                         aes(x = Point_ID, y = Label, fill = History)) +
+  geom_tile(color = "white", linewidth = 0.6) +
+  facet_grid(. ~ Year + Site, scales = "free_x", space = "free_x") +
+  scale_fill_manual(values = history_colors) +
+  labs(title = "Marsh species detection history at each point",
+       x = NULL, y = NULL, fill = NULL) +
+  theme_publish(base_size = 15) +
+  theme(panel.grid = element_blank(),
+        panel.background = element_rect(fill = "grey95", color = NA),
+        strip.text = element_text(face = "bold"),
+        axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1),
+        legend.position = "bottom")
+save_fig(occupancy_grid, "marsh_species_occupancy_grid.png", height = 14, width = 17)
+```
+
+## Naive occupancy: one visit vs two
+
+For each marsh species, the share of points where it was detected using visit 1 alone (whether or not it was also seen on visit 2), visit 2 alone, and both visits combined (both sites together). The gap between the single-visit dots and the combined dot is how much occupancy would be underestimated with only one visit. Species detected at fewer than 2 points in a year are left out.
+
+```{r Naive Occupancy, echo=TRUE, fig.height=12, fig.width=16}
+n_points_year <- point_years_surveyed %>% dplyr::count(Year, name = "N")
+
+naive_occ <- marsh_hist %>%
+  dplyr::group_by(Year, AlphaCode, Label) %>%
+  dplyr::summarise(`Visit 1 alone` = sum(V1), `Visit 2 alone` = sum(V2), `Both visits combined` = dplyr::n(), .groups = "drop") %>%
+  dplyr::filter(`Both visits combined` >= 2) %>%
+  dplyr::left_join(n_points_year, by = "Year") %>%
+  tidyr::pivot_longer(c(`Visit 1 alone`, `Visit 2 alone`, `Both visits combined`), names_to = "Visits", values_to = "Points") %>%
+  dplyr::mutate(Occupancy = Points / N,
+                Visits = factor(Visits, levels = c("Visit 1 alone", "Visit 2 alone", "Both visits combined")))
+
+naive_occ_plot <- ggplot(naive_occ, aes(x = Occupancy, y = reorder(Label, Occupancy, FUN = max))) +
+  geom_line(aes(group = Label), color = "grey70", linewidth = 1.2) +
+  geom_point(aes(color = Visits, shape = Visits), size = 4, stroke = 1.2) +
+  facet_wrap(~ Year) +
+  scale_x_continuous(labels = scales::label_percent(), limits = c(0, 1)) +
+  scale_color_manual(values = c("Visit 1 alone" = "#E08214", "Visit 2 alone" = "#8073AC", "Both visits combined" = "#2D004B")) +
+  scale_shape_manual(values = c(16, 17, 15)) +
+  labs(title = "Naive occupancy of marsh species: one visit vs two",
+       subtitle = "Share of all points (both sites) where the species was detected",
+       x = "Points occupied", y = NULL, color = NULL, shape = NULL) +
+  theme_publish(base_size = 18) +
+  theme(panel.grid.minor = element_blank(), strip.text = element_text(face = "bold"), legend.position = "bottom")
+save_fig(naive_occ_plot, "naive_occupancy_one_vs_two_visits.png", height = 12, width = 16)
+```
+
+## Detection probability and whether two visits are enough
+
+Estimates for each marsh species, pooling both sites and both years so there are enough points to work with (each point-year is one "site": 25 in total). Single-season occupancy models usually assume detection is the same across points and years; with more data (a third year, or ARU detections) these can be split by site and year or fit with covariates in `unmarked::occu()`.
+
+How to read it: **p** is the per-visit detection probability; **Detected with 2 visits** is the chance a species that is present gets detected at least once in the two SHARP visits; **Visits for 95%** is how many visits would be needed to be 95% sure of detecting it if it's there. **Estimated occupancy** corrects naive occupancy for missed detections; when p is low (roughly below 0.3) this correction gets very large and uncertain (it is capped at 100%), so treat those values as "probably widespread but poorly detected" rather than a precise number. Species never detected on both visits at any point can't be estimated (p is too low to measure, which itself says two visits weren't enough for that species). Species of concern are listed first.
+
+```{r Detection Probability, echo=TRUE}
+n_point_years <- nrow(point_years_surveyed)
+
+detection_table <- marsh_hist %>%
+  dplyr::group_by(AlphaCode) %>%
+  dplyr::summarise(`Points detected` = dplyr::n(),
+                   `Both visits` = sum(V1 & V2),
+                   `One visit` = sum(xor(V1, V2)),
+                   .groups = "drop") %>%
+  dplyr::bind_cols(two_visit_estimates(n_point_years, .$`Both visits`, .$`One visit`)) %>%
+  dplyr::mutate(`Naive occupancy` = `Points detected` / n_point_years,
+                Concern = AlphaCode %in% concern_spp) %>%
+  dplyr::filter(`Points detected` >= 2) %>%
+  dplyr::arrange(dplyr::desc(Concern), dplyr::desc(`Points detected`))
+
+detection_table %>%
+  dplyr::transmute(Species = ifelse(Concern, paste0(AlphaCode, " *"), AlphaCode),
+                   `Points detected`, `Both visits`, `One visit`,
+                   `Naive occupancy` = scales::percent(`Naive occupancy`, accuracy = 1),
+                   `p (per visit)` = ifelse(is.na(p), "too low to estimate", sprintf("%.2f", p)),
+                   `Detected with 2 visits` = ifelse(is.na(p2), "–", scales::percent(p2, accuracy = 1)),
+                   `Estimated occupancy` = ifelse(is.na(psi), "–", scales::percent(psi, accuracy = 1)),
+                   `Visits for 95%` = ifelse(is.na(visits_95), "–", as.character(visits_95))) %>%
+  kable(caption = paste0("Detection probability of marsh species (", n_point_years, " point-years, both sites and years pooled)"),
+        align = "lrrrrrrrr") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed")) %>%
+  row_spec(which(detection_table$p2 >= 0.9), background = "#E6F5D0") %>%
+  row_spec(which(detection_table$p2 < 0.75 | is.na(detection_table$p2)), background = "#FDE0EF")
+```
+
+Green rows: two visits detect a present bird at least 90% of the time, so two visits are enough. Pink rows: two visits detect a present bird less than 75% of the time (or too rarely to estimate). These are the species where a third visit, callback surveys or ARU recordings would most improve occupancy estimates.
+
+```{r Detection Curves, echo=TRUE, fig.height=8, fig.width=15}
+curve_spp <- detection_table %>% dplyr::filter(!is.na(p))
+
+detection_curves <- curve_spp %>%
+  dplyr::select(AlphaCode, Concern, p) %>%
+  tidyr::crossing(Visits = 1:6) %>%
+  dplyr::mutate(Detected = 1 - (1 - p)^Visits,
+                Label = ifelse(Concern, paste0(AlphaCode, " *"), AlphaCode))
+
+detection_curve_plot <- ggplot(detection_curves, aes(x = Visits, y = Detected, group = AlphaCode)) +
+  annotate("rect", xmin = -Inf, xmax = Inf, ymin = 0.9, ymax = 1, fill = "#E6F5D0", alpha = 0.6) +
+  geom_vline(xintercept = 2, linetype = "dashed", color = "grey40") +
+  annotate("text", x = 2.05, y = 0.05, label = "SHARP: 2 visits", hjust = 0, color = "grey30", size = 5) +
+  geom_line(aes(color = Concern), linewidth = 1.1, alpha = 0.8) +
+  geom_point(aes(color = Concern), size = 2) +
+  geom_text(data = dplyr::filter(detection_curves, Visits == 6), aes(label = Label, color = Concern),
+            hjust = -0.15, size = 4, check_overlap = TRUE, show.legend = FALSE) +
+  scale_x_continuous(breaks = 1:6, expand = expansion(mult = c(0.02, 0.15))) +
+  scale_y_continuous(labels = scales::label_percent(), limits = c(0, 1)) +
+  scale_color_manual(values = c("TRUE" = "#B2182B", "FALSE" = "grey50"), labels = c("TRUE" = "Species of concern", "FALSE" = "Other marsh species")) +
+  labs(title = "Chance of detecting a present species vs number of visits",
+       subtitle = "Green band = 90%+ chance of detection. Based on the per-visit detection probability (p) above",
+       x = "Number of visits", y = "Chance of detecting at least once", color = NULL) +
+  theme_publish(base_size = 18) +
+  theme(panel.grid.minor = element_blank(), legend.position = "bottom")
+save_fig(detection_curve_plot, "detection_probability_by_visits.png", height = 8, width = 15)
+```
+
+```{r Visit Text, echo=FALSE, results="asis"}
+# plain-language summary that updates with the data
+single_share <- mean(visit_hist$History != "Both visits")
+single_share_marsh <- mean(marsh_hist$History != "Both visits")
+added_share <- 1 - sum(visit_hist$V1) / nrow(visit_hist)
+est <- detection_table %>% dplyr::filter(!is.na(p2))
+cat(sprintf("**Summary.** Across both sites and years, %s of species-point records (%s for marsh species) were detected on only one of the two visits, and visit 2 added %s of the species found at each point. ",
+            scales::percent(single_share, accuracy = 1), scales::percent(single_share_marsh, accuracy = 1), scales::percent(added_share, accuracy = 1)))
+cat(sprintf("Of the %d marsh species with enough data to estimate detection, %d are detected at least 90%% of the time with two visits (%s), and %d fall below 75%% (%s). ",
+            nrow(est), sum(est$p2 >= 0.9), paste(est$AlphaCode[est$p2 >= 0.9], collapse = ", "),
+            sum(est$p2 < 0.75), paste(est$AlphaCode[est$p2 < 0.75], collapse = ", ")))
+not_est <- detection_table$AlphaCode[is.na(detection_table$p)]
+if (length(not_est) > 0) cat(sprintf("%s were never detected on both visits at any point, so their detection probability is too low to estimate with two visits. ", paste(not_est, collapse = ", ")))
+cat(if (added_share >= 0.15) "A single visit would have missed a substantial share of what was present, which supports the second SHARP visit. " else "The second visit added relatively few species, so most of the information comes from the first visit. ")
+cat("For the low-detection species, callbacks, a third visit, or ARU data would be the most useful next step.\n")
+```
+
 # More Ways to Look at the Point Counts
 
 ## Where each species was found

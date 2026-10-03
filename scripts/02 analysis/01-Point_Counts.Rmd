@@ -611,13 +611,19 @@ species_by_point <- function(df) {
       .groups = "drop")
 }
 
-add_base_layers <- function(map, overlay_groups) {
-  map %>%
+# The base tiles have to be added BEFORE any clustered markers (marker clustering needs to know the map's max zoom,
+# which comes from the tile layers), so every map starts from base_map() and finishes with add_map_controls().
+base_map <- function() {
+  leaflet(options = leafletOptions(maxZoom = 19)) %>%
     addProviderTiles(providers$Esri.WorldImagery, group = "Satellite") %>%
     addProviderTiles(providers$Esri.WorldStreetMap,group ="WSM") %>%
     addTiles(group = "OSM") %>%
     addTiles(urlTemplate = "https://mts1.google.com/vt/lyrs=s&hl=en&src=app&x={x}&y={y}&z={z}&s=G",
-             attribution = 'Google',group ="Google") %>%
+             attribution = 'Google',group ="Google")
+}
+
+add_map_controls <- function(map, overlay_groups) {
+  map %>%
     addLayersControl(baseGroups = c("Satellite", "WSM","OSM","Google"),
                      overlayGroups = overlay_groups,
                      options = layersControlOptions(collapsed = FALSE)) %>%
@@ -630,13 +636,13 @@ species_cluster_map <- function(df) {
   pts <- species_by_point(df)
   layers <- as.character(sort(unique(pts$Year)))
   colors <- c("blue", "darkorange", "darkgreen", "purple")[seq_along(layers)]
-  map <- leaflet()
+  map <- base_map()
   for (i in seq_along(layers)) {
     year_data <- pts %>% dplyr::filter(Year == layers[i])
     map <- map %>%
       addCircleMarkers(data = year_data,
                        label = ~as.character(AlphaCode),
-                       popup = leafpop::popupTable(year_data),
+                       popup = leafpop::popupTable(as.data.frame(year_data)),
                        fillColor = colors[i], weight = 0.5,
                        ~ Long,
                        ~ Lat,
@@ -644,7 +650,7 @@ species_cluster_map <- function(df) {
                        clusterOptions = markerClusterOptions(),
                        stroke = FALSE, fillOpacity = 0.6)
   }
-  add_base_layers(map, layers)
+  add_map_controls(map, layers)
 }
 ```
 
@@ -696,8 +702,9 @@ ring_data <- point_years %>%
   dplyr::mutate(Richness = tidyr::replace_na(Richness, 0L),
                 Birds = tidyr::replace_na(Birds, 0),
                 Species = tidyr::replace_na(Species, "none"),
-                Radius = ring_radii[as.character(DistBand)],
-                Band = ring_labels[as.character(DistBand)])
+                # unname() matters: leaflet turns named vectors into JSON objects and then can't draw the circles
+                Radius = unname(ring_radii[as.character(DistBand)]),
+                Band = unname(ring_labels[as.character(DistBand)]))
 
 # gained / lost species per point and band between the first and last year
 band_lists <- band_species %>%
@@ -717,50 +724,71 @@ ring_change <- ring_data %>%
                              ~ paste(sort(setdiff(unlist(.x), unlist(.y))), collapse = ", ")))
 ```
 
-```{r Ring Map, echo=TRUE}
+```{r Ring Map Function, include=FALSE}
 rich_pal   <- colorNumeric("YlGnBu", domain = c(0, max(ring_data$Richness)))
 change_max <- max(abs(ring_change$Change), na.rm = TRUE)
 change_pal <- colorNumeric("RdBu", domain = c(-change_max, change_max), na.color = "#BDBDBD")
 
-ring_map <- leaflet()
+# one interactive ring map per site, zoomed to that site's points
+ring_site_map <- function(site) {
+  site_rings  <- ring_data %>% dplyr::filter(Site == site)
+  site_change <- ring_change %>% dplyr::filter(Site == site)
+  site_points <- point_years %>% dplyr::filter(Site == site) %>% dplyr::distinct(Point_ID, Lat, Long)
 
-# draw the outer rings first so the smaller ones sit on top
-for (band in rev(names(ring_radii))) {
-  for (yr in year_levels) {
-    rd <- ring_data %>% dplyr::filter(Year == yr, DistBand == band)
-    ring_map <- ring_map %>%
-      addCircles(data = rd, lng = ~Long, lat = ~Lat, radius = ~Radius,
-                 fillColor = ~rich_pal(Richness), fillOpacity = 0.75,
-                 color = "white", weight = 1, group = yr,
-                 label = ~paste0(Point_ID, " ", Band, ": ", Richness, " species"),
-                 popup = ~paste0("<b>", Point_ID, " &ndash; ", Band, " &ndash; ", Year, "</b><br>",
-                                 Richness, " species, ", Birds, " birds<br>", Species))
+  map <- base_map()
+  # draw the outer rings first so the smaller ones sit on top
+  for (band in rev(names(ring_radii))) {
+    for (yr in year_levels) {
+      rd <- site_rings %>% dplyr::filter(Year == yr, DistBand == band)
+      map <- map %>%
+        addCircles(data = rd, lng = ~Long, lat = ~Lat, radius = ~Radius,
+                   fillColor = ~rich_pal(Richness), fillOpacity = 0.75,
+                   color = "white", weight = 1, group = yr,
+                   label = ~paste0(Point_ID, " ", Band, ": ", Richness, " species"),
+                   popup = ~paste0("<b>", Point_ID, " &ndash; ", Band, " &ndash; ", Year, "</b><br>",
+                                   Richness, " species, ", Birds, " birds<br>", Species))
+    }
+    cd <- site_change %>% dplyr::filter(DistBand == band)
+    map <- map %>%
+      addCircles(data = cd, lng = ~Long, lat = ~Lat, radius = ~Radius,
+                 fillColor = ~change_pal(Change), fillOpacity = 0.8,
+                 color = "white", weight = 1, group = "Change",
+                 label = ~paste0(Point_ID, " ", Band, ": ",
+                                 ifelse(is.na(Change), paste("only surveyed in", year_b), sprintf("%+d species", Change))),
+                 popup = ~paste0("<b>", Point_ID, " &ndash; ", Band, " &ndash; change ", year_a, " to ", year_b, "</b><br>",
+                                 ifelse(is.na(Change), paste("Only surveyed in", year_b),
+                                        paste0(sprintf("%+d species", Change),
+                                               "<br><b>Gained:</b> ", ifelse(Gained == "", "none", Gained),
+                                               "<br><b>Lost:</b> ", ifelse(Lost == "", "none", Lost)))))
   }
-  cd <- ring_change %>% dplyr::filter(DistBand == band)
-  ring_map <- ring_map %>%
-    addCircles(data = cd, lng = ~Long, lat = ~Lat, radius = ~Radius,
-               fillColor = ~change_pal(Change), fillOpacity = 0.8,
-               color = "white", weight = 1, group = "Change",
-               label = ~paste0(Point_ID, " ", Band, ": ",
-                               ifelse(is.na(Change), paste("only surveyed in", year_b), sprintf("%+d species", Change))),
-               popup = ~paste0("<b>", Point_ID, " &ndash; ", Band, " &ndash; change ", year_a, " to ", year_b, "</b><br>",
-                               ifelse(is.na(Change), paste("Only surveyed in", year_b),
-                                      paste0(sprintf("%+d species", Change),
-                                             "<br><b>Gained:</b> ", ifelse(Gained == "", "none", Gained),
-                                             "<br><b>Lost:</b> ", ifelse(Lost == "", "none", Lost)))))
-}
 
-ring_map %>%
-  addLabelOnlyMarkers(data = point_years %>% dplyr::distinct(Point_ID, Lat, Long),
-                      lng = ~Long, lat = ~Lat, label = ~Point_ID,
-                      labelOptions = labelOptions(noHide = TRUE, direction = "center", textOnly = TRUE,
-                                                  style = list("font-weight" = "bold", "color" = "black"))) %>%
-  addLegend("bottomleft", pal = rich_pal, values = c(0, max(ring_data$Richness)),
-            title = "Species in band") %>%
-  addLegend("bottomright", pal = change_pal, values = c(-change_max, change_max),
-            title = paste("Change in species<br>", year_a, "to", year_b), group = "Change") %>%
-  add_base_layers(c(year_levels, "Change")) %>%
-  hideGroup(c(year_levels[-1], "Change"))
+  map %>%
+    addLabelOnlyMarkers(data = site_points, lng = ~Long, lat = ~Lat, label = ~Point_ID,
+                        labelOptions = labelOptions(noHide = TRUE, direction = "top", offset = c(0, -12), textOnly = TRUE,
+                                                    style = list("font-weight" = "bold", "color" = "white",
+                                                                 "font-size" = "13px", "text-shadow" = "0 0 3px black, 0 0 3px black"))) %>%
+    addLegend("bottomleft", pal = rich_pal, values = c(0, max(ring_data$Richness)),
+              title = "Species in band") %>%
+    addLegend("bottomright", pal = change_pal, values = c(-change_max, change_max),
+              title = paste("Change in species<br>", year_a, "to", year_b), group = "Change") %>%
+    add_map_controls(c(year_levels, "Change")) %>%
+    hideGroup(c(year_levels[-1], "Change")) %>%
+    # zoom to the site, with room for the 200 m rings around the outer points
+    fitBounds(min(site_points$Long) - 0.003, min(site_points$Lat) - 0.0025,
+              max(site_points$Long) + 0.003, max(site_points$Lat) + 0.0025)
+}
+```
+
+#### Cattus Island
+
+```{r Ring Map Cattus, echo=TRUE}
+ring_site_map("Cattus Island")
+```
+
+#### Lighthouse Center
+
+```{r Ring Map LHC, echo=TRUE}
+ring_site_map("Lighthouse Center")
 ```
 
 ### Ring diagrams (static, for reports)
@@ -797,64 +825,80 @@ ring_label_pos <- function(df) {
 ring_theme <- theme_void(base_size = 16) +
   theme(strip.text = element_text(face = "bold", margin = margin(4, 4, 4, 4)),
         plot.title = element_text(face = "bold"),
+        plot.background = element_rect(fill = "white", color = NA),
         legend.position = "right")
+
+# numbers are drawn straight on the rings (no label boxes), in white on dark rings and black on light rings so they stay readable
+ring_numbers <- function(df, label, value, dark_above) {
+  geom_text(data = ring_label_pos(df) %>%
+              dplyr::mutate(.label = {{ label }},
+                            .col = ifelse(!is.na({{ value }}) & abs({{ value }}) > dark_above, "white", "black")),
+            aes(x, y, label = .label, color = .col), size = 5, fontface = "bold", inherit.aes = FALSE)
+}
+
+# draws one ring "target" per point. value = column to colour by
+plot_rings <- function(df, value, title, fill_label, palette = "YlGnBu", limits = NULL, diverging = FALSE, by_year = TRUE,
+                       subtitle = "Inner = 0–50 m, middle = 50–100 m, outer = 100–200 m") {
+  vals <- dplyr::pull(df, {{ value }})
+  if (is.null(limits)) limits <- if (diverging) c(-1, 1) * max(1, abs(vals), na.rm = TRUE) else c(0, max(1, vals, na.rm = TRUE))
+  labels <- if (diverging) ifelse(is.na(vals), "new", sprintf("%+d", as.integer(vals))) else as.character(vals)
+  df$.text <- labels
+  ggplot(ring_polys(df), aes(x, y)) +
+    geom_polygon(aes(group = interaction(.id), subgroup = sub, fill = {{ value }}), color = "white", linewidth = 0.5) +
+    ring_numbers(df, .text, {{ value }}, dark_above = 0.55 * max(abs(limits))) +
+    scale_color_identity() +
+    { if (by_year) facet_grid(Year ~ Point_ID, switch = "y") else facet_wrap(~ Point_ID, nrow = 1) } +
+    coord_equal() +
+    scale_fill_distiller(palette = palette, direction = 1, limits = limits, na.value = "grey85") +
+    labs(title = title, subtitle = subtitle, fill = fill_label) +
+    ring_theme
+}
+
+# birds of one species in each distance band at each point and year (both visits combined), with 0 for bands where it wasn't seen
+species_ring_data <- function(species, site = NULL) {
+  pts <- point_years
+  if (!is.null(site)) pts <- pts %>% dplyr::filter(Site == site)
+  pts %>%
+    tidyr::crossing(DistBand = names(ring_radii)) %>%
+    dplyr::mutate(DistBand = factor(DistBand, levels = levels(point_counts_all$DistBand))) %>%
+    dplyr::left_join(
+      band_species %>% dplyr::filter(AlphaCode %in% species) %>%
+        dplyr::group_by(Point_ID, Year, DistBand) %>% dplyr::summarise(Birds = sum(Birds), .groups = "drop"),
+      by = c("Point_ID", "Year", "DistBand")) %>%
+    dplyr::mutate(Birds = tidyr::replace_na(Birds, 0))
+}
 ```
 
-```{r Ring Diagrams, echo=TRUE, fig.height=9, fig.width=16}
+```{r Ring Diagrams, echo=TRUE, fig.height=6.5, fig.width=16}
 for (site in sort(unique(ring_data$Site))) {
-  site_rings <- ring_data %>% dplyr::filter(Site == site)
-
-  richness_rings <- ggplot(ring_polys(site_rings), aes(x, y)) +
-    geom_polygon(aes(group = interaction(.id), subgroup = sub, fill = Richness), color = "white", linewidth = 0.4) +
-    geom_label(data = ring_label_pos(site_rings), aes(label = Richness), size = 4, label.size = 0, alpha = 0.7) +
-    facet_grid(Year ~ Point_ID, switch = "y") +
-    coord_equal() +
-    scale_fill_distiller(palette = "YlGnBu", direction = 1, limits = c(0, max(ring_data$Richness))) +
-    labs(title = paste(site, "– species detected in each distance band"),
-         subtitle = "Inner = 0–50 m, middle = 50–100 m, outer = 100–200 m",
-         fill = "Species") +
-    ring_theme
+  richness_rings <- plot_rings(ring_data %>% dplyr::filter(Site == site), Richness,
+                               paste(site, "– species detected in each distance band"), "Species",
+                               limits = c(0, max(ring_data$Richness)))
   print(richness_rings)
-  save_fig(richness_rings, paste0(gsub(" ", "_", tolower(site)), "_distance_band_rings.png"), height = 7, width = 16)
+  save_fig(richness_rings, paste0(gsub(" ", "_", tolower(site)), "_distance_band_rings.png"), height = 6.5, width = 16)
+}
+```
 
-  site_change <- ring_change %>% dplyr::filter(Site == site)
-  change_rings <- ggplot(ring_polys(site_change), aes(x, y)) +
-    geom_polygon(aes(group = interaction(.id), subgroup = sub, fill = Change), color = "white", linewidth = 0.4) +
-    geom_label(data = ring_label_pos(site_change),
-               aes(label = ifelse(is.na(Change), "new", sprintf("%+d", Change))), size = 4, label.size = 0, alpha = 0.7) +
-    facet_wrap(~ Point_ID, nrow = 1) +
-    coord_equal() +
-    scale_fill_distiller(palette = "RdBu", direction = 1, limits = c(-change_max, change_max), na.value = "grey80") +
-    labs(title = paste(site, "– change in species per distance band,", year_a, "to", year_b),
-         subtitle = "Blue = more species in the later year, red = fewer",
-         fill = "Change") +
-    ring_theme
+```{r Ring Change Diagrams, echo=TRUE, fig.height=4, fig.width=16}
+for (site in sort(unique(ring_change$Site))) {
+  change_rings <- plot_rings(ring_change %>% dplyr::filter(Site == site), Change,
+                             paste(site, "– change in species per distance band,", year_a, "to", year_b),
+                             "Change", palette = "RdBu", limits = c(-change_max, change_max),
+                             diverging = TRUE, by_year = FALSE,
+                             subtitle = "Blue = more species, red = fewer, grey = new point. Inner = 0–50 m, middle = 50–100 m, outer = 100–200 m")
   print(change_rings)
-  save_fig(change_rings, paste0(gsub(" ", "_", tolower(site)), "_distance_band_ring_change.png"), height = 4.5, width = 16)
+  save_fig(change_rings, paste0(gsub(" ", "_", tolower(site)), "_distance_band_ring_change.png"), height = 4, width = 16)
 }
 ```
 
 Focal species rings: the same idea for a single species (set `focal_species` in the YAML). Numbers are birds counted in each band (both visits combined).
 
-```{r Focal Species Rings, echo=TRUE, fig.height=9, fig.width=16}
-focal_rings <- point_years %>%
-  tidyr::crossing(DistBand = names(ring_radii)) %>%
-  dplyr::mutate(DistBand = factor(DistBand, levels = levels(point_counts_all$DistBand))) %>%
-  dplyr::left_join(
-    band_species %>% dplyr::filter(AlphaCode == cfg$params$focal_species) %>% dplyr::select(Point_ID, Year, DistBand, Birds),
-    by = c("Point_ID", "Year", "DistBand")) %>%
-  dplyr::mutate(Birds = tidyr::replace_na(Birds, 0))
+```{r Focal Species Rings, echo=TRUE, fig.height=6.5, fig.width=22}
+focal_rings <- species_ring_data(cfg$params$focal_species)
 
-focal_ring_plot <- ggplot(ring_polys(focal_rings), aes(x, y)) +
-  geom_polygon(aes(group = interaction(.id), subgroup = sub, fill = Birds), color = "white", linewidth = 0.4) +
-  geom_label(data = ring_label_pos(focal_rings), aes(label = Birds), size = 3.5, label.size = 0, alpha = 0.7) +
-  facet_grid(Year ~ Point_ID, switch = "y") +
-  coord_equal() +
-  scale_fill_distiller(palette = "Greens", direction = 1) +
-  labs(title = paste(cfg$params$focal_species, "– birds counted in each distance band"),
-       subtitle = "Inner = 0–50 m, middle = 50–100 m, outer = 100–200 m", fill = "Birds") +
-  ring_theme
-save_fig(focal_ring_plot, paste0("focal_species_rings_", cfg$params$focal_species, ".png"), height = 7, width = 22)
+focal_ring_plot <- plot_rings(focal_rings, Birds, paste(cfg$params$focal_species, "– birds counted in each distance band"),
+                              "Birds", palette = "Greens")
+save_fig(focal_ring_plot, paste0("focal_species_rings_", cfg$params$focal_species, ".png"), height = 6.5, width = 22)
 ```
 
 # Species Pool and Sampling Sufficiency
@@ -1682,6 +1726,232 @@ cat(if (added_share >= 0.15) "A single visit would have missed a substantial sha
 cat("For the low-detection species, callbacks, a third visit, or ARU data would be the most useful next step.\n")
 ```
 
+# Wading Birds at Lighthouse Center
+
+A closer look at herons, egrets and ibises (the `wading_birds` list in the YAML) at Lighthouse Center, with White Ibis (`wading_focus_species`) in detail. Wading birds are mobile, often forage in flocks, and follow the tide, so year-to-year changes in counts can come from (1) a real change in how many birds use the marsh, (2) one or two big flocks, or (3) surveys happening at a different tide stage. The figures below try to pull those apart.
+
+Year comparisons use the 6 points surveyed both years; LHC_07 (added in 2026) is shown separately where it matters.
+
+```{r Wader Data, include=FALSE}
+waders     <- unlist(cfg$params$wading_birds)
+focus_spp  <- cfg$params$wading_focus_species
+focus_site <- cfg$params$wading_focus_site
+
+# every survey at the site, with a simplified tide stage (the first word: Low or High)
+wader_surveys <- point_counts_all %>%
+  dplyr::filter(Site == focus_site) %>%
+  dplyr::distinct(Year, Site, Point_ID, VisitNum, SurveyDate, Tide) %>%
+  dplyr::mutate(Tide_Stage = factor(sub("/.*$", "", Tide), levels = c("Low", "High")),
+                Shared = Point_ID %in% shared_points,
+                Year = factor(Year), VisitNum = factor(VisitNum))
+
+wader_records <- point_counts_all %>%
+  dplyr::filter(Site == focus_site, AlphaCode %in% waders, TotalCount > 0) %>%
+  dplyr::mutate(Year = factor(Year), VisitNum = factor(VisitNum))
+
+wader_spp_present <- sort(unique(wader_records$AlphaCode))
+
+# points at this site that were surveyed in both years
+focus_shared <- intersect(shared_points, unique(wader_surveys$Point_ID))
+n_focus_shared <- length(focus_shared)
+
+# birds per survey for each wader species, with 0 for surveys where it wasn't seen
+wader_survey_spp <- wader_surveys %>%
+  tidyr::crossing(AlphaCode = wader_spp_present) %>%
+  dplyr::left_join(wader_records %>%
+                     dplyr::group_by(Year, Point_ID, VisitNum, AlphaCode) %>%
+                     dplyr::summarise(Birds = sum(TotalCount), .groups = "drop"),
+                   by = c("Year", "Point_ID", "VisitNum", "AlphaCode")) %>%
+  dplyr::mutate(Birds = tidyr::replace_na(Birds, 0))
+
+# all waders combined per survey
+wader_survey_total <- wader_survey_spp %>%
+  dplyr::group_by(Year, Site, Point_ID, VisitNum, SurveyDate, Tide, Tide_Stage, Shared) %>%
+  dplyr::summarise(Birds = sum(Birds), Species = sum(Birds > 0 & AlphaCode != "UNNH"), .groups = "drop")
+```
+
+## Wading bird summary by species
+
+For each wading bird species at `r focus_site`: how many detections (rows), birds, the largest single group, how many of the points surveyed both years it was found at, birds per survey, and the share counted beyond 100 m (often fly-overs).
+
+```{r Wader Table, echo=TRUE}
+wader_table <- wader_records %>%
+  dplyr::filter(Point_ID %in% shared_points) %>%
+  dplyr::group_by(AlphaCode, Year) %>%
+  dplyr::summarise(Detections = dplyr::n(),
+                   Birds = sum(TotalCount),
+                   `Largest group` = max(TotalCount),
+                   Points = dplyr::n_distinct(Point_ID),
+                   `Share >100 m` = scales::percent(sum(TotalCount[DistBand == ">100m"]) / sum(TotalCount), accuracy = 1),
+                   .groups = "drop") %>%
+  tidyr::complete(AlphaCode, Year, fill = list(Detections = 0L, Birds = 0, Points = 0L)) %>%
+  dplyr::left_join(wader_survey_spp %>% dplyr::filter(Shared) %>%
+                     dplyr::group_by(AlphaCode, Year) %>%
+                     dplyr::summarise(`Birds per survey` = round(mean(Birds), 2), .groups = "drop"),
+                   by = c("AlphaCode", "Year")) %>%
+  dplyr::arrange(dplyr::desc(AlphaCode == focus_spp), AlphaCode, Year) %>%
+  dplyr::rename(!!paste0("Points (of ", n_focus_shared, ")") := Points)
+
+kable(wader_table, caption = paste("Wading birds at", focus_site, "by year (points surveyed both years)")) %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed")) %>%
+  row_spec(which(wader_table$AlphaCode == focus_spp), bold = TRUE, background = "#F2F0F7") %>%
+  collapse_rows(columns = 1, valign = "top")
+```
+
+## Which wading birds went up or down?
+
+Left: average birds per survey (± SE) for each species. Right: how many of the points surveyed both years each species was found at (either visit). Points occupied is less affected by one big flock than the bird count, so a species that went up in **both** panels is the stronger signal.
+
+```{r Wader Change, echo=TRUE, fig.height=8, fig.width=16}
+wader_means <- wader_survey_spp %>%
+  dplyr::filter(Shared) %>%
+  dplyr::group_by(AlphaCode, Year) %>%
+  dplyr::summarise(Mean = mean(Birds), SE = sd(Birds) / sqrt(dplyr::n()),
+                   Points = dplyr::n_distinct(Point_ID[Birds > 0]), .groups = "drop") %>%
+  dplyr::mutate(AlphaCode = reorder(AlphaCode, Mean, FUN = max),
+                Focus = AlphaCode == focus_spp)
+
+wader_count_plot <- ggplot(wader_means, aes(y = AlphaCode, x = Mean, color = Year)) +
+  geom_line(aes(group = AlphaCode), color = "grey70", linewidth = 2) +
+  geom_errorbar(aes(xmin = pmax(0, Mean - SE), xmax = Mean + SE), width = 0.25, linewidth = 0.8) +
+  geom_point(size = 4.5) +
+  labs(title = "Birds per survey", x = "Average birds per survey (± SE)", y = NULL) +
+  theme_publish(base_size = 18) +
+  theme(panel.grid.minor = element_blank(), legend.position = "bottom", plot.margin = margin(10, 15, 10, 25))
+
+wader_occ_plot <- ggplot(wader_means, aes(y = AlphaCode, x = Points, color = Year)) +
+  geom_line(aes(group = AlphaCode), color = "grey70", linewidth = 2) +
+  geom_point(size = 4.5) +
+  scale_x_continuous(limits = c(0, n_focus_shared), breaks = 0:n_focus_shared) +
+  labs(title = "Points occupied", x = "Shared points where detected", y = NULL) +
+  theme_publish(base_size = 18) +
+  theme(panel.grid.minor = element_blank(), legend.position = "bottom", plot.margin = margin(10, 15, 10, 25))
+
+print(ggpubr::ggarrange(wader_count_plot, wader_occ_plot, ncol = 2, common.legend = TRUE, legend = "bottom"))
+ggplot2::ggsave(file.path(cfg$outputs$figures_dir, "wading_birds_change_lhc.png"),
+                ggpubr::ggarrange(wader_count_plot, wader_occ_plot, ncol = 2, common.legend = TRUE, legend = "bottom"),
+                height = 8, width = 16, dpi = cfg$params$dpi, bg = "white")
+```
+
+## `r focus_spp`: where and when
+
+Every survey at `r focus_site`, with the number of `r focus_spp` counted (blank = none). Columns are the two visits in each year, so this shows both the point-to-point spread and whether birds were seen on one visit or both. The tide stage of each survey is written under the count.
+
+```{r Focus Species Grid, echo=TRUE, fig.height=6, fig.width=14}
+focus_grid <- wader_survey_spp %>%
+  dplyr::filter(AlphaCode == focus_spp) %>%
+  dplyr::mutate(Survey = paste0(Year, "\nvisit ", VisitNum),
+                Tide_Short = sub("/", "/\n", Tide))
+
+focus_grid_plot <- ggplot(focus_grid, aes(x = Survey, y = Point_ID)) +
+  geom_tile(aes(fill = ifelse(Birds > 0, Birds, NA)), color = "white", linewidth = 1) +
+  geom_text(aes(label = ifelse(Birds > 0, Birds, "")), size = 7, fontface = "bold", nudge_y = 0.08,
+            color = ifelse(focus_grid$Birds > 0.55 * max(focus_grid$Birds), "white", "black")) +
+  geom_text(aes(label = paste(Tide, "tide")), size = 3.2, nudge_y = -0.33,
+            color = ifelse(focus_grid$Birds > 0.55 * max(focus_grid$Birds), "grey90", "grey35")) +
+  scale_y_discrete(limits = rev) +
+  scale_fill_distiller(palette = "Purples", direction = 1, na.value = "grey95") +
+  labs(title = paste(focus_spp, "counted on each survey at", focus_site),
+       subtitle = "Small text = tide stage during the survey (blank cells = no ibis)",
+       x = NULL, y = NULL, fill = "Birds") +
+  theme_publish(base_size = 18) +
+  theme(panel.grid = element_blank(), legend.position = "right")
+save_fig(focus_grid_plot, paste0(tolower(focus_spp), "_survey_grid.png"), height = 6, width = 14)
+```
+
+Distance band rings for `r focus_spp` (birds counted in each band, both visits combined). Birds close in (0–50 m) are more likely to be using the marsh at the point; birds only in the outer ring are more often flying over.
+
+```{r Focus Species Rings, echo=TRUE, fig.height=6.5, fig.width=16}
+focus_rings <- plot_rings(species_ring_data(focus_spp, site = focus_site), Birds,
+                          paste(focus_spp, "at", focus_site, "– birds counted in each distance band"),
+                          "Birds", palette = "Purples")
+save_fig(focus_rings, paste0(tolower(focus_spp), "_distance_band_rings.png"), height = 6.5, width = 16)
+```
+
+## Is it the tide?
+
+Wading birds feed on exposed mud and in shallow water, so more of them are usually visible at low tide. If one year's surveys happened to fall on lower tides, counts could go up without any real change. The left panel shows the tide stage of every survey; the right panel shows wading birds per survey by tide stage in each year. If counts are higher in the later year **within the same tide stage**, the increase isn't just a tide effect.
+
+```{r Wader Tide, echo=TRUE, fig.height=7, fig.width=16}
+tide_counts <- wader_surveys %>%
+  dplyr::count(Year, VisitNum, Tide_Stage) %>%
+  ggplot(aes(x = paste0(Year, "\nvisit ", VisitNum), y = n, fill = Tide_Stage)) +
+  geom_col(width = 0.7) +
+  geom_text(aes(label = n), position = position_stack(vjust = 0.5), color = "white", fontface = "bold", size = 5) +
+  scale_fill_manual(values = c("Low" = "#8C510A", "High" = "#01665E"), drop = FALSE) +
+  labs(title = "Tide stage of each survey", x = NULL, y = "Surveys", fill = "Tide") +
+  theme_publish(base_size = 18) +
+  theme(panel.grid.minor = element_blank(), legend.position = "bottom")
+
+tide_birds <- wader_survey_spp %>%
+  dplyr::mutate(Group = ifelse(AlphaCode == focus_spp, focus_spp, "Other wading birds")) %>%
+  dplyr::group_by(Year, Point_ID, VisitNum, Tide_Stage, Group) %>%
+  dplyr::summarise(Birds = sum(Birds), .groups = "drop") %>%
+  ggplot(aes(x = Tide_Stage, y = Birds, color = Year)) +
+  geom_boxplot(outlier.shape = NA, position = position_dodge(width = 0.8), width = 0.6) +
+  geom_point(position = position_jitterdodge(jitter.width = 0.15, dodge.width = 0.8), size = 2.5, alpha = 0.7) +
+  facet_wrap(~ Group, scales = "free_y") +
+  labs(title = "Wading birds per survey by tide stage", x = "Tide stage", y = "Birds per survey") +
+  theme_publish(base_size = 18) +
+  theme(panel.grid.minor = element_blank(), strip.text = element_text(face = "bold"), legend.position = "bottom")
+
+print(ggpubr::ggarrange(tide_counts, tide_birds, ncol = 2, widths = c(1, 2)))
+ggplot2::ggsave(file.path(cfg$outputs$figures_dir, "wading_birds_tide_lhc.png"),
+                ggpubr::ggarrange(tide_counts, tide_birds, ncol = 2, widths = c(1, 2)),
+                height = 7, width = 16, dpi = cfg$params$dpi, bg = "white")
+```
+
+A simple model to put numbers on it: birds per survey ~ Year + Tide stage + Visit, quasi-Poisson, shared points only. Estimates are rate ratios: a Year estimate of 3 means about three times as many birds per survey in the later year after accounting for tide and visit. With only a couple dozen surveys and year and tide partly overlapping (see left panel), the confidence intervals are wide, so this is a first look rather than a firm answer.
+
+```{r Wader Models, echo=TRUE}
+wader_model_data <- wader_survey_spp %>%
+  dplyr::filter(Shared) %>%
+  dplyr::mutate(Group = ifelse(AlphaCode == focus_spp, focus_spp, "Other wading birds")) %>%
+  dplyr::group_by(Group, Year, Point_ID, VisitNum, Tide_Stage) %>%
+  dplyr::summarise(Birds = sum(Birds), .groups = "drop")
+
+wader_models <- wader_model_data %>%
+  dplyr::group_by(Group) %>%
+  dplyr::group_modify(~ broom::tidy(glm(Birds ~ Year + Tide_Stage + VisitNum, data = .x, family = quasipoisson),
+                                    conf.int = TRUE, exponentiate = TRUE)) %>%
+  dplyr::ungroup() %>%
+  dplyr::filter(term != "(Intercept)") %>%
+  dplyr::mutate(term = dplyr::case_when(term == paste0("Year", year_b) ~ paste(year_b, "vs", year_a),
+                                        term == "Tide_StageHigh" ~ "High vs low tide",
+                                        term == "VisitNum2" ~ "Visit 2 vs visit 1",
+                                        TRUE ~ term))
+
+kable(wader_models, digits = 2, caption = "Rate ratios for wading birds per survey (quasi-Poisson, points surveyed both years)",
+      col.names = c("Group", "Term", "Rate ratio", "SE (log)", "t", "p", "CI low", "CI high")) %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed")) %>%
+  collapse_rows(columns = 1, valign = "top")
+```
+
+```{r Wader Text, echo=FALSE, results="asis"}
+f <- wader_survey_spp %>% dplyr::filter(AlphaCode == focus_spp, Shared)
+fy <- f %>% dplyr::group_by(Year) %>%
+  dplyr::summarise(per_survey = mean(Birds), points = dplyr::n_distinct(Point_ID[Birds > 0]),
+                   surveys = sum(Birds > 0), .groups = "drop")
+fm <- wader_models %>% dplyr::filter(Group == focus_spp, grepl(" vs ", term), grepl("^[0-9]", term))
+new_pt <- wader_survey_spp %>% dplyr::filter(AlphaCode == focus_spp, !Shared, Birds > 0)
+n_surv <- f %>% dplyr::distinct(Year, Point_ID, VisitNum) %>% dplyr::count(Year) %>% dplyr::pull(n)
+cat(sprintf("**%s summary.** At the %d points surveyed both years, %s went from %.1f to %.1f birds per survey, was found at %d then %d points, and on %d of %d then %d of %d surveys. ",
+            focus_spp, n_focus_shared, focus_spp, fy$per_survey[1], fy$per_survey[2], fy$points[1], fy$points[2],
+            fy$surveys[1], n_surv[1], fy$surveys[2], n_surv[2]))
+if (nrow(fm) == 1) cat(sprintf("After accounting for tide stage and visit, the later year had about %.1f times as many birds per survey (95%% CI %.1f–%.1f). ",
+                               fm$estimate, fm$conf.low, fm$conf.high))
+if (nrow(new_pt) > 0) cat(sprintf("It was also seen at %s (not surveyed in %s). ", paste(unique(new_pt$Point_ID), collapse = ", "), year_a))
+direction <- sign(fy$per_survey[2] - fy$per_survey[1])
+spread <- sign(fy$points[2] - fy$points[1])
+if (direction != 0 && spread == direction) {
+  cat("The change shows up in the number of points and surveys where it was found, not just in the size of one flock, so it looks like a real change in how widely it used the marsh rather than one chance flock. ")
+} else if (direction != 0) {
+  cat("The number of points where it was found didn't change in the same direction as the count, so the change may come mostly from flock size on a few surveys. ")
+}
+if (focus_spp == "WHIB") cat("White Ibis has been expanding its breeding range northward along the Atlantic coast, including New Jersey, so a rise at a coastal marsh fits that wider pattern. ")
+cat("Two years can't separate a real change from normal year-to-year variation, so it is worth comparing against eBird data for the county and New Jersey's colonial waterbird surveys, and watching whether the pattern holds in a third year.\n")
+```
+
 # More Ways to Look at the Point Counts
 
 ## Where each species was found
@@ -2035,7 +2305,7 @@ y_df <- point_counts_2025_clean %>%
 y_mat <- as.matrix(dplyr::select(y_df, -Point_ID))
 
 # 3) Build site covariates (currenly only ising point ID, should add in more later like veg, hydro, elevation, etc.) - 
-siteCovs <- y_df %>% dplyr::select(Point_ID)
+siteCovs <- y_df %>% dplyr::select(Point_ID) %>% as.data.frame()
 
 # 4) Fit N-mixture (pcount) model
 umf <- unmarked::unmarkedFramePCount(y = y_mat, siteCovs = siteCovs)
@@ -2088,7 +2358,7 @@ y_df_2026 <- point_counts_2026_clean %>%
   dplyr::arrange(Point_ID)
 
 y_mat_2026 <- as.matrix(dplyr::select(y_df_2026, -Point_ID))
-siteCovs_2026 <- y_df_2026 %>% dplyr::select(Point_ID)
+siteCovs_2026 <- y_df_2026 %>% dplyr::select(Point_ID) %>% as.data.frame()
 
 umf_2026 <- unmarked::unmarkedFramePCount(y = y_mat_2026, siteCovs = siteCovs_2026)
 fm1_2026 <- unmarked::pcount(~1 ~1, data = umf_2026, K = 50)

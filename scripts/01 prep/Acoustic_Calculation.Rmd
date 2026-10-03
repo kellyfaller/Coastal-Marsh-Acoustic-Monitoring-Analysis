@@ -10,6 +10,11 @@ output:
     theme: flatly
     code_folding: hide
 params:
+  # Top-level folder of .wav files. Searched recursively; every folder that contains wavs is processed separately.
+  # Use a year/station layout (e.g. 2024/CAT_A1) - outputs are named from the path so years don't overwrite each other.
+  main_dir: "D:/Acoustic Data/Masters - Cattus and LHC"
+  output_dir: "outputs/indices"          # relative = inside this repo (configs/project.yml outputs$indices_dir)
+  overwrite: false                       # false = skip folders that already have all six index files (lets a long run resume)
   write_combined: true
 ---
 # Purpose
@@ -20,13 +25,17 @@ This code is coming from Donovan Tye's "acoustic indices.R" script. I've amended
 ```{r setup, include= FALSE}
 knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 
-# ==== USER SETTINGS - change these for each project ====
-main_dir <- "D:/Acoustic Data/Masters - Cattus and LHC"  # top-level directory
-output_dir <- "C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/Outputs/Acoustic_Index" #where you want the outputs to go
-cores <- 10 # how much computational power you need
-min_freq   <- 0
-max_freq   <- 22000
-db_thresh  <- -35
+# ==== USER SETTINGS ====
+# Folders are set in the YAML header above; frequency band, dB threshold and cores come from configs/project.yml
+# (params: min_freq_hz, max_freq_hz, db_threshold, cores) so every script uses the same settings.
+main_dir   <- params$main_dir
+output_dir <- if (fs::is_absolute_path(params$output_dir)) params$output_dir else here::here(params$output_dir)
+proj_cfg   <- yaml::read_yaml(here::here("configs", "project.yml"))$params
+min_freq   <- proj_cfg$min_freq_hz
+max_freq   <- proj_cfg$max_freq_hz   # must not be above half the sample rate (16000 Hz for 32 kHz recordings)
+db_thresh  <- proj_cfg$db_threshold
+cores      <- min(proj_cfg$cores, max(1, parallel::detectCores() - 1))
+tz         <- "America/New_York"     # recorder file names are local time
 
 # Create output directory if missing
 if (!dir.exists(output_dir)) dir.create(output_dir, recursive = TRUE)
@@ -42,9 +51,27 @@ suppressPackageStartupMessages({
 
 # helper: only keep folders that actually contain WAVs
 has_wavs <- function(path) any(grepl("(?i)\\.wav$", list.files(path, full.names = FALSE)))
+if (!dir.exists(main_dir)) stop("main_dir doesn't exist: ", main_dir, "\nChange main_dir in the YAML header.")
 subfolders <- list.dirs(main_dir, recursive = TRUE, full.names = TRUE)
 subfolders <- subfolders[vapply(subfolders, has_wavs, logical(1))]
 stopifnot(length(subfolders) > 0)
+
+# output prefix from the folder path below main_dir, e.g. "2024/CAT_A1" -> "2024_CAT_A1".
+# (Using only the last folder name made 2025/CAT_A1 overwrite 2024/CAT_A1.)
+folder_prefix <- function(folder) {
+  base <- normalizePath(main_dir, winslash = "/")
+  f    <- normalizePath(folder, winslash = "/")
+  rel  <- if (startsWith(f, base) && nchar(f) > nchar(base)) substring(f, nchar(base) + 2) else basename(folder)
+  gsub("[/ ]+", "_", rel)
+}
+
+# the sample rate of the first wav in each folder; the upper frequency can't be above half of it
+check_band <- function(folder) {
+  wav <- list.files(folder, pattern = "(?i)\\.wav$", full.names = TRUE)[1]
+  sr <- tuneR::readWave(wav, header = TRUE)$sample.rate
+  if (max_freq > sr / 2) stop("max_freq_hz (", max_freq, ") is above half the sample rate (", sr / 2, " Hz) in ", folder,
+                              ". Lower max_freq_hz in configs/project.yml.")
+}
 
 ```
 
@@ -107,8 +134,13 @@ run_indices <- function(wav_dir, out_prefix) {
   )
 }
 
+index_suffixes <- c("_ACI_F.csv", "_ADI_F_35db.csv", "_AEI_F.csv", "_BI_F.csv", "_NDSI_F.csv", "_H_F.csv")
 for (folder in subfolders) {
-  run_indices(folder, basename(folder))
+  prefix <- folder_prefix(folder)
+  done <- all(file.exists(file.path(output_dir, paste0(prefix, index_suffixes))))
+  if (done && !isTRUE(params$overwrite)) { message("Skipping ", prefix, " (already done)"); next }
+  check_band(folder)
+  run_indices(folder, prefix)
 }
 ```
 
@@ -121,7 +153,10 @@ extract_metadata <- function(df, csv_path) {
   site_pat <- "(?i)[A-Z]{2,5}_[A-Z]{0,3}\\d{1,3}"  # e.g., CAT_A1, LHC_01
   ts_str   <- stringr::str_extract(df$FILENAME %||% "", "\\d{8}_\\d{6}")
   site_fn  <- stringr::str_extract(df$FILENAME %||% "", site_pat)
-  site_csv <- toupper(sub("_(ACI|ADI|AEI|BI|NDSI|H).*", "", basename(csv_path)))
+  # output files are named <year>_<station>_<INDEX>...; station = everything after a leading year
+  prefix   <- sub("_(ACI|ADI|AEI|BI|NDSI|H)_F.*", "", basename(csv_path))
+  site_csv <- toupper(sub("^\\d{4}_", "", prefix))
+  year_csv <- suppressWarnings(as.integer(stringr::str_extract(prefix, "^\\d{4}")))
 
   # normalize DB_THRESHOLD if present
   has_db <- names(df)[tolower(names(df)) == "db_threshold"]
@@ -134,21 +169,28 @@ extract_metadata <- function(df, csv_path) {
   df %>%
     dplyr::mutate(
       site_name = dplyr::coalesce(site_fn, site_csv),
+      # local recorder time (the file names are local, not UTC)
       recording_datetime = suppressWarnings(
-        lubridate::ymd_hms(stringr::str_replace(ts_str, "_", " "), tz = "UTC", quiet = TRUE)
-      )
+        lubridate::ymd_hms(stringr::str_replace(ts_str, "_", " "), tz = tz, quiet = TRUE)
+      ),
+      year = dplyr::coalesce(lubridate::year(recording_datetime), year_csv),
+      source_csv = basename(csv_path)
     )
 }
 
-all_csvs <- list.files(output_dir, pattern = "_(ACI|ADI|AEI|BI|NDSI|H)_F\\.csv$", full.names = TRUE)
+# includes the ADI files, which are named _ADI_F_35db.csv (the old pattern only matched _F.csv and left ADI out)
+all_csvs <- list.files(output_dir, pattern = "_(ACI|ADI|AEI|BI|NDSI|H)_F(_\\d+db)?\\.csv$", full.names = TRUE)
 
 if (length(all_csvs)) {
   ResultsData <- purrr::map_dfr(all_csvs, ~{
-    df <- suppressMessages(readr::read_csv(.x, show_col_types = FALSE))
+    # read as text: the index files disagree on column types (e.g. DB_THRESHOLD is a number in ADI, "-" elsewhere)
+    df <- suppressMessages(readr::read_csv(.x, col_types = readr::cols(.default = "c")))
     extract_metadata(df, .x)
-  })
+  }) %>% readr::type_convert(col_types = readr::cols(DB_THRESHOLD = "c", .default = readr::col_guess())) %>%
+    # soundecology writes each recording twice in the AEI file (identical values); keep one row per file and index
+    dplyr::distinct(source_csv, FILENAME, INDEX, .keep_all = TRUE)
   out_file <- file.path(output_dir, "all_indices_combined.csv")
-  readr::write_csv(ResultsData, out_file)
+  readr::write_csv(ResultsData %>% dplyr::mutate(recording_datetime = format(recording_datetime, "%Y-%m-%d %H:%M:%S")), out_file)
   message("Combined file: ", out_file)
 } else {
   warning("No per-index CSVs found to combine in: ", output_dir)

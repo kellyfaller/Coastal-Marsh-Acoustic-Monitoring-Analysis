@@ -1,0 +1,331 @@
+---
+title: "Chapter 1: Point Counts vs. ARUs vs. Both"
+subtitle: "Does combining methods help determine site occupancy for marsh species?"
+author: "Kelly Faller"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+library(ggplot2)
+library(knitr)
+library(kableExtra)
+library(unmarked)   # needed for predict() on occupancy models
+source(here::here("R", "thesis_functions.R"))
+cfg <- load_thesis_config()
+dat <- readRDS(file.path(cfg$outputs$processed_dir, "thesis_data.rds"))   # made by scripts/01 prep/Thesis Data Prep.Rmd
+p <- cfg$params
+```
+
+**Core question:** what does pairing point counts with ARUs give you for detecting presence and estimating occupancy of marsh species of concern that either method alone doesn't?
+
+The chapter ends with a concrete recommendation for how post-restoration monitoring should be structured; that recommendation feeds the partner deliverable.
+
+Structure:
+
+1. Comparable data: same sites, same season, same years
+2. What each method detected
+3. Species accumulation: effort needed per method
+4. Detection "niche": cryptic vs conspicuous, diurnal vs crepuscular, rare vs common
+5. Occupancy and detection probability for species of concern: PC alone, ARU alone, combined
+6. Cost / effort: what does X more effort buy you?
+7. Recommended monitoring design
+
+# 1. Comparable data
+
+ARU detections only count toward the comparison if they come from a station paired with a point count point (see the prep notebook), fall inside the SHARP season window (`r p$season_start` to `r p$season_end`), and come from a year that also has point counts. Arbimon detections are only used if validated as present. A BirdNET species only counts as "detected" at a station on a day if it has a detection above its presence threshold.
+
+```{r Comparable Data}
+det <- dat$detections
+pc_years  <- unique(det$Year[det$method == "Point count"])
+aru_years <- unique(det$Year[det$method != "Point count"])
+compare_years <- intersect(pc_years, aru_years)
+
+# ARU detections usable for presence: above threshold (BirdNET) or validated (Arbimon), paired station, in season
+aru_det <- det %>%
+  dplyr::filter(method != "Point count", Year %in% compare_years, in_season,
+                dplyr::coalesce(above_threshold, FALSE), dplyr::coalesce(paired, FALSE), !is.na(alpha_code)) %>%
+  dplyr::mutate(sample_id = paste(station, date), pc_hours = lubridate::hour(time) >= p$pc_hours[1] & lubridate::hour(time) < p$pc_hours[2])
+
+pc_det <- det %>%
+  dplyr::filter(method == "Point count", Year %in% compare_years, !is.na(alpha_code), !grepl("^UN|nident", alpha_code)) %>%
+  dplyr::mutate(sample_id = paste(station, Year, visit))
+
+# survey effort: every PC survey, every ARU station-day with recordings (from Arbimon if available, otherwise days with any BirdNET output)
+pc_samples <- dat$pc %>% dplyr::filter(Year %in% compare_years) %>% dplyr::distinct(Site, station = Point_ID, Year, visit = VisitNum) %>%
+  dplyr::mutate(sample_id = paste(station, Year, visit))
+aru_samples <- if (!is.null(dat$arbimon$recordings)) {
+  dat$arbimon$recordings %>% dplyr::left_join(dat$arbimon$sites, by = "site_id") %>%
+    dplyr::mutate(date = as.Date(datetime_local, tz = p$timezone), Year = lubridate::year(date)) %>%
+    dplyr::distinct(station, Year, date)
+} else tibble::tibble(station = character(), Year = numeric(), date = as.Date(character()))
+if (!is.null(dat$birdnet)) {
+  aru_samples <- dplyr::bind_rows(aru_samples, dat$birdnet %>% dplyr::mutate(date = as.Date(detection_time, tz = p$timezone)) %>%
+                                    dplyr::distinct(station, Year, date)) %>% dplyr::distinct()
+}
+aru_samples <- aru_samples %>%
+  dplyr::filter(Year %in% compare_years, in_season(date, cfg)) %>%
+  dplyr::inner_join(dat$aru_pairs %>% dplyr::filter(paired) %>% dplyr::select(Year, station, Site, nearest_point), by = c("Year", "station")) %>%
+  dplyr::mutate(sample_id = paste(station, date))
+```
+
+```{r Comparable Summary, results="asis"}
+if (!length(compare_years)) {
+  todo_note("no year has both point counts (", paste(sort(pc_years), collapse = ", "), ") and ARU detections (",
+            paste(sort(aru_years), collapse = ", "), "). Add the ARU data for the point count years and re-run the prep notebook.")
+} else {
+  print(kbl_simple(dplyr::bind_rows(
+    pc_samples %>% dplyr::count(Site, Year, name = "Samples") %>% dplyr::mutate(Method = "Point count (point visits)"),
+    aru_samples %>% dplyr::count(Site, Year, name = "Samples") %>% dplyr::mutate(Method = "ARU (station-days in season)")),
+    "Comparable effort by method"))
+}
+has_compare <- length(compare_years) > 0 && nrow(aru_samples) > 0
+```
+
+# 2. What each method detected
+
+Species detected at each site by point counts only, ARUs only, or both. "ARU" combines stock BirdNET (above threshold) and validated Arbimon detections. A species heard only on the ARU at night is very different from one missed by point counts in daylight, so the diel split is shown too.
+
+```{r Species By Method, fig.height=8, fig.width=14, eval=has_compare}
+species_method <- dplyr::bind_rows(
+  pc_det %>% dplyr::distinct(Site, Year, alpha_code) %>% dplyr::mutate(PC = TRUE),
+  aru_det %>% dplyr::distinct(Site, Year, alpha_code) %>% dplyr::mutate(ARU = TRUE)) %>%
+  dplyr::group_by(Site, Year, alpha_code) %>%
+  dplyr::summarise(PC = any(PC %in% TRUE), ARU = any(ARU %in% TRUE), .groups = "drop") %>%
+  dplyr::mutate(Detected_by = dplyr::case_when(PC & ARU ~ "Both", PC ~ "Point count only", TRUE ~ "ARU only"))
+
+species_method %>%
+  dplyr::count(Site, Year, Detected_by) %>%
+  tidyr::pivot_wider(names_from = Detected_by, values_from = n, values_fill = 0) %>%
+  kbl_simple("Number of species detected by each method")
+
+method_plot <- species_method %>%
+  dplyr::mutate(cryptic = alpha_code %in% p$cryptic_species) %>%
+  ggplot(aes(x = Detected_by, y = reorder(alpha_code, alpha_code), fill = Detected_by)) +
+  geom_tile(color = "white") +
+  facet_grid(. ~ Site + Year) +
+  scale_fill_manual(values = c("Both" = "#542788", "Point count only" = "#E08214", "ARU only" = "#2166AC")) +
+  labs(title = "Which method detected each species", x = NULL, y = NULL, fill = NULL) +
+  theme_minimal(base_size = 12) + theme(axis.text.x = element_text(angle = 30, hjust = 1), legend.position = "none")
+save_thesis_fig(method_plot, "ch1_species_by_method.png", cfg, height = 12, width = 12)
+```
+
+# 3. Species accumulation: effort needed per method
+
+Incidence-based rarefaction and extrapolation (the same method as the point count notebook) for each method, per site. The sample unit differs by method (a point visit vs. an ARU station-day), so the second plot puts both on a common **staff hours** axis using the effort settings in the YAML. That is the version that answers "how much effort for how many species".
+
+```{r Accumulation, fig.height=7, fig.width=14, eval=has_compare}
+acc_groups <- list(
+  `Point count` = list(pres = pc_det %>% dplyr::transmute(Site, sample_id, species = alpha_code), samples = pc_samples),
+  `ARU (all hours)` = list(pres = aru_det %>% dplyr::transmute(Site, sample_id, species = alpha_code), samples = aru_samples),
+  `ARU (point count hours)` = list(pres = aru_det %>% dplyr::filter(pc_hours) %>% dplyr::transmute(Site, sample_id, species = alpha_code), samples = aru_samples))
+
+e <- p$effort
+hours_per_sample <- c(`Point count` = (e$pc_minutes_per_survey + e$pc_travel_minutes_per_point) / 60,
+                      # one station-day = 1440 one-minute recordings to process, plus validating the day's detections
+                      `ARU (all hours)` = 1.44 * e$aru_processing_hours_per_1000_rec + e$aru_deploy_hours_per_unit / 60,
+                      `ARU (point count hours)` = 0.3 * e$aru_processing_hours_per_1000_rec + e$aru_deploy_hours_per_unit / 60)
+
+acc <- purrr::imap_dfr(acc_groups, function(g, method) {
+  purrr::map_dfr(unique(g$samples$Site), function(site) {
+    inc <- incidence_from(g$pres %>% dplyr::filter(Site == site), g$samples$sample_id[g$samples$Site == site])
+    if (inc$T < 2 || !length(inc$Y)) return(NULL)
+    cbind(Site = site, Method = method, accumulation_curve(inc), sufficiency_stats(inc)[, c("Chao2", "Coverage")])
+  })
+}) %>% dplyr::mutate(Hours = Samples * hours_per_sample[Method])
+
+acc_plot <- ggplot(acc, aes(Samples, Species, color = Method)) +
+  geom_line(aes(linetype = Part == "Extrapolated"), linewidth = 1.1) +
+  facet_wrap(~ Site, scales = "free_x") +
+  scale_linetype_manual(values = c(`FALSE` = "solid", `TRUE` = "dashed"), guide = "none") +
+  labs(title = "Species accumulation by method (dashed = extrapolated)", x = "Samples (point visits or station-days)", y = "Species") +
+  theme_minimal(base_size = 14) + theme(legend.position = "bottom")
+save_thesis_fig(acc_plot, "ch1_accumulation_samples.png", cfg)
+
+acc_hours <- ggplot(acc, aes(Hours, Species, color = Method)) +
+  geom_line(aes(linetype = Part == "Extrapolated"), linewidth = 1.1) +
+  facet_wrap(~ Site, scales = "free_x") +
+  scale_linetype_manual(values = c(`FALSE` = "solid", `TRUE` = "dashed"), guide = "none") +
+  labs(title = "Species accumulation per staff hour", x = "Staff hours (from effort settings in the YAML)", y = "Species") +
+  theme_minimal(base_size = 14) + theme(legend.position = "bottom")
+save_thesis_fig(acc_hours, "ch1_accumulation_hours.png", cfg)
+
+acc %>% dplyr::distinct(Site, Method, Chao2, Coverage) %>%
+  dplyr::mutate(Coverage = scales::percent(Coverage, accuracy = 1)) %>%
+  kbl_simple("Estimated species pool (Chao2) and sample coverage by method", digits = 1)
+```
+
+# 4. Detection niche
+
+Which kinds of species does each method favour? Each species gets three traits:
+
+- **Cryptic vs conspicuous**: from `cryptic_species` in the YAML (rails, bitterns, marsh sparrows by default).
+- **Diel activity**: the share of its ARU detections at dawn, day, dusk and night (sunrise/sunset at the study area). Species with most detections outside point count hours are labelled crepuscular/nocturnal.
+- **Rarity**: how often it was recorded by either method (average of its point count and ARU detection-rate ranks), split into rare / uncommon / common thirds. Using both methods keeps rarity from simply meaning "point counts missed it".
+
+```{r Niche Data, eval=has_compare}
+pc_rate <- pc_det %>% dplyr::distinct(alpha_code, sample_id) %>% dplyr::count(alpha_code, name = "pc_n") %>%
+  dplyr::mutate(pc_rate = pc_n / dplyr::n_distinct(pc_samples$sample_id))
+aru_rate <- aru_det %>% dplyr::distinct(alpha_code, sample_id) %>% dplyr::count(alpha_code, name = "aru_n") %>%
+  dplyr::mutate(aru_rate = aru_n / dplyr::n_distinct(aru_samples$sample_id))
+diel <- aru_det %>% dplyr::count(alpha_code, diel) %>% dplyr::group_by(alpha_code) %>%
+  dplyr::mutate(share = n / sum(n)) %>% dplyr::ungroup()
+diel_class <- diel %>% dplyr::group_by(alpha_code) %>%
+  dplyr::summarise(outside_pc = sum(share[diel %in% c("Dusk", "Night")]), .groups = "drop") %>%
+  dplyr::mutate(activity = ifelse(outside_pc > 0.5, "Crepuscular / nocturnal", "Diurnal"))
+
+niche <- dplyr::full_join(pc_rate, aru_rate, by = "alpha_code") %>%
+  dplyr::left_join(diel_class, by = "alpha_code") %>%
+  dplyr::mutate(dplyr::across(c(pc_rate, aru_rate), ~ tidyr::replace_na(.x, 0)),
+                activity = tidyr::replace_na(activity, "Not detected on ARU"),
+                cryptic = ifelse(alpha_code %in% p$cryptic_species, "Cryptic", "Conspicuous"),
+                overall = (rank(pc_rate) + rank(aru_rate)) / 2,
+                rarity = factor(c("Rare", "Uncommon", "Common")[dplyr::ntile(overall, 3)], levels = c("Rare", "Uncommon", "Common")),
+                favoured = dplyr::case_when(pc_rate == 0 ~ "ARU only", aru_rate == 0 ~ "Point count only",
+                                            aru_rate > pc_rate ~ "Higher on ARU", TRUE ~ "Higher on point count"))
+```
+
+```{r Niche Plots, fig.height=9, fig.width=14, eval=has_compare}
+niche_plot <- ggplot(niche, aes(pc_rate, aru_rate, color = cryptic, shape = activity)) +
+  geom_abline(linetype = "dashed", color = "grey50") +
+  geom_point(size = 3.5, alpha = 0.8) +
+  geom_text(aes(label = alpha_code), size = 3.2, vjust = -0.9, show.legend = FALSE, check_overlap = TRUE) +
+  scale_x_sqrt(labels = scales::label_percent()) + scale_y_sqrt(labels = scales::label_percent()) +
+  scale_color_manual(values = c(Cryptic = "#B2182B", Conspicuous = "grey40")) +
+  labs(title = "Detection rate by method (above the line = ARU detects it more often)",
+       x = "Point count: share of surveys", y = "ARU: share of station-days", color = NULL, shape = NULL) +
+  theme_minimal(base_size = 14) + theme(legend.position = "bottom")
+save_thesis_fig(niche_plot, "ch1_detection_niche.png", cfg, height = 9, width = 14)
+
+diel_plot <- diel %>%
+  dplyr::filter(alpha_code %in% (aru_rate %>% dplyr::slice_max(aru_n, n = 40) %>% dplyr::pull(alpha_code))) %>%
+  dplyr::mutate(diel = factor(diel, levels = c("Night", "Dawn", "Day", "Dusk"))) %>%
+  ggplot(aes(diel, reorder(alpha_code, share * (diel == "Dawn")), fill = share)) +
+  geom_tile(color = "white") +
+  scale_fill_distiller(palette = "Purples", direction = 1, labels = scales::label_percent()) +
+  labs(title = "When ARUs detect each species (share of its detections)", x = NULL, y = NULL, fill = NULL) +
+  theme_minimal(base_size = 13)
+save_thesis_fig(diel_plot, "ch1_diel_profile.png", cfg, height = 10, width = 8)
+
+niche %>%
+  dplyr::count(cryptic, activity, rarity, favoured) %>%
+  tidyr::pivot_wider(names_from = favoured, values_from = n, values_fill = 0) %>%
+  kbl_simple("Which method favours which kinds of species (number of species)")
+```
+
+With enough species, a simple model asks whether being cryptic, crepuscular/nocturnal or rare predicts being detected by ARU but missed by point counts.
+
+```{r Niche Model, eval=has_compare, results="asis"}
+niche_mod_data <- niche %>% dplyr::filter(activity != "Not detected on ARU", !is.na(rarity)) %>%
+  dplyr::mutate(aru_only = as.integer(pc_rate == 0))
+if (nrow(niche_mod_data) >= 15 && length(unique(niche_mod_data$aru_only)) == 2) {
+  m <- suppressWarnings(glm(aru_only ~ cryptic + activity + rarity, data = niche_mod_data, family = binomial))
+  if (!m$converged || any(abs(coef(m)) > 10, na.rm = TRUE)) {
+    todo_note("the ARU-only model hit complete separation (one trait perfectly predicts ARU-only), so odds ratios can't be estimated. ",
+              "Use the table above, or a Firth/penalised logistic regression (e.g. the logistf package) once the full data are in.")
+  } else print(kbl_simple(broom::tidy(m, exponentiate = TRUE, conf.int = TRUE), "Odds of being ARU-only (odds ratios)"))
+}
+```
+
+# 5. Occupancy and detection for species of concern
+
+Single-season occupancy models (`unmarked::occu`) fit three ways for each species of concern with enough detections:
+
+- **PC only**: the two SHARP point count visits.
+- **ARU only**: ARU detections pooled into `r p$aru_occasion_days`-day occasions within the season.
+- **Combined**: both sets of occasions in one detection history, with a separate detection probability for each method (`~ method`).
+
+Sites are the paired ARU station / point count points in each year (each site-year is its own "site", i.e. stacked across years). Point count points without an ARU contribute point count occasions only.
+
+```{r Occupancy, results="asis", eval=has_compare}
+species_concern <- intersect(p$species_of_concern, unique(c(pc_det$alpha_code, aru_det$alpha_code)))
+season_start <- function(y) as.Date(paste0(y, "-", p$season_start))
+
+pc_hist <- pc_det %>% dplyr::transmute(alpha_code, site = paste(station, Year), occasion = paste0("PC", visit))
+pc_surv <- pc_samples %>% dplyr::transmute(site = paste(station, Year), occasion = paste0("PC", visit))
+aru_hist <- aru_det %>% dplyr::transmute(alpha_code, site = paste(nearest_point, Year),
+                                          occasion = sprintf("ARU%02d", as.integer(date - season_start(Year)) %/% p$aru_occasion_days + 1))
+aru_surv <- aru_samples %>% dplyr::transmute(site = paste(nearest_point, Year),
+                                              occasion = sprintf("ARU%02d", as.integer(date - season_start(Year)) %/% p$aru_occasion_days + 1)) %>% dplyr::distinct()
+sites <- sort(unique(c(pc_surv$site, aru_surv$site)))
+
+fit_occ <- function(sp, which) {
+  dets <- dplyr::bind_rows(if (which != "ARU only") dplyr::filter(pc_hist, alpha_code == sp),
+                           if (which != "PC only") dplyr::filter(aru_hist, alpha_code == sp))
+  surv <- dplyr::bind_rows(if (which != "ARU only") pc_surv, if (which != "PC only") aru_surv) %>% dplyr::distinct()
+  y <- detection_matrix(dets, surv, sites)
+  keep <- rowSums(!is.na(y)) > 0
+  y <- y[keep, , drop = FALSE]
+  if (sum(y, na.rm = TRUE) < 2) return(NULL)
+  method <- matrix(ifelse(grepl("^PC", colnames(y)), "PC", "ARU"), nrow(y), ncol(y), byrow = TRUE)
+  umf <- unmarked::unmarkedFrameOccu(y = y, obsCovs = list(method = method))
+  form <- if (which == "Combined") ~ method ~ 1 else ~ 1 ~ 1
+  fm <- tryCatch(unmarked::occu(form, data = umf), error = function(e) NULL)
+  if (is.null(fm)) return(NULL)
+  psi_bt <- unmarked::backTransform(fm, type = "state")
+  p_tab <- if (which == "Combined") {
+    nd <- data.frame(method = c("PC", "ARU"))
+    cbind(method = nd$method, predict(fm, type = "det", newdata = nd))
+  } else data.frame(method = ifelse(which == "PC only", "PC", "ARU"), predict(fm, type = "det")[1, ])
+  tibble::tibble(Species = sp, Data = which, Sites = nrow(y), `Naive occupancy` = mean(rowSums(y, na.rm = TRUE) > 0),
+                 psi = psi_bt@estimate, psi_SE = sqrt(psi_bt@covMat[1, 1]),
+                 p_PC = p_tab$Predicted[p_tab$method == "PC"][1], p_ARU = p_tab$Predicted[p_tab$method == "ARU"][1])
+}
+
+occ_results <- purrr::map_dfr(species_concern, function(sp) purrr::map_dfr(c("PC only", "ARU only", "Combined"), ~ fit_occ(sp, .x)))
+if (nrow(occ_results)) {
+  print(kbl_simple(occ_results, "Occupancy (psi) and per-occasion detection probability (p) by data source", digits = 2))
+} else todo_note("not enough detections of the species of concern to fit occupancy models yet.")
+```
+
+```{r Occupancy Plot, fig.height=6, fig.width=12, eval=has_compare}
+if (exists("occ_results") && nrow(occ_results)) {
+  occ_plot <- ggplot(occ_results, aes(x = Data, y = psi, color = Data)) +
+    geom_pointrange(aes(ymin = pmax(0, psi - 1.96 * psi_SE), ymax = pmin(1, psi + 1.96 * psi_SE)), size = 0.8) +
+    geom_point(aes(y = `Naive occupancy`), shape = 4, size = 3, color = "black") +
+    facet_wrap(~ Species) +
+    scale_y_continuous(limits = c(0, 1), labels = scales::label_percent()) +
+    labs(title = "Estimated occupancy by data source (x = naive occupancy)", x = NULL, y = "Occupancy (psi)") +
+    theme_minimal(base_size = 14) + theme(legend.position = "none", axis.text.x = element_text(angle = 20, hjust = 1))
+  save_thesis_fig(occ_plot, "ch1_occupancy_by_method.png", cfg)
+}
+```
+
+Interpretation guide: if the combined model's confidence interval is narrower than either method alone, or its estimate moves away from naive occupancy because ARUs found the species at points where point counts missed it, combining methods is adding information. With only a handful of paired sites, these estimates will be wide; the detection probabilities (p) are usually more informative than psi at this sample size.
+
+# 6. Cost / effort: what does X more effort buy you?
+
+For each species of concern, how many point count visits vs ARU occasions are needed to be 95% sure of detecting it where it is present, and roughly what that costs, using the per-occasion detection probabilities from the combined model and the effort settings in the YAML.
+
+```{r Cost Effort, eval=has_compare}
+if (exists("occ_results") && nrow(occ_results)) {
+  e <- p$effort
+  pc_cost_visit <- (e$pc_minutes_per_survey + e$pc_travel_minutes_per_point) / 60 * e$pc_staff_rate_per_hour
+  aru_cost_occ  <- (p$aru_occasion_days * 1.44 * e$aru_processing_hours_per_1000_rec) * e$pc_staff_rate_per_hour
+  aru_fixed     <- e$aru_unit_cost + e$aru_deploy_hours_per_unit * e$pc_staff_rate_per_hour
+  # species with a near-zero detection probability for a method can't realistically be found with it ("too rarely detected")
+  visits_needed <- function(pp, target = 0.95) ifelse(is.na(pp) | pp < 0.01, NA, ceiling(log(1 - target) / log(1 - pmin(pp, 0.999))))
+  occ_results %>%
+    dplyr::filter(Data == "Combined") %>%
+    dplyr::transmute(Species,
+                     `p per PC visit` = p_PC, `p per ARU occasion` = p_ARU,
+                     `PC visits for 95%` = visits_needed(p_PC), `ARU occasions for 95%` = visits_needed(p_ARU),
+                     `PC cost per point (USD)` = `PC visits for 95%` * pc_cost_visit,
+                     `ARU cost per station (USD)` = aru_fixed + `ARU occasions for 95%` * aru_cost_occ,
+                     `2 SHARP visits detect` = 1 - (1 - p_PC)^2,
+                     `2 visits + ARU season detect` = 1 - (1 - p_PC)^2 * (1 - p_ARU)^dplyr::n_distinct(aru_surv$occasion)) %>%
+    kbl_simple("Effort and cost to reach 95% detection probability (blank = too rarely detected by that method; edit costs in the YAML)", digits = 2)
+}
+```
+
+# 7. Recommended monitoring design
+
+```{r Recommendation, results="asis", echo=FALSE}
+todo_note("write the recommendation once the full 2025-2026 ARU data are in. Pull from: which species of concern need ARUs to reach 90-95% detection (Section 6), ",
+          "which species are only found by one method (Sections 2 and 4), and how much the combined model narrows occupancy estimates (Section 5). ",
+          "Frame it as a design for the post-restoration period: number of point count visits, number and placement of ARUs, recording schedule, and which classifier to run (links to Chapter 3).")
+```

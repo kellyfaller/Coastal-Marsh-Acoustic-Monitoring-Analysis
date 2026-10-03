@@ -1,0 +1,124 @@
+# Settings for the thesis analysis skeleton (Chapters 1-3 of the conceptual framework).
+# Separate from project.yml so the point count notebook settings stay untouched.
+# Paths are relative to the repo root (here::here). Big raw exports (Arbimon backups, full BirdNET tables)
+# can live outside the repo - just put the full path here.
+
+paths:
+  point_count_config: "configs/project.yml"          # point count file paths are read from here
+  aru_metadata: "data/metadata/LHC-Cattus_ARU_Site_Metadata.csv"
+  species_list: "data/metadata/species_list.csv"     # scientific name, common name, guild
+  # Arbimon full project backup: the unzipped folder with recordings.0001.csv, sites.0001.csv, species.0001.csv,
+  # pattern_matchings.0001.csv, pattern_matching_rois.0001.csv, recording_validations.0001.csv,
+  # rfm_classifications.0001.csv, playlists.0001.csv, playlist_recordings.0001.csv, templates.0001.csv
+  arbimon_backup_dir: "data/arbimon/backup"
+  # BirdNET-Analyzer "combined table" outputs (one or more). Glob patterns are allowed.
+  birdnet_tables: ["data/birdnet/raw/*.csv"]
+  # Validation set shared by Chapters 2 and 3 (created as a template by the prep script if it doesn't exist)
+  validation_set: "data/validation/validation_set.csv"
+  # Chapter 2 inputs (created later)
+  raven_annotations_dir: "data/raven_annotations"      # Raven Pro selection tables (.txt), one or more
+  birdnet_embeddings: "data/birdnet/embeddings"        # BirdNET-Analyzer embeddings output folder
+  clip_library_dir: "data/clip_library"                # where training/validation clips get written
+  finetune_log: "data/validation/finetune_experiment_log.csv"
+  finetuned_birdnet_tables: ["data/birdnet/finetuned/*.csv"]  # fine-tuned classifier outputs, same format as BirdNET
+outputs:
+  processed_dir: "data/processed/thesis"
+  figures_dir: "outputs/figures/thesis"
+  tables_dir: "outputs/tables/thesis"
+
+params:
+  timezone: "America/New_York"         # Arbimon `datetime` and ARU file names are local time
+  site_lat: 39.88                      # for sunrise/sunset (Barnegat Bay)
+  site_long: -74.15
+  season_start: "05-01"                # SHARP breeding season window (month-day)
+  season_end: "07-15"
+  pc_match_distance_m: 400             # an ARU station is paired with the nearest point count point within this distance
+  pc_hours: [5, 10]                    # hours of day comparable to point count surveys (start, end)
+  # Species of concern for Ch1 occupancy and the Ch2/Ch3 target set (4-letter alpha codes)
+  species_of_concern: ["SALS", "SESP", "NESP", "CLRA", "KIRA", "VIRA", "BLRA", "WILL"]
+  focal_species: "SALS"
+  # Sound-alike confusion set for Chapter 2 (scientific names as BirdNET writes them)
+  confusion_set: ["Ammospiza caudacuta", "Ammospiza nelsoni", "Ammospiza maritima", "Melospiza georgiana", "Melospiza melodia"]
+  # Species considered cryptic (secretive / rarely seen) for the detection-niche comparison
+  cryptic_species: ["CLRA", "KIRA", "VIRA", "BLRA", "SORA", "LEBI", "AMBI", "SALS", "NESP", "SESP"]
+  # Arbimon pattern matching ROIs: validated = 1 is a confirmed detection. What does 0 mean in your export?
+  # "unreviewed" (ROIs nobody looked at) or "absent" (you reviewed it and marked it not present)
+  arbimon_pm_zero_means: "unreviewed"
+  # BirdNET
+  birdnet_min_confidence: 0.1          # anything below this is dropped on import
+  birdnet_default_threshold: 0.5       # used for presence unless a species-specific threshold is given below
+  birdnet_species_thresholds:          # optional, e.g. from Ch2 calibration
+    "Ammospiza caudacuta": 0.5
+  non_bird_last_words: ["Cricket", "Katydid", "Cicada", "Frog", "Toad", "Treefrog", "Peeper", "Bullfrog", "Grasshopper", "Insect"]  # BirdNET labels ending in these words are not birds
+  non_bird_labels: ["Engine", "Gun", "Human vocal", "Human non-vocal", "Human whistle", "Dog", "Power tools", "Siren", "Fireworks", "Noise", "Environmental"]
+  # Occupancy: ARU survey occasion length in days (detections pooled within each occasion)
+  aru_occasion_days: 7
+  # Ch2 clip library
+  raw_audio_dir: ""                    # folder with the original hourly .wav files (searched recursively); needed to cut clips
+  extract_clips: false                 # TRUE = cut 3-second clips into clip_library_dir with the av package
+  min_clips_per_class: 25
+  validation_fraction: 0.3
+  # Older scientific names used by Arbimon / the species list, mapped to the names BirdNET uses
+  scientific_synonyms:
+    "Ammodramus nelsoni": "Ammospiza nelsoni"
+    "Ammodramus caudacutus": "Ammospiza caudacuta"
+    "Ammodramus maritimus": "Ammospiza maritima"
+    "Catoptrophorus semipalmatus": "Tringa semipalmata"
+  # Corrections to the automatic 4-letter alpha codes (the automatic rule gets a few birds wrong)
+  alpha_code_overrides:
+    "Saltmarsh Sparrow": "SALS"
+    "Nelson's Sparrow": "NESP"
+    "Seaside Sparrow": "SESP"
+    "Clapper Rail": "CLRA"
+    "King Rail": "KIRA"
+    "Black Rail": "BLRA"
+    "Virginia Rail": "VIRA"
+    "Willet": "WILL"
+    "Glossy Ibis": "GLIB"
+    "Tricolored Heron": "TRHE"
+    "Common Gallinule": "COGA"
+    "Least Bittern": "LEBI"
+    "American Bittern": "AMBI"
+    "Purple Martin": "PUMA"
+    "Fish Crow": "FICR"
+    "Osprey": "OSPR"
+    "Barn Swallow": "BARS"
+    "Tree Swallow": "TRES"
+    "Bank Swallow": "BANS"
+    "Royal Tern": "ROYT"
+    "Herring Gull": "AHGU"           # American Herring Gull
+    "American Herring Gull": "AHGU"
+    "House Wren": "NHWR"             # Northern House Wren
+    "Northern House Wren": "NHWR"
+  # Effort and cost inputs for the Ch1 cost/effort table (edit to match the project)
+  effort:
+    pc_minutes_per_survey: 10          # SHARP point count incl. callbacks
+    pc_travel_minutes_per_point: 15
+    pc_staff_rate_per_hour: 25
+    aru_unit_cost: 250
+    aru_deploy_hours_per_unit: 2       # deploy + mid-season check + retrieval, per unit per season
+    aru_processing_hours_per_1000_rec: 0.5
+    aru_validation_seconds_per_detection: 10
+  # Ch3 practical comparison. PLACEHOLDER numbers - replace with your own as you go (ratings 1 = worst, 5 = best; hours/costs per season)
+  ch3_practical:
+    "Arbimon (pattern matching + random forest)":
+      setup_hours: 20
+      compute_hours: 2
+      cost_per_season: 0
+      skill_needed: "Arbimon web interface; template building and validation"
+      maintainability: 4
+      runs_offline: false
+    "Stock BirdNET":
+      setup_hours: 2
+      compute_hours: 10
+      cost_per_season: 0
+      skill_needed: "BirdNET GUI or command line"
+      maintainability: 5
+      runs_offline: true
+    "Fine-tuned BirdNET":
+      setup_hours: 40
+      compute_hours: 12
+      cost_per_season: 0
+      skill_needed: "Python command line, clip curation, model training"
+      maintainability: 2
+      runs_offline: true

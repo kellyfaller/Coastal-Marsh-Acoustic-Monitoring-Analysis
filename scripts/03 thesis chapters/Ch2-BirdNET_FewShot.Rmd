@@ -1,0 +1,293 @@
+---
+title: "Chapter 2: Few-Shot Transfer Learning in BirdNET for Difficult Marsh Species"
+subtitle: "Why does BirdNET struggle with these species, and how much does targeted fine-tuning fix it?"
+author: "Kelly Faller"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+library(ggplot2)
+library(knitr)
+library(kableExtra)
+source(here::here("R", "thesis_functions.R"))
+cfg <- load_thesis_config()
+dat <- readRDS(file.path(cfg$outputs$processed_dir, "thesis_data.rds"))   # made by scripts/01 prep/Thesis Data Prep.Rmd
+p <- cfg$params
+target_set <- p$confusion_set
+```
+
+**Core question:** why does BirdNET struggle with these species specifically (sound-alike *Ammospiza*/*Ammodramus* sparrows, data-poor/rare species), and how much does targeted few-shot fine-tuning fix it?
+
+Target / confusion set (from the YAML): *`r paste(target_set, collapse = "*, *")`*.
+
+Structure:
+
+1. Vocalization similarity index (Raven annotations)
+2. Baseline BirdNET audit: score distributions, performance on the validation set, confusion matrix, embeddings
+3. Clip library: training and held-out sets with minimum-N decisions per species
+4. Fine-tuning experiments and iteration log
+5. Evaluation: fine-tuned vs baseline on the held-out set
+6. Generalizable guidance
+
+# 1. Vocalization similarity index
+
+How acoustically similar are the target species? Built from Raven Pro selection tables (one row per annotated vocalization) with measurements such as low/high frequency, peak frequency, bandwidth and duration. For each species the measurements are standardised and averaged; similarity is the distance between species in that measurement space, and a cross-validated linear discriminant analysis shows how often a call would be assigned to the wrong species from the measurements alone. *(Check the feature set against the Sea Search code before finalising.)*
+
+Put the Raven selection tables (`.txt`) in `r cfg$paths$raven_annotations_dir`, with a column naming the species (`Species`, `Annotation`, `Class` or `Label`).
+
+```{r Raven, results="asis", fig.height=7, fig.width=14}
+raven_files <- list.files(cfg$paths$raven_annotations_dir, pattern = "\\.txt$", full.names = TRUE, recursive = TRUE)
+if (!length(raven_files)) {
+  todo_note("no Raven selection tables yet in ", cfg$paths$raven_annotations_dir, ".")
+} else {
+  raven <- purrr::map_dfr(raven_files, ~ readr::read_tsv(.x, show_col_types = FALSE) %>% dplyr::mutate(source_table = basename(.x)))
+  label_col <- first_col(raven, c("Species", "Annotation", "Class", "Label", "species"))
+  feature_cols <- intersect(c("Low Freq (Hz)", "High Freq (Hz)", "Delta Time (s)", "Peak Freq (Hz)", "Center Freq (Hz)",
+                              "Freq 5% (Hz)", "Freq 95% (Hz)", "BW 90% (Hz)", "Dur 90% (s)", "Delta Freq (Hz)"), names(raven))
+  rv <- raven %>% dplyr::rename(label = dplyr::all_of(label_col)) %>%
+    dplyr::select(label, dplyr::all_of(feature_cols)) %>% tidyr::drop_na()
+  z <- scale(rv[feature_cols])
+  centroids <- aggregate(as.data.frame(z), by = list(label = rv$label), FUN = mean)
+  d <- as.matrix(dist(centroids[, -1])); dimnames(d) <- list(centroids$label, centroids$label)
+  sim <- as.data.frame(as.table(d)) %>% dplyr::rename(Species_1 = Var1, Species_2 = Var2, Distance = Freq)
+  print(ggplot(sim, aes(Species_1, Species_2, fill = Distance)) + geom_tile() +
+          geom_text(aes(label = round(Distance, 1))) +
+          scale_fill_distiller(palette = "RdPu", direction = -1) +
+          labs(title = "Vocalization distance between species (smaller = more similar)", x = NULL, y = NULL) +
+          theme_minimal(base_size = 13) + theme(axis.text.x = element_text(angle = 30, hjust = 1)))
+  lda_cv <- MASS::lda(z, grouping = rv$label, CV = TRUE)
+  print(kbl_simple(as.data.frame.matrix(table(True = rv$label, Predicted = lda_cv$class)),
+                   "Cross-validated LDA: true species (rows) vs assigned species (columns) from call measurements"))
+}
+```
+
+# 2. Baseline BirdNET audit
+
+## Score distributions
+
+How confident is stock BirdNET when it labels each target species? Many low-confidence detections and few high ones usually means the species is hard for the model (or rare).
+
+```{r Scores, fig.height=6, fig.width=13}
+bn <- dat$birdnet
+bn_targets <- if (!is.null(bn)) bn %>% dplyr::filter(scientific_name %in% target_set) else NULL
+if (!is.null(bn_targets) && nrow(bn_targets)) {
+  score_plot <- ggplot(bn_targets, aes(x = confidence, y = common_name, fill = common_name)) +
+    geom_violin(scale = "width", alpha = 0.6, color = NA) +
+    geom_boxplot(width = 0.15, outlier.shape = NA, fill = "white") +
+    geom_vline(xintercept = p$birdnet_default_threshold, linetype = "dashed") +
+    labs(title = "Stock BirdNET confidence for the target species", x = "Confidence", y = NULL) +
+    theme_minimal(base_size = 14) + theme(legend.position = "none")
+  save_thesis_fig(score_plot, "ch2_baseline_scores.png", cfg, height = 6, width = 13)
+  bn_targets %>% dplyr::group_by(common_name, station, Year) %>%
+    dplyr::summarise(Detections = dplyr::n(), `Above threshold` = sum(confidence >= birdnet_threshold(scientific_name, cfg)),
+                     `Median confidence` = median(confidence), .groups = "drop") %>%
+    kbl_simple("Stock BirdNET detections of the target species")
+}
+```
+
+## Performance on the validation set
+
+Each validated 1-minute recording gets BirdNET's highest confidence for the species in that minute (0 if BirdNET didn't label it). Precision = share of BirdNET detections that are right; recall = share of real occurrences BirdNET found. Only the **test** split is used so the numbers are comparable with the fine-tuned model later.
+
+```{r Baseline Metrics, results="asis", fig.height=6, fig.width=13}
+minute_scores <- function(tbl) {
+  if (is.null(tbl)) return(NULL)
+  tbl %>% dplyr::group_by(station, minute, scientific_name) %>% dplyr::summarise(score = max(confidence), .groups = "drop")
+}
+eval_set <- dat$validation %>% dplyr::filter(scientific_name %in% target_set, split == "test")
+baseline_scores <- minute_scores(bn)
+
+# metrics per species, only for species with both present and absent test minutes
+evaluate <- function(scores, label) {
+  es <- eval_set %>% dplyr::left_join(scores, by = c("station", "minute", "scientific_name"))
+  ok <- es %>% dplyr::group_by(scientific_name) %>% dplyr::summarise(ok = any(truth == 1) & any(truth == 0)) %>%
+    dplyr::filter(ok) %>% dplyr::pull(scientific_name)
+  purrr::map_dfr(ok, function(sp) {
+    d <- es %>% dplyr::filter(scientific_name == sp)
+    classifier_metrics(d$truth, d$score) %>% dplyr::mutate(scientific_name = sp, AP = average_precision(d$truth, d$score), Model = label)
+  })
+}
+
+if (!nrow(eval_set) || is.null(baseline_scores)) {
+  todo_note("the validation set has no test-split minutes for the target species yet (or no BirdNET output). Review BirdNET detections of the confusion-set species and add them to ",
+            basename(cfg$paths$validation_set), " with truth = 1/0 - include minutes BirdNET did NOT flag so recall can be measured.")
+  baseline_metrics <- NULL
+} else {
+  baseline_metrics <- evaluate(baseline_scores, "Stock BirdNET")
+  if (nrow(baseline_metrics)) {
+    print(ggplot(baseline_metrics, aes(recall, precision, color = scientific_name)) + geom_path(linewidth = 1.1) +
+            labs(title = "Stock BirdNET precision-recall by species (test set)", x = "Recall", y = "Precision") +
+            coord_equal(xlim = c(0, 1), ylim = c(0, 1)) + theme_minimal(base_size = 14))
+    print(kbl_simple(baseline_metrics %>% dplyr::group_by(scientific_name) %>% dplyr::slice_max(f1, n = 1, with_ties = FALSE) %>%
+                       dplyr::select(scientific_name, threshold, precision, recall, f1, AP),
+                     "Stock BirdNET: best-F1 threshold per species"))
+  } else todo_note("each target species needs both present and absent test minutes before metrics can be computed.")
+}
+```
+
+## Confusion among sound-alikes
+
+For validated minutes where one target species was truly present, which target species did BirdNET give the highest score to? Off-diagonal cells are the confusions fine-tuning is meant to fix.
+
+```{r Confusion, results="asis", fig.height=6, fig.width=8}
+if (nrow(eval_set) && !is.null(baseline_scores)) {
+  top_label <- baseline_scores %>% dplyr::filter(scientific_name %in% target_set) %>%
+    dplyr::group_by(station, minute) %>% dplyr::slice_max(score, n = 1, with_ties = FALSE) %>%
+    dplyr::ungroup() %>% dplyr::select(station, minute, predicted = scientific_name)
+  conf <- eval_set %>% dplyr::filter(truth == 1) %>% dplyr::select(station, minute, true = scientific_name) %>%
+    dplyr::left_join(top_label, by = c("station", "minute")) %>%
+    dplyr::mutate(predicted = tidyr::replace_na(predicted, "Not detected")) %>%
+    dplyr::count(true, predicted)
+  if (nrow(conf)) print(ggplot(conf, aes(predicted, true, fill = n)) + geom_tile() + geom_text(aes(label = n)) +
+                          scale_fill_distiller(palette = "Blues", direction = 1) +
+                          labs(title = "True species vs BirdNET's top target label", x = "BirdNET top label", y = "True species") +
+                          theme_minimal(base_size = 13) + theme(axis.text.x = element_text(angle = 30, hjust = 1)))
+}
+```
+
+## Embeddings
+
+BirdNET-Analyzer can export the 1024-value embedding (its internal "fingerprint") for every 3-second window (`birdnet_analyzer.embeddings`). Plotting validated clips in that space shows whether the sound-alike species already form separate clusters (fine-tuning a new classifier head should work well) or overlap (harder, may need more or cleaner clips). Put the embedding outputs in `r cfg$paths$birdnet_embeddings`; join them to labels by file and start time.
+
+```{r Embeddings, results="asis", fig.height=7, fig.width=10}
+emb_files <- list.files(cfg$paths$birdnet_embeddings, pattern = "\\.(csv|txt)$", full.names = TRUE, recursive = TRUE)
+if (!length(emb_files)) {
+  todo_note("export BirdNET embeddings for the clip library into ", cfg$paths$birdnet_embeddings,
+            " (one row per clip: file/clip name, label, then the embedding values).")
+} else {
+  emb <- purrr::map_dfr(emb_files, readr::read_csv, show_col_types = FALSE)
+  num <- emb %>% dplyr::select(where(is.numeric))
+  lab <- emb[[first_col(emb, c("label", "species", "scientific_name", "class"))]]
+  coords <- if (requireNamespace("uwot", quietly = TRUE)) uwot::umap(as.matrix(num), n_neighbors = 15) else prcomp(num, scale. = TRUE)$x[, 1:2]
+  print(ggplot(data.frame(x = coords[, 1], y = coords[, 2], label = lab), aes(x, y, color = label)) +
+          geom_point(alpha = 0.7) +
+          labs(title = "Validated clips in BirdNET embedding space", x = NULL, y = NULL) + theme_minimal(base_size = 14))
+}
+```
+
+# 3. Clip library
+
+Training clips come from validated **train**-split minutes only; the **test** split stays untouched for Section 5 and Chapter 3. For each species the manifest lists where every clip comes from (station, recording time, source file and offset), and the table records the minimum-N decision: species with fewer than `min_clips_per_class` (`r p$min_clips_per_class`) clips are flagged as too data-poor to train on yet. A "Background" class of validated-absent minutes is included so the model learns what the marsh sounds like without the target.
+
+The manifest is laid out for BirdNET-Analyzer training: one folder per class named `Scientific name_Common name`.
+
+```{r Clip Manifest, results="asis"}
+crosswalk <- dat$crosswalk
+train_set <- dat$validation %>% dplyr::filter(split == "train", scientific_name %in% target_set)
+if (!nrow(train_set)) {
+  todo_note("no train-split minutes for the target species yet in ", basename(cfg$paths$validation_set), ".")
+  manifest <- NULL
+} else {
+  # source audio: Arbimon recordings know which hourly file and which minute they came from
+  rec <- dat$arbimon$recordings %>% dplyr::left_join(dat$arbimon$sites, by = "site_id") %>%
+    dplyr::mutate(minute = lubridate::floor_date(datetime_local, "minute"),
+                  offset_s = as.numeric(difftime(datetime_local, lubridate::floor_date(datetime_local, "hour"), units = "secs"))) %>%
+    dplyr::select(station, minute, source_file, offset_s)
+  # within the minute, use BirdNET's best 3-second window for that species if there is one, otherwise the start of the minute
+  best_window <- if (!is.null(bn)) bn %>% dplyr::group_by(station, minute, scientific_name) %>%
+    dplyr::slice_max(confidence, n = 1, with_ties = FALSE) %>% dplyr::ungroup() %>%
+    dplyr::transmute(station, minute, scientific_name, window_s = as.numeric(difftime(detection_time, minute, units = "secs"))) else NULL
+  manifest <- train_set %>%
+    dplyr::left_join(rec, by = c("station", "minute")) %>%
+    { if (!is.null(best_window)) dplyr::left_join(., best_window, by = c("station", "minute", "scientific_name")) else dplyr::mutate(., window_s = NA_real_) } %>%
+    dplyr::left_join(crosswalk %>% dplyr::select(scientific_name, common_name), by = "scientific_name") %>%
+    dplyr::mutate(class = ifelse(truth == 1, paste0(scientific_name, "_", common_name), "Background"),
+                  clip_start_s = offset_s + tidyr::replace_na(window_s, 0),
+                  clip_end_s = clip_start_s + 3,
+                  clip_file = file.path(class, sprintf("%s_%s_%s.wav", station, format(minute, "%Y%m%d_%H%M"), gsub(" ", "-", scientific_name))))
+  dir.create(cfg$paths$clip_library_dir, recursive = TRUE, showWarnings = FALSE)
+  readr::write_csv(manifest, file.path(cfg$paths$clip_library_dir, "clip_manifest.csv"))
+  manifest %>% dplyr::count(class, name = "Clips") %>%
+    dplyr::mutate(Decision = ifelse(class == "Background" | Clips >= p$min_clips_per_class, "Enough to train",
+                                    paste("Too few (<", p$min_clips_per_class, ") - collect more or merge")))  %>%
+    kbl_simple("Clip library by class (train split)") %>% print()
+}
+```
+
+```{r Clip Extraction, results="asis"}
+if (!is.null(manifest) && isTRUE(p$extract_clips)) {
+  if (!nzchar(p$raw_audio_dir) || !dir.exists(p$raw_audio_dir)) {
+    todo_note("set raw_audio_dir in the YAML to the folder with the original hourly .wav files to cut clips.")
+  } else {
+    wavs <- list.files(p$raw_audio_dir, pattern = "\\.wav$", recursive = TRUE, full.names = TRUE, ignore.case = TRUE)
+    lookup <- setNames(wavs, basename(wavs))
+    for (i in seq_len(nrow(manifest))) {
+      src <- lookup[manifest$source_file[i]]
+      if (is.na(src)) next
+      out <- file.path(cfg$paths$clip_library_dir, manifest$clip_file[i])
+      dir.create(dirname(out), recursive = TRUE, showWarnings = FALSE)
+      av::av_audio_convert(src, out, start_time = manifest$clip_start_s[i], total_time = 3, verbose = FALSE)
+    }
+  }
+}
+```
+
+Training command for the clip library (run in a terminal with BirdNET-Analyzer installed; check flags against the installed version):
+
+```{r Train Command, echo=FALSE, results="asis"}
+cat("```\n")
+cat(sprintf('python -m birdnet_analyzer.train "%s" --output "%s" --epochs 50 --val_split 0.2 --mixup --upsampling_ratio 0.5\n',
+            cfg$paths$clip_library_dir, file.path(dirname(cfg$paths$clip_library_dir), "custom_classifier", "SALS_fewshot.tflite")))
+cat(sprintf('python -m birdnet_analyzer.analyze "<audio folder>" --classifier "%s" --output "<results folder>" --rtype csv --combine_results\n',
+            file.path(dirname(cfg$paths$clip_library_dir), "custom_classifier", "SALS_fewshot.tflite")))
+cat("```\n")
+```
+
+# 4. Fine-tuning experiments and iteration log
+
+Every training run gets one row in `r basename(cfg$paths$finetune_log)`, including runs that didn't work: negative results are part of the chapter. Columns: `experiment_id`, `date`, `clips_per_class`, `clip_source` (focal recording / ARU), `region` (Delaware Bay / Barnegat Bay), `epochs`, `learning_rate`, `hidden_units`, `mixup`, `upsampling`, `val_precision`, `val_recall`, `val_f1`, `notes`.
+
+```{r Finetune Log, results="asis", fig.height=6, fig.width=13}
+log_cols <- c("experiment_id", "date", "target_species", "clips_per_class", "clip_source", "region", "epochs", "learning_rate",
+              "hidden_units", "mixup", "upsampling", "val_precision", "val_recall", "val_f1", "notes")
+if (!file.exists(cfg$paths$finetune_log)) {
+  dir.create(dirname(cfg$paths$finetune_log), recursive = TRUE, showWarnings = FALSE)
+  readr::write_csv(as.data.frame(setNames(replicate(length(log_cols), character(), simplify = FALSE), log_cols)), cfg$paths$finetune_log)
+  todo_note("an empty experiment log was created at ", cfg$paths$finetune_log, ". Add a row for each training run.")
+} else {
+  ft_log <- readr::read_csv(cfg$paths$finetune_log, show_col_types = FALSE)
+  if (nrow(ft_log)) {
+    print(kbl_simple(ft_log, "Fine-tuning experiment log"))
+    print(ggplot(ft_log, aes(clips_per_class, val_f1, color = clip_source, shape = region)) +
+            geom_point(size = 4) + geom_line(aes(group = interaction(clip_source, region)), alpha = 0.5) +
+            labs(title = "What made the difference? Validation F1 by number of clips, clip source and region",
+                 x = "Clips per class", y = "Validation F1") + theme_minimal(base_size = 14))
+  } else todo_note("the experiment log is empty.")
+}
+```
+
+# 5. Evaluation: fine-tuned vs baseline
+
+The fine-tuned classifier is run on the same audio and its results put in `r paste(cfg$paths$finetuned_birdnet_tables, collapse = ", ")` (same combined-table format as stock BirdNET). Both models are scored on the identical test-split minutes.
+
+```{r Finetuned Eval, results="asis", fig.height=6, fig.width=13}
+ft <- read_birdnet_tables(cfg$paths$finetuned_birdnet_tables, cfg, source = "Fine-tuned BirdNET")
+if (is.null(ft)) {
+  todo_note("no fine-tuned classifier output yet in ", paste(cfg$paths$finetuned_birdnet_tables, collapse = ", "), ".")
+} else if (!is.null(baseline_metrics) && nrow(baseline_metrics)) {
+  both <- dplyr::bind_rows(baseline_metrics, evaluate(minute_scores(ft), "Fine-tuned BirdNET"))
+  print(ggplot(both, aes(recall, precision, color = Model)) + geom_path(linewidth = 1.1) + facet_wrap(~ scientific_name) +
+          coord_equal(xlim = c(0, 1), ylim = c(0, 1)) +
+          labs(title = "Precision-recall: fine-tuned vs stock BirdNET (test set)", x = "Recall", y = "Precision") +
+          theme_minimal(base_size = 14) + theme(legend.position = "bottom"))
+  best <- both %>% dplyr::group_by(Model, scientific_name) %>% dplyr::slice_max(f1, n = 1, with_ties = FALSE) %>% dplyr::ungroup()
+  print(kbl_simple(best %>% dplyr::select(Model, scientific_name, threshold, precision, recall, f1, AP),
+                   "Best-F1 operating point per model and species"))
+  print(kbl_simple(best %>% dplyr::select(Model, scientific_name, f1, AP) %>%
+                     tidyr::pivot_wider(names_from = Model, values_from = c(f1, AP)),
+                   "Change in F1 and average precision"))
+}
+```
+
+# 6. Generalizable guidance
+
+```{r Guidance, results="asis", echo=FALSE}
+todo_note("summarise what made the difference (clip quantity, clip quality - focal recordings vs ARU clips, recording location - Delaware Bay vs Barnegat Bay) from the experiment log, ",
+          "written so someone fine-tuning BirdNET for a different hard-to-ID group could follow the same steps: build a vocal similarity index, audit the baseline, ",
+          "build a train/test split by day and station, set a minimum N, log every run, evaluate on a fixed held-out set.")
+```

@@ -1,0 +1,176 @@
+---
+title: "Chapter 3: Benchmarking Three Approaches for Saltmarsh Sparrow Detection"
+subtitle: "Arbimon pattern matching / random forest vs. stock BirdNET vs. fine-tuned BirdNET"
+author: "Kelly Faller"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+library(ggplot2)
+library(knitr)
+library(kableExtra)
+source(here::here("R", "thesis_functions.R"))
+cfg <- load_thesis_config()
+dat <- readRDS(file.path(cfg$outputs$processed_dir, "thesis_data.rds"))   # made by scripts/01 prep/Thesis Data Prep.Rmd
+p <- cfg$params
+focal_sci <- dat$crosswalk$scientific_name[match(p$focal_species, dat$crosswalk$alpha_code)]
+```
+
+**Core question:** for the flagship focal species (`r p$focal_species`, *`r focal_sci`*), which of three realistic options should a practitioner actually use?
+
+1. **Arbimon**: pattern matching (template-based) followed by a random forest model
+2. **Stock BirdNET**: out-of-the-box
+3. **Fine-tuned BirdNET**: the few-shot classifier from Chapter 2
+
+All three are scored on the **same** held-out minutes (the test split of the shared validation set), at the 1-minute recording level that Arbimon uses.
+
+> **Decision point (Dec 2026):** if this chapter isn't realistically on track, it gets cut or scoped down. The checklist at the end shows what is in place.
+
+# 1. Evaluation set
+
+```{r Eval Set, results="asis"}
+eval_set <- dat$validation %>% dplyr::filter(scientific_name == focal_sci, split == "test")
+if (nrow(eval_set)) {
+  eval_set %>% dplyr::count(station, truth) %>%
+    tidyr::pivot_wider(names_from = truth, values_from = n, values_fill = 0, names_prefix = "truth_") %>%
+    kbl_simple(paste("Test-split minutes for", p$focal_species)) %>% print()
+} else {
+  todo_note("no test-split minutes for ", p$focal_species, " yet. The benchmark needs reviewed minutes with the species present AND absent, ",
+            "chosen independently of any one classifier (e.g. a random sample of minutes from the SALS season, plus all minutes any method flagged), ",
+            "otherwise the comparison favours whichever method chose the minutes.")
+}
+has_eval <- nrow(eval_set) > 0 && length(unique(eval_set$truth)) == 2
+if (nrow(eval_set) && !has_eval) todo_note("the test set has only ", ifelse(all(eval_set$truth == 1), "present", "absent"),
+                                           " minutes for ", p$focal_species, "; sections 3 and 4 need both.")
+```
+
+# 2. Scores from each method
+
+Each method gives one score per station-minute for the focal species:
+
+- **Arbimon pattern matching**: the highest ROI score in that minute (from every PM job using a focal species template).
+- **Arbimon random forest**: the model's 0/1 present call (Arbimon exports no probability, so the RF gets a single operating point rather than a curve).
+- **Stock / fine-tuned BirdNET**: the highest 3-second confidence in that minute.
+
+Minutes a method never flagged get a score of 0 (a miss if the bird was there).
+
+```{r Scores, results="asis"}
+rec_site <- dat$arbimon$recordings %>% dplyr::left_join(dat$arbimon$sites, by = "site_id") %>%
+  dplyr::mutate(minute = lubridate::floor_date(datetime_local, "minute")) %>% dplyr::select(recording_id, station, minute)
+
+scores <- list()
+if (!is.null(dat$arbimon$pm_rois)) {
+  scores$`Arbimon pattern matching` <- dat$arbimon$pm_rois %>% dplyr::filter(scientific_name == focal_sci) %>%
+    dplyr::mutate(minute = lubridate::floor_date(datetime_local, "minute")) %>%
+    dplyr::group_by(station, minute) %>% dplyr::summarise(score = max(score), .groups = "drop")
+}
+if (!is.null(dat$arbimon$rfm) && "recording_id" %in% names(dat$arbimon$rfm)) {
+  rf <- dat$arbimon$rfm %>% dplyr::filter(scientific_name == focal_sci)
+  if (nrow(rf)) scores$`Arbimon random forest` <- rf %>% dplyr::group_by(station, minute = lubridate::floor_date(datetime_local, "minute")) %>%
+    dplyr::summarise(score = max(rfm_score), .groups = "drop")
+}
+bn_minute <- function(tbl) tbl %>% dplyr::filter(scientific_name == focal_sci) %>%
+  dplyr::group_by(station, minute) %>% dplyr::summarise(score = max(confidence), .groups = "drop")
+if (!is.null(dat$birdnet)) scores$`Stock BirdNET` <- bn_minute(dat$birdnet)
+ft <- read_birdnet_tables(cfg$paths$finetuned_birdnet_tables, cfg, source = "Fine-tuned BirdNET")
+if (!is.null(ft)) scores$`Fine-tuned BirdNET` <- bn_minute(ft)
+
+tibble::tibble(Method = c("Arbimon pattern matching", "Arbimon random forest", "Stock BirdNET", "Fine-tuned BirdNET")) %>%
+  dplyr::mutate(`Minutes scored` = sapply(Method, function(m) if (is.null(scores[[m]])) 0L else nrow(scores[[m]])),
+                Status = ifelse(`Minutes scored` > 0, "ready", "missing")) %>%
+  kbl_simple(paste("Method outputs available for", p$focal_species)) %>% print()
+```
+
+Coverage matters as much as accuracy here: a pattern matching job or random forest model only scores the playlists it was run on. Only minutes that every compared method actually processed should go in the head-to-head, so the next chunk restricts the evaluation to stations each method covered.
+
+# 3. Head-to-head performance
+
+```{r Metrics, results="asis", fig.height=7, fig.width=13, eval=has_eval}
+covered <- function(m) unique(scores[[m]]$station)
+results <- purrr::imap_dfr(scores, function(sc, m) {
+  es <- eval_set %>% dplyr::filter(station %in% covered(m)) %>% dplyr::left_join(sc, by = c("station", "minute"))
+  if (!nrow(es) || length(unique(es$truth)) < 2) return(NULL)
+  th <- if (m == "Arbimon random forest") 1 else seq(0.05, 0.95, by = 0.05)
+  classifier_metrics(es$truth, es$score, th) %>% dplyr::mutate(Method = m, AP = average_precision(es$truth, es$score), n_minutes = nrow(es))
+})
+
+if (nrow(results)) {
+  pr_plot <- ggplot(results, aes(recall, precision, color = Method)) +
+    geom_path(data = dplyr::filter(results, Method != "Arbimon random forest"), linewidth = 1.2) +
+    geom_point(data = dplyr::filter(results, Method == "Arbimon random forest"), size = 5, shape = 18) +
+    coord_equal(xlim = c(0, 1), ylim = c(0, 1)) +
+    labs(title = paste(p$focal_species, "detection: precision vs recall on the test set"),
+         subtitle = "Curves move along the score threshold; the random forest is a single 0/1 call", x = "Recall", y = "Precision") +
+    theme_minimal(base_size = 14) + theme(legend.position = "bottom")
+  save_thesis_fig(pr_plot, "ch3_precision_recall.png", cfg)
+
+  best <- results %>% dplyr::group_by(Method) %>% dplyr::slice_max(f1, n = 1, with_ties = FALSE) %>% dplyr::ungroup()
+  print(kbl_simple(best %>% dplyr::select(Method, n_minutes, threshold, precision, recall, f1, AP, tp, fp, fn),
+                   "Best-F1 operating point for each method (AP = average precision across thresholds)"))
+} else todo_note("no method overlaps the test minutes yet.")
+```
+
+# 4. False positives: what fools each method?
+
+At each method's best-F1 threshold, when does it raise false alarms, and what was actually in those minutes (other species validated as present in the same minute)?
+
+```{r False Positives, results="asis", fig.height=6, fig.width=13, eval=has_eval}
+if (exists("best") && nrow(best)) {
+  fps <- purrr::map_dfr(seq_len(nrow(best)), function(i) {
+    m <- best$Method[i]
+    eval_set %>% dplyr::filter(station %in% covered(m)) %>% dplyr::left_join(scores[[m]], by = c("station", "minute")) %>%
+      dplyr::filter(truth == 0, dplyr::coalesce(score, 0) >= best$threshold[i]) %>% dplyr::mutate(Method = m)
+  })
+  if (nrow(fps)) {
+    fps <- fps %>% dplyr::mutate(diel = diel_period(minute, cfg))
+    print(ggplot(fps, aes(diel, fill = Method)) + geom_bar(position = "dodge") +
+            labs(title = "False positives by time of day", x = NULL, y = "False-positive minutes") + theme_minimal(base_size = 14))
+    other <- fps %>% dplyr::select(Method, station, minute) %>%
+      dplyr::inner_join(dat$validation %>% dplyr::filter(truth == 1, scientific_name != focal_sci) %>%
+                          dplyr::select(station, minute, actually_present = scientific_name), by = c("station", "minute"))
+    if (nrow(other)) print(kbl_simple(other %>% dplyr::count(Method, actually_present, sort = TRUE),
+                                      "Species actually present in false-positive minutes"))
+  } else cat("No false positives at the best-F1 thresholds.\n")
+}
+```
+
+# 5. Practical dimensions beyond accuracy
+
+From `ch3_practical` in the YAML (placeholder values until filled in): setup time, compute time per season, cost, skills needed, how maintainable each option is for non-specialist staff after the project ends, and whether it runs without internet. This is the part that matters most for the partner deliverable.
+
+```{r Practical}
+practical <- purrr::imap_dfr(p$ch3_practical, ~ tibble::as_tibble(.x) %>% dplyr::mutate(Method = .y, .before = 1))
+# accuracy from Section 3 next to the practical ratings (both Arbimon steps count as the Arbimon workflow; its best one is shown)
+if (exists("best") && nrow(best)) {
+  practical <- practical %>% dplyr::left_join(
+    best %>% dplyr::mutate(Method = ifelse(grepl("^Arbimon", Method), "Arbimon (pattern matching + random forest)", Method)) %>%
+      dplyr::group_by(Method) %>% dplyr::slice_max(dplyr::coalesce(f1, 0), n = 1, with_ties = FALSE) %>% dplyr::ungroup() %>%
+      dplyr::select(Method, best_F1 = f1, AP), by = "Method")
+}
+kbl_simple(practical, "Practical comparison (edit ch3_practical in the YAML)")
+```
+
+# 6. Recommendation
+
+```{r Recommendation, results="asis", echo=FALSE}
+todo_note("state which method to use for ", p$focal_species, " monitoring and the conditions under which the answer changes ",
+          "(e.g. 'if the site had major computing constraints, X would still be preferable despite lower accuracy because...'). ",
+          "Weigh F1/AP from Section 3 against setup, compute and maintainability from Section 5.")
+```
+
+# Decision checklist (cut or keep this chapter?)
+
+```{r Checklist, echo=FALSE}
+tibble::tibble(
+  Item = c("Test-split minutes for the focal species (present and absent)", "Arbimon pattern matching scores", "Arbimon random forest predictions",
+           "Stock BirdNET scores", "Fine-tuned BirdNET scores (Chapter 2)", "Practical dimensions filled in (not placeholders)"),
+  Ready = c(has_eval, !is.null(scores$`Arbimon pattern matching`), !is.null(scores$`Arbimon random forest`),
+            !is.null(scores$`Stock BirdNET`), !is.null(scores$`Fine-tuned BirdNET`), FALSE)) %>%
+  dplyr::mutate(Ready = ifelse(Ready, "yes", "not yet")) %>%
+  kbl_simple("What's in place for the three-way benchmark")
+```

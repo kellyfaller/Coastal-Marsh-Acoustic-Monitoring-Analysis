@@ -41,9 +41,9 @@ params:
   confusion_set: ["Ammospiza caudacuta", "Ammospiza nelsoni", "Ammospiza maritima", "Melospiza georgiana", "Melospiza melodia"]
   # Species considered cryptic (secretive / rarely seen) for the detection-niche comparison
   cryptic_species: ["CLRA", "KIRA", "VIRA", "BLRA", "SORA", "LEBI", "AMBI", "SALS", "NESP", "SESP"]
-  # Arbimon pattern matching ROIs: validated = 1 is a confirmed detection. What does 0 mean in your export?
-  # "unreviewed" (ROIs nobody looked at) or "absent" (you reviewed it and marked it not present)
-  arbimon_pm_zero_means: "unreviewed"
+  # Arbimon pattern matching ROIs: validated = 1 means the match was confirmed; validated = 0 means it was reviewed and
+  # rejected (the template matched but it wasn't the species), so 0 is a confirmed absence. Blank = not reviewed.
+  arbimon_pm_zero_means: "absent"
   # BirdNET
   birdnet_min_confidence: 0.1          # anything below this is dropped on import
   birdnet_default_threshold: 0.5       # used for presence unless a species-specific threshold is given below

@@ -1,3 +1,248 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cd9b2395a0f2066dc2d3e132664a993a6e7c207524403031ded5aff169a51570
-size 49872
+RegionNum,State,Site,Point ID,SurveyMethod,VisitNum,SurveyWindow,SurveyDate,Observer,AdditionalObs,Tide,SurveyTime,TempF,Sky,WindSp,Noise,AlphaCode,Distance,DistBand,CallType,TotalCount,Min 1,Min 2,Min 3,Min 4,Min 5,BLRA,LEBI,SORA,VIRA,KIRA,CLRA,AMBI,COMO,Outside,Comments,SiteNote
+5,NJ,Cattus Island,CAT_04,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:09 AM,74,2,0,0,GRCA,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Water level was much lower than last survey.
+5,NJ,Cattus Island,CAT_04,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:09 AM,74,2,0,0,MAWR,NA,0-50m,NA,3,2,0,0,0,1,0,0,0,0,0,0,0,0,0,,Water level was much lower than last survey.
+5,NJ,Cattus Island,CAT_04,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:09 AM,74,2,0,0,GREG,NA,51-100m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,Water level was much lower than last survey.
+5,NJ,Cattus Island,CAT_04,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:09 AM,74,2,0,0,CHSP,NA,0-50m,NA,2,1,0,0,0,0,0,1,0,0,0,0,0,0,0,,Water level was much lower than last survey.
+5,NJ,Cattus Island,CAT_04,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:09 AM,74,2,0,0,SOSP,NA,51-100m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,Water level was much lower than last survey.
+5,NJ,Cattus Island,CAT_04,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:09 AM,74,2,0,0,BARS,NA,0-50m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,Water level was much lower than last survey.
+5,NJ,Cattus Island,CAT_04,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:09 AM,74,2,0,0,GCFL,NA,51-100m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,Water level was much lower than last survey.
+5,NJ,Cattus Island,CAT_04,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:09 AM,74,2,0,0,RWBL,NA,0-50m,NA,2,0,1,0,0,0,1,0,0,0,0,0,0,0,0,,Water level was much lower than last survey.
+5,NJ,Cattus Island,CAT_04,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:09 AM,74,2,0,0,SOSP,NA,0-50m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,Water level was much lower than last survey.
+5,NJ,Cattus Island,CAT_04,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:09 AM,74,2,0,0,RWBL,NA,51-100m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,Water level was much lower than last survey.
+5,NJ,Cattus Island,CAT_04,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:09 AM,74,2,0,0,BLJA,NA,0-50m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,Water level was much lower than last survey.
+5,NJ,Cattus Island,CAT_04,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:09 AM,74,2,0,0,PIWA,NA,0-50m,NA,2,0,1,1,0,0,0,0,0,0,0,0,0,0,0,,Water level was much lower than last survey.
+5,NJ,Cattus Island,CAT_04,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:09 AM,74,2,0,0,TUTI,NA,0-50m,NA,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,Water level was much lower than last survey.
+5,NJ,Cattus Island,CAT_04,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:09 AM,74,2,0,0,AHGU,NA,51-100m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,Water level was much lower than last survey.
+5,NJ,Cattus Island,CAT_04,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:09 AM,74,2,0,0,NOCA,NA,0-50m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,Water level was much lower than last survey.
+5,NJ,Cattus Island,CAT_04,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:09 AM,74,2,0,0,EATO,NA,0-50m,NA,2,0,0,0,2,0,0,0,0,0,0,0,0,0,0,,Water level was much lower than last survey.
+5,NJ,Cattus Island,CAT_04,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:09 AM,74,2,0,0,AHGU,NA,0-50m,NA,2,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Osprey platform,Water level was much lower than last survey.
+5,NJ,Cattus Island,CAT_04,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:09 AM,74,2,0,0,MAWR,NA,51-100m,NA,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,Water level was much lower than last survey.
+5,NJ,Cattus Island,CAT_04,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:09 AM,74,2,0,0,NHWR,NA,51-100m,NA,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,Water level was much lower than last survey.
+5,NJ,Cattus Island,CAT_04,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:09 AM,74,2,0,0,MODO,NA,51-100m,NA,2,0,0,0,0,0,1,0,0,1,0,0,0,0,0,,Water level was much lower than last survey.
+5,NJ,Cattus Island,CAT_04,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:09 AM,74,2,0,0,FICR,NA,0-50m,NA,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,Water level was much lower than last survey.
+5,NJ,Cattus Island,CAT_04,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:09 AM,74,2,0,0,LBHE,NA,51-100m,NA,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,Water level was much lower than last survey.
+5,NJ,Cattus Island,CAT_04,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:09 AM,74,2,0,0,COYE,NA,0-50m,NA,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,Water level was much lower than last survey.
+5,NJ,Cattus Island,CAT_04,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:09 AM,74,2,0,0,EATO,NA,51-100m,NA,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,Water level was much lower than last survey.
+5,NJ,Cattus Island,CAT_04,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:09 AM,74,2,0,0,CEWA,NA,0-50m,NA,7,0,0,0,0,0,0,0,0,7,0,0,0,0,0,,Water level was much lower than last survey.
+5,NJ,Cattus Island,CAT_04,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:09 AM,74,2,0,0,LAGU,NA,51-100m,NA,2,0,0,0,0,0,0,0,0,0,2,0,0,0,0,Flying over,Water level was much lower than last survey.
+5,NJ,Cattus Island,CAT_04,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:09 AM,74,2,0,0,TRHE ,NA,51-100m,NA,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Tricolored heron,Water level was much lower than last survey.
+5,NJ,Cattus Island,CAT_02,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:58 AM,74,1,1,1,COYE,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Just SOSP using marsh - in/along a creek. No more SALS at site. 
+5,NJ,Cattus Island,CAT_02,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:58 AM,74,1,1,1,SOSP,NA,0-50m,NA,3,2,0,0,0,0,0,0,0,0,0,1,0,0,0,,Just SOSP using marsh - in/along a creek. No more SALS at site. 
+5,NJ,Cattus Island,CAT_02,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:58 AM,74,1,1,1,RWBL,NA,51-100m,NA,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,Just SOSP using marsh - in/along a creek. No more SALS at site. 
+5,NJ,Cattus Island,CAT_02,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:58 AM,74,1,1,1,EATO,NA,51-100m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Just SOSP using marsh - in/along a creek. No more SALS at site. 
+5,NJ,Cattus Island,CAT_02,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:58 AM,74,1,1,1,GRCA,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Just SOSP using marsh - in/along a creek. No more SALS at site. 
+5,NJ,Cattus Island,CAT_02,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:58 AM,74,1,1,1,MODO,NA,51-100m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Just SOSP using marsh - in/along a creek. No more SALS at site. 
+5,NJ,Cattus Island,CAT_02,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:58 AM,74,1,1,1,COYE,NA,51-100m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Just SOSP using marsh - in/along a creek. No more SALS at site. 
+5,NJ,Cattus Island,CAT_02,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:58 AM,74,1,1,1,BARS,NA,51-100m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,Just SOSP using marsh - in/along a creek. No more SALS at site. 
+5,NJ,Cattus Island,CAT_02,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:58 AM,74,1,1,1,SOSP,NA,51-100m,NA,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,,Just SOSP using marsh - in/along a creek. No more SALS at site. 
+5,NJ,Cattus Island,CAT_02,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:58 AM,74,1,1,1,OSPR,NA,0-50m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,Just SOSP using marsh - in/along a creek. No more SALS at site. 
+5,NJ,Cattus Island,CAT_02,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:58 AM,74,1,1,1,COTE,NA,0-50m,NA,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,,Just SOSP using marsh - in/along a creek. No more SALS at site. 
+5,NJ,Cattus Island,CAT_02,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:58 AM,74,1,1,1,NHWR,NA,0-50m,NA,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,Just SOSP using marsh - in/along a creek. No more SALS at site. 
+5,NJ,Cattus Island,CAT_02,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:58 AM,74,1,1,1,CHSP,NA,51-100m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,Just SOSP using marsh - in/along a creek. No more SALS at site. 
+5,NJ,Cattus Island,CAT_02,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:58 AM,74,1,1,1,FICR,NA,>100m,NA,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,,Just SOSP using marsh - in/along a creek. No more SALS at site. 
+5,NJ,Cattus Island,CAT_02,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:58 AM,74,1,1,1,CACH,NA,0-50m,NA,2,0,0,0,0,0,0,2,0,0,0,0,0,0,0,,Just SOSP using marsh - in/along a creek. No more SALS at site. 
+5,NJ,Cattus Island,CAT_02,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:58 AM,74,1,1,1,NOCA,NA,51-100m,NA,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,Just SOSP using marsh - in/along a creek. No more SALS at site. 
+5,NJ,Cattus Island,CAT_02,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:58 AM,74,1,1,1,COTE,NA,51-100m,NA,2,0,0,0,0,0,0,0,0,0,0,2,0,0,0,,Just SOSP using marsh - in/along a creek. No more SALS at site. 
+5,NJ,Cattus Island,CAT_02,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:58 AM,74,1,1,1,GBHE,NA,>100m,NA,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Flying over,Just SOSP using marsh - in/along a creek. No more SALS at site. 
+5,NJ,Cattus Island,CAT_02,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:58 AM,74,1,1,1,AHGU,NA,51-100m,NA,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Flying over,Just SOSP using marsh - in/along a creek. No more SALS at site. 
+5,NJ,Cattus Island,CAT_03,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:31 AM,74,2,1,0,EATO,NA,0-50m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,Really nothing in marsh. Just RWBL in low/high marsh and MAWR/RWBL at marsh edge. Lots in upland. Wading birds on other side of cove.
+5,NJ,Cattus Island,CAT_03,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:31 AM,74,2,1,0,GRCA,NA,0-50m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,Really nothing in marsh. Just RWBL in low/high marsh and MAWR/RWBL at marsh edge. Lots in upland. Wading birds on other side of cove.
+5,NJ,Cattus Island,CAT_03,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:31 AM,74,2,1,0,RWBL,NA,0-50m,NA,5,4,0,0,0,0,0,1,0,0,0,0,0,0,0,,Really nothing in marsh. Just RWBL in low/high marsh and MAWR/RWBL at marsh edge. Lots in upland. Wading birds on other side of cove.
+5,NJ,Cattus Island,CAT_03,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:31 AM,74,2,1,0,OSPR,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Really nothing in marsh. Just RWBL in low/high marsh and MAWR/RWBL at marsh edge. Lots in upland. Wading birds on other side of cove.
+5,NJ,Cattus Island,CAT_03,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:31 AM,74,2,1,0,GREG,NA,51-100m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Really nothing in marsh. Just RWBL in low/high marsh and MAWR/RWBL at marsh edge. Lots in upland. Wading birds on other side of cove.
+5,NJ,Cattus Island,CAT_03,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:31 AM,74,2,1,0,AHGU,NA,51-100m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Really nothing in marsh. Just RWBL in low/high marsh and MAWR/RWBL at marsh edge. Lots in upland. Wading birds on other side of cove.
+5,NJ,Cattus Island,CAT_03,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:31 AM,74,2,1,0,RWBL,NA,51-100m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,Really nothing in marsh. Just RWBL in low/high marsh and MAWR/RWBL at marsh edge. Lots in upland. Wading birds on other side of cove.
+5,NJ,Cattus Island,CAT_03,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:31 AM,74,2,1,0,PIWA,NA,0-50m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,Really nothing in marsh. Just RWBL in low/high marsh and MAWR/RWBL at marsh edge. Lots in upland. Wading birds on other side of cove.
+5,NJ,Cattus Island,CAT_03,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:31 AM,74,2,1,0,CAWR,NA,0-50m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,Really nothing in marsh. Just RWBL in low/high marsh and MAWR/RWBL at marsh edge. Lots in upland. Wading birds on other side of cove.
+5,NJ,Cattus Island,CAT_03,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:31 AM,74,2,1,0,RBWO,NA,51-100m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,Really nothing in marsh. Just RWBL in low/high marsh and MAWR/RWBL at marsh edge. Lots in upland. Wading birds on other side of cove.
+5,NJ,Cattus Island,CAT_03,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:31 AM,74,2,1,0,NOCA,NA,51-100m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,Really nothing in marsh. Just RWBL in low/high marsh and MAWR/RWBL at marsh edge. Lots in upland. Wading birds on other side of cove.
+5,NJ,Cattus Island,CAT_03,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:31 AM,74,2,1,0,MAWR,NA,0-50m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,Really nothing in marsh. Just RWBL in low/high marsh and MAWR/RWBL at marsh edge. Lots in upland. Wading birds on other side of cove.
+5,NJ,Cattus Island,CAT_03,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:31 AM,74,2,1,0,TUTI,NA,0-50m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,Really nothing in marsh. Just RWBL in low/high marsh and MAWR/RWBL at marsh edge. Lots in upland. Wading birds on other side of cove.
+5,NJ,Cattus Island,CAT_03,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:31 AM,74,2,1,0,COYE,NA,51-100m,NA,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,Really nothing in marsh. Just RWBL in low/high marsh and MAWR/RWBL at marsh edge. Lots in upland. Wading birds on other side of cove.
+5,NJ,Cattus Island,CAT_03,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:31 AM,74,2,1,0,CHSP,NA,51-100m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,Really nothing in marsh. Just RWBL in low/high marsh and MAWR/RWBL at marsh edge. Lots in upland. Wading birds on other side of cove.
+5,NJ,Cattus Island,CAT_03,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:31 AM,74,2,1,0,EAKI,NA,51-100m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,Really nothing in marsh. Just RWBL in low/high marsh and MAWR/RWBL at marsh edge. Lots in upland. Wading birds on other side of cove.
+5,NJ,Cattus Island,CAT_03,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:31 AM,74,2,1,0,CACH,NA,0-50m,NA,3,0,0,0,3,0,0,0,0,0,0,0,0,0,0,,Really nothing in marsh. Just RWBL in low/high marsh and MAWR/RWBL at marsh edge. Lots in upland. Wading birds on other side of cove.
+5,NJ,Cattus Island,CAT_03,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:31 AM,74,2,1,0,SOSP,NA,51-100m,NA,2,0,0,0,0,2,0,0,0,0,0,0,0,0,0,,Really nothing in marsh. Just RWBL in low/high marsh and MAWR/RWBL at marsh edge. Lots in upland. Wading birds on other side of cove.
+5,NJ,Cattus Island,CAT_03,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:31 AM,74,2,1,0,WIFL,NA,0-50m,NA,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,Really nothing in marsh. Just RWBL in low/high marsh and MAWR/RWBL at marsh edge. Lots in upland. Wading birds on other side of cove.
+5,NJ,Cattus Island,CAT_03,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:31 AM,74,2,1,0,WBNU,NA,0-50m,NA,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,Really nothing in marsh. Just RWBL in low/high marsh and MAWR/RWBL at marsh edge. Lots in upland. Wading birds on other side of cove.
+5,NJ,Cattus Island,CAT_03,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:31 AM,74,2,1,0,GREG,NA,0-50m,NA,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,Really nothing in marsh. Just RWBL in low/high marsh and MAWR/RWBL at marsh edge. Lots in upland. Wading birds on other side of cove.
+5,NJ,Cattus Island,CAT_03,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,7:31 AM,74,2,1,0,BARS,NA,0-50m,NA,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,,Really nothing in marsh. Just RWBL in low/high marsh and MAWR/RWBL at marsh edge. Lots in upland. Wading birds on other side of cove.
+5,NJ,Cattus Island,CAT_01,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,8:23 AM,76,1,1,1,COYE,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,"Again, really nothing in marsh. Phrag has RWBL/MAWR"
+5,NJ,Cattus Island,CAT_01,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,8:23 AM,76,1,1,1,MAWR,NA,0-50m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,"Again, really nothing in marsh. Phrag has RWBL/MAWR"
+5,NJ,Cattus Island,CAT_01,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,8:23 AM,76,1,1,1,RWBL,NA,0-50m,NA,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,,"Again, really nothing in marsh. Phrag has RWBL/MAWR"
+5,NJ,Cattus Island,CAT_01,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,8:23 AM,76,1,1,1,EATO,NA,51-100m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,"Again, really nothing in marsh. Phrag has RWBL/MAWR"
+5,NJ,Cattus Island,CAT_01,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,8:23 AM,76,1,1,1,MAWR,NA,51-100m,NA,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,"Again, really nothing in marsh. Phrag has RWBL/MAWR"
+5,NJ,Cattus Island,CAT_01,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,8:23 AM,76,1,1,1,CACH,NA,51-100m,NA,4,0,0,0,2,0,0,1,0,0,0,1,0,0,0,,"Again, really nothing in marsh. Phrag has RWBL/MAWR"
+5,NJ,Cattus Island,CAT_01,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,8:23 AM,76,1,1,1,TUTI,NA,51-100m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,"Again, really nothing in marsh. Phrag has RWBL/MAWR"
+5,NJ,Cattus Island,CAT_01,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,8:23 AM,76,1,1,1,GRCA,NA,0-50m,NA,2,0,0,0,2,0,0,0,0,0,0,0,0,0,0,,"Again, really nothing in marsh. Phrag has RWBL/MAWR"
+5,NJ,Cattus Island,CAT_01,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,8:23 AM,76,1,1,1,RBWO,NA,51-100m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,"Again, really nothing in marsh. Phrag has RWBL/MAWR"
+5,NJ,Cattus Island,CAT_01,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,8:23 AM,76,1,1,1,GCFL,NA,51-100m,NA,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,"Again, really nothing in marsh. Phrag has RWBL/MAWR"
+5,NJ,Cattus Island,CAT_01,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,8:23 AM,76,1,1,1,NHWR,NA,0-50m,NA,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,"Again, really nothing in marsh. Phrag has RWBL/MAWR"
+5,NJ,Cattus Island,CAT_01,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,8:23 AM,76,1,1,1,GRCA,NA,51-100m,NA,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,"Again, really nothing in marsh. Phrag has RWBL/MAWR"
+5,NJ,Cattus Island,CAT_01,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,8:23 AM,76,1,1,1,MODO,NA,51-100m,NA,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,"Again, really nothing in marsh. Phrag has RWBL/MAWR"
+5,NJ,Cattus Island,CAT_01,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,8:23 AM,76,1,1,1,LAGU,NA,0-50m,NA,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Flying over,"Again, really nothing in marsh. Phrag has RWBL/MAWR"
+5,NJ,Cattus Island,CAT_01,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,8:23 AM,76,1,1,1,YEWA,NA,51-100m,NA,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,,"Again, really nothing in marsh. Phrag has RWBL/MAWR"
+5,NJ,Cattus Island,CAT_01,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,8:23 AM,76,1,1,1,NOFL,NA,0-50m,NA,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Flying over,"Again, really nothing in marsh. Phrag has RWBL/MAWR"
+5,NJ,Cattus Island,CAT_01,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,8:23 AM,76,1,1,1,CEWA,NA,0-50m,NA,4,0,0,0,0,0,0,0,0,0,0,0,0,4,0,Landed in Iva. Weird,"Again, really nothing in marsh. Phrag has RWBL/MAWR"
+5,NJ,Cattus Island,CAT_01,foot,2,May 1-July 15,30-06-2025,KNF,NA,High/Falling,8:23 AM,76,1,1,1,AMRO,NA,0-50m,NA,2,0,0,0,0,0,0,0,0,0,0,0,0,2,0,,"Again, really nothing in marsh. Phrag has RWBL/MAWR"
+5,NJ,Cattus Island,CAT_05,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,8:56 AM,80,1,2,2,SESP,NA,0-50m,NA,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,,"Again, really nothing in marsh. Phrag has RWBL/MAWR"
+5,NJ,Cattus Island,CAT_05,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,8:56 AM,80,1,2,2,OSPR,NA,51-100m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_05,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,8:56 AM,80,1,2,2,RWBL,NA,0-50m,NA,6,3,0,3,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_05,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,8:56 AM,80,1,2,2,LBHE,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_05,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,8:56 AM,80,1,2,2,AHGU,NA,0-50m,NA,4,1,2,1,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_05,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,8:56 AM,80,1,2,2,COYE,NA,51-100m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_05,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,8:56 AM,80,1,2,2,RWBL,NA,51-100m,NA,3,0,1,2,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_05,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,8:56 AM,80,1,2,2,SOSP,NA,51-100m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_05,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,8:56 AM,80,1,2,2,MAWR,NA,0-50m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_05,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,8:56 AM,80,1,2,2,SALS,NA,0-50m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,"Calling. Ist of day, 5th site. Flew away into southwestern marsh past boardwalk.",
+5,NJ,Cattus Island,CAT_05,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,8:56 AM,80,1,2,2,AHGU,NA,51-100m,NA,4,0,0,0,0,4,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_05,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,8:56 AM,80,1,2,2,EAKI,NA,0-50m,NA,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_05,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,8:56 AM,80,1,2,2,TRES,NA,0-50m,NA,3,0,0,0,0,0,0,2,0,0,0,1,0,0,0,,
+5,NJ,Cattus Island,CAT_05,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,8:56 AM,80,1,2,2,CEWA,NA,51-100m,NA,4,0,0,0,0,0,0,0,4,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_05,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,8:56 AM,80,1,2,2,GRCA,NA,0-50m,NA,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_05,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,8:56 AM,80,1,2,2,CAWR,NA,>100m,NA,2,0,0,0,0,0,0,0,0,0,1,0,1,0,0,,
+5,NJ,Cattus Island,CAT_05,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,8:56 AM,80,1,2,2,MALL,NA,51-100m,NA,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,
+5,NJ,Cattus Island,CAT_06,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,9:19 AM,80,2,2,1,RWBL,NA,0-50m,NA,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,,"Lot of SALS while walking up. Not super vocal, but curious. SALS outside of 50m - I can't tell if not SESP"
+5,NJ,Cattus Island,CAT_06,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,9:19 AM,80,2,2,1,OSPR,NA,51-100m,NA,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,,"Lot of SALS while walking up. Not super vocal, but curious. SALS outside of 50m - I can't tell if not SESP"
+5,NJ,Cattus Island,CAT_06,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,9:19 AM,80,2,2,1,SESP,NA,0-50m,NA,3,2,0,1,0,0,0,0,0,0,0,0,0,0,0,,"Lot of SALS while walking up. Not super vocal, but curious. SALS outside of 50m - I can't tell if not SESP"
+5,NJ,Cattus Island,CAT_06,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,9:19 AM,80,2,2,1,SALS,NA,0-50m,NA,3,1,0,0,2,0,0,0,0,0,0,0,0,0,0,Calling.,"Lot of SALS while walking up. Not super vocal, but curious. SALS outside of 50m - I can't tell if not SESP"
+5,NJ,Cattus Island,CAT_06,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,9:19 AM,80,2,2,1,COYE,NA,51-100m,NA,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,,"Lot of SALS while walking up. Not super vocal, but curious. SALS outside of 50m - I can't tell if not SESP"
+5,NJ,Cattus Island,CAT_06,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,9:19 AM,80,2,2,1,MAWR,NA,0-50m,NA,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,,"Lot of SALS while walking up. Not super vocal, but curious. SALS outside of 50m - I can't tell if not SESP"
+5,NJ,Cattus Island,CAT_06,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,9:19 AM,80,2,2,1,GREG,NA,51-100m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,"Lot of SALS while walking up. Not super vocal, but curious. SALS outside of 50m - I can't tell if not SESP"
+5,NJ,Cattus Island,CAT_06,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,9:19 AM,80,2,2,1,RWBL,NA,51-100m,NA,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,,"Lot of SALS while walking up. Not super vocal, but curious. SALS outside of 50m - I can't tell if not SESP"
+5,NJ,Cattus Island,CAT_06,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,9:19 AM,80,2,2,1,EAKI,NA,51-100m,NA,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,"Lot of SALS while walking up. Not super vocal, but curious. SALS outside of 50m - I can't tell if not SESP"
+5,NJ,Cattus Island,CAT_06,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,9:19 AM,80,2,2,1,COYE,NA,51-100m,NA,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,"Lot of SALS while walking up. Not super vocal, but curious. SALS outside of 50m - I can't tell if not SESP"
+5,NJ,Cattus Island,CAT_06,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,9:19 AM,80,2,2,1,Sparrow Unidentified,NA,51-100m,NA,2,0,0,0,1,0,0,1,0,0,0,0,0,0,0,,"Lot of SALS while walking up. Not super vocal, but curious. SALS outside of 50m - I can't tell if not SESP"
+5,NJ,Cattus Island,CAT_06,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,9:19 AM,80,2,2,1,SOSP,NA,0-50m,NA,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,"Lot of SALS while walking up. Not super vocal, but curious. SALS outside of 50m - I can't tell if not SESP"
+5,NJ,Cattus Island,CAT_06,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,9:19 AM,80,2,2,1,TUTI,NA,51-100m,NA,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,"Lot of SALS while walking up. Not super vocal, but curious. SALS outside of 50m - I can't tell if not SESP"
+5,NJ,Cattus Island,CAT_06,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,9:19 AM,80,2,2,1,NOCA,NA,51-100m,NA,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,"Lot of SALS while walking up. Not super vocal, but curious. SALS outside of 50m - I can't tell if not SESP"
+5,NJ,Cattus Island,CAT_06,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,9:19 AM,80,2,2,1,MODO,NA,51-100m,NA,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,"Lot of SALS while walking up. Not super vocal, but curious. SALS outside of 50m - I can't tell if not SESP"
+5,NJ,Cattus Island,CAT_06,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,9:19 AM,80,2,2,1,TRES,NA,0-50m,NA,3,0,0,0,0,0,0,0,0,3,0,0,0,0,0,,"Lot of SALS while walking up. Not super vocal, but curious. SALS outside of 50m - I can't tell if not SESP"
+5,NJ,Cattus Island,CAT_06,foot,2,May 1-July 15,30-06-2025,KNF,NA,Low/Falling,9:19 AM,80,2,2,1,CLRA,60,51-100m,Clapper,1,0,0,0,0,0,0,0,0,0,0,X,0,0,0,Clapping. Saw foraging along marsh edge around 50 or 40m ,"Lot of SALS while walking up. Not super vocal, but curious. SALS outside of 50m - I can't tell if not SESP"
+5,NJ,Cattus Island,CAT_02,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:43 AM,73,4,3,3,SBDO,NA,0-50m,NA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,X,"Coming from mosquito cove. Did not write down how many, so I put one",Boat going by into cove and then 2 jet skis. Marsh not as flooded. Saw terrapin. Near engagement photoshoot
+5,NJ,Cattus Island,CAT_02,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:43 AM,73,4,3,3,SOSP,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Boat going by into cove and then 2 jet skis. Marsh not as flooded. Saw terrapin. Near engagement photoshoot
+5,NJ,Cattus Island,CAT_02,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:43 AM,73,4,3,3,SOSP,NA,>100m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,Boat going by into cove and then 2 jet skis. Marsh not as flooded. Saw terrapin. Near engagement photoshoot
+5,NJ,Cattus Island,CAT_02,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:43 AM,73,4,3,3,SOSP,NA,51-100m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Boat going by into cove and then 2 jet skis. Marsh not as flooded. Saw terrapin. Near engagement photoshoot
+5,NJ,Cattus Island,CAT_02,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:43 AM,73,4,3,3,RWBL,NA,0-50m,NA,3,1,0,0,0,1,0,0,0,1,0,0,0,0,0,,Boat going by into cove and then 2 jet skis. Marsh not as flooded. Saw terrapin. Near engagement photoshoot
+5,NJ,Cattus Island,CAT_02,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:43 AM,73,4,3,3,COYE,NA,51-100m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Boat going by into cove and then 2 jet skis. Marsh not as flooded. Saw terrapin. Near engagement photoshoot
+5,NJ,Cattus Island,CAT_02,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:43 AM,73,4,3,3,OSPR,NA,>100m,NA,3,1,0,0,0,1,0,0,0,1,0,0,0,0,0,,Boat going by into cove and then 2 jet skis. Marsh not as flooded. Saw terrapin. Near engagement photoshoot
+5,NJ,Cattus Island,CAT_02,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:43 AM,73,4,3,3,PIWA,NA,>100m,NA,2,1,0,0,1,0,0,0,0,0,0,0,0,0,0,,Boat going by into cove and then 2 jet skis. Marsh not as flooded. Saw terrapin. Near engagement photoshoot
+5,NJ,Cattus Island,CAT_02,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:43 AM,73,4,3,3,TUTI,NA,51-100m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,Boat going by into cove and then 2 jet skis. Marsh not as flooded. Saw terrapin. Near engagement photoshoot
+5,NJ,Cattus Island,CAT_02,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:43 AM,73,4,3,3,MALL,NA,>100m,NA,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,Boat going by into cove and then 2 jet skis. Marsh not as flooded. Saw terrapin. Near engagement photoshoot
+5,NJ,Cattus Island,CAT_02,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:43 AM,73,4,3,3,GRCA,NA,0-50m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,Boat going by into cove and then 2 jet skis. Marsh not as flooded. Saw terrapin. Near engagement photoshoot
+5,NJ,Cattus Island,CAT_02,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:43 AM,73,4,3,3,CEWA,NA,0-50m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,Boat going by into cove and then 2 jet skis. Marsh not as flooded. Saw terrapin. Near engagement photoshoot
+5,NJ,Cattus Island,CAT_02,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:43 AM,73,4,3,3,AHGU,NA,>100m,NA,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,Boat going by into cove and then 2 jet skis. Marsh not as flooded. Saw terrapin. Near engagement photoshoot
+5,NJ,Cattus Island,CAT_02,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:43 AM,73,4,3,3,PIWA,NA,0-50m,NA,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,Boat going by into cove and then 2 jet skis. Marsh not as flooded. Saw terrapin. Near engagement photoshoot
+5,NJ,Cattus Island,CAT_02,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:43 AM,73,4,3,3,FOTE,NA,0-50m,NA,2,0,0,0,0,0,0,2,0,0,0,0,0,0,0,,Boat going by into cove and then 2 jet skis. Marsh not as flooded. Saw terrapin. Near engagement photoshoot
+5,NJ,Cattus Island,CAT_02,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:43 AM,73,4,3,3,LAGU,NA,>100m,NA,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,Boat going by into cove and then 2 jet skis. Marsh not as flooded. Saw terrapin. Near engagement photoshoot
+5,NJ,Cattus Island,CAT_02,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:43 AM,73,4,3,3,TRES,NA,0-50m,NA,2,0,0,0,0,0,0,0,0,0,2,0,0,0,0,,Boat going by into cove and then 2 jet skis. Marsh not as flooded. Saw terrapin. Near engagement photoshoot
+5,NJ,Cattus Island,CAT_02,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:43 AM,73,4,3,3,RWBL,NA,>100m,NA,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,,Boat going by into cove and then 2 jet skis. Marsh not as flooded. Saw terrapin. Near engagement photoshoot
+5,NJ,Cattus Island,CAT_02,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:43 AM,73,4,3,3,SALS,NA,51-100m,NA,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Not vocalizing,Boat going by into cove and then 2 jet skis. Marsh not as flooded. Saw terrapin. Near engagement photoshoot
+5,NJ,Cattus Island,CAT_02,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:43 AM,73,4,3,3,MODO,NA,0-50m,NA,2,0,0,0,0,0,0,0,0,0,0,0,0,2,0,,Boat going by into cove and then 2 jet skis. Marsh not as flooded. Saw terrapin. Near engagement photoshoot
+5,NJ,Cattus Island,CAT_06,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,9:17 AM,79,0,2,2,SALS,NA,0-50m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Heard SALS at 09:16 while ARU was recording. Check to see if it picked up,
+5,NJ,Cattus Island,CAT_06,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,9:17 AM,79,0,2,2,MAWR,NA,0-50m,NA,4,3,1,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_06,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,9:17 AM,79,0,2,2,RWBL,NA,0-50m,NA,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_06,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,9:17 AM,79,0,2,2,NOCA,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_06,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,9:17 AM,79,0,2,2,COYE,NA,0-50m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_06,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,9:17 AM,79,0,2,2,CAWR,NA,51-100m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_06,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,9:17 AM,79,0,2,2,COYE,NA,51-100m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_06,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,9:17 AM,79,0,2,2,SESP,NA,0-50m,NA,5,0,4,0,0,0,0,0,1,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_06,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,9:17 AM,79,0,2,2,SESP,NA,51-100m,NA,4,0,0,3,0,0,0,0,0,1,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_06,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,9:17 AM,79,0,2,2,SESP,NA,>100m,NA,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_06,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,9:17 AM,79,0,2,2,RWBL,NA,>100m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_06,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,9:17 AM,79,0,2,2,OSPR,NA,51-100m,NA,2,0,0,0,2,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_06,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,9:17 AM,79,0,2,2,LAGU,NA,0-50m,NA,2,0,0,0,0,2,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_06,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,9:17 AM,79,0,2,2,AHGU,NA,0-50m,NA,3,0,0,0,0,1,0,2,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_06,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,9:17 AM,79,0,2,2,RWBL,NA,51-100m,NA,5,0,0,0,0,5,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_06,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,9:17 AM,79,0,2,2,TRES,NA,51-100m,NA,3,0,0,0,0,3,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_06,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,9:17 AM,79,0,2,2,NOHA,NA,51-100m,NA,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Mobbed by RWBL. Butt stripe face shield.,
+5,NJ,Cattus Island,CAT_06,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,9:17 AM,79,0,2,2,YEWA,NA,>100m,NA,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,,
+5,NJ,Cattus Island,CAT_06,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,9:17 AM,79,0,2,2,CLRA,80,51-100m,NA,1,0,0,0,0,0,0,0,0,0,0,X,0,0,0,,
+5,NJ,Cattus Island,CAT_06,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,9:17 AM,79,0,2,2,GCFL,NA,>100m,NA,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,,
+5,NJ,Cattus Island,CAT_06,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,9:17 AM,79,0,2,2,GBHE,NA,51-100m,NA,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Flying over,
+5,NJ,Cattus Island,CAT_06,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,9:17 AM,79,0,2,2,LBHE,NA,>100m,NA,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Flying over. Probably the same one.,
+5,NJ,Cattus Island,CAT_05,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,8:50 AM,78,0,1,2,SESP,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Boaters
+5,NJ,Cattus Island,CAT_05,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,8:50 AM,78,0,1,2,RWBL,NA,0-50m,NA,5,3,0,0,0,1,0,1,0,0,0,0,0,0,0,,Boaters
+5,NJ,Cattus Island,CAT_05,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,8:50 AM,78,0,1,2,COYE,NA,>100m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Boaters
+5,NJ,Cattus Island,CAT_05,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,8:50 AM,78,0,1,2,MODO,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Boaters
+5,NJ,Cattus Island,CAT_05,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,8:50 AM,78,0,1,2,SOSP,NA,>100m,NA,2,1,0,0,1,0,0,0,0,0,0,0,0,0,0,,Boaters
+5,NJ,Cattus Island,CAT_05,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,8:50 AM,78,0,1,2,RWBL,NA,>100m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,Boaters
+5,NJ,Cattus Island,CAT_05,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,8:50 AM,78,0,1,2,FOTE,NA,51-100m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,Boaters
+5,NJ,Cattus Island,CAT_05,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,8:50 AM,78,0,1,2,RWBL,NA,51-100m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,Boaters
+5,NJ,Cattus Island,CAT_05,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,8:50 AM,78,0,1,2,SNEG,NA,51-100m,NA,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,Boaters
+5,NJ,Cattus Island,CAT_05,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,8:50 AM,78,0,1,2,MAWR,NA,51-100m,NA,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,Boaters
+5,NJ,Cattus Island,CAT_05,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,8:50 AM,78,0,1,2,LAGU,NA,>100m,NA,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,Boaters
+5,NJ,Cattus Island,CAT_05,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,8:50 AM,78,0,1,2,OSPR,NA,>100m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,Boaters
+5,NJ,Cattus Island,CAT_05,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,8:50 AM,78,0,1,2,COYE,NA,0-50m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,Boaters
+5,NJ,Cattus Island,CAT_05,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,8:50 AM,78,0,1,2,SESP,NA,51-100m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,Boaters
+5,NJ,Cattus Island,CAT_05,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,8:50 AM,78,0,1,2,AHGU,NA,51-100m,NA,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,Boaters
+5,NJ,Cattus Island,CAT_05,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,8:50 AM,78,0,1,2,OSPR,NA,51-100m,NA,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,Boaters
+5,NJ,Cattus Island,CAT_05,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,8:50 AM,78,0,1,2,YEWA,NA,51-100m,NA,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,Boaters
+5,NJ,Cattus Island,CAT_05,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,8:50 AM,78,0,1,2,EAKI,NA,0-50m,NA,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,Boaters
+5,NJ,Cattus Island,CAT_05,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,8:50 AM,78,0,1,2,YEWA,NA,>100m,NA,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,Boaters
+5,NJ,Cattus Island,CAT_05,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,8:50 AM,78,0,1,2,LBHE,NA,51-100m,NA,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,,Boaters
+5,NJ,Cattus Island,CAT_05,foot,1,May 1-July 15,19-06-2026,KNF,NA,High/Falling,8:50 AM,78,0,1,2,NOFL,NA,>100m,NA,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,,Boaters
+5,NJ,Cattus Island,CAT_01,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,8:08 AM,74,0,1,2,MAWR,NA,0-50m,NA,4,3,0,0,0,0,0,0,0,1,0,0,0,0,0,,Flooded & phraggy. Some patens/alt but poor quality habitat. Okay for MAWR
+5,NJ,Cattus Island,CAT_01,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,8:08 AM,74,0,1,2,RWBL,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Flooded & phraggy. Some patens/alt but poor quality habitat. Okay for MAWR
+5,NJ,Cattus Island,CAT_01,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,8:08 AM,74,0,1,2,COYE,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Flooded & phraggy. Some patens/alt but poor quality habitat. Okay for MAWR
+5,NJ,Cattus Island,CAT_01,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,8:08 AM,74,0,1,2,OSPR,NA,>100m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Flooded & phraggy. Some patens/alt but poor quality habitat. Okay for MAWR
+5,NJ,Cattus Island,CAT_01,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,8:08 AM,74,0,1,2,RWBL,NA,>100m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Flooded & phraggy. Some patens/alt but poor quality habitat. Okay for MAWR
+5,NJ,Cattus Island,CAT_01,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,8:08 AM,74,0,1,2,GCFL,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Flooded & phraggy. Some patens/alt but poor quality habitat. Okay for MAWR
+5,NJ,Cattus Island,CAT_01,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,8:08 AM,74,0,1,2,NOCA,NA,>100m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Flooded & phraggy. Some patens/alt but poor quality habitat. Okay for MAWR
+5,NJ,Cattus Island,CAT_01,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,8:08 AM,74,0,1,2,SOSP,NA,0-50m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,Flooded & phraggy. Some patens/alt but poor quality habitat. Okay for MAWR
+5,NJ,Cattus Island,CAT_01,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,8:08 AM,74,0,1,2,MAWR,NA,51-100m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,Flooded & phraggy. Some patens/alt but poor quality habitat. Okay for MAWR
+5,NJ,Cattus Island,CAT_01,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,8:08 AM,74,0,1,2,RWBL,NA,51-100m,NA,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,,Flooded & phraggy. Some patens/alt but poor quality habitat. Okay for MAWR
+5,NJ,Cattus Island,CAT_01,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,8:08 AM,74,0,1,2,AMRO,NA,0-50m,NA,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,Flooded & phraggy. Some patens/alt but poor quality habitat. Okay for MAWR
+5,NJ,Cattus Island,CAT_01,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,8:08 AM,74,0,1,2,GREG,NA,>100m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,Flooded & phraggy. Some patens/alt but poor quality habitat. Okay for MAWR
+5,NJ,Cattus Island,CAT_01,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,8:08 AM,74,0,1,2,AGOL,NA,51-100m,NA,2,0,0,0,2,0,0,0,0,0,0,0,0,0,0,,Flooded & phraggy. Some patens/alt but poor quality habitat. Okay for MAWR
+5,NJ,Cattus Island,CAT_01,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,8:08 AM,74,0,1,2,DOWO,NA,51-100m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,Flooded & phraggy. Some patens/alt but poor quality habitat. Okay for MAWR
+5,NJ,Cattus Island,CAT_01,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,8:08 AM,74,0,1,2,MALL,NA,0-50m,NA,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Flying over,Flooded & phraggy. Some patens/alt but poor quality habitat. Okay for MAWR
+5,NJ,Cattus Island,CAT_01,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,8:08 AM,74,0,1,2,PIWA,NA,>100m,NA,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,Flooded & phraggy. Some patens/alt but poor quality habitat. Okay for MAWR
+5,NJ,Cattus Island,CAT_01,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,8:08 AM,74,0,1,2,RBWO,NA,>100m,NA,2,0,0,0,0,0,0,0,0,0,0,0,2,0,0,,Flooded & phraggy. Some patens/alt but poor quality habitat. Okay for MAWR
+5,NJ,Cattus Island,CAT_04,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:17 AM,73,0,1,1,PIWA,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_04,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:17 AM,73,0,1,1,MAWR,NA,0-50m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_04,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:17 AM,73,0,1,1,GCFL,NA,51-100m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_04,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:17 AM,73,0,1,1,SOSP,NA,0-50m,NA,3,1,2,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_04,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:17 AM,73,0,1,1,RWBL,NA,0-50m,NA,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_04,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:17 AM,73,0,1,1,OSPR,NA,51-100m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_04,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:17 AM,73,0,1,1,RBWO,NA,>100m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_04,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:17 AM,73,0,1,1,AHGU,NA,51-100m,NA,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_04,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:17 AM,73,0,1,1,LAGU,NA,51-100m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_04,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:17 AM,73,0,1,1,MODO,NA,0-50m,NA,2,0,1,0,0,0,0,0,0,1,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_04,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:17 AM,73,0,1,1,EATO,NA,>100m,NA,2,0,1,0,0,0,0,1,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_04,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:17 AM,73,0,1,1,SALS,NA,0-50m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,60% sure,
+5,NJ,Cattus Island,CAT_04,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:17 AM,73,0,1,1,CHSP,NA,51-100m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_04,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:17 AM,73,0,1,1,BLJA,NA,>100m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_04,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:17 AM,73,0,1,1,GRCA,NA,0-50m,NA,3,0,0,0,0,1,0,2,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_04,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:17 AM,73,0,1,1,RWBL,NA,>100m,NA,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_04,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:17 AM,73,0,1,1,TUTI,NA,51-100m,NA,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_04,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:17 AM,73,0,1,1,CEWA,NA,51-100m,NA,2,0,0,0,0,0,0,2,0,0,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_04,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:17 AM,73,0,1,1,MAWR,NA,>100m,NA,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,
+5,NJ,Cattus Island,CAT_04,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:17 AM,73,0,1,1,OSPR,NA,>100m,NA,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,,
+5,NJ,Cattus Island,CAT_04,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:17 AM,73,0,1,1,NOCA,NA,0-50m,NA,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,,
+5,NJ,Cattus Island,CAT_04,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:17 AM,73,0,1,1,SALS,NA,0-50m,NA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Near ARU. Seen when checking on it. Not vocalizing,
+5,NJ,Cattus Island,CAT_04,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,7:17 AM,73,0,1,1,GREG,NA,>100m,NA,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,,Highly flooded tide. Nests would be gone. Only SALS and SOSP using high marsh. 
+5,NJ,Cattus Island,CAT_03,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,6:53 AM,72,0,2,1,SOSP,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Highly flooded tide. Nests would be gone. Only SALS and SOSP using high marsh. 
+5,NJ,Cattus Island,CAT_03,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,6:53 AM,72,0,2,1,GRCA,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Highly flooded tide. Nests would be gone. Only SALS and SOSP using high marsh. 
+5,NJ,Cattus Island,CAT_03,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,6:53 AM,72,0,2,1,RWBL,NA,0-50m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,Highly flooded tide. Nests would be gone. Only SALS and SOSP using high marsh. 
+5,NJ,Cattus Island,CAT_03,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,6:53 AM,72,0,2,1,FOTE,NA,51-100m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Highly flooded tide. Nests would be gone. Only SALS and SOSP using high marsh. 
+5,NJ,Cattus Island,CAT_03,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,6:53 AM,72,0,2,1,EATO,NA,51-100m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Highly flooded tide. Nests would be gone. Only SALS and SOSP using high marsh. 
+5,NJ,Cattus Island,CAT_03,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,6:53 AM,72,0,2,1,MODO,NA,51-100m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Highly flooded tide. Nests would be gone. Only SALS and SOSP using high marsh. 
+5,NJ,Cattus Island,CAT_03,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,6:53 AM,72,0,2,1,SOSP,NA,>100m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Highly flooded tide. Nests would be gone. Only SALS and SOSP using high marsh. 
+5,NJ,Cattus Island,CAT_03,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,6:53 AM,72,0,2,1,RWBL,NA,>100m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Highly flooded tide. Nests would be gone. Only SALS and SOSP using high marsh. 
+5,NJ,Cattus Island,CAT_03,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,6:53 AM,72,0,2,1,RWBL,NA,51-100m,NA,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,Highly flooded tide. Nests would be gone. Only SALS and SOSP using high marsh. 
+5,NJ,Cattus Island,CAT_03,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,6:53 AM,72,0,2,1,SALS,NA,NA,NA,3,0,2,1,0,0,0,0,0,0,0,0,0,0,0,,Highly flooded tide. Nests would be gone. Only SALS and SOSP using high marsh. 
+5,NJ,Cattus Island,CAT_03,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,6:53 AM,72,0,2,1,LAGU,NA,NA,NA,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,,Highly flooded tide. Nests would be gone. Only SALS and SOSP using high marsh. 
+5,NJ,Cattus Island,CAT_03,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,6:53 AM,72,0,2,1,EAKI,NA,51-100m,NA,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,Highly flooded tide. Nests would be gone. Only SALS and SOSP using high marsh. 
+5,NJ,Cattus Island,CAT_03,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,6:53 AM,72,0,2,1,AHGU,NA,51-100m,NA,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,,Highly flooded tide. Nests would be gone. Only SALS and SOSP using high marsh. 
+5,NJ,Cattus Island,CAT_03,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,6:53 AM,72,0,2,1,GREG,NA,>100m,NA,2,0,0,0,1,0,0,0,0,1,0,0,0,0,0,,Highly flooded tide. Nests would be gone. Only SALS and SOSP using high marsh. 
+5,NJ,Cattus Island,CAT_03,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,6:53 AM,72,0,2,1,MAWR,NA,51-100m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,Highly flooded tide. Nests would be gone. Only SALS and SOSP using high marsh. 
+5,NJ,Cattus Island,CAT_03,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,6:53 AM,72,0,2,1,PIWA,NA,>100m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,Highly flooded tide. Nests would be gone. Only SALS and SOSP using high marsh. 
+5,NJ,Cattus Island,CAT_03,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,6:53 AM,72,0,2,1,NOCA,NA,51-100m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,Highly flooded tide. Nests would be gone. Only SALS and SOSP using high marsh. 
+5,NJ,Cattus Island,CAT_03,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,6:53 AM,72,0,2,1,TUTI,NA,51-100m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,Highly flooded tide. Nests would be gone. Only SALS and SOSP using high marsh. 
+5,NJ,Cattus Island,CAT_03,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,6:53 AM,72,0,2,1,COYE,NA,>100m,NA,2,0,0,0,0,2,0,0,0,0,0,0,0,0,0,,Highly flooded tide. Nests would be gone. Only SALS and SOSP using high marsh. 
+5,NJ,Cattus Island,CAT_03,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,6:53 AM,72,0,2,1,RBWO,NA,>100m,NA,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,Highly flooded tide. Nests would be gone. Only SALS and SOSP using high marsh. 
+5,NJ,Cattus Island,CAT_03,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,6:53 AM,72,0,2,1,PIWA,NA,51-100m,NA,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,Highly flooded tide. Nests would be gone. Only SALS and SOSP using high marsh. 
+5,NJ,Cattus Island,CAT_03,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,6:53 AM,72,0,2,1,BANS,NA,0-50m,NA,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,Highly flooded tide. Nests would be gone. Only SALS and SOSP using high marsh. 
+5,NJ,Cattus Island,CAT_03,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,6:53 AM,72,0,2,1,GCFL,NA,51-100m,NA,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,,Highly flooded tide. Nests would be gone. Only SALS and SOSP using high marsh. 
+5,NJ,Cattus Island,CAT_03,foot,1,May 1-July 15,19-06-2026,KNF,NA,High,6:53 AM,72,0,2,1,GRCA,NA,51-100m,NA,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,,Highly flooded tide. Nests would be gone. Only SALS and SOSP using high marsh. 

@@ -1,3 +1,264 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d9f002e056868d79da367b99ff57c96ce9fb82fb7ec1057dfe6e792290784971
-size 52730
+RegionNum,State,Site,Point ID,SurveyMethod,VisitNum,SurveyWindow,SurveyDate,Observer,AdditionalObs,Tide,SurveyTime,TempF,Sky,WindSp,Noise,AlphaCode,Distance,DistBand,CallType,TotalCount,Min 1,Min 2,Min 3,Min 4,Min 5,BLRA,LEBI,SORA,VIRA,KIRA,CLRA,AMBI,COMO,Outside,Comments,SiteNote
+5,NJ,Lighthouse Center,LHC_06,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,9:35 AM,83,0,1,3,LAGU,NA,0-50m,NA,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,,Lots of boats.
+5,NJ,Lighthouse Center,LHC_06,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,9:35 AM,83,0,1,3,GREG,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Lots of boats.
+5,NJ,Lighthouse Center,LHC_06,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,9:35 AM,83,0,1,3,SNEG,NA,0-50m,NA,2,1,0,0,0,0,0,0,0,0,0,1,0,0,0,,Lots of boats.
+5,NJ,Lighthouse Center,LHC_06,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,9:35 AM,83,0,1,3,SOSP,NA,0-50m,NA,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,,Lots of boats.
+5,NJ,Lighthouse Center,LHC_06,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,9:35 AM,83,0,1,3,FOTE,NA,0-50m,NA,4,0,2,0,0,0,0,0,0,2,0,0,0,0,0,,Lots of boats.
+5,NJ,Lighthouse Center,LHC_06,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,9:35 AM,83,0,1,3,LBHE,NA,0-50m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,Lots of boats.
+5,NJ,Lighthouse Center,LHC_06,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,9:35 AM,83,0,1,3,LAGU,NA,51-100m,NA,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,,Lots of boats.
+5,NJ,Lighthouse Center,LHC_06,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,9:35 AM,83,0,1,3,DCCO,NA,0-50m,NA,5,0,0,4,1,0,0,0,0,0,0,0,0,0,0,On pier.,Lots of boats.
+5,NJ,Lighthouse Center,LHC_06,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,9:35 AM,83,0,1,3,LETE,NA,0-50m,NA,4,0,0,0,4,0,0,0,0,0,0,0,0,0,0,Least terns using mudflat to rest/forage - not roosting on piers like the FOTE/DCCO,Lots of boats.
+5,NJ,Lighthouse Center,LHC_06,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,9:35 AM,83,0,1,3,FOTE,NA,51-100m,NA,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,,Lots of boats.
+5,NJ,Lighthouse Center,LHC_06,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,9:35 AM,83,0,1,3,DCCO,NA,51-100m,NA,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,Lots of boats.
+5,NJ,Lighthouse Center,LHC_06,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,9:35 AM,83,0,1,3,EAKI,NA,0-50m,NA,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,Lots of boats.
+5,NJ,Lighthouse Center,LHC_06,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,9:35 AM,83,0,1,3,RWBL,NA,0-50m,NA,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,Lots of boats.
+5,NJ,Lighthouse Center,LHC_06,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,9:35 AM,83,0,1,3,COYE,NA,0-50m,NA,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,,Lots of boats.
+5,NJ,Lighthouse Center,LHC_06,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,9:35 AM,83,0,1,3,FICR,NA,0-50m,NA,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,Lots of boats.
+5,NJ,Lighthouse Center,LHC_04,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,7:30 AM,78,1,2,2,TRHE,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Willets resting in osprey platform. Lots of dragonflies
+5,NJ,Lighthouse Center,LHC_04,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,7:30 AM,78,1,2,2,SNEG,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Willets resting in osprey platform. Lots of dragonflies
+5,NJ,Lighthouse Center,LHC_04,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,7:30 AM,78,1,2,2,BARS,NA,51-100m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,Willets resting in osprey platform. Lots of dragonflies
+5,NJ,Lighthouse Center,LHC_04,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,7:30 AM,78,1,2,2,RWBL,NA,0-50m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,Willets resting in osprey platform. Lots of dragonflies
+5,NJ,Lighthouse Center,LHC_04,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,7:30 AM,78,1,2,2,GRCA,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Willets resting in osprey platform. Lots of dragonflies
+5,NJ,Lighthouse Center,LHC_04,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,7:30 AM,78,1,2,2,BARS,NA,0-50m,NA,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,,Willets resting in osprey platform. Lots of dragonflies
+5,NJ,Lighthouse Center,LHC_04,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,7:30 AM,78,1,2,2,AHGU,NA,0-50m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,Willets resting in osprey platform. Lots of dragonflies
+5,NJ,Lighthouse Center,LHC_04,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,7:30 AM,78,1,2,2,CHSW,NA,0-50m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,Willets resting in osprey platform. Lots of dragonflies
+5,NJ,Lighthouse Center,LHC_04,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,7:30 AM,78,1,2,2,WILL,NA,51-100m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,Willets resting in osprey platform. Lots of dragonflies
+5,NJ,Lighthouse Center,LHC_04,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,7:30 AM,78,1,2,2,LAGU,NA,0-50m,NA,2,0,1,1,0,0,0,0,0,0,0,0,0,0,0,,Willets resting in osprey platform. Lots of dragonflies
+5,NJ,Lighthouse Center,LHC_04,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,7:30 AM,78,1,2,2,COYE,NA,51-100m,NA,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,Willets resting in osprey platform. Lots of dragonflies
+5,NJ,Lighthouse Center,LHC_04,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,7:30 AM,78,1,2,2,RWBL,NA,51-100m,NA,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,Willets resting in osprey platform. Lots of dragonflies
+5,NJ,Lighthouse Center,LHC_04,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,7:30 AM,78,1,2,2,FOTE,NA,>100m,NA,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,Willets resting in osprey platform. Lots of dragonflies
+5,NJ,Lighthouse Center,LHC_04,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,7:30 AM,78,1,2,2,COYE,NA,0-50m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,Willets resting in osprey platform. Lots of dragonflies
+5,NJ,Lighthouse Center,LHC_04,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,7:30 AM,78,1,2,2,WILL,NA,0-50m,NA,2,0,0,0,2,0,0,0,0,0,0,0,0,0,0,,Willets resting in osprey platform. Lots of dragonflies
+5,NJ,Lighthouse Center,LHC_04,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,7:30 AM,78,1,2,2,RTHU,NA,0-50m,NA,2,0,0,0,0,2,0,0,0,0,0,0,0,0,0,,Willets resting in osprey platform. Lots of dragonflies
+5,NJ,Lighthouse Center,LHC_04,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,7:30 AM,78,1,2,2,COYE,NA,>100m,NA,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,Willets resting in osprey platform. Lots of dragonflies
+5,NJ,Lighthouse Center,LHC_04,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,7:30 AM,78,1,2,2,CAWR,NA,51-100m,NA,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,Willets resting in osprey platform. Lots of dragonflies
+5,NJ,Lighthouse Center,LHC_04,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,7:30 AM,78,1,2,2,COGR,NA,51-100m,NA,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,Willets resting in osprey platform. Lots of dragonflies
+5,NJ,Lighthouse Center,LHC_04,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,7:30 AM,78,1,2,2,SESP,NA,>100m,NA,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,Willets resting in osprey platform. Lots of dragonflies
+5,NJ,Lighthouse Center,LHC_04,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,7:30 AM,78,1,2,2,PUMA,NA,0-50m,NA,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,Willets resting in osprey platform. Lots of dragonflies
+5,NJ,Lighthouse Center,LHC_04,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,7:30 AM,78,1,2,2,BLJA,NA,51-100m,NA,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,Willets resting in osprey platform. Lots of dragonflies
+5,NJ,Lighthouse Center,LHC_04,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,7:30 AM,78,1,2,2,GREG,NA,51-100m,NA,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,Willets resting in osprey platform. Lots of dragonflies
+5,NJ,Lighthouse Center,LHC_04,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,7:30 AM,78,1,2,2,DCCO,NA,0-50m,NA,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Flying over.,Willets resting in osprey platform. Lots of dragonflies
+5,NJ,Lighthouse Center,LHC_04,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,7:30 AM,78,1,2,2,FICR,NA,0-50m,NA,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,,Willets resting in osprey platform. Lots of dragonflies
+5,NJ,Lighthouse Center,LHC_04,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,7:30 AM,78,1,2,2,CLRA,50,0-50m,Kek-burr,1,0,0,0,0,0,0,0,0,0,0,,X,0,0,Closer to osprey platform.,Willets resting in osprey platform. Lots of dragonflies
+5,NJ,Lighthouse Center,LHC_01,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:00 AM,78,1,2,2,SALS,NA,0-50m,NA,1,0,0,0,0,0,0,0,0,0,0,0,1,0,Before,"Called outside survey period (before survey started). Then called again during survey, so it is out of the traditional order. Did not want to miss a SALS on site.",
+5,NJ,Lighthouse Center,LHC_01,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:00 AM,78,1,2,2,COYE,NA,0-50m,NA,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,,Replaced ARU windscreen. No sign of the NESP from Survey 1. 
+5,NJ,Lighthouse Center,LHC_01,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:00 AM,78,1,2,2,BARS,NA,0-50m,NA,4,3,0,0,0,0,1,0,0,0,0,0,0,0,0,,Replaced ARU windscreen. No sign of the NESP from Survey 1. 
+5,NJ,Lighthouse Center,LHC_01,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:00 AM,78,1,2,2,COYE,NA,51-100m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Replaced ARU windscreen. No sign of the NESP from Survey 1. 
+5,NJ,Lighthouse Center,LHC_01,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:00 AM,78,1,2,2,RWBL,NA,0-50m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,Replaced ARU windscreen. No sign of the NESP from Survey 1. 
+5,NJ,Lighthouse Center,LHC_01,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:00 AM,78,1,2,2,COYE,NA,>100m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Replaced ARU windscreen. No sign of the NESP from Survey 1. 
+5,NJ,Lighthouse Center,LHC_01,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:00 AM,78,1,2,2,RWBL,NA,51-100m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,Replaced ARU windscreen. No sign of the NESP from Survey 1. 
+5,NJ,Lighthouse Center,LHC_01,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:00 AM,78,1,2,2,GLIB,NA,51-100m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,Replaced ARU windscreen. No sign of the NESP from Survey 1. 
+5,NJ,Lighthouse Center,LHC_01,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:00 AM,78,1,2,2,LAGU,NA,0-50m,NA,2,0,0,0,0,2,0,0,0,0,0,0,0,0,0,,Replaced ARU windscreen. No sign of the NESP from Survey 1. 
+5,NJ,Lighthouse Center,LHC_01,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:00 AM,78,1,2,2,CLRA,60,51-100m,Kek-burr,1,0,X,0,X,0,0,0,0,0,0,X,X,X,0,In boat channel area.,Replaced ARU windscreen. No sign of the NESP from Survey 1. 
+5,NJ,Lighthouse Center,LHC_01,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:00 AM,78,1,2,2,WHIB,NA,51-100m,NA,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,,Replaced ARU windscreen. No sign of the NESP from Survey 1. 
+5,NJ,Lighthouse Center,LHC_01,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:00 AM,78,1,2,2,COTE,NA,51-100m,NA,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,Replaced ARU windscreen. No sign of the NESP from Survey 1. 
+5,NJ,Lighthouse Center,LHC_01,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:00 AM,78,1,2,2,FOTE,NA,>100m,NA,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,Replaced ARU windscreen. No sign of the NESP from Survey 1. 
+5,NJ,Lighthouse Center,LHC_01,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:00 AM,78,1,2,2,GREG,NA,>100m,NA,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,,Replaced ARU windscreen. No sign of the NESP from Survey 1. 
+5,NJ,Lighthouse Center,LHC_01,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:00 AM,78,1,2,2,WILL,NA,0-50m,NA,7,0,0,0,7,0,0,0,0,0,0,0,0,0,0,Maybe same as previous survey.,Replaced ARU windscreen. No sign of the NESP from Survey 1. 
+5,NJ,Lighthouse Center,LHC_01,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:00 AM,78,1,2,2,SESP,NA,0-50m,NA,2,0,0,0,0,2,0,0,0,0,0,0,0,0,0,,Replaced ARU windscreen. No sign of the NESP from Survey 1. 
+5,NJ,Lighthouse Center,LHC_01,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:00 AM,78,1,2,2,SESP,NA,51-100m,NA,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,Replaced ARU windscreen. No sign of the NESP from Survey 1. 
+5,NJ,Lighthouse Center,LHC_01,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:00 AM,78,1,2,2,SOSP,NA,>100m,NA,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,Replaced ARU windscreen. No sign of the NESP from Survey 1. 
+5,NJ,Lighthouse Center,LHC_01,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:00 AM,78,1,2,2,SALS,NA,51-100m,NA,2,0,0,0,0,0,0,0,2,0,0,0,0,0,0,Breeding pair? Have a GPS point of them.,Replaced ARU windscreen. No sign of the NESP from Survey 1. 
+5,NJ,Lighthouse Center,LHC_01,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:00 AM,78,1,2,2,SOSP,NA,0-50m,NA,2,0,0,0,0,0,0,0,2,0,0,0,0,0,0,,Replaced ARU windscreen. No sign of the NESP from Survey 1. 
+5,NJ,Lighthouse Center,LHC_01,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:00 AM,78,1,2,2,CLRA,150+,>100m,NA,1,0,0,0,0,0,0,0,0,0,0,0,0,X,0,,Replaced ARU windscreen. No sign of the NESP from Survey 1. 
+5,NJ,Lighthouse Center,LHC_03,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:48 AM,82,0,1,1,GRCA,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_03,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:48 AM,82,0,1,1,NHWR,NA,0-50m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_03,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:48 AM,82,0,1,1,SOSP,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_03,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:48 AM,82,0,1,1,FICR,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_03,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:48 AM,82,0,1,1,SOSP,NA,0-50m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_03,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:48 AM,82,0,1,1,CHSP,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_03,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:48 AM,82,0,1,1,GREG,NA,51-100m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_03,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:48 AM,82,0,1,1,BARS,NA,0-50m,NA,2,1,0,1,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_03,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:48 AM,82,0,1,1,AMCR,NA,0-50m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_03,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:48 AM,82,0,1,1,FOTE,NA,51-100m,NA,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_03,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:48 AM,82,0,1,1,MODO,NA,51-100m,NA,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_03,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:48 AM,82,0,1,1,COYE,NA,51-100m,NA,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_03,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:48 AM,82,0,1,1,HOSP,NA,0-50m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_03,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:48 AM,82,0,1,1,BHCO,NA,0-50m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_03,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:48 AM,82,0,1,1,WBNU,NA,51-100m,NA,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_03,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:48 AM,82,0,1,1,RWBL,NA,0-50m,NA,4,0,0,0,0,1,2,1,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_03,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:48 AM,82,0,1,1,RWBL,NA,51-100m,NA,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_03,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:48 AM,82,0,1,1,COGR,NA,0-50m,NA,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_03,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:48 AM,82,0,1,1,LAGU,NA,0-50m,NA,4,1,0,0,0,0,1,1,1,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_03,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:48 AM,82,0,1,1,CLRA,10,0-50m,Clapper,1,0,0,0,0,0,0,0,0,0,X,0,0,0,0,"Might be a king rail. Did not respond to CLRA calls, only KIRA - very strongly. Not 100% sure on ID. I can't tell them apart well. Located in freshwater impoundment near buildings/trees.",
+5,NJ,Lighthouse Center,LHC_03,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:48 AM,82,0,1,1,TRHE,NA,0-50m,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forgot to mark the count and time. Likely just one.,
+5,NJ,Lighthouse Center,LHC_03,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:48 AM,82,0,1,1,SNEG,NA,0-50m,NA,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Dancing,
+5,NJ,Lighthouse Center,LHC_05,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:20 AM,81,1,1,2,COYE,NA,0-50m,NA,4,3,0,0,0,1,0,0,0,0,0,0,0,0,0,,Marsh pretty quiet. Mostly upland birds
+5,NJ,Lighthouse Center,LHC_05,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:20 AM,81,1,1,2,BARS,NA,0-50m,NA,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,,Marsh pretty quiet. Mostly upland birds
+5,NJ,Lighthouse Center,LHC_05,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:20 AM,81,1,1,2,MODO,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Marsh pretty quiet. Mostly upland birds
+5,NJ,Lighthouse Center,LHC_05,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:20 AM,81,1,1,2,GREG,NA,0-50m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,Marsh pretty quiet. Mostly upland birds
+5,NJ,Lighthouse Center,LHC_05,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:20 AM,81,1,1,2,FICR,NA,0-50m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,Marsh pretty quiet. Mostly upland birds
+5,NJ,Lighthouse Center,LHC_05,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:20 AM,81,1,1,2,GCFL,NA,0-50m,NA,2,1,0,0,1,0,0,0,0,0,0,0,0,0,0,,Marsh pretty quiet. Mostly upland birds
+5,NJ,Lighthouse Center,LHC_05,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:20 AM,81,1,1,2,RWBL,NA,0-50m,NA,4,0,1,3,0,0,0,0,0,0,0,0,0,0,0,,Marsh pretty quiet. Mostly upland birds
+5,NJ,Lighthouse Center,LHC_05,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:20 AM,81,1,1,2,RWBL,NA,51-100m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,Marsh pretty quiet. Mostly upland birds
+5,NJ,Lighthouse Center,LHC_05,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:20 AM,81,1,1,2,LAGU,NA,0-50m,NA,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,,Marsh pretty quiet. Mostly upland birds
+5,NJ,Lighthouse Center,LHC_05,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:20 AM,81,1,1,2,OSPR,NA,0-50m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,Marsh pretty quiet. Mostly upland birds
+5,NJ,Lighthouse Center,LHC_05,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:20 AM,81,1,1,2,COGR,NA,0-50m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,Marsh pretty quiet. Mostly upland birds
+5,NJ,Lighthouse Center,LHC_05,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:20 AM,81,1,1,2,CAWR,NA,51-100m,NA,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,Marsh pretty quiet. Mostly upland birds
+5,NJ,Lighthouse Center,LHC_05,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:20 AM,81,1,1,2,GRCA,NA,0-50m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,Marsh pretty quiet. Mostly upland birds
+5,NJ,Lighthouse Center,LHC_05,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:20 AM,81,1,1,2,EUST,NA,0-50m,NA,30,0,0,0,30,0,0,0,0,0,0,0,0,0,0,30+ flying over,Marsh pretty quiet. Mostly upland birds
+5,NJ,Lighthouse Center,LHC_05,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:20 AM,81,1,1,2,WILL,NA,51-100m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,Marsh pretty quiet. Mostly upland birds
+5,NJ,Lighthouse Center,LHC_05,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:20 AM,81,1,1,2,EAKI,NA,51-100m,NA,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,Marsh pretty quiet. Mostly upland birds
+5,NJ,Lighthouse Center,LHC_05,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:20 AM,81,1,1,2,NOMO,NA,51-100m,NA,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,Marsh pretty quiet. Mostly upland birds
+5,NJ,Lighthouse Center,LHC_05,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:20 AM,81,1,1,2,SNEG,NA,51-100m,NA,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,Marsh pretty quiet. Mostly upland birds
+5,NJ,Lighthouse Center,LHC_05,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:20 AM,81,1,1,2,RBWO,NA,>100m,NA,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,Marsh pretty quiet. Mostly upland birds
+5,NJ,Lighthouse Center,LHC_05,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:20 AM,81,1,1,2,NOCA,NA,>100m,NA,2,0,0,0,0,0,0,0,1,1,0,0,0,0,0,,Marsh pretty quiet. Mostly upland birds
+5,NJ,Lighthouse Center,LHC_05,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:20 AM,81,1,1,2,EAPH,NA,51-100m,NA,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,Marsh pretty quiet. Mostly upland birds
+5,NJ,Lighthouse Center,LHC_05,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:20 AM,81,1,1,2,TUTI,NA,>100m,NA,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,Marsh pretty quiet. Mostly upland birds
+5,NJ,Lighthouse Center,LHC_05,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,8:20 AM,81,1,1,2,SOSP,NA,0-50m,NA,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,,Marsh pretty quiet. Mostly upland birds
+5,NJ,Lighthouse Center,LHC_02,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,9:15 AM,83,0,1,1,FICR,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Site not next to ARU. Also seems to overlap with other points. Trying not to double/triple the counts
+5,NJ,Lighthouse Center,LHC_02,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,9:15 AM,83,0,1,1,BLJA,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Site not next to ARU. Also seems to overlap with other points. Trying not to double/triple the counts
+5,NJ,Lighthouse Center,LHC_02,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,9:15 AM,83,0,1,1,SOSP,NA,0-50m,NA,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,,Site not next to ARU. Also seems to overlap with other points. Trying not to double/triple the counts
+5,NJ,Lighthouse Center,LHC_02,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,9:15 AM,83,0,1,1,WILL,NA,51-100m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Site not next to ARU. Also seems to overlap with other points. Trying not to double/triple the counts
+5,NJ,Lighthouse Center,LHC_02,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,9:15 AM,83,0,1,1,FOTE,NA,0-50m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,Site not next to ARU. Also seems to overlap with other points. Trying not to double/triple the counts
+5,NJ,Lighthouse Center,LHC_02,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,9:15 AM,83,0,1,1,LAGU,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Site not next to ARU. Also seems to overlap with other points. Trying not to double/triple the counts
+5,NJ,Lighthouse Center,LHC_02,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,9:15 AM,83,0,1,1,RWBL,NA,0-50m,NA,3,1,0,1,0,0,0,0,0,1,0,0,0,0,0,,Site not next to ARU. Also seems to overlap with other points. Trying not to double/triple the counts
+5,NJ,Lighthouse Center,LHC_02,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,9:15 AM,83,0,1,1,MALL,NA,0-50m,NA,2,0,0,0,2,0,0,0,0,0,0,0,0,0,0,,Site not next to ARU. Also seems to overlap with other points. Trying not to double/triple the counts
+5,NJ,Lighthouse Center,LHC_02,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,9:15 AM,83,0,1,1,BARS,NA,0-50m,NA,4,0,0,0,0,0,0,0,4,0,0,0,0,0,0,,Site not next to ARU. Also seems to overlap with other points. Trying not to double/triple the counts
+5,NJ,Lighthouse Center,LHC_02,foot,2,May 1-July 15,29-06-2025,KNF,NA,Low,9:15 AM,83,0,1,1,CLRA,NA,0-50m,40,1,0,0,0,0,0,0,0,0,0,0,X,X,X,0,Same CLRA in the boat channel. Not a new individual for the day.,Site not next to ARU. Also seems to overlap with other points. Trying not to double/triple the counts
+5,NJ,Lighthouse Center,LHC_02,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:53 AM,63,4,2,1,COYE,NA,51-100m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_02,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:53 AM,63,4,2,1,SOSP,NA,51-100m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_02,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:53 AM,63,4,2,1,LAGU,NA,0-50m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_02,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:53 AM,63,4,2,1,GREG,NA,51-100m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_02,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:53 AM,63,4,2,1,FOTE,NA,0-50m,NA,3,2,0,0,0,0,0,1,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_02,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:53 AM,63,4,2,1,FOTE,NA,51-100m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_02,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:53 AM,63,4,2,1,SNEG,NA,>100m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_02,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:53 AM,63,4,2,1,WILL,NA,>100m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_02,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:53 AM,63,4,2,1,COYE,NA,>100m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_02,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:53 AM,63,4,2,1,RWBL,NA,0-50m,NA,2,0,1,0,0,1,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_02,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:53 AM,63,4,2,1,SOSP,NA,0-50m,NA,2,0,0,1,0,1,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_02,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:53 AM,63,4,2,1,COGR,NA,0-50m,NA,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_02,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:53 AM,63,4,2,1,LAGU,NA,51-100m,NA,3,0,0,1,0,0,0,0,0,0,2,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_02,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:53 AM,63,4,2,1,WHIB,NA,0-50m,NA,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_02,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:53 AM,63,4,2,1,RBGU,NA,0-50m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_02,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:53 AM,63,4,2,1,WILL,NA,51-100m,NA,3,0,0,0,3,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_02,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:53 AM,63,4,2,1,BARS,NA,51-100m,NA,2,0,0,0,0,2,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_02,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:53 AM,63,4,2,1,ROPI,NA,51-100m,NA,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_02,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:53 AM,63,4,2,1,SNEG,NA,0-50m,NA,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_02,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:53 AM,63,4,2,1,AHGU,NA,0-50m,NA,2,0,0,0,0,0,0,0,1,1,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_02,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:53 AM,63,4,2,1,TRHE,NA,51-100m,NA,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Probably the same as from the mudflat.,
+5,NJ,Lighthouse Center,LHC_02,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:53 AM,63,4,2,1,RBWO,NA,>100m,NA,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,
+5,NJ,Lighthouse Center,LHC_02,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:53 AM,63,4,2,1,EUST,NA,0-50m,NA,7,0,0,0,0,0,0,0,0,0,0,0,0,7,0,Probably some of the same starlings as the former survey.,
+5,NJ,Lighthouse Center,LHC_03,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:26 AM,62,4,1,2,SOSP,NA,0-50m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,MusiBaby audio jack dislodged. Using BT setting instead with my phone. Rest of surveys will also use BT + phone.
+5,NJ,Lighthouse Center,LHC_03,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:26 AM,62,4,1,2,GRCA,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,MusiBaby audio jack dislodged. Using BT setting instead with my phone. Rest of surveys will also use BT + phone.
+5,NJ,Lighthouse Center,LHC_03,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:26 AM,62,4,1,2,BARS,NA,0-50m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,MusiBaby audio jack dislodged. Using BT setting instead with my phone. Rest of surveys will also use BT + phone.
+5,NJ,Lighthouse Center,LHC_03,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:26 AM,62,4,1,2,COYE,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,MusiBaby audio jack dislodged. Using BT setting instead with my phone. Rest of surveys will also use BT + phone.
+5,NJ,Lighthouse Center,LHC_03,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:26 AM,62,4,1,2,RWBL,NA,51-100m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,MusiBaby audio jack dislodged. Using BT setting instead with my phone. Rest of surveys will also use BT + phone.
+5,NJ,Lighthouse Center,LHC_03,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:26 AM,62,4,1,2,EUST,NA,51-100m,NA,30,30,0,0,0,0,0,0,0,0,0,0,0,0,0,30+,MusiBaby audio jack dislodged. Using BT setting instead with my phone. Rest of surveys will also use BT + phone.
+5,NJ,Lighthouse Center,LHC_03,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:26 AM,62,4,1,2,COYE,NA,51-100m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,MusiBaby audio jack dislodged. Using BT setting instead with my phone. Rest of surveys will also use BT + phone.
+5,NJ,Lighthouse Center,LHC_03,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:26 AM,62,4,1,2,YEWA,NA,0-50m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,MusiBaby audio jack dislodged. Using BT setting instead with my phone. Rest of surveys will also use BT + phone.
+5,NJ,Lighthouse Center,LHC_03,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:26 AM,62,4,1,2,CHSP,NA,0-50m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,MusiBaby audio jack dislodged. Using BT setting instead with my phone. Rest of surveys will also use BT + phone.
+5,NJ,Lighthouse Center,LHC_03,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:26 AM,62,4,1,2,COYE,NA,>100m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,MusiBaby audio jack dislodged. Using BT setting instead with my phone. Rest of surveys will also use BT + phone.
+5,NJ,Lighthouse Center,LHC_03,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:26 AM,62,4,1,2,LAGU,NA,0-50m,NA,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,,MusiBaby audio jack dislodged. Using BT setting instead with my phone. Rest of surveys will also use BT + phone.
+5,NJ,Lighthouse Center,LHC_03,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:26 AM,62,4,1,2,TRES,NA,0-50m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,MusiBaby audio jack dislodged. Using BT setting instead with my phone. Rest of surveys will also use BT + phone.
+5,NJ,Lighthouse Center,LHC_03,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:26 AM,62,4,1,2,MODO,NA,51-100m,NA,4,0,0,2,0,0,2,0,0,0,0,0,0,0,0,,MusiBaby audio jack dislodged. Using BT setting instead with my phone. Rest of surveys will also use BT + phone.
+5,NJ,Lighthouse Center,LHC_03,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:26 AM,62,4,1,2,FICR,NA,51-100m,NA,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,,MusiBaby audio jack dislodged. Using BT setting instead with my phone. Rest of surveys will also use BT + phone.
+5,NJ,Lighthouse Center,LHC_03,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:26 AM,62,4,1,2,YEWA,NA,51-100m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,MusiBaby audio jack dislodged. Using BT setting instead with my phone. Rest of surveys will also use BT + phone.
+5,NJ,Lighthouse Center,LHC_03,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:26 AM,62,4,1,2,NOCA,NA,51-100m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,MusiBaby audio jack dislodged. Using BT setting instead with my phone. Rest of surveys will also use BT + phone.
+5,NJ,Lighthouse Center,LHC_03,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:26 AM,62,4,1,2,HOFI,NA,>100m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,MusiBaby audio jack dislodged. Using BT setting instead with my phone. Rest of surveys will also use BT + phone.
+5,NJ,Lighthouse Center,LHC_03,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:26 AM,62,4,1,2,FOTE,NA,51-100m,NA,2,0,0,0,2,0,0,0,0,0,0,0,0,0,0,,MusiBaby audio jack dislodged. Using BT setting instead with my phone. Rest of surveys will also use BT + phone.
+5,NJ,Lighthouse Center,LHC_03,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:26 AM,62,4,1,2,GREG,NA,>100m,NA,2,0,0,0,1,1,0,0,0,0,0,0,0,0,0,,MusiBaby audio jack dislodged. Using BT setting instead with my phone. Rest of surveys will also use BT + phone.
+5,NJ,Lighthouse Center,LHC_03,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:26 AM,62,4,1,2,WILL,NA,>100m,NA,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,MusiBaby audio jack dislodged. Using BT setting instead with my phone. Rest of surveys will also use BT + phone.
+5,NJ,Lighthouse Center,LHC_03,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:26 AM,62,4,1,2,COGR,NA,>100m,NA,11,0,0,0,0,1,0,10,0,0,0,0,0,0,0,10+,MusiBaby audio jack dislodged. Using BT setting instead with my phone. Rest of surveys will also use BT + phone.
+5,NJ,Lighthouse Center,LHC_03,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:26 AM,62,4,1,2,CAWR,NA,>100m,NA,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,MusiBaby audio jack dislodged. Using BT setting instead with my phone. Rest of surveys will also use BT + phone.
+5,NJ,Lighthouse Center,LHC_03,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:26 AM,62,4,1,2,AMRO,NA,>100m,NA,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,MusiBaby audio jack dislodged. Using BT setting instead with my phone. Rest of surveys will also use BT + phone.
+5,NJ,Lighthouse Center,LHC_03,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:26 AM,62,4,1,2,CHSP,NA,>100m,NA,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,MusiBaby audio jack dislodged. Using BT setting instead with my phone. Rest of surveys will also use BT + phone.
+5,NJ,Lighthouse Center,LHC_03,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:26 AM,62,4,1,2,RBWO,NA,>100m,NA,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,MusiBaby audio jack dislodged. Using BT setting instead with my phone. Rest of surveys will also use BT + phone.
+5,NJ,Lighthouse Center,LHC_03,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:26 AM,62,4,1,2,AHGU,NA,>100m,NA,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,,MusiBaby audio jack dislodged. Using BT setting instead with my phone. Rest of surveys will also use BT + phone.
+5,NJ,Lighthouse Center,LHC_03,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:26 AM,62,4,1,2,WILL,NA,0-50m,NA,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,,MusiBaby audio jack dislodged. Using BT setting instead with my phone. Rest of surveys will also use BT + phone.
+5,NJ,Lighthouse Center,LHC_03,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:26 AM,62,4,1,2,MALL,NA,NA,NA,2,0,0,0,0,0,0,0,0,0,0,0,0,0,2,,MusiBaby audio jack dislodged. Using BT setting instead with my phone. Rest of surveys will also use BT + phone.
+5,NJ,Lighthouse Center,LHC_03,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,8:26 AM,62,4,1,2,SNEG,NA,0-50m,NA,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,MusiBaby audio jack dislodged. Using BT setting instead with my phone. Rest of surveys will also use BT + phone.
+5,NJ,Lighthouse Center,LHC_01,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:30 AM,63,4,1,1,WILL,NA,0-50m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,Late season NESP due to colder weather? Next to ARU
+5,NJ,Lighthouse Center,LHC_01,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:30 AM,63,4,1,1,SESP,NA,0-50m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,Late season NESP due to colder weather? Next to ARU
+5,NJ,Lighthouse Center,LHC_01,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:30 AM,63,4,1,1,COYE,NA,51-100m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,Late season NESP due to colder weather? Next to ARU
+5,NJ,Lighthouse Center,LHC_01,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:30 AM,63,4,1,1,SESP,NA,0-50m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,Late season NESP due to colder weather? Next to ARU
+5,NJ,Lighthouse Center,LHC_01,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:30 AM,63,4,1,1,RWBL,NA,0-50m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,Late season NESP due to colder weather? Next to ARU
+5,NJ,Lighthouse Center,LHC_01,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:30 AM,63,4,1,1,LAGU,NA,0-50m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,Late season NESP due to colder weather? Next to ARU
+5,NJ,Lighthouse Center,LHC_01,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:30 AM,63,4,1,1,SESP,NA,51-100m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,Late season NESP due to colder weather? Next to ARU
+5,NJ,Lighthouse Center,LHC_01,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:30 AM,63,4,1,1,NESP,30,0-50m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Late season NESP! Vocalizing,Late season NESP due to colder weather? Next to ARU
+5,NJ,Lighthouse Center,LHC_01,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:30 AM,63,4,1,1,SNEG,NA,0-50m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Flying over.,Late season NESP due to colder weather? Next to ARU
+5,NJ,Lighthouse Center,LHC_01,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:30 AM,63,4,1,1,BARS,NA,0-50m,NA,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,"Maybe same BARS, definitely some are new",Late season NESP due to colder weather? Next to ARU
+5,NJ,Lighthouse Center,LHC_01,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:30 AM,63,4,1,1,LBHE,NA,0-50m,NA,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,Late season NESP due to colder weather? Next to ARU
+5,NJ,Lighthouse Center,LHC_01,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:30 AM,63,4,1,1,COTE,NA,51-100m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,Late season NESP due to colder weather? Next to ARU
+5,NJ,Lighthouse Center,LHC_01,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:30 AM,63,4,1,1,RWBL,NA,>100m,NA,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,Late season NESP due to colder weather? Next to ARU
+5,NJ,Lighthouse Center,LHC_01,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:30 AM,63,4,1,1,CAWR,NA,51-100m,NA,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,Late season NESP due to colder weather? Next to ARU
+5,NJ,Lighthouse Center,LHC_01,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:30 AM,63,4,1,1,SNEG,NA,51-100m,NA,2,0,0,0,0,0,0,2,0,0,0,0,0,0,0,,Late season NESP due to colder weather? Next to ARU
+5,NJ,Lighthouse Center,LHC_01,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:30 AM,63,4,1,1,CAGO,NA,>100m,NA,2,0,0,0,0,0,0,0,2,0,0,0,0,0,0,,Late season NESP due to colder weather? Next to ARU
+5,NJ,Lighthouse Center,LHC_01,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:30 AM,63,4,1,1,AMCR,NA,>100m,NA,2,0,0,0,0,0,0,0,0,1,1,0,0,0,0,,Late season NESP due to colder weather? Next to ARU
+5,NJ,Lighthouse Center,LHC_01,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:30 AM,63,4,1,1,TRHE,NA,0-50m,NA,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,Late season NESP due to colder weather? Next to ARU
+5,NJ,Lighthouse Center,LHC_01,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:30 AM,63,4,1,1,WHIB,NA,51-100m,NA,7,0,0,0,0,0,0,0,0,6,0,0,0,0,1,,Late season NESP due to colder weather? Next to ARU
+5,NJ,Lighthouse Center,LHC_01,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:30 AM,63,4,1,1,CEWA,NA,0-50m,NA,3,0,0,0,0,0,0,0,0,0,3,0,0,0,0,,Late season NESP due to colder weather? Next to ARU
+5,NJ,Lighthouse Center,LHC_01,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:30 AM,63,4,1,1,FICR,NA,>100m,NA,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,,Late season NESP due to colder weather? Next to ARU
+5,NJ,Lighthouse Center,LHC_01,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:30 AM,63,4,1,1,FOTE,NA,>100m,NA,2,0,0,0,0,0,0,0,0,0,0,0,2,0,0,,Late season NESP due to colder weather? Next to ARU
+5,NJ,Lighthouse Center,LHC_01,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:30 AM,63,4,1,1,EUST,NA,>100m,NA,7,0,0,0,0,0,0,0,0,0,0,0,0,7,0,,Late season NESP due to colder weather? Next to ARU
+5,NJ,Lighthouse Center,LHC_04,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:57 AM,61,4,2,2,COYE,NA,>100m,NA,2,1,0,1,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_04,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:57 AM,61,4,2,2,SOSP,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_04,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:57 AM,61,4,2,2,RWBL,NA,0-50m,NA,4,1,0,1,0,0,0,0,0,0,0,0,2,0,0,,
+5,NJ,Lighthouse Center,LHC_04,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:57 AM,61,4,2,2,RWBL,NA,51-100m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_04,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:57 AM,61,4,2,2,BLJA,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_04,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:57 AM,61,4,2,2,WILL,NA,0-50m,NA,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_04,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:57 AM,61,4,2,2,GREG,NA,51-100m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_04,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:57 AM,61,4,2,2,SESP,NA,0-50m,NA,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_04,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:57 AM,61,4,2,2,GLIB,NA,0-50m,NA,2,1,0,0,0,0,0,0,0,0,0,0,0,0,1,One before survey,
+5,NJ,Lighthouse Center,LHC_04,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:57 AM,61,4,2,2,BARS,NA,0-50m,NA,6,1,4,0,1,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_04,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:57 AM,61,4,2,2,NOCA,NA,0-50m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_04,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:57 AM,61,4,2,2,WILL,NA,51-100m,NA,4,0,1,0,0,1,0,0,0,0,0,2,0,0,0,,
+5,NJ,Lighthouse Center,LHC_04,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:57 AM,61,4,2,2,MODO,NA,>100m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_04,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:57 AM,61,4,2,2,SESP,NA,51-100m,NA,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_04,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:57 AM,61,4,2,2,RBGU,NA,0-50m,NA,2,0,0,1,0,0,0,0,0,0,0,0,1,0,0,,
+5,NJ,Lighthouse Center,LHC_04,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:57 AM,61,4,2,2,NRWS,NA,0-50m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_04,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:57 AM,61,4,2,2,GBHE,NA,>100m,NA,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_04,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:57 AM,61,4,2,2,GRHE,NA,0-50m,NA,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Exact same spot as in 2023,
+5,NJ,Lighthouse Center,LHC_04,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:57 AM,61,4,2,2,ROYT,NA,0-50m,NA,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Big terns, light orange bill",
+5,NJ,Lighthouse Center,LHC_04,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:57 AM,61,4,2,2,AMRO,NA,0-50m,NA,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_04,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:57 AM,61,4,2,2,GCFL,NA,0-50m,NA,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,
+5,NJ,Lighthouse Center,LHC_04,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:57 AM,61,4,2,2,FICR,NA,51-100m,NA,2,0,0,0,0,0,0,0,0,0,0,2,0,0,0,,
+5,NJ,Lighthouse Center,LHC_04,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,6:57 AM,61,4,2,2,HOSP,NA,0-50m,NA,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,,
+5,NJ,Lighthouse Center,LHC_05,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,5:56 AM,62,4,1,1,COYE,NA,51-100m,NA,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,,Visibility past 50m obscured by fog. Relying on sound >50m. Flying bird field marks difficult to ID. 
+5,NJ,Lighthouse Center,LHC_05,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,5:56 AM,62,4,1,1,GRCA,NA,0-50m,NA,2,1,0,0,0,0,0,1,0,0,0,0,0,0,0,,Visibility past 50m obscured by fog. Relying on sound >50m. Flying bird field marks difficult to ID. 
+5,NJ,Lighthouse Center,LHC_05,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,5:56 AM,62,4,1,1,COYE,NA,0-50m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,Visibility past 50m obscured by fog. Relying on sound >50m. Flying bird field marks difficult to ID. 
+5,NJ,Lighthouse Center,LHC_05,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,5:56 AM,62,4,1,1,RWBL,NA,0-50m,NA,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,,Visibility past 50m obscured by fog. Relying on sound >50m. Flying bird field marks difficult to ID. 
+5,NJ,Lighthouse Center,LHC_05,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,5:56 AM,62,4,1,1,RWBL,NA,51-100m,NA,4,0,2,2,0,0,0,0,0,0,0,0,0,0,0,,Visibility past 50m obscured by fog. Relying on sound >50m. Flying bird field marks difficult to ID. 
+5,NJ,Lighthouse Center,LHC_05,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,5:56 AM,62,4,1,1,MODO,NA,>100m,NA,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,Visibility past 50m obscured by fog. Relying on sound >50m. Flying bird field marks difficult to ID. 
+5,NJ,Lighthouse Center,LHC_05,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,5:56 AM,62,4,1,1,WILL,NA,>100m,NA,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Flying over.,Visibility past 50m obscured by fog. Relying on sound >50m. Flying bird field marks difficult to ID. 
+5,NJ,Lighthouse Center,LHC_05,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,5:56 AM,62,4,1,1,MALL,NA,0-50m,NA,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,Visibility past 50m obscured by fog. Relying on sound >50m. Flying bird field marks difficult to ID. 
+5,NJ,Lighthouse Center,LHC_05,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,5:56 AM,62,4,1,1,CAWR,NA,51-100m,NA,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,Visibility past 50m obscured by fog. Relying on sound >50m. Flying bird field marks difficult to ID. 
+5,NJ,Lighthouse Center,LHC_05,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,5:56 AM,62,4,1,1,GRCA,NA,51-100m,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,Visibility past 50m obscured by fog. Relying on sound >50m. Flying bird field marks difficult to ID. 
+5,NJ,Lighthouse Center,LHC_05,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,5:56 AM,62,4,1,1,COYE,NA,>100m,NA,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,Visibility past 50m obscured by fog. Relying on sound >50m. Flying bird field marks difficult to ID. 
+5,NJ,Lighthouse Center,LHC_05,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,5:56 AM,62,4,1,1,FICR,NA,>100m,NA,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,Visibility past 50m obscured by fog. Relying on sound >50m. Flying bird field marks difficult to ID. 
+5,NJ,Lighthouse Center,LHC_05,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,5:56 AM,62,4,1,1,CHSP,NA,>100m,NA,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,Visibility past 50m obscured by fog. Relying on sound >50m. Flying bird field marks difficult to ID. 
+5,NJ,Lighthouse Center,LHC_05,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,5:56 AM,62,4,1,1,BARS,NA,0-50m,NA,3,0,0,0,0,0,0,3,0,0,0,0,0,0,0,,Visibility past 50m obscured by fog. Relying on sound >50m. Flying bird field marks difficult to ID. 
+5,NJ,Lighthouse Center,LHC_05,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,5:56 AM,62,4,1,1,LAGU,NA,0-50m,NA,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,Visibility past 50m obscured by fog. Relying on sound >50m. Flying bird field marks difficult to ID. 
+5,NJ,Lighthouse Center,LHC_05,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,5:56 AM,62,4,1,1,MODO,NA,0-50m,NA,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,,Visibility past 50m obscured by fog. Relying on sound >50m. Flying bird field marks difficult to ID. 
+5,NJ,Lighthouse Center,LHC_05,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,5:56 AM,62,4,1,1,GREG,NA,>100m,NA,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,,Visibility past 50m obscured by fog. Relying on sound >50m. Flying bird field marks difficult to ID. 
+5,NJ,Lighthouse Center,LHC_05,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,5:56 AM,62,4,1,1,NHWR,NA,51-100m,NA,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,,Visibility past 50m obscured by fog. Relying on sound >50m. Flying bird field marks difficult to ID. 
+5,NJ,Lighthouse Center,LHC_05,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,5:56 AM,62,4,1,1,GCFL,NA,51-100m,NA,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,,Visibility past 50m obscured by fog. Relying on sound >50m. Flying bird field marks difficult to ID. 
+5,NJ,Lighthouse Center,LHC_05,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,5:56 AM,62,4,1,1,CLRA,80,51-100m,NA,1,0,0,0,0,0,0,0,0,0,,X,0,0,0,,Visibility past 50m obscured by fog. Relying on sound >50m. Flying bird field marks difficult to ID. 
+5,NJ,Lighthouse Center,LHC_05,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,5:56 AM,62,4,1,1,LAGU,NA,>100m,NA,2,0,0,0,0,0,0,0,0,0,0,2,0,0,0,,Visibility past 50m obscured by fog. Relying on sound >50m. Flying bird field marks difficult to ID. 
+5,NJ,Lighthouse Center,LHC_05,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,5:56 AM,62,4,1,1,TUTI,NA,>100m,NA,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,,Visibility past 50m obscured by fog. Relying on sound >50m. Flying bird field marks difficult to ID. 
+5,NJ,Lighthouse Center,LHC_05,foot,1,May 1-July 15,17-06-2025,KNF,NA,High/Falling,5:56 AM,62,4,1,1,CEWA,NA,>100m,NA,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,,Visibility past 50m obscured by fog. Relying on sound >50m. Flying bird field marks difficult to ID. 
+5,NJ,Lighthouse Center,LHC_06,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,7:42 AM,61,4,2,2,SOSP,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,"Good visibility past the flag, even with the fog. All species seen."
+5,NJ,Lighthouse Center,LHC_06,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,7:42 AM,61,4,2,2,BARS,NA,0-50m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,"Good visibility past the flag, even with the fog. All species seen."
+5,NJ,Lighthouse Center,LHC_06,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,7:42 AM,61,4,2,2,FOTE,NA,0-50m,NA,5,1,0,0,0,0,0,0,4,0,0,0,0,0,0,,"Good visibility past the flag, even with the fog. All species seen."
+5,NJ,Lighthouse Center,LHC_06,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,7:42 AM,61,4,2,2,LAGU,NA,0-50m,NA,9,0,9,0,0,0,0,0,0,0,0,0,0,0,0,,"Good visibility past the flag, even with the fog. All species seen."
+5,NJ,Lighthouse Center,LHC_06,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,7:42 AM,61,4,2,2,SNEG,NA,0-50m,NA,10,0,10,0,0,0,0,0,0,0,0,0,0,0,0,,"Good visibility past the flag, even with the fog. All species seen."
+5,NJ,Lighthouse Center,LHC_06,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,7:42 AM,61,4,2,2,TRHE,NA,0-50m,NA,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,,"Good visibility past the flag, even with the fog. All species seen."
+5,NJ,Lighthouse Center,LHC_06,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,7:42 AM,61,4,2,2,CAWR,NA,51-100m,NA,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,"Good visibility past the flag, even with the fog. All species seen."
+5,NJ,Lighthouse Center,LHC_06,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,7:42 AM,61,4,2,2,WHIB,NA,51-100m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,"Good visibility past the flag, even with the fog. All species seen."
+5,NJ,Lighthouse Center,LHC_06,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,7:42 AM,61,4,2,2,GLIB,NA,51-100m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,"Good visibility past the flag, even with the fog. All species seen."
+5,NJ,Lighthouse Center,LHC_06,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,7:42 AM,61,4,2,2,SNEG,NA,51-100m,NA,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,"Good visibility past the flag, even with the fog. All species seen."
+5,NJ,Lighthouse Center,LHC_06,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,7:42 AM,61,4,2,2,DCCO,NA,0-50m,NA,8,0,0,8,0,0,0,0,0,0,0,0,0,0,0,,"Good visibility past the flag, even with the fog. All species seen."
+5,NJ,Lighthouse Center,LHC_06,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,7:42 AM,61,4,2,2,FOTE,NA,51-100m,NA,6,0,0,0,6,0,0,0,0,0,0,0,0,0,0,,"Good visibility past the flag, even with the fog. All species seen."
+5,NJ,Lighthouse Center,LHC_06,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,7:42 AM,61,4,2,2,RWBL,NA,0-50m,NA,6,0,0,0,1,0,5,0,0,0,0,0,0,0,0,,"Good visibility past the flag, even with the fog. All species seen."
+5,NJ,Lighthouse Center,LHC_06,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,7:42 AM,61,4,2,2,RBGU,NA,0-50m,NA,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,"Good visibility past the flag, even with the fog. All species seen."
+5,NJ,Lighthouse Center,LHC_06,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,7:42 AM,61,4,2,2,COYE,NA,51-100m,NA,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,"Good visibility past the flag, even with the fog. All species seen."
+5,NJ,Lighthouse Center,LHC_06,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,7:42 AM,61,4,2,2,NOMO,NA,51-100m,NA,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,"Good visibility past the flag, even with the fog. All species seen."
+5,NJ,Lighthouse Center,LHC_06,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,7:42 AM,61,4,2,2,AHGU,NA,0-50m,NA,3,0,0,0,0,0,0,3,0,0,0,0,0,0,0,,"Good visibility past the flag, even with the fog. All species seen."
+5,NJ,Lighthouse Center,LHC_06,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,7:42 AM,61,4,2,2,AHGU,NA,51-100m,NA,3,0,0,0,0,0,0,3,0,0,0,0,0,0,0,,"Good visibility past the flag, even with the fog. All species seen."
+5,NJ,Lighthouse Center,LHC_06,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,7:42 AM,61,4,2,2,LAGU,NA,>100m,NA,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,"Good visibility past the flag, even with the fog. All species seen."
+5,NJ,Lighthouse Center,LHC_06,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,7:42 AM,61,4,2,2,MODO,NA,>100m,NA,2,0,0,0,0,0,0,2,0,0,0,0,0,0,0,,"Good visibility past the flag, even with the fog. All species seen."
+5,NJ,Lighthouse Center,LHC_06,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,7:42 AM,61,4,2,2,SNEG,NA,>100m,NA,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,"Good visibility past the flag, even with the fog. All species seen."
+5,NJ,Lighthouse Center,LHC_06,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,7:42 AM,61,4,2,2,MUSW,NA,0-50m,NA,2,0,0,0,0,0,0,0,2,0,0,0,0,0,0,,"Good visibility past the flag, even with the fog. All species seen."
+5,NJ,Lighthouse Center,LHC_06,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,7:42 AM,61,4,2,2,WILL,NA,>100m,NA,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,,"Good visibility past the flag, even with the fog. All species seen."
+5,NJ,Lighthouse Center,LHC_06,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,7:42 AM,61,4,2,2,COGR,NA,51-100m,NA,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,,"Good visibility past the flag, even with the fog. All species seen."
+5,NJ,Lighthouse Center,LHC_06,foot,1,May 1-July 15,17-06-2025,KNF,NA,Low/Falling,7:42 AM,61,4,2,2,GREG,NA,51-100m,NA,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Flying over.,"Good visibility past the flag, even with the fog. All species seen."

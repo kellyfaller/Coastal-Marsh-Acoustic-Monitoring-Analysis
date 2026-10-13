@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:04bffca526e243e707c8e321341c87dc63468d332199dae2611505928cce33f3
-size 2148
+﻿deployment_id,serial_number,unit,sd_card,year,site,station,date_deployed,notes,retrieval_notes,final_recording_date,lat,long,easting,northing,arbimon_upload_date,hd_upload_date
+1,S6964,Unit1,6,2024,Cattus_Island,CAT_A1,6/28/2024,Area 1,,,39.988742,-74.118658,575214.4833,4426907.958,,
+2,S6960,Unit2,2,2024,Cattus_Island,CAT_A2,6/28/2024,Area 2,,,39.986661,-74.12237,574960.544,4426683.447,,
+3,S6961,Unit3,3,2024,Cattus_Island,CAT_A3,6/28/2024,Area behind Cooper Env Center. lost mic cover,,,39.983,-74.12743,574111.09,4426231.118,,
+4,S6962,Unit4,4,2024,Lighthouse_Center ,LHC_01,6/28/2024,Mudflat area,,,39.771887,-74.191474,569372.1932,4402654.669,,
+5,S6963,Unit5,5,2024,Lighthouse_Center ,LHC_02,6/28/2024,salt marsh area. lost mic cover,,,39.769754,-74.191575,569202.9044,4402431.146,,
+6,S6962,Unit4,D,2025,Cattus_Island,CAT_A1,6/3/2025,Area 1- 2025 deployment,,9/4/2025,39.988746,-74.118673,575214.4833,4426907.958,12/27/2025,12/27/2025
+7,S6960,Unit2,B,2025,Cattus_Island,CAT_A4,6/3/2025,Area 4 - 2025 deployment,,9/4/2025,39.983966,-74.126293,574622.2976,4426347.114,12/27/2025,12/27/2025
+8,S6964,Unit1,A,2025,Lighthouse_Center ,LHC_01,6/5/2025,LHC mudflat impoundment area,,9/5/2025,39.771887,-74.191474,569372.1932,4402654.669,12/27/2025,12/27/2025
+9,S6961,Unit3,C,2025,Lighthouse_Center ,LHC_02,6/5/2025,LHC southern Marsh area. no mic cover,Shot with a shotgun,NA,39.769754,-74.191575,569202.9044,4402431.146,NA,NA
+10,S6964,Unit1,14,2026,Lighthouse_Center ,LHC_02,6/5/2026,LHC southern marsh. Lat long taken from Arbimon and are generalized,Had error code - data seems fine. No mic cover,9/5/2026,39.984,-74.192,,,9/19/2026,9/19/2026
+11,S6960,Unit2,12,2026,Lighthouse_Center ,LHC_03,6/5/2026,Mudflat - slightly moved closer to flat. Considering a new point ,No mic cover,9/5/2026,39.77152704,-74.19004464,,,9/19/2026,9/19/2026
+12,S6962,Unit4,1,2026,Cattus_Island,CAT_05,6/5/2026,New site. Should name it ,,9/6/2026,39.989347,-74.120684,,,9/19/2026,9/19/2026
+13,S8758,Unit5,18,2026,Cattus_Island,CAT_06,6/6/2026,New site. Should name it. Patens/distichlis,No mic cover,8/14/2026,39.99215864,-74.11623,,,9/19/2026,9/19/2026

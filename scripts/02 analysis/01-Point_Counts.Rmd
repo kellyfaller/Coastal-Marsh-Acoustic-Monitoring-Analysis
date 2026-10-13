@@ -83,7 +83,9 @@ point_counts_2026_raw <- point_counts_all_raw %>% dplyr::filter(Year == 2026)
 The same formatting steps get run on point_counts_2025, point_counts_2026, and point_counts_all, so they are written as functions once and then applied to each dataset. That way a fix only has to be made in one place.
 
 ```{r Formatting, include=FALSE}
-# Species codes that showed up in the 2026 data but aren't in spp_lookup_table.csv yet. These are my best guess at the habitat category - CHECK THEM and then add them to the lookup table csv (anything already in the csv wins over this list, so once they're in the csv this list does nothing). GRFL and VOYE aren't standard 4-letter codes and are left as "Unclassified" until they're checked on the datasheet.
+# Species codes that aren't in spp_lookup_table.csv yet, with a habitat category (anything already in the csv wins over this
+# list, so once they're in the csv this list does nothing). Codes written wrongly on a datasheet (VOYE, GRFL, ...) are fixed
+# with alpha_code_synonyms in configs/project.yml instead.
 habitat_additions <- tibble::tribble(
   ~AlphaCode, ~Habitat,
   "AMGO", "Upland",        # American Goldfinch
@@ -110,7 +112,7 @@ habitat_additions <- tibble::tribble(
   "INBU", "Upland",        # Indigo Bunting
   "PEFA", "Upland/Marsh",  # Peregrine Falcon
   "SAND", "Marsh",         # Sanderling
-  "SWSP", "Upland/Marsh",  # Swamp Sparrow
+  "SWSP", "Marsh",         # Swamp Sparrow
   "TUVU", "Upland",        # Turkey Vulture
   "YBCH", "Upland")        # Yellow-breasted Chat
 # SEPA (4 birds, LHC_06, 2024) isn't a standard code - probably Semipalmated Plover (SEPL). Check the datasheet; left Unclassified.

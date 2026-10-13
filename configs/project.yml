@@ -44,6 +44,8 @@ params:
     HEGU: "AHGU"   # Herring Gull -> American Herring Gull (used on the 2025-2026 sheets)
     EWPE: "EAWP"   # Eastern Wood-Pewee (EAWP is the standard code)
     CAWR: "CARW"   # Carolina Wren (CARW is the standard code; the 2023-2024 LHC file uses CARW)
+    VOYE: "COYE"   # Common Yellowthroat (datasheet slip, Cattus 2026)
+    GRFL: "GCFL"   # Great Crested Flycatcher (Cattus 2026)
   # Observer initials written differently on different datasheets -> one name per person
   observer_aliases:
     KF: "KNF"      # Kelly Faller (2023 LHC database) = KNF on the 2025-2026 sheets

@@ -81,17 +81,17 @@ build_species_crosswalk <- function(cfg, extra = NULL) {
 
 # ---- Point counts ---------------------------------------------------------------------------------
 
-# Long-format point counts for every year in project.yml (any path named <site>_<year>_pc). Same fixes as the
-# point count notebook: both date formats, year from the file name, numeric counts.
+# Long-format point counts for every file listed in project.yml (any path ending in _pc), read with the same cleaning as
+# the point count notebook (R/point_count_functions.R): "." = missing, consistent site/point names, both date formats,
+# year from the file name for single-season files or from the survey date for multi-season files (e.g. LHC 2023-2024).
 read_point_counts_thesis <- function(cfg) {
+  source(here::here("R", "point_count_functions.R"), local = TRUE)
   tz <- cfg$params$timezone
-  pc_paths <- cfg$pc$paths[grepl("_\\d{4}_pc$", names(cfg$pc$paths))]
-  pc <- purrr::imap_dfr(pc_paths, function(p, nm) {
-    read_csv_text(p) %>% dplyr::mutate(Year = as.integer(stringr::str_extract(nm, "\\d{4}")))
-  }) %>%
-    dplyr::rename(Point_ID = `Point ID`) %>%
+  pc <- read_all_point_counts(cfg$pc$paths, code_synonyms = cfg$pc$params$alpha_code_synonyms,
+                              observer_aliases = cfg$pc$params$observer_aliases) %>%
     dplyr::mutate(
-      SurveyDate = dplyr::if_else(grepl("/", SurveyDate), lubridate::mdy(SurveyDate, quiet = TRUE), lubridate::dmy(SurveyDate, quiet = TRUE)),
+      Year       = as.integer(Year),
+      SurveyDate = parse_survey_date(SurveyDate),
       Datetime   = lubridate::parse_date_time(paste(SurveyDate, SurveyTime), orders = c("Ymd IMp", "Ymd HMS", "Ymd HM"), tz = tz),
       TotalCount = suppressWarnings(as.numeric(TotalCount)),
       VisitNum   = as.integer(VisitNum))

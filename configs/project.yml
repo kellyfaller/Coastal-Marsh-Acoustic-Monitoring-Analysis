@@ -8,6 +8,7 @@ paths:
   cattus_2026_pc: "data/point_count/Cattus_2026_Point_Count_Data_KFaller.csv"
   lhc_2025_pc: "data/point_count/LHC_2025_Point_Count_Data_KFaller.csv"
   lhc_2026_pc: "data/point_count/LHC_2026_Point_Count_Data_KFaller.csv"  
+  lhc_2023_2024_pc: "data/point_count/LHC_point_count_db_1-8-25_KRipple.csv"  # LHC 2023 + 2024 (K. Ripple); year comes from the survey dates
   site_metadata: "data/metadata/pointcount_site_metadata.csv"
   habitat_lookup: "data/point_count/spp_lookup_table.csv"
   # birdNET
@@ -28,13 +29,24 @@ params:
   year_one: 2024
   year_two: 2025
   year_three: 2026
+  compare_years: [2025, 2026]   # the two years the year-to-year comparisons use (both sites surveyed)
+  trend_site: "Lighthouse Center" # site with a longer record (2023-2026) for the multi-year trend section
  # point count analysis
   individual_birds: ["CLRA","BLRA","LEBI","AMBI","SORA","VIRA","KIRA","COGA"]
   focal_species: "RWBL" # for the density/abundance graphics. Specify which bird to run with
   focal_species_birdNET: "Saltmarsh Sparrow"
   total_area_m2: 2326317 
   point_count_radius: 200 #m2
-  unidentified_pattern: "^UN[A-Z]{2}$|Unidentified" # codes matching this are kept in counts but left out of species richness/diversity
+  unidentified_pattern: "^UN[A-Z]{2}$|Unidentified|^\\?+$" # codes matching this are kept in counts but left out of species richness/diversity ("????" = unknown code)
+  # Codes written differently on different datasheets for the same species -> the code used in the analysis
+  alpha_code_synonyms:
+    CANG: "CAGO"   # Canada Goose (old code)
+    HEGU: "AHGU"   # Herring Gull -> American Herring Gull (used on the 2025-2026 sheets)
+    EWPE: "EAWP"   # Eastern Wood-Pewee (EAWP is the standard code)
+    CAWR: "CARW"   # Carolina Wren (CARW is the standard code; the 2023-2024 LHC file uses CARW)
+  # Observer initials written differently on different datasheets -> one name per person
+  observer_aliases:
+    KF: "KNF"      # Kelly Faller (2023 LHC database) = KNF on the 2025-2026 sheets
   distance_rings_m: [50, 100, 200] # outer edge of each distance band (0-50m, 51-100m, >100m) for the ring maps
   marsh_species_of_concern: ["SALS", "SESP", "NESP", "CLRA", "KIRA", "VIRA", "BLRA", "LEBI", "WILL", "MAWR"] # highlighted in the visit 1 vs visit 2 section; only ones actually detected are shown
   wading_birds: ["GREG", "SNEG", "GBHE", "LBHE", "TRHE", "GRHE", "CAEG", "BCNH", "YCNH", "UNNH", "WHIB", "GLIB"] # herons, egrets, ibises for the wading bird section

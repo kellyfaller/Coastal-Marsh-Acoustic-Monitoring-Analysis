@@ -58,27 +58,24 @@ cfg$paths   <- lapply(cfg$paths, here)
 cfg$outputs <- lapply(cfg$outputs, here)
 invisible(lapply(cfg$outputs, dir.create, recursive = TRUE, showWarnings = FALSE))
 
-# Reading CSV files into data frames using YAML.
-# Every column is read in as text first because the files don't agree on column types (e.g. Distance is a number in one file and text like "150+" in another), which breaks rbind. The columns we need as numbers get converted in the Formatting chunk.
-# Each file is also tagged with its survey year. Year comes from the file rather than the SurveyDate column so a typo in a date (e.g. Cattus 2025 visit 1 is entered as 19-06-2026) doesn't move a survey into the wrong year.
-read_point_counts <- function(path, year) {
-  readr::read_csv(path, col_types = readr::cols(.default = readr::col_character())) %>%
-    dplyr::rename(Point_ID = 'Point ID') %>%  #cleaning the name of the column Point ID to take out space (computers hate spaces)
-    dplyr::mutate(Year = year)
-}
+# Reading the point count CSV files listed in the YAML (every path ending in _pc). The reader is shared with the thesis
+# scripts (R/point_count_functions.R) so every datasheet is cleaned the same way:
+# - every column is read as text first because the files don't agree on column types (e.g. Distance is a number in one file and text like "150+" in another)
+# - "." (used for blanks in the 2023-2024 LHC database) is treated as missing, like an empty cell
+# - site and point names are made consistent ("LHC" -> "Lighthouse Center", "LHC01" -> "LHC_01"); tide is capitalised the same way
+# - Year comes from the file name when a file holds one season, so a typo in a date (e.g. Cattus 2025 visit 1 is entered as 19-06-2026)
+#   doesn't move a survey into the wrong year. Files covering several seasons (the 2023-2024 LHC file) take the year from SurveyDate.
+source(here("R", "point_count_functions.R"))
 
-cattus_2025_pc   <- read_point_counts(cfg$paths$cattus_2025_pc, 2025)
-lhc_2025_pc      <- read_point_counts(cfg$paths$lhc_2025_pc,    2025)
-cattus_2026_pc   <- read_point_counts(cfg$paths$cattus_2026_pc, 2026)
-lhc_2026_pc      <- read_point_counts(cfg$paths$lhc_2026_pc,    2026)
+# alpha_code_synonyms / observer_aliases in the YAML make the same species and the same person read the same in every file
+point_counts_all_raw <- read_all_point_counts(cfg$paths, code_synonyms = cfg$params$alpha_code_synonyms,
+                                              observer_aliases = cfg$params$observer_aliases)
 site_metadata    <- readr::read_csv(cfg$paths$site_metadata,    show_col_types = FALSE)
 habitat_lookup   <- readr::read_csv(cfg$paths$habitat_lookup,   show_col_types = FALSE)
 
-#combining sites
-#a;; will need to get adjusted when i get lhc 2023 data
-point_counts_2025_raw <- rbind(cattus_2025_pc, lhc_2025_pc)
-point_counts_2026_raw <- rbind(cattus_2026_pc, lhc_2026_pc)
-point_counts_all_raw  <- rbind(cattus_2025_pc, lhc_2025_pc, cattus_2026_pc, lhc_2026_pc)
+# the single-year datasets used by the 2025 and 2026 sections
+point_counts_2025_raw <- point_counts_all_raw %>% dplyr::filter(Year == 2025)
+point_counts_2026_raw <- point_counts_all_raw %>% dplyr::filter(Year == 2026)
 ```
 
 ## Formatting
@@ -94,7 +91,7 @@ habitat_additions <- tibble::tribble(
   "BTGR", "Marsh",         # Boat-tailed Grackle
   "COHA", "Upland",        # Cooper's Hawk
   "EABL", "Upland",        # Eastern Bluebird
-  "EWPE", "Upland",        # Eastern Wood-Pewee
+  "EAWP", "Upland",        # Eastern Wood-Pewee
   "GRYE", "Marsh",         # Greater Yellowlegs
   "KIRA", "Marsh",         # King Rail
   "REVI", "Upland",        # Red-eyed Vireo
@@ -103,7 +100,20 @@ habitat_additions <- tibble::tribble(
   "SOSA", "Marsh",         # Solitary Sandpiper
   "UNNH", "Marsh",         # unidentified night-heron
   "UNSA", "Marsh",         # unidentified sandpiper
-  "WTSP", "Upland")        # White-throated Sparrow
+  "WTSP", "Upland",        # White-throated Sparrow
+  # codes from the 2023-2024 Lighthouse Center database
+  "ABDU", "Marsh",         # American Black Duck
+  "KILL", "Upland/Marsh",  # Killdeer
+  "AMOY", "Marsh",         # American Oystercatcher
+  "CARW", "Upland",        # Carolina Wren
+  "GBBG", "Marsh",         # Great Black-backed Gull
+  "INBU", "Upland",        # Indigo Bunting
+  "PEFA", "Upland/Marsh",  # Peregrine Falcon
+  "SAND", "Marsh",         # Sanderling
+  "SWSP", "Upland/Marsh",  # Swamp Sparrow
+  "TUVU", "Upland",        # Turkey Vulture
+  "YBCH", "Upland")        # Yellow-breasted Chat
+# SEPA (4 birds, LHC_06, 2024) isn't a standard code - probably Semipalmated Plover (SEPL). Check the datasheet; left Unclassified.
 
 habitat_lookup_full <- dplyr::bind_rows(
   habitat_lookup %>% dplyr::select(AlphaCode, Habitat),
@@ -113,13 +123,13 @@ habitat_lookup_full <- dplyr::bind_rows(
 is_identified <- function(code) !grepl(cfg$params$unidentified_pattern, code)
 
 # creating a datetime column and formatting times.
-# NOTE: the 2025 datasheets write dates as day-month-year with dashes (30-06-2025) and the 2026 datasheets write them as month/day/year with slashes (6/28/2026). The separator is used to pick the right parser so both years read in correctly.
+# NOTE: the datasheets don't agree on date formats: 2025 = day-month-year with dashes (30-06-2025), 2026 = month/day/year with
+# slashes (6/28/2026), and some exports use 2023-06-15. parse_survey_date() (R/point_count_functions.R) picks the right one.
 format_point_counts <- function(df) {
   df %>%
     dplyr::mutate(
-      SurveyDate = dplyr::if_else(grepl("/", SurveyDate),
-                                  lubridate::mdy(SurveyDate, quiet = TRUE),
-                                  lubridate::dmy(SurveyDate, quiet = TRUE)),
+      SurveyDate = parse_survey_date(SurveyDate),
+      # times are written "7:09 AM" on some sheets and "8:50" (no AM/PM) on others
       Datetime   = lubridate::parse_date_time(paste(SurveyDate, SurveyTime), orders = c("Ymd IMp", "Ymd HMS", "Ymd HM")),
       dplyr::across(c(TotalCount, VisitNum, TempF, Sky, WindSp, Noise), ~ suppressWarnings(as.numeric(.x))),
       # a missing distance band becomes "Unknown" so those birds aren't silently dropped
@@ -196,16 +206,21 @@ marsh_all_clean  <- clean_point_counts(point_counts_all  %>% filter(Habitat != "
 
 survey_level_all <- make_survey_metrics(point_counts_all)
 
-# Points surveyed in every year. LHC_07 was added in 2026, so it is left out of anything that compares years point-for-point.
+year_levels <- as.character(sort(unique(point_counts_all$Year)))
+
+# The year-to-year comparisons use the two years in compare_years (configs/project.yml): the years both sites were surveyed.
+# Lighthouse Center also has 2023 and 2024 (different observer), which get their own multi-year section further down.
+compare_years <- as.character(cfg$params$compare_years %||% tail(year_levels, 2))
+year_a <- compare_years[1]
+year_b <- compare_years[2]
+
+# Points surveyed in both comparison years. LHC_07 was added in 2026, so it is left out of anything that compares years point-for-point.
 shared_points <- point_counts_all %>%
+  dplyr::filter(as.character(Year) %in% compare_years) %>%
   dplyr::distinct(Point_ID, Year) %>%
   dplyr::count(Point_ID, name = "n_years") %>%
-  dplyr::filter(n_years == dplyr::n_distinct(point_counts_all$Year)) %>%
+  dplyr::filter(n_years == length(compare_years)) %>%
   dplyr::pull(Point_ID)
-
-year_levels <- as.character(sort(unique(point_counts_all$Year)))
-year_a <- year_levels[1]
-year_b <- year_levels[length(year_levels)]
 ```
 
 # Data QC
@@ -231,7 +246,9 @@ qc_all %>%
   dplyr::group_by(Site, Year) %>%
   dplyr::summarise(Points = dplyr::n_distinct(Point_ID),
                    Surveys = dplyr::n_distinct(paste(Point_ID, VisitNum)),
-                   Records = dplyr::n(), .groups = "drop") %>%
+                   Records = dplyr::n(),
+                   Observers = paste(sort(unique(Observer)), collapse = ", "),
+                   Source = paste(sort(unique(Source_File)), collapse = ", "), .groups = "drop") %>%
   kable(caption = "Survey effort by site and year") %>%
   kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed"))
 
@@ -281,6 +298,13 @@ qc_coords <- qc_all %>%
   dplyr::filter(is.na(Lat) | is.na(Long)) %>%
   dplyr::distinct(Year, Point_ID)
 
+# 11) Point-years missing a visit (both SHARP visits are needed for the visit 1 vs visit 2 section)
+qc_visits <- qc_all %>%
+  dplyr::distinct(Site, Year, Point_ID, VisitNum) %>%
+  dplyr::group_by(Site, Year, Point_ID) %>%
+  dplyr::summarise(Visits = paste(sort(unique(VisitNum)), collapse = ", "), n = dplyr::n(), .groups = "drop") %>%
+  dplyr::filter(n < 2) %>% dplyr::select(-n)
+
 # 10) More than one date/time/tide entered for a single survey
 qc_survey <- qc_all %>%
   dplyr::distinct(Year, Point_ID, VisitNum, SurveyDate, SurveyTime, Tide) %>%
@@ -297,7 +321,8 @@ qc_summary <- tibble::tribble(
   "TotalCount differs from sum of count periods", nrow(qc_periods), "TotalCount is used as entered - check the datasheet",
   "Missing distance band", nrow(qc_band), "Kept as 'Unknown' band (in totals, not on ring maps)",
   "Point missing coordinates", nrow(qc_coords), "Point won't show on maps",
-  "Survey with more than one date/time/tide", nrow(qc_survey), "Each version becomes its own row - fix the datasheet")
+  "Survey with more than one date/time/tide", nrow(qc_survey), "Each version becomes its own row - fix the datasheet",
+  "Point-year with only one visit", nrow(qc_visits), "Used everywhere except the visit 1 vs visit 2 section")
 
 kable(qc_summary, caption = "QC summary") %>%
   kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed")) %>%
@@ -319,6 +344,7 @@ show_qc(qc_periods, "TotalCount doesn't match the sum of the count periods")
 show_qc(qc_band,    "Missing distance band")
 show_qc(qc_coords,  "Points without coordinates")
 show_qc(qc_survey,  "Surveys with more than one date/time/tide entered")
+show_qc(qc_visits,  "Point-years with only one visit")
 ```
 
 # Summaries
@@ -988,7 +1014,7 @@ How to read the table:
 - **Sample coverage**: the chance that a bird detection on the *next* survey would be a species we already have. This is the better measure of whether effort was "enough": coverage above ~90% means the common and moderately common species are well sampled, and what's left is rare, cryptic, or passing-through species. It doesn't depend on the (uncertain) Chao2 estimate.
 - **Surveys needed**: how many *additional* point visits it would take to record 90% / 95% of the estimated pool. Divide by the number of points to get the number of additional full rounds of visits.
 
-"Both years" pools all surveys at a site, i.e. the species inventory after two seasons.
+"All years" pools all surveys at a site, i.e. the species inventory across every season surveyed there (Lighthouse Center 2023-2026, Cattus Island 2025-2026).
 
 ```{r Sufficiency Functions, include=FALSE}
 # incidence frequencies: for each identified species, the number of surveys it was detected in
@@ -1034,17 +1060,18 @@ accumulation_curve <- function(inc, max_t = 2 * inc$T) {
   data.frame(Surveys = t, Species = S, Method = ifelse(t <= T, "Observed (rarefied)", "Extrapolated"))
 }
 
-# all the groups to run: each site x year, each site with both years pooled, and both sites together
+# all the groups to run: each site x year, each site with all years pooled, and both sites together.
+# Site-years with no surveys (e.g. Cattus Island 2023) are skipped.
 sufficiency_groups <- function(df) {
   sites <- c(sort(unique(df$Site)), "Both sites")
-  yrs   <- c(year_levels, "Both years")
+  yrs   <- c(year_levels, "All years")
   grid <- expand.grid(Site = sites, Year = yrs, stringsAsFactors = FALSE)
   purrr::pmap(grid, function(Site, Year) {
     d <- df
     if (Site != "Both sites") d <- d[d$Site == Site, ]
-    if (Year != "Both years") d <- d[d$Year == as.numeric(Year), ]
+    if (Year != "All years") d <- d[d$Year == as.numeric(Year), ]
     list(Site = Site, Year = Year, inc = incidence(d))
-  })
+  }) %>% purrr::keep(~ .x$inc$T >= 2)
 }
 ```
 
@@ -1058,7 +1085,7 @@ curves <- purrr::map_dfr(groups, function(g) {
   cbind(Site = g$Site, Year = g$Year, Chao2 = st$Chao2, accumulation_curve(g$inc))
 }) %>%
   dplyr::mutate(Site = factor(Site, levels = unique(sufficiency_table$Site)),
-                Year = factor(Year, levels = c(year_levels, "Both years")))
+                Year = factor(Year, levels = c(year_levels, "All years")))
 
 observed_pts <- curves %>%
   dplyr::group_by(Site, Year) %>%
@@ -1134,8 +1161,8 @@ With only two years of data there is no real "trend" to fit (any two points make
 Year comparisons use **only the points surveyed in both years** (LHC_07 was added in 2026), so a difference isn't just the extra point. LHC_07 is still included everywhere else (summaries, maps, rings, 2026 figures). Caveats: survey dates, tides and weather differed between years, and one year-to-year difference can't separate a real population change from normal year-to-year variation. Treat these as a baseline for future years. Once a third year is added, the paired tests can be swapped for mixed models with Point_ID as a random effect (e.g. `lme4::glmer(Total_Count ~ Year + VisitNum + (1 | Point_ID), family = poisson)`).
 
 ```{r Year Comparison Data, include=FALSE}
-shared_long   <- point_counts_all %>% dplyr::filter(Point_ID %in% shared_points)
-survey_shared <- survey_level_all %>% dplyr::filter(Point_ID %in% shared_points)
+shared_long   <- point_counts_all %>% dplyr::filter(Point_ID %in% shared_points, as.character(Year) %in% compare_years)
+survey_shared <- survey_level_all %>% dplyr::filter(Point_ID %in% shared_points, as.character(Year) %in% compare_years) %>% droplevels()
 marsh_survey_shared <- make_survey_metrics(shared_long %>% dplyr::filter(Habitat == "Marsh"))
 focal_survey_shared <- shared_long %>%
   dplyr::distinct(Year, Site, Point_ID, VisitNum) %>%
@@ -1180,7 +1207,7 @@ score_means <- function(df, value, label) {
 }
 
 scorecard <- dplyr::bind_rows(
-  add_both(point_counts_all) %>%
+  add_both(point_counts_all %>% dplyr::filter(as.character(Year) %in% compare_years)) %>%
     dplyr::group_by(Site, Year = as.character(Year)) %>%
     dplyr::summarise(Value = dplyr::n_distinct(Point_ID), .groups = "drop") %>%
     dplyr::mutate(Metric = "Points surveyed (all)"),
@@ -1416,7 +1443,7 @@ save_fig(species_dumbbell, "species_change_dumbbell.png")
 An ordination places each survey on a map where surveys with similar bird communities sit close together (Bray–Curtis on square-root counts, identified species, shared points). Arrows go from each point's 2025 average position to its 2026 position, so long arrows that all point the same way mean the community shifted between years, while short or random arrows mean it stayed about the same. The PERMANOVA table tests how much of the community difference is explained by site and by year (R² = share of variation; permutations are restricted within points so each point is only compared to itself).
 
 ```{r NMDS, echo=TRUE, fig.height=9, fig.width=12}
-comm_shared <- make_comm(point_counts_all_clean %>% dplyr::filter(Point_ID %in% shared_points))
+comm_shared <- make_comm(point_counts_all_clean %>% dplyr::filter(Point_ID %in% shared_points, as.character(Year) %in% compare_years) %>% droplevels())
 comm_shared$matrix <- comm_shared$matrix[, colSums(comm_shared$matrix) > 0]
 
 set.seed(42)
@@ -1461,6 +1488,192 @@ kable(as.data.frame(permanova_site), digits = 3,
   kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed"))
 ```
 
+# Lighthouse Center Multi-Year Trends
+
+Lighthouse Center has point counts from 2023 onward (2023-2024 from the LHC point count database, 2025-2026 from these surveys), so it is the one site where a trend across more than two years can be looked at. Everything here uses the points surveyed in **every** year at the site (LHC_07, added in 2026, is left out) so changes aren't caused by adding or dropping points. The site is set by `trend_site` in the YAML.
+
+**Observers:** the effort table below lists who surveyed each year. Observers differ in how many birds they detect and identify (especially distant, flying or vocal-only birds), so a year done by a different observer can look high or low for that reason alone. Because the same observer covers several years, the trend model below is fitted twice: once ignoring observer, and once with observer included, which removes a one-year observer difference from the trend. If the two trends agree, the observer change isn't driving it. Note also that one year can have fewer second visits (see the QC table "Point-years with only one visit"); per-survey averages aren't affected by that.
+
+```{r Trend Data, include=FALSE}
+trend_site <- cfg$params$trend_site
+trend_all  <- point_counts_all %>% dplyr::filter(Site == trend_site)
+trend_years <- sort(unique(trend_all$Year))
+trend_points <- trend_all %>% dplyr::distinct(Point_ID, Year) %>% dplyr::count(Point_ID) %>%
+  dplyr::filter(n == length(trend_years)) %>% dplyr::pull(Point_ID)
+trend_long <- trend_all %>% dplyr::filter(Point_ID %in% trend_points)
+
+# one row per survey: all species, marsh species, and who did it
+survey_observer <- trend_long %>% dplyr::distinct(Year, Point_ID, VisitNum, Observer) %>%
+  dplyr::group_by(Year, Point_ID, VisitNum) %>% dplyr::summarise(Observer = paste(sort(unique(Observer)), collapse = "/"), .groups = "drop")
+trend_surveys <- make_survey_metrics(trend_long) %>%
+  dplyr::mutate(Year = as.numeric(as.character(Year)), VisitNum = as.numeric(as.character(VisitNum))) %>%
+  dplyr::left_join(make_survey_metrics(trend_long %>% dplyr::filter(Habitat == "Marsh")) %>%
+                     dplyr::transmute(Year = as.numeric(as.character(Year)), Point_ID, VisitNum = as.numeric(as.character(VisitNum)),
+                                      Marsh_Count = Total_Count, Marsh_Richness = Species_Richness),
+                   by = c("Year", "Point_ID", "VisitNum")) %>%
+  dplyr::left_join(survey_observer, by = c("Year", "Point_ID", "VisitNum")) %>%
+  dplyr::mutate(dplyr::across(c(Marsh_Count, Marsh_Richness), ~ tidyr::replace_na(.x, 0)))
+
+trend_metrics <- c(Total_Count = "Birds per survey", Species_Richness = "Species per survey",
+                   Shannon_Diversity = "Shannon diversity", Marsh_Count = "Marsh birds per survey",
+                   Marsh_Richness = "Marsh species per survey")
+trend_metric_long <- trend_surveys %>%
+  tidyr::pivot_longer(dplyr::all_of(names(trend_metrics)), names_to = "Metric", values_to = "Value") %>%
+  dplyr::mutate(Metric = factor(trend_metrics[Metric], levels = trend_metrics))
+```
+
+```{r Trend Effort, echo=TRUE, results="asis"}
+if (length(trend_years) < 3) {
+  cat("> Only", length(trend_years), "years at", trend_site, "- add the 2023-2024 file (lhc_2023_2024_pc in configs/project.yml) for this section.\n\n")
+}
+trend_long %>%
+  dplyr::group_by(Year) %>%
+  dplyr::summarise(Points = dplyr::n_distinct(Point_ID), Surveys = dplyr::n_distinct(paste(Point_ID, VisitNum)),
+                   Observers = paste(sort(unique(Observer)), collapse = ", "),
+                   `Survey dates` = paste(format(min(SurveyDate), "%d %b"), "-", format(max(SurveyDate), "%d %b")),
+                   `Low-tide surveys` = sum(grepl("^Low", dplyr::distinct(dplyr::pick(Point_ID, VisitNum, Tide))$Tide)),
+                   Species = dplyr::n_distinct(AlphaCode[Identified & TotalCount > 0]), .groups = "drop") %>%
+  kable(caption = paste(trend_site, "survey effort by year (points surveyed every year)")) %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed")) %>%
+  print()
+```
+
+## Year by year
+
+Average per survey for each year with 95% confidence intervals (each point is the mean of all surveys that year; colour = observer). Overlapping intervals mean the years can't be told apart from the data.
+
+```{r Trend Means, echo=TRUE, fig.height=7, fig.width=16}
+trend_means <- trend_metric_long %>%
+  dplyr::group_by(Metric, Year, Observer) %>%
+  dplyr::summarise(Mean = mean(Value), SE = sd(Value) / sqrt(dplyr::n()), n = dplyr::n(), .groups = "drop") %>%
+  dplyr::mutate(low = Mean - qt(0.975, pmax(n - 1, 1)) * SE, high = Mean + qt(0.975, pmax(n - 1, 1)) * SE)
+
+trend_mean_plot <- ggplot(trend_means, aes(Year, Mean)) +
+  geom_line(color = "grey60", linewidth = 1) +
+  geom_errorbar(aes(ymin = pmax(0, low), ymax = high, color = Observer), width = 0.15, linewidth = 0.9) +
+  geom_point(aes(color = Observer), size = 4) +
+  facet_wrap(~ Metric, scales = "free_y", nrow = 1, labeller = ggplot2::label_wrap_gen(width = 16)) +
+  scale_x_continuous(breaks = trend_years) +
+  labs(title = paste(trend_site, "- average per survey by year (95% CI)"), x = NULL, y = NULL, color = "Observer") +
+  theme_publish(base_size = 16) +
+  theme(panel.grid.minor = element_blank(), strip.text = element_text(face = "bold"), legend.position = "bottom")
+save_fig(trend_mean_plot, "lhc_multiyear_means.png", height = 7, width = 16)
+```
+
+## Trend across years
+
+A trend is fitted for each measure with year as a number and a separate baseline for each point (so every point is compared with itself), plus visit. Counts use a quasi-Poisson model, so the slope reads as a **% change per year**; Shannon diversity uses a linear model (change in units per year). With `r length(trend_years)` years, treat this as a description of the direction of change rather than a long-term trend, and remember the observer change.
+
+The "with observer" columns refit the same trend with observer as an extra term (only possible when one observer covered more than one year). The last column is each other observer's average relative to the main observer, from that model: a value well away from 1 means that observer recorded noticeably more or fewer birds than the main observer after allowing for the trend.
+
+```{r Trend Models, echo=TRUE, results="asis"}
+# slope on Year -> readable change per year (+ CI); counts are on the log scale, Shannon on its own scale
+year_change <- function(m, counts) {
+  b <- coef(m)[["Year"]]; ci <- suppressMessages(confint.default(m)["Year", ])
+  p <- summary(m)$coefficients["Year", 4]
+  if (counts) c(sprintf("%+.0f%%", 100 * (exp(b) - 1)), sprintf("%+.0f%% to %+.0f%%", 100 * (exp(ci[1]) - 1), 100 * (exp(ci[2]) - 1)), sprintf("%.3f", p))
+  else c(sprintf("%+.2f", b), sprintf("%+.2f to %+.2f", ci[1], ci[2]), sprintf("%.3f", p))
+}
+
+if (length(trend_years) >= 3) {
+  main_observer <- names(sort(table(trend_surveys$Observer), decreasing = TRUE))[1]
+  d_obs <- trend_surveys %>% dplyr::mutate(Observer = stats::relevel(factor(Observer), ref = main_observer))
+  # observer can only be separated from the trend if the main observer covered 2+ years and there is another observer
+  obs_ok <- dplyr::n_distinct(d_obs$Observer) > 1 && dplyr::n_distinct(d_obs$Year[d_obs$Observer == main_observer]) >= 2
+
+  trend_fits <- purrr::imap_dfr(trend_metrics, function(label, col) {
+    d <- d_obs %>% dplyr::rename(y = dplyr::all_of(col))
+    counts <- col != "Shannon_Diversity"
+    fit <- function(f) if (counts) glm(f, data = d, family = quasipoisson) else lm(f, data = d)
+    m1 <- fit(y ~ Year + factor(VisitNum) + Point_ID)
+    r1 <- year_change(m1, counts)
+    out <- tibble::tibble(Metric = label, `Change per year` = r1[1], `95% CI` = r1[2], p = r1[3])
+    if (obs_ok) {
+      m2 <- fit(y ~ Year + Observer + factor(VisitNum) + Point_ID)
+      r2 <- year_change(m2, counts)
+      obs_terms <- grep("^Observer", names(coef(m2)), value = TRUE)
+      obs_eff <- coef(m2)[obs_terms]
+      out$`Change per year (with observer)` <- r2[1]
+      out$`95% CI (with observer)` <- r2[2]
+      out$`Other observer vs main` <- paste0(sub("^Observer", "", obs_terms), ": ",
+                                             if (counts) sprintf("%.2fx", exp(obs_eff)) else sprintf("%+.2f", obs_eff), collapse = "; ")
+    }
+    out
+  })
+  cat(sprintf("Main observer: **%s**. %s\n\n", main_observer,
+              if (obs_ok) "Trends are shown with and without an observer term." else "Observer can't be separated from the trend with these years, so only the trend without observer is shown."))
+  trend_fits %>%
+    kable(caption = paste(trend_site, "trend per year,", min(trend_years), "-", max(trend_years), "(points surveyed every year)")) %>%
+    kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed")) %>%
+    print()
+}
+```
+
+## Species over time
+
+Share of the `r length(trend_points)` points where each species was detected (either visit) in each year. Species are sorted from the strongest increase (top) to the strongest decrease (bottom), using the slope of points occupied across years. Only species found at 3 or more point-years are shown. A species that only appears in the later years could be new to the site, or one the new observer recorded more often, so look for patterns that also show up *within* 2023-2024 and *within* 2025-2026.
+
+```{r Trend Species, echo=TRUE, fig.height=16, fig.width=12}
+trend_occ <- trend_long %>%
+  dplyr::filter(Identified, TotalCount > 0) %>%
+  dplyr::distinct(Year, Point_ID, AlphaCode, Habitat) %>%
+  dplyr::count(Year, AlphaCode, Habitat, name = "Points") %>%
+  tidyr::complete(Year = trend_years, tidyr::nesting(AlphaCode, Habitat), fill = list(Points = 0)) %>%
+  dplyr::mutate(Occupancy = Points / length(trend_points)) %>%
+  dplyr::group_by(AlphaCode) %>%
+  dplyr::filter(sum(Points) >= 3) %>%
+  dplyr::mutate(Slope = if (dplyr::n_distinct(Year) > 1) coef(lm(Occupancy ~ Year))[2] else 0) %>%
+  dplyr::ungroup()
+
+trend_species_plot <- ggplot(trend_occ, aes(factor(Year), reorder(AlphaCode, Slope), fill = Occupancy)) +
+  geom_tile(color = "white", linewidth = 0.6) +
+  geom_text(aes(label = ifelse(Points > 0, Points, "")), size = 3.4, color = ifelse(trend_occ$Occupancy > 0.6, "white", "black")) +
+  facet_grid(Habitat ~ ., scales = "free_y", space = "free_y") +
+  scale_fill_distiller(palette = "BuGn", direction = 1, labels = scales::label_percent(), limits = c(0, 1)) +
+  labs(title = paste(trend_site, "- points occupied by each species"),
+       subtitle = "Number = points where detected; sorted by trend (increasing at top)", x = NULL, y = NULL, fill = "Points\noccupied") +
+  theme_publish(base_size = 13) +
+  theme(panel.grid = element_blank(), strip.text.y = element_text(angle = 0, face = "bold"))
+save_fig(trend_species_plot, "lhc_multiyear_species_occupancy.png", height = 16, width = 12)
+```
+
+## How similar are the years?
+
+Jaccard similarity between the species lists of every pair of years (1 = same species, 0 = none in common), and how many species each new year added to the site list. If the 2023-2024 years are much more similar to each other than to 2025-2026, the observer change (or a real shift around then) is showing up in which species get recorded.
+
+```{r Trend Similarity, echo=TRUE, fig.height=6, fig.width=14}
+year_lists <- trend_long %>% dplyr::filter(Identified, TotalCount > 0) %>% dplyr::distinct(Year, AlphaCode)
+jac <- tidyr::expand_grid(Year1 = trend_years, Year2 = trend_years) %>%
+  dplyr::rowwise() %>%
+  dplyr::mutate(Jaccard = {
+    a <- year_lists$AlphaCode[year_lists$Year == Year1]; b <- year_lists$AlphaCode[year_lists$Year == Year2]
+    length(intersect(a, b)) / length(union(a, b))
+  }) %>% dplyr::ungroup()
+
+jac_plot <- ggplot(jac, aes(factor(Year1), factor(Year2), fill = Jaccard)) +
+  geom_tile(color = "white") +
+  geom_text(aes(label = sprintf("%.2f", Jaccard)), size = 5) +
+  scale_fill_distiller(palette = "Purples", direction = 1, limits = c(0, 1)) +
+  labs(title = "Species list similarity between years", x = NULL, y = NULL) +
+  coord_equal() + theme_publish(base_size = 15) + theme(panel.grid = element_blank())
+
+cumulative <- year_lists %>% dplyr::arrange(Year) %>%
+  dplyr::group_by(AlphaCode) %>% dplyr::summarise(First = min(Year), .groups = "drop") %>%
+  dplyr::count(First, name = "New") %>%
+  tidyr::complete(First = trend_years, fill = list(New = 0)) %>%
+  dplyr::mutate(Cumulative = cumsum(New))
+cum_plot <- ggplot(cumulative, aes(factor(First), Cumulative)) +
+  geom_col(fill = "grey75", width = 0.6) +
+  geom_col(aes(y = New), fill = "#542788", width = 0.6) +
+  geom_text(aes(label = paste0("+", New)), vjust = -0.4, size = 4.5) +
+  labs(title = "Species list over time (purple = new that year)", x = NULL, y = "Species recorded so far") +
+  theme_publish(base_size = 15) + theme(panel.grid.minor = element_blank())
+
+print(ggpubr::ggarrange(jac_plot, cum_plot, ncol = 2))
+ggplot2::ggsave(file.path(cfg$outputs$figures_dir, "lhc_multiyear_similarity.png"), ggpubr::ggarrange(jac_plot, cum_plot, ncol = 2),
+                height = 6, width = 14, dpi = cfg$params$dpi, bg = "white")
+```
+
 # Visit 1 vs Visit 2: What Does the Second Visit Add?
 
 The point counts follow the SHARP rapid assessment design: two visits to each point during the breeding season (May 1 – July 15), at least 10 days apart. The second visit is there because cryptic marsh birds are easy to miss on any one survey, so a species that is present may only be detected on one of the two visits. This section looks at how much the second visit changes what we know about **which species occupy which points**, for both sites and both years. Every point, including LHC_07, has its two visits, so all points are used.
@@ -1475,8 +1688,17 @@ Terms used below:
 ```{r Visit Data, include=FALSE}
 concern_spp <- unlist(cfg$params$marsh_species_of_concern)
 
+# only point-years where both visits were done (e.g. LHC_02, LHC_03 and LHC_06 had no second visit in 2024);
+# otherwise "not detected on visit 2" would really mean "not surveyed on visit 2"
+two_visit_points <- point_counts_all %>%
+  dplyr::distinct(Year, Point_ID, VisitNum) %>%
+  dplyr::count(Year, Point_ID) %>%
+  dplyr::filter(n == 2) %>%
+  dplyr::select(Year, Point_ID)
+
 # one row per species x point x year, with whether it was detected on each visit
 visit_hist <- point_counts_all %>%
+  dplyr::semi_join(two_visit_points, by = c("Year", "Point_ID")) %>%
   dplyr::filter(Identified, TotalCount > 0) %>%
   dplyr::distinct(Year, Site, Point_ID, VisitNum, AlphaCode, Habitat) %>%
   dplyr::mutate(present = TRUE) %>%
@@ -1491,6 +1713,7 @@ history_colors <- c("Visit 1 only" = "#E08214", "Both visits" = "#542788", "Visi
 
 # all point-years that were surveyed (the denominator for occupancy)
 point_years_surveyed <- point_counts_all %>%
+  dplyr::semi_join(two_visit_points, by = c("Year", "Point_ID")) %>%
   dplyr::distinct(Year, Site, Point_ID) %>%
   dplyr::mutate(Year = factor(Year))
 
@@ -1645,7 +1868,7 @@ save_fig(naive_occ_plot, "naive_occupancy_one_vs_two_visits.png", height = 12, w
 
 ## Detection probability and whether two visits are enough
 
-Estimates for each marsh species, pooling both sites and both years so there are enough points to work with (each point-year is one "site": 25 in total). Single-season occupancy models usually assume detection is the same across points and years; with more data (a third year, or ARU detections) these can be split by site and year or fit with covariates in `unmarked::occu()`.
+Estimates for each marsh species, pooling all sites and years so there are enough points to work with (each point-year is one "site"; the number is in the table caption). Note the 2023-2024 Lighthouse Center surveys had a different observer, which can change detection; with more years this could be added as a detection covariate in `unmarked::occu()`. Single-season occupancy models usually assume detection is the same across points and years; with more data (a third year, or ARU detections) these can be split by site and year or fit with covariates in `unmarked::occu()`.
 
 How to read it: **p** is the per-visit detection probability; **Detected with 2 visits** is the chance a species that is present gets detected at least once in the two SHARP visits; **Visits for 95%** is how many visits would be needed to be 95% sure of detecting it if it's there. **Estimated occupancy** corrects naive occupancy for missed detections; when p is low (roughly below 0.3) this correction gets very large and uncertain (it is capped at 100%), so treat those values as "probably widespread but poorly detected" rather than a precise number. Species never detected on both visits at any point can't be estimated (p is too low to measure, which itself says two visits weren't enough for that species). Species of concern are listed first.
 
@@ -1715,7 +1938,7 @@ single_share <- mean(visit_hist$History != "Both visits")
 single_share_marsh <- mean(marsh_hist$History != "Both visits")
 added_share <- 1 - sum(visit_hist$V1) / nrow(visit_hist)
 est <- detection_table %>% dplyr::filter(!is.na(p2))
-cat(sprintf("**Summary.** Across both sites and years, %s of species-point records (%s for marsh species) were detected on only one of the two visits, and visit 2 added %s of the species found at each point. ",
+cat(sprintf("**Summary.** Across all sites and years, %s of species-point records (%s for marsh species) were detected on only one of the two visits, and visit 2 added %s of the species found at each point. ",
             scales::percent(single_share, accuracy = 1), scales::percent(single_share_marsh, accuracy = 1), scales::percent(added_share, accuracy = 1)))
 cat(sprintf("Of the %d marsh species with enough data to estimate detection, %d are detected at least 90%% of the time with two visits (%s), and %d fall below 75%% (%s). ",
             nrow(est), sum(est$p2 >= 0.9), paste(est$AlphaCode[est$p2 >= 0.9], collapse = ", "),
@@ -1730,7 +1953,7 @@ cat("For the low-detection species, callbacks, a third visit, or ARU data would 
 
 A closer look at herons, egrets and ibises (the `wading_birds` list in the YAML) at Lighthouse Center, with White Ibis (`wading_focus_species`) in detail. Wading birds are mobile, often forage in flocks, and follow the tide, so year-to-year changes in counts can come from (1) a real change in how many birds use the marsh, (2) one or two big flocks, or (3) surveys happening at a different tide stage. The figures below try to pull those apart.
 
-Year comparisons use the 6 points surveyed both years; LHC_07 (added in 2026) is shown separately where it matters.
+This section uses every year surveyed at the site (Lighthouse Center: 2023-2026), comparing only the points surveyed in all of those years; LHC_07 (added in 2026) is shown separately where it matters. The 2023-2024 surveys were done by a different observer (see the QC effort table), which can affect counts, especially of distant or flying birds.
 
 ```{r Wader Data, include=FALSE}
 waders     <- unlist(cfg$params$wading_birds)
@@ -1742,8 +1965,14 @@ wader_surveys <- point_counts_all %>%
   dplyr::filter(Site == focus_site) %>%
   dplyr::distinct(Year, Site, Point_ID, VisitNum, SurveyDate, Tide) %>%
   dplyr::mutate(Tide_Stage = factor(sub("/.*$", "", Tide), levels = c("Low", "High")),
-                Shared = Point_ID %in% shared_points,
                 Year = factor(Year), VisitNum = factor(VisitNum))
+
+# years surveyed at this site, and the points surveyed in every one of them
+focus_years  <- levels(droplevels(wader_surveys$Year))
+focus_shared <- wader_surveys %>% dplyr::distinct(Point_ID, Year) %>% dplyr::count(Point_ID) %>%
+  dplyr::filter(n == length(focus_years)) %>% dplyr::pull(Point_ID)
+n_focus_shared <- length(focus_shared)
+wader_surveys <- wader_surveys %>% dplyr::mutate(Shared = Point_ID %in% focus_shared)
 
 wader_records <- point_counts_all %>%
   dplyr::filter(Site == focus_site, AlphaCode %in% waders, TotalCount > 0) %>%
@@ -1751,9 +1980,6 @@ wader_records <- point_counts_all %>%
 
 wader_spp_present <- sort(unique(wader_records$AlphaCode))
 
-# points at this site that were surveyed in both years
-focus_shared <- intersect(shared_points, unique(wader_surveys$Point_ID))
-n_focus_shared <- length(focus_shared)
 
 # birds per survey for each wader species, with 0 for surveys where it wasn't seen
 wader_survey_spp <- wader_surveys %>%
@@ -1772,11 +1998,11 @@ wader_survey_total <- wader_survey_spp %>%
 
 ## Wading bird summary by species
 
-For each wading bird species at `r focus_site`: how many detections (rows), birds, the largest single group, how many of the points surveyed both years it was found at, birds per survey, and the share counted beyond 100 m (often fly-overs).
+For each wading bird species at `r focus_site`: how many detections (rows), birds, the largest single group, how many of the points surveyed every year it was found at, birds per survey, and the share counted beyond 100 m (often fly-overs).
 
 ```{r Wader Table, echo=TRUE}
 wader_table <- wader_records %>%
-  dplyr::filter(Point_ID %in% shared_points) %>%
+  dplyr::filter(Point_ID %in% focus_shared) %>%
   dplyr::group_by(AlphaCode, Year) %>%
   dplyr::summarise(Detections = dplyr::n(),
                    Birds = sum(TotalCount),
@@ -1792,7 +2018,7 @@ wader_table <- wader_records %>%
   dplyr::arrange(dplyr::desc(AlphaCode == focus_spp), AlphaCode, Year) %>%
   dplyr::rename(!!paste0("Points (of ", n_focus_shared, ")") := Points)
 
-kable(wader_table, caption = paste("Wading birds at", focus_site, "by year (points surveyed both years)")) %>%
+kable(wader_table, caption = paste("Wading birds at", focus_site, "by year (points surveyed every year)")) %>%
   kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed")) %>%
   row_spec(which(wader_table$AlphaCode == focus_spp), bold = TRUE, background = "#F2F0F7") %>%
   collapse_rows(columns = 1, valign = "top")
@@ -1800,7 +2026,7 @@ kable(wader_table, caption = paste("Wading birds at", focus_site, "by year (poin
 
 ## Which wading birds went up or down?
 
-Left: average birds per survey (± SE) for each species. Right: how many of the points surveyed both years each species was found at (either visit). Points occupied is less affected by one big flock than the bird count, so a species that went up in **both** panels is the stronger signal.
+Left: average birds per survey (± SE) for each species. Right: how many of the points surveyed every year each species was found at (either visit). Points occupied is less affected by one big flock than the bird count, so a species that went up in **both** panels is the stronger signal.
 
 ```{r Wader Change, echo=TRUE, fig.height=8, fig.width=16}
 wader_means <- wader_survey_spp %>%
@@ -1916,12 +2142,12 @@ wader_models <- wader_model_data %>%
                                     conf.int = TRUE, exponentiate = TRUE)) %>%
   dplyr::ungroup() %>%
   dplyr::filter(term != "(Intercept)") %>%
-  dplyr::mutate(term = dplyr::case_when(term == paste0("Year", year_b) ~ paste(year_b, "vs", year_a),
+  dplyr::mutate(term = dplyr::case_when(grepl("^Year", term) ~ paste(sub("^Year", "", term), "vs", focus_years[1]),
                                         term == "Tide_StageHigh" ~ "High vs low tide",
                                         term == "VisitNum2" ~ "Visit 2 vs visit 1",
                                         TRUE ~ term))
 
-kable(wader_models, digits = 2, caption = "Rate ratios for wading birds per survey (quasi-Poisson, points surveyed both years)",
+kable(wader_models, digits = 2, caption = paste0("Rate ratios for wading birds per survey, each year vs ", focus_years[1], " (quasi-Poisson, points surveyed every year)"),
       col.names = c("Group", "Term", "Rate ratio", "SE (log)", "t", "p", "CI low", "CI high")) %>%
   kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed")) %>%
   collapse_rows(columns = 1, valign = "top")
@@ -1931,25 +2157,27 @@ kable(wader_models, digits = 2, caption = "Rate ratios for wading birds per surv
 f <- wader_survey_spp %>% dplyr::filter(AlphaCode == focus_spp, Shared)
 fy <- f %>% dplyr::group_by(Year) %>%
   dplyr::summarise(per_survey = mean(Birds), points = dplyr::n_distinct(Point_ID[Birds > 0]),
-                   surveys = sum(Birds > 0), .groups = "drop")
-fm <- wader_models %>% dplyr::filter(Group == focus_spp, grepl(" vs ", term), grepl("^[0-9]", term))
+                   surveys = sum(Birds > 0), n_surveys = dplyr::n(), .groups = "drop")
+first <- fy[1, ]; last <- fy[nrow(fy), ]
+fm <- wader_models %>% dplyr::filter(Group == focus_spp, term == paste(last$Year, "vs", first$Year))
 new_pt <- wader_survey_spp %>% dplyr::filter(AlphaCode == focus_spp, !Shared, Birds > 0)
-n_surv <- f %>% dplyr::distinct(Year, Point_ID, VisitNum) %>% dplyr::count(Year) %>% dplyr::pull(n)
-cat(sprintf("**%s summary.** At the %d points surveyed both years, %s went from %.1f to %.1f birds per survey, was found at %d then %d points, and on %d of %d then %d of %d surveys. ",
-            focus_spp, n_focus_shared, focus_spp, fy$per_survey[1], fy$per_survey[2], fy$points[1], fy$points[2],
-            fy$surveys[1], n_surv[1], fy$surveys[2], n_surv[2]))
-if (nrow(fm) == 1) cat(sprintf("After accounting for tide stage and visit, the later year had about %.1f times as many birds per survey (95%% CI %.1f–%.1f). ",
-                               fm$estimate, fm$conf.low, fm$conf.high))
-if (nrow(new_pt) > 0) cat(sprintf("It was also seen at %s (not surveyed in %s). ", paste(unique(new_pt$Point_ID), collapse = ", "), year_a))
-direction <- sign(fy$per_survey[2] - fy$per_survey[1])
-spread <- sign(fy$points[2] - fy$points[1])
+cat(sprintf("**%s summary.** At the %d points surveyed every year, %s had %s birds per survey in %s (found at %s of the points). ",
+            focus_spp, n_focus_shared, focus_spp,
+            paste(sprintf("%.1f", fy$per_survey), collapse = " / "), paste(fy$Year, collapse = " / "),
+            paste(fy$points, collapse = " / ")))
+if (nrow(fm) == 1) cat(sprintf("After accounting for tide stage and visit, %s had about %.1f times as many birds per survey as %s (95%% CI %.1f–%.1f). ",
+                               last$Year, fm$estimate, first$Year, fm$conf.low, fm$conf.high))
+if (nrow(new_pt) > 0) cat(sprintf("It was also seen at %s (not surveyed every year). ", paste(unique(new_pt$Point_ID), collapse = ", ")))
+direction <- sign(last$per_survey - first$per_survey)
+spread <- sign(last$points - first$points)
 if (direction != 0 && spread == direction) {
-  cat("The change shows up in the number of points and surveys where it was found, not just in the size of one flock, so it looks like a real change in how widely it used the marsh rather than one chance flock. ")
+  cat("The change shows up in the number of points where it was found, not just in the size of one flock, so it looks like a real change in how widely it used the marsh rather than one chance flock. ")
 } else if (direction != 0) {
   cat("The number of points where it was found didn't change in the same direction as the count, so the change may come mostly from flock size on a few surveys. ")
 }
 if (focus_spp == "WHIB") cat("White Ibis has been expanding its breeding range northward along the Atlantic coast, including New Jersey, so a rise at a coastal marsh fits that wider pattern. ")
-cat("Two years can't separate a real change from normal year-to-year variation, so it is worth comparing against eBird data for the county and New Jersey's colonial waterbird surveys, and watching whether the pattern holds in a third year.\n")
+cat(if (nrow(fy) > 2) "The multi-year trend section below fits a trend across all the years at this site. " else "Two years can't separate a real change from normal year-to-year variation. ",
+    "Worth comparing against eBird data for the county and New Jersey's colonial waterbird surveys; note the observer changed after 2024.\n")
 ```
 
 # More Ways to Look at the Point Counts

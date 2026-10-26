@@ -1,0 +1,335 @@
+---
+title: "SALSNET Model Evaluation"
+author: "Kelly Faller"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, fig.width = 10)
+```
+
+This report scores every model (M0 stock BirdNET through M5) on the same hand-labeled
+test sets and compares them (analysis plan B1.5, B2, B5.4–B5.5, B6, B7). It runs on
+whatever models have been scored so far. Models with no scores yet are skipped,
+so it can be re-knit after each training round.
+
+**Folder layout** (under `data/processed/model_eval/`):
+
+- `test_labels.csv` holds the labeled test clips, from `scripts/01 prep/select_test_clips.R`.
+- `scores/<run>/<test set>/<station>/BirdNET_CombinedTable.csv` holds each model's
+  BirdNET-Analyzer output on the test audio (`--combine_results`, `--min_conf 0.01`).
+  `<run>` is the model name (`M0`, `M3`) or, for the clip-number runs in B5.4,
+  `<model>_n<clips>_d<draw>` (e.g. `M1_n016_d03`).
+- `full_run/<model>/<station>/BirdNET_CombinedTable.csv` and `verified_station_days.csv`
+  are optional. They come from B7 (the best model run on all audio, plus the station-days you listened to).
+
+## Load Packages
+
+```{r packages}
+library(data.table)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(yaml)
+library(here)
+library(knitr)
+
+source(here("R", "birdnet_io.R"))
+source(here("R", "model_evaluation.R"))
+```
+
+```{r config}
+cfg <- yaml::read_yaml(here("configs", "project.yml"))
+ev <- cfg$evaluation
+focal <- unlist(ev$focal_species)
+registry <- ev$models
+ref <- ev$reference_model
+primary <- ev$primary_species
+local_set <- ev$test_sets$local
+independent_set <- ev$test_sets$independent
+
+eval_dir <- here(cfg$paths$model_eval_dir)
+out_dir <- here(cfg$outputs$model_eval_dir)
+dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
+save_table <- function(df, name) {
+  fwrite(df, file.path(out_dir, paste0(name, ".csv")))
+  df
+}
+```
+
+## 1. Test Sets (B1.5)
+
+```{r labels}
+labels <- read_test_labels(file.path(eval_dir, "test_labels.csv"))
+unlabeled <- sum(labels$Labels == "")
+```
+
+`r nrow(labels)` labeled clips. `r unlabeled` have an empty `Labels` cell, so they
+are treated as containing none of the focal species. If any of those simply haven't
+been listened to yet, finish labeling before trusting the scores.
+
+Positive clips per species. A species with `r ev$min_positives` or fewer is
+too rare to score reliably:
+
+```{r sample-size}
+sample_size <- labels_long(labels) %>%
+  filter(Label %in% names(focal)) %>%
+  count(Test_Set, Code = Label, name = "Positive_Clips") %>%
+  complete(Test_Set = unique(labels$Test_Set), Code = names(focal), fill = list(Positive_Clips = 0)) %>%
+  left_join(count(labels, Test_Set, name = "Total_Clips"), by = "Test_Set") %>%
+  mutate(Too_Rare = Positive_Clips <= ev$min_positives) %>%
+  save_table("test_set_sample_size")
+kable(sample_size)
+```
+
+Every sound labeled in the test clips (these are the candidate error sources):
+
+```{r all-labels}
+labels_long(labels) %>% count(Test_Set, Label, sort = TRUE) %>%
+  pivot_wider(names_from = Test_Set, values_from = n, values_fill = 0) %>% kable()
+```
+
+## 2. Load Model Scores
+
+```{r scores}
+runs <- list.dirs(file.path(eval_dir, "scores"), full.names = FALSE, recursive = FALSE)
+run_info <- parse_run_name(runs)
+unknown_runs <- run_info$Run_ID[is.na(run_info$Model) | !run_info$Model %in% names(registry)]
+if (length(unknown_runs)) message("Skipping folders that aren't a registered model: ", paste(unknown_runs, collapse = ", "))
+runs <- setdiff(runs, unknown_runs)
+
+scores <- rbindlist(lapply(runs, function(run) {
+  rbindlist(lapply(unlist(ev$test_sets), function(ts) {
+    root <- file.path(eval_dir, "scores", run, ts)
+    if (!dir.exists(root)) return(NULL)
+    x <- read_station_folders(root, label = paste(run, ts))
+    if (!is.null(x)) x[, `:=`(Run_ID = run, Test_Set = ts)]
+    x
+  }), fill = TRUE)
+}), fill = TRUE)
+if (nrow(scores) == 0) stop("No model scores found under ", file.path(eval_dir, "scores"))
+
+score_table <- build_score_table(scores, labels, focal)
+day_table <- station_day_scores(score_table)
+
+score_table %>% distinct(Run_ID, Model, Test_Set) %>% count(Model, Test_Set, name = "Runs") %>% kable()
+```
+
+## 3. Model Scores (B2.1, B5.5)
+
+Scored at the 3-s clip level and at the station-day level. Precision, recall and F1
+use a cut-off of `r ev$threshold`. `Cutoff_Logistic` is the score where a detection
+has a `r ev$target_precision * 100`% chance of being correct (Wood & Kahl 2024).
+`Cutoff_Empirical` is the lowest cut-off whose observed precision reaches that level.
+
+```{r metrics}
+metrics_clip <- evaluate_scores(score_table, ev$threshold, ev$target_precision, ev$min_positives) %>%
+  mutate(Level = "clip")
+metrics_day <- evaluate_scores(day_table, ev$threshold, ev$target_precision, ev$min_positives) %>%
+  mutate(Level = "station-day")
+metrics <- bind_rows(metrics_clip, metrics_day) %>% save_table("metrics_all_runs")
+
+metrics %>%
+  filter(is.na(Clips_Per_Class)) %>%
+  select(Level, Test_Set, Code, Model, N_Pos, N_Neg, AP, ROC_AUC, Precision, Recall, F1,
+         Cutoff_Logistic, Cutoff_Empirical, Recall_At_Cutoff, Too_Rare) %>%
+  arrange(Level, Test_Set, Code, Model) %>%
+  mutate(across(where(is.double), ~ round(.x, 3))) %>%
+  kable()
+```
+
+```{r pr-curves, fig.height=7}
+pr <- score_table %>%
+  filter(is.na(Clips_Per_Class)) %>%
+  group_by(Model, Test_Set, Code) %>%
+  filter(sum(Truth) > 0) %>%
+  group_modify(~ pr_curve(.x$Score, .x$Truth)) %>%
+  ungroup()
+p <- ggplot(pr, aes(Recall, Precision, colour = Model)) +
+  geom_step(direction = "vh") +
+  geom_hline(yintercept = ev$target_precision, linetype = "dashed") +
+  facet_grid(Code ~ Test_Set) +
+  coord_cartesian(xlim = c(0, 1), ylim = c(0, 1)) +
+  labs(title = "Precision-recall curves (clip level)") +
+  theme_minimal()
+ggsave(file.path(out_dir, "pr_curves.png"), p, width = cfg$params$width,
+       height = cfg$params$height, dpi = cfg$params$dpi)
+p
+```
+
+## 4. What Causes the Errors (B2.2–B2.3)
+
+Each false positive and false negative at a cut-off of `r ev$threshold`, with what
+was actually labeled in the clip. Sounds that keep showing up are candidates for
+extra training classes.
+
+```{r errors}
+errors <- error_audit(score_table %>% filter(is.na(Clips_Per_Class)), labels, ev$threshold) %>%
+  save_table("error_list")
+sources <- error_sources(errors, names(focal)) %>% save_table("error_sources")
+
+sources %>% filter(Run_ID == ref) %>% kable(caption = paste(ref, "error sources"))
+```
+
+```{r flags}
+flags <- metrics_clip %>%
+  filter(Model == ref, is.na(Clips_Per_Class)) %>%
+  transmute(Test_Set, Code, AP = round(AP, 3), Too_Rare,
+            Flag_For_Training = !is.na(AP) & AP < ev$ap_flag) %>%
+  save_table("species_training_flags")
+kable(flags, caption = paste0("Species with ", ref, " AP below ", ev$ap_flag, " are flagged for training"))
+```
+
+## 5. Sparrow Confusion Matrix
+
+Rows are what was really in the clip. Columns are the top-scoring focal sparrow at or above
+`r ev$threshold` ("None" means no sparrow scored that high).
+
+```{r confusion}
+confusion <- focal_confusion(score_table %>% filter(is.na(Clips_Per_Class)), ev$threshold) %>%
+  save_table("focal_confusion")
+for (run in unique(confusion$Run_ID)) {
+  confusion %>%
+    filter(Run_ID == run) %>%
+    pivot_wider(names_from = Predicted, values_from = Clips, values_fill = 0) %>%
+    select(-Run_ID) %>%
+    kable(caption = run) %>%
+    print()
+}
+```
+
+## 6. Model Comparison (B6.1–B6.3)
+
+Each model's AP minus `r ref`'s AP on the same clips, with 95% paired-bootstrap
+intervals (`r ev$n_boot` resamples). `Prob_Better` is the share of resamples where
+the model beat `r ref`.
+
+```{r compare}
+full_runs <- score_table %>% filter(is.na(Clips_Per_Class), Run_ID != ref) %>% distinct(Run_ID) %>% pull()
+comparisons <- bind_rows(lapply(full_runs, function(r) {
+  bootstrap_ap_diff(score_table, r, ref, n_boot = ev$n_boot)
+}))
+
+if (nrow(comparisons) > 0) {
+  save_table(comparisons, "ap_difference_vs_reference")
+  comparisons %>% mutate(across(where(is.double), ~ round(.x, 3))) %>% kable() %>% print()
+
+  p <- ggplot(comparisons, aes(AP_Diff, Run_ID, xmin = CI_Low, xmax = CI_High)) +
+    geom_vline(xintercept = 0, linetype = "dashed") +
+    geom_pointrange() +
+    facet_grid(Code ~ Test_Set) +
+    labs(x = paste("AP difference vs", ref), y = NULL) +
+    theme_minimal()
+  ggsave(file.path(out_dir, "ap_difference_vs_reference.png"), p, width = cfg$params$width,
+         height = cfg$params$height, dpi = cfg$params$dpi)
+  print(p)
+} else {
+  cat("Only", ref, "has been scored so far - nothing to compare yet.\n")
+}
+```
+
+```{r rank, results="asis"}
+best_model <- ref
+if (nrow(comparisons) > 0) {
+  ranking <- rank_models(metrics_clip, comparisons, registry, primary,
+                         independent_set, local_set, ref, ev$tie_tolerance) %>%
+    save_table("model_ranking")
+  print(kable(ranking %>% mutate(across(where(is.double), ~ round(.x, 3)))))
+  if (any(ranking$Chosen)) best_model <- ranking$Model[ranking$Chosen]
+  cat("\n\nModels are ranked by", primary, "AP on the", independent_set, "test set.",
+      "A model must also beat", ref, "on the", local_set, "test set (bootstrap CI above 0).",
+      "Among models within", ev$tie_tolerance, "AP of the best, the one with fewer training sources is chosen.\n\n")
+}
+cat("**Best model: ", best_model, "**", sep = "")
+```
+
+## 7. Score Cut-off for Real Use (B6.4)
+
+The chance a `r best_model` `r primary` detection is correct, by score, using both
+test sets together. The cut-off is where the fitted curve reaches
+`r ev$target_precision * 100`%.
+
+```{r cutoff, fig.height=4}
+d <- score_table %>% filter(Run_ID == best_model, Code == primary)
+fit <- logistic_cutoff(d$Score, d$Truth, ev$target_precision)
+
+if (!is.null(fit$model)) {
+  grid <- tibble(Score = seq(0.01, 0.99, by = 0.01)) %>%
+    mutate(P_Correct = predict(fit$model, data.frame(logit_score = qlogis(Score)), type = "response"))
+  p <- ggplot(d %>% filter(Score > 0), aes(Score, Truth)) +
+    geom_jitter(height = 0.03, width = 0, alpha = 0.4) +
+    geom_line(data = grid, aes(Score, P_Correct), colour = "steelblue", linewidth = 1) +
+    geom_hline(yintercept = ev$target_precision, linetype = "dashed") +
+    { if (!is.na(fit$cutoff)) geom_vline(xintercept = fit$cutoff, colour = "firebrick") } +
+    labs(y = "Correct (1) / incorrect (0)", title = paste(best_model, primary)) +
+    theme_minimal()
+  ggsave(file.path(out_dir, "score_cutoff.png"), p, width = 8, height = 4, dpi = cfg$params$dpi)
+  print(p)
+  cat("Cut-off for", ev$target_precision * 100, "% precision:",
+      ifelse(is.na(fit$cutoff), "not reached", round(fit$cutoff, 3)), "\n")
+} else {
+  cat("Not enough scored", primary, "detections with both correct and incorrect labels to fit the curve yet.\n")
+}
+```
+
+## 8. How Many Training Clips Are Needed (B5.4)
+
+```{r clip-curve, fig.height=5}
+curve <- clip_curve_summary(metrics_clip, primary)
+if (nrow(curve) > 0) {
+  save_table(curve, "clip_number_curve")
+  p <- ggplot(curve, aes(Clips_Per_Class, AP_Mean, colour = Model, fill = Model)) +
+    geom_ribbon(aes(ymin = AP_Low, ymax = AP_High), alpha = 0.15, colour = NA) +
+    geom_line() + geom_point() +
+    scale_x_continuous(trans = "log2", breaks = sort(unique(curve$Clips_Per_Class))) +
+    facet_wrap(~ Test_Set) +
+    labs(x = "Training clips per class", y = paste(primary, "average precision"),
+         title = "Mean and 95% range across random draws") +
+    theme_minimal()
+  ggsave(file.path(out_dir, "clip_number_curve.png"), p, width = cfg$params$width,
+         height = cfg$params$height, dpi = cfg$params$dpi)
+  p
+} else {
+  cat("No clip-number runs (folders named like M1_n016_d03) scored yet.\n")
+}
+```
+
+## 9. Iteration Log
+
+Every scored run is written to `data/processed/model_eval/iteration_log.csv`.
+Runs that failed to train can be added to that file by hand with `Status = failed`.
+Those rows are kept when the log is rebuilt.
+
+```{r log}
+log <- update_iteration_log(metrics_clip, registry, file.path(eval_dir, "iteration_log.csv"))
+cat(nrow(log), "rows in the iteration log\n")
+```
+
+## 10. Station-day Agreement on All Audio (B7)
+
+```{r station-day}
+full_dir <- file.path(eval_dir, "full_run", best_model)
+verified_path <- file.path(eval_dir, "verified_station_days.csv")
+cutoff_used <- if (exists("fit") && !is.na(fit$cutoff)) fit$cutoff else ev$threshold
+
+if (dir.exists(full_dir) && file.exists(verified_path)) {
+  detections <- as_tibble(read_station_folders(full_dir, label = best_model)) %>%
+    inner_join(tibble(Code = names(focal), Common_Name = unname(focal)), by = "Common_Name") %>%
+    transmute(Station, Date = as.Date(Date), Code, Score = as.numeric(Confidence))
+  verified <- as_tibble(fread(verified_path)) %>% mutate(Date = as.Date(Date))
+  agreement <- station_day_agreement(detections, verified, cutoff_used, ev$min_detections_per_day) %>%
+    save_table("station_day_agreement")
+  kable(agreement %>% mutate(across(where(is.double), ~ round(.x, 3))),
+        caption = paste0(best_model, ", cut-off ", round(cutoff_used, 3), ", >= ",
+                         ev$min_detections_per_day, " detections per station-day"))
+} else {
+  cat("Waiting on B7: needs", full_dir, "and", verified_path,
+      "(columns Station, Date, Code, Present).\n")
+}
+```
+
+Tables and figures are written to `outputs/model_eval/`.

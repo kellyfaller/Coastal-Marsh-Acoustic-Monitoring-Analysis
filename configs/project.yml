@@ -14,6 +14,7 @@ paths:
   birdnet_results: "data/processed/birdNET/birdNET_results.csv"
   birdnet_raw_dir: "data/processed/birdNET" # holds <year>/<station>/BirdNET_CombinedTable files
   bird_guild: "data/metadata/species_list.csv"
+  model_eval_dir: "data/processed/model_eval" # scores/<run>/<test set>/<station>/, test clips, labels, logs
   # Kaleidoscope Acoustic Index
   index: "data/processed/kaleidoscope_outputs/acoustic_indices_20242025combined.csv"
 outputs:
@@ -22,6 +23,36 @@ outputs:
   reports_dir:   "outputs/reports"
   indices_dir: "outputs/indices"
   models_dir: "outputs/models"
+  model_eval_dir: "outputs/model_eval"
+# SALSNET model evaluation (analysis plan B1-B7)
+evaluation:
+  focal_species:
+    SALS: "Saltmarsh Sparrow"
+    NESP: "Nelson's Sparrow"
+    SESP: "Seaside Sparrow"
+  primary_species: "SALS"     # models are ranked on this species (B6.1)
+  reference_model: "M0"       # stock BirdNET baseline
+  test_sets:                  # folder names under scores/<run>/
+    local: "local"            # one whole site-year of my ARU data, never trained on (B1.1)
+    independent: "independent" # partner sites kept out of training (B1.2)
+  threshold: 0.5              # cut-off for precision/recall/F1, confusion matrix and error list
+  target_precision: 0.9       # B6.4 score cut-off
+  min_positives: 5            # species with this many or fewer positive clips are too rare to score (B1.5)
+  ap_flag: 0.8                # species below this AP are flagged for training (B2.3)
+  tie_tolerance: 0.02         # models within this AP of the best count as tied (B6.3)
+  n_boot: 1000                # bootstrap resamples for model comparisons
+  min_detections_per_day: 2   # B7.2
+  test_clip_bins:             # B1.3: clips drawn per species per site
+    low_max: 0.1              # 1 clip scoring 0 to low_max
+    n_low: 1
+    n_high: 6                 # spread across low_max to 1.0, plus highest and lowest
+  models:
+    M0: {sources: [], description: "Stock BirdNET, no custom training"}
+    M1: {sources: [my_aru], description: "Verified clips from my ARUs"}
+    M2: {sources: [mic], description: "Focal follow (handheld mic) recordings only"}
+    M3: {sources: [my_aru, mic], description: "My ARU clips plus focal follows"}
+    M4: {sources: [my_aru, mic, partner], description: "Adds partner recordings from other marshes"}
+    M5: {sources: [my_aru, mic, partner, phone], description: "Adds my phone recordings (optional)"}
 photos:
   sparrow_image: "C:/Users/kfaller/Documents/GitHub/Acoustics/Images/SALS.png"
 params:

@@ -1,6 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	498.0	501.0	0	15000	Lapland Longspur	laplon	0.5583	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-30\Unit4_20260730_020000.wav	498.0
-2	Spectrogram 1	1	546.0	549.0	0	15000	Least Tern	leater1	0.2553	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-30\Unit4_20260730_020000.wav	546.0
-3	Spectrogram 1	1	594.0	597.0	0	15000	Least Tern	leater1	0.2716	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-30\Unit4_20260730_020000.wav	594.0
-4	Spectrogram 1	1	792.0	795.0	0	15000	Lapland Longspur	laplon	0.3059	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-30\Unit4_20260730_020000.wav	792.0
-5	Spectrogram 1	1	825.0	828.0	0	15000	Lapland Longspur	laplon	0.2720	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-30\Unit4_20260730_020000.wav	825.0

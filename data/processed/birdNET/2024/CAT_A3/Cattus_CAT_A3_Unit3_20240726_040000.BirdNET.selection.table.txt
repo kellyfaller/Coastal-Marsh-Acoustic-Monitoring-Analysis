@@ -1,7 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	330.0	333.0	0	15000	Wild Turkey	wiltur	0.6590	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240726_040000.wav	330.0
-2	Spectrogram 1	1	333.0	336.0	0	15000	Gray Treefrog	t-11124704	0.5104	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240726_040000.wav	333.0
-3	Spectrogram 1	1	342.0	345.0	0	15000	Gray Treefrog	t-11124704	0.2748	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240726_040000.wav	342.0
-4	Spectrogram 1	1	504.0	507.0	0	15000	Upland Sandpiper	uplsan	0.2882	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240726_040000.wav	504.0
-5	Spectrogram 1	1	558.0	561.0	0	15000	Wild Turkey	wiltur	0.3460	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240726_040000.wav	558.0
-6	Spectrogram 1	1	681.0	684.0	0	15000	Marsh Wren	marwre	0.2596	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240726_040000.wav	681.0

@@ -1,3 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	351.0	354.0	0	15000	Brant	brant	0.3029	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240717_010000.wav	351.0
-2	Spectrogram 1	1	873.0	876.0	0	15000	Yellow Rail	yelrai	0.2732	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240717_010000.wav	873.0

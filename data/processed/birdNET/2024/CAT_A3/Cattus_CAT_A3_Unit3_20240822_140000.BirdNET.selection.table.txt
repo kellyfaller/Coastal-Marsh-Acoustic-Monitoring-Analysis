@@ -1,8 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	234.0	237.0	0	15000	Northern Saw-whet Owl	nswowl	0.8047	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240822_140000.wav	234.0
-2	Spectrogram 1	1	348.0	351.0	0	15000	American Goldfinch	amegfi	0.4367	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240822_140000.wav	348.0
-3	Spectrogram 1	1	579.0	582.0	0	15000	Clapper Rail	clarai11	0.4557	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240822_140000.wav	579.0
-4	Spectrogram 1	1	732.0	735.0	0	15000	Black Rail	blkrai	0.3183	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240822_140000.wav	732.0
-5	Spectrogram 1	1	777.0	780.0	0	15000	Northern Saw-whet Owl	nswowl	0.4770	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240822_140000.wav	777.0
-6	Spectrogram 1	1	780.0	783.0	0	15000	Northern Saw-whet Owl	nswowl	0.7873	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240822_140000.wav	780.0
-7	Spectrogram 1	1	807.0	810.0	0	15000	Northern Saw-whet Owl	nswowl	0.5627	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240822_140000.wav	807.0

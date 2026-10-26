@@ -1,6 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	48.0	51.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.4567	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240812_010000.wav	48.0
-2	Spectrogram 1	1	105.0	108.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.3425	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240812_010000.wav	105.0
-3	Spectrogram 1	1	141.0	144.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.4218	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240812_010000.wav	141.0
-4	Spectrogram 1	1	168.0	171.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2717	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240812_010000.wav	168.0
-5	Spectrogram 1	1	297.0	300.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2556	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240812_010000.wav	297.0

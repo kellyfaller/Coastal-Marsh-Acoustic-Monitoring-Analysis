@@ -1,3 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	549.0	552.0	0	15000	Canada Goose	cangoo	0.3566	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240829_040000.wav	549.0
-2	Spectrogram 1	1	744.0	747.0	0	15000	Great Blue Heron	grbher3	0.3413	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240829_040000.wav	744.0

@@ -1,3 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	582.0	585.0	0	15000	Great Horned Owl	grhowl	0.2851	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240827_020000.wav	582.0
-2	Spectrogram 1	1	588.0	591.0	0	15000	Great Horned Owl	grhowl	0.3167	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240827_020000.wav	588.0

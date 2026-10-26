@@ -1,9 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	0.0	3.0	0	15000	Red Crossbill	redcro	0.3770	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-10\Unit4_20260610_160000.wav	0.0
-2	Spectrogram 1	1	129.0	132.0	0	15000	Red-winged Blackbird	rewbla	0.3474	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-10\Unit4_20260610_160000.wav	129.0
-3	Spectrogram 1	1	132.0	135.0	0	15000	Red-winged Blackbird	rewbla	0.2623	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-10\Unit4_20260610_160000.wav	132.0
-4	Spectrogram 1	1	417.0	420.0	0	15000	Red-winged Blackbird	rewbla	0.7301	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-10\Unit4_20260610_160000.wav	417.0
-5	Spectrogram 1	1	447.0	450.0	0	15000	Red-winged Blackbird	rewbla	0.3959	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-10\Unit4_20260610_160000.wav	447.0
-6	Spectrogram 1	1	465.0	468.0	0	15000	Clapper Rail	clarai11	0.3794	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-10\Unit4_20260610_160000.wav	465.0
-7	Spectrogram 1	1	465.0	468.0	0	15000	King Rail	kinrai4	0.3448	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-10\Unit4_20260610_160000.wav	465.0
-8	Spectrogram 1	1	690.0	693.0	0	15000	Red-winged Blackbird	rewbla	0.3530	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-10\Unit4_20260610_160000.wav	690.0

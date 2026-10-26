@@ -1,9 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	27.0	30.0	0	15000	Engine	engine	0.2947	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240820_200000.wav	27.0
-2	Spectrogram 1	1	159.0	162.0	0	15000	Golden-crowned Kinglet	gockin	0.4928	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240820_200000.wav	159.0
-3	Spectrogram 1	1	483.0	486.0	0	15000	Mallard	mallar3	0.3157	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240820_200000.wav	483.0
-4	Spectrogram 1	1	567.0	570.0	0	15000	Engine	engine	0.5786	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240820_200000.wav	567.0
-5	Spectrogram 1	1	588.0	591.0	0	15000	Engine	engine	0.4322	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240820_200000.wav	588.0
-6	Spectrogram 1	1	630.0	633.0	0	15000	Osprey	osprey	0.5037	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240820_200000.wav	630.0
-7	Spectrogram 1	1	729.0	732.0	0	15000	Great Horned Owl	grhowl	0.2510	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240820_200000.wav	729.0
-8	Spectrogram 1	1	795.0	798.0	0	15000	Osprey	osprey	0.7997	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240820_200000.wav	795.0

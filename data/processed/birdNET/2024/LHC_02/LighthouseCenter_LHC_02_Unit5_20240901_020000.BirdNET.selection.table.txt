@@ -1,5 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	378.0	381.0	0	15000	Engine	engine	0.3094	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240901_020000.wav	378.0
-2	Spectrogram 1	1	381.0	384.0	0	15000	Engine	engine	0.4080	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240901_020000.wav	381.0
-3	Spectrogram 1	1	474.0	477.0	0	15000	Common Virtuoso Katydid	t-11851326	0.3039	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240901_020000.wav	474.0
-4	Spectrogram 1	1	480.0	483.0	0	15000	Common Virtuoso Katydid	t-11851326	0.3792	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240901_020000.wav	480.0

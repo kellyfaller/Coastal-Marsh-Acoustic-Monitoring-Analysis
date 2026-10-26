@@ -1,4 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	294.0	297.0	0	15000	Purple Martin	purmar	0.4341	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240906_150000.wav	294.0
-2	Spectrogram 1	1	498.0	501.0	0	15000	Bank Swallow	banswa	0.2823	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240906_150000.wav	498.0
-3	Spectrogram 1	1	555.0	558.0	0	15000	American Woodcock	amewoo	0.3569	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240906_150000.wav	555.0

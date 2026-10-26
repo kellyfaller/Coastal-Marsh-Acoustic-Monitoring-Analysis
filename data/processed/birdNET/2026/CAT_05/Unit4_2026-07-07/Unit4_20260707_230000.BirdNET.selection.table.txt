@@ -1,9 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	72.0	75.0	0	15000	Golden-crowned Kinglet	gockin	0.3531	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-07\Unit4_20260707_230000.wav	72.0
-2	Spectrogram 1	1	210.0	213.0	0	15000	Golden-crowned Kinglet	gockin	0.3007	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-07\Unit4_20260707_230000.wav	210.0
-3	Spectrogram 1	1	297.0	300.0	0	15000	Golden-crowned Kinglet	gockin	0.4525	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-07\Unit4_20260707_230000.wav	297.0
-4	Spectrogram 1	1	435.0	438.0	0	15000	Lapland Longspur	laplon	0.3440	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-07\Unit4_20260707_230000.wav	435.0
-5	Spectrogram 1	1	477.0	480.0	0	15000	Golden-crowned Kinglet	gockin	0.4045	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-07\Unit4_20260707_230000.wav	477.0
-6	Spectrogram 1	1	666.0	669.0	0	15000	Golden-crowned Kinglet	gockin	0.3322	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-07\Unit4_20260707_230000.wav	666.0
-7	Spectrogram 1	1	861.0	864.0	0	15000	Least Sandpiper	leasan	0.5363	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-07\Unit4_20260707_230000.wav	861.0
-8	Spectrogram 1	1	864.0	867.0	0	15000	Least Sandpiper	leasan	0.3831	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-07\Unit4_20260707_230000.wav	864.0

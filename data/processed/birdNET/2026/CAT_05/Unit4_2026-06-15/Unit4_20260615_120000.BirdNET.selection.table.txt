@@ -1,8 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	639.0	642.0	0	15000	Ruddy Turnstone	rudtur	0.5125	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-15\Unit4_20260615_120000.wav	639.0
-2	Spectrogram 1	1	660.0	663.0	0	15000	Purple Martin	purmar	0.8001	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-15\Unit4_20260615_120000.wav	660.0
-3	Spectrogram 1	1	669.0	672.0	0	15000	Purple Martin	purmar	0.7131	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-15\Unit4_20260615_120000.wav	669.0
-4	Spectrogram 1	1	672.0	675.0	0	15000	Osprey	osprey	0.2980	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-15\Unit4_20260615_120000.wav	672.0
-5	Spectrogram 1	1	672.0	675.0	0	15000	Greater Yellowlegs	greyel	0.2854	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-15\Unit4_20260615_120000.wav	672.0
-6	Spectrogram 1	1	672.0	675.0	0	15000	Lesser Yellowlegs	lesyel	0.2676	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-15\Unit4_20260615_120000.wav	672.0
-7	Spectrogram 1	1	882.0	885.0	0	15000	Fireworks	frwrks	0.2826	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-15\Unit4_20260615_120000.wav	882.0

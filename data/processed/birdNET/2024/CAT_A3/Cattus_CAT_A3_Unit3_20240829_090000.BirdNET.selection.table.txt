@@ -1,5 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	42.0	45.0	0	15000	Osprey	osprey	0.2948	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240829_090000.wav	42.0
-2	Spectrogram 1	1	144.0	147.0	0	15000	Herring Gull	hergul	0.3620	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240829_090000.wav	144.0
-3	Spectrogram 1	1	285.0	288.0	0	15000	Least Sandpiper	leasan	0.4738	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240829_090000.wav	285.0
-4	Spectrogram 1	1	741.0	744.0	0	15000	Osprey	osprey	0.7003	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240829_090000.wav	741.0

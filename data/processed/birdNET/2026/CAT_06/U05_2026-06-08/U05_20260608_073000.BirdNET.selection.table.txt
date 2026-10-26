@@ -1,4 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	141.0	144.0	0	15000	Song Sparrow	sonspa	0.3534	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-08\U05_20260608_073000.wav	141.0
-2	Spectrogram 1	1	504.0	507.0	0	15000	Song Sparrow	sonspa	0.2925	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-08\U05_20260608_073000.wav	504.0
-3	Spectrogram 1	1	618.0	621.0	0	15000	Purple Martin	purmar	0.2978	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-08\U05_20260608_073000.wav	618.0

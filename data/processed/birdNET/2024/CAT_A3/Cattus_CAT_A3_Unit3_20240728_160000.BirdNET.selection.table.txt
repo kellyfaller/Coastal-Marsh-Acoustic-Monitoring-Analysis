@@ -1,9 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	528.0	531.0	0	15000	Black-crowned Night-Heron	bcnher	0.2848	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240728_160000.wav	528.0
-2	Spectrogram 1	1	693.0	696.0	0	15000	Osprey	osprey	0.4738	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240728_160000.wav	693.0
-3	Spectrogram 1	1	693.0	696.0	0	15000	Greater Yellowlegs	greyel	0.4337	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240728_160000.wav	693.0
-4	Spectrogram 1	1	720.0	723.0	0	15000	Golden-crowned Kinglet	gockin	0.3498	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240728_160000.wav	720.0
-5	Spectrogram 1	1	723.0	726.0	0	15000	Purple Martin	purmar	0.4547	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240728_160000.wav	723.0
-6	Spectrogram 1	1	753.0	756.0	0	15000	Purple Martin	purmar	0.3744	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240728_160000.wav	753.0
-7	Spectrogram 1	1	879.0	882.0	0	15000	Trumpeter Swan	truswa	0.5488	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240728_160000.wav	879.0
-8	Spectrogram 1	1	891.0	894.0	0	15000	White-faced Ibis	whfibi	0.3928	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240728_160000.wav	891.0

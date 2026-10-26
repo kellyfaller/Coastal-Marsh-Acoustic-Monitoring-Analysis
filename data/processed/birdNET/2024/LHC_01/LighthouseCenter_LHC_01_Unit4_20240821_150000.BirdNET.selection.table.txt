@@ -1,8 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	15.0	18.0	0	15000	Engine	engine	0.3473	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240821_150000.wav	15.0
-2	Spectrogram 1	1	228.0	231.0	0	15000	Fish Crow	fiscro	0.2514	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240821_150000.wav	228.0
-3	Spectrogram 1	1	333.0	336.0	0	15000	Golden-crowned Kinglet	gockin	0.3286	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240821_150000.wav	333.0
-4	Spectrogram 1	1	354.0	357.0	0	15000	Golden-crowned Kinglet	gockin	0.3845	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240821_150000.wav	354.0
-5	Spectrogram 1	1	444.0	447.0	0	15000	Carolina Wren	carwre	0.5722	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240821_150000.wav	444.0
-6	Spectrogram 1	1	669.0	672.0	0	15000	Great Horned Owl	grhowl	0.6035	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240821_150000.wav	669.0
-7	Spectrogram 1	1	699.0	702.0	0	15000	Great Horned Owl	grhowl	0.5264	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240821_150000.wav	699.0

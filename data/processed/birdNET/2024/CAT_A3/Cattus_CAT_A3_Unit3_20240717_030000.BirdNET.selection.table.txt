@@ -1,5 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	102.0	105.0	0	15000	Eastern Wood-Pewee	eawpew	0.2585	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240717_030000.wav	102.0
-2	Spectrogram 1	1	717.0	720.0	0	15000	Marsh Wren	marwre	0.3185	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240717_030000.wav	717.0
-3	Spectrogram 1	1	723.0	726.0	0	15000	Marsh Wren	marwre	0.7564	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240717_030000.wav	723.0
-4	Spectrogram 1	1	888.0	891.0	0	15000	Least Bittern	leabit	0.3264	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240717_030000.wav	888.0

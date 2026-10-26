@@ -1,5 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	471.0	474.0	0	15000	Wilson's Plover	wilplo	0.3016	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_030000.wav	471.0
-2	Spectrogram 1	1	642.0	645.0	0	15000	Eastern Wood-Pewee	eawpew	0.3730	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_030000.wav	642.0
-3	Spectrogram 1	1	783.0	786.0	0	15000	Marsh Wren	marwre	0.4582	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_030000.wav	783.0
-4	Spectrogram 1	1	822.0	825.0	0	15000	Marsh Wren	marwre	0.3673	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_030000.wav	822.0

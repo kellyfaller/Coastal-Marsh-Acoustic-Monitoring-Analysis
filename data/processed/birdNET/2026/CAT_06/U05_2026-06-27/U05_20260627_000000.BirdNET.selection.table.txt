@@ -1,7 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	99.0	102.0	0	15000	Dog	dogdog	0.4788	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_000000.wav	99.0
-2	Spectrogram 1	1	216.0	219.0	0	15000	Barred Owl	brdowl	0.2873	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_000000.wav	216.0
-3	Spectrogram 1	1	351.0	354.0	0	15000	Golden-crowned Kinglet	gockin	0.2530	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_000000.wav	351.0
-4	Spectrogram 1	1	366.0	369.0	0	15000	Black-crowned Night-Heron	bcnher	0.3105	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_000000.wav	366.0
-5	Spectrogram 1	1	468.0	471.0	0	15000	White-breasted Nuthatch	whbnut	0.3311	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_000000.wav	468.0
-6	Spectrogram 1	1	879.0	882.0	0	15000	Golden-crowned Kinglet	gockin	0.3039	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_000000.wav	879.0

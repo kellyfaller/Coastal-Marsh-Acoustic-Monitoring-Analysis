@@ -1,5 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	297.0	300.0	0	15000	Dog	dogdog	0.8966	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240721_000000.wav	297.0
-2	Spectrogram 1	1	669.0	672.0	0	15000	Golden-crowned Kinglet	gockin	0.4325	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240721_000000.wav	669.0
-3	Spectrogram 1	1	705.0	708.0	0	15000	Golden-crowned Kinglet	gockin	0.4192	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240721_000000.wav	705.0
-4	Spectrogram 1	1	738.0	741.0	0	15000	Golden-crowned Kinglet	gockin	0.3333	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240721_000000.wav	738.0

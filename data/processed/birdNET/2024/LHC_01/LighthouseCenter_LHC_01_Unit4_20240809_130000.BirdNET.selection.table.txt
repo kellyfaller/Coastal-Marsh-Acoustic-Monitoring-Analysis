@@ -1,9 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	24.0	27.0	0	15000	Fish Crow	fiscro	0.3693	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240809_130000.wav	24.0
-2	Spectrogram 1	1	45.0	48.0	0	15000	Fish Crow	fiscro	0.3186	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240809_130000.wav	45.0
-3	Spectrogram 1	1	219.0	222.0	0	15000	Fish Crow	fiscro	0.6375	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240809_130000.wav	219.0
-4	Spectrogram 1	1	456.0	459.0	0	15000	Forster's Tern	forter	0.9235	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240809_130000.wav	456.0
-5	Spectrogram 1	1	483.0	486.0	0	15000	Fish Crow	fiscro	0.9846	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240809_130000.wav	483.0
-6	Spectrogram 1	1	573.0	576.0	0	15000	Fish Crow	fiscro	0.9810	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240809_130000.wav	573.0
-7	Spectrogram 1	1	687.0	690.0	0	15000	Fish Crow	fiscro	0.7871	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240809_130000.wav	687.0
-8	Spectrogram 1	1	699.0	702.0	0	15000	Fish Crow	fiscro	0.4421	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240809_130000.wav	699.0

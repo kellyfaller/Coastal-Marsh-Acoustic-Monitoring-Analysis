@@ -1,4 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	240.0	243.0	0	15000	Common True Katydid	t-11876111	0.8212	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240806_220000.wav	240.0
-2	Spectrogram 1	1	327.0	330.0	0	15000	Common True Katydid	t-11876111	0.3323	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240806_220000.wav	327.0
-3	Spectrogram 1	1	348.0	351.0	0	15000	Common True Katydid	t-11876111	0.2709	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240806_220000.wav	348.0

@@ -1,6 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	276.0	279.0	0	15000	Caspian Tern	caster1	0.3750	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_230000.wav	276.0
-2	Spectrogram 1	1	363.0	366.0	0	15000	Golden-crowned Kinglet	gockin	0.2528	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_230000.wav	363.0
-3	Spectrogram 1	1	726.0	729.0	0	15000	Short-billed Dowitcher	shbdow	0.2839	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_230000.wav	726.0
-4	Spectrogram 1	1	738.0	741.0	0	15000	Short-billed Dowitcher	shbdow	0.5389	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_230000.wav	738.0
-5	Spectrogram 1	1	756.0	759.0	0	15000	Short-billed Dowitcher	shbdow	0.8756	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_230000.wav	756.0

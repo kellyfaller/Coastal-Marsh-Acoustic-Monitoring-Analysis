@@ -1,2 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	36.0	39.0	0	15000	Golden-crowned Kinglet	gockin	0.3201	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-16\U05_20260616_214500.wav	36.0

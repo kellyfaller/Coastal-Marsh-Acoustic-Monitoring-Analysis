@@ -1,8 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	90.0	93.0	0	15000	Golden-crowned Kinglet	gockin	0.2512	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-04\Unit4_20260804_220000.wav	90.0
-2	Spectrogram 1	1	645.0	648.0	0	15000	Golden-crowned Kinglet	gockin	0.3901	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-04\Unit4_20260804_220000.wav	645.0
-3	Spectrogram 1	1	705.0	708.0	0	15000	Eastern Screech-Owl	easowl1	0.3998	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-04\Unit4_20260804_220000.wav	705.0
-4	Spectrogram 1	1	756.0	759.0	0	15000	Eastern Screech-Owl	easowl1	0.4552	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-04\Unit4_20260804_220000.wav	756.0
-5	Spectrogram 1	1	843.0	846.0	0	15000	Eastern Screech-Owl	easowl1	0.2709	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-04\Unit4_20260804_220000.wav	843.0
-6	Spectrogram 1	1	861.0	864.0	0	15000	Engine	engine	0.2596	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-04\Unit4_20260804_220000.wav	861.0
-7	Spectrogram 1	1	867.0	870.0	0	15000	Engine	engine	0.2938	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-04\Unit4_20260804_220000.wav	867.0

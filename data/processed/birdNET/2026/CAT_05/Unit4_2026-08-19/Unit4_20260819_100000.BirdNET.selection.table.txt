@@ -1,8 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	375.0	378.0	0	15000	Chipping Sparrow	chispa	0.2544	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-19\Unit4_20260819_100000.wav	375.0
-2	Spectrogram 1	1	393.0	396.0	0	15000	Golden-crowned Kinglet	gockin	0.3882	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-19\Unit4_20260819_100000.wav	393.0
-3	Spectrogram 1	1	468.0	471.0	0	15000	Chipping Sparrow	chispa	0.2866	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-19\Unit4_20260819_100000.wav	468.0
-4	Spectrogram 1	1	795.0	798.0	0	15000	Tundra Swan	tunswa	0.4139	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-19\Unit4_20260819_100000.wav	795.0
-5	Spectrogram 1	1	849.0	852.0	0	15000	Yellow-billed Cuckoo	yebcuc	0.7351	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-19\Unit4_20260819_100000.wav	849.0
-6	Spectrogram 1	1	852.0	855.0	0	15000	Yellow-billed Cuckoo	yebcuc	0.3121	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-19\Unit4_20260819_100000.wav	852.0
-7	Spectrogram 1	1	894.0	897.0	0	15000	Tundra Swan	tunswa	0.2673	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-19\Unit4_20260819_100000.wav	894.0

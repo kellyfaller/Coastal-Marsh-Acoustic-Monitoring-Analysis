@@ -1,6 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	132.0	135.0	0	15000	Killdeer	killde	0.2713	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240905_040000.wav	132.0
-2	Spectrogram 1	1	135.0	138.0	0	15000	Killdeer	killde	0.6572	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240905_040000.wav	135.0
-3	Spectrogram 1	1	138.0	141.0	0	15000	Killdeer	killde	0.3796	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240905_040000.wav	138.0
-4	Spectrogram 1	1	213.0	216.0	0	15000	Killdeer	killde	0.4393	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240905_040000.wav	213.0
-5	Spectrogram 1	1	672.0	675.0	0	15000	Great Blue Heron	grbher3	0.3917	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240905_040000.wav	672.0

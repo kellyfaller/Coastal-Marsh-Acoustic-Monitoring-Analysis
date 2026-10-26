@@ -1,4 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	324.0	327.0	0	15000	Seaside Sparrow	seaspa	0.4927	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240701_080000.wav	324.0
-2	Spectrogram 1	1	477.0	480.0	0	15000	Sanderling	sander	0.3815	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240701_080000.wav	477.0
-3	Spectrogram 1	1	726.0	729.0	0	15000	Sanderling	sander	0.3922	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240701_080000.wav	726.0

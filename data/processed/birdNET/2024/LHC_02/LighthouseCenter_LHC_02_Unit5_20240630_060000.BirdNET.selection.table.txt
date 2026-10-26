@@ -1,5 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	300.0	303.0	0	15000	Laughing Gull	laugul	0.2637	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240630_060000.wav	300.0
-2	Spectrogram 1	1	333.0	336.0	0	15000	Ovenbird	ovenbi1	0.2718	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240630_060000.wav	333.0
-3	Spectrogram 1	1	744.0	747.0	0	15000	Ovenbird	ovenbi1	0.3228	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240630_060000.wav	744.0
-4	Spectrogram 1	1	816.0	819.0	0	15000	Red-winged Blackbird	rewbla	0.3550	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240630_060000.wav	816.0

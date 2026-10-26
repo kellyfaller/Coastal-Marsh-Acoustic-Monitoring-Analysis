@@ -1,4 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	177.0	180.0	0	15000	Barred Owl	brdowl	0.3477	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-01\U05_20260701_231500.wav	177.0
-2	Spectrogram 1	1	807.0	810.0	0	15000	Osprey	osprey	0.9761	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-01\U05_20260701_231500.wav	807.0
-3	Spectrogram 1	1	810.0	813.0	0	15000	Osprey	osprey	0.9751	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-01\U05_20260701_231500.wav	810.0

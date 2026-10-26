@@ -1,7 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	81.0	84.0	0	15000	Mallard	mallar3	0.6102	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_060000.wav	81.0
-2	Spectrogram 1	1	105.0	108.0	0	15000	Mallard	mallar3	0.8329	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_060000.wav	105.0
-3	Spectrogram 1	1	204.0	207.0	0	15000	Mallard	mallar3	0.6482	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_060000.wav	204.0
-4	Spectrogram 1	1	234.0	237.0	0	15000	Mallard	mallar3	0.7346	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_060000.wav	234.0
-5	Spectrogram 1	1	312.0	315.0	0	15000	Mallard	mallar3	0.7336	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_060000.wav	312.0
-6	Spectrogram 1	1	447.0	450.0	0	15000	Mallard	mallar3	0.4054	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_060000.wav	447.0

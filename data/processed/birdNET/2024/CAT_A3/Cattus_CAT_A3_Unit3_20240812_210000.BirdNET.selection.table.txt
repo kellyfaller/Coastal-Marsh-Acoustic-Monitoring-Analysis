@@ -1,3 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	42.0	45.0	0	15000	American Woodcock	amewoo	0.3044	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240812_210000.wav	42.0
-2	Spectrogram 1	1	360.0	363.0	0	15000	Common True Katydid	t-11876111	0.4153	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240812_210000.wav	360.0

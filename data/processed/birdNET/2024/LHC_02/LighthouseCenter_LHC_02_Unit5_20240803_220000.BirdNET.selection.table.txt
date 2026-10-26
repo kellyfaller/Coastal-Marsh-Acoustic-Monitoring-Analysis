@@ -1,4 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	450.0	453.0	0	15000	Solitary Sandpiper	solsan	0.9083	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240803_220000.wav	450.0
-2	Spectrogram 1	1	477.0	480.0	0	15000	Solitary Sandpiper	solsan	0.9930	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240803_220000.wav	477.0
-3	Spectrogram 1	1	720.0	723.0	0	15000	Yellow Rail	yelrai	0.4007	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240803_220000.wav	720.0

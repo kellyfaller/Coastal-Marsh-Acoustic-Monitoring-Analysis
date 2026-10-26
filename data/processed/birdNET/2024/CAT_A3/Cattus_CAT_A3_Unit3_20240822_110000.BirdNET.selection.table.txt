@@ -1,5 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	174.0	177.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3516	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240822_110000.wav	174.0
-2	Spectrogram 1	1	372.0	375.0	0	15000	Clapper Rail	clarai11	0.5731	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240822_110000.wav	372.0
-3	Spectrogram 1	1	441.0	444.0	0	15000	Gray Catbird	grycat	0.2548	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240822_110000.wav	441.0
-4	Spectrogram 1	1	780.0	783.0	0	15000	Black Rail	blkrai	0.2514	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240822_110000.wav	780.0

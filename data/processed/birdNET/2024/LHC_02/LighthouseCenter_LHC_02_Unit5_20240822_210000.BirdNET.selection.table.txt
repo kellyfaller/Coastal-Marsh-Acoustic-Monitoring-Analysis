@@ -1,5 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	273.0	276.0	0	15000	Engine	engine	0.3245	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240822_210000.wav	273.0
-2	Spectrogram 1	1	351.0	354.0	0	15000	Dog	dogdog	0.8839	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240822_210000.wav	351.0
-3	Spectrogram 1	1	447.0	450.0	0	15000	Jumping Bush Cricket	t-11850192	0.5165	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240822_210000.wav	447.0
-4	Spectrogram 1	1	645.0	648.0	0	15000	Texas Bush Katydid	t-11853621	0.3811	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240822_210000.wav	645.0

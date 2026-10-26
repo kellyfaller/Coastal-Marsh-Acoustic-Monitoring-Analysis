@@ -1,5 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	528.0	531.0	0	15000	Purple Martin	purmar	0.6324	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240820_160000.wav	528.0
-2	Spectrogram 1	1	651.0	654.0	0	15000	Whimbrel	whimbr	0.4265	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240820_160000.wav	651.0
-3	Spectrogram 1	1	825.0	828.0	0	15000	Fish Crow	fiscro	0.7116	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240820_160000.wav	825.0
-4	Spectrogram 1	1	843.0	846.0	0	15000	Great Black-backed Gull	gbbgul	0.3249	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240820_160000.wav	843.0

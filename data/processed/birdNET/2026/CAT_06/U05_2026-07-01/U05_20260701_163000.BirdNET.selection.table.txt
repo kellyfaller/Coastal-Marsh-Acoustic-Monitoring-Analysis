@@ -1,9 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	42.0	45.0	0	15000	Marsh Wren	marwre	0.5741	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-01\U05_20260701_163000.wav	42.0
-2	Spectrogram 1	1	45.0	48.0	0	15000	Marsh Wren	marwre	0.3346	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-01\U05_20260701_163000.wav	45.0
-3	Spectrogram 1	1	54.0	57.0	0	15000	Marsh Wren	marwre	0.4135	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-01\U05_20260701_163000.wav	54.0
-4	Spectrogram 1	1	60.0	63.0	0	15000	Marsh Wren	marwre	0.2998	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-01\U05_20260701_163000.wav	60.0
-5	Spectrogram 1	1	66.0	69.0	0	15000	Marsh Wren	marwre	0.5577	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-01\U05_20260701_163000.wav	66.0
-6	Spectrogram 1	1	126.0	129.0	0	15000	Marsh Wren	marwre	0.2691	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-01\U05_20260701_163000.wav	126.0
-7	Spectrogram 1	1	555.0	558.0	0	15000	Red-winged Blackbird	rewbla	0.4074	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-01\U05_20260701_163000.wav	555.0
-8	Spectrogram 1	1	558.0	561.0	0	15000	Lapland Longspur	laplon	0.3600	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-01\U05_20260701_163000.wav	558.0

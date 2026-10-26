@@ -1,7 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	285.0	288.0	0	15000	King Rail	kinrai4	0.3117	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240823_040000.wav	285.0
-2	Spectrogram 1	1	636.0	639.0	0	15000	Northern Saw-whet Owl	nswowl	0.3891	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240823_040000.wav	636.0
-3	Spectrogram 1	1	639.0	642.0	0	15000	Northern Saw-whet Owl	nswowl	0.3453	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240823_040000.wav	639.0
-4	Spectrogram 1	1	642.0	645.0	0	15000	Northern Saw-whet Owl	nswowl	0.6546	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240823_040000.wav	642.0
-5	Spectrogram 1	1	645.0	648.0	0	15000	Northern Saw-whet Owl	nswowl	0.2601	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240823_040000.wav	645.0
-6	Spectrogram 1	1	828.0	831.0	0	15000	Northern Saw-whet Owl	nswowl	0.7926	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240823_040000.wav	828.0

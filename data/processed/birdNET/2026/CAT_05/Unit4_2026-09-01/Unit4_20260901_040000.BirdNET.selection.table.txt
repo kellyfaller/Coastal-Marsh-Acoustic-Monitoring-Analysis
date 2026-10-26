@@ -1,2 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	438.0	441.0	0	15000	American Bittern	amebit	0.2641	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-01\Unit4_20260901_040000.wav	438.0

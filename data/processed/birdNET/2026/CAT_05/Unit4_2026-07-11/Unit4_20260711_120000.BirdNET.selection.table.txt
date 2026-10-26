@@ -1,7 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	87.0	90.0	0	15000	Lapland Longspur	laplon	0.3867	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_120000.wav	87.0
-2	Spectrogram 1	1	120.0	123.0	0	15000	Song Sparrow	sonspa	0.2824	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_120000.wav	120.0
-3	Spectrogram 1	1	381.0	384.0	0	15000	House Sparrow	houspa	0.5923	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_120000.wav	381.0
-4	Spectrogram 1	1	744.0	747.0	0	15000	Purple Martin	purmar	0.3516	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_120000.wav	744.0
-5	Spectrogram 1	1	744.0	747.0	0	15000	Osprey	osprey	0.2716	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_120000.wav	744.0
-6	Spectrogram 1	1	864.0	867.0	0	15000	Osprey	osprey	0.5055	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_120000.wav	864.0

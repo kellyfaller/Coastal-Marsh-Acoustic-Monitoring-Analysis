@@ -1,5 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	75.0	78.0	0	15000	Pine Warbler	pinwar	0.3335	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-08\U05_20260708_034500.wav	75.0
-2	Spectrogram 1	1	540.0	543.0	0	15000	Marsh Wren	marwre	0.8672	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-08\U05_20260708_034500.wav	540.0
-3	Spectrogram 1	1	552.0	555.0	0	15000	Marsh Wren	marwre	0.8604	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-08\U05_20260708_034500.wav	552.0
-4	Spectrogram 1	1	795.0	798.0	0	15000	Marsh Wren	marwre	0.6336	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-08\U05_20260708_034500.wav	795.0

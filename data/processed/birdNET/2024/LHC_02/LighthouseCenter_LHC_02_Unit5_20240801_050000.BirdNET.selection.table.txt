@@ -1,4 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	642.0	645.0	0	15000	Fish Crow	fiscro	0.5053	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240801_050000.wav	642.0
-2	Spectrogram 1	1	699.0	702.0	0	15000	Black-crowned Night-Heron	bcnher	0.3099	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240801_050000.wav	699.0
-3	Spectrogram 1	1	846.0	849.0	0	15000	Willet	willet1	0.6548	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240801_050000.wav	846.0

@@ -1,7 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	579.0	582.0	0	15000	Least Sandpiper	leasan	0.5740	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240903_090000.wav	579.0
-2	Spectrogram 1	1	762.0	765.0	0	15000	American Crow	amecro	0.3499	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240903_090000.wav	762.0
-3	Spectrogram 1	1	771.0	774.0	0	15000	American Crow	amecro	0.5547	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240903_090000.wav	771.0
-4	Spectrogram 1	1	774.0	777.0	0	15000	Fish Crow	fiscro	0.2565	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240903_090000.wav	774.0
-5	Spectrogram 1	1	774.0	777.0	0	15000	American Crow	amecro	0.2525	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240903_090000.wav	774.0
-6	Spectrogram 1	1	783.0	786.0	0	15000	American Crow	amecro	0.5500	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240903_090000.wav	783.0

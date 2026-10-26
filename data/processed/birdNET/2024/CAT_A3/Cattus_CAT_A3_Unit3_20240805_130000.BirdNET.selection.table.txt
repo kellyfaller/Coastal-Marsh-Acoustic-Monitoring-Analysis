@@ -1,8 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	75.0	78.0	0	15000	Marsh Wren	marwre	0.5932	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240805_130000.wav	75.0
-2	Spectrogram 1	1	429.0	432.0	0	15000	American Goldfinch	amegfi	0.6955	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240805_130000.wav	429.0
-3	Spectrogram 1	1	696.0	699.0	0	15000	Eastern Screech-Owl	easowl1	0.5157	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240805_130000.wav	696.0
-4	Spectrogram 1	1	705.0	708.0	0	15000	Eastern Screech-Owl	easowl1	0.8726	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240805_130000.wav	705.0
-5	Spectrogram 1	1	711.0	714.0	0	15000	American Crow	amecro	0.4383	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240805_130000.wav	711.0
-6	Spectrogram 1	1	891.0	894.0	0	15000	Yellow-billed Cuckoo	yebcuc	0.5303	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240805_130000.wav	891.0
-7	Spectrogram 1	1	897.0	900.0	0	15000	American Goldfinch	amegfi	0.3930	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240805_130000.wav	897.0

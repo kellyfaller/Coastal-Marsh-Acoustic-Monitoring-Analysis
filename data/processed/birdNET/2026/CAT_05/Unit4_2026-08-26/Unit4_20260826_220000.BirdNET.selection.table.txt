@@ -1,8 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	78.0	81.0	0	15000	Mallard	mallar3	0.3850	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-26\Unit4_20260826_220000.wav	78.0
-2	Spectrogram 1	1	297.0	300.0	0	15000	Mallard	mallar3	0.3088	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-26\Unit4_20260826_220000.wav	297.0
-3	Spectrogram 1	1	732.0	735.0	0	15000	Great Blue Heron	grbher3	0.6194	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-26\Unit4_20260826_220000.wav	732.0
-4	Spectrogram 1	1	735.0	738.0	0	15000	Great Blue Heron	grbher3	0.9158	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-26\Unit4_20260826_220000.wav	735.0
-5	Spectrogram 1	1	738.0	741.0	0	15000	Great Blue Heron	grbher3	0.5319	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-26\Unit4_20260826_220000.wav	738.0
-6	Spectrogram 1	1	756.0	759.0	0	15000	Mallard	mallar3	0.7958	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-26\Unit4_20260826_220000.wav	756.0
-7	Spectrogram 1	1	867.0	870.0	0	15000	Great Blue Heron	grbher3	0.3543	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-26\Unit4_20260826_220000.wav	867.0

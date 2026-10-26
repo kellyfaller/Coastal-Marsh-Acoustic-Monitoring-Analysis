@@ -1,8 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	0.0	3.0	0	15000	Willet	willet1	0.9117	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240803_120000.wav	0.0
-2	Spectrogram 1	1	135.0	138.0	0	15000	Fireworks	frwrks	0.2618	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240803_120000.wav	135.0
-3	Spectrogram 1	1	243.0	246.0	0	15000	Lapland Longspur	laplon	0.6415	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240803_120000.wav	243.0
-4	Spectrogram 1	1	378.0	381.0	0	15000	Red Crossbill	redcro	0.3835	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240803_120000.wav	378.0
-5	Spectrogram 1	1	546.0	549.0	0	15000	Fireworks	frwrks	0.2514	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240803_120000.wav	546.0
-6	Spectrogram 1	1	642.0	645.0	0	15000	Fireworks	frwrks	0.2992	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240803_120000.wav	642.0
-7	Spectrogram 1	1	702.0	705.0	0	15000	Henslow's Sparrow	henspa	0.3577	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240803_120000.wav	702.0

@@ -1,9 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	324.0	327.0	0	15000	Dog	dogdog	0.2539	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-23\U05_20260623_021500.wav	324.0
-2	Spectrogram 1	1	402.0	405.0	0	15000	Willow Flycatcher	wilfly	0.5247	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-23\U05_20260623_021500.wav	402.0
-3	Spectrogram 1	1	810.0	813.0	0	15000	Great Blue Heron	grbher3	0.2905	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-23\U05_20260623_021500.wav	810.0
-4	Spectrogram 1	1	819.0	822.0	0	15000	Great Blue Heron	grbher3	0.5943	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-23\U05_20260623_021500.wav	819.0
-5	Spectrogram 1	1	822.0	825.0	0	15000	Great Blue Heron	grbher3	0.3899	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-23\U05_20260623_021500.wav	822.0
-6	Spectrogram 1	1	822.0	825.0	0	15000	Great Black-backed Gull	gbbgul	0.2623	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-23\U05_20260623_021500.wav	822.0
-7	Spectrogram 1	1	843.0	846.0	0	15000	Dog	dogdog	0.5837	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-23\U05_20260623_021500.wav	843.0
-8	Spectrogram 1	1	843.0	846.0	0	15000	Great Blue Heron	grbher3	0.5275	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-23\U05_20260623_021500.wav	843.0

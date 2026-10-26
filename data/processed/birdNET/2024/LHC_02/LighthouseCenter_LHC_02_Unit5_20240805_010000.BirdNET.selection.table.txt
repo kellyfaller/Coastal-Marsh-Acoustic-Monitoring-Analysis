@@ -1,5 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	489.0	492.0	0	15000	Jumping Bush Cricket	t-11850192	0.3763	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_010000.wav	489.0
-2	Spectrogram 1	1	495.0	498.0	0	15000	Jumping Bush Cricket	t-11850192	0.3846	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_010000.wav	495.0
-3	Spectrogram 1	1	525.0	528.0	0	15000	Jumping Bush Cricket	t-11850192	0.2772	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_010000.wav	525.0
-4	Spectrogram 1	1	615.0	618.0	0	15000	Eastern Screech-Owl	easowl1	0.2724	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_010000.wav	615.0

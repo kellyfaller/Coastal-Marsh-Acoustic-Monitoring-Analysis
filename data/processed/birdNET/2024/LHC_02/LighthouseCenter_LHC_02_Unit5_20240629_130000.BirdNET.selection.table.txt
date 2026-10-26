@@ -1,9 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	42.0	45.0	0	15000	Willet	willet1	0.9777	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240629_130000.wav	42.0
-2	Spectrogram 1	1	96.0	99.0	0	15000	Willet	willet1	0.9250	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240629_130000.wav	96.0
-3	Spectrogram 1	1	249.0	252.0	0	15000	Willet	willet1	0.2706	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240629_130000.wav	249.0
-4	Spectrogram 1	1	342.0	345.0	0	15000	Purple Martin	purmar	0.2567	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240629_130000.wav	342.0
-5	Spectrogram 1	1	540.0	543.0	0	15000	Willet	willet1	0.4626	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240629_130000.wav	540.0
-6	Spectrogram 1	1	630.0	633.0	0	15000	Willet	willet1	0.9234	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240629_130000.wav	630.0
-7	Spectrogram 1	1	678.0	681.0	0	15000	Least Sandpiper	leasan	0.8393	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240629_130000.wav	678.0
-8	Spectrogram 1	1	771.0	774.0	0	15000	Willet	willet1	0.4894	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240629_130000.wav	771.0

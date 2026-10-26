@@ -1,7 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	327.0	330.0	0	15000	Golden-crowned Kinglet	gockin	0.7140	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-12\Unit4_20260712_010000.wav	327.0
-2	Spectrogram 1	1	330.0	333.0	0	15000	Golden-crowned Kinglet	gockin	0.2864	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-12\Unit4_20260712_010000.wav	330.0
-3	Spectrogram 1	1	447.0	450.0	0	15000	Red Crossbill	redcro	0.4747	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-12\Unit4_20260712_010000.wav	447.0
-4	Spectrogram 1	1	558.0	561.0	0	15000	Lapland Longspur	laplon	0.5963	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-12\Unit4_20260712_010000.wav	558.0
-5	Spectrogram 1	1	651.0	654.0	0	15000	Golden-crowned Kinglet	gockin	0.4297	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-12\Unit4_20260712_010000.wav	651.0
-6	Spectrogram 1	1	891.0	894.0	0	15000	Seaside Sparrow	seaspa	0.4686	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-12\Unit4_20260712_010000.wav	891.0

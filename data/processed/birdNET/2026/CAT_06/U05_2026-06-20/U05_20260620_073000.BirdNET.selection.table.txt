@@ -1,9 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	90.0	93.0	0	15000	Clapper Rail	clarai11	0.4791	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-20\U05_20260620_073000.wav	90.0
-2	Spectrogram 1	1	132.0	135.0	0	15000	Seaside Sparrow	seaspa	0.2945	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-20\U05_20260620_073000.wav	132.0
-3	Spectrogram 1	1	135.0	138.0	0	15000	Forster's Tern	forter	0.2704	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-20\U05_20260620_073000.wav	135.0
-4	Spectrogram 1	1	162.0	165.0	0	15000	Common Yellowthroat	comyel	0.3068	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-20\U05_20260620_073000.wav	162.0
-5	Spectrogram 1	1	567.0	570.0	0	15000	Eastern Kingbird	easkin	0.7201	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-20\U05_20260620_073000.wav	567.0
-6	Spectrogram 1	1	669.0	672.0	0	15000	Osprey	osprey	0.3083	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-20\U05_20260620_073000.wav	669.0
-7	Spectrogram 1	1	831.0	834.0	0	15000	House Finch	houfin	0.6400	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-20\U05_20260620_073000.wav	831.0
-8	Spectrogram 1	1	849.0	852.0	0	15000	Ruddy Turnstone	rudtur	0.6338	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-20\U05_20260620_073000.wav	849.0

@@ -1,7 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	33.0	36.0	0	15000	Engine	engine	0.4225	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240826_200000.wav	33.0
-2	Spectrogram 1	1	72.0	75.0	0	15000	American Bullfrog	t-11113588	0.6581	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240826_200000.wav	72.0
-3	Spectrogram 1	1	141.0	144.0	0	15000	Black-crowned Night-Heron	bcnher	0.4787	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240826_200000.wav	141.0
-4	Spectrogram 1	1	162.0	165.0	0	15000	American Bullfrog	t-11113588	0.2692	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240826_200000.wav	162.0
-5	Spectrogram 1	1	561.0	564.0	0	15000	Engine	engine	0.3885	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240826_200000.wav	561.0
-6	Spectrogram 1	1	570.0	573.0	0	15000	Black-crowned Night-Heron	bcnher	0.2963	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240826_200000.wav	570.0

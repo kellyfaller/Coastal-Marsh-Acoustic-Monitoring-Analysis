@@ -1,5 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	378.0	381.0	0	15000	Mallard	mallar3	0.6283	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240703_220000.wav	378.0
-2	Spectrogram 1	1	519.0	522.0	0	15000	Golden-crowned Kinglet	gockin	0.3183	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240703_220000.wav	519.0
-3	Spectrogram 1	1	663.0	666.0	0	15000	Golden-crowned Kinglet	gockin	0.2655	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240703_220000.wav	663.0
-4	Spectrogram 1	1	759.0	762.0	0	15000	Golden-crowned Kinglet	gockin	0.3661	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240703_220000.wav	759.0

@@ -1,6 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	21.0	24.0	0	15000	Willow Flycatcher	wilfly	0.3211	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-15\U05_20260615_210000.wav	21.0
-2	Spectrogram 1	1	27.0	30.0	0	15000	Willow Flycatcher	wilfly	0.3274	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-15\U05_20260615_210000.wav	27.0
-3	Spectrogram 1	1	333.0	336.0	0	15000	Mallard	mallar3	0.2963	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-15\U05_20260615_210000.wav	333.0
-4	Spectrogram 1	1	858.0	861.0	0	15000	Mallard	mallar3	0.2982	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-15\U05_20260615_210000.wav	858.0
-5	Spectrogram 1	1	861.0	864.0	0	15000	Mallard	mallar3	0.3132	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-15\U05_20260615_210000.wav	861.0

@@ -1,4 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	24.0	27.0	0	15000	Least Sandpiper	leasan	0.7797	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240708_040000.wav	24.0
-2	Spectrogram 1	1	99.0	102.0	0	15000	Golden-crowned Kinglet	gockin	0.5611	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240708_040000.wav	99.0
-3	Spectrogram 1	1	888.0	891.0	0	15000	Golden-crowned Kinglet	gockin	0.2504	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240708_040000.wav	888.0

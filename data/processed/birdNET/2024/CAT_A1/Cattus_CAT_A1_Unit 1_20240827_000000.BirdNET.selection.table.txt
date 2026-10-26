@@ -1,5 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	0.0	3.0	0	15000	Eastern Screech-Owl	easowl1	0.2915	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240827_000000.wav	0.0
-2	Spectrogram 1	1	483.0	486.0	0	15000	Walker's Ground Cricket	t-11855914	0.4352	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240827_000000.wav	483.0
-3	Spectrogram 1	1	672.0	675.0	0	15000	Walker's Ground Cricket	t-11855914	0.2650	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240827_000000.wav	672.0
-4	Spectrogram 1	1	744.0	747.0	0	15000	Walker's Ground Cricket	t-11855914	0.2596	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240827_000000.wav	744.0

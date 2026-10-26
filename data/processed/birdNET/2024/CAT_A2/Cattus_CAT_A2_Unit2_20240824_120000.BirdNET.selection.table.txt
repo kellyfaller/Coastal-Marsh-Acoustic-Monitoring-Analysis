@@ -1,8 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	12.0	15.0	0	15000	Engine	engine	0.2738	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240824_120000.wav	12.0
-2	Spectrogram 1	1	18.0	21.0	0	15000	Engine	engine	0.2990	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240824_120000.wav	18.0
-3	Spectrogram 1	1	21.0	24.0	0	15000	Engine	engine	0.3991	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240824_120000.wav	21.0
-4	Spectrogram 1	1	27.0	30.0	0	15000	Engine	engine	0.3367	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240824_120000.wav	27.0
-5	Spectrogram 1	1	30.0	33.0	0	15000	Engine	engine	0.3285	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240824_120000.wav	30.0
-6	Spectrogram 1	1	33.0	36.0	0	15000	Engine	engine	0.4128	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240824_120000.wav	33.0
-7	Spectrogram 1	1	57.0	60.0	0	15000	Great Egret	greegr	0.2615	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240824_120000.wav	57.0

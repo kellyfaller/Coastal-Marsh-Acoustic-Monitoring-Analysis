@@ -1,3 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	546.0	549.0	0	15000	Canvasback	canvas	0.3276	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-13\Unit4_20260813_120000.wav	546.0
-2	Spectrogram 1	1	783.0	786.0	0	15000	Trumpeter Swan	truswa	0.2982	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-13\Unit4_20260813_120000.wav	783.0

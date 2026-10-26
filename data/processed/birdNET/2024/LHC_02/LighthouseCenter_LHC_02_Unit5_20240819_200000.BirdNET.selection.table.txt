@@ -1,9 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	57.0	60.0	0	15000	Green Heron	grnher	0.9438	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240819_200000.wav	57.0
-2	Spectrogram 1	1	60.0	63.0	0	15000	Green Heron	grnher	0.8869	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240819_200000.wav	60.0
-3	Spectrogram 1	1	63.0	66.0	0	15000	Green Heron	grnher	0.7933	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240819_200000.wav	63.0
-4	Spectrogram 1	1	144.0	147.0	0	15000	Engine	engine	0.3442	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240819_200000.wav	144.0
-5	Spectrogram 1	1	171.0	174.0	0	15000	Black-crowned Night-Heron	bcnher	0.9666	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240819_200000.wav	171.0
-6	Spectrogram 1	1	327.0	330.0	0	15000	Hairy Woodpecker	haiwoo	0.2608	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240819_200000.wav	327.0
-7	Spectrogram 1	1	426.0	429.0	0	15000	Engine	engine	0.3099	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240819_200000.wav	426.0
-8	Spectrogram 1	1	735.0	738.0	0	15000	Engine	engine	0.4497	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240819_200000.wav	735.0

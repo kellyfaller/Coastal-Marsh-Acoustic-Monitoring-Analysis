@@ -1,4 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	639.0	642.0	0	15000	Gadwall	gadwal	0.2885	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240902_010000.wav	639.0
-2	Spectrogram 1	1	753.0	756.0	0	15000	Gadwall	gadwal	0.2693	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240902_010000.wav	753.0
-3	Spectrogram 1	1	765.0	768.0	0	15000	Gadwall	gadwal	0.3162	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240902_010000.wav	765.0

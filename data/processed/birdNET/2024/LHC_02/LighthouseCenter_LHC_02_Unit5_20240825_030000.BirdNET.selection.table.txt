@@ -1,7 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	39.0	42.0	0	15000	Palm Warbler	palwar	0.5406	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240825_030000.wav	39.0
-2	Spectrogram 1	1	357.0	360.0	0	15000	Eastern Screech-Owl	easowl1	0.4817	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240825_030000.wav	357.0
-3	Spectrogram 1	1	546.0	549.0	0	15000	Dog	dogdog	0.2726	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240825_030000.wav	546.0
-4	Spectrogram 1	1	549.0	552.0	0	15000	Dog	dogdog	0.7637	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240825_030000.wav	549.0
-5	Spectrogram 1	1	723.0	726.0	0	15000	Eastern Screech-Owl	easowl1	0.3081	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240825_030000.wav	723.0
-6	Spectrogram 1	1	885.0	888.0	0	15000	Engine	engine	0.4466	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240825_030000.wav	885.0

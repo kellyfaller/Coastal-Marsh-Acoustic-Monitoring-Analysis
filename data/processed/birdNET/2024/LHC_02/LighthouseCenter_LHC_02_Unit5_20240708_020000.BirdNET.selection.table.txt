@@ -1,3 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	174.0	177.0	0	15000	Golden-crowned Kinglet	gockin	0.2814	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240708_020000.wav	174.0
-2	Spectrogram 1	1	618.0	621.0	0	15000	Golden-crowned Kinglet	gockin	0.2824	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240708_020000.wav	618.0

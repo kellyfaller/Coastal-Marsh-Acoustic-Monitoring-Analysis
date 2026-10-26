@@ -1,8 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	0.0	3.0	0	15000	Great Horned Owl	grhowl	0.7772	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_080000.wav	0.0
-2	Spectrogram 1	1	102.0	105.0	0	15000	Brant	brant	0.3258	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_080000.wav	102.0
-3	Spectrogram 1	1	555.0	558.0	0	15000	Fish Crow	fiscro	0.3171	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_080000.wav	555.0
-4	Spectrogram 1	1	693.0	696.0	0	15000	White-faced Ibis	whfibi	0.7184	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_080000.wav	693.0
-5	Spectrogram 1	1	729.0	732.0	0	15000	Eastern Bluebird	easblu	0.5285	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_080000.wav	729.0
-6	Spectrogram 1	1	732.0	735.0	0	15000	Eastern Bluebird	easblu	0.3258	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_080000.wav	732.0
-7	Spectrogram 1	1	732.0	735.0	0	15000	Red-shouldered Hawk	reshaw	0.2556	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_080000.wav	732.0

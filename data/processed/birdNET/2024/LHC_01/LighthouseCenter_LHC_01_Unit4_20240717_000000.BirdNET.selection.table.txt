@@ -1,4 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	333.0	336.0	0	15000	Yellow Rail	yelrai	0.3520	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240717_000000.wav	333.0
-2	Spectrogram 1	1	342.0	345.0	0	15000	Yellow Rail	yelrai	0.3252	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240717_000000.wav	342.0
-3	Spectrogram 1	1	672.0	675.0	0	15000	Yellow Rail	yelrai	0.3397	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240717_000000.wav	672.0

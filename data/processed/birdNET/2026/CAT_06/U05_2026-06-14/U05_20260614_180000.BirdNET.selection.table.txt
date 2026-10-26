@@ -1,3 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	429.0	432.0	0	15000	Purple Martin	purmar	0.2918	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-14\U05_20260614_180000.wav	429.0
-2	Spectrogram 1	1	882.0	885.0	0	15000	Chimney Swift	chiswi	0.4363	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-14\U05_20260614_180000.wav	882.0

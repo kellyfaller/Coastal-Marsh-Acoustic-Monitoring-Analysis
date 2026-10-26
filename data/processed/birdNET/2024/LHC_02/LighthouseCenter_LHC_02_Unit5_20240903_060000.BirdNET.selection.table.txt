@@ -1,7 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	201.0	204.0	0	15000	Ruby-crowned Kinglet	ruckin	0.3068	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240903_060000.wav	201.0
-2	Spectrogram 1	1	312.0	315.0	0	15000	Osprey	osprey	0.3521	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240903_060000.wav	312.0
-3	Spectrogram 1	1	324.0	327.0	0	15000	Carolina Wren	carwre	0.6248	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240903_060000.wav	324.0
-4	Spectrogram 1	1	633.0	636.0	0	15000	Golden-crowned Kinglet	gockin	0.2652	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240903_060000.wav	633.0
-5	Spectrogram 1	1	681.0	684.0	0	15000	Osprey	osprey	0.3546	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240903_060000.wav	681.0
-6	Spectrogram 1	1	792.0	795.0	0	15000	Golden-crowned Kinglet	gockin	0.2889	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240903_060000.wav	792.0

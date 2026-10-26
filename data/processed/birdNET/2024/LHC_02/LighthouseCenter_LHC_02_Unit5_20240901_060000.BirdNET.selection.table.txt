@@ -1,7 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	294.0	297.0	0	15000	Great Horned Owl	grhowl	0.4732	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240901_060000.wav	294.0
-2	Spectrogram 1	1	657.0	660.0	0	15000	Wild Turkey	wiltur	0.3392	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240901_060000.wav	657.0
-3	Spectrogram 1	1	717.0	720.0	0	15000	Great Blue Heron	grbher3	0.5419	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240901_060000.wav	717.0
-4	Spectrogram 1	1	723.0	726.0	0	15000	Great Blue Heron	grbher3	0.7806	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240901_060000.wav	723.0
-5	Spectrogram 1	1	726.0	729.0	0	15000	Great Blue Heron	grbher3	0.4514	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240901_060000.wav	726.0
-6	Spectrogram 1	1	735.0	738.0	0	15000	Great Blue Heron	grbher3	0.8142	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240901_060000.wav	735.0

@@ -1,9 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	54.0	57.0	0	15000	Eastern Screech-Owl	easowl1	0.3405	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240824_000000.wav	54.0
-2	Spectrogram 1	1	150.0	153.0	0	15000	Eastern Screech-Owl	easowl1	0.2525	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240824_000000.wav	150.0
-3	Spectrogram 1	1	327.0	330.0	0	15000	Engine	engine	0.5231	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240824_000000.wav	327.0
-4	Spectrogram 1	1	345.0	348.0	0	15000	Engine	engine	0.3670	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240824_000000.wav	345.0
-5	Spectrogram 1	1	417.0	420.0	0	15000	Eastern Screech-Owl	easowl1	0.2863	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240824_000000.wav	417.0
-6	Spectrogram 1	1	426.0	429.0	0	15000	Eastern Screech-Owl	easowl1	0.5729	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240824_000000.wav	426.0
-7	Spectrogram 1	1	639.0	642.0	0	15000	Dog	dogdog	0.3425	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240824_000000.wav	639.0
-8	Spectrogram 1	1	774.0	777.0	0	15000	Eastern Screech-Owl	easowl1	0.5811	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240824_000000.wav	774.0

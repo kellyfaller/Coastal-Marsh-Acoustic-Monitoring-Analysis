@@ -1,4 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	264.0	267.0	0	15000	American Woodcock	amewoo	0.2994	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-07\Unit4_20260807_200000.wav	264.0
-2	Spectrogram 1	1	474.0	477.0	0	15000	American Woodcock	amewoo	0.6911	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-07\Unit4_20260807_200000.wav	474.0
-3	Spectrogram 1	1	717.0	720.0	0	15000	Barn Owl	brnowl	0.5124	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-07\Unit4_20260807_200000.wav	717.0

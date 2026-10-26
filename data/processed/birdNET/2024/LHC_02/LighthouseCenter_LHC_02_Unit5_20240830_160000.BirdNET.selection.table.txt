@@ -1,5 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	24.0	27.0	0	15000	Osprey	osprey	0.4231	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240830_160000.wav	24.0
-2	Spectrogram 1	1	639.0	642.0	0	15000	Fireworks	frwrks	0.3150	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240830_160000.wav	639.0
-3	Spectrogram 1	1	888.0	891.0	0	15000	Osprey	osprey	0.9729	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240830_160000.wav	888.0
-4	Spectrogram 1	1	891.0	894.0	0	15000	Osprey	osprey	0.4095	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240830_160000.wav	891.0

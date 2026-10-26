@@ -1,4 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	327.0	330.0	0	15000	Northern Cricket Frog	t-11145339	0.3516	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-16\Unit4_20260816_220000.wav	327.0
-2	Spectrogram 1	1	690.0	693.0	0	15000	Northern Cricket Frog	t-11145339	0.3124	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-16\Unit4_20260816_220000.wav	690.0
-3	Spectrogram 1	1	726.0	729.0	0	15000	Northern Cricket Frog	t-11145339	0.2639	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-16\Unit4_20260816_220000.wav	726.0

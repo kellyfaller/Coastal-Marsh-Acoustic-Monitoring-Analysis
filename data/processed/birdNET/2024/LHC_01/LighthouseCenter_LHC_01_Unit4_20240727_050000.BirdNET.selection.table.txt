@@ -1,8 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	120.0	123.0	0	15000	Golden-crowned Kinglet	gockin	0.2607	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_050000.wav	120.0
-2	Spectrogram 1	1	237.0	240.0	0	15000	Golden-crowned Kinglet	gockin	0.3299	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_050000.wav	237.0
-3	Spectrogram 1	1	252.0	255.0	0	15000	Golden-crowned Kinglet	gockin	0.4111	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_050000.wav	252.0
-4	Spectrogram 1	1	390.0	393.0	0	15000	Cedar Waxwing	cedwax	0.2783	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_050000.wav	390.0
-5	Spectrogram 1	1	492.0	495.0	0	15000	Golden-crowned Kinglet	gockin	0.5110	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_050000.wav	492.0
-6	Spectrogram 1	1	639.0	642.0	0	15000	Golden-crowned Kinglet	gockin	0.2836	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_050000.wav	639.0
-7	Spectrogram 1	1	840.0	843.0	0	15000	Eastern Bluebird	easblu	0.9681	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_050000.wav	840.0

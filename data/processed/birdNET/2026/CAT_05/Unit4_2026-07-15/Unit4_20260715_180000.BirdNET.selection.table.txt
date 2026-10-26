@@ -1,3 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	18.0	21.0	0	15000	Grasshopper Sparrow	graspa	0.3372	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-15\Unit4_20260715_180000.wav	18.0
-2	Spectrogram 1	1	891.0	894.0	0	15000	Ruddy Turnstone	rudtur	0.3168	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-15\Unit4_20260715_180000.wav	891.0

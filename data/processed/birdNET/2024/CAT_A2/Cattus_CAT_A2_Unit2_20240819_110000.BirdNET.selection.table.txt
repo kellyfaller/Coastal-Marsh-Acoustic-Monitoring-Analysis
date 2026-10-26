@@ -1,5 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	366.0	369.0	0	15000	Eastern Bluebird	easblu	0.3074	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240819_110000.wav	366.0
-2	Spectrogram 1	1	393.0	396.0	0	15000	White-breasted Nuthatch	whbnut	0.3584	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240819_110000.wav	393.0
-3	Spectrogram 1	1	723.0	726.0	0	15000	Belted Kingfisher	belkin1	0.4739	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240819_110000.wav	723.0
-4	Spectrogram 1	1	882.0	885.0	0	15000	Red-eyed Vireo	reevir1	0.2772	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240819_110000.wav	882.0

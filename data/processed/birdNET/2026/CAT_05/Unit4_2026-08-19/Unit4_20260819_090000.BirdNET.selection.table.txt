@@ -1,8 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	444.0	447.0	0	15000	Great Blue Heron	grbher3	0.5489	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-19\Unit4_20260819_090000.wav	444.0
-2	Spectrogram 1	1	447.0	450.0	0	15000	Great Blue Heron	grbher3	0.6422	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-19\Unit4_20260819_090000.wav	447.0
-3	Spectrogram 1	1	495.0	498.0	0	15000	House Finch	houfin	0.2537	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-19\Unit4_20260819_090000.wav	495.0
-4	Spectrogram 1	1	501.0	504.0	0	15000	House Finch	houfin	0.3057	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-19\Unit4_20260819_090000.wav	501.0
-5	Spectrogram 1	1	630.0	633.0	0	15000	Chipping Sparrow	chispa	0.2502	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-19\Unit4_20260819_090000.wav	630.0
-6	Spectrogram 1	1	720.0	723.0	0	15000	Worm-eating Warbler	woewar1	0.3065	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-19\Unit4_20260819_090000.wav	720.0
-7	Spectrogram 1	1	747.0	750.0	0	15000	Chipping Sparrow	chispa	0.2693	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-19\Unit4_20260819_090000.wav	747.0

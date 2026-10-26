@@ -1,8 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	126.0	129.0	0	15000	Ruby-throated Hummingbird	rthhum	0.3300	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240720_000000.wav	126.0
-2	Spectrogram 1	1	159.0	162.0	0	15000	Engine	engine	0.6263	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240720_000000.wav	159.0
-3	Spectrogram 1	1	177.0	180.0	0	15000	Engine	engine	0.2945	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240720_000000.wav	177.0
-4	Spectrogram 1	1	336.0	339.0	0	15000	Ruby-throated Hummingbird	rthhum	0.4630	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240720_000000.wav	336.0
-5	Spectrogram 1	1	609.0	612.0	0	15000	Worm-eating Warbler	woewar1	0.3323	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240720_000000.wav	609.0
-6	Spectrogram 1	1	690.0	693.0	0	15000	Worm-eating Warbler	woewar1	0.2639	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240720_000000.wav	690.0
-7	Spectrogram 1	1	873.0	876.0	0	15000	Engine	engine	0.5825	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240720_000000.wav	873.0

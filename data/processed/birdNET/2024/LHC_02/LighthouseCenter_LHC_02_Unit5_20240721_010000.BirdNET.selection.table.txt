@@ -1,9 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	360.0	363.0	0	15000	Canada Goose	cangoo	0.5176	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240721_010000.wav	360.0
-2	Spectrogram 1	1	363.0	366.0	0	15000	Canada Goose	cangoo	0.4940	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240721_010000.wav	363.0
-3	Spectrogram 1	1	495.0	498.0	0	15000	Golden-crowned Kinglet	gockin	0.3530	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240721_010000.wav	495.0
-4	Spectrogram 1	1	552.0	555.0	0	15000	Black-crowned Night-Heron	bcnher	0.6183	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240721_010000.wav	552.0
-5	Spectrogram 1	1	597.0	600.0	0	15000	Golden-crowned Kinglet	gockin	0.3512	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240721_010000.wav	597.0
-6	Spectrogram 1	1	681.0	684.0	0	15000	Yellow-rumped Warbler	yerwar	0.3245	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240721_010000.wav	681.0
-7	Spectrogram 1	1	846.0	849.0	0	15000	Golden-crowned Kinglet	gockin	0.6329	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240721_010000.wav	846.0
-8	Spectrogram 1	1	861.0	864.0	0	15000	Engine	engine	0.4000	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240721_010000.wav	861.0

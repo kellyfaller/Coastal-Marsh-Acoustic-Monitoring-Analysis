@@ -1,7 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	21.0	24.0	0	15000	Eastern Screech-Owl	easowl1	0.2657	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240831_200000.wav	21.0
-2	Spectrogram 1	1	66.0	69.0	0	15000	Eastern Screech-Owl	easowl1	0.2701	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240831_200000.wav	66.0
-3	Spectrogram 1	1	147.0	150.0	0	15000	Fish Crow	fiscro	0.3427	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240831_200000.wav	147.0
-4	Spectrogram 1	1	315.0	318.0	0	15000	Eastern Screech-Owl	easowl1	0.3341	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240831_200000.wav	315.0
-5	Spectrogram 1	1	336.0	339.0	0	15000	Fish Crow	fiscro	0.5045	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240831_200000.wav	336.0
-6	Spectrogram 1	1	735.0	738.0	0	15000	Greater White-fronted Goose	gwfgoo	0.3264	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240831_200000.wav	735.0

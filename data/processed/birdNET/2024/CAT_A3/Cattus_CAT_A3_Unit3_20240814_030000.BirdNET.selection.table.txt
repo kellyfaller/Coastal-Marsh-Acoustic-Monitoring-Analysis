@@ -1,3 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	105.0	108.0	0	15000	White-breasted Nuthatch	whbnut	0.4174	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240814_030000.wav	105.0
-2	Spectrogram 1	1	534.0	537.0	0	15000	Caspian Tern	caster1	0.4412	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240814_030000.wav	534.0

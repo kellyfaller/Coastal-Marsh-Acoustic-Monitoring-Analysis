@@ -1,3 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	630.0	633.0	0	15000	Dark-eyed Junco	daejun	0.3107	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-06\U05_20260706_021500.wav	630.0
-2	Spectrogram 1	1	795.0	798.0	0	15000	Horned Lark	horlar	0.7177	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-06\U05_20260706_021500.wav	795.0

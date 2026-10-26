@@ -1,5 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	423.0	426.0	0	15000	White-crowned Sparrow	whcspa	0.3305	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240807_210000.wav	423.0
-2	Spectrogram 1	1	663.0	666.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.8036	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240807_210000.wav	663.0
-3	Spectrogram 1	1	675.0	678.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.5437	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240807_210000.wav	675.0
-4	Spectrogram 1	1	684.0	687.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.6412	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240807_210000.wav	684.0

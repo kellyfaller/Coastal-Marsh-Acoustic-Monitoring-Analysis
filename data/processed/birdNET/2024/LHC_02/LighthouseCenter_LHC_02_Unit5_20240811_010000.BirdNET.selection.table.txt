@@ -1,8 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	324.0	327.0	0	15000	Great Horned Owl	grhowl	0.3300	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240811_010000.wav	324.0
-2	Spectrogram 1	1	444.0	447.0	0	15000	Great Horned Owl	grhowl	0.3017	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240811_010000.wav	444.0
-3	Spectrogram 1	1	468.0	471.0	0	15000	Great Horned Owl	grhowl	0.2541	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240811_010000.wav	468.0
-4	Spectrogram 1	1	504.0	507.0	0	15000	Eastern Screech-Owl	easowl1	0.3153	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240811_010000.wav	504.0
-5	Spectrogram 1	1	522.0	525.0	0	15000	Eastern Screech-Owl	easowl1	0.2566	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240811_010000.wav	522.0
-6	Spectrogram 1	1	540.0	543.0	0	15000	Great Horned Owl	grhowl	0.3024	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240811_010000.wav	540.0
-7	Spectrogram 1	1	804.0	807.0	0	15000	Black-crowned Night-Heron	bcnher	0.3530	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240811_010000.wav	804.0

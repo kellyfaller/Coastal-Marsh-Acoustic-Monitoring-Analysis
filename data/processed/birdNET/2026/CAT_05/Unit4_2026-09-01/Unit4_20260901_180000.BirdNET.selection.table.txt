@@ -1,8 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	219.0	222.0	0	15000	Chipping Sparrow	chispa	0.4897	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-01\Unit4_20260901_180000.wav	219.0
-2	Spectrogram 1	1	354.0	357.0	0	15000	Worm-eating Warbler	woewar1	0.2797	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-01\Unit4_20260901_180000.wav	354.0
-3	Spectrogram 1	1	399.0	402.0	0	15000	Black-billed Cuckoo	bkbcuc	0.4568	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-01\Unit4_20260901_180000.wav	399.0
-4	Spectrogram 1	1	435.0	438.0	0	15000	Chipping Sparrow	chispa	0.3219	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-01\Unit4_20260901_180000.wav	435.0
-5	Spectrogram 1	1	639.0	642.0	0	15000	Chimney Swift	chiswi	0.3072	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-01\Unit4_20260901_180000.wav	639.0
-6	Spectrogram 1	1	699.0	702.0	0	15000	Chimney Swift	chiswi	0.3122	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-01\Unit4_20260901_180000.wav	699.0
-7	Spectrogram 1	1	798.0	801.0	0	15000	Chipping Sparrow	chispa	0.4205	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-01\Unit4_20260901_180000.wav	798.0

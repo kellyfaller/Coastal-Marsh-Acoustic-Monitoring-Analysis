@@ -1,8 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	303.0	306.0	0	15000	Short-billed Dowitcher	shbdow	0.6404	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-21\Unit4_20260821_180000.wav	303.0
-2	Spectrogram 1	1	333.0	336.0	0	15000	Black-bellied Plover	bkbplo	0.5174	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-21\Unit4_20260821_180000.wav	333.0
-3	Spectrogram 1	1	831.0	834.0	0	15000	Eastern Kingbird	easkin	0.3204	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-21\Unit4_20260821_180000.wav	831.0
-4	Spectrogram 1	1	834.0	837.0	0	15000	Eastern Kingbird	easkin	0.2783	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-21\Unit4_20260821_180000.wav	834.0
-5	Spectrogram 1	1	840.0	843.0	0	15000	Eastern Kingbird	easkin	0.5977	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-21\Unit4_20260821_180000.wav	840.0
-6	Spectrogram 1	1	849.0	852.0	0	15000	Eastern Kingbird	easkin	0.5722	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-21\Unit4_20260821_180000.wav	849.0
-7	Spectrogram 1	1	852.0	855.0	0	15000	Eastern Kingbird	easkin	0.6841	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-21\Unit4_20260821_180000.wav	852.0

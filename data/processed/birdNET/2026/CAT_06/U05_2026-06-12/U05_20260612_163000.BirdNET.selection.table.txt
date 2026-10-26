@@ -1,8 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	276.0	279.0	0	15000	Mallard	mallar3	0.3354	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_163000.wav	276.0
-2	Spectrogram 1	1	369.0	372.0	0	15000	Eastern Meadowlark	easmea	0.3201	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_163000.wav	369.0
-3	Spectrogram 1	1	387.0	390.0	0	15000	Eastern Meadowlark	easmea	0.2758	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_163000.wav	387.0
-4	Spectrogram 1	1	591.0	594.0	0	15000	Evening Grosbeak	evegro	0.6475	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_163000.wav	591.0
-5	Spectrogram 1	1	816.0	819.0	0	15000	Sanderling	sander	0.2924	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_163000.wav	816.0
-6	Spectrogram 1	1	819.0	822.0	0	15000	Red-winged Blackbird	rewbla	0.3150	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_163000.wav	819.0
-7	Spectrogram 1	1	822.0	825.0	0	15000	Red-winged Blackbird	rewbla	0.3440	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_163000.wav	822.0

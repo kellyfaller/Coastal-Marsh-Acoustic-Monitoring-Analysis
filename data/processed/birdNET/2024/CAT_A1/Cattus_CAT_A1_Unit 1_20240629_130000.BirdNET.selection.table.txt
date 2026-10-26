@@ -1,5 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	36.0	39.0	0	15000	Belted Kingfisher	belkin1	0.2621	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240629_130000.wav	36.0
-2	Spectrogram 1	1	285.0	288.0	0	15000	Marsh Wren	marwre	0.2764	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240629_130000.wav	285.0
-3	Spectrogram 1	1	405.0	408.0	0	15000	Osprey	osprey	0.2930	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240629_130000.wav	405.0
-4	Spectrogram 1	1	426.0	429.0	0	15000	Lapland Longspur	laplon	0.3502	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240629_130000.wav	426.0

@@ -1,6 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	525.0	528.0	0	15000	Cedar Waxwing	cedwax	0.2621	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240728_050000.wav	525.0
-2	Spectrogram 1	1	663.0	666.0	0	15000	Killdeer	killde	0.7122	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240728_050000.wav	663.0
-3	Spectrogram 1	1	678.0	681.0	0	15000	Killdeer	killde	0.6263	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240728_050000.wav	678.0
-4	Spectrogram 1	1	738.0	741.0	0	15000	Eastern Bluebird	easblu	0.2791	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240728_050000.wav	738.0
-5	Spectrogram 1	1	744.0	747.0	0	15000	Golden-crowned Kinglet	gockin	0.7254	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240728_050000.wav	744.0

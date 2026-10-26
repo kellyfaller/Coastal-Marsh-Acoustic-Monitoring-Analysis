@@ -1,4 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	387.0	390.0	0	15000	Engine	engine	0.3505	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240813_050000.wav	387.0
-2	Spectrogram 1	1	420.0	423.0	0	15000	Engine	engine	0.2807	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240813_050000.wav	420.0
-3	Spectrogram 1	1	843.0	846.0	0	15000	American Bittern	amebit	0.3536	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240813_050000.wav	843.0

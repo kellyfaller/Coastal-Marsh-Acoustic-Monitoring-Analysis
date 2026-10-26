@@ -1,7 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	15.0	18.0	0	15000	Tundra Swan	tunswa	0.3292	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-29\Unit4_20260829_170000.wav	15.0
-2	Spectrogram 1	1	33.0	36.0	0	15000	Golden-crowned Kinglet	gockin	0.2933	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-29\Unit4_20260829_170000.wav	33.0
-3	Spectrogram 1	1	108.0	111.0	0	15000	Tundra Swan	tunswa	0.3710	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-29\Unit4_20260829_170000.wav	108.0
-4	Spectrogram 1	1	108.0	111.0	0	15000	Trumpeter Swan	truswa	0.2532	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-29\Unit4_20260829_170000.wav	108.0
-5	Spectrogram 1	1	111.0	114.0	0	15000	Tundra Swan	tunswa	0.4434	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-29\Unit4_20260829_170000.wav	111.0
-6	Spectrogram 1	1	459.0	462.0	0	15000	Golden-crowned Kinglet	gockin	0.2984	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-29\Unit4_20260829_170000.wav	459.0

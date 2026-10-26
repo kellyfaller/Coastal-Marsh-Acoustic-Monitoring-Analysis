@@ -1,8 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	219.0	222.0	0	15000	Eastern Screech-Owl	easowl1	0.3552	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240823_050000.wav	219.0
-2	Spectrogram 1	1	282.0	285.0	0	15000	Eastern Screech-Owl	easowl1	0.4126	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240823_050000.wav	282.0
-3	Spectrogram 1	1	657.0	660.0	0	15000	Golden-crowned Kinglet	gockin	0.2983	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240823_050000.wav	657.0
-4	Spectrogram 1	1	744.0	747.0	0	15000	Golden-crowned Kinglet	gockin	0.2979	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240823_050000.wav	744.0
-5	Spectrogram 1	1	810.0	813.0	0	15000	Golden-crowned Kinglet	gockin	0.2985	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240823_050000.wav	810.0
-6	Spectrogram 1	1	876.0	879.0	0	15000	Eastern Towhee	eastow	0.3569	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240823_050000.wav	876.0
-7	Spectrogram 1	1	891.0	894.0	0	15000	Eastern Towhee	eastow	0.2867	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240823_050000.wav	891.0

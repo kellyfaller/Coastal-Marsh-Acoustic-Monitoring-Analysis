@@ -1,9 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	141.0	144.0	0	15000	Fireworks	frwrks	0.2633	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240808_200000.wav	141.0
-2	Spectrogram 1	1	168.0	171.0	0	15000	Fireworks	frwrks	0.2511	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240808_200000.wav	168.0
-3	Spectrogram 1	1	363.0	366.0	0	15000	Willet	willet1	0.9466	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240808_200000.wav	363.0
-4	Spectrogram 1	1	384.0	387.0	0	15000	Willet	willet1	0.7773	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240808_200000.wav	384.0
-5	Spectrogram 1	1	387.0	390.0	0	15000	Willet	willet1	0.6854	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240808_200000.wav	387.0
-6	Spectrogram 1	1	546.0	549.0	0	15000	Willet	willet1	0.5561	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240808_200000.wav	546.0
-7	Spectrogram 1	1	558.0	561.0	0	15000	Wilson's Snipe	wilsni1	0.2629	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240808_200000.wav	558.0
-8	Spectrogram 1	1	651.0	654.0	0	15000	Willet	willet1	0.6255	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240808_200000.wav	651.0

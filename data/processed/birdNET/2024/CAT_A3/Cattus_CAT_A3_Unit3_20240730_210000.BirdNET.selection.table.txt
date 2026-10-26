@@ -1,8 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	81.0	84.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3788	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240730_210000.wav	81.0
-2	Spectrogram 1	1	93.0	96.0	0	15000	Tinkling Ground Cricket	t-11843287	0.2500	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240730_210000.wav	93.0
-3	Spectrogram 1	1	126.0	129.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3216	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240730_210000.wav	126.0
-4	Spectrogram 1	1	132.0	135.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3621	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240730_210000.wav	132.0
-5	Spectrogram 1	1	135.0	138.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3585	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240730_210000.wav	135.0
-6	Spectrogram 1	1	645.0	648.0	0	15000	Engine	engine	0.2832	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240730_210000.wav	645.0
-7	Spectrogram 1	1	651.0	654.0	0	15000	Great Horned Owl	grhowl	0.4687	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240730_210000.wav	651.0

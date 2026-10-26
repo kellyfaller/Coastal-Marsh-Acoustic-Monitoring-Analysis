@@ -1,6 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	27.0	30.0	0	15000	Red Crossbill	redcro	0.3777	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-29\Unit4_20260729_080000.wav	27.0
-2	Spectrogram 1	1	240.0	243.0	0	15000	American Goldfinch	amegfi	0.8837	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-29\Unit4_20260729_080000.wav	240.0
-3	Spectrogram 1	1	294.0	297.0	0	15000	Osprey	osprey	0.4885	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-29\Unit4_20260729_080000.wav	294.0
-4	Spectrogram 1	1	552.0	555.0	0	15000	Greater Yellowlegs	greyel	0.7964	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-29\Unit4_20260729_080000.wav	552.0
-5	Spectrogram 1	1	771.0	774.0	0	15000	Osprey	osprey	0.2991	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-29\Unit4_20260729_080000.wav	771.0

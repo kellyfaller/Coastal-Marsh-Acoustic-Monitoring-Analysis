@@ -1,7 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	36.0	39.0	0	15000	Great Blue Heron	grbher3	0.4407	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-24\Unit4_20260824_020000.wav	36.0
-2	Spectrogram 1	1	36.0	39.0	0	15000	Great Egret	greegr	0.3202	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-24\Unit4_20260824_020000.wav	36.0
-3	Spectrogram 1	1	180.0	183.0	0	15000	Great Blue Heron	grbher3	0.5093	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-24\Unit4_20260824_020000.wav	180.0
-4	Spectrogram 1	1	189.0	192.0	0	15000	Great Blue Heron	grbher3	0.8192	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-24\Unit4_20260824_020000.wav	189.0
-5	Spectrogram 1	1	192.0	195.0	0	15000	Great Blue Heron	grbher3	0.7753	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-24\Unit4_20260824_020000.wav	192.0
-6	Spectrogram 1	1	372.0	375.0	0	15000	Northern Cricket Frog	t-11145339	0.3094	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-24\Unit4_20260824_020000.wav	372.0

@@ -1,4 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	378.0	381.0	0	15000	Eastern Screech-Owl	easowl1	0.5923	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240811_000000.wav	378.0
-2	Spectrogram 1	1	411.0	414.0	0	15000	Eastern Screech-Owl	easowl1	0.2623	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240811_000000.wav	411.0
-3	Spectrogram 1	1	576.0	579.0	0	15000	Eastern Screech-Owl	easowl1	0.2680	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240811_000000.wav	576.0

@@ -1,4 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	66.0	69.0	0	15000	Golden-crowned Kinglet	gockin	0.3103	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240630_000000.wav	66.0
-2	Spectrogram 1	1	129.0	132.0	0	15000	Tufted Titmouse	tuftit	0.5524	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240630_000000.wav	129.0
-3	Spectrogram 1	1	294.0	297.0	0	15000	Tufted Titmouse	tuftit	0.4286	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240630_000000.wav	294.0

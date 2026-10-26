@@ -1,4 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	243.0	246.0	0	15000	Killdeer	killde	0.2631	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240809_010000.wav	243.0
-2	Spectrogram 1	1	696.0	699.0	0	15000	Fireworks	frwrks	0.4171	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240809_010000.wav	696.0
-3	Spectrogram 1	1	894.0	897.0	0	15000	Fireworks	frwrks	0.2795	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240809_010000.wav	894.0

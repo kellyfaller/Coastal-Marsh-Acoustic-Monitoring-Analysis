@@ -1,6 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	321.0	324.0	0	15000	Dog	dogdog	0.4490	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240713_220000.wav	321.0
-2	Spectrogram 1	1	372.0	375.0	0	15000	Yellow Rail	yelrai	0.2728	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240713_220000.wav	372.0
-3	Spectrogram 1	1	522.0	525.0	0	15000	Eastern Screech-Owl	easowl1	0.4537	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240713_220000.wav	522.0
-4	Spectrogram 1	1	720.0	723.0	0	15000	Engine	engine	0.3850	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240713_220000.wav	720.0
-5	Spectrogram 1	1	774.0	777.0	0	15000	Eastern Screech-Owl	easowl1	0.4480	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240713_220000.wav	774.0

@@ -1,9 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	48.0	51.0	0	15000	Tinkling Ground Cricket	t-11843287	0.5209	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240902_150000.wav	48.0
-2	Spectrogram 1	1	348.0	351.0	0	15000	Brant	brant	0.4959	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240902_150000.wav	348.0
-3	Spectrogram 1	1	609.0	612.0	0	15000	Black-crowned Night-Heron	bcnher	0.6251	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240902_150000.wav	609.0
-4	Spectrogram 1	1	867.0	870.0	0	15000	Osprey	osprey	0.8250	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240902_150000.wav	867.0
-5	Spectrogram 1	1	870.0	873.0	0	15000	Osprey	osprey	0.5257	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240902_150000.wav	870.0
-6	Spectrogram 1	1	876.0	879.0	0	15000	Osprey	osprey	0.2635	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240902_150000.wav	876.0
-7	Spectrogram 1	1	897.0	900.0	0	15000	Lesser Yellowlegs	lesyel	0.8993	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240902_150000.wav	897.0
-8	Spectrogram 1	1	897.0	900.0	0	15000	Short-billed Dowitcher	shbdow	0.3031	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240902_150000.wav	897.0

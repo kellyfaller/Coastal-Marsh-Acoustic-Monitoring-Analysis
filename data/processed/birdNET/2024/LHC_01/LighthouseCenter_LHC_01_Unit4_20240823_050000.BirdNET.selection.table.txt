@@ -1,4 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	570.0	573.0	0	15000	Golden-crowned Kinglet	gockin	0.2811	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240823_050000.wav	570.0
-2	Spectrogram 1	1	747.0	750.0	0	15000	Great Horned Owl	grhowl	0.6411	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240823_050000.wav	747.0
-3	Spectrogram 1	1	756.0	759.0	0	15000	Great Horned Owl	grhowl	0.4072	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240823_050000.wav	756.0

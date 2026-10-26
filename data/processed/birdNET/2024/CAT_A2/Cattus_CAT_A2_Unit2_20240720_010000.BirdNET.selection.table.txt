@@ -1,7 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	210.0	213.0	0	15000	Engine	engine	0.3359	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240720_010000.wav	210.0
-2	Spectrogram 1	1	342.0	345.0	0	15000	Engine	engine	0.2981	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240720_010000.wav	342.0
-3	Spectrogram 1	1	696.0	699.0	0	15000	Engine	engine	0.3668	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240720_010000.wav	696.0
-4	Spectrogram 1	1	768.0	771.0	0	15000	Golden-crowned Kinglet	gockin	0.2907	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240720_010000.wav	768.0
-5	Spectrogram 1	1	786.0	789.0	0	15000	Ruby-throated Hummingbird	rthhum	0.2870	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240720_010000.wav	786.0
-6	Spectrogram 1	1	792.0	795.0	0	15000	Engine	engine	0.6945	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240720_010000.wav	792.0

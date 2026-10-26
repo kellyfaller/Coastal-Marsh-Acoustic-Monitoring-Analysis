@@ -1,8 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	108.0	111.0	0	15000	Chimney Swift	chiswi	0.4578	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240717_210000.wav	108.0
-2	Spectrogram 1	1	267.0	270.0	0	15000	Black-bellied Plover	bkbplo	0.7360	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240717_210000.wav	267.0
-3	Spectrogram 1	1	504.0	507.0	0	15000	Tufted Titmouse	tuftit	0.5112	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240717_210000.wav	504.0
-4	Spectrogram 1	1	540.0	543.0	0	15000	Golden-crowned Kinglet	gockin	0.2568	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240717_210000.wav	540.0
-5	Spectrogram 1	1	795.0	798.0	0	15000	Chimney Swift	chiswi	0.2693	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240717_210000.wav	795.0
-6	Spectrogram 1	1	834.0	837.0	0	15000	Common Raven	comrav	0.3972	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240717_210000.wav	834.0
-7	Spectrogram 1	1	864.0	867.0	0	15000	Ruddy Turnstone	rudtur	0.4398	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240717_210000.wav	864.0

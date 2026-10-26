@@ -1,6 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	297.0	300.0	0	15000	Osprey	osprey	0.4804	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240821_090000.wav	297.0
-2	Spectrogram 1	1	300.0	303.0	0	15000	Osprey	osprey	0.9649	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240821_090000.wav	300.0
-3	Spectrogram 1	1	327.0	330.0	0	15000	American Goldfinch	amegfi	0.3734	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240821_090000.wav	327.0
-4	Spectrogram 1	1	330.0	333.0	0	15000	American Goldfinch	amegfi	0.8353	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240821_090000.wav	330.0
-5	Spectrogram 1	1	366.0	369.0	0	15000	Engine	engine	0.3054	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240821_090000.wav	366.0

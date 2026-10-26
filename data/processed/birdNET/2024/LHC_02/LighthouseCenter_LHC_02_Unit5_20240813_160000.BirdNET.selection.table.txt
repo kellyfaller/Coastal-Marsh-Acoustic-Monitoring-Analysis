@@ -1,9 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	162.0	165.0	0	15000	Royal Tern	royter1	0.3079	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240813_160000.wav	162.0
-2	Spectrogram 1	1	180.0	183.0	0	15000	Osprey	osprey	0.8232	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240813_160000.wav	180.0
-3	Spectrogram 1	1	189.0	192.0	0	15000	Osprey	osprey	0.3878	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240813_160000.wav	189.0
-4	Spectrogram 1	1	366.0	369.0	0	15000	Blue Jay	blujay	0.4099	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240813_160000.wav	366.0
-5	Spectrogram 1	1	384.0	387.0	0	15000	American Crow	amecro	0.2654	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240813_160000.wav	384.0
-6	Spectrogram 1	1	510.0	513.0	0	15000	Greater Yellowlegs	greyel	0.3967	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240813_160000.wav	510.0
-7	Spectrogram 1	1	825.0	828.0	0	15000	Fish Crow	fiscro	0.4051	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240813_160000.wav	825.0
-8	Spectrogram 1	1	876.0	879.0	0	15000	Fish Crow	fiscro	0.3099	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240813_160000.wav	876.0

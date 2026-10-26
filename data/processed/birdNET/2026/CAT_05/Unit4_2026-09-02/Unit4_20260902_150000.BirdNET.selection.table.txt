@@ -1,6 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	315.0	318.0	0	15000	Eastern Bluebird	easblu	0.2918	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-02\Unit4_20260902_150000.wav	315.0
-2	Spectrogram 1	1	570.0	573.0	0	15000	Great Blue Heron	grbher3	0.3254	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-02\Unit4_20260902_150000.wav	570.0
-3	Spectrogram 1	1	576.0	579.0	0	15000	Golden-crowned Kinglet	gockin	0.2950	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-02\Unit4_20260902_150000.wav	576.0
-4	Spectrogram 1	1	732.0	735.0	0	15000	Golden-crowned Kinglet	gockin	0.3184	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-02\Unit4_20260902_150000.wav	732.0
-5	Spectrogram 1	1	738.0	741.0	0	15000	Golden-crowned Kinglet	gockin	0.6076	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-02\Unit4_20260902_150000.wav	738.0

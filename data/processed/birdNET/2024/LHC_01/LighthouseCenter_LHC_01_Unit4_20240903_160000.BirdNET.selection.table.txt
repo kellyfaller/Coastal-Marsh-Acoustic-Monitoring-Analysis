@@ -1,6 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	69.0	72.0	0	15000	Engine	engine	0.3109	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240903_160000.wav	69.0
-2	Spectrogram 1	1	198.0	201.0	0	15000	Herring Gull	hergul	0.3535	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240903_160000.wav	198.0
-3	Spectrogram 1	1	201.0	204.0	0	15000	Herring Gull	hergul	0.3676	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240903_160000.wav	201.0
-4	Spectrogram 1	1	354.0	357.0	0	15000	Engine	engine	0.2553	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240903_160000.wav	354.0
-5	Spectrogram 1	1	798.0	801.0	0	15000	Red-throated Loon	retloo	0.2614	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240903_160000.wav	798.0

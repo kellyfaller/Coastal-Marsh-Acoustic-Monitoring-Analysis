@@ -1,7 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	354.0	357.0	0	15000	House Finch	houfin	0.4494	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_154500.wav	354.0
-2	Spectrogram 1	1	387.0	390.0	0	15000	Common Nighthawk	comnig	0.4561	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_154500.wav	387.0
-3	Spectrogram 1	1	405.0	408.0	0	15000	Purple Martin	purmar	0.7454	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_154500.wav	405.0
-4	Spectrogram 1	1	792.0	795.0	0	15000	Greater Yellowlegs	greyel	0.7864	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_154500.wav	792.0
-5	Spectrogram 1	1	795.0	798.0	0	15000	American Oystercatcher	ameoys	0.3424	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_154500.wav	795.0
-6	Spectrogram 1	1	810.0	813.0	0	15000	Osprey	osprey	0.4564	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_154500.wav	810.0

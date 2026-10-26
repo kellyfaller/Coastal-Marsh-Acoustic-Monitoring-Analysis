@@ -1,5 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	141.0	144.0	0	15000	Red-throated Loon	retloo	0.3806	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240702_110000.wav	141.0
-2	Spectrogram 1	1	141.0	144.0	0	15000	Herring Gull	hergul	0.2926	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240702_110000.wav	141.0
-3	Spectrogram 1	1	540.0	543.0	0	15000	Purple Martin	purmar	0.2502	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240702_110000.wav	540.0
-4	Spectrogram 1	1	774.0	777.0	0	15000	Greater White-fronted Goose	gwfgoo	0.3531	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240702_110000.wav	774.0

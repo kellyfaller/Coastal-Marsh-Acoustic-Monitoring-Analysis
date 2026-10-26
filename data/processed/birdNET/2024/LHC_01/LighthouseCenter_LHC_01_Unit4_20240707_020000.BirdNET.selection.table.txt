@@ -1,8 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	24.0	27.0	0	15000	Golden-crowned Kinglet	gockin	0.2835	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240707_020000.wav	24.0
-2	Spectrogram 1	1	72.0	75.0	0	15000	Golden-crowned Kinglet	gockin	0.2714	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240707_020000.wav	72.0
-3	Spectrogram 1	1	489.0	492.0	0	15000	Golden-crowned Kinglet	gockin	0.2679	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240707_020000.wav	489.0
-4	Spectrogram 1	1	534.0	537.0	0	15000	Engine	engine	0.3310	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240707_020000.wav	534.0
-5	Spectrogram 1	1	549.0	552.0	0	15000	Engine	engine	0.5940	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240707_020000.wav	549.0
-6	Spectrogram 1	1	555.0	558.0	0	15000	Engine	engine	0.5348	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240707_020000.wav	555.0
-7	Spectrogram 1	1	645.0	648.0	0	15000	Purple Sandpiper	pursan	0.3028	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240707_020000.wav	645.0

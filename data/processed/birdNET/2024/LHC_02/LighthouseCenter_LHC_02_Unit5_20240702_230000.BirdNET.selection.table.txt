@@ -1,8 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	177.0	180.0	0	15000	Tundra Swan	tunswa	0.2899	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240702_230000.wav	177.0
-2	Spectrogram 1	1	201.0	204.0	0	15000	Dog	dogdog	0.3232	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240702_230000.wav	201.0
-3	Spectrogram 1	1	204.0	207.0	0	15000	Dog	dogdog	0.4945	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240702_230000.wav	204.0
-4	Spectrogram 1	1	228.0	231.0	0	15000	Dog	dogdog	0.6625	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240702_230000.wav	228.0
-5	Spectrogram 1	1	279.0	282.0	0	15000	Dog	dogdog	0.3300	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240702_230000.wav	279.0
-6	Spectrogram 1	1	306.0	309.0	0	15000	Dog	dogdog	0.3418	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240702_230000.wav	306.0
-7	Spectrogram 1	1	417.0	420.0	0	15000	Dog	dogdog	0.7112	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240702_230000.wav	417.0

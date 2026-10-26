@@ -1,6 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	81.0	84.0	0	15000	Chipping Sparrow	chispa	0.3828	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_130000.wav	81.0
-2	Spectrogram 1	1	492.0	495.0	0	15000	Northern Rough-winged Swallow	nrwswa	0.2882	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_130000.wav	492.0
-3	Spectrogram 1	1	624.0	627.0	0	15000	Belted Kingfisher	belkin1	0.7464	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_130000.wav	624.0
-4	Spectrogram 1	1	711.0	714.0	0	15000	Engine	engine	0.6465	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_130000.wav	711.0
-5	Spectrogram 1	1	714.0	717.0	0	15000	Engine	engine	0.3764	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_130000.wav	714.0

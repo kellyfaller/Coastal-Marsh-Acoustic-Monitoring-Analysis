@@ -1,6 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	543.0	546.0	0	15000	Engine	engine	0.4160	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240824_040000.wav	543.0
-2	Spectrogram 1	1	546.0	549.0	0	15000	Engine	engine	0.3264	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240824_040000.wav	546.0
-3	Spectrogram 1	1	555.0	558.0	0	15000	Engine	engine	0.6582	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240824_040000.wav	555.0
-4	Spectrogram 1	1	558.0	561.0	0	15000	Engine	engine	0.4981	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240824_040000.wav	558.0
-5	Spectrogram 1	1	564.0	567.0	0	15000	Engine	engine	0.3370	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240824_040000.wav	564.0

@@ -1,5 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	258.0	261.0	0	15000	Tinkling Ground Cricket	t-11843287	0.2924	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240805_020000.wav	258.0
-2	Spectrogram 1	1	321.0	324.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3325	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240805_020000.wav	321.0
-3	Spectrogram 1	1	399.0	402.0	0	15000	Tinkling Ground Cricket	t-11843287	0.4387	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240805_020000.wav	399.0
-4	Spectrogram 1	1	450.0	453.0	0	15000	Tinkling Ground Cricket	t-11843287	0.2645	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240805_020000.wav	450.0

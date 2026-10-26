@@ -1,5 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	21.0	24.0	0	15000	Seaside Sparrow	seaspa	0.5734	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-06\Unit4_20260706_000000.wav	21.0
-2	Spectrogram 1	1	51.0	54.0	0	15000	Lapland Longspur	laplon	0.3647	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-06\Unit4_20260706_000000.wav	51.0
-3	Spectrogram 1	1	447.0	450.0	0	15000	Lapland Longspur	laplon	0.5151	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-06\Unit4_20260706_000000.wav	447.0
-4	Spectrogram 1	1	600.0	603.0	0	15000	Red Crossbill	redcro	0.4983	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-06\Unit4_20260706_000000.wav	600.0

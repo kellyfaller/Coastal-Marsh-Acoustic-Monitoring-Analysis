@@ -1,3 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	213.0	216.0	0	15000	Great Horned Owl	grhowl	0.3841	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240724_220000.wav	213.0
-2	Spectrogram 1	1	714.0	717.0	0	15000	Tinkling Ground Cricket	t-11843287	0.2817	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240724_220000.wav	714.0

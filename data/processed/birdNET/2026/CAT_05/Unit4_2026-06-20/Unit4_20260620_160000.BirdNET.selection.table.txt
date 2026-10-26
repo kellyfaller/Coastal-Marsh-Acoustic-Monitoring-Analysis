@@ -1,3 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	195.0	198.0	0	15000	Greater Yellowlegs	greyel	0.3859	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-20\Unit4_20260620_160000.wav	195.0
-2	Spectrogram 1	1	417.0	420.0	0	15000	Red Crossbill	redcro	0.6807	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-20\Unit4_20260620_160000.wav	417.0

@@ -1,4 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	237.0	240.0	0	15000	Mallard	mallar3	0.2500	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-09\Unit4_20260809_010000.wav	237.0
-2	Spectrogram 1	1	864.0	867.0	0	15000	Barn Owl	brnowl	0.4459	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-09\Unit4_20260809_010000.wav	864.0
-3	Spectrogram 1	1	888.0	891.0	0	15000	Red-headed Woodpecker	rehwoo	0.9282	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-09\Unit4_20260809_010000.wav	888.0

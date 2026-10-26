@@ -1,9 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	390.0	393.0	0	15000	Fish Crow	fiscro	0.9307	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240902_130000.wav	390.0
-2	Spectrogram 1	1	429.0	432.0	0	15000	Least Sandpiper	leasan	0.7489	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240902_130000.wav	429.0
-3	Spectrogram 1	1	492.0	495.0	0	15000	Fish Crow	fiscro	0.3859	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240902_130000.wav	492.0
-4	Spectrogram 1	1	525.0	528.0	0	15000	Fish Crow	fiscro	0.5009	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240902_130000.wav	525.0
-5	Spectrogram 1	1	543.0	546.0	0	15000	Herring Gull	hergul	0.3153	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240902_130000.wav	543.0
-6	Spectrogram 1	1	561.0	564.0	0	15000	Fish Crow	fiscro	0.2680	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240902_130000.wav	561.0
-7	Spectrogram 1	1	624.0	627.0	0	15000	Belted Kingfisher	belkin1	0.3324	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240902_130000.wav	624.0
-8	Spectrogram 1	1	822.0	825.0	0	15000	Human vocal	humvoc	0.3242	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240902_130000.wav	822.0

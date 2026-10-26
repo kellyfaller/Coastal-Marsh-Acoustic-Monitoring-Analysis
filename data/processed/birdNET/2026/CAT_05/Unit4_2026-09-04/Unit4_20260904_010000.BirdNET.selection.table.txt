@@ -1,2 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	747.0	750.0	0	15000	Chuck-will's-widow	chwwid	0.3176	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-04\Unit4_20260904_010000.wav	747.0

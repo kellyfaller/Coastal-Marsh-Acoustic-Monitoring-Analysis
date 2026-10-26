@@ -1,8 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	309.0	312.0	0	15000	Fish Crow	fiscro	0.4158	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240811_140000.wav	309.0
-2	Spectrogram 1	1	444.0	447.0	0	15000	Black Rail	blkrai	0.3069	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240811_140000.wav	444.0
-3	Spectrogram 1	1	528.0	531.0	0	15000	Eastern Screech-Owl	easowl1	0.5850	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240811_140000.wav	528.0
-4	Spectrogram 1	1	540.0	543.0	0	15000	Trumpeter Swan	truswa	0.6770	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240811_140000.wav	540.0
-5	Spectrogram 1	1	750.0	753.0	0	15000	Song Sparrow	sonspa	0.3539	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240811_140000.wav	750.0
-6	Spectrogram 1	1	759.0	762.0	0	15000	Song Sparrow	sonspa	0.4355	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240811_140000.wav	759.0
-7	Spectrogram 1	1	804.0	807.0	0	15000	Song Sparrow	sonspa	0.3943	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240811_140000.wav	804.0

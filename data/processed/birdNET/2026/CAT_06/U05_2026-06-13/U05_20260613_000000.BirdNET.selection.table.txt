@@ -1,7 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	222.0	225.0	0	15000	Mallard	mallar3	0.4199	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-13\U05_20260613_000000.wav	222.0
-2	Spectrogram 1	1	315.0	318.0	0	15000	Fish Crow	fiscro	0.2705	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-13\U05_20260613_000000.wav	315.0
-3	Spectrogram 1	1	468.0	471.0	0	15000	Mallard	mallar3	0.3429	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-13\U05_20260613_000000.wav	468.0
-4	Spectrogram 1	1	477.0	480.0	0	15000	Mallard	mallar3	0.6980	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-13\U05_20260613_000000.wav	477.0
-5	Spectrogram 1	1	489.0	492.0	0	15000	Mallard	mallar3	0.6051	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-13\U05_20260613_000000.wav	489.0
-6	Spectrogram 1	1	639.0	642.0	0	15000	Yellow-billed Cuckoo	yebcuc	0.7794	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-13\U05_20260613_000000.wav	639.0

@@ -1,7 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	180.0	183.0	0	15000	Chimney Swift	chiswi	0.3764	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_090000.wav	180.0
-2	Spectrogram 1	1	348.0	351.0	0	15000	Carolina Wren	carwre	0.3383	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_090000.wav	348.0
-3	Spectrogram 1	1	438.0	441.0	0	15000	Eastern Bluebird	easblu	0.2991	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_090000.wav	438.0
-4	Spectrogram 1	1	513.0	516.0	0	15000	Chimney Swift	chiswi	0.2746	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_090000.wav	513.0
-5	Spectrogram 1	1	867.0	870.0	0	15000	Belted Kingfisher	belkin1	0.3814	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_090000.wav	867.0
-6	Spectrogram 1	1	888.0	891.0	0	15000	Chipping Sparrow	chispa	0.2585	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_090000.wav	888.0

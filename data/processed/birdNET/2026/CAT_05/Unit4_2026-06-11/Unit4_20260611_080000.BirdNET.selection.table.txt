@@ -1,5 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	51.0	54.0	0	15000	Savannah Sparrow	savspa	0.2963	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-11\Unit4_20260611_080000.wav	51.0
-2	Spectrogram 1	1	603.0	606.0	0	15000	Purple Martin	purmar	0.3996	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-11\Unit4_20260611_080000.wav	603.0
-3	Spectrogram 1	1	795.0	798.0	0	15000	Horned Lark	horlar	0.6450	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-11\Unit4_20260611_080000.wav	795.0
-4	Spectrogram 1	1	810.0	813.0	0	15000	Horned Lark	horlar	0.3669	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-11\Unit4_20260611_080000.wav	810.0

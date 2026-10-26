@@ -1,7 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	294.0	297.0	0	15000	Golden-crowned Kinglet	gockin	0.2603	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240715_010000.wav	294.0
-2	Spectrogram 1	1	411.0	414.0	0	15000	House Wren	houwre	0.2962	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240715_010000.wav	411.0
-3	Spectrogram 1	1	498.0	501.0	0	15000	Marsh Wren	marwre	0.9460	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240715_010000.wav	498.0
-4	Spectrogram 1	1	549.0	552.0	0	15000	Engine	engine	0.2621	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240715_010000.wav	549.0
-5	Spectrogram 1	1	552.0	555.0	0	15000	Engine	engine	0.3531	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240715_010000.wav	552.0
-6	Spectrogram 1	1	885.0	888.0	0	15000	Engine	engine	0.2619	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240715_010000.wav	885.0

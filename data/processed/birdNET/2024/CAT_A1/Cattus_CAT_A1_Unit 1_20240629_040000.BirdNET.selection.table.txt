@@ -1,3 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	615.0	618.0	0	15000	Killdeer	killde	0.5603	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240629_040000.wav	615.0
-2	Spectrogram 1	1	669.0	672.0	0	15000	Golden-crowned Kinglet	gockin	0.2556	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240629_040000.wav	669.0

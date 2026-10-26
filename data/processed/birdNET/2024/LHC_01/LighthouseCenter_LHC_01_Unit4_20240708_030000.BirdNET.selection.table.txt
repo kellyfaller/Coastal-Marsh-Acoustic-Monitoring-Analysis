@@ -1,7 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	396.0	399.0	0	15000	White-faced Ibis	whfibi	0.4119	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240708_030000.wav	396.0
-2	Spectrogram 1	1	402.0	405.0	0	15000	Brant	brant	0.2847	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240708_030000.wav	402.0
-3	Spectrogram 1	1	459.0	462.0	0	15000	Golden-crowned Kinglet	gockin	0.4007	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240708_030000.wav	459.0
-4	Spectrogram 1	1	501.0	504.0	0	15000	Mallard	mallar3	0.3107	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240708_030000.wav	501.0
-5	Spectrogram 1	1	510.0	513.0	0	15000	Brant	brant	0.4083	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240708_030000.wav	510.0
-6	Spectrogram 1	1	588.0	591.0	0	15000	Mallard	mallar3	0.4437	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240708_030000.wav	588.0

@@ -1,5 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	90.0	93.0	0	15000	Greater Yellowlegs	greyel	0.6060	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-21\Unit4_20260821_150000.wav	90.0
-2	Spectrogram 1	1	600.0	603.0	0	15000	Greater White-fronted Goose	gwfgoo	0.2862	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-21\Unit4_20260821_150000.wav	600.0
-3	Spectrogram 1	1	708.0	711.0	0	15000	Red-shouldered Hawk	reshaw	0.2583	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-21\Unit4_20260821_150000.wav	708.0
-4	Spectrogram 1	1	720.0	723.0	0	15000	Herring Gull	hergul	0.3971	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-21\Unit4_20260821_150000.wav	720.0

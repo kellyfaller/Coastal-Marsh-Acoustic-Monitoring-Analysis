@@ -1,2 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	138.0	141.0	0	15000	Wilson's Snipe	wilsni1	0.2937	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-26\Unit4_20260726_040000.wav	138.0

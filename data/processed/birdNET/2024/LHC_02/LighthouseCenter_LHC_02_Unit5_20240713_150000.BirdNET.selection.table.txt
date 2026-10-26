@@ -1,7 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	213.0	216.0	0	15000	Black-crowned Night-Heron	bcnher	0.2914	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240713_150000.wav	213.0
-2	Spectrogram 1	1	252.0	255.0	0	15000	Fireworks	frwrks	0.3208	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240713_150000.wav	252.0
-3	Spectrogram 1	1	483.0	486.0	0	15000	Least Sandpiper	leasan	0.6425	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240713_150000.wav	483.0
-4	Spectrogram 1	1	537.0	540.0	0	15000	Fish Crow	fiscro	0.8798	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240713_150000.wav	537.0
-5	Spectrogram 1	1	555.0	558.0	0	15000	Common Loon	comloo	0.3482	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240713_150000.wav	555.0
-6	Spectrogram 1	1	738.0	741.0	0	15000	Least Sandpiper	leasan	0.9532	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240713_150000.wav	738.0

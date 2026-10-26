@@ -1,4 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	213.0	216.0	0	15000	Chimney Swift	chiswi	0.2776	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240816_030000.wav	213.0
-2	Spectrogram 1	1	351.0	354.0	0	15000	Great Horned Owl	grhowl	0.4788	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240816_030000.wav	351.0
-3	Spectrogram 1	1	504.0	507.0	0	15000	Chimney Swift	chiswi	0.4538	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240816_030000.wav	504.0

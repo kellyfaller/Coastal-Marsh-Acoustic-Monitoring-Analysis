@@ -1,3 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	105.0	108.0	0	15000	Willow Flycatcher	wilfly	0.5915	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-10\U05_20260610_034500.wav	105.0
-2	Spectrogram 1	1	372.0	375.0	0	15000	Semipalmated Plover	semplo	0.4395	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-10\U05_20260610_034500.wav	372.0

@@ -1,4 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	702.0	705.0	0	15000	Engine	engine	0.4110	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-03\Unit4_20260703_170000.wav	702.0
-2	Spectrogram 1	1	708.0	711.0	0	15000	Engine	engine	0.2610	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-03\Unit4_20260703_170000.wav	708.0
-3	Spectrogram 1	1	807.0	810.0	0	15000	Lapland Longspur	laplon	0.2924	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-03\Unit4_20260703_170000.wav	807.0

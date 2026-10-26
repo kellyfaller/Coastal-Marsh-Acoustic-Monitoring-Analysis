@@ -1,8 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	15.0	18.0	0	15000	Boat-tailed Grackle	botgra	0.4448	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-04\Unit4_20260904_000000.wav	15.0
-2	Spectrogram 1	1	57.0	60.0	0	15000	Boat-tailed Grackle	botgra	0.3609	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-04\Unit4_20260904_000000.wav	57.0
-3	Spectrogram 1	1	162.0	165.0	0	15000	Boat-tailed Grackle	botgra	0.2681	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-04\Unit4_20260904_000000.wav	162.0
-4	Spectrogram 1	1	183.0	186.0	0	15000	Boat-tailed Grackle	botgra	0.3192	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-04\Unit4_20260904_000000.wav	183.0
-5	Spectrogram 1	1	216.0	219.0	0	15000	Boat-tailed Grackle	botgra	0.3468	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-04\Unit4_20260904_000000.wav	216.0
-6	Spectrogram 1	1	261.0	264.0	0	15000	Boat-tailed Grackle	botgra	0.3457	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-04\Unit4_20260904_000000.wav	261.0
-7	Spectrogram 1	1	366.0	369.0	0	15000	Barred Owl	brdowl	0.4033	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-04\Unit4_20260904_000000.wav	366.0

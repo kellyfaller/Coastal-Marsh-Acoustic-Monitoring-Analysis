@@ -1,7 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	105.0	108.0	0	15000	Herring Gull	hergul	0.3300	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240721_130000.wav	105.0
-2	Spectrogram 1	1	162.0	165.0	0	15000	Herring Gull	hergul	0.3774	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240721_130000.wav	162.0
-3	Spectrogram 1	1	183.0	186.0	0	15000	Willet	willet1	0.9234	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240721_130000.wav	183.0
-4	Spectrogram 1	1	279.0	282.0	0	15000	Fireworks	frwrks	0.2580	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240721_130000.wav	279.0
-5	Spectrogram 1	1	513.0	516.0	0	15000	Fireworks	frwrks	0.3400	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240721_130000.wav	513.0
-6	Spectrogram 1	1	744.0	747.0	0	15000	Forster's Tern	forter	0.7435	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240721_130000.wav	744.0

@@ -1,6 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	57.0	60.0	0	15000	Black Scoter	blksco2	0.2780	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_140000.wav	57.0
-2	Spectrogram 1	1	144.0	147.0	0	15000	Golden-crowned Kinglet	gockin	0.2724	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_140000.wav	144.0
-3	Spectrogram 1	1	441.0	444.0	0	15000	Engine	engine	0.2843	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_140000.wav	441.0
-4	Spectrogram 1	1	444.0	447.0	0	15000	Engine	engine	0.4751	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_140000.wav	444.0
-5	Spectrogram 1	1	669.0	672.0	0	15000	Golden-crowned Kinglet	gockin	0.7420	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_140000.wav	669.0

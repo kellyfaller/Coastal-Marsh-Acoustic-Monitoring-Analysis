@@ -1,7 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	372.0	375.0	0	15000	Gray Catbird	grycat	0.4238	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_110000.wav	372.0
-2	Spectrogram 1	1	390.0	393.0	0	15000	Herring Gull	hergul	0.4147	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_110000.wav	390.0
-3	Spectrogram 1	1	588.0	591.0	0	15000	Belted Kingfisher	belkin1	0.2706	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_110000.wav	588.0
-4	Spectrogram 1	1	597.0	600.0	0	15000	Chipping Sparrow	chispa	0.3808	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_110000.wav	597.0
-5	Spectrogram 1	1	636.0	639.0	0	15000	Red-breasted Nuthatch	rebnut	0.2702	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_110000.wav	636.0
-6	Spectrogram 1	1	642.0	645.0	0	15000	Chipping Sparrow	chispa	0.5468	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_110000.wav	642.0

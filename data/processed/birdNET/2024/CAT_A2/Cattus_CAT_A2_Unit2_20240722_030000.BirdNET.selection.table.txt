@@ -1,9 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	246.0	249.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.4685	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240722_030000.wav	246.0
-2	Spectrogram 1	1	249.0	252.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.3319	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240722_030000.wav	249.0
-3	Spectrogram 1	1	519.0	522.0	0	15000	Black-crowned Night-Heron	bcnher	0.8260	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240722_030000.wav	519.0
-4	Spectrogram 1	1	597.0	600.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.3225	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240722_030000.wav	597.0
-5	Spectrogram 1	1	609.0	612.0	0	15000	Golden-crowned Kinglet	gockin	0.3124	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240722_030000.wav	609.0
-6	Spectrogram 1	1	612.0	615.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2633	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240722_030000.wav	612.0
-7	Spectrogram 1	1	678.0	681.0	0	15000	Golden-crowned Kinglet	gockin	0.3539	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240722_030000.wav	678.0
-8	Spectrogram 1	1	711.0	714.0	0	15000	Golden-crowned Kinglet	gockin	0.3027	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240722_030000.wav	711.0

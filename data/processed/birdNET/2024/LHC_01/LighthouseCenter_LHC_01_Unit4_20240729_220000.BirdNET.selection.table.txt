@@ -1,8 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	0.0	3.0	0	15000	Eastern Screech-Owl	easowl1	0.3651	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240729_220000.wav	0.0
-2	Spectrogram 1	1	87.0	90.0	0	15000	Barred Owl	brdowl	0.3970	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240729_220000.wav	87.0
-3	Spectrogram 1	1	726.0	729.0	0	15000	Great Horned Owl	grhowl	0.2568	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240729_220000.wav	726.0
-4	Spectrogram 1	1	765.0	768.0	0	15000	Great Horned Owl	grhowl	0.4853	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240729_220000.wav	765.0
-5	Spectrogram 1	1	846.0	849.0	0	15000	Golden-crowned Kinglet	gockin	0.3609	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240729_220000.wav	846.0
-6	Spectrogram 1	1	849.0	852.0	0	15000	Golden-crowned Kinglet	gockin	0.4250	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240729_220000.wav	849.0
-7	Spectrogram 1	1	849.0	852.0	0	15000	Red-breasted Nuthatch	rebnut	0.3616	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240729_220000.wav	849.0

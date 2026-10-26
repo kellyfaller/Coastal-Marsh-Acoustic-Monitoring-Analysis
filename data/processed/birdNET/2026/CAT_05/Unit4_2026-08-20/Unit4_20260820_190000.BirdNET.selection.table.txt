@@ -1,8 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	18.0	21.0	0	15000	Osprey	osprey	0.6648	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-20\Unit4_20260820_190000.wav	18.0
-2	Spectrogram 1	1	21.0	24.0	0	15000	Osprey	osprey	0.6181	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-20\Unit4_20260820_190000.wav	21.0
-3	Spectrogram 1	1	24.0	27.0	0	15000	Purple Martin	purmar	0.2966	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-20\Unit4_20260820_190000.wav	24.0
-4	Spectrogram 1	1	768.0	771.0	0	15000	Osprey	osprey	0.6854	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-20\Unit4_20260820_190000.wav	768.0
-5	Spectrogram 1	1	771.0	774.0	0	15000	Osprey	osprey	0.7946	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-20\Unit4_20260820_190000.wav	771.0
-6	Spectrogram 1	1	771.0	774.0	0	15000	Purple Martin	purmar	0.3988	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-20\Unit4_20260820_190000.wav	771.0
-7	Spectrogram 1	1	795.0	798.0	0	15000	Golden-crowned Kinglet	gockin	0.2659	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-20\Unit4_20260820_190000.wav	795.0

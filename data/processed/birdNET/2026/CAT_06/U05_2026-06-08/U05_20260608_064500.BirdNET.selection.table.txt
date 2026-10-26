@@ -1,6 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	78.0	81.0	0	15000	Gray-cheeked Thrush	gycthr	0.8309	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-08\U05_20260608_064500.wav	78.0
-2	Spectrogram 1	1	192.0	195.0	0	15000	Henslow's Sparrow	henspa	0.5323	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-08\U05_20260608_064500.wav	192.0
-3	Spectrogram 1	1	498.0	501.0	0	15000	Red-winged Blackbird	rewbla	0.2560	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-08\U05_20260608_064500.wav	498.0
-4	Spectrogram 1	1	516.0	519.0	0	15000	Osprey	osprey	0.2873	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-08\U05_20260608_064500.wav	516.0
-5	Spectrogram 1	1	801.0	804.0	0	15000	Eastern Kingbird	easkin	0.3661	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-08\U05_20260608_064500.wav	801.0

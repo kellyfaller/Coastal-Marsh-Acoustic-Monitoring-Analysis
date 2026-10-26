@@ -1,9 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	33.0	36.0	0	15000	Marsh Wren	marwre	0.4863	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-25\U05_20260625_184500.wav	33.0
-2	Spectrogram 1	1	123.0	126.0	0	15000	Marsh Wren	marwre	0.3872	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-25\U05_20260625_184500.wav	123.0
-3	Spectrogram 1	1	129.0	132.0	0	15000	Marsh Wren	marwre	0.3313	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-25\U05_20260625_184500.wav	129.0
-4	Spectrogram 1	1	135.0	138.0	0	15000	Horned Lark	horlar	0.3658	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-25\U05_20260625_184500.wav	135.0
-5	Spectrogram 1	1	315.0	318.0	0	15000	Lapland Longspur	laplon	0.4384	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-25\U05_20260625_184500.wav	315.0
-6	Spectrogram 1	1	597.0	600.0	0	15000	Marsh Wren	marwre	0.8717	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-25\U05_20260625_184500.wav	597.0
-7	Spectrogram 1	1	675.0	678.0	0	15000	White-crowned Sparrow	whcspa	0.3818	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-25\U05_20260625_184500.wav	675.0
-8	Spectrogram 1	1	798.0	801.0	0	15000	Eastern Kingbird	easkin	0.3749	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-25\U05_20260625_184500.wav	798.0

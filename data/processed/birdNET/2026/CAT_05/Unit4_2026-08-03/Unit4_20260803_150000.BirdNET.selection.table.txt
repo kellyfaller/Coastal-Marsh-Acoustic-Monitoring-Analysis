@@ -1,9 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
-1	Spectrogram 1	1	9.0	12.0	0	15000	Golden-crowned Kinglet	gockin	0.4587	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-03\Unit4_20260803_150000.wav	9.0
-2	Spectrogram 1	1	12.0	15.0	0	15000	Golden-crowned Kinglet	gockin	0.3308	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-03\Unit4_20260803_150000.wav	12.0
-3	Spectrogram 1	1	54.0	57.0	0	15000	Golden-crowned Kinglet	gockin	0.8386	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-03\Unit4_20260803_150000.wav	54.0
-4	Spectrogram 1	1	60.0	63.0	0	15000	Golden-crowned Kinglet	gockin	0.5912	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-03\Unit4_20260803_150000.wav	60.0
-5	Spectrogram 1	1	78.0	81.0	0	15000	Golden-crowned Kinglet	gockin	0.3727	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-03\Unit4_20260803_150000.wav	78.0
-6	Spectrogram 1	1	105.0	108.0	0	15000	Golden-crowned Kinglet	gockin	0.8703	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-03\Unit4_20260803_150000.wav	105.0
-7	Spectrogram 1	1	111.0	114.0	0	15000	Golden-crowned Kinglet	gockin	0.2608	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-03\Unit4_20260803_150000.wav	111.0
-8	Spectrogram 1	1	861.0	864.0	0	15000	Purple Martin	purmar	0.3702	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-03\Unit4_20260803_150000.wav	861.0

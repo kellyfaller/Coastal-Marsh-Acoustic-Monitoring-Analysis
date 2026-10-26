@@ -10,26 +10,30 @@ params:
   recordings_pattern: "^recordings\\."
   sites_pattern: "^sites\\."
   pm_pattern: "^pattern_matching_rois\\."
+  pm_jobs_pattern: "^pattern_matchings\\."
   species_pattern: "^species\\."
   validations_pattern: "^recording_validations\\."  # manual labels - not from pm analysis
-  # Join and time parsing
-  join_by_recording: ["site_id"]
-  join_by_metadata:  ["site_id"]
-  datetime_candidates: ["datetime", "timestamp", "date_time"]   # columns to try
-  datetime_orders: ["Y-m-d H:M:S", "m/d/Y H:M:S", "Ymd HMS", "Ymd_HMS", "Y-m-d H:M:OS", "Ymd HMSOS"]
-  tz: "UTC" 
-  # Optional: keep only these columns from recordings after join (NULL = keep all). Also use validations or not.
-  keep_columns: null
+  # Time zone of the recorders. Arbimon's `datetime` column is the local time on the recorder (it matches the
+  # wav file name); `datetime_utc` is UTC. If the sites table has a timezone column, that is used instead.
+  tz: "America/New_York"
   use_validations: true                        # set to false to ignore manual labels
-  # Outputs
-  detections_file: "C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/outputs/arbimon/arbimon_detections.csv"
-  presence_file:    "C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/outputs/arbimon/arbimon_presence_by_site_day.csv"
-  recordings_out:  "C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/outputs/arbimon/recording_metadata.csv"
+  # Outputs. Relative paths are inside this repository; full paths (C:/...) also work.
+  recordings_out:  "data/arbimon/recording_metadata.csv"
+  detections_file: "data/arbimon/pm_detections.csv"
+  validations_file: "data/arbimon/manual_detections.csv"
+  presence_file:   "data/arbimon/pm_presence_by_site_day.csv"
 ---
 
 This document provides a standardized workflow for preparing Arbimon project data for analysis.
 To begin, log in to your Arbimon account and request a full project backup from the site. Arbimon will email you a download link to a .zip file containing all of your project data.
 Unzip this file to your computer. Inside, you will find the Recording Files CSVs (often split into multiple files if your project is large, starting with recordings.0001.csv), pattern matching results (pattern_matchings.0001.csv), site information (sites.0001.csv), as well as other analytical results and  metadata files. These files are the inputs for this prep script, which will combine, clean, and format them into a single dataset ready for analysis. Please do not adjust the code below, as it is written to be repeatable by any user of this script. The only information you should be changing is above in the YAML header. The parameters is where you will input your own file paths and parameters used wihtin the document. After that, it should be ready to go!
+
+The backup is set up like a relational database: recordings link to sites by `site_id`; pattern matching ROIs and manual validations link to recordings by `recording_id` and to species by `species_id` + `songtype_id`; ROIs link to their pattern matching job by `pattern_matching_id`.
+
+How validation is coded in the backup:
+
+- **Pattern matching ROIs** (`validated`): 1 = the match was confirmed as the species, 0 = the match was reviewed and rejected (the template matched something else), blank = not reviewed.
+- **Manual recording validations** (`present_visualizer`, `present_pm`, `present_aed`): 1 = species present in that recording, 0 = reviewed and absent, for each place the validation was made in Arbimon.
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
@@ -37,7 +41,6 @@ knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 suppressPackageStartupMessages({
   library(dplyr)
   library(readr)
-  library(vroom)
   library(fs)
   library(glue)
   library(lubridate)
@@ -46,341 +49,169 @@ suppressPackageStartupMessages({
 })
 
 proj <- params$project_dir
-stopifnot(fs::dir_exists(proj))
+if (!fs::dir_exists(proj)) stop("project_dir doesn't exist: ", proj, "\nChange project_dir in the YAML header to your unzipped Arbimon backup folder.")
 
 all_files <- fs::dir_ls(proj, recurse = FALSE, type = "file")
 fname <- fs::path_file(all_files)
 
+# reads (and stacks) every file matching a pattern, e.g. recordings.0001.csv ... recordings.0011.csv.
+# Everything is read as text so the parts always stack (ids stay text, which keeps joins exact); numbers are converted where needed.
 read_many <- function(pattern) {
   hits <- all_files[grepl(pattern, fname, perl = TRUE)]
   if (!length(hits)) return(NULL)
-  vroom::vroom(hits, .name_repair = "unique", show_col_types = FALSE)
+  dplyr::bind_rows(lapply(sort(hits), readr::read_csv, col_types = readr::cols(.default = readr::col_character()), progress = FALSE))
 }
 
-# choose first existing datetime column
-pick_datetime_col <- function(df, candidates) {
-  for (c in candidates) if (c %in% names(df)) return(c)
-  NA_character_
+# output paths: relative paths are inside this repository
+out_path <- function(p) if (fs::is_absolute_path(p)) p else here::here(p)
+write_out <- function(df, p) {
+  p <- out_path(p)
+  fs::dir_create(fs::path_dir(p))
+  readr::write_csv(df, p)
+  message("Wrote ", nrow(df), " rows to ", p)
 }
 
-# robust parser allowing multiple formats
-parse_dt <- function(x, orders, tz = "UTC") {
-  if (inherits(x, "POSIXct")) return(lubridate::with_tz(x, tz))
- 
-  xc <- trimws(as.character(x)) # coerce to character and normalize common ISO-8601 shapes
-  xc <- sub("T", " ", xc, fixed = TRUE)  # replace 'T' separator with space
-  had_z <- grepl("Z$", xc, perl = TRUE) # drop trailing 'Z' (treat as UTC)
-  xc <- sub("Z$", "", xc, perl = TRUE)  # trim whitespace
-
-  # first try fast parser for ymd_hms
-  dt <- suppressWarnings(lubridate::ymd_hms(xc, tz = tz, quiet = TRUE))
-
-  # if all NA, try general multi-order parser
-  if (all(is.na(dt))) {
-    dt <- suppressWarnings(lubridate::parse_date_time(xc, orders = orders, tz = tz, quiet = TRUE))
-  }
-
-  # if source had Z (UTC), ensure tz is UTC regardless of system default
-  if (any(had_z, na.rm = TRUE)) {
-    dt <- lubridate::force_tz(dt, tzone = "UTC")
-    # convert to requested tz (usually still UTC)
-    dt <- lubridate::with_tz(dt, tzone = tz)
-  }
-
-  dt
-}
-
-# Normalize any "validated" style column to 0/1 integers
-normalize_validated <- function(df) {
-  if (is.null(df) || !nrow(df)) return(df)
-
-  # common names Arbimon exports use (add more if you spot them)
-  cand <- intersect(
-    c("validated","is_validated","validation","is_verified","verified",
-      "approved","is_approved","is_correct","correct","present","label"),
-    tolower(names(df))
-  )
-  if (!length(cand)) {
-    df$validated <- NA_integer_
-    return(df)
-  }
-  col <- cand[1]
-  v <- df[[ which(tolower(names(df)) == col) ]]
-
-  # map to 0/1
-  v_norm <-
-    if (is.logical(v)) as.integer(v) else
-    if (is.numeric(v)) as.integer(v != 0) else
-    if (is.character(v)) {
-      s <- trimws(tolower(v))
-      as.integer(s %in% c("1","true","t","yes","y","valid","validated","correct","approved","present","positive"))
-    } else NA_integer_
-
-  df$validated <- v_norm
-  df
-}
-
+# Arbimon writes date-times as "06/30/2024 15:00:00"; older exports used ISO "2024-06-30 15:00:00"
+parse_arbimon_dt <- function(x, tz) lubridate::parse_date_time(x, orders = c("mdy HMS", "Ymd HMS", "mdy HM", "Ymd HM"), tz = tz, quiet = TRUE)
 ```
 
 ```{r clean, include=FALSE}
 # --- Recordings (bind all parts) ---
 recs <- read_many(params$recordings_pattern)
-stopifnot(!is.null(recs), nrow(recs) > 0)
+if (is.null(recs) || !nrow(recs)) stop("No recordings.*.csv files found in ", proj)
 
-# --- Sites metadata (optional but recommended) ---
+# --- Sites metadata ---
 sites <- read_many(params$sites_pattern)
+if (is.null(sites)) stop("No sites.*.csv file found in ", proj, " - it's needed to label recordings with station names.")
 
-recordings <- recs
-if (!is.null(sites) && nrow(sites)) {
-  rec_cols  <- as.character(params$join_by_recording)
-  meta_cols <- as.character(params$join_by_metadata)
-  stopifnot(length(rec_cols) == length(meta_cols))
-
-  # sanity check columns exist
-  miss_r <- setdiff(rec_cols, names(recordings))
-  miss_m <- setdiff(meta_cols, names(sites))
-  if (length(miss_r)) stop("Recordings missing join column(s): ", paste(miss_r, collapse=", "))
-  if (length(miss_m)) stop("Sites missing join column(s): ", paste(miss_m, collapse=", "))
-
-  join_map <- stats::setNames(meta_cols, rec_cols)
-  recordings <- left_join(recordings, sites, by = join_map)
-}
+recordings <- recs %>%
+  dplyr::select(-dplyr::any_of("url")) %>%                       # signed download links; they expire and shouldn't be shared
+  dplyr::left_join(sites, by = "site_id")
 
 # --- Datetime parsing + calendar fields ---
-dt_col <- pick_datetime_col(recordings, params$datetime_candidates)
-if (is.na(dt_col)) stop("Could not find a datetime column among: ", paste(params$datetime_candidates, collapse=", "))
-
+# `datetime` is local recorder time; it is parsed in the site's own time zone (or params$tz if the sites table has none)
 recordings <- recordings %>%
-  mutate(
-    datetime_parsed = parse_dt(.data[[dt_col]], params$datetime_orders, params$tz),
-    Year            = year(datetime_parsed),
-    Julian_Day      = yday(datetime_parsed)
-  )
+  dplyr::mutate(site_tz = if ("timezone" %in% names(.)) dplyr::coalesce(timezone, params$tz) else params$tz)
 
-parsed_rate <- mean(!is.na(recordings$datetime_parsed)) * 100
-
-# Optional: select columns
-if (!is.null(params$keep_columns)) {
-  keep <- unique(c(params$keep_columns, "recording_id", "datetime_parsed", "Year", "Julian_Day"))
-  keep <- intersect(keep, names(recordings))
-  recordings <- select(recordings, all_of(keep))
+recordings$datetime_parsed <- lubridate::as_datetime(rep(NA_real_, nrow(recordings)), tz = params$tz)
+for (z in unique(recordings$site_tz)) {
+  i <- recordings$site_tz == z
+  recordings$datetime_parsed[i] <- lubridate::with_tz(parse_arbimon_dt(recordings$datetime[i], z), params$tz)
 }
 
-# Write clean recordings table
-fs::dir_create(fs::path_dir(params$recordings_out))
-write_csv(recordings, params$recordings_out)
+recordings <- recordings %>%
+  dplyr::mutate(
+    datetime_utc_parsed = parse_arbimon_dt(datetime_utc, "UTC"),
+    source_file         = stringr::str_match(meta, '"filename":"([^"]+)"')[, 2],
+    Year                = lubridate::year(datetime_parsed),
+    Julian_Day          = lubridate::yday(datetime_parsed))
 
+parsed_rate <- mean(!is.na(recordings$datetime_parsed)) * 100
+if (parsed_rate < 100) warning(sprintf("%.1f%% of recording date-times could not be parsed", 100 - parsed_rate))
+
+# Write clean recordings table (date-times written as local time with offset, e.g. 2024-06-30T15:00:00-04:00)
+write_out(recordings %>% dplyr::mutate(dplyr::across(c(datetime_parsed), ~ format(.x, "%Y-%m-%dT%H:%M:%S%z"))),
+          params$recordings_out)
+
+# the columns every detection table gets from its recording
+rec_core <- recordings %>%
+  dplyr::transmute(recording_id, site_id, site_name = name,
+                   recording_datetime = datetime_parsed,
+                   recording_date = as.Date(datetime_parsed, tz = params$tz),
+                   Year, Julian_Day)
+recordings <- recordings %>% dplyr::mutate(dplyr::across(dplyr::any_of(c("sample_rate", "duration", "samples", "latitude", "longitude")), as.numeric))
 ```
+
+The recordings table has `r format(nrow(recordings), big.mark = ",")` one-minute recordings from `r dplyr::n_distinct(recordings$site_id)` sites; `r round(parsed_rate, 1)`% of date-times parsed.
 
 # Joining forces
 
-```{r join, include= FALSE}
-
-%||%` <- function(x, y) if (is.null(x)) y else x
-
-choose_first_col <- function(df, candidates) {
-  cands <- tolower(candidates)
-  nms   <- tolower(names(df))
-  hit   <- which(nms %in% cands)
-  if (length(hit)) names(df)[hit[1]] else NULL
-}
-
-# --- Pattern matching ROIs (bind) ---
-pm <- read_many(params$pm_pattern)
-if (!is.null(pm) && nrow(pm)) {
-  pm <- pm %>% rename_with(tolower)
-  # keep typical PM columns if present
-  keep_pm <- intersect(
-    c("pattern_matching_id","recording_id","species_id","songtype_id","x1","x2","y1","y2","score","validated"),
-    names(pm)
-  )
-  pm <- pm %>% select(all_of(keep_pm))
-  # coerce ids
-  pm <- pm %>% mutate(
-    species_id  = suppressWarnings(as.integer(species_id)),
-    songtype_id = suppressWarnings(as.integer(songtype_id))
-  )
-}
-
-# --- Species dictionary (sci name, songtype labels) ---
+```{r join, include=FALSE}
+# --- Species dictionary (scientific name + songtype for each species_id x songtype_id) ---
 sp <- read_many(params$species_pattern)
+if (is.null(sp)) stop("No species.*.csv file found in ", proj)
+sp <- sp %>%
+  dplyr::mutate(scientific_name = stringr::str_squish(scientific_name), family = stringr::str_squish(family)) %>%
+  dplyr::distinct(species_id, songtype_id, .keep_all = TRUE)
 
-sp_names   <- NULL
-sp_songmap <- NULL
+# --- Pattern matching jobs (name, template, threshold) ---
+pm_jobs <- read_many(params$pm_jobs_pattern)
 
-if (!is.null(sp) && nrow(sp)) {
-  sp <- sp %>% dplyr::rename_with(tolower)
-
-  # Find likely columns across export variants
-  sci_col       <- choose_first_col(sp, c("scientific_name","species","latin_name","sci_name","taxon_name","name"))
-  songtype_id_c <- choose_first_col(sp, c("songtype_id","songtype_ix","songtype_ix1","songtype"))
-  songtype_c    <- choose_first_col(sp, c("songtype","song_type","songname"))
-
-  if (!"species_id" %in% names(sp)) {
-    stop("In species file, required key 'species_id' is missing. Columns present: ",
-         paste(names(sp), collapse = ", "))
-  }
-  
-# Build standardized fields; tolerate missing columns
-  sp_std <- sp %>%
-    mutate(
-      species_id   = suppressWarnings(as.integer(.data[["species_id"]])),
-      scientific_name = if (!is.null(sci_col)) as.character(.data[[sci_col]]) else NA_character_,
-      songtype_id  = if (!is.null(songtype_id_c)) suppressWarnings(as.integer(.data[[songtype_id_c]])) else NA_integer_,
-      songtype     = if (!is.null(songtype_c)) as.character(.data[[songtype_c]]) else NA_character_
-    ) %>%
-    # keep only our standardized columns; don't reference originals anymore
-    select(species_id, scientific_name, songtype_id, songtype, any_of(c("family","taxon"))) %>%
-    distinct()
-
-  sp_names   <- sp_std %>% select(species_id, scientific_name) %>% distinct()
-  sp_songmap <- sp_std %>% select(species_id, songtype_id, songtype) %>% distinct()
-
-  # Friendly messages so you can see what was detected
-  message("Species mapping: using scientific name column: ",
-          sci_col %||% "<none>")
-  message("Species mapping: using songtype_id column: ",
-          songtype_id_c %||% "<none>",
-          " | songtype label column: ",
-          songtype_c %||% "<none>")
-} else {
-  warning("No species.* file(s) found; species names will be NA.")
+# --- Pattern matching ROIs ---
+pm <- read_many(params$pm_pattern)
+det_pm <- NULL
+if (!is.null(pm) && nrow(pm)) {
+  det_pm <- pm %>%
+    dplyr::mutate(dplyr::across(dplyr::any_of(c("x1", "x2", "y1", "y2", "score")), as.numeric),
+                  validated = suppressWarnings(as.integer(validated))) %>%
+    dplyr::left_join(rec_core, by = "recording_id") %>%
+    dplyr::left_join(sp %>% dplyr::select(species_id, songtype_id, scientific_name, songtype), by = c("species_id", "songtype_id")) %>%
+    { if (!is.null(pm_jobs)) dplyr::left_join(., pm_jobs %>% dplyr::select(pattern_matching_id, pm_name = name, dplyr::any_of(c("template_name", "playlist_name"))),
+                                              by = "pattern_matching_id") else . } %>%
+    dplyr::mutate(
+      validation_status  = dplyr::case_when(validated == 1 ~ "confirmed", validated == 0 ~ "rejected", TRUE ~ "not reviewed"),
+      detection_source   = "pattern_match",
+      detection_datetime = recording_datetime + x1,           # start of the matched sound within the 1-minute recording
+      detection_date     = as.Date(detection_datetime, tz = params$tz))
 }
 
-# --- Manual validations (optional) ---
-normalize_validated <- function(df) {
-  if (is.null(df) || !nrow(df)) return(df)
-  cand <- intersect(
-    c("validated","is_validated","validation","is_verified","verified",
-      "approved","is_approved","is_correct","correct","present","label"),
-    tolower(names(df))
-  )
-  if (!length(cand)) { df$validated <- NA_integer_; return(df) }
-  col <- cand[1]
-  v <- df[[ which(tolower(names(df)) == col) ]]
-  v_norm <-
-    if (is.logical(v)) as.integer(v) else
-    if (is.numeric(v)) as.integer(v != 0) else
-    if (is.character(v)) {
-      s <- trimws(tolower(v))
-      as.integer(s %in% c("1","true","t","yes","y","valid","validated","correct","approved","present","positive"))
-    } else NA_integer_
-  df$validated <- v_norm
-  df
-}
-
-# Read/normalize validations (if you haven’t already)
-if (!exists("val")) {
+# --- Manual validations ---
+det_val <- NULL
+if (isTRUE(params$use_validations)) {
   val <- read_many(params$validations_pattern)
   if (!is.null(val) && nrow(val)) {
-    val <- val %>% rename_with(tolower)
-    score_col <- intersect(c("score","confidence","probability"), names(val))[1]
-    keep_val  <- c(intersect(c("recording_id","species_id"), names(val)), score_col)
-    keep_val  <- keep_val[!is.na(keep_val)]
-    val <- val %>%
-      select(all_of(keep_val), everything()) %>%
-      normalize_validated() %>%
-      mutate(species_id = suppressWarnings(as.integer(species_id)))
-  } else {
-    val <- NULL
-    score_col <- NULL
+    present_cols <- grep("^present", names(val), value = TRUE)
+    pres <- as.data.frame(lapply(val[present_cols], function(x) suppressWarnings(as.integer(x))))
+    det_val <- val %>%
+      dplyr::select(-dplyr::any_of(c("scientific_name", "songtype"))) %>%    # taken from the species table instead
+      dplyr::mutate(present = ifelse(rowSums(!is.na(pres)) == 0, NA_integer_, as.integer(rowSums(pres == 1, na.rm = TRUE) > 0))) %>%
+      dplyr::left_join(rec_core, by = "recording_id") %>%
+      dplyr::left_join(sp %>% dplyr::select(species_id, songtype_id, scientific_name, songtype), by = c("species_id", "songtype_id")) %>%
+      dplyr::mutate(detection_source = "manual_validation",
+                    detection_datetime = recording_datetime,
+                    detection_date = recording_date)
   }
 }
 
+# date-times are written as local time with the UTC offset so they can't be mistaken for UTC
+fmt_dt <- function(df) df %>% dplyr::mutate(dplyr::across(c(recording_datetime, detection_datetime), ~ format(.x, "%Y-%m-%dT%H:%M:%S%z")))
+if (!is.null(det_pm))  write_out(fmt_dt(det_pm), params$detections_file)
+if (!is.null(det_val)) write_out(fmt_dt(det_val), params$validations_file)
+```
 
-# --- Build detections from PM ---
-det_pm <- NULL
-if (!is.null(pm) && nrow(pm)) {
-  det_pm <- pm %>%
-    left_join(rec_core, by = "recording_id") %>%
-    left_join(sp_names,   by = "species_id") %>%
-    left_join(sp_songmap, by = c("species_id","songtype_id")) %>%
-    mutate(
-      common_name = NA_character_,          # not present in this export
-      detection_source = "pattern_match"
-    ) %>%
-    select(recording_id, site_id, site_label, .dt, date, Year, Julian_Day,
-           species_id, scientific_name, common_name,
-           songtype_id, songtype,
-           any_of(c("pattern_matching_id","x1","x2","y1","y2","score","validated")),
-           detection_source)
+```{r join checks, echo=FALSE}
+if (!is.null(det_pm)) {
+  det_pm %>%
+    dplyr::group_by(pattern_matching_id, dplyr::across(dplyr::any_of("pm_name")), scientific_name) %>%
+    dplyr::summarise(ROIs = dplyr::n(), Confirmed = sum(validation_status == "confirmed"),
+                     Rejected = sum(validation_status == "rejected"), `Not reviewed` = sum(validation_status == "not reviewed"),
+                     `Unmatched recordings` = sum(is.na(site_id)), .groups = "drop") %>%
+    knitr::kable(caption = "Pattern matching ROIs by job")
 }
-
-# --- Build detections from validations ---
-det_pm <- NULL
-if (!is.null(pm) && nrow(pm)) {
-  det_pm <- pm %>%
-    left_join(rec_core,   by = "recording_id") %>%
-    left_join(sp_names,   by = "species_id") %>%
-    { if (!is.null(sp_songmap)) left_join(., sp_songmap, by = c("species_id","songtype_id")) else . } %>%
-    mutate(
-      common_name = NA_character_,
-      detection_source = "pattern_match"
-    ) %>%
-    select(recording_id, site_id, site_label, .dt, date, Year, Julian_Day,
-           species_id, scientific_name, common_name,
-           any_of(c("songtype_id","songtype",
-                    "pattern_matching_id","x1","x2","y1","y2","score","validated")),
-           detection_source)
-}
-
-det_val <- NULL
-if (!is.null(val) && nrow(val)) {
-  det_val <- val %>%
-    left_join(rec_core, by = "recording_id") %>%
-    left_join(sp_names, by = "species_id") %>%
-    mutate(
-      common_name = NA_character_,
-      detection_source = "manual_validation"
-    ) %>%
-    select(recording_id, site_id, site_label, .dt, date, Year, Julian_Day,
-           species_id, scientific_name, common_name,
-           any_of(c("validated", score_col)),
-           detection_source)
-}
-
-detections <- dplyr::bind_rows(det_pm, det_val) %>% distinct()
 ```
 
 # Presence
 
-```{r presence, include = FALSE}
-if (exists("detections") && nrow(detections)) {
-  presence <- detections %>%
-    group_by(site_id, site_label, date, species_id, scientific_name, common_name) %>%
-    summarize(
-      n_detections = n(),
-      any_validated = any(!is.na(validated) & validated == 1),
-      sources = paste(sort(unique(detection_source)), collapse = "+"),
-      .groups = "drop"
-    )
-  fs::dir_create(fs::path_dir(params$presence_file))
-  write_csv(presence, params$presence_file)
-```
+Pattern matching results summarised by site and day. `n_detections` counts every ROI (all template matches), `n_confirmed` and `n_rejected` count ROIs reviewed as the species or not, and `present` is TRUE only if at least one ROI that day was confirmed. Unreviewed or rejected matches are **not** evidence the species was there.
 
-
-Locate and combine recording files (recording.0001.csv)
-```{r CSV Binding, include=FALSE}
-stopifnot(fs::dir_exists(params$project_dir))
-
-all_files <- fs::dir_ls(path = params$project_dir, recurse = FALSE, type = "file")
-rec_files <- all_files[grepl(params$recordings_pattern, fs::path_file(all_files), perl = TRUE)]
-
-if (length(rec_files) == 0) {
-  stop(glue("No files matching '{params$recordings_pattern}' found in '{params$project_dir}'."))
+```{r presence, include=FALSE}
+if (!is.null(det_pm) && nrow(det_pm)) {
+  presence <- det_pm %>%
+    dplyr::group_by(site_id, site_name, detection_date, species_id, scientific_name) %>%
+    dplyr::summarise(
+      n_detections = dplyr::n(),
+      n_recordings = dplyr::n_distinct(recording_id),
+      n_confirmed  = sum(validation_status == "confirmed"),
+      n_rejected   = sum(validation_status == "rejected"),
+      present      = n_confirmed > 0,
+      .groups = "drop")
+  write_out(presence, params$presence_file)
 }
-
-recordings_raw <- vroom::vroom(rec_files, .name_repair = "unique")
-
-glimpse(recordings_raw, width = 80)
-recordings <- recordings_raw
-
 ```
 
+THIS IS FROM THE LAST ANALYSIS. PLEASE ONLY USE IF NECESSARY. I DID NOT WANT TO DELETE. (Turned off with `eval=FALSE` - it refers to a `recording_metadata` object from an older version of this script and stops the knit if run.)
 
-THIS IS FROM THE LAST ANALYSIS. PLEASE ONLY USE IF NECESSARY. I DID NOT WANT TO DELETE. 
-
-```{r Setup Arbimon, include=FALSE}
+```{r Setup Arbimon, include=FALSE, eval=FALSE}
 
 # Robust datetime handling from prep output:
 # Accept 'datetime_parsed' (preferred) or fallback to 'datetime'

@@ -3,61 +3,79 @@ title: "Data Prep Script"
 author: "Kelly Faller"
 date: '2023-05-20'
 output: html_document
+# >>> Edit these params; the rest should run without changes <<<
+params:
+  # Kaleidoscope output folder, laid out as <root>/<year>/<station>/acousticindex.csv. Relative = inside this repo.
+  kaleidoscope_root: "data/processed/kaleidoscope_outputs"
+  # Combined file read by 02-Acoustics-Analysis.Rmd (configs/project.yml -> paths$index)
+  combined_out: "data/processed/kaleidoscope_outputs/acoustic_indices_20242025combined.csv"
+  tz: "America/New_York"
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 ```
 
 ## Load Packages
 
-
 ```{r, warning=FALSE, include=FALSE}
-
 library(tidyverse)
 library(lubridate)
-library(bit64)
-library(magrittr)
-
-
+source(here::here("R", "kaleidoscope_functions.R"))
+in_repo <- function(p) if (fs::is_absolute_path(p)) p else here::here(p)
 ```
+
 ## Create one CSV
 
-Taking the folder full of individual CSV files for each logger and creating one master CSV
+Taking the folder of Kaleidoscope acoustic index outputs (one `acousticindex.csv` per station and year) and creating one master CSV. Station and year come from the folder names, because newer Kaleidoscope file names only contain the recorder unit (e.g. `Unit4_20250603_210000.wav`). Date-times are the local recorder time.
 
-Changing the working directory back to my personal wd that connects with GitHub
+This uses the same reader as `kaleidoscope_data_prep_db.R` (`R/kaleidoscope_functions.R`), so the csv and the database always contain the same rows.
 
 ```{r CSV Binding, include=FALSE}
+index <- read_kaleidoscope_indices(in_repo(params$kaleidoscope_root), tz = params$tz)
+checks <- check_kaleidoscope_indices(index)
+```
+
+## Checks
+
+```{r Checks, echo=FALSE, results="asis"}
+print(knitr::kable(checks$by_station, caption = "Recordings by station and year"))
+print(knitr::kable(checks$problems, caption = "Checks (all should be 0)"))
+```
+
+## Write
+
+```{r Write, include=FALSE}
+readr::write_csv(index %>% dplyr::mutate(recorded_at = format(recorded_at, "%Y-%m-%d %H:%M:%S")), in_repo(params$combined_out))
+```
+
+Wrote `r format(nrow(index), big.mark = ",")` recordings to `r params$combined_out`.
+
+## Previous version
+
+Turned off (`eval=FALSE`). It was written for an older Kaleidoscope export where `TIME` held minutes:seconds; with current exports (`TIME` = "05:00:00.000") gluing `HOUR` onto `TIME` gives strings like "5:05:00:00" and every date-time becomes NA. It also used `setwd()` with hard-coded paths.
+
+```{r CSV Binding old, include=FALSE, eval=FALSE}
 
 setwd('C:/Users/kfaller/Documents/GitHub/Acoustics/Acoustic Index Files')
 
-df<-list.files(path='C:/Users/kfaller/Documents/GitHub/Acoustics/Acoustic Index Files')%>% 
-    lapply(read_csv) %>% 
-    bind_rows 
+df<-list.files(path='C:/Users/kfaller/Documents/GitHub/Acoustics/Acoustic Index Files')%>%
+    lapply(read_csv) %>%
+    bind_rows
 
 setwd('C:/Users/kfaller/Documents/GitHub/Acoustics')
 
-write.csv(df,"ARU_Data_Indicies.csv", row.names = FALSE)  
+write.csv(df,"ARU_Data_Indicies.csv", row.names = FALSE)
 
 aru_data1<- read.csv("ARU_Data_Indicies.csv", header=TRUE, sep = ",", stringsAsFactors=FALSE)
 
-```
-
-## Lubridate
-
-Work with dates, times, datetimes.The column title "TIME" is the minute and second.
-The column title "Hour" is ...hour. I want this in a format that reads as one time. 
-
-
-```{r Lubridate, echo=FALSE}
-
-aru_data2 <- aru_data1 %>% 
-    rename(MINUTESECOND = TIME)%>% 
-    unite(TIME, HOUR, MINUTESECOND, sep = ":") 
+aru_data2 <- aru_data1 %>%
+    rename(MINUTESECOND = TIME)%>%
+    unite(TIME, HOUR, MINUTESECOND, sep = ":")
 
 aru_data3 <- aru_data2 %>%
-   dplyr::mutate(TIME2 = substr(TIME, 1, nchar(TIME)-3))%>% 
-   unite(DATETIME, DATE, TIME2, sep = " ") 
+   dplyr::mutate(TIME2 = substr(TIME, 1, nchar(TIME)-3))%>%
+   unite(DATETIME, DATE, TIME2, sep = " ")
 
 aru_data3$DATETIME <- mdy_hms(aru_data3$DATETIME)
 
@@ -66,8 +84,6 @@ aru_data4 <- aru_data3 %>%  mutate(DATE = as.Date(DATETIME)) %>%
 
 aru_data4$DATE <- mdy(aru_data4$DATE)
 
-write.csv(aru_data4,"ARU_Data_Indicies.csv", row.names = FALSE)     
+write.csv(aru_data4,"ARU_Data_Indicies.csv", row.names = FALSE)
 
 ```
-
-

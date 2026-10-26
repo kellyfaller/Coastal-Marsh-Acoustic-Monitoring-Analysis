@@ -86,36 +86,9 @@ The same formatting steps get run on point_counts_2025, point_counts_2026, and p
 # Species codes that aren't in spp_lookup_table.csv yet, with a habitat category (anything already in the csv wins over this
 # list, so once they're in the csv this list does nothing). Codes written wrongly on a datasheet (VOYE, GRFL, ...) are fixed
 # with alpha_code_synonyms in configs/project.yml instead.
-habitat_additions <- tibble::tribble(
-  ~AlphaCode, ~Habitat,
-  "AMGO", "Upland",        # American Goldfinch
-  "BLSK", "Marsh",         # Black Skimmer
-  "BTGR", "Marsh",         # Boat-tailed Grackle
-  "COHA", "Upland",        # Cooper's Hawk
-  "EABL", "Upland",        # Eastern Bluebird
-  "EAWP", "Upland",        # Eastern Wood-Pewee
-  "GRYE", "Marsh",         # Greater Yellowlegs
-  "KIRA", "Marsh",         # King Rail
-  "REVI", "Upland",        # Red-eyed Vireo
-  "SEPL", "Marsh",         # Semipalmated Plover
-  "SESA", "Marsh",         # Semipalmated Sandpiper
-  "SOSA", "Marsh",         # Solitary Sandpiper
-  "UNNH", "Marsh",         # unidentified night-heron
-  "UNSA", "Marsh",         # unidentified sandpiper
-  "WTSP", "Upland",        # White-throated Sparrow
-  # codes from the 2023-2024 Lighthouse Center database
-  "ABDU", "Marsh",         # American Black Duck
-  "KILL", "Upland/Marsh",  # Killdeer
-  "AMOY", "Marsh",         # American Oystercatcher
-  "CARW", "Upland",        # Carolina Wren
-  "GBBG", "Marsh",         # Great Black-backed Gull
-  "INBU", "Upland",        # Indigo Bunting
-  "PEFA", "Upland/Marsh",  # Peregrine Falcon
-  "SAND", "Marsh",         # Sanderling
-  "SWSP", "Marsh",         # Swamp Sparrow
-  "TUVU", "Upland",        # Turkey Vulture
-  "YBCH", "Upland")        # Yellow-breasted Chat
-# SEPA (4 birds, LHC_06, 2024) isn't a standard code - probably Semipalmated Plover (SEPL). Check the datasheet; left Unclassified.
+habitat_additions <- tibble::tibble(AlphaCode = character(), Habitat = character())
+# e.g. habitat_additions <- tibble::tribble(~AlphaCode, ~Habitat, "CODE", "Marsh")
+# SEPA (4 birds, LHC_06, 2024) is left Unclassified until the datasheet is checked.
 
 habitat_lookup_full <- dplyr::bind_rows(
   habitat_lookup %>% dplyr::select(AlphaCode, Habitat),

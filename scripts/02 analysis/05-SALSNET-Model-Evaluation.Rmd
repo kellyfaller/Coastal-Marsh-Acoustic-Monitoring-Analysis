@@ -64,7 +64,12 @@ save_table <- function(df, name) {
 ## 1. Test Sets (B1.5)
 
 ```{r labels}
-labels <- read_test_labels(file.path(eval_dir, "test_labels.csv"))
+labels_path <- file.path(eval_dir, "test_labels.csv")
+if (!file.exists(labels_path)) {
+  stop("No label sheet at ", labels_path, ". Run scripts/01 prep/select_test_clips.R, ",
+       "then fill in the Labels column, before knitting this report.")
+}
+labels <- read_test_labels(labels_path)
 unlabeled <- sum(labels$Labels == "")
 ```
 

@@ -5,8 +5,8 @@
 
 paths:
   point_count_config: "configs/project.yml"          # point count file paths are read from here
-  aru_metadata: "data/metadata/LHC-Cattus_ARU_Site_Metadata.csv"
-  species_list: "data/metadata/species_list.csv"     # scientific name, common name, guild
+  aru_metadata: "metadata/LHC-Cattus_ARU_Site_Metadata.csv"
+  species_list: "metadata/species_list.csv"     # scientific name, common name, guild
   # Arbimon full project backup: the unzipped folder with recordings.0001.csv, sites.0001.csv, species.0001.csv,
   # pattern_matchings.0001.csv, pattern_matching_rois.0001.csv, recording_validations.0001.csv,
   # rfm_classifications.0001.csv, playlists.0001.csv, playlist_recordings.0001.csv, templates.0001.csv

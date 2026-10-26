@@ -10,7 +10,7 @@ params:
   input_dir: "C:/Users/kelly/Documents/Master's Project Files/02_data_processed/birdNET"
   input_pattern: "(BirdNET\\.results|CombinedTable)\\.csv$"
   # Relative paths are inside this repository; full paths (C:/...) also work.
-  metadata: "data/metadata/LHC-Cattus_ARU_Site_Metadata.csv"
+  metadata: "metadata/LHC-Cattus_ARU_Site_Metadata.csv"
   individual_dir: "data/processed/birdNET/individual"     # one processed file per station and year
   combined_out: "data/processed/birdNET/birdNET_results.csv"
   tz: "America/New_York"          # recorder clocks / file names are local time

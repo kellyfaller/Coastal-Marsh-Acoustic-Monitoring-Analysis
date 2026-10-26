@@ -18,10 +18,10 @@ params:
   tz: "America/New_York"
   use_validations: true                        # set to false to ignore manual labels
   # Outputs. Relative paths are inside this repository; full paths (C:/...) also work.
-  recordings_out:  "data/arbimon/recording_metadata.csv"
-  detections_file: "data/arbimon/pm_detections.csv"
-  validations_file: "data/arbimon/manual_detections.csv"
-  presence_file:   "data/arbimon/pm_presence_by_site_day.csv"
+  recordings_out:  "data/processed/arbimon/recording_metadata.csv"
+  detections_file: "data/processed/arbimon/pm_detections.csv"
+  validations_file: "data/processed/arbimon/manual_detections.csv"
+  presence_file:   "data/processed/arbimon/pm_presence_by_site_day.csv"
 ---
 
 This document provides a standardized workflow for preparing Arbimon project data for analysis.

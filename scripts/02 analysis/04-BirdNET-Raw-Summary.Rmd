@@ -48,6 +48,9 @@ if (length(missing_years) > 0) {
   message("No combined BirdNET file yet for: ", paste(missing_years, collapse = ", "))
 }
 years <- years[file.exists(combined_paths)]
+if (length(years) == 0) {
+  stop("No combined BirdNET files found. Run scripts/01 prep/birdnet_combine_year.R first.")
+}
 
 birdnet <- rbindlist(lapply(combined_paths[file.exists(combined_paths)], fread, encoding = "UTF-8"),
                      fill = TRUE) %>%

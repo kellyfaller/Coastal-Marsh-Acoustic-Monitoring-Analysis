@@ -222,9 +222,31 @@ To add or change a model, edit its entry under `evaluation$models`. The number o
 
 ## Packages
 
-`data.table`, `dplyr`, `tidyr`, `ggplot2`, `yaml`, `here`, `knitr`, `rmarkdown`.
-Scripts find files relative to the repository root with `here()`, so open the project
-from the repository folder before running them.
+Install once:
+
+```r
+install.packages(c("data.table", "dplyr", "tidyr", "ggplot2", "yaml", "here", "knitr", "rmarkdown"))
+```
+
+Needs dplyr 1.1.0 or newer and ggplot2 3.4.0 or newer (tested with R 4.3, dplyr 1.1.4,
+ggplot2 3.4.4, data.table 1.14.10). Check with `packageVersion("dplyr")`.
+
+Scripts find files relative to the repository root with `here()`. That works as long
+as the script is inside your cloned repository folder; you don't need to set a working
+directory. Run the `.R` scripts with **Source** in RStudio and the `.Rmd` reports with **Knit**.
+
+## Quick start
+
+```r
+source("scripts/01 prep/birdnet_combine_year.R")    # 1. combine (a few seconds)
+rmarkdown::render("scripts/02 analysis/04-BirdNET-Raw-Summary.Rmd")   # 2. raw summary
+# 3. put M0 scores on the test audio in data/processed/model_eval/scores/M0/<test set>/<station>/
+source("scripts/01 prep/select_test_clips.R")       # 4. pick test clips, writes the label sheet
+# 5. label the clips in Raven and fill in test_labels.csv
+rmarkdown::render("scripts/02 analysis/05-SALSNET-Model-Evaluation.Rmd")  # 6. evaluate
+```
+
+Each step stops with a message naming the step to run first if its inputs don't exist yet.
 
 ## References
 

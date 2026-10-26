@@ -237,6 +237,10 @@ directory. Run the `.R` scripts with **Source** in RStudio and the `.Rmd` report
 
 ## Quick start
 
+Either open each file and click **Source** / **Knit**, or run these from the R console
+after setting the working directory to the repository folder
+(`setwd("C:/Users/kelly/Documents/GitHub/<repo folder>")`):
+
 ```r
 source("scripts/01 prep/birdnet_combine_year.R")    # 1. combine (a few seconds)
 rmarkdown::render("scripts/02 analysis/04-BirdNET-Raw-Summary.Rmd")   # 2. raw summary

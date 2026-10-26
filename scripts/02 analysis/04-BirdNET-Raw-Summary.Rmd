@@ -1,0 +1,353 @@
+---
+title: "BirdNET Raw Results Summary"
+author: "Kelly Faller"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, fig.width = 10)
+```
+
+## Load Packages
+
+```{r packages}
+library(data.table)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(yaml)
+library(here)
+library(knitr)
+```
+
+## Load Data
+
+Reads the yearly files written by `scripts/01 prep/birdnet_combine_year.R`
+(`data/processed/birdNET/birdNET_<year>_combined.csv`). These are the raw BirdNET
+predictions: nothing has been filtered or verified, so every count below is
+"BirdNET said so", not "the bird was there".
+
+```{r load}
+cfg <- yaml::read_yaml(here("configs", "project.yml"))
+years <- cfg$params$birdnet_years
+thresholds <- cfg$params$thresholds
+
+out_dir <- here(cfg$outputs$reports_dir, "birdnet_raw_summary")
+fig_dir <- here(cfg$outputs$figures_dir, "birdnet_raw_summary")
+dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
+dir.create(fig_dir, recursive = TRUE, showWarnings = FALSE)
+
+birdnet <- rbindlist(lapply(years, function(yr) {
+  fread(here(cfg$paths$birdnet_raw_dir, paste0("birdNET_", yr, "_combined.csv")),
+        encoding = "UTF-8")
+}), fill = TRUE) %>%
+  as_tibble() %>%
+  mutate(
+    Year = factor(Year),
+    Date = as.Date(Date),
+    Month = factor(month.abb[as.integer(format(Date, "%m"))], levels = month.abb),
+    Confidence = as.numeric(Confidence)
+  )
+
+# Focal marsh sparrows (BirdNET reports common names, so match on those)
+focal <- tibble(
+  Code = c("SALS", "NESP", "SESP"),
+  Common_Name = c("Saltmarsh Sparrow", "Nelson's Sparrow", "Seaside Sparrow")
+)
+sparrows <- birdnet %>%
+  inner_join(focal, by = "Common_Name") %>%
+  mutate(Code = factor(Code, levels = focal$Code))
+
+save_table <- function(df, name) {
+  fwrite(df, file.path(out_dir, paste0(name, ".csv")))
+  df
+}
+```
+
+Lowest confidence in the data: **`r round(min(birdnet$Confidence, na.rm = TRUE), 2)`**
+(BirdNET's minimum-confidence setting at analysis time). Thresholds used below:
+`r paste(thresholds, collapse = ", ")` (from `configs/project.yml`).
+
+## 1. Dataset Overview
+
+`Files_With_Detections` only counts audio files where BirdNET predicted at least
+one species. It is a lower bound on recording effort, not the total number recorded.
+
+```{r overview}
+overview <- birdnet %>%
+  group_by(Year, Site, Station) %>%
+  summarise(
+    Detections = n(),
+    Species = n_distinct(Common_Name),
+    Files_With_Detections = n_distinct(Audio_File),
+    Days_With_Detections = n_distinct(Date),
+    First_Date = min(Date, na.rm = TRUE),
+    Last_Date = max(Date, na.rm = TRUE),
+    Median_Confidence = round(median(Confidence, na.rm = TRUE), 3),
+    .groups = "drop"
+  ) %>%
+  save_table("overview_by_station")
+kable(overview, format.args = list(big.mark = ","))
+```
+
+## 2. Confidence Distribution
+
+Most raw BirdNET predictions sit at low confidence. How many survive each threshold
+shows how sensitive any result is to the cutoff you pick.
+
+```{r conf-hist, fig.height=4}
+ggplot(birdnet, aes(Confidence)) +
+  geom_histogram(binwidth = 0.025, boundary = 0, fill = "grey40") +
+  geom_vline(xintercept = thresholds, linetype = "dashed", colour = "firebrick") +
+  facet_wrap(~ Year, scales = "free_y") +
+  labs(x = "BirdNET confidence", y = "Detections", title = "All species") +
+  theme_minimal()
+```
+
+```{r thresholds}
+retained <- lapply(c(0, thresholds), function(t) {
+  birdnet %>%
+    filter(Confidence >= t) %>%
+    group_by(Year) %>%
+    summarise(Threshold = t, Detections = n(), Species = n_distinct(Common_Name), .groups = "drop")
+}) %>%
+  bind_rows() %>%
+  group_by(Year) %>%
+  mutate(Pct_Of_Raw = round(100 * Detections / first(Detections), 1)) %>%
+  ungroup() %>%
+  save_table("detections_by_threshold")
+kable(retained, format.args = list(big.mark = ","))
+```
+
+## 3. Most Detected Species
+
+```{r top-species}
+top_species <- birdnet %>%
+  group_by(Year, Common_Name) %>%
+  summarise(
+    Detections = n(),
+    Stations = n_distinct(Station),
+    Days = n_distinct(Date),
+    Median_Confidence = round(median(Confidence), 3),
+    Max_Confidence = round(max(Confidence), 3),
+    Detections_0.9 = sum(Confidence >= 0.9),
+    .groups = "drop"
+  ) %>%
+  arrange(Year, desc(Detections)) %>%
+  save_table("species_summary_all")
+
+top_species %>% group_by(Year) %>% slice_head(n = 25) %>% kable(format.args = list(big.mark = ","))
+```
+
+Species richness (number of species BirdNET reported) per station at each threshold:
+
+```{r richness}
+richness <- lapply(c(0, thresholds), function(t) {
+  birdnet %>%
+    filter(Confidence >= t) %>%
+    group_by(Year, Site, Station) %>%
+    summarise(Richness = n_distinct(Common_Name), .groups = "drop") %>%
+    mutate(Threshold = paste0(">=", t))
+}) %>%
+  bind_rows() %>%
+  pivot_wider(names_from = Threshold, values_from = Richness, values_fill = 0) %>%
+  save_table("richness_by_station_threshold")
+kable(richness)
+```
+
+## 4. Focal Marsh Sparrows (SALS, NESP, SESP)
+
+### 4a. Detection counts by threshold
+
+```{r sparrow-counts}
+sparrow_counts <- lapply(c(0, thresholds), function(t) {
+  sparrows %>%
+    filter(Confidence >= t) %>%
+    count(Year, Site, Station, Code, name = "Detections") %>%
+    mutate(Threshold = paste0(">=", t))
+}) %>%
+  bind_rows() %>%
+  complete(nesting(Year, Site, Station), Code, Threshold, fill = list(Detections = 0)) %>%
+  pivot_wider(names_from = Threshold, values_from = Detections) %>%
+  arrange(Code, Year, Station) %>%
+  save_table("sparrow_detections_by_threshold")
+kable(sparrow_counts, format.args = list(big.mark = ","))
+```
+
+### 4b. Confidence summary
+
+```{r sparrow-conf}
+sparrow_conf <- sparrows %>%
+  group_by(Code, Year, Site, Station) %>%
+  summarise(
+    Detections = n(),
+    Min = min(Confidence),
+    Q1 = quantile(Confidence, 0.25),
+    Median = median(Confidence),
+    Mean = mean(Confidence),
+    Q3 = quantile(Confidence, 0.75),
+    Max = max(Confidence),
+    .groups = "drop"
+  ) %>%
+  mutate(across(Min:Max, ~ round(.x, 3))) %>%
+  save_table("sparrow_confidence_summary")
+kable(sparrow_conf)
+```
+
+```{r sparrow-conf-hist, fig.height=6}
+p <- ggplot(sparrows, aes(Confidence, fill = Site)) +
+  geom_histogram(binwidth = 0.05, boundary = 0, position = "stack") +
+  geom_vline(xintercept = thresholds, linetype = "dashed") +
+  facet_grid(Code ~ Year, scales = "free_y") +
+  labs(x = "BirdNET confidence", y = "Detections") +
+  theme_minimal()
+ggsave(file.path(fig_dir, "sparrow_confidence_hist.png"), p, width = cfg$params$width,
+       height = cfg$params$height, dpi = cfg$params$dpi)
+p
+```
+
+### 4c. Detection days (naive occupancy)
+
+Share of a station's active days (days with any BirdNET detection) on which each
+sparrow was detected at least once. Repeat calls on one day can't inflate this
+the way raw counts can, so it is usually the more useful number for presence.
+
+```{r sparrow-days}
+active_days <- birdnet %>%
+  distinct(Year, Site, Station, Date) %>%
+  count(Year, Site, Station, name = "Active_Days")
+
+sparrow_days <- lapply(thresholds, function(t) {
+  sparrows %>%
+    filter(Confidence >= t) %>%
+    distinct(Year, Site, Station, Code, Date) %>%
+    count(Year, Site, Station, Code, name = "Detection_Days") %>%
+    mutate(Threshold = t)
+}) %>%
+  bind_rows() %>%
+  complete(nesting(Year, Site, Station), Code, Threshold, fill = list(Detection_Days = 0)) %>%
+  left_join(active_days, by = c("Year", "Site", "Station")) %>%
+  mutate(Prop_Days = round(Detection_Days / Active_Days, 3)) %>%
+  arrange(Code, Threshold, Year, Station) %>%
+  save_table("sparrow_detection_days")
+
+sparrow_days %>%
+  select(-Detection_Days) %>%
+  pivot_wider(names_from = Threshold, values_from = Prop_Days, names_prefix = "Prop_>=") %>%
+  kable()
+```
+
+### 4d. Seasonal pattern
+
+Daily detections at confidence >= `r thresholds[1]`.
+
+```{r sparrow-daily, fig.height=8}
+daily <- sparrows %>%
+  filter(Confidence >= thresholds[1]) %>%
+  count(Year, Station, Code, Date)
+p <- ggplot(daily, aes(Date, n, colour = Station)) +
+  geom_point(size = 0.8) +
+  geom_line(alpha = 0.5) +
+  facet_grid(Code ~ Year, scales = "free") +
+  labs(y = "Detections per day") +
+  theme_minimal()
+ggsave(file.path(fig_dir, "sparrow_daily_detections.png"), p, width = cfg$params$width,
+       height = cfg$params$height, dpi = cfg$params$dpi)
+p
+```
+
+Detections by month. Nelson's Sparrow is mainly a migrant and winter visitor in New
+Jersey (roughly May–early June and late Sept–Oct). NESP predictions in mid-summer
+are most likely Saltmarsh Sparrow, which BirdNET often confuses with it.
+Check those clips before using them.
+
+```{r sparrow-month}
+sparrow_month <- sparrows %>%
+  filter(Confidence >= thresholds[1]) %>%
+  count(Code, Year, Month) %>%
+  pivot_wider(names_from = Month, values_from = n, values_fill = 0) %>%
+  save_table("sparrow_detections_by_month")
+kable(sparrow_month)
+```
+
+### 4e. Time of day
+
+Hour is taken from the recorder's clock (file name timestamp).
+
+```{r sparrow-hour, fig.height=5}
+p <- sparrows %>%
+  filter(Confidence >= thresholds[1]) %>%
+  ggplot(aes(Hour)) +
+  geom_bar(fill = "steelblue") +
+  facet_grid(Code ~ Year, scales = "free_y") +
+  scale_x_continuous(breaks = seq(0, 23, 3)) +
+  labs(y = "Detections") +
+  theme_minimal()
+ggsave(file.path(fig_dir, "sparrow_hour_of_day.png"), p, width = cfg$params$width,
+       height = cfg$params$height, dpi = cfg$params$dpi)
+p
+```
+
+### 4f. Overlapping sparrow predictions
+
+These are 3 s segments where BirdNET predicted more than one focal sparrow at once.
+Overlaps are a sign of confusion between these species, so they are a good place
+to start listening.
+
+```{r sparrow-overlap}
+overlap <- sparrows %>%
+  group_by(Year, Station, File, Start_s) %>%
+  filter(n_distinct(Code) > 1) %>%
+  summarise(
+    Species = paste(sort(as.character(unique(Code))), collapse = "+"),
+    Confidences = paste0(Code, "=", round(Confidence, 2), collapse = ", "),
+    .groups = "drop"
+  ) %>%
+  save_table("sparrow_overlapping_segments")
+
+overlap %>% count(Year, Species, name = "Segments") %>% kable()
+```
+
+## 5. Clips for Manual Verification
+
+These clips let you check BirdNET's precision for each sparrow before choosing a
+threshold. For each species and year, up to 10 random clips are drawn from every
+0.1-wide confidence bin. Record whether each clip is correct in the `Verified`
+column, then plot precision by bin (or fit a logistic regression of
+correct ~ confidence) to pick a defensible cutoff.
+
+```{r validation}
+set.seed(42)
+validation <- sparrows %>%
+  mutate(Conf_Bin = cut(Confidence, breaks = seq(0, 1, 0.1), include.lowest = TRUE)) %>%
+  group_by(Code, Year, Conf_Bin) %>%
+  slice_sample(n = 10) %>%
+  ungroup() %>%
+  arrange(Code, Year, Conf_Bin) %>%
+  select(Code, Year, Site, Station, Date, Conf_Bin, Confidence, Start_s, End_s, Audio_File, File) %>%
+  mutate(Verified = NA_character_, Notes = NA_character_) %>%
+  save_table("sparrow_validation_sample")
+
+validation %>% count(Code, Year, Conf_Bin) %>%
+  pivot_wider(names_from = Conf_Bin, values_from = n, values_fill = 0) %>%
+  kable()
+```
+
+Highest-confidence clip for each sparrow at each station (good reference recordings):
+
+```{r best-clips}
+best <- sparrows %>%
+  group_by(Code, Year, Station) %>%
+  slice_max(Confidence, n = 1, with_ties = FALSE) %>%
+  ungroup() %>%
+  select(Code, Year, Station, Date, Confidence, Start_s, End_s, Audio_File) %>%
+  save_table("sparrow_top_clips")
+kable(best)
+```
+
+All tables above are written to `outputs/reports/birdnet_raw_summary/` and the
+figures to `outputs/figures/birdnet_raw_summary/`.

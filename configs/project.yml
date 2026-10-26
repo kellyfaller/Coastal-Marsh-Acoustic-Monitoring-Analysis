@@ -12,6 +12,7 @@ paths:
   habitat_lookup: "data/point_count/spp_lookup_table.csv"
   # birdNET
   birdnet_results: "data/processed/birdNET/birdNET_results.csv"
+  birdnet_raw_dir: "data/processed/birdNET" # holds <year>/<station>/BirdNET_CombinedTable files
   bird_guild: "data/metadata/species_list.csv"
   # Kaleidoscope Acoustic Index
   index: "data/processed/kaleidoscope_outputs/acoustic_indices_20242025combined.csv"
@@ -32,6 +33,7 @@ params:
   individual_birds: ["CLRA","BLRA","LEBI","AMBI","SORA","VIRA","KIRA","COGA"]
   focal_species: "RWBL" # for the density/abundance graphics. Specify which bird to run with
   focal_species_birdNET: "Saltmarsh Sparrow"
+  birdnet_years: [2024, 2026] # years combined from birdnet_raw_dir
   total_area_m2: 2326317 
   point_count_radius: 200 #m2 
  # graphics

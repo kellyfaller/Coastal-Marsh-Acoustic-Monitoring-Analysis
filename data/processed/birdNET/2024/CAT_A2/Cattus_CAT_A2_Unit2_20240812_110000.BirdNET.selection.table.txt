@@ -1,0 +1,17 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	48.0	51.0	0	15000	Carolina Chickadee	carchi	0.2994	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_110000.wav	48.0
+2	Spectrogram 1	1	129.0	132.0	0	15000	American Goldfinch	amegfi	0.3558	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_110000.wav	129.0
+3	Spectrogram 1	1	219.0	222.0	0	15000	Chipping Sparrow	chispa	0.2609	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_110000.wav	219.0
+4	Spectrogram 1	1	264.0	267.0	0	15000	Belted Kingfisher	belkin1	0.4451	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_110000.wav	264.0
+5	Spectrogram 1	1	279.0	282.0	0	15000	Chipping Sparrow	chispa	0.5432	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_110000.wav	279.0
+6	Spectrogram 1	1	279.0	282.0	0	15000	Worm-eating Warbler	woewar1	0.3456	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_110000.wav	279.0
+7	Spectrogram 1	1	357.0	360.0	0	15000	Belted Kingfisher	belkin1	0.8435	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_110000.wav	357.0
+8	Spectrogram 1	1	366.0	369.0	0	15000	Belted Kingfisher	belkin1	0.4207	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_110000.wav	366.0
+9	Spectrogram 1	1	528.0	531.0	0	15000	Engine	engine	0.4233	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_110000.wav	528.0
+10	Spectrogram 1	1	543.0	546.0	0	15000	Chipping Sparrow	chispa	0.4197	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_110000.wav	543.0
+11	Spectrogram 1	1	561.0	564.0	0	15000	Belted Kingfisher	belkin1	0.7958	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_110000.wav	561.0
+12	Spectrogram 1	1	678.0	681.0	0	15000	American Goldfinch	amegfi	0.3169	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_110000.wav	678.0
+13	Spectrogram 1	1	681.0	684.0	0	15000	American Goldfinch	amegfi	0.5783	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_110000.wav	681.0
+14	Spectrogram 1	1	705.0	708.0	0	15000	Wild Turkey	wiltur	0.4357	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_110000.wav	705.0
+15	Spectrogram 1	1	756.0	759.0	0	15000	Chipping Sparrow	chispa	0.4134	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_110000.wav	756.0
+16	Spectrogram 1	1	828.0	831.0	0	15000	Belted Kingfisher	belkin1	0.3701	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_110000.wav	828.0

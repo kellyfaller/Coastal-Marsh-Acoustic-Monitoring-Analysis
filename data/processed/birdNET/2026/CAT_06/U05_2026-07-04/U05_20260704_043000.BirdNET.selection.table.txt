@@ -1,0 +1,5 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	69.0	72.0	0	15000	Common Nighthawk	comnig	0.2595	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_043000.wav	69.0
+2	Spectrogram 1	1	78.0	81.0	0	15000	Common Nighthawk	comnig	0.3668	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_043000.wav	78.0
+3	Spectrogram 1	1	345.0	348.0	0	15000	Osprey	osprey	0.5436	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_043000.wav	345.0
+4	Spectrogram 1	1	657.0	660.0	0	15000	Willow Flycatcher	wilfly	0.3678	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_043000.wav	657.0

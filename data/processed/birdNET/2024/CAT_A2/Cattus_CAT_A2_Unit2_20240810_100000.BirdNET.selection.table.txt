@@ -1,0 +1,6 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	108.0	111.0	0	15000	Engine	engine	0.3553	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240810_100000.wav	108.0
+2	Spectrogram 1	1	390.0	393.0	0	15000	Engine	engine	0.5104	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240810_100000.wav	390.0
+3	Spectrogram 1	1	591.0	594.0	0	15000	Belted Kingfisher	belkin1	0.4616	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240810_100000.wav	591.0
+4	Spectrogram 1	1	681.0	684.0	0	15000	Gray Catbird	grycat	0.2948	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240810_100000.wav	681.0
+5	Spectrogram 1	1	801.0	804.0	0	15000	Belted Kingfisher	belkin1	0.4230	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240810_100000.wav	801.0

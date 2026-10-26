@@ -1,0 +1,28 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	42.0	45.0	0	15000	Seaside Sparrow	seaspa	0.5680	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_090000.wav	42.0
+2	Spectrogram 1	1	159.0	162.0	0	15000	Laughing Gull	laugul	0.3449	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_090000.wav	159.0
+3	Spectrogram 1	1	228.0	231.0	0	15000	Dog	dogdog	0.4078	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_090000.wav	228.0
+4	Spectrogram 1	1	231.0	234.0	0	15000	Dog	dogdog	0.7098	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_090000.wav	231.0
+5	Spectrogram 1	1	282.0	285.0	0	15000	Belted Kingfisher	belkin1	0.2892	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_090000.wav	282.0
+6	Spectrogram 1	1	336.0	339.0	0	15000	Carolina Chickadee	carchi	0.2900	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_090000.wav	336.0
+7	Spectrogram 1	1	339.0	342.0	0	15000	Carolina Chickadee	carchi	0.6322	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_090000.wav	339.0
+8	Spectrogram 1	1	369.0	372.0	0	15000	Carolina Chickadee	carchi	0.4094	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_090000.wav	369.0
+9	Spectrogram 1	1	372.0	375.0	0	15000	Chimney Swift	chiswi	0.2613	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_090000.wav	372.0
+10	Spectrogram 1	1	408.0	411.0	0	15000	Carolina Chickadee	carchi	0.4851	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_090000.wav	408.0
+11	Spectrogram 1	1	420.0	423.0	0	15000	Carolina Chickadee	carchi	0.3152	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_090000.wav	420.0
+12	Spectrogram 1	1	420.0	423.0	0	15000	Golden-crowned Kinglet	gockin	0.3044	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_090000.wav	420.0
+13	Spectrogram 1	1	441.0	444.0	0	15000	Black-capped Chickadee	bkcchi	0.2973	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_090000.wav	441.0
+14	Spectrogram 1	1	450.0	453.0	0	15000	Carolina Chickadee	carchi	0.8197	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_090000.wav	450.0
+15	Spectrogram 1	1	450.0	453.0	0	15000	Golden-crowned Kinglet	gockin	0.3017	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_090000.wav	450.0
+16	Spectrogram 1	1	453.0	456.0	0	15000	Carolina Chickadee	carchi	0.3281	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_090000.wav	453.0
+17	Spectrogram 1	1	459.0	462.0	0	15000	Carolina Chickadee	carchi	0.5485	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_090000.wav	459.0
+18	Spectrogram 1	1	615.0	618.0	0	15000	Chipping Sparrow	chispa	0.3426	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_090000.wav	615.0
+19	Spectrogram 1	1	660.0	663.0	0	15000	Chipping Sparrow	chispa	0.2583	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_090000.wav	660.0
+20	Spectrogram 1	1	741.0	744.0	0	15000	Chipping Sparrow	chispa	0.4347	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_090000.wav	741.0
+21	Spectrogram 1	1	744.0	747.0	0	15000	Chipping Sparrow	chispa	0.3355	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_090000.wav	744.0
+22	Spectrogram 1	1	747.0	750.0	0	15000	Chipping Sparrow	chispa	0.4225	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_090000.wav	747.0
+23	Spectrogram 1	1	750.0	753.0	0	15000	Seaside Sparrow	seaspa	0.4957	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_090000.wav	750.0
+24	Spectrogram 1	1	786.0	789.0	0	15000	Chipping Sparrow	chispa	0.2606	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_090000.wav	786.0
+25	Spectrogram 1	1	789.0	792.0	0	15000	Chipping Sparrow	chispa	0.3078	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_090000.wav	789.0
+26	Spectrogram 1	1	858.0	861.0	0	15000	Chipping Sparrow	chispa	0.4190	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_090000.wav	858.0
+27	Spectrogram 1	1	870.0	873.0	0	15000	Belted Kingfisher	belkin1	0.8110	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_090000.wav	870.0

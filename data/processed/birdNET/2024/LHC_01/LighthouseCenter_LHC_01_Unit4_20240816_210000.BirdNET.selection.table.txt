@@ -1,0 +1,5 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	12.0	15.0	0	15000	Great Horned Owl	grhowl	0.6828	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_210000.wav	12.0
+2	Spectrogram 1	1	348.0	351.0	0	15000	Black-billed Cuckoo	bkbcuc	0.4666	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_210000.wav	348.0
+3	Spectrogram 1	1	396.0	399.0	0	15000	Common Virtuoso Katydid	t-11851326	0.2728	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_210000.wav	396.0
+4	Spectrogram 1	1	774.0	777.0	0	15000	Eastern Screech-Owl	easowl1	0.3148	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_210000.wav	774.0

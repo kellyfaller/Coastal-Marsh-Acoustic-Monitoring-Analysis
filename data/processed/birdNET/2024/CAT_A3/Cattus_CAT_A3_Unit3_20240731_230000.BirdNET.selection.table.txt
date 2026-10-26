@@ -1,0 +1,5 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	252.0	255.0	0	15000	Engine	engine	0.2953	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240731_230000.wav	252.0
+2	Spectrogram 1	1	558.0	561.0	0	15000	Common True Katydid	t-11876111	0.4666	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240731_230000.wav	558.0
+3	Spectrogram 1	1	783.0	786.0	0	15000	Northern Lapwing	norlap	0.4015	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240731_230000.wav	783.0
+4	Spectrogram 1	1	849.0	852.0	0	15000	Eastern Screech-Owl	easowl1	0.2554	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240731_230000.wav	849.0

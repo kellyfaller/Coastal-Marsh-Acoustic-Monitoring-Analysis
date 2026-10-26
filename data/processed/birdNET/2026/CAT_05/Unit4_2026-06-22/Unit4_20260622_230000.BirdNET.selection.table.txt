@@ -1,0 +1,29 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	162.0	165.0	0	15000	Golden-crowned Kinglet	gockin	0.3337	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_230000.wav	162.0
+2	Spectrogram 1	1	174.0	177.0	0	15000	Golden-crowned Kinglet	gockin	0.2781	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_230000.wav	174.0
+3	Spectrogram 1	1	180.0	183.0	0	15000	Seaside Sparrow	seaspa	0.9889	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_230000.wav	180.0
+4	Spectrogram 1	1	276.0	279.0	0	15000	Mallard	mallar3	0.4180	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_230000.wav	276.0
+5	Spectrogram 1	1	306.0	309.0	0	15000	Caspian Tern	caster1	0.2991	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_230000.wav	306.0
+6	Spectrogram 1	1	465.0	468.0	0	15000	Mallard	mallar3	0.5519	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_230000.wav	465.0
+7	Spectrogram 1	1	513.0	516.0	0	15000	Golden-crowned Kinglet	gockin	0.2561	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_230000.wav	513.0
+8	Spectrogram 1	1	579.0	582.0	0	15000	Mallard	mallar3	0.8816	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_230000.wav	579.0
+9	Spectrogram 1	1	582.0	585.0	0	15000	Mallard	mallar3	0.9652	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_230000.wav	582.0
+10	Spectrogram 1	1	588.0	591.0	0	15000	Caspian Tern	caster1	0.4917	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_230000.wav	588.0
+11	Spectrogram 1	1	588.0	591.0	0	15000	Mallard	mallar3	0.4165	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_230000.wav	588.0
+12	Spectrogram 1	1	687.0	690.0	0	15000	Mallard	mallar3	0.5878	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_230000.wav	687.0
+13	Spectrogram 1	1	690.0	693.0	0	15000	Mallard	mallar3	0.7579	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_230000.wav	690.0
+14	Spectrogram 1	1	723.0	726.0	0	15000	Golden-crowned Kinglet	gockin	0.2714	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_230000.wav	723.0
+15	Spectrogram 1	1	729.0	732.0	0	15000	Mallard	mallar3	0.4960	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_230000.wav	729.0
+16	Spectrogram 1	1	732.0	735.0	0	15000	Mallard	mallar3	0.7525	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_230000.wav	732.0
+17	Spectrogram 1	1	735.0	738.0	0	15000	Mallard	mallar3	0.8059	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_230000.wav	735.0
+18	Spectrogram 1	1	738.0	741.0	0	15000	Mallard	mallar3	0.9460	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_230000.wav	738.0
+19	Spectrogram 1	1	741.0	744.0	0	15000	Mallard	mallar3	0.5402	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_230000.wav	741.0
+20	Spectrogram 1	1	747.0	750.0	0	15000	Mallard	mallar3	0.6329	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_230000.wav	747.0
+21	Spectrogram 1	1	750.0	753.0	0	15000	Mallard	mallar3	0.8473	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_230000.wav	750.0
+22	Spectrogram 1	1	753.0	756.0	0	15000	Mallard	mallar3	0.9072	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_230000.wav	753.0
+23	Spectrogram 1	1	756.0	759.0	0	15000	Mallard	mallar3	0.5833	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_230000.wav	756.0
+24	Spectrogram 1	1	777.0	780.0	0	15000	Great Black-backed Gull	gbbgul	0.7944	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_230000.wav	777.0
+25	Spectrogram 1	1	783.0	786.0	0	15000	Mallard	mallar3	0.3851	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_230000.wav	783.0
+26	Spectrogram 1	1	792.0	795.0	0	15000	Great Black-backed Gull	gbbgul	0.6746	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_230000.wav	792.0
+27	Spectrogram 1	1	819.0	822.0	0	15000	Wilson's Snipe	wilsni1	0.6310	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_230000.wav	819.0
+28	Spectrogram 1	1	831.0	834.0	0	15000	Mallard	mallar3	0.3427	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_230000.wav	831.0

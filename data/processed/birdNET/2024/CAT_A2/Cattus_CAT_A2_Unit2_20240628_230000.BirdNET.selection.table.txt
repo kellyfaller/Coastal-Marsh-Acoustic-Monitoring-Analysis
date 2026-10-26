@@ -1,0 +1,6 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	51.0	54.0	0	15000	Wilson's Plover	wilplo	0.3323	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240628_230000.wav	51.0
+2	Spectrogram 1	1	84.0	87.0	0	15000	Golden-crowned Kinglet	gockin	0.3796	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240628_230000.wav	84.0
+3	Spectrogram 1	1	90.0	93.0	0	15000	Golden-crowned Kinglet	gockin	0.3345	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240628_230000.wav	90.0
+4	Spectrogram 1	1	147.0	150.0	0	15000	Golden-crowned Kinglet	gockin	0.3027	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240628_230000.wav	147.0
+5	Spectrogram 1	1	846.0	849.0	0	15000	American Coot	y00475	0.3620	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240628_230000.wav	846.0

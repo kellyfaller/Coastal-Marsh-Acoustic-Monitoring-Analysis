@@ -1,0 +1,159 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	3.0	6.0	0	15000	Tinkling Ground Cricket	t-11843287	0.4316	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	3.0
+2	Spectrogram 1	1	3.0	6.0	0	15000	Fish Crow	fiscro	0.3340	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	3.0
+3	Spectrogram 1	1	12.0	15.0	0	15000	Fish Crow	fiscro	0.8148	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	12.0
+4	Spectrogram 1	1	15.0	18.0	0	15000	Fish Crow	fiscro	0.7689	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	15.0
+5	Spectrogram 1	1	39.0	42.0	0	15000	Fish Crow	fiscro	0.3107	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	39.0
+6	Spectrogram 1	1	51.0	54.0	0	15000	Great Egret	greegr	0.2815	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	51.0
+7	Spectrogram 1	1	81.0	84.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3386	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	81.0
+8	Spectrogram 1	1	87.0	90.0	0	15000	Red Crossbill	redcro	0.4133	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	87.0
+9	Spectrogram 1	1	99.0	102.0	0	15000	Purple Martin	purmar	0.2548	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	99.0
+10	Spectrogram 1	1	108.0	111.0	0	15000	Red Crossbill	redcro	0.2858	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	108.0
+11	Spectrogram 1	1	135.0	138.0	0	15000	Purple Martin	purmar	0.7599	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	135.0
+12	Spectrogram 1	1	138.0	141.0	0	15000	Purple Martin	purmar	0.9096	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	138.0
+13	Spectrogram 1	1	141.0	144.0	0	15000	Purple Martin	purmar	0.9725	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	141.0
+14	Spectrogram 1	1	189.0	192.0	0	15000	Purple Martin	purmar	0.4307	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	189.0
+15	Spectrogram 1	1	192.0	195.0	0	15000	Osprey	osprey	0.3592	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	192.0
+16	Spectrogram 1	1	195.0	198.0	0	15000	Purple Martin	purmar	0.4114	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	195.0
+17	Spectrogram 1	1	213.0	216.0	0	15000	Purple Martin	purmar	0.3831	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	213.0
+18	Spectrogram 1	1	219.0	222.0	0	15000	Purple Martin	purmar	0.4279	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	219.0
+19	Spectrogram 1	1	225.0	228.0	0	15000	Purple Martin	purmar	0.4666	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	225.0
+20	Spectrogram 1	1	237.0	240.0	0	15000	Purple Martin	purmar	0.9499	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	237.0
+21	Spectrogram 1	1	240.0	243.0	0	15000	Purple Martin	purmar	0.8915	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	240.0
+22	Spectrogram 1	1	240.0	243.0	0	15000	Fish Crow	fiscro	0.5991	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	240.0
+23	Spectrogram 1	1	243.0	246.0	0	15000	Fish Crow	fiscro	0.2982	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	243.0
+24	Spectrogram 1	1	243.0	246.0	0	15000	Purple Martin	purmar	0.2579	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	243.0
+25	Spectrogram 1	1	246.0	249.0	0	15000	Purple Martin	purmar	0.9067	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	246.0
+26	Spectrogram 1	1	249.0	252.0	0	15000	Fish Crow	fiscro	0.2636	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	249.0
+27	Spectrogram 1	1	252.0	255.0	0	15000	Fish Crow	fiscro	0.7901	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	252.0
+28	Spectrogram 1	1	255.0	258.0	0	15000	Purple Martin	purmar	0.4187	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	255.0
+29	Spectrogram 1	1	258.0	261.0	0	15000	Purple Martin	purmar	0.8789	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	258.0
+30	Spectrogram 1	1	261.0	264.0	0	15000	Purple Martin	purmar	0.8499	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	261.0
+31	Spectrogram 1	1	264.0	267.0	0	15000	Purple Martin	purmar	0.5455	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	264.0
+32	Spectrogram 1	1	267.0	270.0	0	15000	Purple Martin	purmar	0.5834	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	267.0
+33	Spectrogram 1	1	270.0	273.0	0	15000	Purple Martin	purmar	0.5160	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	270.0
+34	Spectrogram 1	1	273.0	276.0	0	15000	Purple Martin	purmar	0.6779	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	273.0
+35	Spectrogram 1	1	273.0	276.0	0	15000	Fish Crow	fiscro	0.3972	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	273.0
+36	Spectrogram 1	1	279.0	282.0	0	15000	Fish Crow	fiscro	0.3629	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	279.0
+37	Spectrogram 1	1	282.0	285.0	0	15000	Purple Martin	purmar	0.5356	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	282.0
+38	Spectrogram 1	1	285.0	288.0	0	15000	Red Crossbill	redcro	0.3967	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	285.0
+39	Spectrogram 1	1	288.0	291.0	0	15000	Fish Crow	fiscro	0.8386	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	288.0
+40	Spectrogram 1	1	291.0	294.0	0	15000	Fish Crow	fiscro	0.2814	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	291.0
+41	Spectrogram 1	1	294.0	297.0	0	15000	Fish Crow	fiscro	0.5752	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	294.0
+42	Spectrogram 1	1	297.0	300.0	0	15000	Fish Crow	fiscro	0.5217	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	297.0
+43	Spectrogram 1	1	300.0	303.0	0	15000	Purple Martin	purmar	0.6350	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	300.0
+44	Spectrogram 1	1	300.0	303.0	0	15000	Fish Crow	fiscro	0.5798	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	300.0
+45	Spectrogram 1	1	303.0	306.0	0	15000	Purple Martin	purmar	0.9773	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	303.0
+46	Spectrogram 1	1	306.0	309.0	0	15000	Fish Crow	fiscro	0.5169	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	306.0
+47	Spectrogram 1	1	309.0	312.0	0	15000	Purple Martin	purmar	0.8206	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	309.0
+48	Spectrogram 1	1	309.0	312.0	0	15000	Fish Crow	fiscro	0.7471	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	309.0
+49	Spectrogram 1	1	312.0	315.0	0	15000	Fish Crow	fiscro	0.4156	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	312.0
+50	Spectrogram 1	1	315.0	318.0	0	15000	Fish Crow	fiscro	0.2967	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	315.0
+51	Spectrogram 1	1	318.0	321.0	0	15000	Purple Martin	purmar	0.5856	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	318.0
+52	Spectrogram 1	1	318.0	321.0	0	15000	Osprey	osprey	0.3629	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	318.0
+53	Spectrogram 1	1	321.0	324.0	0	15000	Fish Crow	fiscro	0.2923	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	321.0
+54	Spectrogram 1	1	324.0	327.0	0	15000	Fish Crow	fiscro	0.3888	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	324.0
+55	Spectrogram 1	1	327.0	330.0	0	15000	Fish Crow	fiscro	0.3625	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	327.0
+56	Spectrogram 1	1	330.0	333.0	0	15000	Fish Crow	fiscro	0.7224	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	330.0
+57	Spectrogram 1	1	333.0	336.0	0	15000	Fish Crow	fiscro	0.5928	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	333.0
+58	Spectrogram 1	1	336.0	339.0	0	15000	Fish Crow	fiscro	0.3041	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	336.0
+59	Spectrogram 1	1	339.0	342.0	0	15000	Purple Martin	purmar	0.6362	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	339.0
+60	Spectrogram 1	1	339.0	342.0	0	15000	Fish Crow	fiscro	0.4138	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	339.0
+61	Spectrogram 1	1	342.0	345.0	0	15000	Fish Crow	fiscro	0.3727	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	342.0
+62	Spectrogram 1	1	342.0	345.0	0	15000	Osprey	osprey	0.3151	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	342.0
+63	Spectrogram 1	1	354.0	357.0	0	15000	Osprey	osprey	0.9619	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	354.0
+64	Spectrogram 1	1	360.0	363.0	0	15000	Fish Crow	fiscro	0.5981	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	360.0
+65	Spectrogram 1	1	366.0	369.0	0	15000	Fish Crow	fiscro	0.6848	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	366.0
+66	Spectrogram 1	1	372.0	375.0	0	15000	Fish Crow	fiscro	0.2854	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	372.0
+67	Spectrogram 1	1	375.0	378.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3202	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	375.0
+68	Spectrogram 1	1	384.0	387.0	0	15000	Purple Martin	purmar	0.6335	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	384.0
+69	Spectrogram 1	1	387.0	390.0	0	15000	Fish Crow	fiscro	0.4040	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	387.0
+70	Spectrogram 1	1	402.0	405.0	0	15000	Purple Martin	purmar	0.2555	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	402.0
+71	Spectrogram 1	1	408.0	411.0	0	15000	Purple Martin	purmar	0.8505	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	408.0
+72	Spectrogram 1	1	408.0	411.0	0	15000	Fish Crow	fiscro	0.7214	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	408.0
+73	Spectrogram 1	1	411.0	414.0	0	15000	Purple Martin	purmar	0.6667	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	411.0
+74	Spectrogram 1	1	414.0	417.0	0	15000	Fish Crow	fiscro	0.6092	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	414.0
+75	Spectrogram 1	1	417.0	420.0	0	15000	Purple Martin	purmar	0.7538	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	417.0
+76	Spectrogram 1	1	429.0	432.0	0	15000	Fish Crow	fiscro	0.7739	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	429.0
+77	Spectrogram 1	1	435.0	438.0	0	15000	Fish Crow	fiscro	0.3830	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	435.0
+78	Spectrogram 1	1	447.0	450.0	0	15000	Fish Crow	fiscro	0.4515	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	447.0
+79	Spectrogram 1	1	450.0	453.0	0	15000	Fish Crow	fiscro	0.4848	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	450.0
+80	Spectrogram 1	1	462.0	465.0	0	15000	Purple Martin	purmar	0.3436	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	462.0
+81	Spectrogram 1	1	462.0	465.0	0	15000	Fish Crow	fiscro	0.2821	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	462.0
+82	Spectrogram 1	1	465.0	468.0	0	15000	Purple Martin	purmar	0.2756	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	465.0
+83	Spectrogram 1	1	468.0	471.0	0	15000	Purple Martin	purmar	0.8951	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	468.0
+84	Spectrogram 1	1	477.0	480.0	0	15000	Purple Martin	purmar	0.2626	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	477.0
+85	Spectrogram 1	1	480.0	483.0	0	15000	Purple Martin	purmar	0.5995	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	480.0
+86	Spectrogram 1	1	486.0	489.0	0	15000	Purple Martin	purmar	0.6678	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	486.0
+87	Spectrogram 1	1	489.0	492.0	0	15000	Purple Martin	purmar	0.5759	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	489.0
+88	Spectrogram 1	1	489.0	492.0	0	15000	Osprey	osprey	0.4150	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	489.0
+89	Spectrogram 1	1	492.0	495.0	0	15000	Osprey	osprey	0.9341	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	492.0
+90	Spectrogram 1	1	492.0	495.0	0	15000	Purple Martin	purmar	0.6966	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	492.0
+91	Spectrogram 1	1	495.0	498.0	0	15000	Osprey	osprey	0.3596	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	495.0
+92	Spectrogram 1	1	498.0	501.0	0	15000	Osprey	osprey	0.3204	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	498.0
+93	Spectrogram 1	1	498.0	501.0	0	15000	Lesser Yellowlegs	lesyel	0.2902	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	498.0
+94	Spectrogram 1	1	504.0	507.0	0	15000	Fish Crow	fiscro	0.2931	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	504.0
+95	Spectrogram 1	1	510.0	513.0	0	15000	Purple Martin	purmar	0.3939	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	510.0
+96	Spectrogram 1	1	513.0	516.0	0	15000	Purple Martin	purmar	0.5912	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	513.0
+97	Spectrogram 1	1	519.0	522.0	0	15000	Osprey	osprey	0.8152	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	519.0
+98	Spectrogram 1	1	522.0	525.0	0	15000	Osprey	osprey	0.7402	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	522.0
+99	Spectrogram 1	1	522.0	525.0	0	15000	Purple Martin	purmar	0.4818	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	522.0
+100	Spectrogram 1	1	525.0	528.0	0	15000	Purple Martin	purmar	0.6171	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	525.0
+101	Spectrogram 1	1	525.0	528.0	0	15000	Fish Crow	fiscro	0.4477	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	525.0
+102	Spectrogram 1	1	537.0	540.0	0	15000	Purple Martin	purmar	0.8000	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	537.0
+103	Spectrogram 1	1	540.0	543.0	0	15000	Fish Crow	fiscro	0.5438	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	540.0
+104	Spectrogram 1	1	543.0	546.0	0	15000	Purple Martin	purmar	0.3256	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	543.0
+105	Spectrogram 1	1	549.0	552.0	0	15000	Purple Martin	purmar	0.4374	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	549.0
+106	Spectrogram 1	1	555.0	558.0	0	15000	Red Crossbill	redcro	0.4986	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	555.0
+107	Spectrogram 1	1	582.0	585.0	0	15000	Fish Crow	fiscro	0.8038	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	582.0
+108	Spectrogram 1	1	588.0	591.0	0	15000	Purple Martin	purmar	0.9651	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	588.0
+109	Spectrogram 1	1	618.0	621.0	0	15000	Purple Martin	purmar	0.7567	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	618.0
+110	Spectrogram 1	1	633.0	636.0	0	15000	Purple Martin	purmar	0.8912	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	633.0
+111	Spectrogram 1	1	639.0	642.0	0	15000	Purple Martin	purmar	0.2662	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	639.0
+112	Spectrogram 1	1	657.0	660.0	0	15000	Purple Martin	purmar	0.8120	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	657.0
+113	Spectrogram 1	1	660.0	663.0	0	15000	Purple Martin	purmar	0.4852	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	660.0
+114	Spectrogram 1	1	672.0	675.0	0	15000	Red Crossbill	redcro	0.3115	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	672.0
+115	Spectrogram 1	1	678.0	681.0	0	15000	Purple Martin	purmar	0.3648	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	678.0
+116	Spectrogram 1	1	687.0	690.0	0	15000	Purple Martin	purmar	0.4433	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	687.0
+117	Spectrogram 1	1	690.0	693.0	0	15000	Purple Martin	purmar	0.3750	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	690.0
+118	Spectrogram 1	1	693.0	696.0	0	15000	Red Crossbill	redcro	0.2821	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	693.0
+119	Spectrogram 1	1	699.0	702.0	0	15000	Purple Martin	purmar	0.7795	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	699.0
+120	Spectrogram 1	1	714.0	717.0	0	15000	Osprey	osprey	0.9550	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	714.0
+121	Spectrogram 1	1	717.0	720.0	0	15000	Osprey	osprey	0.7626	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	717.0
+122	Spectrogram 1	1	723.0	726.0	0	15000	Purple Martin	purmar	0.5610	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	723.0
+123	Spectrogram 1	1	735.0	738.0	0	15000	Purple Martin	purmar	0.2826	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	735.0
+124	Spectrogram 1	1	744.0	747.0	0	15000	Purple Martin	purmar	0.5780	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	744.0
+125	Spectrogram 1	1	747.0	750.0	0	15000	Purple Martin	purmar	0.9213	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	747.0
+126	Spectrogram 1	1	750.0	753.0	0	15000	Purple Martin	purmar	0.5180	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	750.0
+127	Spectrogram 1	1	750.0	753.0	0	15000	Red Crossbill	redcro	0.2879	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	750.0
+128	Spectrogram 1	1	753.0	756.0	0	15000	Purple Martin	purmar	0.9436	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	753.0
+129	Spectrogram 1	1	756.0	759.0	0	15000	Purple Martin	purmar	0.5607	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	756.0
+130	Spectrogram 1	1	759.0	762.0	0	15000	Purple Martin	purmar	0.2623	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	759.0
+131	Spectrogram 1	1	762.0	765.0	0	15000	Purple Martin	purmar	0.9442	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	762.0
+132	Spectrogram 1	1	765.0	768.0	0	15000	Purple Martin	purmar	0.2548	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	765.0
+133	Spectrogram 1	1	771.0	774.0	0	15000	Purple Martin	purmar	0.2871	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	771.0
+134	Spectrogram 1	1	777.0	780.0	0	15000	Purple Martin	purmar	0.3548	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	777.0
+135	Spectrogram 1	1	789.0	792.0	0	15000	Fish Crow	fiscro	0.5079	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	789.0
+136	Spectrogram 1	1	789.0	792.0	0	15000	Purple Martin	purmar	0.5042	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	789.0
+137	Spectrogram 1	1	792.0	795.0	0	15000	Purple Martin	purmar	0.4465	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	792.0
+138	Spectrogram 1	1	795.0	798.0	0	15000	Purple Martin	purmar	0.6103	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	795.0
+139	Spectrogram 1	1	798.0	801.0	0	15000	Purple Martin	purmar	0.6107	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	798.0
+140	Spectrogram 1	1	810.0	813.0	0	15000	Purple Martin	purmar	0.6357	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	810.0
+141	Spectrogram 1	1	816.0	819.0	0	15000	Purple Martin	purmar	0.5894	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	816.0
+142	Spectrogram 1	1	819.0	822.0	0	15000	Purple Martin	purmar	0.5540	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	819.0
+143	Spectrogram 1	1	828.0	831.0	0	15000	Purple Martin	purmar	0.2815	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	828.0
+144	Spectrogram 1	1	831.0	834.0	0	15000	Purple Martin	purmar	0.6417	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	831.0
+145	Spectrogram 1	1	834.0	837.0	0	15000	Purple Martin	purmar	0.7439	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	834.0
+146	Spectrogram 1	1	837.0	840.0	0	15000	Purple Martin	purmar	0.8115	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	837.0
+147	Spectrogram 1	1	840.0	843.0	0	15000	Purple Martin	purmar	0.7336	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	840.0
+148	Spectrogram 1	1	843.0	846.0	0	15000	Purple Martin	purmar	0.8645	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	843.0
+149	Spectrogram 1	1	846.0	849.0	0	15000	Purple Martin	purmar	0.5252	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	846.0
+150	Spectrogram 1	1	852.0	855.0	0	15000	Purple Martin	purmar	0.3135	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	852.0
+151	Spectrogram 1	1	855.0	858.0	0	15000	Purple Martin	purmar	0.7346	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	855.0
+152	Spectrogram 1	1	858.0	861.0	0	15000	Purple Martin	purmar	0.9596	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	858.0
+153	Spectrogram 1	1	861.0	864.0	0	15000	Purple Martin	purmar	0.9360	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	861.0
+154	Spectrogram 1	1	864.0	867.0	0	15000	Purple Martin	purmar	0.4301	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	864.0
+155	Spectrogram 1	1	867.0	870.0	0	15000	Purple Martin	purmar	0.8737	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	867.0
+156	Spectrogram 1	1	870.0	873.0	0	15000	Purple Martin	purmar	0.9850	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	870.0
+157	Spectrogram 1	1	873.0	876.0	0	15000	Purple Martin	purmar	0.9250	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	873.0
+158	Spectrogram 1	1	888.0	891.0	0	15000	Purple Martin	purmar	0.2556	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240726_130000.wav	888.0

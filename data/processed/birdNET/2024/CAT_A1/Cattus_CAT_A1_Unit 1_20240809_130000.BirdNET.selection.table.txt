@@ -1,0 +1,12 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	372.0	375.0	0	15000	Fireworks	frwrks	0.2610	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240809_130000.wav	372.0
+2	Spectrogram 1	1	690.0	693.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3464	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240809_130000.wav	690.0
+3	Spectrogram 1	1	693.0	696.0	0	15000	Tinkling Ground Cricket	t-11843287	0.9039	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240809_130000.wav	693.0
+4	Spectrogram 1	1	696.0	699.0	0	15000	Tinkling Ground Cricket	t-11843287	0.9827	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240809_130000.wav	696.0
+5	Spectrogram 1	1	699.0	702.0	0	15000	Tinkling Ground Cricket	t-11843287	0.9593	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240809_130000.wav	699.0
+6	Spectrogram 1	1	702.0	705.0	0	15000	Tinkling Ground Cricket	t-11843287	0.9281	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240809_130000.wav	702.0
+7	Spectrogram 1	1	705.0	708.0	0	15000	Tinkling Ground Cricket	t-11843287	0.7220	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240809_130000.wav	705.0
+8	Spectrogram 1	1	771.0	774.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3804	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240809_130000.wav	771.0
+9	Spectrogram 1	1	774.0	777.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3430	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240809_130000.wav	774.0
+10	Spectrogram 1	1	777.0	780.0	0	15000	Tinkling Ground Cricket	t-11843287	0.7331	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240809_130000.wav	777.0
+11	Spectrogram 1	1	846.0	849.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3060	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240809_130000.wav	846.0

@@ -1,0 +1,14 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	153.0	156.0	0	15000	Tinkling Ground Cricket	t-11843287	0.4809	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240730_020000.wav	153.0
+2	Spectrogram 1	1	210.0	213.0	0	15000	Tinkling Ground Cricket	t-11843287	0.5403	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240730_020000.wav	210.0
+3	Spectrogram 1	1	213.0	216.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3345	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240730_020000.wav	213.0
+4	Spectrogram 1	1	243.0	246.0	0	15000	Marsh Wren	marwre	0.6761	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240730_020000.wav	243.0
+5	Spectrogram 1	1	435.0	438.0	0	15000	Tinkling Ground Cricket	t-11843287	0.4102	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240730_020000.wav	435.0
+6	Spectrogram 1	1	471.0	474.0	0	15000	Tinkling Ground Cricket	t-11843287	0.4456	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240730_020000.wav	471.0
+7	Spectrogram 1	1	633.0	636.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3858	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240730_020000.wav	633.0
+8	Spectrogram 1	1	693.0	696.0	0	15000	Marsh Wren	marwre	0.7630	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240730_020000.wav	693.0
+9	Spectrogram 1	1	828.0	831.0	0	15000	Marsh Wren	marwre	0.6037	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240730_020000.wav	828.0
+10	Spectrogram 1	1	849.0	852.0	0	15000	Marsh Wren	marwre	0.6332	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240730_020000.wav	849.0
+11	Spectrogram 1	1	861.0	864.0	0	15000	Marsh Wren	marwre	0.6402	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240730_020000.wav	861.0
+12	Spectrogram 1	1	867.0	870.0	0	15000	Marsh Wren	marwre	0.5560	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240730_020000.wav	867.0
+13	Spectrogram 1	1	891.0	894.0	0	15000	House Wren	houwre	0.5576	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240730_020000.wav	891.0

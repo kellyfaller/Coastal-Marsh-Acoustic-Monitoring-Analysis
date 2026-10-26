@@ -1,0 +1,21 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	348.0	351.0	0	15000	Golden-crowned Kinglet	gockin	0.2938	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240705_030000.wav	348.0
+2	Spectrogram 1	1	543.0	546.0	0	15000	Mallard	mallar3	0.7049	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240705_030000.wav	543.0
+3	Spectrogram 1	1	549.0	552.0	0	15000	Mallard	mallar3	0.8991	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240705_030000.wav	549.0
+4	Spectrogram 1	1	552.0	555.0	0	15000	Mallard	mallar3	0.8499	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240705_030000.wav	552.0
+5	Spectrogram 1	1	561.0	564.0	0	15000	Mallard	mallar3	0.8071	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240705_030000.wav	561.0
+6	Spectrogram 1	1	561.0	564.0	0	15000	Caspian Tern	caster1	0.2567	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240705_030000.wav	561.0
+7	Spectrogram 1	1	579.0	582.0	0	15000	Mallard	mallar3	0.4365	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240705_030000.wav	579.0
+8	Spectrogram 1	1	591.0	594.0	0	15000	Mallard	mallar3	0.4425	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240705_030000.wav	591.0
+9	Spectrogram 1	1	594.0	597.0	0	15000	Mallard	mallar3	0.3613	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240705_030000.wav	594.0
+10	Spectrogram 1	1	597.0	600.0	0	15000	Mallard	mallar3	0.4713	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240705_030000.wav	597.0
+11	Spectrogram 1	1	618.0	621.0	0	15000	Great Horned Owl	grhowl	0.2598	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240705_030000.wav	618.0
+12	Spectrogram 1	1	633.0	636.0	0	15000	Mallard	mallar3	0.2622	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240705_030000.wav	633.0
+13	Spectrogram 1	1	639.0	642.0	0	15000	Mallard	mallar3	0.3638	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240705_030000.wav	639.0
+14	Spectrogram 1	1	675.0	678.0	0	15000	Mallard	mallar3	0.8312	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240705_030000.wav	675.0
+15	Spectrogram 1	1	678.0	681.0	0	15000	Mallard	mallar3	0.7866	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240705_030000.wav	678.0
+16	Spectrogram 1	1	681.0	684.0	0	15000	Mallard	mallar3	0.2869	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240705_030000.wav	681.0
+17	Spectrogram 1	1	735.0	738.0	0	15000	Mallard	mallar3	0.3557	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240705_030000.wav	735.0
+18	Spectrogram 1	1	750.0	753.0	0	15000	Mallard	mallar3	0.2968	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240705_030000.wav	750.0
+19	Spectrogram 1	1	759.0	762.0	0	15000	Mallard	mallar3	0.5313	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240705_030000.wav	759.0
+20	Spectrogram 1	1	843.0	846.0	0	15000	Least Sandpiper	leasan	0.4819	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240705_030000.wav	843.0

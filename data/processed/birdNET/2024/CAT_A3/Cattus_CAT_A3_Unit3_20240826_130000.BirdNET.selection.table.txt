@@ -1,0 +1,8 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	30.0	33.0	0	15000	Belted Kingfisher	belkin1	0.9994	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_130000.wav	30.0
+2	Spectrogram 1	1	210.0	213.0	0	15000	American Goldfinch	amegfi	0.8426	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_130000.wav	210.0
+3	Spectrogram 1	1	213.0	216.0	0	15000	American Goldfinch	amegfi	0.5379	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_130000.wav	213.0
+4	Spectrogram 1	1	216.0	219.0	0	15000	American Goldfinch	amegfi	0.4254	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_130000.wav	216.0
+5	Spectrogram 1	1	309.0	312.0	0	15000	Gray Catbird	grycat	0.4017	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_130000.wav	309.0
+6	Spectrogram 1	1	657.0	660.0	0	15000	Trumpeter Swan	truswa	0.2776	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_130000.wav	657.0
+7	Spectrogram 1	1	705.0	708.0	0	15000	Trumpeter Swan	truswa	0.6179	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_130000.wav	705.0

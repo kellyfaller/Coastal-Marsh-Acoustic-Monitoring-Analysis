@@ -1,0 +1,15 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	45.0	48.0	0	15000	Mallard	mallar3	0.2896	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-26\Unit4_20260826_190000.wav	45.0
+2	Spectrogram 1	1	48.0	51.0	0	15000	Mallard	mallar3	0.4873	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-26\Unit4_20260826_190000.wav	48.0
+3	Spectrogram 1	1	51.0	54.0	0	15000	Mallard	mallar3	0.2768	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-26\Unit4_20260826_190000.wav	51.0
+4	Spectrogram 1	1	135.0	138.0	0	15000	Green-winged Teal	gnwtea	0.3858	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-26\Unit4_20260826_190000.wav	135.0
+5	Spectrogram 1	1	342.0	345.0	0	15000	Greater Yellowlegs	greyel	0.4638	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-26\Unit4_20260826_190000.wav	342.0
+6	Spectrogram 1	1	354.0	357.0	0	15000	Engine	engine	0.3468	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-26\Unit4_20260826_190000.wav	354.0
+7	Spectrogram 1	1	381.0	384.0	0	15000	Semipalmated Plover	semplo	0.4319	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-26\Unit4_20260826_190000.wav	381.0
+8	Spectrogram 1	1	387.0	390.0	0	15000	Semipalmated Plover	semplo	0.8713	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-26\Unit4_20260826_190000.wav	387.0
+9	Spectrogram 1	1	393.0	396.0	0	15000	Semipalmated Plover	semplo	0.8666	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-26\Unit4_20260826_190000.wav	393.0
+10	Spectrogram 1	1	393.0	396.0	0	15000	American Golden-Plover	amgplo	0.2912	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-26\Unit4_20260826_190000.wav	393.0
+11	Spectrogram 1	1	396.0	399.0	0	15000	Semipalmated Plover	semplo	0.7628	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-26\Unit4_20260826_190000.wav	396.0
+12	Spectrogram 1	1	423.0	426.0	0	15000	Black Scoter	blksco2	0.3776	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-26\Unit4_20260826_190000.wav	423.0
+13	Spectrogram 1	1	531.0	534.0	0	15000	Golden-crowned Kinglet	gockin	0.2931	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-26\Unit4_20260826_190000.wav	531.0
+14	Spectrogram 1	1	813.0	816.0	0	15000	Greater Yellowlegs	greyel	0.7064	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-26\Unit4_20260826_190000.wav	813.0

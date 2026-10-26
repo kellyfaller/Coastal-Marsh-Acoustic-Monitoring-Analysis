@@ -1,0 +1,17 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	174.0	177.0	0	15000	Fireworks	frwrks	0.2781	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_150000.wav	174.0
+2	Spectrogram 1	1	312.0	315.0	0	15000	Fireworks	frwrks	0.3792	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_150000.wav	312.0
+3	Spectrogram 1	1	387.0	390.0	0	15000	Osprey	osprey	0.2666	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_150000.wav	387.0
+4	Spectrogram 1	1	414.0	417.0	0	15000	Fireworks	frwrks	0.2739	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_150000.wav	414.0
+5	Spectrogram 1	1	426.0	429.0	0	15000	Purple Martin	purmar	0.3596	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_150000.wav	426.0
+6	Spectrogram 1	1	444.0	447.0	0	15000	Purple Martin	purmar	0.2677	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_150000.wav	444.0
+7	Spectrogram 1	1	624.0	627.0	0	15000	Purple Martin	purmar	0.3651	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_150000.wav	624.0
+8	Spectrogram 1	1	825.0	828.0	0	15000	Laughing Gull	laugul	0.7270	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_150000.wav	825.0
+9	Spectrogram 1	1	837.0	840.0	0	15000	Laughing Gull	laugul	0.9405	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_150000.wav	837.0
+10	Spectrogram 1	1	843.0	846.0	0	15000	Laughing Gull	laugul	0.9500	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_150000.wav	843.0
+11	Spectrogram 1	1	846.0	849.0	0	15000	Laughing Gull	laugul	0.8986	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_150000.wav	846.0
+12	Spectrogram 1	1	849.0	852.0	0	15000	Laughing Gull	laugul	0.7816	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_150000.wav	849.0
+13	Spectrogram 1	1	852.0	855.0	0	15000	Laughing Gull	laugul	0.6754	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_150000.wav	852.0
+14	Spectrogram 1	1	855.0	858.0	0	15000	Laughing Gull	laugul	0.5577	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_150000.wav	855.0
+15	Spectrogram 1	1	858.0	861.0	0	15000	Laughing Gull	laugul	0.5617	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_150000.wav	858.0
+16	Spectrogram 1	1	861.0	864.0	0	15000	Laughing Gull	laugul	0.2671	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_150000.wav	861.0

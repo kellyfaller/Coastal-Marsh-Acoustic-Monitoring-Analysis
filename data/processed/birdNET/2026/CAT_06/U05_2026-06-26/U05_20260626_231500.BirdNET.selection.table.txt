@@ -1,0 +1,13 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	417.0	420.0	0	15000	Dog	dogdog	0.2962	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_231500.wav	417.0
+2	Spectrogram 1	1	456.0	459.0	0	15000	Trumpeter Swan	truswa	0.5342	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_231500.wav	456.0
+3	Spectrogram 1	1	456.0	459.0	0	15000	Tundra Swan	tunswa	0.3746	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_231500.wav	456.0
+4	Spectrogram 1	1	459.0	462.0	0	15000	Canada Goose	cangoo	0.3370	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_231500.wav	459.0
+5	Spectrogram 1	1	471.0	474.0	0	15000	Dog	dogdog	0.3518	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_231500.wav	471.0
+6	Spectrogram 1	1	519.0	522.0	0	15000	Tundra Swan	tunswa	0.2831	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_231500.wav	519.0
+7	Spectrogram 1	1	561.0	564.0	0	15000	Marsh Wren	marwre	0.6150	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_231500.wav	561.0
+8	Spectrogram 1	1	612.0	615.0	0	15000	Canada Goose	cangoo	0.3336	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_231500.wav	612.0
+9	Spectrogram 1	1	666.0	669.0	0	15000	Human vocal	humvoc	0.2645	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_231500.wav	666.0
+10	Spectrogram 1	1	741.0	744.0	0	15000	Tundra Swan	tunswa	0.6108	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_231500.wav	741.0
+11	Spectrogram 1	1	849.0	852.0	0	15000	Fish Crow	fiscro	0.5827	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_231500.wav	849.0
+12	Spectrogram 1	1	879.0	882.0	0	15000	Engine	engine	0.3373	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_231500.wav	879.0

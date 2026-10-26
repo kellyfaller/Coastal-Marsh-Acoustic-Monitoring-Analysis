@@ -1,0 +1,10 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	75.0	78.0	0	15000	Osprey	osprey	0.2744	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-13\Unit4_20260613_110000.wav	75.0
+2	Spectrogram 1	1	93.0	96.0	0	15000	Greater Yellowlegs	greyel	0.2780	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-13\Unit4_20260613_110000.wav	93.0
+3	Spectrogram 1	1	438.0	441.0	0	15000	Osprey	osprey	0.7417	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-13\Unit4_20260613_110000.wav	438.0
+4	Spectrogram 1	1	441.0	444.0	0	15000	Osprey	osprey	0.3331	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-13\Unit4_20260613_110000.wav	441.0
+5	Spectrogram 1	1	459.0	462.0	0	15000	Osprey	osprey	0.5733	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-13\Unit4_20260613_110000.wav	459.0
+6	Spectrogram 1	1	606.0	609.0	0	15000	Osprey	osprey	0.2505	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-13\Unit4_20260613_110000.wav	606.0
+7	Spectrogram 1	1	633.0	636.0	0	15000	Osprey	osprey	0.4491	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-13\Unit4_20260613_110000.wav	633.0
+8	Spectrogram 1	1	726.0	729.0	0	15000	Herring Gull	hergul	0.2620	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-13\Unit4_20260613_110000.wav	726.0
+9	Spectrogram 1	1	738.0	741.0	0	15000	Marbled Godwit	margod	0.5670	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-13\Unit4_20260613_110000.wav	738.0

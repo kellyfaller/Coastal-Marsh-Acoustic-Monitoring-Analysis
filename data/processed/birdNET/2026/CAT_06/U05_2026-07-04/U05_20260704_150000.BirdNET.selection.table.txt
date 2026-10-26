@@ -1,0 +1,2 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	246.0	249.0	0	15000	Fish Crow	fiscro	0.3626	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_150000.wav	246.0

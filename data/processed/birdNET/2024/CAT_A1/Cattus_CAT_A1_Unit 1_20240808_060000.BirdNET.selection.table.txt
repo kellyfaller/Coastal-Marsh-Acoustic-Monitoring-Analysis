@@ -1,0 +1,11 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	114.0	117.0	0	15000	Osprey	osprey	0.5107	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240808_060000.wav	114.0
+2	Spectrogram 1	1	237.0	240.0	0	15000	Osprey	osprey	0.4083	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240808_060000.wav	237.0
+3	Spectrogram 1	1	342.0	345.0	0	15000	Osprey	osprey	0.8526	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240808_060000.wav	342.0
+4	Spectrogram 1	1	690.0	693.0	0	15000	Osprey	osprey	0.3680	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240808_060000.wav	690.0
+5	Spectrogram 1	1	723.0	726.0	0	15000	Common Gallinule	comgal1	0.4322	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240808_060000.wav	723.0
+6	Spectrogram 1	1	735.0	738.0	0	15000	Osprey	osprey	0.3384	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240808_060000.wav	735.0
+7	Spectrogram 1	1	756.0	759.0	0	15000	Fish Crow	fiscro	0.3317	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240808_060000.wav	756.0
+8	Spectrogram 1	1	831.0	834.0	0	15000	Fish Crow	fiscro	0.9889	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240808_060000.wav	831.0
+9	Spectrogram 1	1	852.0	855.0	0	15000	Osprey	osprey	0.4440	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240808_060000.wav	852.0
+10	Spectrogram 1	1	855.0	858.0	0	15000	Osprey	osprey	0.6854	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240808_060000.wav	855.0

@@ -1,0 +1,9 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	90.0	93.0	0	15000	Barn Swallow	barswa	0.7861	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240816_200000.wav	90.0
+2	Spectrogram 1	1	93.0	96.0	0	15000	Barn Swallow	barswa	0.5489	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240816_200000.wav	93.0
+3	Spectrogram 1	1	198.0	201.0	0	15000	Barn Swallow	barswa	0.3532	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240816_200000.wav	198.0
+4	Spectrogram 1	1	201.0	204.0	0	15000	Barn Swallow	barswa	0.4927	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240816_200000.wav	201.0
+5	Spectrogram 1	1	231.0	234.0	0	15000	Engine	engine	0.2559	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240816_200000.wav	231.0
+6	Spectrogram 1	1	234.0	237.0	0	15000	Engine	engine	0.3738	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240816_200000.wav	234.0
+7	Spectrogram 1	1	243.0	246.0	0	15000	Engine	engine	0.7469	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240816_200000.wav	243.0
+8	Spectrogram 1	1	246.0	249.0	0	15000	Engine	engine	0.5234	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240816_200000.wav	246.0

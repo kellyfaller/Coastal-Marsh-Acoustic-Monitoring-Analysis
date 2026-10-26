@@ -1,0 +1,2 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	606.0	609.0	0	15000	Great Blue Heron	grbher3	0.8262	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-13\Unit4_20260813_050000.wav	606.0

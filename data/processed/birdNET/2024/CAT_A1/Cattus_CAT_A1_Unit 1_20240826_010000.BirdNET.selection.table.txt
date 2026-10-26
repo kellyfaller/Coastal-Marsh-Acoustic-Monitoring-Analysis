@@ -1,0 +1,3 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	294.0	297.0	0	15000	Walker's Ground Cricket	t-11855914	0.3542	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240826_010000.wav	294.0
+2	Spectrogram 1	1	312.0	315.0	0	15000	Walker's Ground Cricket	t-11855914	0.4465	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240826_010000.wav	312.0

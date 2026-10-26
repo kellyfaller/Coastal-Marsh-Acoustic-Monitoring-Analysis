@@ -1,0 +1,12 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	132.0	135.0	0	15000	Willow Flycatcher	wilfly	0.2953	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-19\Unit4_20260619_070000.wav	132.0
+2	Spectrogram 1	1	318.0	321.0	0	15000	Seaside Sparrow	seaspa	0.2704	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-19\Unit4_20260619_070000.wav	318.0
+3	Spectrogram 1	1	675.0	678.0	0	15000	Evening Grosbeak	evegro	0.3486	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-19\Unit4_20260619_070000.wav	675.0
+4	Spectrogram 1	1	798.0	801.0	0	15000	Ruddy Turnstone	rudtur	0.2779	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-19\Unit4_20260619_070000.wav	798.0
+5	Spectrogram 1	1	801.0	804.0	0	15000	Osprey	osprey	0.6374	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-19\Unit4_20260619_070000.wav	801.0
+6	Spectrogram 1	1	813.0	816.0	0	15000	Evening Grosbeak	evegro	0.3854	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-19\Unit4_20260619_070000.wav	813.0
+7	Spectrogram 1	1	822.0	825.0	0	15000	Osprey	osprey	0.6924	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-19\Unit4_20260619_070000.wav	822.0
+8	Spectrogram 1	1	825.0	828.0	0	15000	Osprey	osprey	0.3562	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-19\Unit4_20260619_070000.wav	825.0
+9	Spectrogram 1	1	828.0	831.0	0	15000	Osprey	osprey	0.5299	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-19\Unit4_20260619_070000.wav	828.0
+10	Spectrogram 1	1	837.0	840.0	0	15000	Osprey	osprey	0.7731	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-19\Unit4_20260619_070000.wav	837.0
+11	Spectrogram 1	1	867.0	870.0	0	15000	Osprey	osprey	0.8490	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-19\Unit4_20260619_070000.wav	867.0

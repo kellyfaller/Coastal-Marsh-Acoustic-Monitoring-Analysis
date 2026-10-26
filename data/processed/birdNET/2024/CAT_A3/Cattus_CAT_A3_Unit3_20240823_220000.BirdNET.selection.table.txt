@@ -1,0 +1,22 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	0.0	3.0	0	15000	Eastern Screech-Owl	easowl1	0.2943	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240823_220000.wav	0.0
+2	Spectrogram 1	1	12.0	15.0	0	15000	Davis's Tree Cricket	t-11849040	0.2523	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240823_220000.wav	12.0
+3	Spectrogram 1	1	132.0	135.0	0	15000	Eastern Screech-Owl	easowl1	0.3060	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240823_220000.wav	132.0
+4	Spectrogram 1	1	468.0	471.0	0	15000	Eastern Screech-Owl	easowl1	0.3094	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240823_220000.wav	468.0
+5	Spectrogram 1	1	489.0	492.0	0	15000	Eastern Screech-Owl	easowl1	0.2514	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240823_220000.wav	489.0
+6	Spectrogram 1	1	507.0	510.0	0	15000	Engine	engine	0.7065	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240823_220000.wav	507.0
+7	Spectrogram 1	1	510.0	513.0	0	15000	Engine	engine	0.5367	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240823_220000.wav	510.0
+8	Spectrogram 1	1	513.0	516.0	0	15000	Engine	engine	0.3892	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240823_220000.wav	513.0
+9	Spectrogram 1	1	516.0	519.0	0	15000	Engine	engine	0.2593	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240823_220000.wav	516.0
+10	Spectrogram 1	1	528.0	531.0	0	15000	Engine	engine	0.3518	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240823_220000.wav	528.0
+11	Spectrogram 1	1	540.0	543.0	0	15000	Engine	engine	0.3152	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240823_220000.wav	540.0
+12	Spectrogram 1	1	549.0	552.0	0	15000	Engine	engine	0.3590	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240823_220000.wav	549.0
+13	Spectrogram 1	1	552.0	555.0	0	15000	Engine	engine	0.7079	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240823_220000.wav	552.0
+14	Spectrogram 1	1	555.0	558.0	0	15000	Engine	engine	0.4568	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240823_220000.wav	555.0
+15	Spectrogram 1	1	576.0	579.0	0	15000	Engine	engine	0.3663	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240823_220000.wav	576.0
+16	Spectrogram 1	1	579.0	582.0	0	15000	Engine	engine	0.3822	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240823_220000.wav	579.0
+17	Spectrogram 1	1	708.0	711.0	0	15000	Engine	engine	0.3731	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240823_220000.wav	708.0
+18	Spectrogram 1	1	741.0	744.0	0	15000	Engine	engine	0.7284	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240823_220000.wav	741.0
+19	Spectrogram 1	1	744.0	747.0	0	15000	Engine	engine	0.6578	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240823_220000.wav	744.0
+20	Spectrogram 1	1	747.0	750.0	0	15000	Engine	engine	0.7773	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240823_220000.wav	747.0
+21	Spectrogram 1	1	780.0	783.0	0	15000	Eastern Screech-Owl	easowl1	0.2818	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240823_220000.wav	780.0

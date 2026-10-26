@@ -1,0 +1,5 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	123.0	126.0	0	15000	Osprey	osprey	0.3369	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240829_090000.wav	123.0
+2	Spectrogram 1	1	312.0	315.0	0	15000	Herring Gull	hergul	0.4616	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240829_090000.wav	312.0
+3	Spectrogram 1	1	315.0	318.0	0	15000	Herring Gull	hergul	0.3815	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240829_090000.wav	315.0
+4	Spectrogram 1	1	318.0	321.0	0	15000	Red-throated Loon	retloo	0.3264	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240829_090000.wav	318.0

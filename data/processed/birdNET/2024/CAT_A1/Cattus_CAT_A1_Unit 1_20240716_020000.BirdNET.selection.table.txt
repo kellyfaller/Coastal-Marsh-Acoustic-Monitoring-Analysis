@@ -1,0 +1,9 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	240.0	243.0	0	15000	Golden-crowned Kinglet	gockin	0.2909	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_020000.wav	240.0
+2	Spectrogram 1	1	273.0	276.0	0	15000	Great Blue Heron	grbher3	0.3068	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_020000.wav	273.0
+3	Spectrogram 1	1	276.0	279.0	0	15000	Great Blue Heron	grbher3	0.4717	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_020000.wav	276.0
+4	Spectrogram 1	1	651.0	654.0	0	15000	Great Blue Heron	grbher3	0.6450	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_020000.wav	651.0
+5	Spectrogram 1	1	684.0	687.0	0	15000	Great Blue Heron	grbher3	0.2985	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_020000.wav	684.0
+6	Spectrogram 1	1	687.0	690.0	0	15000	Great Blue Heron	grbher3	0.2594	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_020000.wav	687.0
+7	Spectrogram 1	1	711.0	714.0	0	15000	Osprey	osprey	0.7854	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_020000.wav	711.0
+8	Spectrogram 1	1	738.0	741.0	0	15000	Osprey	osprey	0.8221	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_020000.wav	738.0

@@ -1,0 +1,20 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	51.0	54.0	0	15000	Common Yellowthroat	comyel	0.4355	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_064500.wav	51.0
+2	Spectrogram 1	1	117.0	120.0	0	15000	Northern Cardinal	norcar	0.3921	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_064500.wav	117.0
+3	Spectrogram 1	1	126.0	129.0	0	15000	Northern Cardinal	norcar	0.3491	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_064500.wav	126.0
+4	Spectrogram 1	1	219.0	222.0	0	15000	Yellow Warbler	yelwar	0.2819	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_064500.wav	219.0
+5	Spectrogram 1	1	222.0	225.0	0	15000	Forster's Tern	forter	0.2725	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_064500.wav	222.0
+6	Spectrogram 1	1	339.0	342.0	0	15000	Eastern Bluebird	easblu	0.3659	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_064500.wav	339.0
+7	Spectrogram 1	1	423.0	426.0	0	15000	Common Yellowthroat	comyel	0.2567	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_064500.wav	423.0
+8	Spectrogram 1	1	474.0	477.0	0	15000	Common Yellowthroat	comyel	0.2787	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_064500.wav	474.0
+9	Spectrogram 1	1	612.0	615.0	0	15000	Bald Eagle	baleag	0.2784	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_064500.wav	612.0
+10	Spectrogram 1	1	723.0	726.0	0	15000	Common Yellowthroat	comyel	0.3126	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_064500.wav	723.0
+11	Spectrogram 1	1	747.0	750.0	0	15000	Common Yellowthroat	comyel	0.2876	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_064500.wav	747.0
+12	Spectrogram 1	1	759.0	762.0	0	15000	Common Yellowthroat	comyel	0.3224	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_064500.wav	759.0
+13	Spectrogram 1	1	795.0	798.0	0	15000	Great Black-backed Gull	gbbgul	0.3898	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_064500.wav	795.0
+14	Spectrogram 1	1	798.0	801.0	0	15000	Great Black-backed Gull	gbbgul	0.9484	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_064500.wav	798.0
+15	Spectrogram 1	1	810.0	813.0	0	15000	Great Black-backed Gull	gbbgul	0.7180	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_064500.wav	810.0
+16	Spectrogram 1	1	819.0	822.0	0	15000	Great Black-backed Gull	gbbgul	0.2579	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_064500.wav	819.0
+17	Spectrogram 1	1	831.0	834.0	0	15000	Great Black-backed Gull	gbbgul	0.8610	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_064500.wav	831.0
+18	Spectrogram 1	1	837.0	840.0	0	15000	Common Yellowthroat	comyel	0.3247	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_064500.wav	837.0
+19	Spectrogram 1	1	849.0	852.0	0	15000	Common Yellowthroat	comyel	0.2656	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-12\U05_20260612_064500.wav	849.0

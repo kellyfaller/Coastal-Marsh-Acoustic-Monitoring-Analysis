@@ -1,0 +1,53 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	9.0	12.0	0	15000	Fish Crow	fiscro	0.7184	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	9.0
+2	Spectrogram 1	1	21.0	24.0	0	15000	Fish Crow	fiscro	0.7410	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	21.0
+3	Spectrogram 1	1	33.0	36.0	0	15000	Fish Crow	fiscro	0.5322	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	33.0
+4	Spectrogram 1	1	36.0	39.0	0	15000	Fish Crow	fiscro	0.9549	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	36.0
+5	Spectrogram 1	1	39.0	42.0	0	15000	Fish Crow	fiscro	0.9335	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	39.0
+6	Spectrogram 1	1	42.0	45.0	0	15000	Fish Crow	fiscro	0.4327	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	42.0
+7	Spectrogram 1	1	54.0	57.0	0	15000	Fish Crow	fiscro	0.3125	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	54.0
+8	Spectrogram 1	1	63.0	66.0	0	15000	Eastern Meadowlark	easmea	0.2522	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	63.0
+9	Spectrogram 1	1	96.0	99.0	0	15000	Eastern Meadowlark	easmea	0.3470	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	96.0
+10	Spectrogram 1	1	162.0	165.0	0	15000	Osprey	osprey	0.4050	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	162.0
+11	Spectrogram 1	1	165.0	168.0	0	15000	Osprey	osprey	0.8749	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	165.0
+12	Spectrogram 1	1	264.0	267.0	0	15000	Osprey	osprey	0.6212	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	264.0
+13	Spectrogram 1	1	282.0	285.0	0	15000	Eastern Meadowlark	easmea	0.2536	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	282.0
+14	Spectrogram 1	1	288.0	291.0	0	15000	Osprey	osprey	0.9695	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	288.0
+15	Spectrogram 1	1	297.0	300.0	0	15000	Henslow's Sparrow	henspa	0.2660	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	297.0
+16	Spectrogram 1	1	312.0	315.0	0	15000	Tree Swallow	treswa	0.5310	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	312.0
+17	Spectrogram 1	1	315.0	318.0	0	15000	Tree Swallow	treswa	0.3925	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	315.0
+18	Spectrogram 1	1	324.0	327.0	0	15000	Osprey	osprey	0.9869	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	324.0
+19	Spectrogram 1	1	327.0	330.0	0	15000	Osprey	osprey	0.8694	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	327.0
+20	Spectrogram 1	1	330.0	333.0	0	15000	Osprey	osprey	0.8793	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	330.0
+21	Spectrogram 1	1	333.0	336.0	0	15000	Tree Swallow	treswa	0.3031	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	333.0
+22	Spectrogram 1	1	402.0	405.0	0	15000	Osprey	osprey	0.9315	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	402.0
+23	Spectrogram 1	1	450.0	453.0	0	15000	Eastern Meadowlark	easmea	0.5887	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	450.0
+24	Spectrogram 1	1	453.0	456.0	0	15000	Eastern Meadowlark	easmea	0.6505	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	453.0
+25	Spectrogram 1	1	459.0	462.0	0	15000	Eastern Meadowlark	easmea	0.2524	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	459.0
+26	Spectrogram 1	1	468.0	471.0	0	15000	Tree Swallow	treswa	0.6595	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	468.0
+27	Spectrogram 1	1	471.0	474.0	0	15000	Tree Swallow	treswa	0.2974	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	471.0
+28	Spectrogram 1	1	474.0	477.0	0	15000	Tree Swallow	treswa	0.2793	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	474.0
+29	Spectrogram 1	1	477.0	480.0	0	15000	Tree Swallow	treswa	0.4891	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	477.0
+30	Spectrogram 1	1	498.0	501.0	0	15000	Tree Swallow	treswa	0.3838	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	498.0
+31	Spectrogram 1	1	516.0	519.0	0	15000	Tree Swallow	treswa	0.6238	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	516.0
+32	Spectrogram 1	1	570.0	573.0	0	15000	Eastern Meadowlark	easmea	0.2869	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	570.0
+33	Spectrogram 1	1	576.0	579.0	0	15000	Eastern Meadowlark	easmea	0.3699	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	576.0
+34	Spectrogram 1	1	597.0	600.0	0	15000	Eastern Meadowlark	easmea	0.4268	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	597.0
+35	Spectrogram 1	1	600.0	603.0	0	15000	Osprey	osprey	0.3627	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	600.0
+36	Spectrogram 1	1	603.0	606.0	0	15000	Eastern Meadowlark	easmea	0.4510	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	603.0
+37	Spectrogram 1	1	606.0	609.0	0	15000	Eastern Meadowlark	easmea	0.4017	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	606.0
+38	Spectrogram 1	1	615.0	618.0	0	15000	Eastern Meadowlark	easmea	0.4502	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	615.0
+39	Spectrogram 1	1	621.0	624.0	0	15000	Eastern Meadowlark	easmea	0.4166	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	621.0
+40	Spectrogram 1	1	642.0	645.0	0	15000	Eastern Meadowlark	easmea	0.5183	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	642.0
+41	Spectrogram 1	1	663.0	666.0	0	15000	Eastern Meadowlark	easmea	0.3153	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	663.0
+42	Spectrogram 1	1	675.0	678.0	0	15000	Eastern Meadowlark	easmea	0.6400	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	675.0
+43	Spectrogram 1	1	708.0	711.0	0	15000	Eastern Kingbird	easkin	0.5422	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	708.0
+44	Spectrogram 1	1	714.0	717.0	0	15000	Eastern Kingbird	easkin	0.9009	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	714.0
+45	Spectrogram 1	1	768.0	771.0	0	15000	Eastern Meadowlark	easmea	0.2941	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	768.0
+46	Spectrogram 1	1	780.0	783.0	0	15000	Fish Crow	fiscro	0.3736	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	780.0
+47	Spectrogram 1	1	825.0	828.0	0	15000	Eastern Kingbird	easkin	0.3062	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	825.0
+48	Spectrogram 1	1	828.0	831.0	0	15000	Eastern Meadowlark	easmea	0.3587	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	828.0
+49	Spectrogram 1	1	834.0	837.0	0	15000	Eastern Meadowlark	easmea	0.3031	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	834.0
+50	Spectrogram 1	1	849.0	852.0	0	15000	Eastern Kingbird	easkin	0.4060	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	849.0
+51	Spectrogram 1	1	870.0	873.0	0	15000	Eastern Kingbird	easkin	0.6313	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	870.0
+52	Spectrogram 1	1	882.0	885.0	0	15000	Eastern Meadowlark	easmea	0.4234	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-27\U05_20260627_201500.wav	882.0

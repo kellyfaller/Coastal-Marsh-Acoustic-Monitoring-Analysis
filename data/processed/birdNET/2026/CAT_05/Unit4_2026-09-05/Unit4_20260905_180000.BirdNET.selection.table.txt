@@ -1,0 +1,25 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	6.0	9.0	0	15000	Engine	engine	0.3684	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_180000.wav	6.0
+2	Spectrogram 1	1	15.0	18.0	0	15000	Engine	engine	0.5057	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_180000.wav	15.0
+3	Spectrogram 1	1	21.0	24.0	0	15000	Engine	engine	0.6232	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_180000.wav	21.0
+4	Spectrogram 1	1	24.0	27.0	0	15000	Engine	engine	0.4128	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_180000.wav	24.0
+5	Spectrogram 1	1	27.0	30.0	0	15000	Engine	engine	0.4604	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_180000.wav	27.0
+6	Spectrogram 1	1	33.0	36.0	0	15000	Engine	engine	0.4874	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_180000.wav	33.0
+7	Spectrogram 1	1	36.0	39.0	0	15000	Engine	engine	0.7830	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_180000.wav	36.0
+8	Spectrogram 1	1	39.0	42.0	0	15000	Engine	engine	0.6004	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_180000.wav	39.0
+9	Spectrogram 1	1	42.0	45.0	0	15000	Engine	engine	0.5969	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_180000.wav	42.0
+10	Spectrogram 1	1	66.0	69.0	0	15000	Engine	engine	0.3809	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_180000.wav	66.0
+11	Spectrogram 1	1	87.0	90.0	0	15000	Brant	brant	0.3599	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_180000.wav	87.0
+12	Spectrogram 1	1	471.0	474.0	0	15000	Brant	brant	0.4654	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_180000.wav	471.0
+13	Spectrogram 1	1	522.0	525.0	0	15000	Herring Gull	hergul	0.2665	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_180000.wav	522.0
+14	Spectrogram 1	1	609.0	612.0	0	15000	Brant	brant	0.3726	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_180000.wav	609.0
+15	Spectrogram 1	1	657.0	660.0	0	15000	Engine	engine	0.2617	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_180000.wav	657.0
+16	Spectrogram 1	1	663.0	666.0	0	15000	Engine	engine	0.3344	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_180000.wav	663.0
+17	Spectrogram 1	1	666.0	669.0	0	15000	Engine	engine	0.2898	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_180000.wav	666.0
+18	Spectrogram 1	1	678.0	681.0	0	15000	Engine	engine	0.3162	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_180000.wav	678.0
+19	Spectrogram 1	1	681.0	684.0	0	15000	Engine	engine	0.5435	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_180000.wav	681.0
+20	Spectrogram 1	1	690.0	693.0	0	15000	Engine	engine	0.4506	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_180000.wav	690.0
+21	Spectrogram 1	1	693.0	696.0	0	15000	Engine	engine	0.6980	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_180000.wav	693.0
+22	Spectrogram 1	1	699.0	702.0	0	15000	Engine	engine	0.3281	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_180000.wav	699.0
+23	Spectrogram 1	1	732.0	735.0	0	15000	Engine	engine	0.6604	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_180000.wav	732.0
+24	Spectrogram 1	1	846.0	849.0	0	15000	Brant	brant	0.2799	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_180000.wav	846.0

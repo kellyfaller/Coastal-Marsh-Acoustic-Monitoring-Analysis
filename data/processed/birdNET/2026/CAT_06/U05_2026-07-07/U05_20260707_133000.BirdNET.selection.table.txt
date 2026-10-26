@@ -1,0 +1,27 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	18.0	21.0	0	15000	Eastern Meadowlark	easmea	0.4811	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-07\U05_20260707_133000.wav	18.0
+2	Spectrogram 1	1	21.0	24.0	0	15000	Barn Swallow	barswa	0.4157	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-07\U05_20260707_133000.wav	21.0
+3	Spectrogram 1	1	57.0	60.0	0	15000	Eastern Meadowlark	easmea	0.3707	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-07\U05_20260707_133000.wav	57.0
+4	Spectrogram 1	1	66.0	69.0	0	15000	Cliff Swallow	cliswa	0.3512	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-07\U05_20260707_133000.wav	66.0
+5	Spectrogram 1	1	78.0	81.0	0	15000	Eastern Kingbird	easkin	0.3493	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-07\U05_20260707_133000.wav	78.0
+6	Spectrogram 1	1	87.0	90.0	0	15000	Eastern Kingbird	easkin	0.8359	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-07\U05_20260707_133000.wav	87.0
+7	Spectrogram 1	1	138.0	141.0	0	15000	Eastern Kingbird	easkin	0.8401	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-07\U05_20260707_133000.wav	138.0
+8	Spectrogram 1	1	171.0	174.0	0	15000	Lapland Longspur	laplon	0.4029	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-07\U05_20260707_133000.wav	171.0
+9	Spectrogram 1	1	300.0	303.0	0	15000	Red-winged Blackbird	rewbla	0.5478	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-07\U05_20260707_133000.wav	300.0
+10	Spectrogram 1	1	330.0	333.0	0	15000	Eastern Meadowlark	easmea	0.2738	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-07\U05_20260707_133000.wav	330.0
+11	Spectrogram 1	1	336.0	339.0	0	15000	Red-winged Blackbird	rewbla	0.2697	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-07\U05_20260707_133000.wav	336.0
+12	Spectrogram 1	1	363.0	366.0	0	15000	Red-winged Blackbird	rewbla	0.4154	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-07\U05_20260707_133000.wav	363.0
+13	Spectrogram 1	1	384.0	387.0	0	15000	Lapland Longspur	laplon	0.5725	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-07\U05_20260707_133000.wav	384.0
+14	Spectrogram 1	1	474.0	477.0	0	15000	Red-winged Blackbird	rewbla	0.4237	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-07\U05_20260707_133000.wav	474.0
+15	Spectrogram 1	1	504.0	507.0	0	15000	Red-winged Blackbird	rewbla	0.2503	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-07\U05_20260707_133000.wav	504.0
+16	Spectrogram 1	1	513.0	516.0	0	15000	Eastern Meadowlark	easmea	0.2995	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-07\U05_20260707_133000.wav	513.0
+17	Spectrogram 1	1	537.0	540.0	0	15000	Lapland Longspur	laplon	0.2564	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-07\U05_20260707_133000.wav	537.0
+18	Spectrogram 1	1	687.0	690.0	0	15000	Red-winged Blackbird	rewbla	0.2578	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-07\U05_20260707_133000.wav	687.0
+19	Spectrogram 1	1	804.0	807.0	0	15000	American Avocet	ameavo	0.2619	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-07\U05_20260707_133000.wav	804.0
+20	Spectrogram 1	1	810.0	813.0	0	15000	Osprey	osprey	0.6609	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-07\U05_20260707_133000.wav	810.0
+21	Spectrogram 1	1	810.0	813.0	0	15000	Greater Yellowlegs	greyel	0.3929	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-07\U05_20260707_133000.wav	810.0
+22	Spectrogram 1	1	813.0	816.0	0	15000	Osprey	osprey	0.8625	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-07\U05_20260707_133000.wav	813.0
+23	Spectrogram 1	1	816.0	819.0	0	15000	Osprey	osprey	0.5216	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-07\U05_20260707_133000.wav	816.0
+24	Spectrogram 1	1	840.0	843.0	0	15000	Willow Flycatcher	wilfly	0.3837	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-07\U05_20260707_133000.wav	840.0
+25	Spectrogram 1	1	849.0	852.0	0	15000	Lapland Longspur	laplon	0.3666	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-07\U05_20260707_133000.wav	849.0
+26	Spectrogram 1	1	864.0	867.0	0	15000	Eastern Meadowlark	easmea	0.3293	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-07\U05_20260707_133000.wav	864.0

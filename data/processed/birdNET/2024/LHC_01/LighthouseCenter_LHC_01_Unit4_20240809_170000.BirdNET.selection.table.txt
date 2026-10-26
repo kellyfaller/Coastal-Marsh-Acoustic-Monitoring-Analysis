@@ -1,0 +1,7 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	78.0	81.0	0	15000	Belted Kingfisher	belkin1	0.7321	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240809_170000.wav	78.0
+2	Spectrogram 1	1	378.0	381.0	0	15000	Laughing Gull	laugul	0.8850	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240809_170000.wav	378.0
+3	Spectrogram 1	1	501.0	504.0	0	15000	Fish Crow	fiscro	0.4214	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240809_170000.wav	501.0
+4	Spectrogram 1	1	507.0	510.0	0	15000	Fish Crow	fiscro	0.6206	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240809_170000.wav	507.0
+5	Spectrogram 1	1	516.0	519.0	0	15000	American Crow	amecro	0.3234	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240809_170000.wav	516.0
+6	Spectrogram 1	1	522.0	525.0	0	15000	American Crow	amecro	0.2546	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240809_170000.wav	522.0

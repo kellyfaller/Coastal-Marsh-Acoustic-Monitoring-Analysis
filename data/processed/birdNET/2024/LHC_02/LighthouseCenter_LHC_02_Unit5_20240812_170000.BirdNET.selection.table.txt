@@ -1,0 +1,9 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	336.0	339.0	0	15000	Common Raven	comrav	0.2758	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240812_170000.wav	336.0
+2	Spectrogram 1	1	624.0	627.0	0	15000	Least Sandpiper	leasan	0.9866	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240812_170000.wav	624.0
+3	Spectrogram 1	1	633.0	636.0	0	15000	Least Sandpiper	leasan	0.8264	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240812_170000.wav	633.0
+4	Spectrogram 1	1	636.0	639.0	0	15000	Least Sandpiper	leasan	0.9943	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240812_170000.wav	636.0
+5	Spectrogram 1	1	639.0	642.0	0	15000	Least Sandpiper	leasan	0.3582	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240812_170000.wav	639.0
+6	Spectrogram 1	1	828.0	831.0	0	15000	Least Sandpiper	leasan	0.9948	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240812_170000.wav	828.0
+7	Spectrogram 1	1	843.0	846.0	0	15000	Least Sandpiper	leasan	0.6935	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240812_170000.wav	843.0
+8	Spectrogram 1	1	846.0	849.0	0	15000	Least Sandpiper	leasan	0.3444	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240812_170000.wav	846.0

@@ -1,0 +1,4 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	147.0	150.0	0	15000	Northern Waterthrush	norwat	0.2680	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-15\U05_20260615_141500.wav	147.0
+2	Spectrogram 1	1	381.0	384.0	0	15000	Seaside Sparrow	seaspa	0.3626	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-15\U05_20260615_141500.wav	381.0
+3	Spectrogram 1	1	660.0	663.0	0	15000	Carolina Wren	carwre	0.8375	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-15\U05_20260615_141500.wav	660.0

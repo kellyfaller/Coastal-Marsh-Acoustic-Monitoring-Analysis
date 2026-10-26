@@ -1,0 +1,17 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	117.0	120.0	0	15000	Great Horned Owl	grhowl	0.3745	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-27\Unit4_20260827_140000.wav	117.0
+2	Spectrogram 1	1	198.0	201.0	0	15000	Osprey	osprey	0.4890	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-27\Unit4_20260827_140000.wav	198.0
+3	Spectrogram 1	1	567.0	570.0	0	15000	Osprey	osprey	0.4098	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-27\Unit4_20260827_140000.wav	567.0
+4	Spectrogram 1	1	570.0	573.0	0	15000	Osprey	osprey	0.7082	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-27\Unit4_20260827_140000.wav	570.0
+5	Spectrogram 1	1	744.0	747.0	0	15000	Osprey	osprey	0.9665	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-27\Unit4_20260827_140000.wav	744.0
+6	Spectrogram 1	1	768.0	771.0	0	15000	Osprey	osprey	0.3518	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-27\Unit4_20260827_140000.wav	768.0
+7	Spectrogram 1	1	768.0	771.0	0	15000	Purple Martin	purmar	0.2718	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-27\Unit4_20260827_140000.wav	768.0
+8	Spectrogram 1	1	771.0	774.0	0	15000	Greater Yellowlegs	greyel	0.5189	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-27\Unit4_20260827_140000.wav	771.0
+9	Spectrogram 1	1	774.0	777.0	0	15000	Lesser Yellowlegs	lesyel	0.5752	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-27\Unit4_20260827_140000.wav	774.0
+10	Spectrogram 1	1	774.0	777.0	0	15000	Osprey	osprey	0.4393	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-27\Unit4_20260827_140000.wav	774.0
+11	Spectrogram 1	1	780.0	783.0	0	15000	Golden-crowned Kinglet	gockin	0.5897	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-27\Unit4_20260827_140000.wav	780.0
+12	Spectrogram 1	1	780.0	783.0	0	15000	Red-breasted Nuthatch	rebnut	0.3341	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-27\Unit4_20260827_140000.wav	780.0
+13	Spectrogram 1	1	789.0	792.0	0	15000	Greater Yellowlegs	greyel	0.4652	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-27\Unit4_20260827_140000.wav	789.0
+14	Spectrogram 1	1	789.0	792.0	0	15000	Lesser Yellowlegs	lesyel	0.2502	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-27\Unit4_20260827_140000.wav	789.0
+15	Spectrogram 1	1	792.0	795.0	0	15000	Osprey	osprey	0.3086	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-27\Unit4_20260827_140000.wav	792.0
+16	Spectrogram 1	1	840.0	843.0	0	15000	Osprey	osprey	0.3133	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-27\Unit4_20260827_140000.wav	840.0

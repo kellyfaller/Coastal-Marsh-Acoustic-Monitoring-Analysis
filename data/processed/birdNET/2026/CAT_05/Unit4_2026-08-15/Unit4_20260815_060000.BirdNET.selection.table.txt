@@ -1,0 +1,13 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	108.0	111.0	0	15000	Short-billed Dowitcher	shbdow	0.7416	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-15\Unit4_20260815_060000.wav	108.0
+2	Spectrogram 1	1	108.0	111.0	0	15000	Lesser Yellowlegs	lesyel	0.3787	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-15\Unit4_20260815_060000.wav	108.0
+3	Spectrogram 1	1	219.0	222.0	0	15000	Lesser Yellowlegs	lesyel	0.5688	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-15\Unit4_20260815_060000.wav	219.0
+4	Spectrogram 1	1	219.0	222.0	0	15000	Short-billed Dowitcher	shbdow	0.4432	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-15\Unit4_20260815_060000.wav	219.0
+5	Spectrogram 1	1	228.0	231.0	0	15000	Lesser Yellowlegs	lesyel	0.6200	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-15\Unit4_20260815_060000.wav	228.0
+6	Spectrogram 1	1	252.0	255.0	0	15000	Fish Crow	fiscro	0.8727	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-15\Unit4_20260815_060000.wav	252.0
+7	Spectrogram 1	1	654.0	657.0	0	15000	Great Blue Heron	grbher3	0.5633	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-15\Unit4_20260815_060000.wav	654.0
+8	Spectrogram 1	1	690.0	693.0	0	15000	American Goldfinch	amegfi	0.6582	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-15\Unit4_20260815_060000.wav	690.0
+9	Spectrogram 1	1	693.0	696.0	0	15000	American Goldfinch	amegfi	0.6855	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-15\Unit4_20260815_060000.wav	693.0
+10	Spectrogram 1	1	702.0	705.0	0	15000	American Goldfinch	amegfi	0.4511	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-15\Unit4_20260815_060000.wav	702.0
+11	Spectrogram 1	1	708.0	711.0	0	15000	American Goldfinch	amegfi	0.3608	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-15\Unit4_20260815_060000.wav	708.0
+12	Spectrogram 1	1	714.0	717.0	0	15000	American Goldfinch	amegfi	0.3423	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-15\Unit4_20260815_060000.wav	714.0

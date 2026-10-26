@@ -1,0 +1,13 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	168.0	171.0	0	15000	American Kestrel	amekes	0.3165	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_043000.wav	168.0
+2	Spectrogram 1	1	171.0	174.0	0	15000	Marsh Wren	marwre	0.8232	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_043000.wav	171.0
+3	Spectrogram 1	1	294.0	297.0	0	15000	Marsh Wren	marwre	0.9155	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_043000.wav	294.0
+4	Spectrogram 1	1	297.0	300.0	0	15000	Marsh Wren	marwre	0.6772	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_043000.wav	297.0
+5	Spectrogram 1	1	435.0	438.0	0	15000	Marsh Wren	marwre	0.3935	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_043000.wav	435.0
+6	Spectrogram 1	1	501.0	504.0	0	15000	Marsh Wren	marwre	0.2685	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_043000.wav	501.0
+7	Spectrogram 1	1	687.0	690.0	0	15000	Marsh Wren	marwre	0.7435	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_043000.wav	687.0
+8	Spectrogram 1	1	738.0	741.0	0	15000	Henslow's Sparrow	henspa	0.2824	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_043000.wav	738.0
+9	Spectrogram 1	1	744.0	747.0	0	15000	Eastern Kingbird	easkin	0.7445	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_043000.wav	744.0
+10	Spectrogram 1	1	786.0	789.0	0	15000	Marsh Wren	marwre	0.4697	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_043000.wav	786.0
+11	Spectrogram 1	1	789.0	792.0	0	15000	Marsh Wren	marwre	0.8518	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_043000.wav	789.0
+12	Spectrogram 1	1	864.0	867.0	0	15000	Marsh Wren	marwre	0.5897	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_043000.wav	864.0

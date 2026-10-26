@@ -1,0 +1,11 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	276.0	279.0	0	15000	Fireworks	frwrks	0.2566	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240730_150000.wav	276.0
+2	Spectrogram 1	1	366.0	369.0	0	15000	Fireworks	frwrks	0.3224	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240730_150000.wav	366.0
+3	Spectrogram 1	1	378.0	381.0	0	15000	Fireworks	frwrks	0.2661	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240730_150000.wav	378.0
+4	Spectrogram 1	1	570.0	573.0	0	15000	American Crow	amecro	0.3003	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240730_150000.wav	570.0
+5	Spectrogram 1	1	588.0	591.0	0	15000	Ring-billed Gull	ribgul	0.7639	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240730_150000.wav	588.0
+6	Spectrogram 1	1	588.0	591.0	0	15000	Laughing Gull	laugul	0.3091	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240730_150000.wav	588.0
+7	Spectrogram 1	1	687.0	690.0	0	15000	Short-billed Dowitcher	shbdow	0.8762	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240730_150000.wav	687.0
+8	Spectrogram 1	1	774.0	777.0	0	15000	Fireworks	frwrks	0.2857	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240730_150000.wav	774.0
+9	Spectrogram 1	1	786.0	789.0	0	15000	Least Sandpiper	leasan	0.4257	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240730_150000.wav	786.0
+10	Spectrogram 1	1	789.0	792.0	0	15000	Least Sandpiper	leasan	0.7280	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240730_150000.wav	789.0

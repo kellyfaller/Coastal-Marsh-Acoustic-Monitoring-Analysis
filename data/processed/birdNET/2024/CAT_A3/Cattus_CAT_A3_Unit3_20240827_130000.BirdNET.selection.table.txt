@@ -1,0 +1,8 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	36.0	39.0	0	15000	Least Sandpiper	leasan	0.4682	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240827_130000.wav	36.0
+2	Spectrogram 1	1	39.0	42.0	0	15000	Least Sandpiper	leasan	0.3502	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240827_130000.wav	39.0
+3	Spectrogram 1	1	99.0	102.0	0	15000	House Finch	houfin	0.2998	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240827_130000.wav	99.0
+4	Spectrogram 1	1	159.0	162.0	0	15000	Fish Crow	fiscro	0.3636	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240827_130000.wav	159.0
+5	Spectrogram 1	1	414.0	417.0	0	15000	Eastern Towhee	eastow	0.2857	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240827_130000.wav	414.0
+6	Spectrogram 1	1	825.0	828.0	0	15000	Fish Crow	fiscro	0.7510	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240827_130000.wav	825.0
+7	Spectrogram 1	1	894.0	897.0	0	15000	Trumpeter Swan	truswa	0.4200	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240827_130000.wav	894.0

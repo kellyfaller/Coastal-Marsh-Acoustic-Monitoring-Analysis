@@ -1,0 +1,12 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	240.0	243.0	0	15000	Osprey	osprey	0.3372	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-08\Unit4_20260608_130000.wav	240.0
+2	Spectrogram 1	1	549.0	552.0	0	15000	Black Scoter	blksco2	0.3842	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-08\Unit4_20260608_130000.wav	549.0
+3	Spectrogram 1	1	555.0	558.0	0	15000	Black Scoter	blksco2	0.2850	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-08\Unit4_20260608_130000.wav	555.0
+4	Spectrogram 1	1	564.0	567.0	0	15000	Black Scoter	blksco2	0.2972	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-08\Unit4_20260608_130000.wav	564.0
+5	Spectrogram 1	1	570.0	573.0	0	15000	Black Scoter	blksco2	0.4951	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-08\Unit4_20260608_130000.wav	570.0
+6	Spectrogram 1	1	579.0	582.0	0	15000	Black Scoter	blksco2	0.3171	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-08\Unit4_20260608_130000.wav	579.0
+7	Spectrogram 1	1	783.0	786.0	0	15000	Osprey	osprey	0.5473	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-08\Unit4_20260608_130000.wav	783.0
+8	Spectrogram 1	1	855.0	858.0	0	15000	Osprey	osprey	0.4221	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-08\Unit4_20260608_130000.wav	855.0
+9	Spectrogram 1	1	885.0	888.0	0	15000	Osprey	osprey	0.3981	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-08\Unit4_20260608_130000.wav	885.0
+10	Spectrogram 1	1	894.0	897.0	0	15000	Osprey	osprey	0.3739	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-08\Unit4_20260608_130000.wav	894.0
+11	Spectrogram 1	1	897.0	900.0	0	15000	Black Scoter	blksco2	0.7016	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-08\Unit4_20260608_130000.wav	897.0

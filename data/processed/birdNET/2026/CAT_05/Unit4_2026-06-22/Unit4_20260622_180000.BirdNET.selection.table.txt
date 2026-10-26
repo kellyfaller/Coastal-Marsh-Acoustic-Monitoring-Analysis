@@ -1,0 +1,10 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	102.0	105.0	0	15000	Red-winged Blackbird	rewbla	0.2863	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_180000.wav	102.0
+2	Spectrogram 1	1	141.0	144.0	0	15000	Eastern Towhee	eastow	0.2670	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_180000.wav	141.0
+3	Spectrogram 1	1	150.0	153.0	0	15000	American Goldfinch	amegfi	0.2807	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_180000.wav	150.0
+4	Spectrogram 1	1	204.0	207.0	0	15000	Blue Jay	blujay	0.3075	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_180000.wav	204.0
+5	Spectrogram 1	1	387.0	390.0	0	15000	Red-winged Blackbird	rewbla	0.2763	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_180000.wav	387.0
+6	Spectrogram 1	1	405.0	408.0	0	15000	Willow Flycatcher	wilfly	0.2969	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_180000.wav	405.0
+7	Spectrogram 1	1	546.0	549.0	0	15000	Common Yellowthroat	comyel	0.3061	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_180000.wav	546.0
+8	Spectrogram 1	1	756.0	759.0	0	15000	Seaside Sparrow	seaspa	0.2929	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_180000.wav	756.0
+9	Spectrogram 1	1	891.0	894.0	0	15000	Fish Crow	fiscro	0.3740	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_180000.wav	891.0

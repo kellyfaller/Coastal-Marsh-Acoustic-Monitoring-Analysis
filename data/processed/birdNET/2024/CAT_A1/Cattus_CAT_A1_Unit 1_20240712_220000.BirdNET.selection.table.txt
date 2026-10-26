@@ -1,0 +1,7 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	72.0	75.0	0	15000	Eastern Screech-Owl	easowl1	0.8897	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240712_220000.wav	72.0
+2	Spectrogram 1	1	72.0	75.0	0	15000	Northern Saw-whet Owl	nswowl	0.4721	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240712_220000.wav	72.0
+3	Spectrogram 1	1	372.0	375.0	0	15000	Engine	engine	0.2609	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240712_220000.wav	372.0
+4	Spectrogram 1	1	378.0	381.0	0	15000	Engine	engine	0.4635	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240712_220000.wav	378.0
+5	Spectrogram 1	1	387.0	390.0	0	15000	Eastern Screech-Owl	easowl1	0.7454	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240712_220000.wav	387.0
+6	Spectrogram 1	1	390.0	393.0	0	15000	Eastern Screech-Owl	easowl1	0.5742	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240712_220000.wav	390.0

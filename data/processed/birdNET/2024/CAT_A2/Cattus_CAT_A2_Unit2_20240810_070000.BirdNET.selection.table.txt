@@ -1,0 +1,20 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	84.0	87.0	0	15000	Brown-headed Nuthatch	bnhnut	0.6017	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240810_070000.wav	84.0
+2	Spectrogram 1	1	105.0	108.0	0	15000	Gray Catbird	grycat	0.3106	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240810_070000.wav	105.0
+3	Spectrogram 1	1	156.0	159.0	0	15000	Brown-headed Nuthatch	bnhnut	0.4937	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240810_070000.wav	156.0
+4	Spectrogram 1	1	234.0	237.0	0	15000	Brown-headed Nuthatch	bnhnut	0.2551	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240810_070000.wav	234.0
+5	Spectrogram 1	1	285.0	288.0	0	15000	Fish Crow	fiscro	0.3946	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240810_070000.wav	285.0
+6	Spectrogram 1	1	300.0	303.0	0	15000	Purple Martin	purmar	0.5127	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240810_070000.wav	300.0
+7	Spectrogram 1	1	396.0	399.0	0	15000	Gray Catbird	grycat	0.3955	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240810_070000.wav	396.0
+8	Spectrogram 1	1	405.0	408.0	0	15000	Gray Catbird	grycat	0.4164	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240810_070000.wav	405.0
+9	Spectrogram 1	1	408.0	411.0	0	15000	Gray Catbird	grycat	0.3669	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240810_070000.wav	408.0
+10	Spectrogram 1	1	474.0	477.0	0	15000	Carolina Wren	carwre	0.4294	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240810_070000.wav	474.0
+11	Spectrogram 1	1	477.0	480.0	0	15000	Carolina Wren	carwre	0.5736	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240810_070000.wav	477.0
+12	Spectrogram 1	1	483.0	486.0	0	15000	Ruby-crowned Kinglet	ruckin	0.3825	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240810_070000.wav	483.0
+13	Spectrogram 1	1	498.0	501.0	0	15000	Ruby-crowned Kinglet	ruckin	0.5923	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240810_070000.wav	498.0
+14	Spectrogram 1	1	579.0	582.0	0	15000	Carolina Wren	carwre	0.6397	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240810_070000.wav	579.0
+15	Spectrogram 1	1	585.0	588.0	0	15000	Carolina Wren	carwre	0.3311	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240810_070000.wav	585.0
+16	Spectrogram 1	1	660.0	663.0	0	15000	Carolina Chickadee	carchi	0.7634	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240810_070000.wav	660.0
+17	Spectrogram 1	1	660.0	663.0	0	15000	Black-capped Chickadee	bkcchi	0.4648	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240810_070000.wav	660.0
+18	Spectrogram 1	1	762.0	765.0	0	15000	Mourning Dove	moudov	0.2542	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240810_070000.wav	762.0
+19	Spectrogram 1	1	864.0	867.0	0	15000	Brown-headed Nuthatch	bnhnut	0.4452	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240810_070000.wav	864.0

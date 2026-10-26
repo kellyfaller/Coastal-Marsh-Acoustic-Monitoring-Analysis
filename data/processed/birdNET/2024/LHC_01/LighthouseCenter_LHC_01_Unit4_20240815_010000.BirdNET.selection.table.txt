@@ -1,0 +1,8 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	0.0	3.0	0	15000	Eastern Screech-Owl	easowl1	0.2901	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240815_010000.wav	0.0
+2	Spectrogram 1	1	57.0	60.0	0	15000	Great Horned Owl	grhowl	0.3348	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240815_010000.wav	57.0
+3	Spectrogram 1	1	420.0	423.0	0	15000	Eastern Screech-Owl	easowl1	0.2691	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240815_010000.wav	420.0
+4	Spectrogram 1	1	423.0	426.0	0	15000	Eastern Screech-Owl	easowl1	0.2689	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240815_010000.wav	423.0
+5	Spectrogram 1	1	639.0	642.0	0	15000	Common Virtuoso Katydid	t-11851326	0.3212	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240815_010000.wav	639.0
+6	Spectrogram 1	1	654.0	657.0	0	15000	Common Virtuoso Katydid	t-11851326	0.3039	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240815_010000.wav	654.0
+7	Spectrogram 1	1	672.0	675.0	0	15000	Eastern Screech-Owl	easowl1	0.4366	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240815_010000.wav	672.0

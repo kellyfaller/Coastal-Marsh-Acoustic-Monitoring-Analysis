@@ -1,0 +1,13 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	159.0	162.0	0	15000	Mute Swan	mutswa	0.3392	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240828_150000.wav	159.0
+2	Spectrogram 1	1	483.0	486.0	0	15000	Belted Kingfisher	belkin1	0.8530	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240828_150000.wav	483.0
+3	Spectrogram 1	1	504.0	507.0	0	15000	Tinkling Ground Cricket	t-11843287	0.2543	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240828_150000.wav	504.0
+4	Spectrogram 1	1	519.0	522.0	0	15000	Purple Martin	purmar	0.2520	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240828_150000.wav	519.0
+5	Spectrogram 1	1	522.0	525.0	0	15000	Osprey	osprey	0.9008	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240828_150000.wav	522.0
+6	Spectrogram 1	1	546.0	549.0	0	15000	Northern Rough-winged Swallow	nrwswa	0.4083	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240828_150000.wav	546.0
+7	Spectrogram 1	1	552.0	555.0	0	15000	Golden-crowned Kinglet	gockin	0.4362	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240828_150000.wav	552.0
+8	Spectrogram 1	1	597.0	600.0	0	15000	Greater White-fronted Goose	gwfgoo	0.4428	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240828_150000.wav	597.0
+9	Spectrogram 1	1	603.0	606.0	0	15000	Fish Crow	fiscro	0.2942	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240828_150000.wav	603.0
+10	Spectrogram 1	1	627.0	630.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3554	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240828_150000.wav	627.0
+11	Spectrogram 1	1	687.0	690.0	0	15000	Allard's Ground Cricket	t-11840984	0.2545	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240828_150000.wav	687.0
+12	Spectrogram 1	1	693.0	696.0	0	15000	Tinkling Ground Cricket	t-11843287	0.2857	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240828_150000.wav	693.0

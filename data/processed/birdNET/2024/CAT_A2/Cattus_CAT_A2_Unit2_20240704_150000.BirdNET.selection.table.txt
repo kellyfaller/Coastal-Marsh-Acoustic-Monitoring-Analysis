@@ -1,0 +1,17 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	72.0	75.0	0	15000	Great Egret	greegr	0.8369	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_150000.wav	72.0
+2	Spectrogram 1	1	270.0	273.0	0	15000	Common Yellowthroat	comyel	0.7589	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_150000.wav	270.0
+3	Spectrogram 1	1	276.0	279.0	0	15000	Eastern Towhee	eastow	0.5551	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_150000.wav	276.0
+4	Spectrogram 1	1	303.0	306.0	0	15000	Common Yellowthroat	comyel	0.2560	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_150000.wav	303.0
+5	Spectrogram 1	1	318.0	321.0	0	15000	Fish Crow	fiscro	0.3110	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_150000.wav	318.0
+6	Spectrogram 1	1	336.0	339.0	0	15000	Common Yellowthroat	comyel	0.3522	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_150000.wav	336.0
+7	Spectrogram 1	1	345.0	348.0	0	15000	Fish Crow	fiscro	0.3186	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_150000.wav	345.0
+8	Spectrogram 1	1	357.0	360.0	0	15000	Common Yellowthroat	comyel	0.6868	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_150000.wav	357.0
+9	Spectrogram 1	1	600.0	603.0	0	15000	Marsh Wren	marwre	0.6243	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_150000.wav	600.0
+10	Spectrogram 1	1	804.0	807.0	0	15000	Eastern Towhee	eastow	0.4259	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_150000.wav	804.0
+11	Spectrogram 1	1	840.0	843.0	0	15000	Eastern Towhee	eastow	0.5313	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_150000.wav	840.0
+12	Spectrogram 1	1	849.0	852.0	0	15000	Eastern Towhee	eastow	0.5615	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_150000.wav	849.0
+13	Spectrogram 1	1	858.0	861.0	0	15000	Eastern Towhee	eastow	0.6468	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_150000.wav	858.0
+14	Spectrogram 1	1	861.0	864.0	0	15000	Osprey	osprey	0.3470	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_150000.wav	861.0
+15	Spectrogram 1	1	870.0	873.0	0	15000	Eastern Towhee	eastow	0.5673	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_150000.wav	870.0
+16	Spectrogram 1	1	888.0	891.0	0	15000	Eastern Towhee	eastow	0.2855	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_150000.wav	888.0

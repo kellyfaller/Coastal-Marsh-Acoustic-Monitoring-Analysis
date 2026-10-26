@@ -1,0 +1,15 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	39.0	42.0	0	15000	Red-winged Blackbird	rewbla	0.2773	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_170000.wav	39.0
+2	Spectrogram 1	1	51.0	54.0	0	15000	Red-winged Blackbird	rewbla	0.2513	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_170000.wav	51.0
+3	Spectrogram 1	1	123.0	126.0	0	15000	Northern Saw-whet Owl	nswowl	0.2525	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_170000.wav	123.0
+4	Spectrogram 1	1	216.0	219.0	0	15000	Seaside Sparrow	seaspa	0.2826	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_170000.wav	216.0
+5	Spectrogram 1	1	222.0	225.0	0	15000	Whimbrel	whimbr	0.3307	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_170000.wav	222.0
+6	Spectrogram 1	1	270.0	273.0	0	15000	Red Crossbill	redcro	0.6515	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_170000.wav	270.0
+7	Spectrogram 1	1	285.0	288.0	0	15000	Common Tern	comter	0.2561	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_170000.wav	285.0
+8	Spectrogram 1	1	297.0	300.0	0	15000	Common Tern	comter	0.3786	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_170000.wav	297.0
+9	Spectrogram 1	1	300.0	303.0	0	15000	Common Tern	comter	0.8340	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_170000.wav	300.0
+10	Spectrogram 1	1	321.0	324.0	0	15000	Osprey	osprey	0.4902	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_170000.wav	321.0
+11	Spectrogram 1	1	756.0	759.0	0	15000	Laughing Gull	laugul	0.3518	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_170000.wav	756.0
+12	Spectrogram 1	1	759.0	762.0	0	15000	Laughing Gull	laugul	0.4970	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_170000.wav	759.0
+13	Spectrogram 1	1	864.0	867.0	0	15000	Alder Flycatcher	aldfly	0.4226	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_170000.wav	864.0
+14	Spectrogram 1	1	888.0	891.0	0	15000	Wilson's Plover	wilplo	0.3333	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_170000.wav	888.0

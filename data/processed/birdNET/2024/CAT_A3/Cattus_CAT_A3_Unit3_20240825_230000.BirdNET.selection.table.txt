@@ -1,0 +1,5 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	105.0	108.0	0	15000	Jumping Bush Cricket	t-11850192	0.2754	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240825_230000.wav	105.0
+2	Spectrogram 1	1	210.0	213.0	0	15000	Common Virtuoso Katydid	t-11851326	0.2689	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240825_230000.wav	210.0
+3	Spectrogram 1	1	216.0	219.0	0	15000	Eastern Screech-Owl	easowl1	0.2519	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240825_230000.wav	216.0
+4	Spectrogram 1	1	801.0	804.0	0	15000	Common Virtuoso Katydid	t-11851326	0.2701	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240825_230000.wav	801.0

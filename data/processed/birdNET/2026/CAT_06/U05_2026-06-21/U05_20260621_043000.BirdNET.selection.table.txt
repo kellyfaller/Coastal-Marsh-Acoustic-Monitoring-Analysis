@@ -1,0 +1,9 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	99.0	102.0	0	15000	Purple Martin	purmar	0.4254	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-21\U05_20260621_043000.wav	99.0
+2	Spectrogram 1	1	174.0	177.0	0	15000	Purple Martin	purmar	0.2680	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-21\U05_20260621_043000.wav	174.0
+3	Spectrogram 1	1	342.0	345.0	0	15000	Marsh Wren	marwre	0.5476	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-21\U05_20260621_043000.wav	342.0
+4	Spectrogram 1	1	438.0	441.0	0	15000	Gray Catbird	grycat	0.2779	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-21\U05_20260621_043000.wav	438.0
+5	Spectrogram 1	1	570.0	573.0	0	15000	Brown Thrasher	brnthr	0.3994	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-21\U05_20260621_043000.wav	570.0
+6	Spectrogram 1	1	570.0	573.0	0	15000	Gray Catbird	grycat	0.3428	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-21\U05_20260621_043000.wav	570.0
+7	Spectrogram 1	1	621.0	624.0	0	15000	Bobolink	boboli	0.3370	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-21\U05_20260621_043000.wav	621.0
+8	Spectrogram 1	1	867.0	870.0	0	15000	Marsh Wren	marwre	0.4182	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-21\U05_20260621_043000.wav	867.0

@@ -1,0 +1,5 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	39.0	42.0	0	15000	White-crowned Sparrow	whcspa	0.3257	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-11\Unit4_20260611_120000.wav	39.0
+2	Spectrogram 1	1	96.0	99.0	0	15000	Marsh Wren	marwre	0.3839	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-11\Unit4_20260611_120000.wav	96.0
+3	Spectrogram 1	1	231.0	234.0	0	15000	Red-winged Blackbird	rewbla	0.4244	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-11\Unit4_20260611_120000.wav	231.0
+4	Spectrogram 1	1	720.0	723.0	0	15000	Seaside Sparrow	seaspa	0.9567	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-11\Unit4_20260611_120000.wav	720.0

@@ -1,0 +1,27 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	6.0	9.0	0	15000	Song Sparrow	sonspa	0.2846	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240703_080000.wav	6.0
+2	Spectrogram 1	1	69.0	72.0	0	15000	Gray Catbird	grycat	0.3726	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240703_080000.wav	69.0
+3	Spectrogram 1	1	72.0	75.0	0	15000	Gray Catbird	grycat	0.4421	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240703_080000.wav	72.0
+4	Spectrogram 1	1	90.0	93.0	0	15000	Gray Catbird	grycat	0.2913	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240703_080000.wav	90.0
+5	Spectrogram 1	1	123.0	126.0	0	15000	American Goldfinch	amegfi	0.4088	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240703_080000.wav	123.0
+6	Spectrogram 1	1	150.0	153.0	0	15000	Carolina Wren	carwre	0.4777	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240703_080000.wav	150.0
+7	Spectrogram 1	1	168.0	171.0	0	15000	Marsh Wren	marwre	0.5335	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240703_080000.wav	168.0
+8	Spectrogram 1	1	270.0	273.0	0	15000	Red-bellied Woodpecker	rebwoo	0.4317	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240703_080000.wav	270.0
+9	Spectrogram 1	1	285.0	288.0	0	15000	Gray Catbird	grycat	0.2958	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240703_080000.wav	285.0
+10	Spectrogram 1	1	288.0	291.0	0	15000	Gray Catbird	grycat	0.4363	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240703_080000.wav	288.0
+11	Spectrogram 1	1	339.0	342.0	0	15000	Red-bellied Woodpecker	rebwoo	0.2907	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240703_080000.wav	339.0
+12	Spectrogram 1	1	375.0	378.0	0	15000	Marsh Wren	marwre	0.2895	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240703_080000.wav	375.0
+13	Spectrogram 1	1	411.0	414.0	0	15000	Red-bellied Woodpecker	rebwoo	0.3016	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240703_080000.wav	411.0
+14	Spectrogram 1	1	435.0	438.0	0	15000	Red-bellied Woodpecker	rebwoo	0.5257	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240703_080000.wav	435.0
+15	Spectrogram 1	1	450.0	453.0	0	15000	Bank Swallow	banswa	0.7342	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240703_080000.wav	450.0
+16	Spectrogram 1	1	456.0	459.0	0	15000	Red-bellied Woodpecker	rebwoo	0.5289	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240703_080000.wav	456.0
+17	Spectrogram 1	1	459.0	462.0	0	15000	White-breasted Nuthatch	whbnut	0.3196	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240703_080000.wav	459.0
+18	Spectrogram 1	1	465.0	468.0	0	15000	Osprey	osprey	0.8522	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240703_080000.wav	465.0
+19	Spectrogram 1	1	495.0	498.0	0	15000	Red-bellied Woodpecker	rebwoo	0.2933	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240703_080000.wav	495.0
+20	Spectrogram 1	1	711.0	714.0	0	15000	Red-bellied Woodpecker	rebwoo	0.4186	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240703_080000.wav	711.0
+21	Spectrogram 1	1	738.0	741.0	0	15000	American Robin	amerob	0.4175	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240703_080000.wav	738.0
+22	Spectrogram 1	1	759.0	762.0	0	15000	American Robin	amerob	0.6363	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240703_080000.wav	759.0
+23	Spectrogram 1	1	774.0	777.0	0	15000	American Robin	amerob	0.9213	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240703_080000.wav	774.0
+24	Spectrogram 1	1	879.0	882.0	0	15000	Red-bellied Woodpecker	rebwoo	0.3670	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240703_080000.wav	879.0
+25	Spectrogram 1	1	888.0	891.0	0	15000	Red-bellied Woodpecker	rebwoo	0.6329	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240703_080000.wav	888.0
+26	Spectrogram 1	1	891.0	894.0	0	15000	Red-bellied Woodpecker	rebwoo	0.5243	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240703_080000.wav	891.0

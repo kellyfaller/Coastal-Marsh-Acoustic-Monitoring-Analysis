@@ -1,0 +1,14 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	0.0	3.0	0	15000	Laughing Gull	laugul	0.8715	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-07\Unit2_20260607_170000.wav	0.0
+2	Spectrogram 1	1	12.0	15.0	0	15000	Tundra Swan	tunswa	0.2655	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-07\Unit2_20260607_170000.wav	12.0
+3	Spectrogram 1	1	36.0	39.0	0	15000	Red-breasted Nuthatch	rebnut	0.3611	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-07\Unit2_20260607_170000.wav	36.0
+4	Spectrogram 1	1	261.0	264.0	0	15000	Pine Siskin	pinsis	0.2551	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-07\Unit2_20260607_170000.wav	261.0
+5	Spectrogram 1	1	282.0	285.0	0	15000	Least Tern	leater1	0.6313	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-07\Unit2_20260607_170000.wav	282.0
+6	Spectrogram 1	1	285.0	288.0	0	15000	Least Tern	leater1	0.3217	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-07\Unit2_20260607_170000.wav	285.0
+7	Spectrogram 1	1	381.0	384.0	0	15000	Wood Thrush	woothr	0.2674	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-07\Unit2_20260607_170000.wav	381.0
+8	Spectrogram 1	1	411.0	414.0	0	15000	Least Tern	leater1	0.9820	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-07\Unit2_20260607_170000.wav	411.0
+9	Spectrogram 1	1	414.0	417.0	0	15000	Least Tern	leater1	0.4369	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-07\Unit2_20260607_170000.wav	414.0
+10	Spectrogram 1	1	459.0	462.0	0	15000	Least Tern	leater1	0.3070	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-07\Unit2_20260607_170000.wav	459.0
+11	Spectrogram 1	1	690.0	693.0	0	15000	Forster's Tern	forter	0.9864	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-07\Unit2_20260607_170000.wav	690.0
+12	Spectrogram 1	1	777.0	780.0	0	15000	Eastern Bluebird	easblu	0.2890	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-07\Unit2_20260607_170000.wav	777.0
+13	Spectrogram 1	1	882.0	885.0	0	15000	Dunlin	dunlin	0.3397	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-07\Unit2_20260607_170000.wav	882.0

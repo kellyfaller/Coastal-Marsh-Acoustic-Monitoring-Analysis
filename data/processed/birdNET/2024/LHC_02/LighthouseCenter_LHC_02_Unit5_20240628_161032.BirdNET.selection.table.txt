@@ -1,0 +1,4 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	90.0	93.0	0	15000	Northern Shoveler	norsho	0.4196	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240628_161032.wav	90.0
+2	Spectrogram 1	1	210.0	213.0	0	15000	Northern Shoveler	norsho	0.4080	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240628_161032.wav	210.0
+3	Spectrogram 1	1	240.0	243.0	0	15000	Northern Shoveler	norsho	0.3369	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240628_161032.wav	240.0

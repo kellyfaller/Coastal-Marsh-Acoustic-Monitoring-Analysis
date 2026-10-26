@@ -1,0 +1,10 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	144.0	147.0	0	15000	Fish Crow	fiscro	0.3940	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240630_190000.wav	144.0
+2	Spectrogram 1	1	168.0	171.0	0	15000	Great Blue Heron	grbher3	0.3885	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240630_190000.wav	168.0
+3	Spectrogram 1	1	309.0	312.0	0	15000	Laughing Gull	laugul	0.7219	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240630_190000.wav	309.0
+4	Spectrogram 1	1	351.0	354.0	0	15000	Barn Swallow	barswa	0.2536	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240630_190000.wav	351.0
+5	Spectrogram 1	1	426.0	429.0	0	15000	Engine	engine	0.2510	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240630_190000.wav	426.0
+6	Spectrogram 1	1	444.0	447.0	0	15000	Forster's Tern	forter	0.3755	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240630_190000.wav	444.0
+7	Spectrogram 1	1	477.0	480.0	0	15000	Engine	engine	0.2500	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240630_190000.wav	477.0
+8	Spectrogram 1	1	789.0	792.0	0	15000	Engine	engine	0.5920	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240630_190000.wav	789.0
+9	Spectrogram 1	1	822.0	825.0	0	15000	Engine	engine	0.4731	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240630_190000.wav	822.0

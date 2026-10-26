@@ -1,0 +1,6 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	51.0	54.0	0	15000	Dunlin	dunlin	0.3845	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-13\Unit4_20260613_120000.wav	51.0
+2	Spectrogram 1	1	69.0	72.0	0	15000	Evening Grosbeak	evegro	0.4733	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-13\Unit4_20260613_120000.wav	69.0
+3	Spectrogram 1	1	303.0	306.0	0	15000	Herring Gull	hergul	0.2822	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-13\Unit4_20260613_120000.wav	303.0
+4	Spectrogram 1	1	492.0	495.0	0	15000	Yellow Warbler	yelwar	0.2787	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-13\Unit4_20260613_120000.wav	492.0
+5	Spectrogram 1	1	570.0	573.0	0	15000	Common Yellowthroat	comyel	0.3447	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-13\Unit4_20260613_120000.wav	570.0

@@ -1,0 +1,28 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	21.0	24.0	0	15000	Greater Yellowlegs	greyel	0.8492	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_200000.wav	21.0
+2	Spectrogram 1	1	24.0	27.0	0	15000	Greater Yellowlegs	greyel	0.2632	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_200000.wav	24.0
+3	Spectrogram 1	1	30.0	33.0	0	15000	Greater Yellowlegs	greyel	0.9660	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_200000.wav	30.0
+4	Spectrogram 1	1	33.0	36.0	0	15000	Greater Yellowlegs	greyel	0.8613	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_200000.wav	33.0
+5	Spectrogram 1	1	36.0	39.0	0	15000	Greater Yellowlegs	greyel	0.4756	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_200000.wav	36.0
+6	Spectrogram 1	1	45.0	48.0	0	15000	Greater Yellowlegs	greyel	0.7126	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_200000.wav	45.0
+7	Spectrogram 1	1	54.0	57.0	0	15000	Greater Yellowlegs	greyel	0.7489	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_200000.wav	54.0
+8	Spectrogram 1	1	72.0	75.0	0	15000	Greater Yellowlegs	greyel	0.4507	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_200000.wav	72.0
+9	Spectrogram 1	1	84.0	87.0	0	15000	Greater Yellowlegs	greyel	0.8594	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_200000.wav	84.0
+10	Spectrogram 1	1	99.0	102.0	0	15000	Greater Yellowlegs	greyel	0.4601	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_200000.wav	99.0
+11	Spectrogram 1	1	102.0	105.0	0	15000	Greater Yellowlegs	greyel	0.7271	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_200000.wav	102.0
+12	Spectrogram 1	1	111.0	114.0	0	15000	Greater Yellowlegs	greyel	0.9171	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_200000.wav	111.0
+13	Spectrogram 1	1	132.0	135.0	0	15000	Greater Yellowlegs	greyel	0.5084	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_200000.wav	132.0
+14	Spectrogram 1	1	141.0	144.0	0	15000	Greater Yellowlegs	greyel	0.8994	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_200000.wav	141.0
+15	Spectrogram 1	1	147.0	150.0	0	15000	Jumping Bush Cricket	t-11850192	0.5406	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_200000.wav	147.0
+16	Spectrogram 1	1	168.0	171.0	0	15000	Jumping Bush Cricket	t-11850192	0.4800	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_200000.wav	168.0
+17	Spectrogram 1	1	186.0	189.0	0	15000	Jumping Bush Cricket	t-11850192	0.2544	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_200000.wav	186.0
+18	Spectrogram 1	1	261.0	264.0	0	15000	Jumping Bush Cricket	t-11850192	0.3632	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_200000.wav	261.0
+19	Spectrogram 1	1	447.0	450.0	0	15000	Jumping Bush Cricket	t-11850192	0.3552	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_200000.wav	447.0
+20	Spectrogram 1	1	519.0	522.0	0	15000	Jumping Bush Cricket	t-11850192	0.2716	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_200000.wav	519.0
+21	Spectrogram 1	1	528.0	531.0	0	15000	Jumping Bush Cricket	t-11850192	0.2742	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_200000.wav	528.0
+22	Spectrogram 1	1	636.0	639.0	0	15000	Jumping Bush Cricket	t-11850192	0.2749	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_200000.wav	636.0
+23	Spectrogram 1	1	642.0	645.0	0	15000	Jumping Bush Cricket	t-11850192	0.2845	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_200000.wav	642.0
+24	Spectrogram 1	1	660.0	663.0	0	15000	Jumping Bush Cricket	t-11850192	0.4478	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_200000.wav	660.0
+25	Spectrogram 1	1	780.0	783.0	0	15000	Jumping Bush Cricket	t-11850192	0.2578	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_200000.wav	780.0
+26	Spectrogram 1	1	867.0	870.0	0	15000	Jumping Bush Cricket	t-11850192	0.5672	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_200000.wav	867.0
+27	Spectrogram 1	1	885.0	888.0	0	15000	Jumping Bush Cricket	t-11850192	0.5723	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_200000.wav	885.0

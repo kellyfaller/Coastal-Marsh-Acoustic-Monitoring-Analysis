@@ -1,0 +1,10 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	162.0	165.0	0	15000	Least Sandpiper	leasan	0.3981	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240829_100000.wav	162.0
+2	Spectrogram 1	1	171.0	174.0	0	15000	Least Sandpiper	leasan	0.3441	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240829_100000.wav	171.0
+3	Spectrogram 1	1	177.0	180.0	0	15000	Least Sandpiper	leasan	0.8693	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240829_100000.wav	177.0
+4	Spectrogram 1	1	336.0	339.0	0	15000	Fireworks	frwrks	0.2508	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240829_100000.wav	336.0
+5	Spectrogram 1	1	474.0	477.0	0	15000	Osprey	osprey	0.5130	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240829_100000.wav	474.0
+6	Spectrogram 1	1	510.0	513.0	0	15000	Royal Tern	royter1	0.5248	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240829_100000.wav	510.0
+7	Spectrogram 1	1	660.0	663.0	0	15000	Greater White-fronted Goose	gwfgoo	0.4278	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240829_100000.wav	660.0
+8	Spectrogram 1	1	786.0	789.0	0	15000	Osprey	osprey	0.5498	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240829_100000.wav	786.0
+9	Spectrogram 1	1	825.0	828.0	0	15000	Royal Tern	royter1	0.2665	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240829_100000.wav	825.0

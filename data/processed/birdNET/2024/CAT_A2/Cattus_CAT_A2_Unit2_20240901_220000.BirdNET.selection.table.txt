@@ -1,0 +1,12 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	0.0	3.0	0	15000	Great Horned Owl	grhowl	0.2658	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240901_220000.wav	0.0
+2	Spectrogram 1	1	336.0	339.0	0	15000	Engine	engine	0.4449	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240901_220000.wav	336.0
+3	Spectrogram 1	1	444.0	447.0	0	15000	Fireworks	frwrks	0.7082	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240901_220000.wav	444.0
+4	Spectrogram 1	1	453.0	456.0	0	15000	Fireworks	frwrks	0.9490	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240901_220000.wav	453.0
+5	Spectrogram 1	1	456.0	459.0	0	15000	Fireworks	frwrks	0.8103	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240901_220000.wav	456.0
+6	Spectrogram 1	1	459.0	462.0	0	15000	Fireworks	frwrks	0.5853	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240901_220000.wav	459.0
+7	Spectrogram 1	1	720.0	723.0	0	15000	Fireworks	frwrks	0.4989	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240901_220000.wav	720.0
+8	Spectrogram 1	1	723.0	726.0	0	15000	Fireworks	frwrks	0.2550	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240901_220000.wav	723.0
+9	Spectrogram 1	1	726.0	729.0	0	15000	Fireworks	frwrks	0.6747	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240901_220000.wav	726.0
+10	Spectrogram 1	1	753.0	756.0	0	15000	Black-crowned Night-Heron	bcnher	0.2782	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240901_220000.wav	753.0
+11	Spectrogram 1	1	804.0	807.0	0	15000	Carolina Ground Cricket	t-11849030	0.3260	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240901_220000.wav	804.0

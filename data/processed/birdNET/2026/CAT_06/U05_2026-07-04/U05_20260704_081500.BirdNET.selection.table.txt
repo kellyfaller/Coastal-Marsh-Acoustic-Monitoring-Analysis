@@ -1,0 +1,16 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	60.0	63.0	0	15000	Osprey	osprey	0.9056	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_081500.wav	60.0
+2	Spectrogram 1	1	63.0	66.0	0	15000	Osprey	osprey	0.9193	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_081500.wav	63.0
+3	Spectrogram 1	1	138.0	141.0	0	15000	Northern Flicker	norfli	0.3376	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_081500.wav	138.0
+4	Spectrogram 1	1	141.0	144.0	0	15000	Northern Flicker	norfli	0.8168	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_081500.wav	141.0
+5	Spectrogram 1	1	147.0	150.0	0	15000	Cooper's Hawk	coohaw	0.6239	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_081500.wav	147.0
+6	Spectrogram 1	1	150.0	153.0	0	15000	Red-winged Blackbird	rewbla	0.2748	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_081500.wav	150.0
+7	Spectrogram 1	1	156.0	159.0	0	15000	Northern Flicker	norfli	0.8220	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_081500.wav	156.0
+8	Spectrogram 1	1	159.0	162.0	0	15000	Northern Flicker	norfli	0.6317	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_081500.wav	159.0
+9	Spectrogram 1	1	168.0	171.0	0	15000	Northern Flicker	norfli	0.3131	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_081500.wav	168.0
+10	Spectrogram 1	1	171.0	174.0	0	15000	Northern Flicker	norfli	0.8321	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_081500.wav	171.0
+11	Spectrogram 1	1	309.0	312.0	0	15000	Seaside Sparrow	seaspa	0.3060	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_081500.wav	309.0
+12	Spectrogram 1	1	420.0	423.0	0	15000	House Finch	houfin	0.2827	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_081500.wav	420.0
+13	Spectrogram 1	1	537.0	540.0	0	15000	Marsh Wren	marwre	0.2500	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_081500.wav	537.0
+14	Spectrogram 1	1	564.0	567.0	0	15000	Bobolink	boboli	0.3209	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_081500.wav	564.0
+15	Spectrogram 1	1	567.0	570.0	0	15000	Red-winged Blackbird	rewbla	0.3223	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_081500.wav	567.0

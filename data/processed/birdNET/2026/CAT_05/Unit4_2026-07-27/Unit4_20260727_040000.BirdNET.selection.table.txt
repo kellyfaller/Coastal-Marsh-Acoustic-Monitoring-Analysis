@@ -1,0 +1,5 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	90.0	93.0	0	15000	Fall Field Cricket	t-11844438	0.4027	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-27\Unit4_20260727_040000.wav	90.0
+2	Spectrogram 1	1	687.0	690.0	0	15000	Engine	engine	0.5438	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-27\Unit4_20260727_040000.wav	687.0
+3	Spectrogram 1	1	714.0	717.0	0	15000	Dog	dogdog	0.3396	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-27\Unit4_20260727_040000.wav	714.0
+4	Spectrogram 1	1	810.0	813.0	0	15000	Engine	engine	0.3686	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-27\Unit4_20260727_040000.wav	810.0

@@ -1,0 +1,10 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	84.0	87.0	0	15000	Greater White-fronted Goose	gwfgoo	0.3161	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-06\Unit2_20260606_230000.wav	84.0
+2	Spectrogram 1	1	105.0	108.0	0	15000	Pileated Woodpecker	pilwoo	0.3590	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-06\Unit2_20260606_230000.wav	105.0
+3	Spectrogram 1	1	186.0	189.0	0	15000	Northern Saw-whet Owl	nswowl	0.5327	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-06\Unit2_20260606_230000.wav	186.0
+4	Spectrogram 1	1	204.0	207.0	0	15000	Tundra Swan	tunswa	0.4009	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-06\Unit2_20260606_230000.wav	204.0
+5	Spectrogram 1	1	513.0	516.0	0	15000	Tundra Swan	tunswa	0.3064	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-06\Unit2_20260606_230000.wav	513.0
+6	Spectrogram 1	1	600.0	603.0	0	15000	Trumpeter Swan	truswa	0.4065	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-06\Unit2_20260606_230000.wav	600.0
+7	Spectrogram 1	1	720.0	723.0	0	15000	Tundra Swan	tunswa	0.3186	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-06\Unit2_20260606_230000.wav	720.0
+8	Spectrogram 1	1	744.0	747.0	0	15000	Yellow-billed Cuckoo	yebcuc	0.9669	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-06\Unit2_20260606_230000.wav	744.0
+9	Spectrogram 1	1	750.0	753.0	0	15000	Engine	engine	0.4024	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-06\Unit2_20260606_230000.wav	750.0

@@ -1,0 +1,22 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	0.0	3.0	0	15000	Chuck-will's-widow	chwwid	0.9882	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240713_210000.wav	0.0
+2	Spectrogram 1	1	42.0	45.0	0	15000	Engine	engine	0.4640	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240713_210000.wav	42.0
+3	Spectrogram 1	1	105.0	108.0	0	15000	Red-breasted Nuthatch	rebnut	0.5229	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240713_210000.wav	105.0
+4	Spectrogram 1	1	108.0	111.0	0	15000	Fireworks	frwrks	0.4189	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240713_210000.wav	108.0
+5	Spectrogram 1	1	114.0	117.0	0	15000	Fireworks	frwrks	0.3500	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240713_210000.wav	114.0
+6	Spectrogram 1	1	123.0	126.0	0	15000	Fireworks	frwrks	0.4574	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240713_210000.wav	123.0
+7	Spectrogram 1	1	129.0	132.0	0	15000	Fireworks	frwrks	0.8543	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240713_210000.wav	129.0
+8	Spectrogram 1	1	132.0	135.0	0	15000	Fireworks	frwrks	0.2732	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240713_210000.wav	132.0
+9	Spectrogram 1	1	138.0	141.0	0	15000	Fireworks	frwrks	0.9314	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240713_210000.wav	138.0
+10	Spectrogram 1	1	141.0	144.0	0	15000	Fireworks	frwrks	0.8660	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240713_210000.wav	141.0
+11	Spectrogram 1	1	153.0	156.0	0	15000	Fireworks	frwrks	0.9239	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240713_210000.wav	153.0
+12	Spectrogram 1	1	336.0	339.0	0	15000	Barn Owl	brnowl	0.4599	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240713_210000.wav	336.0
+13	Spectrogram 1	1	438.0	441.0	0	15000	Engine	engine	0.3018	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240713_210000.wav	438.0
+14	Spectrogram 1	1	615.0	618.0	0	15000	Engine	engine	0.5831	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240713_210000.wav	615.0
+15	Spectrogram 1	1	618.0	621.0	0	15000	Engine	engine	0.3055	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240713_210000.wav	618.0
+16	Spectrogram 1	1	627.0	630.0	0	15000	Engine	engine	0.2672	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240713_210000.wav	627.0
+17	Spectrogram 1	1	630.0	633.0	0	15000	Engine	engine	0.2835	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240713_210000.wav	630.0
+18	Spectrogram 1	1	636.0	639.0	0	15000	Engine	engine	0.3166	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240713_210000.wav	636.0
+19	Spectrogram 1	1	639.0	642.0	0	15000	Engine	engine	0.4193	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240713_210000.wav	639.0
+20	Spectrogram 1	1	792.0	795.0	0	15000	Engine	engine	0.2663	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240713_210000.wav	792.0
+21	Spectrogram 1	1	795.0	798.0	0	15000	Engine	engine	0.3614	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240713_210000.wav	795.0

@@ -1,0 +1,39 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	48.0	51.0	0	15000	Red-breasted Nuthatch	rebnut	0.7577	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	48.0
+2	Spectrogram 1	1	111.0	114.0	0	15000	Golden-crowned Kinglet	gockin	0.3266	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	111.0
+3	Spectrogram 1	1	201.0	204.0	0	15000	Eastern Towhee	eastow	0.5073	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	201.0
+4	Spectrogram 1	1	222.0	225.0	0	15000	Gray Catbird	grycat	0.2615	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	222.0
+5	Spectrogram 1	1	225.0	228.0	0	15000	Gray Catbird	grycat	0.3993	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	225.0
+6	Spectrogram 1	1	231.0	234.0	0	15000	Gray Catbird	grycat	0.3720	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	231.0
+7	Spectrogram 1	1	237.0	240.0	0	15000	Gray Catbird	grycat	0.5551	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	237.0
+8	Spectrogram 1	1	240.0	243.0	0	15000	Gray Catbird	grycat	0.6947	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	240.0
+9	Spectrogram 1	1	246.0	249.0	0	15000	Gray Catbird	grycat	0.6940	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	246.0
+10	Spectrogram 1	1	315.0	318.0	0	15000	Eastern Towhee	eastow	0.2579	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	315.0
+11	Spectrogram 1	1	321.0	324.0	0	15000	Golden-crowned Kinglet	gockin	0.4126	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	321.0
+12	Spectrogram 1	1	330.0	333.0	0	15000	Golden-crowned Kinglet	gockin	0.3346	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	330.0
+13	Spectrogram 1	1	339.0	342.0	0	15000	Gray Catbird	grycat	0.3882	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	339.0
+14	Spectrogram 1	1	351.0	354.0	0	15000	Golden-crowned Kinglet	gockin	0.3081	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	351.0
+15	Spectrogram 1	1	420.0	423.0	0	15000	Golden-crowned Kinglet	gockin	0.4523	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	420.0
+16	Spectrogram 1	1	426.0	429.0	0	15000	Golden-crowned Kinglet	gockin	0.3802	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	426.0
+17	Spectrogram 1	1	429.0	432.0	0	15000	Golden-crowned Kinglet	gockin	0.3123	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	429.0
+18	Spectrogram 1	1	489.0	492.0	0	15000	Gray Catbird	grycat	0.5780	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	489.0
+19	Spectrogram 1	1	498.0	501.0	0	15000	Gray Catbird	grycat	0.3346	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	498.0
+20	Spectrogram 1	1	501.0	504.0	0	15000	Gray Catbird	grycat	0.5247	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	501.0
+21	Spectrogram 1	1	510.0	513.0	0	15000	Gray Catbird	grycat	0.4914	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	510.0
+22	Spectrogram 1	1	519.0	522.0	0	15000	Gray Catbird	grycat	0.2760	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	519.0
+23	Spectrogram 1	1	528.0	531.0	0	15000	Gray Catbird	grycat	0.4407	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	528.0
+24	Spectrogram 1	1	534.0	537.0	0	15000	Osprey	osprey	0.8183	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	534.0
+25	Spectrogram 1	1	537.0	540.0	0	15000	Gray Catbird	grycat	0.5187	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	537.0
+26	Spectrogram 1	1	537.0	540.0	0	15000	Osprey	osprey	0.3291	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	537.0
+27	Spectrogram 1	1	543.0	546.0	0	15000	Gray Catbird	grycat	0.4184	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	543.0
+28	Spectrogram 1	1	546.0	549.0	0	15000	Gray Catbird	grycat	0.4487	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	546.0
+29	Spectrogram 1	1	555.0	558.0	0	15000	Osprey	osprey	0.8569	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	555.0
+30	Spectrogram 1	1	558.0	561.0	0	15000	Gray Catbird	grycat	0.3353	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	558.0
+31	Spectrogram 1	1	567.0	570.0	0	15000	Gray Catbird	grycat	0.8544	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	567.0
+32	Spectrogram 1	1	570.0	573.0	0	15000	Gray Catbird	grycat	0.3017	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	570.0
+33	Spectrogram 1	1	576.0	579.0	0	15000	Gray Catbird	grycat	0.8682	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	576.0
+34	Spectrogram 1	1	600.0	603.0	0	15000	Osprey	osprey	0.9476	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	600.0
+35	Spectrogram 1	1	762.0	765.0	0	15000	Golden-crowned Kinglet	gockin	0.3511	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	762.0
+36	Spectrogram 1	1	786.0	789.0	0	15000	Golden-crowned Kinglet	gockin	0.5404	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	786.0
+37	Spectrogram 1	1	822.0	825.0	0	15000	House Finch	houfin	0.6683	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	822.0
+38	Spectrogram 1	1	825.0	828.0	0	15000	Golden-crowned Kinglet	gockin	0.2549	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240905_120000.wav	825.0

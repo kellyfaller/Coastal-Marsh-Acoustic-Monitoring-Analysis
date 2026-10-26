@@ -1,0 +1,11 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	540.0	543.0	0	15000	Red-winged Blackbird	rewbla	0.3397	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-19\U05_20260619_154500.wav	540.0
+2	Spectrogram 1	1	702.0	705.0	0	15000	Seaside Sparrow	seaspa	0.9571	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-19\U05_20260619_154500.wav	702.0
+3	Spectrogram 1	1	726.0	729.0	0	15000	Seaside Sparrow	seaspa	0.9306	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-19\U05_20260619_154500.wav	726.0
+4	Spectrogram 1	1	732.0	735.0	0	15000	Seaside Sparrow	seaspa	0.3463	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-19\U05_20260619_154500.wav	732.0
+5	Spectrogram 1	1	741.0	744.0	0	15000	Seaside Sparrow	seaspa	0.8066	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-19\U05_20260619_154500.wav	741.0
+6	Spectrogram 1	1	747.0	750.0	0	15000	Seaside Sparrow	seaspa	0.2939	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-19\U05_20260619_154500.wav	747.0
+7	Spectrogram 1	1	774.0	777.0	0	15000	Fish Crow	fiscro	0.3169	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-19\U05_20260619_154500.wav	774.0
+8	Spectrogram 1	1	777.0	780.0	0	15000	Seaside Sparrow	seaspa	0.3257	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-19\U05_20260619_154500.wav	777.0
+9	Spectrogram 1	1	792.0	795.0	0	15000	Seaside Sparrow	seaspa	0.5773	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-19\U05_20260619_154500.wav	792.0
+10	Spectrogram 1	1	825.0	828.0	0	15000	Seaside Sparrow	seaspa	0.8078	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-19\U05_20260619_154500.wav	825.0

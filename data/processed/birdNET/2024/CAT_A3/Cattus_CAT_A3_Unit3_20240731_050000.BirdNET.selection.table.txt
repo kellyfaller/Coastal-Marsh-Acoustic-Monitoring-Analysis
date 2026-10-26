@@ -1,0 +1,14 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	27.0	30.0	0	15000	Marsh Wren	marwre	0.3913	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240731_050000.wav	27.0
+2	Spectrogram 1	1	255.0	258.0	0	15000	American Kestrel	amekes	0.5980	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240731_050000.wav	255.0
+3	Spectrogram 1	1	396.0	399.0	0	15000	Marsh Wren	marwre	0.3634	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240731_050000.wav	396.0
+4	Spectrogram 1	1	483.0	486.0	0	15000	Semipalmated Sandpiper	semsan	0.2746	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240731_050000.wav	483.0
+5	Spectrogram 1	1	504.0	507.0	0	15000	Marsh Wren	marwre	0.4501	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240731_050000.wav	504.0
+6	Spectrogram 1	1	558.0	561.0	0	15000	Marsh Wren	marwre	0.7837	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240731_050000.wav	558.0
+7	Spectrogram 1	1	591.0	594.0	0	15000	Semipalmated Plover	semplo	0.8659	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240731_050000.wav	591.0
+8	Spectrogram 1	1	624.0	627.0	0	15000	Marsh Wren	marwre	0.4376	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240731_050000.wav	624.0
+9	Spectrogram 1	1	810.0	813.0	0	15000	American Kestrel	amekes	0.3687	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240731_050000.wav	810.0
+10	Spectrogram 1	1	846.0	849.0	0	15000	Marsh Wren	marwre	0.3338	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240731_050000.wav	846.0
+11	Spectrogram 1	1	861.0	864.0	0	15000	Marsh Wren	marwre	0.3259	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240731_050000.wav	861.0
+12	Spectrogram 1	1	873.0	876.0	0	15000	Northern Cardinal	norcar	0.4186	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240731_050000.wav	873.0
+13	Spectrogram 1	1	876.0	879.0	0	15000	Northern Cardinal	norcar	0.3696	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240731_050000.wav	876.0

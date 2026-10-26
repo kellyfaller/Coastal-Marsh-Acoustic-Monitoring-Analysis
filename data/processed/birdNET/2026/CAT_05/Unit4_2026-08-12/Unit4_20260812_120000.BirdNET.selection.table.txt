@@ -1,0 +1,12 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	222.0	225.0	0	15000	American Goldfinch	amegfi	0.8505	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-12\Unit4_20260812_120000.wav	222.0
+2	Spectrogram 1	1	225.0	228.0	0	15000	American Goldfinch	amegfi	0.8877	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-12\Unit4_20260812_120000.wav	225.0
+3	Spectrogram 1	1	288.0	291.0	0	15000	Golden-crowned Kinglet	gockin	0.3246	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-12\Unit4_20260812_120000.wav	288.0
+4	Spectrogram 1	1	405.0	408.0	0	15000	Golden-crowned Kinglet	gockin	0.3656	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-12\Unit4_20260812_120000.wav	405.0
+5	Spectrogram 1	1	501.0	504.0	0	15000	Osprey	osprey	0.7077	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-12\Unit4_20260812_120000.wav	501.0
+6	Spectrogram 1	1	705.0	708.0	0	15000	Golden-crowned Kinglet	gockin	0.3052	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-12\Unit4_20260812_120000.wav	705.0
+7	Spectrogram 1	1	735.0	738.0	0	15000	Red-breasted Nuthatch	rebnut	0.4299	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-12\Unit4_20260812_120000.wav	735.0
+8	Spectrogram 1	1	738.0	741.0	0	15000	Red-breasted Nuthatch	rebnut	0.6326	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-12\Unit4_20260812_120000.wav	738.0
+9	Spectrogram 1	1	738.0	741.0	0	15000	Golden-crowned Kinglet	gockin	0.2806	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-12\Unit4_20260812_120000.wav	738.0
+10	Spectrogram 1	1	741.0	744.0	0	15000	American Golden-Plover	amgplo	0.2771	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-12\Unit4_20260812_120000.wav	741.0
+11	Spectrogram 1	1	828.0	831.0	0	15000	Golden-crowned Kinglet	gockin	0.3280	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-12\Unit4_20260812_120000.wav	828.0

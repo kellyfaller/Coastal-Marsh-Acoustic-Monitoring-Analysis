@@ -1,0 +1,14 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	15.0	18.0	0	15000	Common Yellowthroat	comyel	0.3030	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_060000.wav	15.0
+2	Spectrogram 1	1	90.0	93.0	0	15000	Common Yellowthroat	comyel	0.2796	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_060000.wav	90.0
+3	Spectrogram 1	1	105.0	108.0	0	15000	Common Yellowthroat	comyel	0.3077	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_060000.wav	105.0
+4	Spectrogram 1	1	159.0	162.0	0	15000	Common Yellowthroat	comyel	0.3100	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_060000.wav	159.0
+5	Spectrogram 1	1	231.0	234.0	0	15000	House Wren	houwre	0.5927	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_060000.wav	231.0
+6	Spectrogram 1	1	264.0	267.0	0	15000	Song Sparrow	sonspa	0.3733	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_060000.wav	264.0
+7	Spectrogram 1	1	273.0	276.0	0	15000	Least Bittern	leabit	0.2650	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_060000.wav	273.0
+8	Spectrogram 1	1	288.0	291.0	0	15000	Orchard Oriole	orcori	0.2731	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_060000.wav	288.0
+9	Spectrogram 1	1	381.0	384.0	0	15000	House Wren	houwre	0.3747	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_060000.wav	381.0
+10	Spectrogram 1	1	429.0	432.0	0	15000	Red-winged Blackbird	rewbla	0.3190	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_060000.wav	429.0
+11	Spectrogram 1	1	519.0	522.0	0	15000	Yellow-breasted Chat	yebcha	0.2579	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_060000.wav	519.0
+12	Spectrogram 1	1	597.0	600.0	0	15000	House Wren	houwre	0.2866	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_060000.wav	597.0
+13	Spectrogram 1	1	777.0	780.0	0	15000	Purple Martin	purmar	0.3176	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_060000.wav	777.0

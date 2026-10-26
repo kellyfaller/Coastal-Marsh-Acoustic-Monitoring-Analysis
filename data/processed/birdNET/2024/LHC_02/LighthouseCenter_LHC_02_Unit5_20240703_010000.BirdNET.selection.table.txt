@@ -1,0 +1,33 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	33.0	36.0	0	15000	Golden-crowned Kinglet	gockin	0.3152	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	33.0
+2	Spectrogram 1	1	36.0	39.0	0	15000	Golden-crowned Kinglet	gockin	0.3310	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	36.0
+3	Spectrogram 1	1	48.0	51.0	0	15000	Golden-crowned Kinglet	gockin	0.2510	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	48.0
+4	Spectrogram 1	1	75.0	78.0	0	15000	Golden-crowned Kinglet	gockin	0.3213	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	75.0
+5	Spectrogram 1	1	105.0	108.0	0	15000	Golden-crowned Kinglet	gockin	0.3472	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	105.0
+6	Spectrogram 1	1	162.0	165.0	0	15000	Golden-crowned Kinglet	gockin	0.3016	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	162.0
+7	Spectrogram 1	1	198.0	201.0	0	15000	Golden-crowned Kinglet	gockin	0.2693	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	198.0
+8	Spectrogram 1	1	213.0	216.0	0	15000	Golden-crowned Kinglet	gockin	0.2727	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	213.0
+9	Spectrogram 1	1	270.0	273.0	0	15000	Golden-crowned Kinglet	gockin	0.5232	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	270.0
+10	Spectrogram 1	1	300.0	303.0	0	15000	Golden-crowned Kinglet	gockin	0.2748	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	300.0
+11	Spectrogram 1	1	330.0	333.0	0	15000	Golden-crowned Kinglet	gockin	0.2663	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	330.0
+12	Spectrogram 1	1	363.0	366.0	0	15000	Golden-crowned Kinglet	gockin	0.3964	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	363.0
+13	Spectrogram 1	1	366.0	369.0	0	15000	Golden-crowned Kinglet	gockin	0.3309	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	366.0
+14	Spectrogram 1	1	369.0	372.0	0	15000	Golden-crowned Kinglet	gockin	0.5461	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	369.0
+15	Spectrogram 1	1	396.0	399.0	0	15000	Golden-crowned Kinglet	gockin	0.4694	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	396.0
+16	Spectrogram 1	1	402.0	405.0	0	15000	Golden-crowned Kinglet	gockin	0.3240	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	402.0
+17	Spectrogram 1	1	426.0	429.0	0	15000	Golden-crowned Kinglet	gockin	0.3611	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	426.0
+18	Spectrogram 1	1	474.0	477.0	0	15000	Gadwall	gadwal	0.8069	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	474.0
+19	Spectrogram 1	1	483.0	486.0	0	15000	Golden-crowned Kinglet	gockin	0.3085	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	483.0
+20	Spectrogram 1	1	489.0	492.0	0	15000	Golden-crowned Kinglet	gockin	0.2791	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	489.0
+21	Spectrogram 1	1	525.0	528.0	0	15000	Golden-crowned Kinglet	gockin	0.6356	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	525.0
+22	Spectrogram 1	1	558.0	561.0	0	15000	Golden-crowned Kinglet	gockin	0.3845	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	558.0
+23	Spectrogram 1	1	579.0	582.0	0	15000	Golden-crowned Kinglet	gockin	0.2833	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	579.0
+24	Spectrogram 1	1	594.0	597.0	0	15000	Golden-crowned Kinglet	gockin	0.4977	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	594.0
+25	Spectrogram 1	1	609.0	612.0	0	15000	Golden-crowned Kinglet	gockin	0.4183	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	609.0
+26	Spectrogram 1	1	693.0	696.0	0	15000	Golden-crowned Kinglet	gockin	0.8044	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	693.0
+27	Spectrogram 1	1	696.0	699.0	0	15000	Golden-crowned Kinglet	gockin	0.2740	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	696.0
+28	Spectrogram 1	1	753.0	756.0	0	15000	Golden-crowned Kinglet	gockin	0.3505	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	753.0
+29	Spectrogram 1	1	789.0	792.0	0	15000	Golden-crowned Kinglet	gockin	0.3897	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	789.0
+30	Spectrogram 1	1	801.0	804.0	0	15000	Black-crowned Night-Heron	bcnher	0.6759	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	801.0
+31	Spectrogram 1	1	855.0	858.0	0	15000	Golden-crowned Kinglet	gockin	0.4357	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	855.0
+32	Spectrogram 1	1	867.0	870.0	0	15000	Golden-crowned Kinglet	gockin	0.2506	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240703_010000.wav	867.0

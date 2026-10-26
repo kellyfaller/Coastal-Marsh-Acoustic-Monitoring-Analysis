@@ -1,0 +1,4 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	339.0	342.0	0	15000	Whimbrel	whimbr	0.6453	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_170000.wav	339.0
+2	Spectrogram 1	1	426.0	429.0	0	15000	Fish Crow	fiscro	0.5670	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_170000.wav	426.0
+3	Spectrogram 1	1	825.0	828.0	0	15000	American Goldfinch	amegfi	0.7769	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_170000.wav	825.0

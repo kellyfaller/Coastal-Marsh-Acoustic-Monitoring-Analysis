@@ -1,0 +1,9 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	162.0	165.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.3833	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240725_230000.wav	162.0
+2	Spectrogram 1	1	459.0	462.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.3071	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240725_230000.wav	459.0
+3	Spectrogram 1	1	549.0	552.0	0	15000	Great Horned Owl	grhowl	0.3270	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240725_230000.wav	549.0
+4	Spectrogram 1	1	606.0	609.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2678	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240725_230000.wav	606.0
+5	Spectrogram 1	1	666.0	669.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2533	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240725_230000.wav	666.0
+6	Spectrogram 1	1	669.0	672.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.3012	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240725_230000.wav	669.0
+7	Spectrogram 1	1	684.0	687.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2523	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240725_230000.wav	684.0
+8	Spectrogram 1	1	714.0	717.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.3515	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240725_230000.wav	714.0

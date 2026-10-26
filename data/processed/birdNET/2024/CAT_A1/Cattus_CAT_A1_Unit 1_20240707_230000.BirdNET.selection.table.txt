@@ -1,0 +1,11 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	63.0	66.0	0	15000	Golden-crowned Kinglet	gockin	0.2827	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_230000.wav	63.0
+2	Spectrogram 1	1	147.0	150.0	0	15000	Yellow-rumped Warbler	yerwar	0.4579	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_230000.wav	147.0
+3	Spectrogram 1	1	183.0	186.0	0	15000	Golden-crowned Kinglet	gockin	0.4295	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_230000.wav	183.0
+4	Spectrogram 1	1	282.0	285.0	0	15000	Golden-crowned Kinglet	gockin	0.4427	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_230000.wav	282.0
+5	Spectrogram 1	1	441.0	444.0	0	15000	Golden-crowned Kinglet	gockin	0.4778	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_230000.wav	441.0
+6	Spectrogram 1	1	456.0	459.0	0	15000	Mallard	mallar3	0.3954	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_230000.wav	456.0
+7	Spectrogram 1	1	810.0	813.0	0	15000	Golden-crowned Kinglet	gockin	0.2973	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_230000.wav	810.0
+8	Spectrogram 1	1	849.0	852.0	0	15000	Golden-crowned Kinglet	gockin	0.3949	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_230000.wav	849.0
+9	Spectrogram 1	1	864.0	867.0	0	15000	Golden-crowned Kinglet	gockin	0.3394	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_230000.wav	864.0
+10	Spectrogram 1	1	882.0	885.0	0	15000	Golden-crowned Kinglet	gockin	0.3715	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_230000.wav	882.0

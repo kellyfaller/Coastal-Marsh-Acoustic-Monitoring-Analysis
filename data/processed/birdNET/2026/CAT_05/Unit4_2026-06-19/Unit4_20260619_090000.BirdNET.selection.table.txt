@@ -1,0 +1,5 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	573.0	576.0	0	15000	American Tree Sparrow	amtspa	0.3359	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-19\Unit4_20260619_090000.wav	573.0
+2	Spectrogram 1	1	573.0	576.0	0	15000	Horned Lark	horlar	0.3218	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-19\Unit4_20260619_090000.wav	573.0
+3	Spectrogram 1	1	627.0	630.0	0	15000	Red-winged Blackbird	rewbla	0.2653	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-19\Unit4_20260619_090000.wav	627.0
+4	Spectrogram 1	1	633.0	636.0	0	15000	Horned Lark	horlar	0.6257	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-19\Unit4_20260619_090000.wav	633.0

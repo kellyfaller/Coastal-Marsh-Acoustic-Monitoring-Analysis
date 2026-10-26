@@ -1,0 +1,12 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	21.0	24.0	0	15000	Golden-crowned Kinglet	gockin	0.5271	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-19\Unit4_20260819_170000.wav	21.0
+2	Spectrogram 1	1	27.0	30.0	0	15000	Golden-crowned Kinglet	gockin	0.3300	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-19\Unit4_20260819_170000.wav	27.0
+3	Spectrogram 1	1	138.0	141.0	0	15000	Golden-crowned Kinglet	gockin	0.2676	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-19\Unit4_20260819_170000.wav	138.0
+4	Spectrogram 1	1	327.0	330.0	0	15000	Golden-crowned Kinglet	gockin	0.3895	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-19\Unit4_20260819_170000.wav	327.0
+5	Spectrogram 1	1	378.0	381.0	0	15000	Golden-crowned Kinglet	gockin	0.4407	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-19\Unit4_20260819_170000.wav	378.0
+6	Spectrogram 1	1	441.0	444.0	0	15000	Golden-crowned Kinglet	gockin	0.2931	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-19\Unit4_20260819_170000.wav	441.0
+7	Spectrogram 1	1	558.0	561.0	0	15000	Engine	engine	0.3928	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-19\Unit4_20260819_170000.wav	558.0
+8	Spectrogram 1	1	564.0	567.0	0	15000	Engine	engine	0.4883	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-19\Unit4_20260819_170000.wav	564.0
+9	Spectrogram 1	1	639.0	642.0	0	15000	Golden-crowned Kinglet	gockin	0.5130	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-19\Unit4_20260819_170000.wav	639.0
+10	Spectrogram 1	1	681.0	684.0	0	15000	Great Blue Heron	grbher3	0.2522	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-19\Unit4_20260819_170000.wav	681.0
+11	Spectrogram 1	1	717.0	720.0	0	15000	Black-crowned Night-Heron	bcnher	0.5953	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-19\Unit4_20260819_170000.wav	717.0

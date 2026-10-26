@@ -1,0 +1,35 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	15.0	18.0	0	15000	Yellow-billed Cuckoo	yebcuc	0.5061	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	15.0
+2	Spectrogram 1	1	183.0	186.0	0	15000	Northern Cardinal	norcar	0.2831	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	183.0
+3	Spectrogram 1	1	195.0	198.0	0	15000	Northern Cardinal	norcar	0.2915	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	195.0
+4	Spectrogram 1	1	198.0	201.0	0	15000	Northern Cardinal	norcar	0.3178	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	198.0
+5	Spectrogram 1	1	219.0	222.0	0	15000	Laughing Gull	laugul	0.4378	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	219.0
+6	Spectrogram 1	1	222.0	225.0	0	15000	Laughing Gull	laugul	0.8565	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	222.0
+7	Spectrogram 1	1	273.0	276.0	0	15000	Yellow-billed Cuckoo	yebcuc	0.2862	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	273.0
+8	Spectrogram 1	1	294.0	297.0	0	15000	Carolina Wren	carwre	0.3204	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	294.0
+9	Spectrogram 1	1	321.0	324.0	0	15000	Black-crowned Night-Heron	bcnher	0.8782	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	321.0
+10	Spectrogram 1	1	453.0	456.0	0	15000	Black-crowned Night-Heron	bcnher	0.6757	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	453.0
+11	Spectrogram 1	1	465.0	468.0	0	15000	Black-crowned Night-Heron	bcnher	0.8532	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	465.0
+12	Spectrogram 1	1	468.0	471.0	0	15000	Black-crowned Night-Heron	bcnher	0.7566	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	468.0
+13	Spectrogram 1	1	477.0	480.0	0	15000	Fish Crow	fiscro	0.3551	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	477.0
+14	Spectrogram 1	1	600.0	603.0	0	15000	Willet	willet1	0.7149	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	600.0
+15	Spectrogram 1	1	603.0	606.0	0	15000	Cedar Waxwing	cedwax	0.4021	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	603.0
+16	Spectrogram 1	1	624.0	627.0	0	15000	Whimbrel	whimbr	0.3332	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	624.0
+17	Spectrogram 1	1	636.0	639.0	0	15000	Black-crowned Night-Heron	bcnher	0.7015	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	636.0
+18	Spectrogram 1	1	639.0	642.0	0	15000	Black-crowned Night-Heron	bcnher	0.7466	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	639.0
+19	Spectrogram 1	1	642.0	645.0	0	15000	Black-crowned Night-Heron	bcnher	0.6765	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	642.0
+20	Spectrogram 1	1	645.0	648.0	0	15000	Black-crowned Night-Heron	bcnher	0.5167	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	645.0
+21	Spectrogram 1	1	648.0	651.0	0	15000	Black-crowned Night-Heron	bcnher	0.7846	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	648.0
+22	Spectrogram 1	1	651.0	654.0	0	15000	Black-crowned Night-Heron	bcnher	0.9579	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	651.0
+23	Spectrogram 1	1	657.0	660.0	0	15000	Black-crowned Night-Heron	bcnher	0.3586	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	657.0
+24	Spectrogram 1	1	660.0	663.0	0	15000	Black-crowned Night-Heron	bcnher	0.6444	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	660.0
+25	Spectrogram 1	1	669.0	672.0	0	15000	Greater Yellowlegs	greyel	0.3816	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	669.0
+26	Spectrogram 1	1	672.0	675.0	0	15000	Greater Yellowlegs	greyel	0.8493	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	672.0
+27	Spectrogram 1	1	675.0	678.0	0	15000	Greater Yellowlegs	greyel	0.8860	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	675.0
+28	Spectrogram 1	1	678.0	681.0	0	15000	Greater Yellowlegs	greyel	0.7245	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	678.0
+29	Spectrogram 1	1	684.0	687.0	0	15000	Greater Yellowlegs	greyel	0.4113	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	684.0
+30	Spectrogram 1	1	687.0	690.0	0	15000	Black-crowned Night-Heron	bcnher	0.5086	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	687.0
+31	Spectrogram 1	1	690.0	693.0	0	15000	Greater Yellowlegs	greyel	0.6198	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	690.0
+32	Spectrogram 1	1	693.0	696.0	0	15000	Greater Yellowlegs	greyel	0.6256	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	693.0
+33	Spectrogram 1	1	696.0	699.0	0	15000	Greater Yellowlegs	greyel	0.3699	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	696.0
+34	Spectrogram 1	1	801.0	804.0	0	15000	Osprey	osprey	0.6695	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_200000.wav	801.0

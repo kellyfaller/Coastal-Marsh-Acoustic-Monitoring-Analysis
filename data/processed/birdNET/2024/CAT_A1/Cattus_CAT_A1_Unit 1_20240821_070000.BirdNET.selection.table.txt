@@ -1,0 +1,4 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	75.0	78.0	0	15000	American Golden-Plover	amgplo	0.4396	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240821_070000.wav	75.0
+2	Spectrogram 1	1	567.0	570.0	0	15000	Herring Gull	hergul	0.7349	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240821_070000.wav	567.0
+3	Spectrogram 1	1	570.0	573.0	0	15000	Herring Gull	hergul	0.6442	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240821_070000.wav	570.0

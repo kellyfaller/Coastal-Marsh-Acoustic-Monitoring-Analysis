@@ -1,0 +1,11 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	9.0	12.0	0	15000	Engine	engine	0.2973	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240821_210000.wav	9.0
+2	Spectrogram 1	1	15.0	18.0	0	15000	Engine	engine	0.6043	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240821_210000.wav	15.0
+3	Spectrogram 1	1	21.0	24.0	0	15000	Engine	engine	0.4472	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240821_210000.wav	21.0
+4	Spectrogram 1	1	24.0	27.0	0	15000	Engine	engine	0.3672	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240821_210000.wav	24.0
+5	Spectrogram 1	1	45.0	48.0	0	15000	Mourning Dove	moudov	0.2983	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240821_210000.wav	45.0
+6	Spectrogram 1	1	387.0	390.0	0	15000	Black-crowned Night-Heron	bcnher	0.2672	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240821_210000.wav	387.0
+7	Spectrogram 1	1	594.0	597.0	0	15000	Dog	dogdog	0.3064	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240821_210000.wav	594.0
+8	Spectrogram 1	1	600.0	603.0	0	15000	Dog	dogdog	0.2905	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240821_210000.wav	600.0
+9	Spectrogram 1	1	639.0	642.0	0	15000	Black-crowned Night-Heron	bcnher	0.4424	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240821_210000.wav	639.0
+10	Spectrogram 1	1	744.0	747.0	0	15000	Mallard	mallar3	0.4432	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240821_210000.wav	744.0

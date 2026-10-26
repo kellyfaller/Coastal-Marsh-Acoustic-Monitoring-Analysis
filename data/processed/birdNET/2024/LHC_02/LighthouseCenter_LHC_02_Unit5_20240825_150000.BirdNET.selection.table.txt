@@ -1,0 +1,7 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	84.0	87.0	0	15000	Fireworks	frwrks	0.2958	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240825_150000.wav	84.0
+2	Spectrogram 1	1	294.0	297.0	0	15000	Semipalmated Plover	semplo	0.6296	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240825_150000.wav	294.0
+3	Spectrogram 1	1	486.0	489.0	0	15000	Least Sandpiper	leasan	0.3980	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240825_150000.wav	486.0
+4	Spectrogram 1	1	594.0	597.0	0	15000	Least Sandpiper	leasan	0.4582	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240825_150000.wav	594.0
+5	Spectrogram 1	1	597.0	600.0	0	15000	Least Sandpiper	leasan	0.8471	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240825_150000.wav	597.0
+6	Spectrogram 1	1	624.0	627.0	0	15000	Royal Tern	royter1	0.4184	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240825_150000.wav	624.0

@@ -1,0 +1,43 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	24.0	27.0	0	15000	Red-headed Woodpecker	rehwoo	0.4767	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	24.0
+2	Spectrogram 1	1	60.0	63.0	0	15000	Engine	engine	0.3390	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	60.0
+3	Spectrogram 1	1	114.0	117.0	0	15000	Gray Catbird	grycat	0.2750	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	114.0
+4	Spectrogram 1	1	156.0	159.0	0	15000	Laughing Gull	laugul	0.4456	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	156.0
+5	Spectrogram 1	1	186.0	189.0	0	15000	Great Crested Flycatcher	grcfly	0.7191	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	186.0
+6	Spectrogram 1	1	195.0	198.0	0	15000	Great Crested Flycatcher	grcfly	0.3370	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	195.0
+7	Spectrogram 1	1	210.0	213.0	0	15000	Great Crested Flycatcher	grcfly	0.4534	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	210.0
+8	Spectrogram 1	1	237.0	240.0	0	15000	Great Crested Flycatcher	grcfly	0.2717	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	237.0
+9	Spectrogram 1	1	252.0	255.0	0	15000	Fish Crow	fiscro	0.2510	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	252.0
+10	Spectrogram 1	1	261.0	264.0	0	15000	Great Crested Flycatcher	grcfly	0.3978	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	261.0
+11	Spectrogram 1	1	267.0	270.0	0	15000	Great Crested Flycatcher	grcfly	0.6540	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	267.0
+12	Spectrogram 1	1	276.0	279.0	0	15000	Great Crested Flycatcher	grcfly	0.4172	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	276.0
+13	Spectrogram 1	1	279.0	282.0	0	15000	Great Crested Flycatcher	grcfly	0.5433	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	279.0
+14	Spectrogram 1	1	282.0	285.0	0	15000	Great Crested Flycatcher	grcfly	0.2741	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	282.0
+15	Spectrogram 1	1	288.0	291.0	0	15000	Great Crested Flycatcher	grcfly	0.5054	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	288.0
+16	Spectrogram 1	1	291.0	294.0	0	15000	Northern Flicker	norfli	0.5316	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	291.0
+17	Spectrogram 1	1	294.0	297.0	0	15000	Northern Flicker	norfli	0.7211	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	294.0
+18	Spectrogram 1	1	297.0	300.0	0	15000	Northern Flicker	norfli	0.5448	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	297.0
+19	Spectrogram 1	1	300.0	303.0	0	15000	Northern Flicker	norfli	0.3310	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	300.0
+20	Spectrogram 1	1	309.0	312.0	0	15000	Northern Flicker	norfli	0.7793	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	309.0
+21	Spectrogram 1	1	312.0	315.0	0	15000	Northern Flicker	norfli	0.4781	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	312.0
+22	Spectrogram 1	1	318.0	321.0	0	15000	Northern Flicker	norfli	0.4000	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	318.0
+23	Spectrogram 1	1	321.0	324.0	0	15000	Northern Flicker	norfli	0.6478	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	321.0
+24	Spectrogram 1	1	327.0	330.0	0	15000	Northern Flicker	norfli	0.4152	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	327.0
+25	Spectrogram 1	1	336.0	339.0	0	15000	Northern Flicker	norfli	0.2870	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	336.0
+26	Spectrogram 1	1	357.0	360.0	0	15000	Downy Woodpecker	dowwoo	0.9189	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	357.0
+27	Spectrogram 1	1	471.0	474.0	0	15000	Tinkling Ground Cricket	t-11843287	0.2878	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	471.0
+28	Spectrogram 1	1	552.0	555.0	0	15000	Common Virtuoso Katydid	t-11851326	0.4070	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	552.0
+29	Spectrogram 1	1	561.0	564.0	0	15000	Golden-crowned Kinglet	gockin	0.4252	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	561.0
+30	Spectrogram 1	1	633.0	636.0	0	15000	Sora	sora	0.3981	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	633.0
+31	Spectrogram 1	1	696.0	699.0	0	15000	Yellow-billed Cuckoo	yebcuc	0.6014	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	696.0
+32	Spectrogram 1	1	705.0	708.0	0	15000	Gray Catbird	grycat	0.5006	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	705.0
+33	Spectrogram 1	1	708.0	711.0	0	15000	Gray Catbird	grycat	0.3715	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	708.0
+34	Spectrogram 1	1	717.0	720.0	0	15000	Gray Catbird	grycat	0.5566	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	717.0
+35	Spectrogram 1	1	726.0	729.0	0	15000	Gray Catbird	grycat	0.3228	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	726.0
+36	Spectrogram 1	1	729.0	732.0	0	15000	Gray Catbird	grycat	0.6927	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	729.0
+37	Spectrogram 1	1	732.0	735.0	0	15000	Gray Catbird	grycat	0.4218	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	732.0
+38	Spectrogram 1	1	738.0	741.0	0	15000	Gray Catbird	grycat	0.7409	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	738.0
+39	Spectrogram 1	1	741.0	744.0	0	15000	Red-headed Woodpecker	rehwoo	0.5754	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	741.0
+40	Spectrogram 1	1	801.0	804.0	0	15000	Golden-crowned Kinglet	gockin	0.7814	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	801.0
+41	Spectrogram 1	1	882.0	885.0	0	15000	Gray Catbird	grycat	0.6424	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	882.0
+42	Spectrogram 1	1	894.0	897.0	0	15000	Gray Catbird	grycat	0.2978	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240804_160000.wav	894.0

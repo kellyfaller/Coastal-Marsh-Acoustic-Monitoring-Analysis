@@ -1,0 +1,9 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	351.0	354.0	0	15000	Golden-crowned Kinglet	gockin	0.2627	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240721_040000.wav	351.0
+2	Spectrogram 1	1	534.0	537.0	0	15000	Engine	engine	0.6433	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240721_040000.wav	534.0
+3	Spectrogram 1	1	537.0	540.0	0	15000	Engine	engine	0.8736	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240721_040000.wav	537.0
+4	Spectrogram 1	1	540.0	543.0	0	15000	Engine	engine	0.9116	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240721_040000.wav	540.0
+5	Spectrogram 1	1	543.0	546.0	0	15000	Engine	engine	0.8858	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240721_040000.wav	543.0
+6	Spectrogram 1	1	546.0	549.0	0	15000	Engine	engine	0.6489	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240721_040000.wav	546.0
+7	Spectrogram 1	1	546.0	549.0	0	15000	Siren	siren1	0.3924	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240721_040000.wav	546.0
+8	Spectrogram 1	1	861.0	864.0	0	15000	Cedar Waxwing	cedwax	0.4544	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240721_040000.wav	861.0

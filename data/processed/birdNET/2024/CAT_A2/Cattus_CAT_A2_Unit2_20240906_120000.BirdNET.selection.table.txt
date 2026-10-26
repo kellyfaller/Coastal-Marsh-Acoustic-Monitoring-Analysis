@@ -1,0 +1,17 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	18.0	21.0	0	15000	Golden-crowned Kinglet	gockin	0.2927	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240906_120000.wav	18.0
+2	Spectrogram 1	1	102.0	105.0	0	15000	Engine	engine	0.2933	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240906_120000.wav	102.0
+3	Spectrogram 1	1	123.0	126.0	0	15000	Clapper Rail	clarai11	0.2627	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240906_120000.wav	123.0
+4	Spectrogram 1	1	255.0	258.0	0	15000	Fork-tailed Flycatcher	fotfly	0.3540	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240906_120000.wav	255.0
+5	Spectrogram 1	1	399.0	402.0	0	15000	Golden-crowned Kinglet	gockin	0.2606	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240906_120000.wav	399.0
+6	Spectrogram 1	1	459.0	462.0	0	15000	Golden-crowned Kinglet	gockin	0.3455	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240906_120000.wav	459.0
+7	Spectrogram 1	1	762.0	765.0	0	15000	Osprey	osprey	0.7376	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240906_120000.wav	762.0
+8	Spectrogram 1	1	765.0	768.0	0	15000	Osprey	osprey	0.9631	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240906_120000.wav	765.0
+9	Spectrogram 1	1	777.0	780.0	0	15000	Common Yellowthroat	comyel	0.2592	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240906_120000.wav	777.0
+10	Spectrogram 1	1	795.0	798.0	0	15000	Golden-crowned Kinglet	gockin	0.3876	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240906_120000.wav	795.0
+11	Spectrogram 1	1	798.0	801.0	0	15000	Golden-crowned Kinglet	gockin	0.2785	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240906_120000.wav	798.0
+12	Spectrogram 1	1	807.0	810.0	0	15000	Golden-crowned Kinglet	gockin	0.3446	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240906_120000.wav	807.0
+13	Spectrogram 1	1	810.0	813.0	0	15000	Golden-crowned Kinglet	gockin	0.2846	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240906_120000.wav	810.0
+14	Spectrogram 1	1	840.0	843.0	0	15000	Golden-crowned Kinglet	gockin	0.3058	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240906_120000.wav	840.0
+15	Spectrogram 1	1	846.0	849.0	0	15000	Golden-crowned Kinglet	gockin	0.3012	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240906_120000.wav	846.0
+16	Spectrogram 1	1	882.0	885.0	0	15000	Golden-crowned Kinglet	gockin	0.3399	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240906_120000.wav	882.0

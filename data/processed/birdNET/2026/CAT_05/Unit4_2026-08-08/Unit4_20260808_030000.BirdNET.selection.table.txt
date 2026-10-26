@@ -1,0 +1,5 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	384.0	387.0	0	15000	Black-crowned Night-Heron	bcnher	0.3886	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-08\Unit4_20260808_030000.wav	384.0
+2	Spectrogram 1	1	825.0	828.0	0	15000	Dog	dogdog	0.4045	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-08\Unit4_20260808_030000.wav	825.0
+3	Spectrogram 1	1	825.0	828.0	0	15000	Great Blue Heron	grbher3	0.3112	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-08\Unit4_20260808_030000.wav	825.0
+4	Spectrogram 1	1	828.0	831.0	0	15000	Great Blue Heron	grbher3	0.2850	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-08\Unit4_20260808_030000.wav	828.0

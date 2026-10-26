@@ -1,0 +1,4 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	429.0	432.0	0	15000	Horned Lark	horlar	0.3832	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240711_140000.wav	429.0
+2	Spectrogram 1	1	444.0	447.0	0	15000	Lapland Longspur	laplon	0.3522	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240711_140000.wav	444.0
+3	Spectrogram 1	1	870.0	873.0	0	15000	Lapland Longspur	laplon	0.4306	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240711_140000.wav	870.0

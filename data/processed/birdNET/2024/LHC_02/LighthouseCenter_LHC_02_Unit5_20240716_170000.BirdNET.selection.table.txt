@@ -1,0 +1,14 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	180.0	183.0	0	15000	Willet	willet1	0.2612	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_170000.wav	180.0
+2	Spectrogram 1	1	369.0	372.0	0	15000	Forster's Tern	forter	0.7140	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_170000.wav	369.0
+3	Spectrogram 1	1	372.0	375.0	0	15000	Forster's Tern	forter	0.5952	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_170000.wav	372.0
+4	Spectrogram 1	1	441.0	444.0	0	15000	Killdeer	killde	0.4888	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_170000.wav	441.0
+5	Spectrogram 1	1	447.0	450.0	0	15000	Killdeer	killde	0.2804	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_170000.wav	447.0
+6	Spectrogram 1	1	483.0	486.0	0	15000	Northern Flicker	norfli	0.3292	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_170000.wav	483.0
+7	Spectrogram 1	1	519.0	522.0	0	15000	Bar-tailed Godwit	batgod	0.4778	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_170000.wav	519.0
+8	Spectrogram 1	1	522.0	525.0	0	15000	Willet	willet1	0.9413	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_170000.wav	522.0
+9	Spectrogram 1	1	525.0	528.0	0	15000	Willet	willet1	0.5192	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_170000.wav	525.0
+10	Spectrogram 1	1	696.0	699.0	0	15000	Least Sandpiper	leasan	0.3145	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_170000.wav	696.0
+11	Spectrogram 1	1	846.0	849.0	0	15000	Willet	willet1	0.9385	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_170000.wav	846.0
+12	Spectrogram 1	1	858.0	861.0	0	15000	Willet	willet1	0.2819	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_170000.wav	858.0
+13	Spectrogram 1	1	861.0	864.0	0	15000	Northern Saw-whet Owl	nswowl	0.2667	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_170000.wav	861.0

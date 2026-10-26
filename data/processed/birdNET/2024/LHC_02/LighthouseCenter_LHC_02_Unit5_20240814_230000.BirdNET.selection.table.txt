@@ -1,0 +1,4 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	108.0	111.0	0	15000	American Bullfrog	t-11113588	0.3632	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240814_230000.wav	108.0
+2	Spectrogram 1	1	150.0	153.0	0	15000	Eastern Screech-Owl	easowl1	0.3474	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240814_230000.wav	150.0
+3	Spectrogram 1	1	327.0	330.0	0	15000	Eastern Screech-Owl	easowl1	0.3250	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240814_230000.wav	327.0

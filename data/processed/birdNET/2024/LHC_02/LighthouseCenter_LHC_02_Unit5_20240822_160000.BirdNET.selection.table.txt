@@ -1,0 +1,5 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	54.0	57.0	0	15000	Engine	engine	0.4682	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240822_160000.wav	54.0
+2	Spectrogram 1	1	57.0	60.0	0	15000	Engine	engine	0.5484	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240822_160000.wav	57.0
+3	Spectrogram 1	1	60.0	63.0	0	15000	Engine	engine	0.5166	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240822_160000.wav	60.0
+4	Spectrogram 1	1	744.0	747.0	0	15000	Northern Pintail	norpin	0.4223	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240822_160000.wav	744.0

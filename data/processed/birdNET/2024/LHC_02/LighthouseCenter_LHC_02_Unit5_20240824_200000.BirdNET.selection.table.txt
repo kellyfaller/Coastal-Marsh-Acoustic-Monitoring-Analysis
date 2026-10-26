@@ -1,0 +1,12 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	24.0	27.0	0	15000	Eastern Screech-Owl	easowl1	0.5148	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240824_200000.wav	24.0
+2	Spectrogram 1	1	123.0	126.0	0	15000	Eastern Screech-Owl	easowl1	0.3647	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240824_200000.wav	123.0
+3	Spectrogram 1	1	141.0	144.0	0	15000	Eastern Screech-Owl	easowl1	0.2982	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240824_200000.wav	141.0
+4	Spectrogram 1	1	150.0	153.0	0	15000	Least Sandpiper	leasan	0.9700	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240824_200000.wav	150.0
+5	Spectrogram 1	1	348.0	351.0	0	15000	Jumping Bush Cricket	t-11850192	0.3101	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240824_200000.wav	348.0
+6	Spectrogram 1	1	540.0	543.0	0	15000	Black-crowned Night-Heron	bcnher	0.3271	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240824_200000.wav	540.0
+7	Spectrogram 1	1	543.0	546.0	0	15000	Black-crowned Night-Heron	bcnher	0.8652	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240824_200000.wav	543.0
+8	Spectrogram 1	1	549.0	552.0	0	15000	Black-crowned Night-Heron	bcnher	0.6522	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240824_200000.wav	549.0
+9	Spectrogram 1	1	552.0	555.0	0	15000	Black-crowned Night-Heron	bcnher	0.8328	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240824_200000.wav	552.0
+10	Spectrogram 1	1	564.0	567.0	0	15000	Black-crowned Night-Heron	bcnher	0.6369	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240824_200000.wav	564.0
+11	Spectrogram 1	1	771.0	774.0	0	15000	Jumping Bush Cricket	t-11850192	0.3056	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240824_200000.wav	771.0

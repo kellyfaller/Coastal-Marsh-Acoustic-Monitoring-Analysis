@@ -1,0 +1,39 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	3.0	6.0	0	15000	Worm-eating Warbler	woewar1	0.6723	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	3.0
+2	Spectrogram 1	1	3.0	6.0	0	15000	Chipping Sparrow	chispa	0.2781	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	3.0
+3	Spectrogram 1	1	21.0	24.0	0	15000	Osprey	osprey	0.5118	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	21.0
+4	Spectrogram 1	1	24.0	27.0	0	15000	Osprey	osprey	0.9998	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	24.0
+5	Spectrogram 1	1	27.0	30.0	0	15000	Osprey	osprey	0.8460	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	27.0
+6	Spectrogram 1	1	30.0	33.0	0	15000	Osprey	osprey	0.3207	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	30.0
+7	Spectrogram 1	1	48.0	51.0	0	15000	Henslow's Sparrow	henspa	0.2508	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	48.0
+8	Spectrogram 1	1	90.0	93.0	0	15000	Marsh Wren	marwre	0.3281	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	90.0
+9	Spectrogram 1	1	93.0	96.0	0	15000	Marsh Wren	marwre	0.2503	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	93.0
+10	Spectrogram 1	1	102.0	105.0	0	15000	Chipping Sparrow	chispa	0.2726	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	102.0
+11	Spectrogram 1	1	126.0	129.0	0	15000	Engine	engine	0.2624	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	126.0
+12	Spectrogram 1	1	129.0	132.0	0	15000	Engine	engine	0.5803	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	129.0
+13	Spectrogram 1	1	132.0	135.0	0	15000	Engine	engine	0.6794	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	132.0
+14	Spectrogram 1	1	135.0	138.0	0	15000	Engine	engine	0.6776	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	135.0
+15	Spectrogram 1	1	138.0	141.0	0	15000	Engine	engine	0.6075	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	138.0
+16	Spectrogram 1	1	141.0	144.0	0	15000	Engine	engine	0.3107	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	141.0
+17	Spectrogram 1	1	147.0	150.0	0	15000	Engine	engine	0.5297	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	147.0
+18	Spectrogram 1	1	159.0	162.0	0	15000	Herring Gull	hergul	0.4792	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	159.0
+19	Spectrogram 1	1	219.0	222.0	0	15000	Chipping Sparrow	chispa	0.3062	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	219.0
+20	Spectrogram 1	1	276.0	279.0	0	15000	Osprey	osprey	0.7038	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	276.0
+21	Spectrogram 1	1	279.0	282.0	0	15000	Osprey	osprey	0.6290	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	279.0
+22	Spectrogram 1	1	426.0	429.0	0	15000	Common Yellowthroat	comyel	0.2571	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	426.0
+23	Spectrogram 1	1	474.0	477.0	0	15000	Snowy Egret	snoegr	0.3478	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	474.0
+24	Spectrogram 1	1	477.0	480.0	0	15000	Snowy Egret	snoegr	0.3130	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	477.0
+25	Spectrogram 1	1	603.0	606.0	0	15000	Common Tern	comter	0.9617	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	603.0
+26	Spectrogram 1	1	606.0	609.0	0	15000	Common Tern	comter	0.3142	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	606.0
+27	Spectrogram 1	1	618.0	621.0	0	15000	Common Tern	comter	0.9405	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	618.0
+28	Spectrogram 1	1	621.0	624.0	0	15000	Common Tern	comter	0.9011	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	621.0
+29	Spectrogram 1	1	627.0	630.0	0	15000	Common Tern	comter	0.8859	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	627.0
+30	Spectrogram 1	1	630.0	633.0	0	15000	Common Tern	comter	0.9233	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	630.0
+31	Spectrogram 1	1	648.0	651.0	0	15000	Worm-eating Warbler	woewar1	0.4036	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	648.0
+32	Spectrogram 1	1	666.0	669.0	0	15000	Swainson's Warbler	swawar	0.2704	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	666.0
+33	Spectrogram 1	1	714.0	717.0	0	15000	Eastern Towhee	eastow	0.4872	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	714.0
+34	Spectrogram 1	1	732.0	735.0	0	15000	Common Yellowthroat	comyel	0.2618	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	732.0
+35	Spectrogram 1	1	771.0	774.0	0	15000	Osprey	osprey	0.8111	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	771.0
+36	Spectrogram 1	1	774.0	777.0	0	15000	Osprey	osprey	0.3295	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	774.0
+37	Spectrogram 1	1	855.0	858.0	0	15000	Red-winged Blackbird	rewbla	0.3143	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	855.0
+38	Spectrogram 1	1	858.0	861.0	0	15000	Red-winged Blackbird	rewbla	0.2768	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240716_080000.wav	858.0

@@ -1,0 +1,44 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	27.0	30.0	0	15000	Marsh Wren	marwre	0.2670	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	27.0
+2	Spectrogram 1	1	48.0	51.0	0	15000	Marsh Wren	marwre	0.4089	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	48.0
+3	Spectrogram 1	1	75.0	78.0	0	15000	Song Sparrow	sonspa	0.3245	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	75.0
+4	Spectrogram 1	1	105.0	108.0	0	15000	American Goldfinch	amegfi	0.2701	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	105.0
+5	Spectrogram 1	1	150.0	153.0	0	15000	Seaside Sparrow	seaspa	0.2648	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	150.0
+6	Spectrogram 1	1	159.0	162.0	0	15000	Purple Martin	purmar	0.6693	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	159.0
+7	Spectrogram 1	1	231.0	234.0	0	15000	American Goldfinch	amegfi	0.4820	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	231.0
+8	Spectrogram 1	1	249.0	252.0	0	15000	American Goldfinch	amegfi	0.4110	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	249.0
+9	Spectrogram 1	1	252.0	255.0	0	15000	American Goldfinch	amegfi	0.9650	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	252.0
+10	Spectrogram 1	1	255.0	258.0	0	15000	American Goldfinch	amegfi	0.3422	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	255.0
+11	Spectrogram 1	1	258.0	261.0	0	15000	American Goldfinch	amegfi	0.9228	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	258.0
+12	Spectrogram 1	1	273.0	276.0	0	15000	American Goldfinch	amegfi	0.5290	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	273.0
+13	Spectrogram 1	1	279.0	282.0	0	15000	Marsh Wren	marwre	0.2808	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	279.0
+14	Spectrogram 1	1	285.0	288.0	0	15000	Marsh Wren	marwre	0.6471	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	285.0
+15	Spectrogram 1	1	300.0	303.0	0	15000	Marsh Wren	marwre	0.2828	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	300.0
+16	Spectrogram 1	1	321.0	324.0	0	15000	Seaside Sparrow	seaspa	0.6536	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	321.0
+17	Spectrogram 1	1	321.0	324.0	0	15000	Marsh Wren	marwre	0.4410	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	321.0
+18	Spectrogram 1	1	324.0	327.0	0	15000	Marsh Wren	marwre	0.6387	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	324.0
+19	Spectrogram 1	1	330.0	333.0	0	15000	Song Sparrow	sonspa	0.3361	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	330.0
+20	Spectrogram 1	1	363.0	366.0	0	15000	Yellow-rumped Warbler	yerwar	0.3049	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	363.0
+21	Spectrogram 1	1	378.0	381.0	0	15000	Gray Catbird	grycat	0.4619	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	378.0
+22	Spectrogram 1	1	384.0	387.0	0	15000	Seaside Sparrow	seaspa	0.5049	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	384.0
+23	Spectrogram 1	1	402.0	405.0	0	15000	Marsh Wren	marwre	0.3357	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	402.0
+24	Spectrogram 1	1	405.0	408.0	0	15000	Marsh Wren	marwre	0.7189	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	405.0
+25	Spectrogram 1	1	411.0	414.0	0	15000	Seaside Sparrow	seaspa	0.5171	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	411.0
+26	Spectrogram 1	1	414.0	417.0	0	15000	Marsh Wren	marwre	0.5095	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	414.0
+27	Spectrogram 1	1	417.0	420.0	0	15000	Marsh Wren	marwre	0.5183	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	417.0
+28	Spectrogram 1	1	441.0	444.0	0	15000	Eastern Towhee	eastow	0.3348	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	441.0
+29	Spectrogram 1	1	444.0	447.0	0	15000	Eastern Towhee	eastow	0.6804	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	444.0
+30	Spectrogram 1	1	534.0	537.0	0	15000	Marsh Wren	marwre	0.5120	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	534.0
+31	Spectrogram 1	1	549.0	552.0	0	15000	Marsh Wren	marwre	0.4710	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	549.0
+32	Spectrogram 1	1	561.0	564.0	0	15000	Marsh Wren	marwre	0.2853	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	561.0
+33	Spectrogram 1	1	567.0	570.0	0	15000	Marsh Wren	marwre	0.4704	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	567.0
+34	Spectrogram 1	1	591.0	594.0	0	15000	Marsh Wren	marwre	0.2943	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	591.0
+35	Spectrogram 1	1	600.0	603.0	0	15000	Eastern Bluebird	easblu	0.2894	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	600.0
+36	Spectrogram 1	1	777.0	780.0	0	15000	Marsh Wren	marwre	0.3625	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	777.0
+37	Spectrogram 1	1	792.0	795.0	0	15000	Marsh Wren	marwre	0.7340	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	792.0
+38	Spectrogram 1	1	798.0	801.0	0	15000	Marsh Wren	marwre	0.4006	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	798.0
+39	Spectrogram 1	1	822.0	825.0	0	15000	Killdeer	killde	0.6200	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	822.0
+40	Spectrogram 1	1	822.0	825.0	0	15000	Broad-winged Hawk	brwhaw	0.2588	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	822.0
+41	Spectrogram 1	1	825.0	828.0	0	15000	Killdeer	killde	0.4812	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	825.0
+42	Spectrogram 1	1	828.0	831.0	0	15000	Song Sparrow	sonspa	0.5002	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	828.0
+43	Spectrogram 1	1	885.0	888.0	0	15000	American Goldfinch	amegfi	0.2694	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240802_090000.wav	885.0

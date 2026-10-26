@@ -1,0 +1,22 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	18.0	21.0	0	15000	Upland Sandpiper	uplsan	0.3564	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240727_050000.wav	18.0
+2	Spectrogram 1	1	453.0	456.0	0	15000	Northern Cardinal	norcar	0.3019	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240727_050000.wav	453.0
+3	Spectrogram 1	1	498.0	501.0	0	15000	Northern Cardinal	norcar	0.2725	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240727_050000.wav	498.0
+4	Spectrogram 1	1	579.0	582.0	0	15000	Killdeer	killde	0.5591	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240727_050000.wav	579.0
+5	Spectrogram 1	1	582.0	585.0	0	15000	Killdeer	killde	0.6645	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240727_050000.wav	582.0
+6	Spectrogram 1	1	585.0	588.0	0	15000	Least Sandpiper	leasan	0.2550	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240727_050000.wav	585.0
+7	Spectrogram 1	1	648.0	651.0	0	15000	Northern Cardinal	norcar	0.2875	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240727_050000.wav	648.0
+8	Spectrogram 1	1	654.0	657.0	0	15000	Northern Cardinal	norcar	0.3073	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240727_050000.wav	654.0
+9	Spectrogram 1	1	657.0	660.0	0	15000	Northern Cardinal	norcar	0.2694	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240727_050000.wav	657.0
+10	Spectrogram 1	1	669.0	672.0	0	15000	Northern Cardinal	norcar	0.2777	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240727_050000.wav	669.0
+11	Spectrogram 1	1	711.0	714.0	0	15000	Northern Cardinal	norcar	0.2924	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240727_050000.wav	711.0
+12	Spectrogram 1	1	717.0	720.0	0	15000	Northern Cardinal	norcar	0.3232	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240727_050000.wav	717.0
+13	Spectrogram 1	1	723.0	726.0	0	15000	Northern Cardinal	norcar	0.3661	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240727_050000.wav	723.0
+14	Spectrogram 1	1	732.0	735.0	0	15000	Northern Cardinal	norcar	0.2524	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240727_050000.wav	732.0
+15	Spectrogram 1	1	759.0	762.0	0	15000	Northern Cardinal	norcar	0.2869	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240727_050000.wav	759.0
+16	Spectrogram 1	1	774.0	777.0	0	15000	Northern Cardinal	norcar	0.7959	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240727_050000.wav	774.0
+17	Spectrogram 1	1	783.0	786.0	0	15000	Northern Cardinal	norcar	0.5248	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240727_050000.wav	783.0
+18	Spectrogram 1	1	801.0	804.0	0	15000	Northern Cardinal	norcar	0.4825	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240727_050000.wav	801.0
+19	Spectrogram 1	1	804.0	807.0	0	15000	Northern Cardinal	norcar	0.3523	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240727_050000.wav	804.0
+20	Spectrogram 1	1	816.0	819.0	0	15000	Killdeer	killde	0.5104	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240727_050000.wav	816.0
+21	Spectrogram 1	1	819.0	822.0	0	15000	Killdeer	killde	0.7776	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240727_050000.wav	819.0

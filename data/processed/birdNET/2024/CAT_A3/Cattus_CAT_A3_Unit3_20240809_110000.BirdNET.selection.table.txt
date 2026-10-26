@@ -1,0 +1,11 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	36.0	39.0	0	15000	American Crow	amecro	0.3652	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240809_110000.wav	36.0
+2	Spectrogram 1	1	156.0	159.0	0	15000	Greater Yellowlegs	greyel	0.4277	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240809_110000.wav	156.0
+3	Spectrogram 1	1	165.0	168.0	0	15000	Northern Saw-whet Owl	nswowl	0.3454	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240809_110000.wav	165.0
+4	Spectrogram 1	1	291.0	294.0	0	15000	Fish Crow	fiscro	0.5112	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240809_110000.wav	291.0
+5	Spectrogram 1	1	315.0	318.0	0	15000	Fish Crow	fiscro	0.3034	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240809_110000.wav	315.0
+6	Spectrogram 1	1	552.0	555.0	0	15000	Cedar Waxwing	cedwax	0.2624	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240809_110000.wav	552.0
+7	Spectrogram 1	1	801.0	804.0	0	15000	Greater White-fronted Goose	gwfgoo	0.2767	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240809_110000.wav	801.0
+8	Spectrogram 1	1	825.0	828.0	0	15000	Cedar Waxwing	cedwax	0.4550	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240809_110000.wav	825.0
+9	Spectrogram 1	1	846.0	849.0	0	15000	Gun	gungun	0.3911	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240809_110000.wav	846.0
+10	Spectrogram 1	1	846.0	849.0	0	15000	Fireworks	frwrks	0.3506	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240809_110000.wav	846.0

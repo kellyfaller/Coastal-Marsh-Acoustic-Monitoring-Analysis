@@ -1,0 +1,185 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	3.0	6.0	0	15000	Eastern Towhee	eastow	0.3183	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	3.0
+2	Spectrogram 1	1	9.0	12.0	0	15000	Eastern Towhee	eastow	0.7690	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	9.0
+3	Spectrogram 1	1	12.0	15.0	0	15000	Eastern Towhee	eastow	0.7815	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	12.0
+4	Spectrogram 1	1	18.0	21.0	0	15000	Eastern Towhee	eastow	0.6234	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	18.0
+5	Spectrogram 1	1	24.0	27.0	0	15000	Eastern Towhee	eastow	0.4231	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	24.0
+6	Spectrogram 1	1	42.0	45.0	0	15000	Eastern Towhee	eastow	0.6779	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	42.0
+7	Spectrogram 1	1	45.0	48.0	0	15000	Eastern Towhee	eastow	0.4002	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	45.0
+8	Spectrogram 1	1	48.0	51.0	0	15000	Eastern Towhee	eastow	0.3443	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	48.0
+9	Spectrogram 1	1	51.0	54.0	0	15000	Eastern Towhee	eastow	0.8640	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	51.0
+10	Spectrogram 1	1	54.0	57.0	0	15000	Eastern Towhee	eastow	0.8206	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	54.0
+11	Spectrogram 1	1	60.0	63.0	0	15000	Eastern Towhee	eastow	0.5187	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	60.0
+12	Spectrogram 1	1	66.0	69.0	0	15000	Eastern Towhee	eastow	0.7378	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	66.0
+13	Spectrogram 1	1	84.0	87.0	0	15000	Eastern Towhee	eastow	0.6343	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	84.0
+14	Spectrogram 1	1	90.0	93.0	0	15000	Eastern Towhee	eastow	0.7881	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	90.0
+15	Spectrogram 1	1	102.0	105.0	0	15000	Eastern Towhee	eastow	0.8584	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	102.0
+16	Spectrogram 1	1	105.0	108.0	0	15000	Eastern Towhee	eastow	0.4790	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	105.0
+17	Spectrogram 1	1	114.0	117.0	0	15000	Eastern Towhee	eastow	0.6617	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	114.0
+18	Spectrogram 1	1	117.0	120.0	0	15000	Eastern Towhee	eastow	0.7162	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	117.0
+19	Spectrogram 1	1	120.0	123.0	0	15000	Eastern Towhee	eastow	0.6885	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	120.0
+20	Spectrogram 1	1	123.0	126.0	0	15000	Eastern Towhee	eastow	0.4526	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	123.0
+21	Spectrogram 1	1	126.0	129.0	0	15000	Eastern Towhee	eastow	0.7129	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	126.0
+22	Spectrogram 1	1	129.0	132.0	0	15000	Eastern Towhee	eastow	0.8851	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	129.0
+23	Spectrogram 1	1	135.0	138.0	0	15000	Eastern Towhee	eastow	0.6042	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	135.0
+24	Spectrogram 1	1	138.0	141.0	0	15000	Eastern Towhee	eastow	0.3015	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	138.0
+25	Spectrogram 1	1	141.0	144.0	0	15000	Eastern Towhee	eastow	0.3518	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	141.0
+26	Spectrogram 1	1	147.0	150.0	0	15000	Eastern Towhee	eastow	0.4450	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	147.0
+27	Spectrogram 1	1	156.0	159.0	0	15000	American Goldfinch	amegfi	0.2656	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	156.0
+28	Spectrogram 1	1	159.0	162.0	0	15000	American Goldfinch	amegfi	0.6312	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	159.0
+29	Spectrogram 1	1	162.0	165.0	0	15000	Eastern Towhee	eastow	0.4526	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	162.0
+30	Spectrogram 1	1	171.0	174.0	0	15000	Eastern Towhee	eastow	0.2759	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	171.0
+31	Spectrogram 1	1	177.0	180.0	0	15000	Eastern Towhee	eastow	0.7099	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	177.0
+32	Spectrogram 1	1	183.0	186.0	0	15000	American Goldfinch	amegfi	0.4365	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	183.0
+33	Spectrogram 1	1	192.0	195.0	0	15000	Eastern Towhee	eastow	0.8089	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	192.0
+34	Spectrogram 1	1	195.0	198.0	0	15000	Eastern Towhee	eastow	0.3777	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	195.0
+35	Spectrogram 1	1	198.0	201.0	0	15000	Eastern Towhee	eastow	0.6930	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	198.0
+36	Spectrogram 1	1	201.0	204.0	0	15000	Eastern Towhee	eastow	0.6061	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	201.0
+37	Spectrogram 1	1	213.0	216.0	0	15000	American Goldfinch	amegfi	0.2780	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	213.0
+38	Spectrogram 1	1	219.0	222.0	0	15000	American Goldfinch	amegfi	0.4563	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	219.0
+39	Spectrogram 1	1	222.0	225.0	0	15000	American Goldfinch	amegfi	0.3965	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	222.0
+40	Spectrogram 1	1	225.0	228.0	0	15000	American Goldfinch	amegfi	0.6643	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	225.0
+41	Spectrogram 1	1	237.0	240.0	0	15000	American Goldfinch	amegfi	0.2572	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	237.0
+42	Spectrogram 1	1	240.0	243.0	0	15000	American Goldfinch	amegfi	0.3270	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	240.0
+43	Spectrogram 1	1	243.0	246.0	0	15000	American Goldfinch	amegfi	0.4647	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	243.0
+44	Spectrogram 1	1	249.0	252.0	0	15000	American Goldfinch	amegfi	0.4936	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	249.0
+45	Spectrogram 1	1	252.0	255.0	0	15000	American Goldfinch	amegfi	0.6328	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	252.0
+46	Spectrogram 1	1	255.0	258.0	0	15000	American Goldfinch	amegfi	0.3630	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	255.0
+47	Spectrogram 1	1	264.0	267.0	0	15000	American Goldfinch	amegfi	0.2501	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	264.0
+48	Spectrogram 1	1	267.0	270.0	0	15000	American Goldfinch	amegfi	0.2642	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	267.0
+49	Spectrogram 1	1	270.0	273.0	0	15000	American Goldfinch	amegfi	0.7654	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	270.0
+50	Spectrogram 1	1	273.0	276.0	0	15000	American Goldfinch	amegfi	0.3662	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	273.0
+51	Spectrogram 1	1	276.0	279.0	0	15000	American Goldfinch	amegfi	0.5181	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	276.0
+52	Spectrogram 1	1	279.0	282.0	0	15000	American Goldfinch	amegfi	0.2548	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	279.0
+53	Spectrogram 1	1	282.0	285.0	0	15000	American Goldfinch	amegfi	0.5375	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	282.0
+54	Spectrogram 1	1	285.0	288.0	0	15000	American Goldfinch	amegfi	0.4404	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	285.0
+55	Spectrogram 1	1	291.0	294.0	0	15000	American Goldfinch	amegfi	0.7126	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	291.0
+56	Spectrogram 1	1	294.0	297.0	0	15000	American Goldfinch	amegfi	0.5020	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	294.0
+57	Spectrogram 1	1	297.0	300.0	0	15000	American Goldfinch	amegfi	0.3479	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	297.0
+58	Spectrogram 1	1	300.0	303.0	0	15000	American Goldfinch	amegfi	0.4774	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	300.0
+59	Spectrogram 1	1	303.0	306.0	0	15000	American Goldfinch	amegfi	0.8638	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	303.0
+60	Spectrogram 1	1	309.0	312.0	0	15000	American Goldfinch	amegfi	0.5317	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	309.0
+61	Spectrogram 1	1	312.0	315.0	0	15000	American Goldfinch	amegfi	0.7456	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	312.0
+62	Spectrogram 1	1	315.0	318.0	0	15000	American Goldfinch	amegfi	0.8476	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	315.0
+63	Spectrogram 1	1	318.0	321.0	0	15000	Osprey	osprey	0.5988	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	318.0
+64	Spectrogram 1	1	318.0	321.0	0	15000	American Goldfinch	amegfi	0.2543	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	318.0
+65	Spectrogram 1	1	321.0	324.0	0	15000	Osprey	osprey	0.9484	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	321.0
+66	Spectrogram 1	1	324.0	327.0	0	15000	American Goldfinch	amegfi	0.4267	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	324.0
+67	Spectrogram 1	1	327.0	330.0	0	15000	American Goldfinch	amegfi	0.5504	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	327.0
+68	Spectrogram 1	1	330.0	333.0	0	15000	American Goldfinch	amegfi	0.6514	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	330.0
+69	Spectrogram 1	1	333.0	336.0	0	15000	American Goldfinch	amegfi	0.6418	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	333.0
+70	Spectrogram 1	1	336.0	339.0	0	15000	American Goldfinch	amegfi	0.6103	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	336.0
+71	Spectrogram 1	1	339.0	342.0	0	15000	American Goldfinch	amegfi	0.6225	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	339.0
+72	Spectrogram 1	1	342.0	345.0	0	15000	American Goldfinch	amegfi	0.3020	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	342.0
+73	Spectrogram 1	1	345.0	348.0	0	15000	American Goldfinch	amegfi	0.6758	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	345.0
+74	Spectrogram 1	1	348.0	351.0	0	15000	American Goldfinch	amegfi	0.3756	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	348.0
+75	Spectrogram 1	1	351.0	354.0	0	15000	American Goldfinch	amegfi	0.3635	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	351.0
+76	Spectrogram 1	1	354.0	357.0	0	15000	American Goldfinch	amegfi	0.7091	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	354.0
+77	Spectrogram 1	1	357.0	360.0	0	15000	American Goldfinch	amegfi	0.6068	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	357.0
+78	Spectrogram 1	1	360.0	363.0	0	15000	American Goldfinch	amegfi	0.4857	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	360.0
+79	Spectrogram 1	1	363.0	366.0	0	15000	American Goldfinch	amegfi	0.7379	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	363.0
+80	Spectrogram 1	1	366.0	369.0	0	15000	American Goldfinch	amegfi	0.8066	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	366.0
+81	Spectrogram 1	1	369.0	372.0	0	15000	American Goldfinch	amegfi	0.5397	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	369.0
+82	Spectrogram 1	1	372.0	375.0	0	15000	American Goldfinch	amegfi	0.7872	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	372.0
+83	Spectrogram 1	1	375.0	378.0	0	15000	American Goldfinch	amegfi	0.3203	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	375.0
+84	Spectrogram 1	1	381.0	384.0	0	15000	Northern Cardinal	norcar	0.4498	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	381.0
+85	Spectrogram 1	1	381.0	384.0	0	15000	American Goldfinch	amegfi	0.4106	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	381.0
+86	Spectrogram 1	1	384.0	387.0	0	15000	American Goldfinch	amegfi	0.5535	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	384.0
+87	Spectrogram 1	1	387.0	390.0	0	15000	American Goldfinch	amegfi	0.8481	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	387.0
+88	Spectrogram 1	1	390.0	393.0	0	15000	American Goldfinch	amegfi	0.5147	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	390.0
+89	Spectrogram 1	1	393.0	396.0	0	15000	American Goldfinch	amegfi	0.7621	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	393.0
+90	Spectrogram 1	1	396.0	399.0	0	15000	American Goldfinch	amegfi	0.4858	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	396.0
+91	Spectrogram 1	1	399.0	402.0	0	15000	American Goldfinch	amegfi	0.5340	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	399.0
+92	Spectrogram 1	1	402.0	405.0	0	15000	American Goldfinch	amegfi	0.3811	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	402.0
+93	Spectrogram 1	1	408.0	411.0	0	15000	American Goldfinch	amegfi	0.7861	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	408.0
+94	Spectrogram 1	1	411.0	414.0	0	15000	American Goldfinch	amegfi	0.5656	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	411.0
+95	Spectrogram 1	1	414.0	417.0	0	15000	American Goldfinch	amegfi	0.7102	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	414.0
+96	Spectrogram 1	1	417.0	420.0	0	15000	American Goldfinch	amegfi	0.7720	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	417.0
+97	Spectrogram 1	1	420.0	423.0	0	15000	American Goldfinch	amegfi	0.2799	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	420.0
+98	Spectrogram 1	1	423.0	426.0	0	15000	American Goldfinch	amegfi	0.5768	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	423.0
+99	Spectrogram 1	1	426.0	429.0	0	15000	American Goldfinch	amegfi	0.4631	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	426.0
+100	Spectrogram 1	1	429.0	432.0	0	15000	American Goldfinch	amegfi	0.4261	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	429.0
+101	Spectrogram 1	1	432.0	435.0	0	15000	American Goldfinch	amegfi	0.6166	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	432.0
+102	Spectrogram 1	1	435.0	438.0	0	15000	American Goldfinch	amegfi	0.5419	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	435.0
+103	Spectrogram 1	1	438.0	441.0	0	15000	American Goldfinch	amegfi	0.3733	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	438.0
+104	Spectrogram 1	1	441.0	444.0	0	15000	American Goldfinch	amegfi	0.6785	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	441.0
+105	Spectrogram 1	1	444.0	447.0	0	15000	American Goldfinch	amegfi	0.3736	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	444.0
+106	Spectrogram 1	1	447.0	450.0	0	15000	American Goldfinch	amegfi	0.3289	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	447.0
+107	Spectrogram 1	1	453.0	456.0	0	15000	American Goldfinch	amegfi	0.3602	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	453.0
+108	Spectrogram 1	1	456.0	459.0	0	15000	Northern Cardinal	norcar	0.2542	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	456.0
+109	Spectrogram 1	1	459.0	462.0	0	15000	Northern Cardinal	norcar	0.2561	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	459.0
+110	Spectrogram 1	1	462.0	465.0	0	15000	Fish Crow	fiscro	0.9455	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	462.0
+111	Spectrogram 1	1	465.0	468.0	0	15000	Northern Cardinal	norcar	0.5854	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	465.0
+112	Spectrogram 1	1	492.0	495.0	0	15000	American Goldfinch	amegfi	0.5251	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	492.0
+113	Spectrogram 1	1	495.0	498.0	0	15000	American Goldfinch	amegfi	0.7160	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	495.0
+114	Spectrogram 1	1	498.0	501.0	0	15000	American Goldfinch	amegfi	0.7213	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	498.0
+115	Spectrogram 1	1	501.0	504.0	0	15000	American Goldfinch	amegfi	0.6986	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	501.0
+116	Spectrogram 1	1	504.0	507.0	0	15000	American Goldfinch	amegfi	0.5500	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	504.0
+117	Spectrogram 1	1	504.0	507.0	0	15000	Osprey	osprey	0.2625	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	504.0
+118	Spectrogram 1	1	507.0	510.0	0	15000	American Goldfinch	amegfi	0.4669	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	507.0
+119	Spectrogram 1	1	510.0	513.0	0	15000	Fish Crow	fiscro	0.5110	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	510.0
+120	Spectrogram 1	1	510.0	513.0	0	15000	American Goldfinch	amegfi	0.3118	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	510.0
+121	Spectrogram 1	1	516.0	519.0	0	15000	American Goldfinch	amegfi	0.3672	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	516.0
+122	Spectrogram 1	1	519.0	522.0	0	15000	American Goldfinch	amegfi	0.2660	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	519.0
+123	Spectrogram 1	1	522.0	525.0	0	15000	American Goldfinch	amegfi	0.2950	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	522.0
+124	Spectrogram 1	1	525.0	528.0	0	15000	American Goldfinch	amegfi	0.6136	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	525.0
+125	Spectrogram 1	1	528.0	531.0	0	15000	Fish Crow	fiscro	0.4253	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	528.0
+126	Spectrogram 1	1	534.0	537.0	0	15000	Fish Crow	fiscro	0.4555	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	534.0
+127	Spectrogram 1	1	537.0	540.0	0	15000	Purple Martin	purmar	0.7954	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	537.0
+128	Spectrogram 1	1	540.0	543.0	0	15000	Purple Martin	purmar	0.2989	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	540.0
+129	Spectrogram 1	1	543.0	546.0	0	15000	Osprey	osprey	0.5920	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	543.0
+130	Spectrogram 1	1	546.0	549.0	0	15000	American Goldfinch	amegfi	0.5852	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	546.0
+131	Spectrogram 1	1	549.0	552.0	0	15000	American Goldfinch	amegfi	0.4692	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	549.0
+132	Spectrogram 1	1	552.0	555.0	0	15000	Eastern Kingbird	easkin	0.4451	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	552.0
+133	Spectrogram 1	1	555.0	558.0	0	15000	Eastern Kingbird	easkin	0.8465	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	555.0
+134	Spectrogram 1	1	576.0	579.0	0	15000	Osprey	osprey	0.9976	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	576.0
+135	Spectrogram 1	1	579.0	582.0	0	15000	Osprey	osprey	0.9361	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	579.0
+136	Spectrogram 1	1	582.0	585.0	0	15000	Osprey	osprey	0.9907	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	582.0
+137	Spectrogram 1	1	585.0	588.0	0	15000	Osprey	osprey	0.9616	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	585.0
+138	Spectrogram 1	1	591.0	594.0	0	15000	American Goldfinch	amegfi	0.6613	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	591.0
+139	Spectrogram 1	1	603.0	606.0	0	15000	Dog	dogdog	0.4277	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	603.0
+140	Spectrogram 1	1	609.0	612.0	0	15000	American Goldfinch	amegfi	0.2979	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	609.0
+141	Spectrogram 1	1	615.0	618.0	0	15000	Osprey	osprey	0.7632	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	615.0
+142	Spectrogram 1	1	618.0	621.0	0	15000	Osprey	osprey	0.9871	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	618.0
+143	Spectrogram 1	1	621.0	624.0	0	15000	Osprey	osprey	0.8505	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	621.0
+144	Spectrogram 1	1	624.0	627.0	0	15000	Osprey	osprey	0.7799	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	624.0
+145	Spectrogram 1	1	627.0	630.0	0	15000	Osprey	osprey	0.9922	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	627.0
+146	Spectrogram 1	1	630.0	633.0	0	15000	Osprey	osprey	0.9838	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	630.0
+147	Spectrogram 1	1	633.0	636.0	0	15000	Osprey	osprey	0.4928	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	633.0
+148	Spectrogram 1	1	636.0	639.0	0	15000	American Goldfinch	amegfi	0.6756	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	636.0
+149	Spectrogram 1	1	639.0	642.0	0	15000	American Goldfinch	amegfi	0.5623	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	639.0
+150	Spectrogram 1	1	654.0	657.0	0	15000	American Goldfinch	amegfi	0.5057	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	654.0
+151	Spectrogram 1	1	663.0	666.0	0	15000	American Goldfinch	amegfi	0.7015	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	663.0
+152	Spectrogram 1	1	672.0	675.0	0	15000	American Goldfinch	amegfi	0.8088	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	672.0
+153	Spectrogram 1	1	678.0	681.0	0	15000	American Goldfinch	amegfi	0.8482	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	678.0
+154	Spectrogram 1	1	681.0	684.0	0	15000	American Goldfinch	amegfi	0.7585	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	681.0
+155	Spectrogram 1	1	684.0	687.0	0	15000	American Goldfinch	amegfi	0.7247	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	684.0
+156	Spectrogram 1	1	687.0	690.0	0	15000	Osprey	osprey	0.8560	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	687.0
+157	Spectrogram 1	1	699.0	702.0	0	15000	American Goldfinch	amegfi	0.5894	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	699.0
+158	Spectrogram 1	1	705.0	708.0	0	15000	American Goldfinch	amegfi	0.6663	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	705.0
+159	Spectrogram 1	1	714.0	717.0	0	15000	Eastern Kingbird	easkin	0.9595	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	714.0
+160	Spectrogram 1	1	723.0	726.0	0	15000	Eastern Kingbird	easkin	0.4363	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	723.0
+161	Spectrogram 1	1	771.0	774.0	0	15000	Osprey	osprey	0.6238	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	771.0
+162	Spectrogram 1	1	771.0	774.0	0	15000	Bald Eagle	baleag	0.2684	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	771.0
+163	Spectrogram 1	1	789.0	792.0	0	15000	Eastern Kingbird	easkin	0.9747	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	789.0
+164	Spectrogram 1	1	792.0	795.0	0	15000	Osprey	osprey	0.9263	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	792.0
+165	Spectrogram 1	1	795.0	798.0	0	15000	Eastern Kingbird	easkin	0.5463	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	795.0
+166	Spectrogram 1	1	807.0	810.0	0	15000	Eastern Kingbird	easkin	0.3249	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	807.0
+167	Spectrogram 1	1	810.0	813.0	0	15000	Eastern Kingbird	easkin	0.6250	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	810.0
+168	Spectrogram 1	1	846.0	849.0	0	15000	Eastern Kingbird	easkin	0.7139	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	846.0
+169	Spectrogram 1	1	858.0	861.0	0	15000	American Goldfinch	amegfi	0.8412	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	858.0
+170	Spectrogram 1	1	861.0	864.0	0	15000	American Goldfinch	amegfi	0.6591	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	861.0
+171	Spectrogram 1	1	864.0	867.0	0	15000	Eastern Kingbird	easkin	0.8788	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	864.0
+172	Spectrogram 1	1	864.0	867.0	0	15000	American Goldfinch	amegfi	0.4147	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	864.0
+173	Spectrogram 1	1	867.0	870.0	0	15000	Eastern Kingbird	easkin	0.8679	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	867.0
+174	Spectrogram 1	1	867.0	870.0	0	15000	American Goldfinch	amegfi	0.7723	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	867.0
+175	Spectrogram 1	1	870.0	873.0	0	15000	American Goldfinch	amegfi	0.6235	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	870.0
+176	Spectrogram 1	1	870.0	873.0	0	15000	Eastern Kingbird	easkin	0.3568	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	870.0
+177	Spectrogram 1	1	873.0	876.0	0	15000	American Goldfinch	amegfi	0.7601	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	873.0
+178	Spectrogram 1	1	876.0	879.0	0	15000	American Goldfinch	amegfi	0.7754	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	876.0
+179	Spectrogram 1	1	879.0	882.0	0	15000	American Goldfinch	amegfi	0.7456	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	879.0
+180	Spectrogram 1	1	882.0	885.0	0	15000	American Goldfinch	amegfi	0.7077	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	882.0
+181	Spectrogram 1	1	885.0	888.0	0	15000	American Goldfinch	amegfi	0.5274	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	885.0
+182	Spectrogram 1	1	888.0	891.0	0	15000	American Goldfinch	amegfi	0.6652	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	888.0
+183	Spectrogram 1	1	891.0	894.0	0	15000	American Goldfinch	amegfi	0.6954	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	891.0
+184	Spectrogram 1	1	897.0	900.0	0	15000	Carolina Wren	carwre	0.3080	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_060000.wav	897.0

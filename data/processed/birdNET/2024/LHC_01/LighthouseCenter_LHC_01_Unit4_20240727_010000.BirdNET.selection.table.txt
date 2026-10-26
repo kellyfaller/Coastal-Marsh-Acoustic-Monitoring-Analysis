@@ -1,0 +1,9 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	108.0	111.0	0	15000	Great Horned Owl	grhowl	0.3705	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_010000.wav	108.0
+2	Spectrogram 1	1	123.0	126.0	0	15000	Golden-crowned Kinglet	gockin	0.2830	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_010000.wav	123.0
+3	Spectrogram 1	1	207.0	210.0	0	15000	Great Horned Owl	grhowl	0.3846	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_010000.wav	207.0
+4	Spectrogram 1	1	855.0	858.0	0	15000	Jumping Bush Cricket	t-11850192	0.3077	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_010000.wav	855.0
+5	Spectrogram 1	1	855.0	858.0	0	15000	Golden-crowned Kinglet	gockin	0.2561	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_010000.wav	855.0
+6	Spectrogram 1	1	882.0	885.0	0	15000	Jumping Bush Cricket	t-11850192	0.2912	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_010000.wav	882.0
+7	Spectrogram 1	1	891.0	894.0	0	15000	Fall Field Cricket	t-11844438	0.5187	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_010000.wav	891.0
+8	Spectrogram 1	1	891.0	894.0	0	15000	Jumping Bush Cricket	t-11850192	0.2982	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_010000.wav	891.0

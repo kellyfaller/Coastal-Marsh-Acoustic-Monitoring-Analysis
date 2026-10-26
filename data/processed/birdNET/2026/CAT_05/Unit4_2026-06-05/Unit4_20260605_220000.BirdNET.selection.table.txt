@@ -1,0 +1,6 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	81.0	84.0	0	15000	Common Loon	comloo	0.3084	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-05\Unit4_20260605_220000.wav	81.0
+2	Spectrogram 1	1	201.0	204.0	0	15000	Engine	engine	0.4264	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-05\Unit4_20260605_220000.wav	201.0
+3	Spectrogram 1	1	237.0	240.0	0	15000	Tundra Swan	tunswa	0.3757	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-05\Unit4_20260605_220000.wav	237.0
+4	Spectrogram 1	1	270.0	273.0	0	15000	Tundra Swan	tunswa	0.3077	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-05\Unit4_20260605_220000.wav	270.0
+5	Spectrogram 1	1	357.0	360.0	0	15000	Tundra Swan	tunswa	0.3436	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-05\Unit4_20260605_220000.wav	357.0

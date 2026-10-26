@@ -1,0 +1,24 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	87.0	90.0	0	15000	Golden-crowned Kinglet	gockin	0.5105	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_170000.wav	87.0
+2	Spectrogram 1	1	93.0	96.0	0	15000	Golden-crowned Kinglet	gockin	0.3954	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_170000.wav	93.0
+3	Spectrogram 1	1	102.0	105.0	0	15000	Golden-crowned Kinglet	gockin	0.6324	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_170000.wav	102.0
+4	Spectrogram 1	1	153.0	156.0	0	15000	Golden-crowned Kinglet	gockin	0.7103	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_170000.wav	153.0
+5	Spectrogram 1	1	162.0	165.0	0	15000	Golden-crowned Kinglet	gockin	0.9208	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_170000.wav	162.0
+6	Spectrogram 1	1	204.0	207.0	0	15000	Golden-crowned Kinglet	gockin	0.2964	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_170000.wav	204.0
+7	Spectrogram 1	1	339.0	342.0	0	15000	Golden-crowned Kinglet	gockin	0.4100	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_170000.wav	339.0
+8	Spectrogram 1	1	369.0	372.0	0	15000	Golden-crowned Kinglet	gockin	0.6120	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_170000.wav	369.0
+9	Spectrogram 1	1	372.0	375.0	0	15000	Golden-crowned Kinglet	gockin	0.5845	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_170000.wav	372.0
+10	Spectrogram 1	1	393.0	396.0	0	15000	Northern Flicker	norfli	0.4491	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_170000.wav	393.0
+11	Spectrogram 1	1	399.0	402.0	0	15000	Northern Flicker	norfli	0.7674	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_170000.wav	399.0
+12	Spectrogram 1	1	405.0	408.0	0	15000	Northern Flicker	norfli	0.4474	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_170000.wav	405.0
+13	Spectrogram 1	1	414.0	417.0	0	15000	Northern Flicker	norfli	0.4959	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_170000.wav	414.0
+14	Spectrogram 1	1	465.0	468.0	0	15000	Golden-crowned Kinglet	gockin	0.4464	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_170000.wav	465.0
+15	Spectrogram 1	1	495.0	498.0	0	15000	American Goldfinch	amegfi	0.6835	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_170000.wav	495.0
+16	Spectrogram 1	1	525.0	528.0	0	15000	Eastern Wood-Pewee	eawpew	0.4050	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_170000.wav	525.0
+17	Spectrogram 1	1	546.0	549.0	0	15000	Eastern Wood-Pewee	eawpew	0.3060	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_170000.wav	546.0
+18	Spectrogram 1	1	549.0	552.0	0	15000	American Goldfinch	amegfi	0.5044	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_170000.wav	549.0
+19	Spectrogram 1	1	705.0	708.0	0	15000	Seaside Sparrow	seaspa	0.2632	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_170000.wav	705.0
+20	Spectrogram 1	1	717.0	720.0	0	15000	Golden-crowned Kinglet	gockin	0.8264	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_170000.wav	717.0
+21	Spectrogram 1	1	723.0	726.0	0	15000	Belted Kingfisher	belkin1	0.2533	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_170000.wav	723.0
+22	Spectrogram 1	1	726.0	729.0	0	15000	Belted Kingfisher	belkin1	0.5387	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_170000.wav	726.0
+23	Spectrogram 1	1	819.0	822.0	0	15000	Golden-crowned Kinglet	gockin	0.6114	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_170000.wav	819.0

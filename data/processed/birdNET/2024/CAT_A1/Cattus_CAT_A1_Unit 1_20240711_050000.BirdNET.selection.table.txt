@@ -1,0 +1,22 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	21.0	24.0	0	15000	Seaside Sparrow	seaspa	0.6082	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240711_050000.wav	21.0
+2	Spectrogram 1	1	198.0	201.0	0	15000	Mallard	mallar3	0.2537	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240711_050000.wav	198.0
+3	Spectrogram 1	1	216.0	219.0	0	15000	Mallard	mallar3	0.4525	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240711_050000.wav	216.0
+4	Spectrogram 1	1	219.0	222.0	0	15000	Mallard	mallar3	0.9205	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240711_050000.wav	219.0
+5	Spectrogram 1	1	279.0	282.0	0	15000	Yellow-billed Cuckoo	yebcuc	0.3427	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240711_050000.wav	279.0
+6	Spectrogram 1	1	303.0	306.0	0	15000	Mallard	mallar3	0.9160	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240711_050000.wav	303.0
+7	Spectrogram 1	1	363.0	366.0	0	15000	American Bittern	amebit	0.3503	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240711_050000.wav	363.0
+8	Spectrogram 1	1	405.0	408.0	0	15000	Seaside Sparrow	seaspa	0.4911	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240711_050000.wav	405.0
+9	Spectrogram 1	1	429.0	432.0	0	15000	Chuck-will's-widow	chwwid	0.8011	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240711_050000.wav	429.0
+10	Spectrogram 1	1	453.0	456.0	0	15000	Palm Warbler	palwar	0.2514	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240711_050000.wav	453.0
+11	Spectrogram 1	1	573.0	576.0	0	15000	Mallard	mallar3	0.2688	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240711_050000.wav	573.0
+12	Spectrogram 1	1	579.0	582.0	0	15000	Mallard	mallar3	0.4477	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240711_050000.wav	579.0
+13	Spectrogram 1	1	603.0	606.0	0	15000	Great Black-backed Gull	gbbgul	0.2964	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240711_050000.wav	603.0
+14	Spectrogram 1	1	606.0	609.0	0	15000	Mallard	mallar3	0.7567	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240711_050000.wav	606.0
+15	Spectrogram 1	1	621.0	624.0	0	15000	Mallard	mallar3	0.3667	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240711_050000.wav	621.0
+16	Spectrogram 1	1	708.0	711.0	0	15000	Mallard	mallar3	0.3723	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240711_050000.wav	708.0
+17	Spectrogram 1	1	711.0	714.0	0	15000	Mallard	mallar3	0.2653	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240711_050000.wav	711.0
+18	Spectrogram 1	1	855.0	858.0	0	15000	Fish Crow	fiscro	0.8155	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240711_050000.wav	855.0
+19	Spectrogram 1	1	861.0	864.0	0	15000	Fish Crow	fiscro	0.8774	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240711_050000.wav	861.0
+20	Spectrogram 1	1	873.0	876.0	0	15000	Northern Cardinal	norcar	0.2798	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240711_050000.wav	873.0
+21	Spectrogram 1	1	888.0	891.0	0	15000	Fish Crow	fiscro	0.3479	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240711_050000.wav	888.0

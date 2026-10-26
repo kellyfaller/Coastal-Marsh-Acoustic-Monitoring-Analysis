@@ -1,0 +1,7 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	36.0	39.0	0	15000	Seaside Sparrow	seaspa	0.9662	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-05\Unit4_20260705_020000.wav	36.0
+2	Spectrogram 1	1	342.0	345.0	0	15000	Marsh Wren	marwre	0.5166	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-05\Unit4_20260705_020000.wav	342.0
+3	Spectrogram 1	1	441.0	444.0	0	15000	Engine	engine	0.3662	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-05\Unit4_20260705_020000.wav	441.0
+4	Spectrogram 1	1	636.0	639.0	0	15000	Mallard	mallar3	0.2525	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-05\Unit4_20260705_020000.wav	636.0
+5	Spectrogram 1	1	669.0	672.0	0	15000	Mallard	mallar3	0.6966	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-05\Unit4_20260705_020000.wav	669.0
+6	Spectrogram 1	1	672.0	675.0	0	15000	Mallard	mallar3	0.7352	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-05\Unit4_20260705_020000.wav	672.0

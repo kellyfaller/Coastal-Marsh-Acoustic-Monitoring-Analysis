@@ -1,0 +1,6 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	261.0	264.0	0	15000	Canada Goose	cangoo	0.2603	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_004500.wav	261.0
+2	Spectrogram 1	1	321.0	324.0	0	15000	Canada Goose	cangoo	0.6212	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_004500.wav	321.0
+3	Spectrogram 1	1	330.0	333.0	0	15000	Canada Goose	cangoo	0.5868	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_004500.wav	330.0
+4	Spectrogram 1	1	402.0	405.0	0	15000	Fish Crow	fiscro	0.2522	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_004500.wav	402.0
+5	Spectrogram 1	1	732.0	735.0	0	15000	Tundra Swan	tunswa	0.2897	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_004500.wav	732.0

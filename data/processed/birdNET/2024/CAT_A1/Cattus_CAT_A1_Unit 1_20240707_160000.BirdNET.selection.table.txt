@@ -1,0 +1,30 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	60.0	63.0	0	15000	Mallard	mallar3	0.3325	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_160000.wav	60.0
+2	Spectrogram 1	1	75.0	78.0	0	15000	Whimbrel	whimbr	0.9441	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_160000.wav	75.0
+3	Spectrogram 1	1	75.0	78.0	0	15000	Greater Yellowlegs	greyel	0.3389	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_160000.wav	75.0
+4	Spectrogram 1	1	126.0	129.0	0	15000	Whimbrel	whimbr	0.5994	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_160000.wav	126.0
+5	Spectrogram 1	1	129.0	132.0	0	15000	Mallard	mallar3	0.2524	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_160000.wav	129.0
+6	Spectrogram 1	1	159.0	162.0	0	15000	Osprey	osprey	0.2715	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_160000.wav	159.0
+7	Spectrogram 1	1	228.0	231.0	0	15000	Eastern Meadowlark	easmea	0.2864	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_160000.wav	228.0
+8	Spectrogram 1	1	279.0	282.0	0	15000	Northern Cardinal	norcar	0.3938	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_160000.wav	279.0
+9	Spectrogram 1	1	291.0	294.0	0	15000	Common Yellowthroat	comyel	0.2558	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_160000.wav	291.0
+10	Spectrogram 1	1	315.0	318.0	0	15000	Whimbrel	whimbr	0.7031	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_160000.wav	315.0
+11	Spectrogram 1	1	345.0	348.0	0	15000	Northern Cardinal	norcar	0.5028	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_160000.wav	345.0
+12	Spectrogram 1	1	372.0	375.0	0	15000	Engine	engine	0.3722	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_160000.wav	372.0
+13	Spectrogram 1	1	495.0	498.0	0	15000	Marsh Wren	marwre	0.3808	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_160000.wav	495.0
+14	Spectrogram 1	1	549.0	552.0	0	15000	Marsh Wren	marwre	0.5179	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_160000.wav	549.0
+15	Spectrogram 1	1	558.0	561.0	0	15000	Marsh Wren	marwre	0.4615	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_160000.wav	558.0
+16	Spectrogram 1	1	564.0	567.0	0	15000	Marsh Wren	marwre	0.2563	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_160000.wav	564.0
+17	Spectrogram 1	1	570.0	573.0	0	15000	Chipping Sparrow	chispa	0.3575	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_160000.wav	570.0
+18	Spectrogram 1	1	573.0	576.0	0	15000	Marsh Wren	marwre	0.3051	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_160000.wav	573.0
+19	Spectrogram 1	1	579.0	582.0	0	15000	Marsh Wren	marwre	0.3915	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_160000.wav	579.0
+20	Spectrogram 1	1	591.0	594.0	0	15000	Marsh Wren	marwre	0.2781	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_160000.wav	591.0
+21	Spectrogram 1	1	594.0	597.0	0	15000	Whimbrel	whimbr	0.3019	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_160000.wav	594.0
+22	Spectrogram 1	1	597.0	600.0	0	15000	Marsh Wren	marwre	0.3970	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_160000.wav	597.0
+23	Spectrogram 1	1	654.0	657.0	0	15000	Fish Crow	fiscro	0.5172	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_160000.wav	654.0
+24	Spectrogram 1	1	678.0	681.0	0	15000	Fish Crow	fiscro	0.8963	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_160000.wav	678.0
+25	Spectrogram 1	1	681.0	684.0	0	15000	Fish Crow	fiscro	0.3456	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_160000.wav	681.0
+26	Spectrogram 1	1	693.0	696.0	0	15000	Fish Crow	fiscro	0.6162	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_160000.wav	693.0
+27	Spectrogram 1	1	708.0	711.0	0	15000	Whimbrel	whimbr	0.3044	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_160000.wav	708.0
+28	Spectrogram 1	1	768.0	771.0	0	15000	Fish Crow	fiscro	0.4011	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_160000.wav	768.0
+29	Spectrogram 1	1	774.0	777.0	0	15000	Fish Crow	fiscro	0.4222	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240707_160000.wav	774.0

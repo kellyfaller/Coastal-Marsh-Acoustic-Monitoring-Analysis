@@ -1,0 +1,6 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	381.0	384.0	0	15000	Eastern Screech-Owl	easowl1	0.9196	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-05\Unit4_20260805_020000.wav	381.0
+2	Spectrogram 1	1	426.0	429.0	0	15000	Golden-crowned Kinglet	gockin	0.2757	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-05\Unit4_20260805_020000.wav	426.0
+3	Spectrogram 1	1	732.0	735.0	0	15000	Golden-crowned Kinglet	gockin	0.2549	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-05\Unit4_20260805_020000.wav	732.0
+4	Spectrogram 1	1	834.0	837.0	0	15000	Red-shouldered Hawk	reshaw	0.4319	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-05\Unit4_20260805_020000.wav	834.0
+5	Spectrogram 1	1	834.0	837.0	0	15000	Eastern Screech-Owl	easowl1	0.2976	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-05\Unit4_20260805_020000.wav	834.0

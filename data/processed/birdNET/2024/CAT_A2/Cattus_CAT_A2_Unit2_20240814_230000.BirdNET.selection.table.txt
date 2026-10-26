@@ -1,0 +1,39 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	0.0	3.0	0	15000	Eastern Screech-Owl	easowl1	0.2940	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	0.0
+2	Spectrogram 1	1	6.0	9.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.3079	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	6.0
+3	Spectrogram 1	1	9.0	12.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2708	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	9.0
+4	Spectrogram 1	1	12.0	15.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.5618	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	12.0
+5	Spectrogram 1	1	15.0	18.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2700	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	15.0
+6	Spectrogram 1	1	21.0	24.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2863	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	21.0
+7	Spectrogram 1	1	45.0	48.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.3222	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	45.0
+8	Spectrogram 1	1	63.0	66.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.4002	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	63.0
+9	Spectrogram 1	1	66.0	69.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.3599	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	66.0
+10	Spectrogram 1	1	81.0	84.0	0	15000	Eastern Screech-Owl	easowl1	0.5061	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	81.0
+11	Spectrogram 1	1	159.0	162.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2530	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	159.0
+12	Spectrogram 1	1	204.0	207.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2508	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	204.0
+13	Spectrogram 1	1	219.0	222.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2622	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	219.0
+14	Spectrogram 1	1	246.0	249.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2838	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	246.0
+15	Spectrogram 1	1	249.0	252.0	0	15000	Eastern Screech-Owl	easowl1	0.3179	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	249.0
+16	Spectrogram 1	1	252.0	255.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.3314	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	252.0
+17	Spectrogram 1	1	270.0	273.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.3200	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	270.0
+18	Spectrogram 1	1	288.0	291.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.3096	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	288.0
+19	Spectrogram 1	1	315.0	318.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.3279	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	315.0
+20	Spectrogram 1	1	348.0	351.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2894	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	348.0
+21	Spectrogram 1	1	396.0	399.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2983	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	396.0
+22	Spectrogram 1	1	399.0	402.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.4288	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	399.0
+23	Spectrogram 1	1	411.0	414.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.3264	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	411.0
+24	Spectrogram 1	1	417.0	420.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.3207	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	417.0
+25	Spectrogram 1	1	432.0	435.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2709	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	432.0
+26	Spectrogram 1	1	441.0	444.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2554	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	441.0
+27	Spectrogram 1	1	531.0	534.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2834	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	531.0
+28	Spectrogram 1	1	603.0	606.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2690	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	603.0
+29	Spectrogram 1	1	678.0	681.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.3467	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	678.0
+30	Spectrogram 1	1	681.0	684.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.3466	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	681.0
+31	Spectrogram 1	1	747.0	750.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2724	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	747.0
+32	Spectrogram 1	1	750.0	753.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.3871	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	750.0
+33	Spectrogram 1	1	774.0	777.0	0	15000	Eastern Screech-Owl	easowl1	0.3219	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	774.0
+34	Spectrogram 1	1	783.0	786.0	0	15000	Eastern Screech-Owl	easowl1	0.3557	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	783.0
+35	Spectrogram 1	1	786.0	789.0	0	15000	Eastern Screech-Owl	easowl1	0.2835	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	786.0
+36	Spectrogram 1	1	795.0	798.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.3259	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	795.0
+37	Spectrogram 1	1	855.0	858.0	0	15000	Great Horned Owl	grhowl	0.2860	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	855.0
+38	Spectrogram 1	1	888.0	891.0	0	15000	Great Horned Owl	grhowl	0.5361	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_230000.wav	888.0

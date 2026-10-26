@@ -1,0 +1,4 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	240.0	243.0	0	15000	Osprey	osprey	0.5234	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240713_000000.wav	240.0
+2	Spectrogram 1	1	243.0	246.0	0	15000	Osprey	osprey	0.9796	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240713_000000.wav	243.0
+3	Spectrogram 1	1	246.0	249.0	0	15000	Osprey	osprey	0.7380	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240713_000000.wav	246.0

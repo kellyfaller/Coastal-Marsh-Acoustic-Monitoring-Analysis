@@ -1,0 +1,8 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	45.0	48.0	0	15000	Marsh Wren	marwre	0.6908	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240706_010000.wav	45.0
+2	Spectrogram 1	1	72.0	75.0	0	15000	Caspian Tern	caster1	0.4173	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240706_010000.wav	72.0
+3	Spectrogram 1	1	72.0	75.0	0	15000	Mallard	mallar3	0.3060	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240706_010000.wav	72.0
+4	Spectrogram 1	1	78.0	81.0	0	15000	Golden-crowned Kinglet	gockin	0.5523	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240706_010000.wav	78.0
+5	Spectrogram 1	1	375.0	378.0	0	15000	Seaside Sparrow	seaspa	0.9895	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240706_010000.wav	375.0
+6	Spectrogram 1	1	552.0	555.0	0	15000	American Goldfinch	amegfi	0.6539	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240706_010000.wav	552.0
+7	Spectrogram 1	1	852.0	855.0	0	15000	Mallard	mallar3	0.8322	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240706_010000.wav	852.0

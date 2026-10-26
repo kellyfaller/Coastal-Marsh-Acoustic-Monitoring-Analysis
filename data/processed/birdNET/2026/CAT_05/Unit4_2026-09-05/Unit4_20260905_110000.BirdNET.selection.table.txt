@@ -1,0 +1,8 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	108.0	111.0	0	15000	Engine	engine	0.4307	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_110000.wav	108.0
+2	Spectrogram 1	1	210.0	213.0	0	15000	Herring Gull	hergul	0.5209	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_110000.wav	210.0
+3	Spectrogram 1	1	219.0	222.0	0	15000	Black Scoter	blksco2	0.4445	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_110000.wav	219.0
+4	Spectrogram 1	1	339.0	342.0	0	15000	Chipping Sparrow	chispa	0.4928	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_110000.wav	339.0
+5	Spectrogram 1	1	360.0	363.0	0	15000	Chipping Sparrow	chispa	0.5881	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_110000.wav	360.0
+6	Spectrogram 1	1	363.0	366.0	0	15000	Chipping Sparrow	chispa	0.6508	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_110000.wav	363.0
+7	Spectrogram 1	1	597.0	600.0	0	15000	Engine	engine	0.3300	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-05\Unit4_20260905_110000.wav	597.0

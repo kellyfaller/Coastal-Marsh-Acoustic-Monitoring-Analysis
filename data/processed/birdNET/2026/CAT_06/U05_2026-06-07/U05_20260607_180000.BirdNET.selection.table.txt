@@ -1,0 +1,38 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	219.0	222.0	0	15000	Lapland Longspur	laplon	0.2598	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	219.0
+2	Spectrogram 1	1	321.0	324.0	0	15000	Seaside Sparrow	seaspa	0.4022	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	321.0
+3	Spectrogram 1	1	330.0	333.0	0	15000	Eastern Kingbird	easkin	0.5710	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	330.0
+4	Spectrogram 1	1	336.0	339.0	0	15000	Eastern Kingbird	easkin	0.2502	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	336.0
+5	Spectrogram 1	1	342.0	345.0	0	15000	Horned Lark	horlar	0.3045	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	342.0
+6	Spectrogram 1	1	345.0	348.0	0	15000	Eastern Kingbird	easkin	0.8296	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	345.0
+7	Spectrogram 1	1	351.0	354.0	0	15000	Eastern Kingbird	easkin	0.2928	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	351.0
+8	Spectrogram 1	1	354.0	357.0	0	15000	Eastern Kingbird	easkin	0.4931	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	354.0
+9	Spectrogram 1	1	360.0	363.0	0	15000	Eastern Kingbird	easkin	0.8278	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	360.0
+10	Spectrogram 1	1	390.0	393.0	0	15000	Eastern Kingbird	easkin	0.7785	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	390.0
+11	Spectrogram 1	1	396.0	399.0	0	15000	Eastern Kingbird	easkin	0.6333	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	396.0
+12	Spectrogram 1	1	402.0	405.0	0	15000	Eastern Kingbird	easkin	0.8764	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	402.0
+13	Spectrogram 1	1	405.0	408.0	0	15000	Eastern Kingbird	easkin	0.8131	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	405.0
+14	Spectrogram 1	1	408.0	411.0	0	15000	Eastern Kingbird	easkin	0.6630	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	408.0
+15	Spectrogram 1	1	420.0	423.0	0	15000	Eastern Kingbird	easkin	0.7615	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	420.0
+16	Spectrogram 1	1	423.0	426.0	0	15000	Eastern Kingbird	easkin	0.3582	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	423.0
+17	Spectrogram 1	1	426.0	429.0	0	15000	Eastern Kingbird	easkin	0.3537	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	426.0
+18	Spectrogram 1	1	432.0	435.0	0	15000	Eastern Kingbird	easkin	0.8746	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	432.0
+19	Spectrogram 1	1	435.0	438.0	0	15000	Eastern Kingbird	easkin	0.3410	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	435.0
+20	Spectrogram 1	1	438.0	441.0	0	15000	Eastern Kingbird	easkin	0.5872	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	438.0
+21	Spectrogram 1	1	441.0	444.0	0	15000	Eastern Kingbird	easkin	0.3181	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	441.0
+22	Spectrogram 1	1	447.0	450.0	0	15000	Eastern Kingbird	easkin	0.5487	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	447.0
+23	Spectrogram 1	1	450.0	453.0	0	15000	Eastern Kingbird	easkin	0.3664	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	450.0
+24	Spectrogram 1	1	459.0	462.0	0	15000	Eastern Kingbird	easkin	0.4658	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	459.0
+25	Spectrogram 1	1	465.0	468.0	0	15000	Eastern Kingbird	easkin	0.9748	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	465.0
+26	Spectrogram 1	1	471.0	474.0	0	15000	White-crowned Sparrow	whcspa	0.3745	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	471.0
+27	Spectrogram 1	1	480.0	483.0	0	15000	Eastern Kingbird	easkin	0.5740	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	480.0
+28	Spectrogram 1	1	489.0	492.0	0	15000	Eastern Kingbird	easkin	0.2908	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	489.0
+29	Spectrogram 1	1	492.0	495.0	0	15000	Eastern Kingbird	easkin	0.5617	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	492.0
+30	Spectrogram 1	1	498.0	501.0	0	15000	Greater Yellowlegs	greyel	0.6097	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	498.0
+31	Spectrogram 1	1	504.0	507.0	0	15000	Eastern Kingbird	easkin	0.8143	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	504.0
+32	Spectrogram 1	1	516.0	519.0	0	15000	Osprey	osprey	0.3174	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	516.0
+33	Spectrogram 1	1	609.0	612.0	0	15000	Osprey	osprey	0.3987	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	609.0
+34	Spectrogram 1	1	717.0	720.0	0	15000	Eastern Kingbird	easkin	0.7692	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	717.0
+35	Spectrogram 1	1	720.0	723.0	0	15000	Eastern Kingbird	easkin	0.9353	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	720.0
+36	Spectrogram 1	1	738.0	741.0	0	15000	Eastern Kingbird	easkin	0.8416	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	738.0
+37	Spectrogram 1	1	747.0	750.0	0	15000	Eastern Kingbird	easkin	0.8427	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_180000.wav	747.0

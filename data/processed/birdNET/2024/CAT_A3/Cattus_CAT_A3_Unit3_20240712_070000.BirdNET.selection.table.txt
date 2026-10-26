@@ -1,0 +1,19 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	0.0	3.0	0	15000	Red-winged Blackbird	rewbla	0.3709	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240712_070000.wav	0.0
+2	Spectrogram 1	1	36.0	39.0	0	15000	Barn Swallow	barswa	0.8158	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240712_070000.wav	36.0
+3	Spectrogram 1	1	36.0	39.0	0	15000	Bobolink	boboli	0.3578	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240712_070000.wav	36.0
+4	Spectrogram 1	1	87.0	90.0	0	15000	Barn Swallow	barswa	0.3060	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240712_070000.wav	87.0
+5	Spectrogram 1	1	102.0	105.0	0	15000	American Goldfinch	amegfi	0.4374	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240712_070000.wav	102.0
+6	Spectrogram 1	1	180.0	183.0	0	15000	Marsh Wren	marwre	0.5004	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240712_070000.wav	180.0
+7	Spectrogram 1	1	627.0	630.0	0	15000	Marsh Wren	marwre	0.3815	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240712_070000.wav	627.0
+8	Spectrogram 1	1	678.0	681.0	0	15000	Baltimore Oriole	balori	0.2501	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240712_070000.wav	678.0
+9	Spectrogram 1	1	768.0	771.0	0	15000	Henslow's Sparrow	henspa	0.3185	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240712_070000.wav	768.0
+10	Spectrogram 1	1	780.0	783.0	0	15000	Marsh Wren	marwre	0.3245	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240712_070000.wav	780.0
+11	Spectrogram 1	1	792.0	795.0	0	15000	Marsh Wren	marwre	0.3442	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240712_070000.wav	792.0
+12	Spectrogram 1	1	849.0	852.0	0	15000	Fish Crow	fiscro	0.8904	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240712_070000.wav	849.0
+13	Spectrogram 1	1	855.0	858.0	0	15000	Fish Crow	fiscro	0.8638	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240712_070000.wav	855.0
+14	Spectrogram 1	1	858.0	861.0	0	15000	Fish Crow	fiscro	0.6595	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240712_070000.wav	858.0
+15	Spectrogram 1	1	861.0	864.0	0	15000	Fish Crow	fiscro	0.7673	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240712_070000.wav	861.0
+16	Spectrogram 1	1	864.0	867.0	0	15000	Fish Crow	fiscro	0.5580	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240712_070000.wav	864.0
+17	Spectrogram 1	1	879.0	882.0	0	15000	Fish Crow	fiscro	0.9144	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240712_070000.wav	879.0
+18	Spectrogram 1	1	897.0	900.0	0	15000	Golden-crowned Kinglet	gockin	0.4186	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240712_070000.wav	897.0

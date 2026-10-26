@@ -1,0 +1,43 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	48.0	51.0	0	15000	House Finch	houfin	0.5467	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	48.0
+2	Spectrogram 1	1	84.0	87.0	0	15000	Gray Catbird	grycat	0.2924	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	84.0
+3	Spectrogram 1	1	90.0	93.0	0	15000	Laughing Gull	laugul	0.7248	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	90.0
+4	Spectrogram 1	1	96.0	99.0	0	15000	Laughing Gull	laugul	0.9854	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	96.0
+5	Spectrogram 1	1	99.0	102.0	0	15000	Laughing Gull	laugul	0.9883	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	99.0
+6	Spectrogram 1	1	102.0	105.0	0	15000	Laughing Gull	laugul	0.8018	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	102.0
+7	Spectrogram 1	1	105.0	108.0	0	15000	Laughing Gull	laugul	0.6920	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	105.0
+8	Spectrogram 1	1	108.0	111.0	0	15000	Laughing Gull	laugul	0.6972	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	108.0
+9	Spectrogram 1	1	123.0	126.0	0	15000	Gray Catbird	grycat	0.4689	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	123.0
+10	Spectrogram 1	1	129.0	132.0	0	15000	Gray Catbird	grycat	0.3331	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	129.0
+11	Spectrogram 1	1	135.0	138.0	0	15000	Gray Catbird	grycat	0.2779	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	135.0
+12	Spectrogram 1	1	150.0	153.0	0	15000	Gray Catbird	grycat	0.2775	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	150.0
+13	Spectrogram 1	1	168.0	171.0	0	15000	Gray Catbird	grycat	0.8605	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	168.0
+14	Spectrogram 1	1	171.0	174.0	0	15000	Gray Catbird	grycat	0.8789	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	171.0
+15	Spectrogram 1	1	180.0	183.0	0	15000	Gray Catbird	grycat	0.2806	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	180.0
+16	Spectrogram 1	1	183.0	186.0	0	15000	Gray Catbird	grycat	0.3715	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	183.0
+17	Spectrogram 1	1	186.0	189.0	0	15000	Gray Catbird	grycat	0.4848	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	186.0
+18	Spectrogram 1	1	192.0	195.0	0	15000	Gray Catbird	grycat	0.7215	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	192.0
+19	Spectrogram 1	1	195.0	198.0	0	15000	Gray Catbird	grycat	0.4922	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	195.0
+20	Spectrogram 1	1	198.0	201.0	0	15000	Gray Catbird	grycat	0.2788	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	198.0
+21	Spectrogram 1	1	201.0	204.0	0	15000	Gray Catbird	grycat	0.3271	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	201.0
+22	Spectrogram 1	1	216.0	219.0	0	15000	Gray Catbird	grycat	0.2868	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	216.0
+23	Spectrogram 1	1	219.0	222.0	0	15000	Black Rail	blkrai	0.4856	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	219.0
+24	Spectrogram 1	1	225.0	228.0	0	15000	Gray Catbird	grycat	0.7413	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	225.0
+25	Spectrogram 1	1	228.0	231.0	0	15000	Gray Catbird	grycat	0.2631	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	228.0
+26	Spectrogram 1	1	234.0	237.0	0	15000	Gray Catbird	grycat	0.3204	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	234.0
+27	Spectrogram 1	1	246.0	249.0	0	15000	Gray Catbird	grycat	0.5979	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	246.0
+28	Spectrogram 1	1	252.0	255.0	0	15000	Gray Catbird	grycat	0.5267	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	252.0
+29	Spectrogram 1	1	261.0	264.0	0	15000	Gray Catbird	grycat	0.3295	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	261.0
+30	Spectrogram 1	1	408.0	411.0	0	15000	Gray Catbird	grycat	0.3131	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	408.0
+31	Spectrogram 1	1	435.0	438.0	0	15000	Gray Catbird	grycat	0.5057	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	435.0
+32	Spectrogram 1	1	471.0	474.0	0	15000	Gray Catbird	grycat	0.3771	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	471.0
+33	Spectrogram 1	1	480.0	483.0	0	15000	Gray Catbird	grycat	0.4732	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	480.0
+34	Spectrogram 1	1	504.0	507.0	0	15000	Bobolink	boboli	0.3461	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	504.0
+35	Spectrogram 1	1	510.0	513.0	0	15000	Laughing Gull	laugul	0.6265	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	510.0
+36	Spectrogram 1	1	516.0	519.0	0	15000	Barn Swallow	barswa	0.8433	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	516.0
+37	Spectrogram 1	1	522.0	525.0	0	15000	Gray Catbird	grycat	0.6860	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	522.0
+38	Spectrogram 1	1	549.0	552.0	0	15000	Laughing Gull	laugul	0.3183	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	549.0
+39	Spectrogram 1	1	627.0	630.0	0	15000	Gray Catbird	grycat	0.2746	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	627.0
+40	Spectrogram 1	1	651.0	654.0	0	15000	Laughing Gull	laugul	0.6626	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	651.0
+41	Spectrogram 1	1	726.0	729.0	0	15000	Northern Shrike	norshr4	0.3421	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	726.0
+42	Spectrogram 1	1	852.0	855.0	0	15000	Bobolink	boboli	0.5287	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_080000.wav	852.0

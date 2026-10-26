@@ -1,0 +1,6 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	390.0	393.0	0	15000	Chuck-will's-widow	chwwid	0.2655	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240629_050000.wav	390.0
+2	Spectrogram 1	1	666.0	669.0	0	15000	Seaside Sparrow	seaspa	0.3427	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240629_050000.wav	666.0
+3	Spectrogram 1	1	684.0	687.0	0	15000	Bobolink	boboli	0.6452	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240629_050000.wav	684.0
+4	Spectrogram 1	1	804.0	807.0	0	15000	Seaside Sparrow	seaspa	0.3727	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240629_050000.wav	804.0
+5	Spectrogram 1	1	849.0	852.0	0	15000	Bank Swallow	banswa	0.4626	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240629_050000.wav	849.0

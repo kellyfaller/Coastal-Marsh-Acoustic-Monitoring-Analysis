@@ -1,0 +1,7 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	81.0	84.0	0	15000	Herring Gull	hergul	0.6989	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-13\Unit4_20260813_150000.wav	81.0
+2	Spectrogram 1	1	159.0	162.0	0	15000	Herring Gull	hergul	0.3037	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-13\Unit4_20260813_150000.wav	159.0
+3	Spectrogram 1	1	162.0	165.0	0	15000	Herring Gull	hergul	0.7951	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-13\Unit4_20260813_150000.wav	162.0
+4	Spectrogram 1	1	171.0	174.0	0	15000	Herring Gull	hergul	0.2523	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-13\Unit4_20260813_150000.wav	171.0
+5	Spectrogram 1	1	174.0	177.0	0	15000	Herring Gull	hergul	0.3023	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-13\Unit4_20260813_150000.wav	174.0
+6	Spectrogram 1	1	894.0	897.0	0	15000	Black-crowned Night-Heron	bcnher	0.3567	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-13\Unit4_20260813_150000.wav	894.0

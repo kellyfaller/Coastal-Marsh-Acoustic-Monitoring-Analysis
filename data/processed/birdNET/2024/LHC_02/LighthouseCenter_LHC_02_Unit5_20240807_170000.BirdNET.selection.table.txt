@@ -1,0 +1,10 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	159.0	162.0	0	15000	Willet	willet1	0.2905	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240807_170000.wav	159.0
+2	Spectrogram 1	1	471.0	474.0	0	15000	Willet	willet1	0.3320	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240807_170000.wav	471.0
+3	Spectrogram 1	1	492.0	495.0	0	15000	Willet	willet1	0.6076	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240807_170000.wav	492.0
+4	Spectrogram 1	1	708.0	711.0	0	15000	Dunlin	dunlin	0.5399	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240807_170000.wav	708.0
+5	Spectrogram 1	1	747.0	750.0	0	15000	Purple Martin	purmar	0.9357	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240807_170000.wav	747.0
+6	Spectrogram 1	1	774.0	777.0	0	15000	Royal Tern	royter1	0.3110	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240807_170000.wav	774.0
+7	Spectrogram 1	1	783.0	786.0	0	15000	Royal Tern	royter1	0.4544	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240807_170000.wav	783.0
+8	Spectrogram 1	1	783.0	786.0	0	15000	Laughing Gull	laugul	0.3208	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240807_170000.wav	783.0
+9	Spectrogram 1	1	789.0	792.0	0	15000	Laughing Gull	laugul	0.3946	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240807_170000.wav	789.0

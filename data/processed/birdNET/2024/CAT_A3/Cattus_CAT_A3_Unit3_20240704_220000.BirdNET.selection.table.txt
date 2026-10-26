@@ -1,0 +1,24 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	24.0	27.0	0	15000	Fireworks	frwrks	0.5432	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240704_220000.wav	24.0
+2	Spectrogram 1	1	42.0	45.0	0	15000	Fireworks	frwrks	0.9201	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240704_220000.wav	42.0
+3	Spectrogram 1	1	63.0	66.0	0	15000	Fireworks	frwrks	0.5505	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240704_220000.wav	63.0
+4	Spectrogram 1	1	363.0	366.0	0	15000	Fireworks	frwrks	0.8251	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240704_220000.wav	363.0
+5	Spectrogram 1	1	366.0	369.0	0	15000	Fireworks	frwrks	0.8663	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240704_220000.wav	366.0
+6	Spectrogram 1	1	369.0	372.0	0	15000	Fireworks	frwrks	0.9554	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240704_220000.wav	369.0
+7	Spectrogram 1	1	372.0	375.0	0	15000	Fireworks	frwrks	0.9099	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240704_220000.wav	372.0
+8	Spectrogram 1	1	375.0	378.0	0	15000	Fireworks	frwrks	0.7108	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240704_220000.wav	375.0
+9	Spectrogram 1	1	381.0	384.0	0	15000	Fireworks	frwrks	0.4813	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240704_220000.wav	381.0
+10	Spectrogram 1	1	417.0	420.0	0	15000	Fireworks	frwrks	0.7839	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240704_220000.wav	417.0
+11	Spectrogram 1	1	495.0	498.0	0	15000	Fireworks	frwrks	0.7320	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240704_220000.wav	495.0
+12	Spectrogram 1	1	504.0	507.0	0	15000	Fireworks	frwrks	0.2760	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240704_220000.wav	504.0
+13	Spectrogram 1	1	507.0	510.0	0	15000	Fireworks	frwrks	0.3313	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240704_220000.wav	507.0
+14	Spectrogram 1	1	510.0	513.0	0	15000	Fireworks	frwrks	0.8260	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240704_220000.wav	510.0
+15	Spectrogram 1	1	513.0	516.0	0	15000	Fireworks	frwrks	0.3375	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240704_220000.wav	513.0
+16	Spectrogram 1	1	516.0	519.0	0	15000	Fireworks	frwrks	0.4319	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240704_220000.wav	516.0
+17	Spectrogram 1	1	522.0	525.0	0	15000	Fireworks	frwrks	0.8112	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240704_220000.wav	522.0
+18	Spectrogram 1	1	525.0	528.0	0	15000	Fireworks	frwrks	0.3546	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240704_220000.wav	525.0
+19	Spectrogram 1	1	528.0	531.0	0	15000	Fireworks	frwrks	0.7014	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240704_220000.wav	528.0
+20	Spectrogram 1	1	531.0	534.0	0	15000	Fireworks	frwrks	0.8175	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240704_220000.wav	531.0
+21	Spectrogram 1	1	810.0	813.0	0	15000	Fireworks	frwrks	0.8833	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240704_220000.wav	810.0
+22	Spectrogram 1	1	831.0	834.0	0	15000	Fireworks	frwrks	0.4097	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240704_220000.wav	831.0
+23	Spectrogram 1	1	843.0	846.0	0	15000	Fireworks	frwrks	0.7836	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240704_220000.wav	843.0

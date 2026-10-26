@@ -1,0 +1,7 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	0.0	3.0	0	15000	Carolina Wren	carwre	0.9585	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240829_190000.wav	0.0
+2	Spectrogram 1	1	669.0	672.0	0	15000	Belted Kingfisher	belkin1	0.9986	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240829_190000.wav	669.0
+3	Spectrogram 1	1	672.0	675.0	0	15000	Belted Kingfisher	belkin1	0.9990	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240829_190000.wav	672.0
+4	Spectrogram 1	1	717.0	720.0	0	15000	Belted Kingfisher	belkin1	0.9969	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240829_190000.wav	717.0
+5	Spectrogram 1	1	723.0	726.0	0	15000	Belted Kingfisher	belkin1	0.9979	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240829_190000.wav	723.0
+6	Spectrogram 1	1	726.0	729.0	0	15000	Belted Kingfisher	belkin1	0.9949	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240829_190000.wav	726.0

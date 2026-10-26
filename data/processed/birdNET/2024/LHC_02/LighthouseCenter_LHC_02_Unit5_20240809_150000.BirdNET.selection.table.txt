@@ -1,0 +1,8 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	69.0	72.0	0	15000	Fireworks	frwrks	0.6665	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240809_150000.wav	69.0
+2	Spectrogram 1	1	69.0	72.0	0	15000	Gun	gungun	0.3023	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240809_150000.wav	69.0
+3	Spectrogram 1	1	138.0	141.0	0	15000	Fireworks	frwrks	0.3268	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240809_150000.wav	138.0
+4	Spectrogram 1	1	345.0	348.0	0	15000	Fireworks	frwrks	0.3240	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240809_150000.wav	345.0
+5	Spectrogram 1	1	519.0	522.0	0	15000	Fireworks	frwrks	0.3797	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240809_150000.wav	519.0
+6	Spectrogram 1	1	642.0	645.0	0	15000	Fireworks	frwrks	0.3276	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240809_150000.wav	642.0
+7	Spectrogram 1	1	687.0	690.0	0	15000	Fireworks	frwrks	0.3381	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240809_150000.wav	687.0

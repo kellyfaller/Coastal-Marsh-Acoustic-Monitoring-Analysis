@@ -1,0 +1,15 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	285.0	288.0	0	15000	Engine	engine	0.3069	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240814_050000.wav	285.0
+2	Spectrogram 1	1	720.0	723.0	0	15000	Least Sandpiper	leasan	0.4961	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240814_050000.wav	720.0
+3	Spectrogram 1	1	807.0	810.0	0	15000	Dog	dogdog	0.3005	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240814_050000.wav	807.0
+4	Spectrogram 1	1	819.0	822.0	0	15000	Dog	dogdog	0.5555	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240814_050000.wav	819.0
+5	Spectrogram 1	1	822.0	825.0	0	15000	Dog	dogdog	0.4228	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240814_050000.wav	822.0
+6	Spectrogram 1	1	825.0	828.0	0	15000	Dog	dogdog	0.3235	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240814_050000.wav	825.0
+7	Spectrogram 1	1	831.0	834.0	0	15000	Dog	dogdog	0.3817	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240814_050000.wav	831.0
+8	Spectrogram 1	1	864.0	867.0	0	15000	Dog	dogdog	0.3065	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240814_050000.wav	864.0
+9	Spectrogram 1	1	867.0	870.0	0	15000	Dog	dogdog	0.4287	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240814_050000.wav	867.0
+10	Spectrogram 1	1	873.0	876.0	0	15000	Dog	dogdog	0.6777	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240814_050000.wav	873.0
+11	Spectrogram 1	1	885.0	888.0	0	15000	Fish Crow	fiscro	0.3741	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240814_050000.wav	885.0
+12	Spectrogram 1	1	888.0	891.0	0	15000	Dog	dogdog	0.6168	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240814_050000.wav	888.0
+13	Spectrogram 1	1	888.0	891.0	0	15000	Human vocal	humvoc	0.3674	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240814_050000.wav	888.0
+14	Spectrogram 1	1	894.0	897.0	0	15000	Dog	dogdog	0.5209	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240814_050000.wav	894.0

@@ -1,0 +1,24 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	48.0	51.0	0	15000	Red-winged Blackbird	rewbla	0.4504	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-24\Unit4_20260624_060000.wav	48.0
+2	Spectrogram 1	1	72.0	75.0	0	15000	Song Sparrow	sonspa	0.8156	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-24\Unit4_20260624_060000.wav	72.0
+3	Spectrogram 1	1	90.0	93.0	0	15000	Seaside Sparrow	seaspa	0.6767	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-24\Unit4_20260624_060000.wav	90.0
+4	Spectrogram 1	1	102.0	105.0	0	15000	Savannah Sparrow	savspa	0.2643	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-24\Unit4_20260624_060000.wav	102.0
+5	Spectrogram 1	1	312.0	315.0	0	15000	Seaside Sparrow	seaspa	0.5112	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-24\Unit4_20260624_060000.wav	312.0
+6	Spectrogram 1	1	318.0	321.0	0	15000	American Golden-Plover	amgplo	0.3156	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-24\Unit4_20260624_060000.wav	318.0
+7	Spectrogram 1	1	375.0	378.0	0	15000	Dickcissel	dickci	0.2906	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-24\Unit4_20260624_060000.wav	375.0
+8	Spectrogram 1	1	417.0	420.0	0	15000	Seaside Sparrow	seaspa	0.4562	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-24\Unit4_20260624_060000.wav	417.0
+9	Spectrogram 1	1	486.0	489.0	0	15000	Seaside Sparrow	seaspa	0.5251	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-24\Unit4_20260624_060000.wav	486.0
+10	Spectrogram 1	1	492.0	495.0	0	15000	Seaside Sparrow	seaspa	0.4680	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-24\Unit4_20260624_060000.wav	492.0
+11	Spectrogram 1	1	522.0	525.0	0	15000	Red-winged Blackbird	rewbla	0.3106	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-24\Unit4_20260624_060000.wav	522.0
+12	Spectrogram 1	1	609.0	612.0	0	15000	Purple Martin	purmar	0.8807	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-24\Unit4_20260624_060000.wav	609.0
+13	Spectrogram 1	1	660.0	663.0	0	15000	Seaside Sparrow	seaspa	0.3168	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-24\Unit4_20260624_060000.wav	660.0
+14	Spectrogram 1	1	672.0	675.0	0	15000	Seaside Sparrow	seaspa	0.8112	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-24\Unit4_20260624_060000.wav	672.0
+15	Spectrogram 1	1	690.0	693.0	0	15000	Seaside Sparrow	seaspa	0.9960	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-24\Unit4_20260624_060000.wav	690.0
+16	Spectrogram 1	1	711.0	714.0	0	15000	Seaside Sparrow	seaspa	0.8391	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-24\Unit4_20260624_060000.wav	711.0
+17	Spectrogram 1	1	732.0	735.0	0	15000	Seaside Sparrow	seaspa	0.9250	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-24\Unit4_20260624_060000.wav	732.0
+18	Spectrogram 1	1	744.0	747.0	0	15000	Seaside Sparrow	seaspa	0.3063	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-24\Unit4_20260624_060000.wav	744.0
+19	Spectrogram 1	1	759.0	762.0	0	15000	Purple Martin	purmar	0.8510	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-24\Unit4_20260624_060000.wav	759.0
+20	Spectrogram 1	1	783.0	786.0	0	15000	Seaside Sparrow	seaspa	0.7680	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-24\Unit4_20260624_060000.wav	783.0
+21	Spectrogram 1	1	885.0	888.0	0	15000	Seaside Sparrow	seaspa	0.6446	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-24\Unit4_20260624_060000.wav	885.0
+22	Spectrogram 1	1	888.0	891.0	0	15000	Seaside Sparrow	seaspa	0.5550	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-24\Unit4_20260624_060000.wav	888.0
+23	Spectrogram 1	1	894.0	897.0	0	15000	Seaside Sparrow	seaspa	0.9472	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-24\Unit4_20260624_060000.wav	894.0

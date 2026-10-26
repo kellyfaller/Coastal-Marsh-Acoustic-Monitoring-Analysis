@@ -1,0 +1,9 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	306.0	309.0	0	15000	Wilson's Snipe	wilsni1	0.3971	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_171500.wav	306.0
+2	Spectrogram 1	1	459.0	462.0	0	15000	Red Crossbill	redcro	0.4892	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_171500.wav	459.0
+3	Spectrogram 1	1	480.0	483.0	0	15000	Red Crossbill	redcro	0.5148	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_171500.wav	480.0
+4	Spectrogram 1	1	543.0	546.0	0	15000	Red Crossbill	redcro	0.2550	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_171500.wav	543.0
+5	Spectrogram 1	1	663.0	666.0	0	15000	Eastern Meadowlark	easmea	0.4515	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_171500.wav	663.0
+6	Spectrogram 1	1	738.0	741.0	0	15000	Eastern Meadowlark	easmea	0.6282	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_171500.wav	738.0
+7	Spectrogram 1	1	801.0	804.0	0	15000	Red Crossbill	redcro	0.7113	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_171500.wav	801.0
+8	Spectrogram 1	1	897.0	900.0	0	15000	Red Crossbill	redcro	0.4658	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_171500.wav	897.0

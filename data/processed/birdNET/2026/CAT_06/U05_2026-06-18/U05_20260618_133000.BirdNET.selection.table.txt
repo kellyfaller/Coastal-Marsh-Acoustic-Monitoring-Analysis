@@ -1,0 +1,5 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	81.0	84.0	0	15000	Lapland Longspur	laplon	0.2830	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-18\U05_20260618_133000.wav	81.0
+2	Spectrogram 1	1	357.0	360.0	0	15000	House Finch	houfin	0.2678	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-18\U05_20260618_133000.wav	357.0
+3	Spectrogram 1	1	429.0	432.0	0	15000	King Rail	kinrai4	0.3192	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-18\U05_20260618_133000.wav	429.0
+4	Spectrogram 1	1	483.0	486.0	0	15000	Marsh Wren	marwre	0.3838	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-18\U05_20260618_133000.wav	483.0

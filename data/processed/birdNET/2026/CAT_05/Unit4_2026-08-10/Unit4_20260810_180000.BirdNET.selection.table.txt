@@ -1,0 +1,9 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	51.0	54.0	0	15000	Osprey	osprey	0.3486	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-10\Unit4_20260810_180000.wav	51.0
+2	Spectrogram 1	1	54.0	57.0	0	15000	Osprey	osprey	0.6271	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-10\Unit4_20260810_180000.wav	54.0
+3	Spectrogram 1	1	468.0	471.0	0	15000	Greater White-fronted Goose	gwfgoo	0.6139	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-10\Unit4_20260810_180000.wav	468.0
+4	Spectrogram 1	1	543.0	546.0	0	15000	Whimbrel	whimbr	0.6885	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-10\Unit4_20260810_180000.wav	543.0
+5	Spectrogram 1	1	555.0	558.0	0	15000	Osprey	osprey	0.5445	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-10\Unit4_20260810_180000.wav	555.0
+6	Spectrogram 1	1	558.0	561.0	0	15000	Osprey	osprey	0.3104	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-10\Unit4_20260810_180000.wav	558.0
+7	Spectrogram 1	1	747.0	750.0	0	15000	Mute Swan	mutswa	0.2909	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-10\Unit4_20260810_180000.wav	747.0
+8	Spectrogram 1	1	750.0	753.0	0	15000	Great Black-backed Gull	gbbgul	0.2739	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-10\Unit4_20260810_180000.wav	750.0

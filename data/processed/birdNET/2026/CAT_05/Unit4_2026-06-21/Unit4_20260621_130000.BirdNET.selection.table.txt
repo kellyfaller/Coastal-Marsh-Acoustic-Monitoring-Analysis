@@ -1,0 +1,9 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	561.0	564.0	0	15000	Marbled Godwit	margod	0.2918	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-21\Unit4_20260621_130000.wav	561.0
+2	Spectrogram 1	1	618.0	621.0	0	15000	Osprey	osprey	0.2747	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-21\Unit4_20260621_130000.wav	618.0
+3	Spectrogram 1	1	621.0	624.0	0	15000	Osprey	osprey	0.8727	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-21\Unit4_20260621_130000.wav	621.0
+4	Spectrogram 1	1	627.0	630.0	0	15000	Purple Martin	purmar	0.2726	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-21\Unit4_20260621_130000.wav	627.0
+5	Spectrogram 1	1	630.0	633.0	0	15000	Black-bellied Plover	bkbplo	0.3644	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-21\Unit4_20260621_130000.wav	630.0
+6	Spectrogram 1	1	651.0	654.0	0	15000	Great Black-backed Gull	gbbgul	0.3942	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-21\Unit4_20260621_130000.wav	651.0
+7	Spectrogram 1	1	666.0	669.0	0	15000	Red-throated Loon	retloo	0.5333	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-21\Unit4_20260621_130000.wav	666.0
+8	Spectrogram 1	1	669.0	672.0	0	15000	Herring Gull	hergul	0.4119	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-21\Unit4_20260621_130000.wav	669.0

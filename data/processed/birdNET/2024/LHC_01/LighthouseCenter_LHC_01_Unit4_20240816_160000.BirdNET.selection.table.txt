@@ -1,0 +1,46 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	3.0	6.0	0	15000	American Goldfinch	amegfi	0.3105	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	3.0
+2	Spectrogram 1	1	6.0	9.0	0	15000	American Goldfinch	amegfi	0.2763	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	6.0
+3	Spectrogram 1	1	18.0	21.0	0	15000	American Goldfinch	amegfi	0.4646	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	18.0
+4	Spectrogram 1	1	21.0	24.0	0	15000	American Goldfinch	amegfi	0.2657	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	21.0
+5	Spectrogram 1	1	24.0	27.0	0	15000	American Goldfinch	amegfi	0.6871	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	24.0
+6	Spectrogram 1	1	27.0	30.0	0	15000	Least Sandpiper	leasan	0.8488	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	27.0
+7	Spectrogram 1	1	30.0	33.0	0	15000	Least Sandpiper	leasan	0.5296	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	30.0
+8	Spectrogram 1	1	51.0	54.0	0	15000	American Goldfinch	amegfi	0.4079	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	51.0
+9	Spectrogram 1	1	63.0	66.0	0	15000	Purple Martin	purmar	0.4839	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	63.0
+10	Spectrogram 1	1	84.0	87.0	0	15000	Great Blue Heron	grbher3	0.5490	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	84.0
+11	Spectrogram 1	1	117.0	120.0	0	15000	American Goldfinch	amegfi	0.4877	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	117.0
+12	Spectrogram 1	1	141.0	144.0	0	15000	Golden-crowned Kinglet	gockin	0.4049	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	141.0
+13	Spectrogram 1	1	189.0	192.0	0	15000	Engine	engine	0.3530	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	189.0
+14	Spectrogram 1	1	192.0	195.0	0	15000	Herring Gull	hergul	0.6558	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	192.0
+15	Spectrogram 1	1	222.0	225.0	0	15000	Engine	engine	0.4692	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	222.0
+16	Spectrogram 1	1	240.0	243.0	0	15000	American Goldfinch	amegfi	0.3457	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	240.0
+17	Spectrogram 1	1	246.0	249.0	0	15000	American Goldfinch	amegfi	0.4447	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	246.0
+18	Spectrogram 1	1	249.0	252.0	0	15000	American Goldfinch	amegfi	0.5046	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	249.0
+19	Spectrogram 1	1	252.0	255.0	0	15000	American Goldfinch	amegfi	0.3743	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	252.0
+20	Spectrogram 1	1	255.0	258.0	0	15000	American Goldfinch	amegfi	0.6745	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	255.0
+21	Spectrogram 1	1	264.0	267.0	0	15000	American Goldfinch	amegfi	0.5763	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	264.0
+22	Spectrogram 1	1	384.0	387.0	0	15000	Herring Gull	hergul	0.2706	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	384.0
+23	Spectrogram 1	1	501.0	504.0	0	15000	Golden-crowned Kinglet	gockin	0.4746	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	501.0
+24	Spectrogram 1	1	510.0	513.0	0	15000	Belted Kingfisher	belkin1	0.9986	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	510.0
+25	Spectrogram 1	1	513.0	516.0	0	15000	Belted Kingfisher	belkin1	0.9977	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	513.0
+26	Spectrogram 1	1	516.0	519.0	0	15000	Belted Kingfisher	belkin1	0.8922	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	516.0
+27	Spectrogram 1	1	519.0	522.0	0	15000	Belted Kingfisher	belkin1	0.9806	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	519.0
+28	Spectrogram 1	1	522.0	525.0	0	15000	Belted Kingfisher	belkin1	0.9936	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	522.0
+29	Spectrogram 1	1	528.0	531.0	0	15000	Seaside Sparrow	seaspa	0.3704	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	528.0
+30	Spectrogram 1	1	531.0	534.0	0	15000	Belted Kingfisher	belkin1	0.5405	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	531.0
+31	Spectrogram 1	1	627.0	630.0	0	15000	Greater Yellowlegs	greyel	0.2738	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	627.0
+32	Spectrogram 1	1	636.0	639.0	0	15000	Fish Crow	fiscro	0.5695	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	636.0
+33	Spectrogram 1	1	639.0	642.0	0	15000	Least Sandpiper	leasan	0.3325	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	639.0
+34	Spectrogram 1	1	642.0	645.0	0	15000	Least Sandpiper	leasan	0.3996	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	642.0
+35	Spectrogram 1	1	645.0	648.0	0	15000	Fish Crow	fiscro	0.7357	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	645.0
+36	Spectrogram 1	1	726.0	729.0	0	15000	Black-crowned Night-Heron	bcnher	0.4796	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	726.0
+37	Spectrogram 1	1	729.0	732.0	0	15000	Great Blue Heron	grbher3	0.6391	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	729.0
+38	Spectrogram 1	1	762.0	765.0	0	15000	Fish Crow	fiscro	0.4151	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	762.0
+39	Spectrogram 1	1	810.0	813.0	0	15000	Golden-crowned Kinglet	gockin	0.5674	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	810.0
+40	Spectrogram 1	1	813.0	816.0	0	15000	Golden-crowned Kinglet	gockin	0.5347	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	813.0
+41	Spectrogram 1	1	879.0	882.0	0	15000	American Goldfinch	amegfi	0.5603	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	879.0
+42	Spectrogram 1	1	885.0	888.0	0	15000	American Goldfinch	amegfi	0.4598	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	885.0
+43	Spectrogram 1	1	891.0	894.0	0	15000	American Goldfinch	amegfi	0.8760	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	891.0
+44	Spectrogram 1	1	894.0	897.0	0	15000	American Goldfinch	amegfi	0.3680	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	894.0
+45	Spectrogram 1	1	897.0	900.0	0	15000	American Goldfinch	amegfi	0.6019	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_160000.wav	897.0

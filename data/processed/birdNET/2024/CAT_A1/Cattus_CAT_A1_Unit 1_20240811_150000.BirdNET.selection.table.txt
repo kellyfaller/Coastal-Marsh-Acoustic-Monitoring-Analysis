@@ -1,0 +1,11 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	0.0	3.0	0	15000	Tinkling Ground Cricket	t-11843287	0.8216	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240811_150000.wav	0.0
+2	Spectrogram 1	1	3.0	6.0	0	15000	Tinkling Ground Cricket	t-11843287	0.5810	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240811_150000.wav	3.0
+3	Spectrogram 1	1	36.0	39.0	0	15000	Fish Crow	fiscro	0.5448	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240811_150000.wav	36.0
+4	Spectrogram 1	1	90.0	93.0	0	15000	Red-breasted Nuthatch	rebnut	0.4533	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240811_150000.wav	90.0
+5	Spectrogram 1	1	342.0	345.0	0	15000	Eastern Screech-Owl	easowl1	0.5249	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240811_150000.wav	342.0
+6	Spectrogram 1	1	819.0	822.0	0	15000	Great Egret	greegr	0.4521	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240811_150000.wav	819.0
+7	Spectrogram 1	1	822.0	825.0	0	15000	Great Egret	greegr	0.8794	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240811_150000.wav	822.0
+8	Spectrogram 1	1	825.0	828.0	0	15000	Great Egret	greegr	0.9680	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240811_150000.wav	825.0
+9	Spectrogram 1	1	831.0	834.0	0	15000	Osprey	osprey	0.9753	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240811_150000.wav	831.0
+10	Spectrogram 1	1	855.0	858.0	0	15000	Osprey	osprey	0.5020	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240811_150000.wav	855.0

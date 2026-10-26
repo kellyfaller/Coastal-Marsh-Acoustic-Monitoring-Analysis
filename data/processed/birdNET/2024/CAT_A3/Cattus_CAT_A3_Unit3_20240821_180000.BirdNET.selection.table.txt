@@ -1,0 +1,12 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	87.0	90.0	0	15000	American Goldfinch	amegfi	0.5107	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_180000.wav	87.0
+2	Spectrogram 1	1	213.0	216.0	0	15000	Herring Gull	hergul	0.3087	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_180000.wav	213.0
+3	Spectrogram 1	1	267.0	270.0	0	15000	Tundra Swan	tunswa	0.2523	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_180000.wav	267.0
+4	Spectrogram 1	1	342.0	345.0	0	15000	Purple Martin	purmar	0.8967	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_180000.wav	342.0
+5	Spectrogram 1	1	573.0	576.0	0	15000	Tundra Swan	tunswa	0.2870	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_180000.wav	573.0
+6	Spectrogram 1	1	834.0	837.0	0	15000	Engine	engine	0.2644	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_180000.wav	834.0
+7	Spectrogram 1	1	840.0	843.0	0	15000	Engine	engine	0.7904	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_180000.wav	840.0
+8	Spectrogram 1	1	855.0	858.0	0	15000	Engine	engine	0.4934	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_180000.wav	855.0
+9	Spectrogram 1	1	858.0	861.0	0	15000	Fish Crow	fiscro	0.9799	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_180000.wav	858.0
+10	Spectrogram 1	1	876.0	879.0	0	15000	Fish Crow	fiscro	0.7599	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_180000.wav	876.0
+11	Spectrogram 1	1	879.0	882.0	0	15000	Trumpeter Swan	truswa	0.2517	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_180000.wav	879.0

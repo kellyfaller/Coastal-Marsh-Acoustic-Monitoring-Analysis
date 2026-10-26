@@ -1,0 +1,10 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	108.0	111.0	0	15000	Eastern Meadowlark	easmea	0.4701	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240703_150000.wav	108.0
+2	Spectrogram 1	1	255.0	258.0	0	15000	Willet	willet1	0.3417	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240703_150000.wav	255.0
+3	Spectrogram 1	1	261.0	264.0	0	15000	Willet	willet1	0.2790	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240703_150000.wav	261.0
+4	Spectrogram 1	1	273.0	276.0	0	15000	Greater Yellowlegs	greyel	0.9284	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240703_150000.wav	273.0
+5	Spectrogram 1	1	366.0	369.0	0	15000	Common Nighthawk	comnig	0.8853	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240703_150000.wav	366.0
+6	Spectrogram 1	1	744.0	747.0	0	15000	Cedar Waxwing	cedwax	0.2636	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240703_150000.wav	744.0
+7	Spectrogram 1	1	756.0	759.0	0	15000	Willet	willet1	0.3821	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240703_150000.wav	756.0
+8	Spectrogram 1	1	828.0	831.0	0	15000	Black Scoter	blksco2	0.4581	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240703_150000.wav	828.0
+9	Spectrogram 1	1	843.0	846.0	0	15000	Common Nighthawk	comnig	0.6809	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240703_150000.wav	843.0

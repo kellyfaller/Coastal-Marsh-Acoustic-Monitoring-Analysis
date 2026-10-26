@@ -1,0 +1,10 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	474.0	477.0	0	15000	Eastern Screech-Owl	easowl1	0.2759	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240801_050000.wav	474.0
+2	Spectrogram 1	1	648.0	651.0	0	15000	Black-crowned Night-Heron	bcnher	0.4723	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240801_050000.wav	648.0
+3	Spectrogram 1	1	666.0	669.0	0	15000	Black-crowned Night-Heron	bcnher	0.9717	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240801_050000.wav	666.0
+4	Spectrogram 1	1	669.0	672.0	0	15000	Black-crowned Night-Heron	bcnher	0.9794	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240801_050000.wav	669.0
+5	Spectrogram 1	1	672.0	675.0	0	15000	Black-crowned Night-Heron	bcnher	0.9141	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240801_050000.wav	672.0
+6	Spectrogram 1	1	675.0	678.0	0	15000	Black-crowned Night-Heron	bcnher	0.9273	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240801_050000.wav	675.0
+7	Spectrogram 1	1	684.0	687.0	0	15000	Black-crowned Night-Heron	bcnher	0.8691	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240801_050000.wav	684.0
+8	Spectrogram 1	1	702.0	705.0	0	15000	Great Blue Heron	grbher3	0.3248	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240801_050000.wav	702.0
+9	Spectrogram 1	1	705.0	708.0	0	15000	Great Blue Heron	grbher3	0.6920	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240801_050000.wav	705.0

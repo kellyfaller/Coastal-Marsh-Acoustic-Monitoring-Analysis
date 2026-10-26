@@ -1,0 +1,30 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	21.0	24.0	0	15000	Marsh Wren	marwre	0.4107	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-06\U05_20260706_124500.wav	21.0
+2	Spectrogram 1	1	33.0	36.0	0	15000	Osprey	osprey	0.2976	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-06\U05_20260706_124500.wav	33.0
+3	Spectrogram 1	1	57.0	60.0	0	15000	Osprey	osprey	0.9274	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-06\U05_20260706_124500.wav	57.0
+4	Spectrogram 1	1	60.0	63.0	0	15000	Osprey	osprey	0.9679	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-06\U05_20260706_124500.wav	60.0
+5	Spectrogram 1	1	63.0	66.0	0	15000	Osprey	osprey	0.9919	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-06\U05_20260706_124500.wav	63.0
+6	Spectrogram 1	1	66.0	69.0	0	15000	Osprey	osprey	0.9713	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-06\U05_20260706_124500.wav	66.0
+7	Spectrogram 1	1	72.0	75.0	0	15000	Osprey	osprey	0.9955	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-06\U05_20260706_124500.wav	72.0
+8	Spectrogram 1	1	90.0	93.0	0	15000	Yellow Rail	yelrai	0.3391	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-06\U05_20260706_124500.wav	90.0
+9	Spectrogram 1	1	123.0	126.0	0	15000	Yellow Rail	yelrai	0.2835	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-06\U05_20260706_124500.wav	123.0
+10	Spectrogram 1	1	156.0	159.0	0	15000	Yellow Rail	yelrai	0.2995	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-06\U05_20260706_124500.wav	156.0
+11	Spectrogram 1	1	162.0	165.0	0	15000	Yellow Rail	yelrai	0.8375	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-06\U05_20260706_124500.wav	162.0
+12	Spectrogram 1	1	216.0	219.0	0	15000	Seaside Sparrow	seaspa	0.3596	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-06\U05_20260706_124500.wav	216.0
+13	Spectrogram 1	1	237.0	240.0	0	15000	Marsh Wren	marwre	0.2566	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-06\U05_20260706_124500.wav	237.0
+14	Spectrogram 1	1	270.0	273.0	0	15000	Marsh Wren	marwre	0.3937	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-06\U05_20260706_124500.wav	270.0
+15	Spectrogram 1	1	273.0	276.0	0	15000	Marsh Wren	marwre	0.5133	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-06\U05_20260706_124500.wav	273.0
+16	Spectrogram 1	1	276.0	279.0	0	15000	Northern Cardinal	norcar	0.2931	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-06\U05_20260706_124500.wav	276.0
+17	Spectrogram 1	1	312.0	315.0	0	15000	Peregrine Falcon	perfal	0.7094	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-06\U05_20260706_124500.wav	312.0
+18	Spectrogram 1	1	336.0	339.0	0	15000	Yellow Rail	yelrai	0.3840	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-06\U05_20260706_124500.wav	336.0
+19	Spectrogram 1	1	339.0	342.0	0	15000	Peregrine Falcon	perfal	0.6309	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-06\U05_20260706_124500.wav	339.0
+20	Spectrogram 1	1	384.0	387.0	0	15000	Peregrine Falcon	perfal	0.3198	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-06\U05_20260706_124500.wav	384.0
+21	Spectrogram 1	1	390.0	393.0	0	15000	Peregrine Falcon	perfal	0.3706	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-06\U05_20260706_124500.wav	390.0
+22	Spectrogram 1	1	402.0	405.0	0	15000	Peregrine Falcon	perfal	0.5708	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-06\U05_20260706_124500.wav	402.0
+23	Spectrogram 1	1	408.0	411.0	0	15000	Marsh Wren	marwre	0.7028	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-06\U05_20260706_124500.wav	408.0
+24	Spectrogram 1	1	426.0	429.0	0	15000	Peregrine Falcon	perfal	0.2596	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-06\U05_20260706_124500.wav	426.0
+25	Spectrogram 1	1	447.0	450.0	0	15000	Brown-headed Nuthatch	bnhnut	0.4881	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-06\U05_20260706_124500.wav	447.0
+26	Spectrogram 1	1	516.0	519.0	0	15000	Marsh Wren	marwre	0.7104	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-06\U05_20260706_124500.wav	516.0
+27	Spectrogram 1	1	663.0	666.0	0	15000	Peregrine Falcon	perfal	0.3187	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-06\U05_20260706_124500.wav	663.0
+28	Spectrogram 1	1	693.0	696.0	0	15000	Yellow Rail	yelrai	0.2962	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-06\U05_20260706_124500.wav	693.0
+29	Spectrogram 1	1	804.0	807.0	0	15000	Peregrine Falcon	perfal	0.5289	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-06\U05_20260706_124500.wav	804.0

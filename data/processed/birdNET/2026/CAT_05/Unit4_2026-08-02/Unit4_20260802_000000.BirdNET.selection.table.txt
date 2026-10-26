@@ -1,0 +1,2 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	195.0	198.0	0	15000	Yellow-billed Cuckoo	yebcuc	0.4851	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_000000.wav	195.0

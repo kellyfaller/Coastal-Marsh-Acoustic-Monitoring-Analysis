@@ -1,0 +1,25 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	84.0	87.0	0	15000	Common Yellowthroat	comyel	0.3298	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-07-16\Unit2_20260716_120000.wav	84.0
+2	Spectrogram 1	1	99.0	102.0	0	15000	Peregrine Falcon	perfal	0.3991	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-07-16\Unit2_20260716_120000.wav	99.0
+3	Spectrogram 1	1	102.0	105.0	0	15000	Herring Gull	hergul	0.2731	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-07-16\Unit2_20260716_120000.wav	102.0
+4	Spectrogram 1	1	189.0	192.0	0	15000	Common Yellowthroat	comyel	0.4916	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-07-16\Unit2_20260716_120000.wav	189.0
+5	Spectrogram 1	1	225.0	228.0	0	15000	Laughing Gull	laugul	0.9079	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-07-16\Unit2_20260716_120000.wav	225.0
+6	Spectrogram 1	1	228.0	231.0	0	15000	Laughing Gull	laugul	0.8561	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-07-16\Unit2_20260716_120000.wav	228.0
+7	Spectrogram 1	1	246.0	249.0	0	15000	Northern Saw-whet Owl	nswowl	0.2551	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-07-16\Unit2_20260716_120000.wav	246.0
+8	Spectrogram 1	1	375.0	378.0	0	15000	Laughing Gull	laugul	0.8879	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-07-16\Unit2_20260716_120000.wav	375.0
+9	Spectrogram 1	1	378.0	381.0	0	15000	Laughing Gull	laugul	0.4897	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-07-16\Unit2_20260716_120000.wav	378.0
+10	Spectrogram 1	1	384.0	387.0	0	15000	Golden-crowned Kinglet	gockin	0.2799	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-07-16\Unit2_20260716_120000.wav	384.0
+11	Spectrogram 1	1	492.0	495.0	0	15000	Laughing Gull	laugul	0.7085	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-07-16\Unit2_20260716_120000.wav	492.0
+12	Spectrogram 1	1	495.0	498.0	0	15000	Laughing Gull	laugul	0.8283	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-07-16\Unit2_20260716_120000.wav	495.0
+13	Spectrogram 1	1	507.0	510.0	0	15000	Laughing Gull	laugul	0.3337	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-07-16\Unit2_20260716_120000.wav	507.0
+14	Spectrogram 1	1	510.0	513.0	0	15000	Laughing Gull	laugul	0.8961	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-07-16\Unit2_20260716_120000.wav	510.0
+15	Spectrogram 1	1	513.0	516.0	0	15000	Laughing Gull	laugul	0.9720	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-07-16\Unit2_20260716_120000.wav	513.0
+16	Spectrogram 1	1	516.0	519.0	0	15000	Laughing Gull	laugul	0.4533	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-07-16\Unit2_20260716_120000.wav	516.0
+17	Spectrogram 1	1	531.0	534.0	0	15000	Laughing Gull	laugul	0.8308	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-07-16\Unit2_20260716_120000.wav	531.0
+18	Spectrogram 1	1	534.0	537.0	0	15000	Laughing Gull	laugul	0.5950	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-07-16\Unit2_20260716_120000.wav	534.0
+19	Spectrogram 1	1	537.0	540.0	0	15000	Pied-billed Grebe	pibgre	0.5409	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-07-16\Unit2_20260716_120000.wav	537.0
+20	Spectrogram 1	1	741.0	744.0	0	15000	Forster's Tern	forter	0.8257	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-07-16\Unit2_20260716_120000.wav	741.0
+21	Spectrogram 1	1	750.0	753.0	0	15000	Red Crossbill	redcro	0.3095	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-07-16\Unit2_20260716_120000.wav	750.0
+22	Spectrogram 1	1	753.0	756.0	0	15000	Pied-billed Grebe	pibgre	0.5764	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-07-16\Unit2_20260716_120000.wav	753.0
+23	Spectrogram 1	1	819.0	822.0	0	15000	Eastern Bluebird	easblu	0.5429	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-07-16\Unit2_20260716_120000.wav	819.0
+24	Spectrogram 1	1	852.0	855.0	0	15000	Common Yellowthroat	comyel	0.5344	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-07-16\Unit2_20260716_120000.wav	852.0

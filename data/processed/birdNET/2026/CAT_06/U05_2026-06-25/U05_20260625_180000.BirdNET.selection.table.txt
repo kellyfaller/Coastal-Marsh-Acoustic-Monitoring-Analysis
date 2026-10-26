@@ -1,0 +1,13 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	15.0	18.0	0	15000	Seaside Sparrow	seaspa	0.3339	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-25\U05_20260625_180000.wav	15.0
+2	Spectrogram 1	1	30.0	33.0	0	15000	Seaside Sparrow	seaspa	0.3047	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-25\U05_20260625_180000.wav	30.0
+3	Spectrogram 1	1	72.0	75.0	0	15000	Osprey	osprey	0.3333	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-25\U05_20260625_180000.wav	72.0
+4	Spectrogram 1	1	102.0	105.0	0	15000	Osprey	osprey	0.9244	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-25\U05_20260625_180000.wav	102.0
+5	Spectrogram 1	1	111.0	114.0	0	15000	Osprey	osprey	0.5010	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-25\U05_20260625_180000.wav	111.0
+6	Spectrogram 1	1	120.0	123.0	0	15000	Osprey	osprey	0.3441	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-25\U05_20260625_180000.wav	120.0
+7	Spectrogram 1	1	123.0	126.0	0	15000	Osprey	osprey	0.9786	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-25\U05_20260625_180000.wav	123.0
+8	Spectrogram 1	1	342.0	345.0	0	15000	Eastern Meadowlark	easmea	0.3054	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-25\U05_20260625_180000.wav	342.0
+9	Spectrogram 1	1	516.0	519.0	0	15000	Osprey	osprey	0.9855	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-25\U05_20260625_180000.wav	516.0
+10	Spectrogram 1	1	804.0	807.0	0	15000	Carolina Wren	carwre	0.5754	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-25\U05_20260625_180000.wav	804.0
+11	Spectrogram 1	1	846.0	849.0	0	15000	Seaside Sparrow	seaspa	0.3297	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-25\U05_20260625_180000.wav	846.0
+12	Spectrogram 1	1	864.0	867.0	0	15000	Lapland Longspur	laplon	0.2733	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-25\U05_20260625_180000.wav	864.0

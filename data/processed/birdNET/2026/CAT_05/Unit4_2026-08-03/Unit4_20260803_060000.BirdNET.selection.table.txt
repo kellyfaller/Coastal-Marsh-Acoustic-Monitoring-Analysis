@@ -1,0 +1,12 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	555.0	558.0	0	15000	Osprey	osprey	0.9143	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-03\Unit4_20260803_060000.wav	555.0
+2	Spectrogram 1	1	558.0	561.0	0	15000	Osprey	osprey	0.3785	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-03\Unit4_20260803_060000.wav	558.0
+3	Spectrogram 1	1	570.0	573.0	0	15000	Osprey	osprey	0.7784	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-03\Unit4_20260803_060000.wav	570.0
+4	Spectrogram 1	1	573.0	576.0	0	15000	Osprey	osprey	0.9929	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-03\Unit4_20260803_060000.wav	573.0
+5	Spectrogram 1	1	576.0	579.0	0	15000	Osprey	osprey	0.6703	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-03\Unit4_20260803_060000.wav	576.0
+6	Spectrogram 1	1	579.0	582.0	0	15000	Osprey	osprey	0.9178	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-03\Unit4_20260803_060000.wav	579.0
+7	Spectrogram 1	1	582.0	585.0	0	15000	Osprey	osprey	0.8801	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-03\Unit4_20260803_060000.wav	582.0
+8	Spectrogram 1	1	681.0	684.0	0	15000	Ruby-throated Hummingbird	rthhum	0.2611	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-03\Unit4_20260803_060000.wav	681.0
+9	Spectrogram 1	1	807.0	810.0	0	15000	Osprey	osprey	0.8961	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-03\Unit4_20260803_060000.wav	807.0
+10	Spectrogram 1	1	810.0	813.0	0	15000	Osprey	osprey	0.9179	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-03\Unit4_20260803_060000.wav	810.0
+11	Spectrogram 1	1	876.0	879.0	0	15000	Mississippi Kite	miskit	0.3242	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-03\Unit4_20260803_060000.wav	876.0

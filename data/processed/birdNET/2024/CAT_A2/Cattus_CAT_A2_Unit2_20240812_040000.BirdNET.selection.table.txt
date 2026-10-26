@@ -1,0 +1,21 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	54.0	57.0	0	15000	American Bittern	amebit	0.2775	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_040000.wav	54.0
+2	Spectrogram 1	1	90.0	93.0	0	15000	Marsh Wren	marwre	0.4884	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_040000.wav	90.0
+3	Spectrogram 1	1	96.0	99.0	0	15000	Great Horned Owl	grhowl	0.3119	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_040000.wav	96.0
+4	Spectrogram 1	1	120.0	123.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.3124	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_040000.wav	120.0
+5	Spectrogram 1	1	126.0	129.0	0	15000	Belted Kingfisher	belkin1	0.3405	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_040000.wav	126.0
+6	Spectrogram 1	1	201.0	204.0	0	15000	Dark-eyed Junco	daejun	0.5660	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_040000.wav	201.0
+7	Spectrogram 1	1	228.0	231.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2536	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_040000.wav	228.0
+8	Spectrogram 1	1	270.0	273.0	0	15000	Marsh Wren	marwre	0.6568	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_040000.wav	270.0
+9	Spectrogram 1	1	273.0	276.0	0	15000	Chipping Sparrow	chispa	0.3425	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_040000.wav	273.0
+10	Spectrogram 1	1	279.0	282.0	0	15000	Chipping Sparrow	chispa	0.3003	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_040000.wav	279.0
+11	Spectrogram 1	1	291.0	294.0	0	15000	Great Horned Owl	grhowl	0.2627	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_040000.wav	291.0
+12	Spectrogram 1	1	393.0	396.0	0	15000	Marsh Wren	marwre	0.4142	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_040000.wav	393.0
+13	Spectrogram 1	1	438.0	441.0	0	15000	Eastern Screech-Owl	easowl1	0.2523	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_040000.wav	438.0
+14	Spectrogram 1	1	552.0	555.0	0	15000	Belted Kingfisher	belkin1	0.3169	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_040000.wav	552.0
+15	Spectrogram 1	1	603.0	606.0	0	15000	Dark-eyed Junco	daejun	0.2702	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_040000.wav	603.0
+16	Spectrogram 1	1	606.0	609.0	0	15000	Great Horned Owl	grhowl	0.3953	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_040000.wav	606.0
+17	Spectrogram 1	1	648.0	651.0	0	15000	Dark-eyed Junco	daejun	0.3913	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_040000.wav	648.0
+18	Spectrogram 1	1	672.0	675.0	0	15000	Marsh Wren	marwre	0.4472	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_040000.wav	672.0
+19	Spectrogram 1	1	681.0	684.0	0	15000	Marsh Wren	marwre	0.3400	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_040000.wav	681.0
+20	Spectrogram 1	1	843.0	846.0	0	15000	Marsh Wren	marwre	0.4321	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_040000.wav	843.0

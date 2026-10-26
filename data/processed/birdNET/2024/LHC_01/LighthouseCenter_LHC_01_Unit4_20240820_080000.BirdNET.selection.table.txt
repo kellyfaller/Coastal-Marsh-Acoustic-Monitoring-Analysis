@@ -1,0 +1,11 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	261.0	264.0	0	15000	Tundra Swan	tunswa	0.5875	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_080000.wav	261.0
+2	Spectrogram 1	1	327.0	330.0	0	15000	Tundra Swan	tunswa	0.3550	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_080000.wav	327.0
+3	Spectrogram 1	1	660.0	663.0	0	15000	Great Horned Owl	grhowl	0.2734	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_080000.wav	660.0
+4	Spectrogram 1	1	666.0	669.0	0	15000	American Crow	amecro	0.5382	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_080000.wav	666.0
+5	Spectrogram 1	1	768.0	771.0	0	15000	Laughing Gull	laugul	0.8149	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_080000.wav	768.0
+6	Spectrogram 1	1	768.0	771.0	0	15000	Ring-billed Gull	ribgul	0.3602	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_080000.wav	768.0
+7	Spectrogram 1	1	792.0	795.0	0	15000	Laughing Gull	laugul	0.3193	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_080000.wav	792.0
+8	Spectrogram 1	1	867.0	870.0	0	15000	Laughing Gull	laugul	0.3375	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_080000.wav	867.0
+9	Spectrogram 1	1	870.0	873.0	0	15000	Laughing Gull	laugul	0.7291	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_080000.wav	870.0
+10	Spectrogram 1	1	873.0	876.0	0	15000	Laughing Gull	laugul	0.5669	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_080000.wav	873.0

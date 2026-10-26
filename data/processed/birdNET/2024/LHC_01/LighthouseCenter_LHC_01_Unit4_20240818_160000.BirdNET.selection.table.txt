@@ -1,0 +1,57 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	30.0	33.0	0	15000	Laughing Gull	laugul	0.2956	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	30.0
+2	Spectrogram 1	1	33.0	36.0	0	15000	Laughing Gull	laugul	0.7204	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	33.0
+3	Spectrogram 1	1	39.0	42.0	0	15000	Least Sandpiper	leasan	0.4234	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	39.0
+4	Spectrogram 1	1	39.0	42.0	0	15000	Killdeer	killde	0.3271	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	39.0
+5	Spectrogram 1	1	45.0	48.0	0	15000	Least Sandpiper	leasan	0.3291	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	45.0
+6	Spectrogram 1	1	72.0	75.0	0	15000	Laughing Gull	laugul	0.4120	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	72.0
+7	Spectrogram 1	1	81.0	84.0	0	15000	Engine	engine	0.3496	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	81.0
+8	Spectrogram 1	1	93.0	96.0	0	15000	Engine	engine	0.4400	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	93.0
+9	Spectrogram 1	1	96.0	99.0	0	15000	Engine	engine	0.3227	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	96.0
+10	Spectrogram 1	1	102.0	105.0	0	15000	Engine	engine	0.4103	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	102.0
+11	Spectrogram 1	1	111.0	114.0	0	15000	Tinkling Ground Cricket	t-11843287	0.5080	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	111.0
+12	Spectrogram 1	1	123.0	126.0	0	15000	Killdeer	killde	0.3586	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	123.0
+13	Spectrogram 1	1	150.0	153.0	0	15000	Laughing Gull	laugul	0.7553	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	150.0
+14	Spectrogram 1	1	153.0	156.0	0	15000	Laughing Gull	laugul	0.8323	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	153.0
+15	Spectrogram 1	1	177.0	180.0	0	15000	Least Sandpiper	leasan	0.2725	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	177.0
+16	Spectrogram 1	1	180.0	183.0	0	15000	Black-crowned Night-Heron	bcnher	0.4881	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	180.0
+17	Spectrogram 1	1	186.0	189.0	0	15000	Killdeer	killde	0.3023	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	186.0
+18	Spectrogram 1	1	213.0	216.0	0	15000	Osprey	osprey	0.6110	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	213.0
+19	Spectrogram 1	1	213.0	216.0	0	15000	Lesser Yellowlegs	lesyel	0.3873	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	213.0
+20	Spectrogram 1	1	219.0	222.0	0	15000	Osprey	osprey	0.3861	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	219.0
+21	Spectrogram 1	1	222.0	225.0	0	15000	American Crow	amecro	0.3581	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	222.0
+22	Spectrogram 1	1	228.0	231.0	0	15000	Laughing Gull	laugul	0.9533	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	228.0
+23	Spectrogram 1	1	231.0	234.0	0	15000	Laughing Gull	laugul	0.2809	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	231.0
+24	Spectrogram 1	1	264.0	267.0	0	15000	Northern Mockingbird	normoc	0.5826	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	264.0
+25	Spectrogram 1	1	273.0	276.0	0	15000	Killdeer	killde	0.4184	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	273.0
+26	Spectrogram 1	1	618.0	621.0	0	15000	Laughing Gull	laugul	0.6939	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	618.0
+27	Spectrogram 1	1	621.0	624.0	0	15000	American Crow	amecro	0.3250	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	621.0
+28	Spectrogram 1	1	624.0	627.0	0	15000	American Crow	amecro	0.5076	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	624.0
+29	Spectrogram 1	1	627.0	630.0	0	15000	American Crow	amecro	0.6653	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	627.0
+30	Spectrogram 1	1	630.0	633.0	0	15000	American Crow	amecro	0.4339	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	630.0
+31	Spectrogram 1	1	633.0	636.0	0	15000	American Crow	amecro	0.5074	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	633.0
+32	Spectrogram 1	1	642.0	645.0	0	15000	American Crow	amecro	0.4593	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	642.0
+33	Spectrogram 1	1	645.0	648.0	0	15000	American Crow	amecro	0.3950	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	645.0
+34	Spectrogram 1	1	648.0	651.0	0	15000	American Crow	amecro	0.2890	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	648.0
+35	Spectrogram 1	1	651.0	654.0	0	15000	American Crow	amecro	0.4366	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	651.0
+36	Spectrogram 1	1	663.0	666.0	0	15000	American Crow	amecro	0.3252	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	663.0
+37	Spectrogram 1	1	666.0	669.0	0	15000	Belted Kingfisher	belkin1	0.6336	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	666.0
+38	Spectrogram 1	1	693.0	696.0	0	15000	Osprey	osprey	0.8700	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	693.0
+39	Spectrogram 1	1	702.0	705.0	0	15000	Osprey	osprey	0.5904	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	702.0
+40	Spectrogram 1	1	738.0	741.0	0	15000	American Crow	amecro	0.2742	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	738.0
+41	Spectrogram 1	1	810.0	813.0	0	15000	American Crow	amecro	0.6333	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	810.0
+42	Spectrogram 1	1	828.0	831.0	0	15000	American Crow	amecro	0.7934	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	828.0
+43	Spectrogram 1	1	831.0	834.0	0	15000	American Crow	amecro	0.5271	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	831.0
+44	Spectrogram 1	1	840.0	843.0	0	15000	American Crow	amecro	0.6295	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	840.0
+45	Spectrogram 1	1	846.0	849.0	0	15000	American Crow	amecro	0.2630	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	846.0
+46	Spectrogram 1	1	849.0	852.0	0	15000	American Crow	amecro	0.7755	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	849.0
+47	Spectrogram 1	1	852.0	855.0	0	15000	American Crow	amecro	0.6876	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	852.0
+48	Spectrogram 1	1	855.0	858.0	0	15000	American Crow	amecro	0.5380	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	855.0
+49	Spectrogram 1	1	864.0	867.0	0	15000	Fish Crow	fiscro	0.4725	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	864.0
+50	Spectrogram 1	1	870.0	873.0	0	15000	American Crow	amecro	0.7197	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	870.0
+51	Spectrogram 1	1	876.0	879.0	0	15000	American Crow	amecro	0.4201	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	876.0
+52	Spectrogram 1	1	879.0	882.0	0	15000	American Crow	amecro	0.2709	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	879.0
+53	Spectrogram 1	1	882.0	885.0	0	15000	American Crow	amecro	0.4153	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	882.0
+54	Spectrogram 1	1	888.0	891.0	0	15000	American Crow	amecro	0.3795	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	888.0
+55	Spectrogram 1	1	894.0	897.0	0	15000	American Crow	amecro	0.7675	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	894.0
+56	Spectrogram 1	1	897.0	900.0	0	15000	American Crow	amecro	0.6450	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240818_160000.wav	897.0

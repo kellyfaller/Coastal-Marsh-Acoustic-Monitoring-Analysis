@@ -1,0 +1,4 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	237.0	240.0	0	15000	Laughing Gull	laugul	0.7810	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240825_140000.wav	237.0
+2	Spectrogram 1	1	327.0	330.0	0	15000	Laughing Gull	laugul	0.2720	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240825_140000.wav	327.0
+3	Spectrogram 1	1	348.0	351.0	0	15000	Killdeer	killde	0.3002	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240825_140000.wav	348.0

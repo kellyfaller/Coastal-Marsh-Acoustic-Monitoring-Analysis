@@ -1,0 +1,7 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	45.0	48.0	0	15000	Mallard	mallar3	0.5077	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240906_060000.wav	45.0
+2	Spectrogram 1	1	210.0	213.0	0	15000	Mallard	mallar3	0.5874	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240906_060000.wav	210.0
+3	Spectrogram 1	1	381.0	384.0	0	15000	Confused Ground Cricket	t-11843278	0.3529	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240906_060000.wav	381.0
+4	Spectrogram 1	1	477.0	480.0	0	15000	Mallard	mallar3	0.4002	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240906_060000.wav	477.0
+5	Spectrogram 1	1	888.0	891.0	0	15000	Mallard	mallar3	0.3326	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240906_060000.wav	888.0
+6	Spectrogram 1	1	891.0	894.0	0	15000	Mallard	mallar3	0.6648	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240906_060000.wav	891.0

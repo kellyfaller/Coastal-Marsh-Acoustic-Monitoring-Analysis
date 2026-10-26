@@ -1,0 +1,35 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	0.0	3.0	0	15000	Yellow-billed Cuckoo	yebcuc	0.3421	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	0.0
+2	Spectrogram 1	1	6.0	9.0	0	15000	Common Loon	comloo	0.4484	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	6.0
+3	Spectrogram 1	1	126.0	129.0	0	15000	Tundra Swan	tunswa	0.3373	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	126.0
+4	Spectrogram 1	1	132.0	135.0	0	15000	Seaside Sparrow	seaspa	0.9005	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	132.0
+5	Spectrogram 1	1	138.0	141.0	0	15000	Seaside Sparrow	seaspa	0.8666	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	138.0
+6	Spectrogram 1	1	174.0	177.0	0	15000	Seaside Sparrow	seaspa	0.5737	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	174.0
+7	Spectrogram 1	1	273.0	276.0	0	15000	Seaside Sparrow	seaspa	0.3303	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	273.0
+8	Spectrogram 1	1	300.0	303.0	0	15000	Fish Crow	fiscro	0.6303	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	300.0
+9	Spectrogram 1	1	306.0	309.0	0	15000	Marsh Wren	marwre	0.3177	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	306.0
+10	Spectrogram 1	1	318.0	321.0	0	15000	Marsh Wren	marwre	0.4944	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	318.0
+11	Spectrogram 1	1	390.0	393.0	0	15000	Marsh Wren	marwre	0.2911	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	390.0
+12	Spectrogram 1	1	438.0	441.0	0	15000	Trumpeter Swan	truswa	0.2725	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	438.0
+13	Spectrogram 1	1	528.0	531.0	0	15000	Fish Crow	fiscro	0.2674	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	528.0
+14	Spectrogram 1	1	615.0	618.0	0	15000	Engine	engine	0.8377	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	615.0
+15	Spectrogram 1	1	618.0	621.0	0	15000	Engine	engine	0.5275	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	618.0
+16	Spectrogram 1	1	621.0	624.0	0	15000	Engine	engine	0.2759	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	621.0
+17	Spectrogram 1	1	654.0	657.0	0	15000	Fish Crow	fiscro	0.6406	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	654.0
+18	Spectrogram 1	1	714.0	717.0	0	15000	Fish Crow	fiscro	0.3015	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	714.0
+19	Spectrogram 1	1	750.0	753.0	0	15000	Fish Crow	fiscro	0.8896	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	750.0
+20	Spectrogram 1	1	756.0	759.0	0	15000	Fish Crow	fiscro	0.9885	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	756.0
+21	Spectrogram 1	1	759.0	762.0	0	15000	Fish Crow	fiscro	0.9660	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	759.0
+22	Spectrogram 1	1	768.0	771.0	0	15000	Fish Crow	fiscro	0.2977	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	768.0
+23	Spectrogram 1	1	798.0	801.0	0	15000	Fish Crow	fiscro	0.5441	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	798.0
+24	Spectrogram 1	1	801.0	804.0	0	15000	Fish Crow	fiscro	0.5078	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	801.0
+25	Spectrogram 1	1	807.0	810.0	0	15000	Fish Crow	fiscro	0.7949	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	807.0
+26	Spectrogram 1	1	810.0	813.0	0	15000	Fish Crow	fiscro	0.4660	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	810.0
+27	Spectrogram 1	1	825.0	828.0	0	15000	Fish Crow	fiscro	0.2842	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	825.0
+28	Spectrogram 1	1	843.0	846.0	0	15000	Fish Crow	fiscro	0.3627	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	843.0
+29	Spectrogram 1	1	852.0	855.0	0	15000	Fish Crow	fiscro	0.8774	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	852.0
+30	Spectrogram 1	1	870.0	873.0	0	15000	Fish Crow	fiscro	0.4073	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	870.0
+31	Spectrogram 1	1	876.0	879.0	0	15000	Fish Crow	fiscro	0.7285	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	876.0
+32	Spectrogram 1	1	879.0	882.0	0	15000	Fish Crow	fiscro	0.4571	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	879.0
+33	Spectrogram 1	1	879.0	882.0	0	15000	Eastern Kingbird	easkin	0.3380	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	879.0
+34	Spectrogram 1	1	894.0	897.0	0	15000	Fish Crow	fiscro	0.9367	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-26\U05_20260626_193000.wav	894.0

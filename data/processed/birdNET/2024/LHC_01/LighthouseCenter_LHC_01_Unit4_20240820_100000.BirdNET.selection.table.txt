@@ -1,0 +1,23 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	3.0	6.0	0	15000	Great Horned Owl	grhowl	0.2716	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_100000.wav	3.0
+2	Spectrogram 1	1	6.0	9.0	0	15000	Great Horned Owl	grhowl	0.5676	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_100000.wav	6.0
+3	Spectrogram 1	1	15.0	18.0	0	15000	Great Horned Owl	grhowl	0.5947	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_100000.wav	15.0
+4	Spectrogram 1	1	27.0	30.0	0	15000	Great Horned Owl	grhowl	0.3557	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_100000.wav	27.0
+5	Spectrogram 1	1	180.0	183.0	0	15000	Great Horned Owl	grhowl	0.5664	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_100000.wav	180.0
+6	Spectrogram 1	1	210.0	213.0	0	15000	American Crow	amecro	0.3576	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_100000.wav	210.0
+7	Spectrogram 1	1	210.0	213.0	0	15000	Fish Crow	fiscro	0.3303	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_100000.wav	210.0
+8	Spectrogram 1	1	375.0	378.0	0	15000	Osprey	osprey	0.8640	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_100000.wav	375.0
+9	Spectrogram 1	1	378.0	381.0	0	15000	Osprey	osprey	0.9242	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_100000.wav	378.0
+10	Spectrogram 1	1	396.0	399.0	0	15000	Common Raven	comrav	0.3060	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_100000.wav	396.0
+11	Spectrogram 1	1	528.0	531.0	0	15000	Great Horned Owl	grhowl	0.7963	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_100000.wav	528.0
+12	Spectrogram 1	1	531.0	534.0	0	15000	Great Horned Owl	grhowl	0.7433	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_100000.wav	531.0
+13	Spectrogram 1	1	534.0	537.0	0	15000	Great Horned Owl	grhowl	0.2978	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_100000.wav	534.0
+14	Spectrogram 1	1	585.0	588.0	0	15000	American Crow	amecro	0.2739	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_100000.wav	585.0
+15	Spectrogram 1	1	645.0	648.0	0	15000	Fish Crow	fiscro	0.4198	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_100000.wav	645.0
+16	Spectrogram 1	1	672.0	675.0	0	15000	Great Horned Owl	grhowl	0.3588	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_100000.wav	672.0
+17	Spectrogram 1	1	831.0	834.0	0	15000	Great Horned Owl	grhowl	0.2898	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_100000.wav	831.0
+18	Spectrogram 1	1	846.0	849.0	0	15000	Great Horned Owl	grhowl	0.7391	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_100000.wav	846.0
+19	Spectrogram 1	1	858.0	861.0	0	15000	Osprey	osprey	0.2728	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_100000.wav	858.0
+20	Spectrogram 1	1	858.0	861.0	0	15000	Evening Grosbeak	evegro	0.2579	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_100000.wav	858.0
+21	Spectrogram 1	1	879.0	882.0	0	15000	Belted Kingfisher	belkin1	0.9880	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_100000.wav	879.0
+22	Spectrogram 1	1	894.0	897.0	0	15000	Belted Kingfisher	belkin1	0.5320	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_100000.wav	894.0

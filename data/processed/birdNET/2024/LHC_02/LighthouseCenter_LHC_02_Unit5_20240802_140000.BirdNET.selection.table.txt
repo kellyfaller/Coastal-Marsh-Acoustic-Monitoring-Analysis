@@ -1,0 +1,18 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	72.0	75.0	0	15000	Forster's Tern	forter	0.7900	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240802_140000.wav	72.0
+2	Spectrogram 1	1	75.0	78.0	0	15000	Carolina Wren	carwre	0.7440	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240802_140000.wav	75.0
+3	Spectrogram 1	1	75.0	78.0	0	15000	Forster's Tern	forter	0.4378	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240802_140000.wav	75.0
+4	Spectrogram 1	1	78.0	81.0	0	15000	Forster's Tern	forter	0.5909	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240802_140000.wav	78.0
+5	Spectrogram 1	1	81.0	84.0	0	15000	Forster's Tern	forter	0.8115	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240802_140000.wav	81.0
+6	Spectrogram 1	1	285.0	288.0	0	15000	Fireworks	frwrks	0.4705	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240802_140000.wav	285.0
+7	Spectrogram 1	1	306.0	309.0	0	15000	Fireworks	frwrks	0.3356	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240802_140000.wav	306.0
+8	Spectrogram 1	1	321.0	324.0	0	15000	Fireworks	frwrks	0.2615	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240802_140000.wav	321.0
+9	Spectrogram 1	1	336.0	339.0	0	15000	Fireworks	frwrks	0.3032	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240802_140000.wav	336.0
+10	Spectrogram 1	1	339.0	342.0	0	15000	Fireworks	frwrks	0.2863	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240802_140000.wav	339.0
+11	Spectrogram 1	1	372.0	375.0	0	15000	Fish Crow	fiscro	0.2581	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240802_140000.wav	372.0
+12	Spectrogram 1	1	375.0	378.0	0	15000	Osprey	osprey	0.5695	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240802_140000.wav	375.0
+13	Spectrogram 1	1	561.0	564.0	0	15000	Killdeer	killde	0.3267	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240802_140000.wav	561.0
+14	Spectrogram 1	1	651.0	654.0	0	15000	Fireworks	frwrks	0.2792	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240802_140000.wav	651.0
+15	Spectrogram 1	1	732.0	735.0	0	15000	Fireworks	frwrks	0.2597	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240802_140000.wav	732.0
+16	Spectrogram 1	1	741.0	744.0	0	15000	Fireworks	frwrks	0.2727	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240802_140000.wav	741.0
+17	Spectrogram 1	1	771.0	774.0	0	15000	Fireworks	frwrks	0.2579	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240802_140000.wav	771.0

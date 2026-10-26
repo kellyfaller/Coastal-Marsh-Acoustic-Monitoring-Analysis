@@ -1,0 +1,113 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	3.0	6.0	0	15000	Marsh Wren	marwre	0.2583	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	3.0
+2	Spectrogram 1	1	48.0	51.0	0	15000	Marsh Wren	marwre	0.2637	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	48.0
+3	Spectrogram 1	1	129.0	132.0	0	15000	Marsh Wren	marwre	0.6768	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	129.0
+4	Spectrogram 1	1	132.0	135.0	0	15000	Seaside Sparrow	seaspa	0.3094	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	132.0
+5	Spectrogram 1	1	135.0	138.0	0	15000	Marsh Wren	marwre	0.4095	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	135.0
+6	Spectrogram 1	1	138.0	141.0	0	15000	Seaside Sparrow	seaspa	0.8109	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	138.0
+7	Spectrogram 1	1	141.0	144.0	0	15000	Marsh Wren	marwre	0.5423	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	141.0
+8	Spectrogram 1	1	144.0	147.0	0	15000	Seaside Sparrow	seaspa	0.8911	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	144.0
+9	Spectrogram 1	1	147.0	150.0	0	15000	Marsh Wren	marwre	0.5420	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	147.0
+10	Spectrogram 1	1	150.0	153.0	0	15000	Seaside Sparrow	seaspa	0.5342	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	150.0
+11	Spectrogram 1	1	153.0	156.0	0	15000	Marsh Wren	marwre	0.3569	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	153.0
+12	Spectrogram 1	1	156.0	159.0	0	15000	Seaside Sparrow	seaspa	0.9896	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	156.0
+13	Spectrogram 1	1	165.0	168.0	0	15000	Seaside Sparrow	seaspa	0.7884	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	165.0
+14	Spectrogram 1	1	168.0	171.0	0	15000	Marsh Wren	marwre	0.4881	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	168.0
+15	Spectrogram 1	1	171.0	174.0	0	15000	Seaside Sparrow	seaspa	0.5613	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	171.0
+16	Spectrogram 1	1	177.0	180.0	0	15000	Seaside Sparrow	seaspa	0.9472	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	177.0
+17	Spectrogram 1	1	183.0	186.0	0	15000	Seaside Sparrow	seaspa	0.2919	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	183.0
+18	Spectrogram 1	1	189.0	192.0	0	15000	Seaside Sparrow	seaspa	0.4023	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	189.0
+19	Spectrogram 1	1	192.0	195.0	0	15000	Seaside Sparrow	seaspa	0.4711	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	192.0
+20	Spectrogram 1	1	195.0	198.0	0	15000	Seaside Sparrow	seaspa	0.3452	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	195.0
+21	Spectrogram 1	1	201.0	204.0	0	15000	Seaside Sparrow	seaspa	0.5674	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	201.0
+22	Spectrogram 1	1	210.0	213.0	0	15000	Seaside Sparrow	seaspa	0.7950	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	210.0
+23	Spectrogram 1	1	219.0	222.0	0	15000	Seaside Sparrow	seaspa	0.8512	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	219.0
+24	Spectrogram 1	1	222.0	225.0	0	15000	Seaside Sparrow	seaspa	0.5510	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	222.0
+25	Spectrogram 1	1	225.0	228.0	0	15000	Seaside Sparrow	seaspa	0.2669	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	225.0
+26	Spectrogram 1	1	228.0	231.0	0	15000	Seaside Sparrow	seaspa	0.3121	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	228.0
+27	Spectrogram 1	1	231.0	234.0	0	15000	Seaside Sparrow	seaspa	0.9604	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	231.0
+28	Spectrogram 1	1	240.0	243.0	0	15000	Seaside Sparrow	seaspa	0.9184	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	240.0
+29	Spectrogram 1	1	246.0	249.0	0	15000	Seaside Sparrow	seaspa	0.5154	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	246.0
+30	Spectrogram 1	1	255.0	258.0	0	15000	Seaside Sparrow	seaspa	0.3326	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	255.0
+31	Spectrogram 1	1	258.0	261.0	0	15000	Seaside Sparrow	seaspa	0.9356	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	258.0
+32	Spectrogram 1	1	264.0	267.0	0	15000	Seaside Sparrow	seaspa	0.8820	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	264.0
+33	Spectrogram 1	1	273.0	276.0	0	15000	Seaside Sparrow	seaspa	0.9910	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	273.0
+34	Spectrogram 1	1	279.0	282.0	0	15000	Seaside Sparrow	seaspa	0.9806	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	279.0
+35	Spectrogram 1	1	285.0	288.0	0	15000	Seaside Sparrow	seaspa	0.9973	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	285.0
+36	Spectrogram 1	1	291.0	294.0	0	15000	Seaside Sparrow	seaspa	0.4632	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	291.0
+37	Spectrogram 1	1	300.0	303.0	0	15000	Seaside Sparrow	seaspa	0.6652	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	300.0
+38	Spectrogram 1	1	300.0	303.0	0	15000	Red-winged Blackbird	rewbla	0.3240	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	300.0
+39	Spectrogram 1	1	306.0	309.0	0	15000	Seaside Sparrow	seaspa	0.3515	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	306.0
+40	Spectrogram 1	1	309.0	312.0	0	15000	Seaside Sparrow	seaspa	0.9489	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	309.0
+41	Spectrogram 1	1	312.0	315.0	0	15000	Seaside Sparrow	seaspa	0.8157	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	312.0
+42	Spectrogram 1	1	318.0	321.0	0	15000	Seaside Sparrow	seaspa	0.8340	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	318.0
+43	Spectrogram 1	1	324.0	327.0	0	15000	Seaside Sparrow	seaspa	0.7546	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	324.0
+44	Spectrogram 1	1	327.0	330.0	0	15000	Seaside Sparrow	seaspa	0.7245	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	327.0
+45	Spectrogram 1	1	336.0	339.0	0	15000	Seaside Sparrow	seaspa	0.9733	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	336.0
+46	Spectrogram 1	1	345.0	348.0	0	15000	Seaside Sparrow	seaspa	0.3309	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	345.0
+47	Spectrogram 1	1	363.0	366.0	0	15000	Seaside Sparrow	seaspa	0.3776	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	363.0
+48	Spectrogram 1	1	372.0	375.0	0	15000	Seaside Sparrow	seaspa	0.3708	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	372.0
+49	Spectrogram 1	1	378.0	381.0	0	15000	Seaside Sparrow	seaspa	0.8611	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	378.0
+50	Spectrogram 1	1	390.0	393.0	0	15000	Seaside Sparrow	seaspa	0.4931	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	390.0
+51	Spectrogram 1	1	396.0	399.0	0	15000	Seaside Sparrow	seaspa	0.6829	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	396.0
+52	Spectrogram 1	1	411.0	414.0	0	15000	Seaside Sparrow	seaspa	0.4311	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	411.0
+53	Spectrogram 1	1	420.0	423.0	0	15000	Seaside Sparrow	seaspa	0.3425	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	420.0
+54	Spectrogram 1	1	429.0	432.0	0	15000	Seaside Sparrow	seaspa	0.6111	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	429.0
+55	Spectrogram 1	1	447.0	450.0	0	15000	Seaside Sparrow	seaspa	0.3270	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	447.0
+56	Spectrogram 1	1	471.0	474.0	0	15000	Seaside Sparrow	seaspa	0.9628	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	471.0
+57	Spectrogram 1	1	483.0	486.0	0	15000	Osprey	osprey	0.9640	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	483.0
+58	Spectrogram 1	1	486.0	489.0	0	15000	Osprey	osprey	0.9022	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	486.0
+59	Spectrogram 1	1	489.0	492.0	0	15000	Osprey	osprey	0.9679	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	489.0
+60	Spectrogram 1	1	507.0	510.0	0	15000	Seaside Sparrow	seaspa	0.2840	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	507.0
+61	Spectrogram 1	1	510.0	513.0	0	15000	Osprey	osprey	0.9270	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	510.0
+62	Spectrogram 1	1	525.0	528.0	0	15000	Seaside Sparrow	seaspa	0.3824	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	525.0
+63	Spectrogram 1	1	534.0	537.0	0	15000	Seaside Sparrow	seaspa	0.5541	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	534.0
+64	Spectrogram 1	1	552.0	555.0	0	15000	Seaside Sparrow	seaspa	0.2772	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	552.0
+65	Spectrogram 1	1	567.0	570.0	0	15000	Osprey	osprey	0.6838	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	567.0
+66	Spectrogram 1	1	567.0	570.0	0	15000	Seaside Sparrow	seaspa	0.4780	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	567.0
+67	Spectrogram 1	1	573.0	576.0	0	15000	Osprey	osprey	0.3813	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	573.0
+68	Spectrogram 1	1	576.0	579.0	0	15000	Seaside Sparrow	seaspa	0.8717	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	576.0
+69	Spectrogram 1	1	591.0	594.0	0	15000	Seaside Sparrow	seaspa	0.5244	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	591.0
+70	Spectrogram 1	1	600.0	603.0	0	15000	Seaside Sparrow	seaspa	0.9485	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	600.0
+71	Spectrogram 1	1	603.0	606.0	0	15000	Osprey	osprey	0.4779	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	603.0
+72	Spectrogram 1	1	606.0	609.0	0	15000	Osprey	osprey	0.5866	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	606.0
+73	Spectrogram 1	1	609.0	612.0	0	15000	Osprey	osprey	0.4228	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	609.0
+74	Spectrogram 1	1	612.0	615.0	0	15000	Osprey	osprey	0.4345	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	612.0
+75	Spectrogram 1	1	612.0	615.0	0	15000	Seaside Sparrow	seaspa	0.2749	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	612.0
+76	Spectrogram 1	1	615.0	618.0	0	15000	Osprey	osprey	0.4950	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	615.0
+77	Spectrogram 1	1	615.0	618.0	0	15000	White-breasted Nuthatch	whbnut	0.2996	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	615.0
+78	Spectrogram 1	1	618.0	621.0	0	15000	Seaside Sparrow	seaspa	0.3109	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	618.0
+79	Spectrogram 1	1	621.0	624.0	0	15000	Seaside Sparrow	seaspa	0.9334	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	621.0
+80	Spectrogram 1	1	627.0	630.0	0	15000	White-breasted Nuthatch	whbnut	0.3914	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	627.0
+81	Spectrogram 1	1	630.0	633.0	0	15000	Seaside Sparrow	seaspa	0.8562	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	630.0
+82	Spectrogram 1	1	651.0	654.0	0	15000	Seaside Sparrow	seaspa	0.9517	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	651.0
+83	Spectrogram 1	1	669.0	672.0	0	15000	Seaside Sparrow	seaspa	0.6632	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	669.0
+84	Spectrogram 1	1	687.0	690.0	0	15000	Osprey	osprey	0.9666	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	687.0
+85	Spectrogram 1	1	696.0	699.0	0	15000	Seaside Sparrow	seaspa	0.3014	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	696.0
+86	Spectrogram 1	1	705.0	708.0	0	15000	Osprey	osprey	0.7329	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	705.0
+87	Spectrogram 1	1	711.0	714.0	0	15000	Common Yellowthroat	comyel	0.2549	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	711.0
+88	Spectrogram 1	1	720.0	723.0	0	15000	Seaside Sparrow	seaspa	0.5115	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	720.0
+89	Spectrogram 1	1	744.0	747.0	0	15000	Osprey	osprey	0.2831	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	744.0
+90	Spectrogram 1	1	750.0	753.0	0	15000	Seaside Sparrow	seaspa	0.2928	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	750.0
+91	Spectrogram 1	1	768.0	771.0	0	15000	Seaside Sparrow	seaspa	0.7463	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	768.0
+92	Spectrogram 1	1	774.0	777.0	0	15000	Seaside Sparrow	seaspa	0.4694	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	774.0
+93	Spectrogram 1	1	777.0	780.0	0	15000	Seaside Sparrow	seaspa	0.8972	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	777.0
+94	Spectrogram 1	1	783.0	786.0	0	15000	Seaside Sparrow	seaspa	0.3683	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	783.0
+95	Spectrogram 1	1	789.0	792.0	0	15000	Seaside Sparrow	seaspa	0.3598	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	789.0
+96	Spectrogram 1	1	798.0	801.0	0	15000	Seaside Sparrow	seaspa	0.9007	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	798.0
+97	Spectrogram 1	1	816.0	819.0	0	15000	Seaside Sparrow	seaspa	0.7564	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	816.0
+98	Spectrogram 1	1	822.0	825.0	0	15000	Seaside Sparrow	seaspa	0.3031	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	822.0
+99	Spectrogram 1	1	831.0	834.0	0	15000	Seaside Sparrow	seaspa	0.4458	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	831.0
+100	Spectrogram 1	1	837.0	840.0	0	15000	Least Bittern	leabit	0.2629	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	837.0
+101	Spectrogram 1	1	840.0	843.0	0	15000	Seaside Sparrow	seaspa	0.4542	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	840.0
+102	Spectrogram 1	1	840.0	843.0	0	15000	Red-winged Blackbird	rewbla	0.2997	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	840.0
+103	Spectrogram 1	1	852.0	855.0	0	15000	Seaside Sparrow	seaspa	0.5004	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	852.0
+104	Spectrogram 1	1	855.0	858.0	0	15000	Seaside Sparrow	seaspa	0.2709	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	855.0
+105	Spectrogram 1	1	858.0	861.0	0	15000	Marsh Wren	marwre	0.2551	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	858.0
+106	Spectrogram 1	1	861.0	864.0	0	15000	Seaside Sparrow	seaspa	0.2807	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	861.0
+107	Spectrogram 1	1	867.0	870.0	0	15000	Seaside Sparrow	seaspa	0.8146	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	867.0
+108	Spectrogram 1	1	870.0	873.0	0	15000	Red-winged Blackbird	rewbla	0.4136	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	870.0
+109	Spectrogram 1	1	882.0	885.0	0	15000	Red-winged Blackbird	rewbla	0.2545	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	882.0
+110	Spectrogram 1	1	885.0	888.0	0	15000	Seaside Sparrow	seaspa	0.8094	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	885.0
+111	Spectrogram 1	1	888.0	891.0	0	15000	Seaside Sparrow	seaspa	0.3010	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	888.0
+112	Spectrogram 1	1	894.0	897.0	0	15000	Seaside Sparrow	seaspa	0.9680	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_060000.wav	894.0

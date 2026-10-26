@@ -1,0 +1,26 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	75.0	78.0	0	15000	Osprey	osprey	0.5783	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240803_130000.wav	75.0
+2	Spectrogram 1	1	93.0	96.0	0	15000	Osprey	osprey	0.7866	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240803_130000.wav	93.0
+3	Spectrogram 1	1	285.0	288.0	0	15000	Osprey	osprey	0.3306	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240803_130000.wav	285.0
+4	Spectrogram 1	1	294.0	297.0	0	15000	Purple Martin	purmar	0.5355	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240803_130000.wav	294.0
+5	Spectrogram 1	1	354.0	357.0	0	15000	Lapland Longspur	laplon	0.4192	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240803_130000.wav	354.0
+6	Spectrogram 1	1	411.0	414.0	0	15000	Purple Martin	purmar	0.2840	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240803_130000.wav	411.0
+7	Spectrogram 1	1	414.0	417.0	0	15000	Purple Martin	purmar	0.8334	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240803_130000.wav	414.0
+8	Spectrogram 1	1	417.0	420.0	0	15000	Purple Martin	purmar	0.3083	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240803_130000.wav	417.0
+9	Spectrogram 1	1	423.0	426.0	0	15000	Purple Martin	purmar	0.8720	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240803_130000.wav	423.0
+10	Spectrogram 1	1	426.0	429.0	0	15000	Lapland Longspur	laplon	0.3327	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240803_130000.wav	426.0
+11	Spectrogram 1	1	471.0	474.0	0	15000	Purple Martin	purmar	0.4275	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240803_130000.wav	471.0
+12	Spectrogram 1	1	474.0	477.0	0	15000	Laughing Gull	laugul	0.5308	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240803_130000.wav	474.0
+13	Spectrogram 1	1	495.0	498.0	0	15000	Purple Martin	purmar	0.2950	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240803_130000.wav	495.0
+14	Spectrogram 1	1	591.0	594.0	0	15000	Greater Yellowlegs	greyel	0.2679	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240803_130000.wav	591.0
+15	Spectrogram 1	1	597.0	600.0	0	15000	Purple Martin	purmar	0.6093	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240803_130000.wav	597.0
+16	Spectrogram 1	1	600.0	603.0	0	15000	Osprey	osprey	0.9311	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240803_130000.wav	600.0
+17	Spectrogram 1	1	606.0	609.0	0	15000	Osprey	osprey	0.9504	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240803_130000.wav	606.0
+18	Spectrogram 1	1	618.0	621.0	0	15000	Osprey	osprey	0.4837	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240803_130000.wav	618.0
+19	Spectrogram 1	1	633.0	636.0	0	15000	Lesser Yellowlegs	lesyel	0.3220	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240803_130000.wav	633.0
+20	Spectrogram 1	1	639.0	642.0	0	15000	Osprey	osprey	0.4029	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240803_130000.wav	639.0
+21	Spectrogram 1	1	726.0	729.0	0	15000	Evening Grosbeak	evegro	0.2809	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240803_130000.wav	726.0
+22	Spectrogram 1	1	729.0	732.0	0	15000	Red Crossbill	redcro	0.6058	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240803_130000.wav	729.0
+23	Spectrogram 1	1	750.0	753.0	0	15000	Purple Martin	purmar	0.4154	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240803_130000.wav	750.0
+24	Spectrogram 1	1	753.0	756.0	0	15000	Red Crossbill	redcro	0.4013	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240803_130000.wav	753.0
+25	Spectrogram 1	1	753.0	756.0	0	15000	Purple Martin	purmar	0.2699	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240803_130000.wav	753.0

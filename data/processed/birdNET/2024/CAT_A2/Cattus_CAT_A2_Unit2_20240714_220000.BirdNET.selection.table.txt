@@ -1,0 +1,6 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	15.0	18.0	0	15000	Engine	engine	0.3104	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240714_220000.wav	15.0
+2	Spectrogram 1	1	270.0	273.0	0	15000	Engine	engine	0.7063	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240714_220000.wav	270.0
+3	Spectrogram 1	1	279.0	282.0	0	15000	Engine	engine	0.3244	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240714_220000.wav	279.0
+4	Spectrogram 1	1	324.0	327.0	0	15000	Engine	engine	0.2682	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240714_220000.wav	324.0
+5	Spectrogram 1	1	441.0	444.0	0	15000	Marsh Wren	marwre	0.8198	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240714_220000.wav	441.0

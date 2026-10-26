@@ -1,0 +1,4 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	177.0	180.0	0	15000	Black-crowned Night-Heron	bcnher	0.3632	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240806_010000.wav	177.0
+2	Spectrogram 1	1	573.0	576.0	0	15000	Orange-crowned Warbler	orcwar	0.2607	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240806_010000.wav	573.0
+3	Spectrogram 1	1	588.0	591.0	0	15000	Orange-crowned Warbler	orcwar	0.2514	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240806_010000.wav	588.0

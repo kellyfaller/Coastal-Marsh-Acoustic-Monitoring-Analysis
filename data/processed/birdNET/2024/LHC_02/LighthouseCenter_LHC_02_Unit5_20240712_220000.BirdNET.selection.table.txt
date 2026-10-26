@@ -1,0 +1,8 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	6.0	9.0	0	15000	Gray Treefrog	t-11124704	0.2898	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240712_220000.wav	6.0
+2	Spectrogram 1	1	36.0	39.0	0	15000	American Woodcock	amewoo	0.4106	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240712_220000.wav	36.0
+3	Spectrogram 1	1	93.0	96.0	0	15000	American Woodcock	amewoo	0.2909	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240712_220000.wav	93.0
+4	Spectrogram 1	1	96.0	99.0	0	15000	American Woodcock	amewoo	0.2717	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240712_220000.wav	96.0
+5	Spectrogram 1	1	231.0	234.0	0	15000	American Woodcock	amewoo	0.2511	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240712_220000.wav	231.0
+6	Spectrogram 1	1	879.0	882.0	0	15000	Dog	dogdog	0.3569	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240712_220000.wav	879.0
+7	Spectrogram 1	1	897.0	900.0	0	15000	Black-crowned Night-Heron	bcnher	0.3687	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240712_220000.wav	897.0

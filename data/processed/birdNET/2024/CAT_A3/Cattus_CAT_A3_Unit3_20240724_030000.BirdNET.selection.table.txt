@@ -1,0 +1,22 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	24.0	27.0	0	15000	Marsh Wren	marwre	0.6204	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240724_030000.wav	24.0
+2	Spectrogram 1	1	33.0	36.0	0	15000	Marsh Wren	marwre	0.4424	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240724_030000.wav	33.0
+3	Spectrogram 1	1	66.0	69.0	0	15000	Marsh Wren	marwre	0.4303	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240724_030000.wav	66.0
+4	Spectrogram 1	1	183.0	186.0	0	15000	Orange-crowned Warbler	orcwar	0.3745	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240724_030000.wav	183.0
+5	Spectrogram 1	1	228.0	231.0	0	15000	Marsh Wren	marwre	0.7816	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240724_030000.wav	228.0
+6	Spectrogram 1	1	246.0	249.0	0	15000	Yellow-rumped Warbler	yerwar	0.6581	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240724_030000.wav	246.0
+7	Spectrogram 1	1	315.0	318.0	0	15000	Marsh Wren	marwre	0.2943	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240724_030000.wav	315.0
+8	Spectrogram 1	1	318.0	321.0	0	15000	Marsh Wren	marwre	0.3868	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240724_030000.wav	318.0
+9	Spectrogram 1	1	345.0	348.0	0	15000	Marsh Wren	marwre	0.5205	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240724_030000.wav	345.0
+10	Spectrogram 1	1	375.0	378.0	0	15000	Palm Warbler	palwar	0.3864	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240724_030000.wav	375.0
+11	Spectrogram 1	1	447.0	450.0	0	15000	Orange-crowned Warbler	orcwar	0.6023	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240724_030000.wav	447.0
+12	Spectrogram 1	1	498.0	501.0	0	15000	Marsh Wren	marwre	0.5577	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240724_030000.wav	498.0
+13	Spectrogram 1	1	540.0	543.0	0	15000	American Kestrel	amekes	0.3365	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240724_030000.wav	540.0
+14	Spectrogram 1	1	576.0	579.0	0	15000	Marsh Wren	marwre	0.4065	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240724_030000.wav	576.0
+15	Spectrogram 1	1	585.0	588.0	0	15000	Marsh Wren	marwre	0.2934	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240724_030000.wav	585.0
+16	Spectrogram 1	1	657.0	660.0	0	15000	Orange-crowned Warbler	orcwar	0.3898	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240724_030000.wav	657.0
+17	Spectrogram 1	1	720.0	723.0	0	15000	Marsh Wren	marwre	0.4801	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240724_030000.wav	720.0
+18	Spectrogram 1	1	789.0	792.0	0	15000	Marsh Wren	marwre	0.2523	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240724_030000.wav	789.0
+19	Spectrogram 1	1	843.0	846.0	0	15000	Golden-crowned Kinglet	gockin	0.2667	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240724_030000.wav	843.0
+20	Spectrogram 1	1	864.0	867.0	0	15000	Marsh Wren	marwre	0.2821	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240724_030000.wav	864.0
+21	Spectrogram 1	1	867.0	870.0	0	15000	Red-breasted Nuthatch	rebnut	0.2698	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240724_030000.wav	867.0

@@ -1,0 +1,26 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	93.0	96.0	0	15000	Golden-crowned Kinglet	gockin	0.4048	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240729_140000.wav	93.0
+2	Spectrogram 1	1	108.0	111.0	0	15000	Grasshopper Sparrow	graspa	0.4697	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240729_140000.wav	108.0
+3	Spectrogram 1	1	186.0	189.0	0	15000	Grasshopper Sparrow	graspa	0.4058	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240729_140000.wav	186.0
+4	Spectrogram 1	1	189.0	192.0	0	15000	Grasshopper Sparrow	graspa	0.3292	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240729_140000.wav	189.0
+5	Spectrogram 1	1	195.0	198.0	0	15000	Walker's Ground Cricket	t-11855914	0.6467	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240729_140000.wav	195.0
+6	Spectrogram 1	1	198.0	201.0	0	15000	Walker's Ground Cricket	t-11855914	0.8217	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240729_140000.wav	198.0
+7	Spectrogram 1	1	252.0	255.0	0	15000	Fireworks	frwrks	0.2972	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240729_140000.wav	252.0
+8	Spectrogram 1	1	294.0	297.0	0	15000	Grasshopper Sparrow	graspa	0.5285	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240729_140000.wav	294.0
+9	Spectrogram 1	1	306.0	309.0	0	15000	Grasshopper Sparrow	graspa	0.2670	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240729_140000.wav	306.0
+10	Spectrogram 1	1	309.0	312.0	0	15000	Grasshopper Sparrow	graspa	0.2551	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240729_140000.wav	309.0
+11	Spectrogram 1	1	315.0	318.0	0	15000	Grasshopper Sparrow	graspa	0.8855	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240729_140000.wav	315.0
+12	Spectrogram 1	1	321.0	324.0	0	15000	Grasshopper Sparrow	graspa	0.5586	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240729_140000.wav	321.0
+13	Spectrogram 1	1	330.0	333.0	0	15000	Grasshopper Sparrow	graspa	0.4307	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240729_140000.wav	330.0
+14	Spectrogram 1	1	333.0	336.0	0	15000	Grasshopper Sparrow	graspa	0.2934	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240729_140000.wav	333.0
+15	Spectrogram 1	1	339.0	342.0	0	15000	Grasshopper Sparrow	graspa	0.5476	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240729_140000.wav	339.0
+16	Spectrogram 1	1	342.0	345.0	0	15000	Grasshopper Sparrow	graspa	0.3398	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240729_140000.wav	342.0
+17	Spectrogram 1	1	348.0	351.0	0	15000	Grasshopper Sparrow	graspa	0.6854	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240729_140000.wav	348.0
+18	Spectrogram 1	1	357.0	360.0	0	15000	Grasshopper Sparrow	graspa	0.8685	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240729_140000.wav	357.0
+19	Spectrogram 1	1	360.0	363.0	0	15000	Grasshopper Sparrow	graspa	0.8906	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240729_140000.wav	360.0
+20	Spectrogram 1	1	363.0	366.0	0	15000	Fireworks	frwrks	0.3128	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240729_140000.wav	363.0
+21	Spectrogram 1	1	366.0	369.0	0	15000	Fireworks	frwrks	0.2518	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240729_140000.wav	366.0
+22	Spectrogram 1	1	528.0	531.0	0	15000	Grasshopper Sparrow	graspa	0.5642	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240729_140000.wav	528.0
+23	Spectrogram 1	1	576.0	579.0	0	15000	Fireworks	frwrks	0.3138	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240729_140000.wav	576.0
+24	Spectrogram 1	1	828.0	831.0	0	15000	Red-shouldered Hawk	reshaw	0.5082	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240729_140000.wav	828.0
+25	Spectrogram 1	1	855.0	858.0	0	15000	Pied-billed Grebe	pibgre	0.3118	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240729_140000.wav	855.0

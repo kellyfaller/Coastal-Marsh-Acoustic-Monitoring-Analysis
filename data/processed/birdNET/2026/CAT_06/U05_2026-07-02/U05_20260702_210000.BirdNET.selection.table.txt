@@ -1,0 +1,6 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	210.0	213.0	0	15000	Willow Flycatcher	wilfly	0.6574	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-02\U05_20260702_210000.wav	210.0
+2	Spectrogram 1	1	246.0	249.0	0	15000	Willow Flycatcher	wilfly	0.8583	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-02\U05_20260702_210000.wav	246.0
+3	Spectrogram 1	1	309.0	312.0	0	15000	Barn Owl	brnowl	0.3383	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-02\U05_20260702_210000.wav	309.0
+4	Spectrogram 1	1	417.0	420.0	0	15000	Eastern Kingbird	easkin	0.3963	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-02\U05_20260702_210000.wav	417.0
+5	Spectrogram 1	1	441.0	444.0	0	15000	Willow Flycatcher	wilfly	0.8139	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-02\U05_20260702_210000.wav	441.0

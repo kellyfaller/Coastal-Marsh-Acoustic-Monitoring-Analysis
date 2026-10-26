@@ -1,0 +1,15 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	36.0	39.0	0	15000	Cedar Waxwing	cedwax	0.2837	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-14\U05_20260714_231500.wav	36.0
+2	Spectrogram 1	1	132.0	135.0	0	15000	Osprey	osprey	0.9930	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-14\U05_20260714_231500.wav	132.0
+3	Spectrogram 1	1	135.0	138.0	0	15000	Osprey	osprey	0.9988	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-14\U05_20260714_231500.wav	135.0
+4	Spectrogram 1	1	153.0	156.0	0	15000	Osprey	osprey	0.5242	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-14\U05_20260714_231500.wav	153.0
+5	Spectrogram 1	1	156.0	159.0	0	15000	Osprey	osprey	0.8556	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-14\U05_20260714_231500.wav	156.0
+6	Spectrogram 1	1	174.0	177.0	0	15000	Osprey	osprey	0.9153	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-14\U05_20260714_231500.wav	174.0
+7	Spectrogram 1	1	180.0	183.0	0	15000	Cedar Waxwing	cedwax	0.2538	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-14\U05_20260714_231500.wav	180.0
+8	Spectrogram 1	1	192.0	195.0	0	15000	Osprey	osprey	0.5242	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-14\U05_20260714_231500.wav	192.0
+9	Spectrogram 1	1	240.0	243.0	0	15000	Osprey	osprey	0.6995	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-14\U05_20260714_231500.wav	240.0
+10	Spectrogram 1	1	306.0	309.0	0	15000	Cedar Waxwing	cedwax	0.3449	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-14\U05_20260714_231500.wav	306.0
+11	Spectrogram 1	1	660.0	663.0	0	15000	Cedar Waxwing	cedwax	0.4936	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-14\U05_20260714_231500.wav	660.0
+12	Spectrogram 1	1	669.0	672.0	0	15000	Cedar Waxwing	cedwax	0.4194	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-14\U05_20260714_231500.wav	669.0
+13	Spectrogram 1	1	708.0	711.0	0	15000	Golden-crowned Kinglet	gockin	0.4373	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-14\U05_20260714_231500.wav	708.0
+14	Spectrogram 1	1	717.0	720.0	0	15000	Cedar Waxwing	cedwax	0.2500	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-14\U05_20260714_231500.wav	717.0

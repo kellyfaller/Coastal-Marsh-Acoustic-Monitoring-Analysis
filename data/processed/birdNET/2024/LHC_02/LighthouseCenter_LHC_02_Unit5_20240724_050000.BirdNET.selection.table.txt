@@ -1,0 +1,38 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	9.0	12.0	0	15000	Common Virtuoso Katydid	t-11851326	0.3175	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	9.0
+2	Spectrogram 1	1	21.0	24.0	0	15000	Great Horned Owl	grhowl	0.7896	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	21.0
+3	Spectrogram 1	1	33.0	36.0	0	15000	Great Horned Owl	grhowl	0.6658	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	33.0
+4	Spectrogram 1	1	60.0	63.0	0	15000	Great Horned Owl	grhowl	0.9218	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	60.0
+5	Spectrogram 1	1	87.0	90.0	0	15000	Great Horned Owl	grhowl	0.4808	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	87.0
+6	Spectrogram 1	1	135.0	138.0	0	15000	Great Horned Owl	grhowl	0.5117	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	135.0
+7	Spectrogram 1	1	180.0	183.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.3606	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	180.0
+8	Spectrogram 1	1	198.0	201.0	0	15000	Great Horned Owl	grhowl	0.5253	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	198.0
+9	Spectrogram 1	1	261.0	264.0	0	15000	Golden-crowned Kinglet	gockin	0.2598	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	261.0
+10	Spectrogram 1	1	378.0	381.0	0	15000	Northern Cardinal	norcar	0.6420	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	378.0
+11	Spectrogram 1	1	381.0	384.0	0	15000	Northern Cardinal	norcar	0.3642	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	381.0
+12	Spectrogram 1	1	390.0	393.0	0	15000	Northern Cardinal	norcar	0.6103	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	390.0
+13	Spectrogram 1	1	426.0	429.0	0	15000	Northern Cardinal	norcar	0.4459	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	426.0
+14	Spectrogram 1	1	426.0	429.0	0	15000	Common Virtuoso Katydid	t-11851326	0.2662	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	426.0
+15	Spectrogram 1	1	444.0	447.0	0	15000	Common Virtuoso Katydid	t-11851326	0.3014	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	444.0
+16	Spectrogram 1	1	447.0	450.0	0	15000	Common Virtuoso Katydid	t-11851326	0.7466	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	447.0
+17	Spectrogram 1	1	471.0	474.0	0	15000	Northern Cardinal	norcar	0.3160	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	471.0
+18	Spectrogram 1	1	474.0	477.0	0	15000	Northern Cardinal	norcar	0.3209	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	474.0
+19	Spectrogram 1	1	558.0	561.0	0	15000	Great Horned Owl	grhowl	0.8218	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	558.0
+20	Spectrogram 1	1	564.0	567.0	0	15000	Mallard	mallar3	0.3363	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	564.0
+21	Spectrogram 1	1	618.0	621.0	0	15000	Great Horned Owl	grhowl	0.4222	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	618.0
+22	Spectrogram 1	1	633.0	636.0	0	15000	Northern Cardinal	norcar	0.5306	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	633.0
+23	Spectrogram 1	1	642.0	645.0	0	15000	Northern Cardinal	norcar	0.2559	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	642.0
+24	Spectrogram 1	1	648.0	651.0	0	15000	Northern Cardinal	norcar	0.5763	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	648.0
+25	Spectrogram 1	1	657.0	660.0	0	15000	Northern Cardinal	norcar	0.2805	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	657.0
+26	Spectrogram 1	1	684.0	687.0	0	15000	Northern Cardinal	norcar	0.3930	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	684.0
+27	Spectrogram 1	1	699.0	702.0	0	15000	Great Horned Owl	grhowl	0.5277	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	699.0
+28	Spectrogram 1	1	702.0	705.0	0	15000	Common Yellowthroat	comyel	0.3193	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	702.0
+29	Spectrogram 1	1	711.0	714.0	0	15000	Common Yellowthroat	comyel	0.4134	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	711.0
+30	Spectrogram 1	1	732.0	735.0	0	15000	Common Yellowthroat	comyel	0.3016	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	732.0
+31	Spectrogram 1	1	759.0	762.0	0	15000	Common Yellowthroat	comyel	0.2987	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	759.0
+32	Spectrogram 1	1	771.0	774.0	0	15000	Common Yellowthroat	comyel	0.3828	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	771.0
+33	Spectrogram 1	1	831.0	834.0	0	15000	Common Yellowthroat	comyel	0.3977	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	831.0
+34	Spectrogram 1	1	846.0	849.0	0	15000	Common Yellowthroat	comyel	0.2670	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	846.0
+35	Spectrogram 1	1	861.0	864.0	0	15000	Common Yellowthroat	comyel	0.2842	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	861.0
+36	Spectrogram 1	1	873.0	876.0	0	15000	Common Yellowthroat	comyel	0.4291	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	873.0
+37	Spectrogram 1	1	885.0	888.0	0	15000	Common Yellowthroat	comyel	0.3877	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240724_050000.wav	885.0

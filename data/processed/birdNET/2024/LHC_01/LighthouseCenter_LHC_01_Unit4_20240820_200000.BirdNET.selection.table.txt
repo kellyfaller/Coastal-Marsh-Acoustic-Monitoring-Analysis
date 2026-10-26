@@ -1,0 +1,13 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	0.0	3.0	0	15000	Carolina Wren	carwre	0.2599	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_200000.wav	0.0
+2	Spectrogram 1	1	186.0	189.0	0	15000	Great Horned Owl	grhowl	0.5072	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_200000.wav	186.0
+3	Spectrogram 1	1	504.0	507.0	0	15000	Dog	dogdog	0.2927	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_200000.wav	504.0
+4	Spectrogram 1	1	513.0	516.0	0	15000	Dog	dogdog	0.3809	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_200000.wav	513.0
+5	Spectrogram 1	1	681.0	684.0	0	15000	Canada Goose	cangoo	0.5322	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_200000.wav	681.0
+6	Spectrogram 1	1	714.0	717.0	0	15000	Osprey	osprey	0.4952	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_200000.wav	714.0
+7	Spectrogram 1	1	717.0	720.0	0	15000	Osprey	osprey	0.9910	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_200000.wav	717.0
+8	Spectrogram 1	1	720.0	723.0	0	15000	Osprey	osprey	0.9983	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_200000.wav	720.0
+9	Spectrogram 1	1	723.0	726.0	0	15000	Osprey	osprey	0.9928	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_200000.wav	723.0
+10	Spectrogram 1	1	726.0	729.0	0	15000	Osprey	osprey	0.9042	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_200000.wav	726.0
+11	Spectrogram 1	1	729.0	732.0	0	15000	Osprey	osprey	0.9000	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_200000.wav	729.0
+12	Spectrogram 1	1	894.0	897.0	0	15000	Mallard	mallar3	0.3900	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_200000.wav	894.0

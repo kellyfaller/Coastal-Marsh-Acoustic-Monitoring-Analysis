@@ -1,0 +1,6 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	246.0	249.0	0	15000	Black-crowned Night-Heron	bcnher	0.8528	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240722_030000.wav	246.0
+2	Spectrogram 1	1	249.0	252.0	0	15000	Black-crowned Night-Heron	bcnher	0.7734	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240722_030000.wav	249.0
+3	Spectrogram 1	1	510.0	513.0	0	15000	Red-breasted Nuthatch	rebnut	0.5886	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240722_030000.wav	510.0
+4	Spectrogram 1	1	510.0	513.0	0	15000	Golden-crowned Kinglet	gockin	0.2947	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240722_030000.wav	510.0
+5	Spectrogram 1	1	663.0	666.0	0	15000	Black-crowned Night-Heron	bcnher	0.8969	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240722_030000.wav	663.0

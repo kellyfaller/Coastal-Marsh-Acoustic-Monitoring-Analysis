@@ -1,0 +1,6 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	36.0	39.0	0	15000	Seaside Sparrow	seaspa	0.9798	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-10\Unit4_20260710_100000.wav	36.0
+2	Spectrogram 1	1	258.0	261.0	0	15000	Herring Gull	hergul	0.4562	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-10\Unit4_20260710_100000.wav	258.0
+3	Spectrogram 1	1	540.0	543.0	0	15000	Horned Lark	horlar	0.3988	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-10\Unit4_20260710_100000.wav	540.0
+4	Spectrogram 1	1	546.0	549.0	0	15000	Horned Lark	horlar	0.4525	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-10\Unit4_20260710_100000.wav	546.0
+5	Spectrogram 1	1	717.0	720.0	0	15000	Greater Yellowlegs	greyel	0.2597	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-10\Unit4_20260710_100000.wav	717.0

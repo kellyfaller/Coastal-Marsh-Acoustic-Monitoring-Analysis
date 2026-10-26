@@ -1,0 +1,33 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	9.0	12.0	0	15000	Eastern Kingbird	easkin	0.8685	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	9.0
+2	Spectrogram 1	1	87.0	90.0	0	15000	Tinkling Ground Cricket	t-11843287	0.2791	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	87.0
+3	Spectrogram 1	1	96.0	99.0	0	15000	Tinkling Ground Cricket	t-11843287	0.4194	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	96.0
+4	Spectrogram 1	1	108.0	111.0	0	15000	Tinkling Ground Cricket	t-11843287	0.2717	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	108.0
+5	Spectrogram 1	1	123.0	126.0	0	15000	Tinkling Ground Cricket	t-11843287	0.5400	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	123.0
+6	Spectrogram 1	1	138.0	141.0	0	15000	Tinkling Ground Cricket	t-11843287	0.4419	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	138.0
+7	Spectrogram 1	1	318.0	321.0	0	15000	Ruby-throated Hummingbird	rthhum	0.3174	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	318.0
+8	Spectrogram 1	1	321.0	324.0	0	15000	Purple Martin	purmar	0.5638	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	321.0
+9	Spectrogram 1	1	396.0	399.0	0	15000	Tinkling Ground Cricket	t-11843287	0.5695	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	396.0
+10	Spectrogram 1	1	399.0	402.0	0	15000	Tinkling Ground Cricket	t-11843287	0.4354	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	399.0
+11	Spectrogram 1	1	402.0	405.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3402	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	402.0
+12	Spectrogram 1	1	405.0	408.0	0	15000	Tinkling Ground Cricket	t-11843287	0.5251	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	405.0
+13	Spectrogram 1	1	408.0	411.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3725	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	408.0
+14	Spectrogram 1	1	411.0	414.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3407	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	411.0
+15	Spectrogram 1	1	414.0	417.0	0	15000	Tinkling Ground Cricket	t-11843287	0.5014	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	414.0
+16	Spectrogram 1	1	423.0	426.0	0	15000	American Goldfinch	amegfi	0.7219	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	423.0
+17	Spectrogram 1	1	426.0	429.0	0	15000	American Goldfinch	amegfi	0.5888	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	426.0
+18	Spectrogram 1	1	465.0	468.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3018	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	465.0
+19	Spectrogram 1	1	468.0	471.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3313	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	468.0
+20	Spectrogram 1	1	471.0	474.0	0	15000	Tinkling Ground Cricket	t-11843287	0.4271	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	471.0
+21	Spectrogram 1	1	474.0	477.0	0	15000	Tinkling Ground Cricket	t-11843287	0.8560	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	474.0
+22	Spectrogram 1	1	489.0	492.0	0	15000	Purple Martin	purmar	0.6647	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	489.0
+23	Spectrogram 1	1	492.0	495.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3857	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	492.0
+24	Spectrogram 1	1	501.0	504.0	0	15000	Purple Martin	purmar	0.6380	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	501.0
+25	Spectrogram 1	1	513.0	516.0	0	15000	Purple Martin	purmar	0.2634	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	513.0
+26	Spectrogram 1	1	516.0	519.0	0	15000	Purple Martin	purmar	0.4608	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	516.0
+27	Spectrogram 1	1	531.0	534.0	0	15000	Purple Martin	purmar	0.6304	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	531.0
+28	Spectrogram 1	1	537.0	540.0	0	15000	Purple Martin	purmar	0.7630	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	537.0
+29	Spectrogram 1	1	537.0	540.0	0	15000	Osprey	osprey	0.3858	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	537.0
+30	Spectrogram 1	1	543.0	546.0	0	15000	Tinkling Ground Cricket	t-11843287	0.5417	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	543.0
+31	Spectrogram 1	1	546.0	549.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3391	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	546.0
+32	Spectrogram 1	1	807.0	810.0	0	15000	Fish Crow	fiscro	0.5881	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240810_140000.wav	807.0

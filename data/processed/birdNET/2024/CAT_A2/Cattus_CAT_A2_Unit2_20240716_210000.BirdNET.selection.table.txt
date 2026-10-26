@@ -1,0 +1,8 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	414.0	417.0	0	15000	Engine	engine	0.6633	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240716_210000.wav	414.0
+2	Spectrogram 1	1	873.0	876.0	0	15000	Chuck-will's-widow	chwwid	0.9454	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240716_210000.wav	873.0
+3	Spectrogram 1	1	876.0	879.0	0	15000	Chuck-will's-widow	chwwid	0.7006	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240716_210000.wav	876.0
+4	Spectrogram 1	1	882.0	885.0	0	15000	Chuck-will's-widow	chwwid	0.3958	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240716_210000.wav	882.0
+5	Spectrogram 1	1	885.0	888.0	0	15000	Chuck-will's-widow	chwwid	0.8053	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240716_210000.wav	885.0
+6	Spectrogram 1	1	894.0	897.0	0	15000	Chuck-will's-widow	chwwid	0.9412	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240716_210000.wav	894.0
+7	Spectrogram 1	1	897.0	900.0	0	15000	Chuck-will's-widow	chwwid	0.9714	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240716_210000.wav	897.0

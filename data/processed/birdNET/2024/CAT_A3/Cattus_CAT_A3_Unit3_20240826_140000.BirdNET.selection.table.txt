@@ -1,0 +1,7 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	123.0	126.0	0	15000	Ruby-throated Hummingbird	rthhum	0.2797	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_140000.wav	123.0
+2	Spectrogram 1	1	348.0	351.0	0	15000	Ring-necked Pheasant	rinphe1	0.6339	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_140000.wav	348.0
+3	Spectrogram 1	1	498.0	501.0	0	15000	Black-crowned Night-Heron	bcnher	0.2736	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_140000.wav	498.0
+4	Spectrogram 1	1	693.0	696.0	0	15000	Black Rail	blkrai	0.5257	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_140000.wav	693.0
+5	Spectrogram 1	1	750.0	753.0	0	15000	Eastern Screech-Owl	easowl1	0.2912	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_140000.wav	750.0
+6	Spectrogram 1	1	789.0	792.0	0	15000	Yellow-billed Cuckoo	yebcuc	0.2639	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_140000.wav	789.0

@@ -1,0 +1,4 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	282.0	285.0	0	15000	Pileated Woodpecker	pilwoo	0.3500	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-11\Unit4_20260811_210000.wav	282.0
+2	Spectrogram 1	1	288.0	291.0	0	15000	Pileated Woodpecker	pilwoo	0.3756	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-11\Unit4_20260811_210000.wav	288.0
+3	Spectrogram 1	1	408.0	411.0	0	15000	Fireworks	frwrks	0.3945	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-11\Unit4_20260811_210000.wav	408.0

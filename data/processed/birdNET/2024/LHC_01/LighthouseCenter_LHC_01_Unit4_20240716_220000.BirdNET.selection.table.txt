@@ -1,0 +1,9 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	39.0	42.0	0	15000	Golden-crowned Kinglet	gockin	0.4324	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240716_220000.wav	39.0
+2	Spectrogram 1	1	51.0	54.0	0	15000	Tufted Titmouse	tuftit	0.2971	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240716_220000.wav	51.0
+3	Spectrogram 1	1	78.0	81.0	0	15000	Tufted Titmouse	tuftit	0.2650	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240716_220000.wav	78.0
+4	Spectrogram 1	1	123.0	126.0	0	15000	Golden-crowned Kinglet	gockin	0.3432	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240716_220000.wav	123.0
+5	Spectrogram 1	1	162.0	165.0	0	15000	Tufted Titmouse	tuftit	0.2791	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240716_220000.wav	162.0
+6	Spectrogram 1	1	339.0	342.0	0	15000	Black-crowned Night-Heron	bcnher	0.8946	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240716_220000.wav	339.0
+7	Spectrogram 1	1	456.0	459.0	0	15000	Dog	dogdog	0.3131	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240716_220000.wav	456.0
+8	Spectrogram 1	1	492.0	495.0	0	15000	Dog	dogdog	0.4761	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240716_220000.wav	492.0

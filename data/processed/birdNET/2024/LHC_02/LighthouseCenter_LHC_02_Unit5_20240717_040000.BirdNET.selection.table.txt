@@ -1,0 +1,8 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	12.0	15.0	0	15000	Golden-crowned Kinglet	gockin	0.3212	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240717_040000.wav	12.0
+2	Spectrogram 1	1	21.0	24.0	0	15000	Golden-crowned Kinglet	gockin	0.6972	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240717_040000.wav	21.0
+3	Spectrogram 1	1	45.0	48.0	0	15000	Golden-crowned Kinglet	gockin	0.2708	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240717_040000.wav	45.0
+4	Spectrogram 1	1	108.0	111.0	0	15000	Golden-crowned Kinglet	gockin	0.3591	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240717_040000.wav	108.0
+5	Spectrogram 1	1	180.0	183.0	0	15000	Golden-crowned Kinglet	gockin	0.3530	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240717_040000.wav	180.0
+6	Spectrogram 1	1	522.0	525.0	0	15000	Golden-crowned Kinglet	gockin	0.4200	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240717_040000.wav	522.0
+7	Spectrogram 1	1	720.0	723.0	0	15000	Fish Crow	fiscro	0.4835	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240717_040000.wav	720.0

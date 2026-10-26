@@ -1,0 +1,6 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	69.0	72.0	0	15000	Great Horned Owl	grhowl	0.2706	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240720_040000.wav	69.0
+2	Spectrogram 1	1	159.0	162.0	0	15000	Great Horned Owl	grhowl	0.8537	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240720_040000.wav	159.0
+3	Spectrogram 1	1	735.0	738.0	0	15000	Golden-crowned Kinglet	gockin	0.5966	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240720_040000.wav	735.0
+4	Spectrogram 1	1	834.0	837.0	0	15000	Golden-crowned Kinglet	gockin	0.3882	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240720_040000.wav	834.0
+5	Spectrogram 1	1	846.0	849.0	0	15000	Northern Waterthrush	norwat	0.2562	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240720_040000.wav	846.0

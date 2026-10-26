@@ -1,0 +1,11 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	186.0	189.0	0	15000	Human vocal	humvoc	0.2822	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240827_200000.wav	186.0
+2	Spectrogram 1	1	237.0	240.0	0	15000	Human vocal	humvoc	0.2563	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240827_200000.wav	237.0
+3	Spectrogram 1	1	420.0	423.0	0	15000	Mallard	mallar3	0.3012	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240827_200000.wav	420.0
+4	Spectrogram 1	1	468.0	471.0	0	15000	Mallard	mallar3	0.4277	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240827_200000.wav	468.0
+5	Spectrogram 1	1	480.0	483.0	0	15000	Mallard	mallar3	0.4913	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240827_200000.wav	480.0
+6	Spectrogram 1	1	540.0	543.0	0	15000	Mallard	mallar3	0.2886	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240827_200000.wav	540.0
+7	Spectrogram 1	1	573.0	576.0	0	15000	Mallard	mallar3	0.3747	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240827_200000.wav	573.0
+8	Spectrogram 1	1	639.0	642.0	0	15000	Jumping Bush Cricket	t-11850192	0.2938	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240827_200000.wav	639.0
+9	Spectrogram 1	1	822.0	825.0	0	15000	Black-crowned Night-Heron	bcnher	0.9344	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240827_200000.wav	822.0
+10	Spectrogram 1	1	825.0	828.0	0	15000	Black-crowned Night-Heron	bcnher	0.9608	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240827_200000.wav	825.0

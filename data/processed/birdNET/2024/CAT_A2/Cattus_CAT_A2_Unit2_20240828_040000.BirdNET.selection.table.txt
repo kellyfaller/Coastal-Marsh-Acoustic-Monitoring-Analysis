@@ -1,0 +1,7 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	609.0	612.0	0	15000	Wild Turkey	wiltur	0.3214	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_040000.wav	609.0
+2	Spectrogram 1	1	732.0	735.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.4515	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_040000.wav	732.0
+3	Spectrogram 1	1	738.0	741.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2629	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_040000.wav	738.0
+4	Spectrogram 1	1	825.0	828.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.4200	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_040000.wav	825.0
+5	Spectrogram 1	1	843.0	846.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.5891	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_040000.wav	843.0
+6	Spectrogram 1	1	846.0	849.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.3368	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240828_040000.wav	846.0

@@ -1,0 +1,16 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	36.0	39.0	0	15000	Jumping Bush Cricket	t-11850192	0.3878	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240813_030000.wav	36.0
+2	Spectrogram 1	1	39.0	42.0	0	15000	Jumping Bush Cricket	t-11850192	0.3790	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240813_030000.wav	39.0
+3	Spectrogram 1	1	60.0	63.0	0	15000	Jumping Bush Cricket	t-11850192	0.3317	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240813_030000.wav	60.0
+4	Spectrogram 1	1	78.0	81.0	0	15000	Jumping Bush Cricket	t-11850192	0.3294	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240813_030000.wav	78.0
+5	Spectrogram 1	1	84.0	87.0	0	15000	Jumping Bush Cricket	t-11850192	0.3031	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240813_030000.wav	84.0
+6	Spectrogram 1	1	105.0	108.0	0	15000	Jumping Bush Cricket	t-11850192	0.2783	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240813_030000.wav	105.0
+7	Spectrogram 1	1	195.0	198.0	0	15000	Jumping Bush Cricket	t-11850192	0.3525	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240813_030000.wav	195.0
+8	Spectrogram 1	1	213.0	216.0	0	15000	Jumping Bush Cricket	t-11850192	0.4228	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240813_030000.wav	213.0
+9	Spectrogram 1	1	270.0	273.0	0	15000	Jumping Bush Cricket	t-11850192	0.3284	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240813_030000.wav	270.0
+10	Spectrogram 1	1	276.0	279.0	0	15000	Jumping Bush Cricket	t-11850192	0.9740	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240813_030000.wav	276.0
+11	Spectrogram 1	1	279.0	282.0	0	15000	Jumping Bush Cricket	t-11850192	0.6599	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240813_030000.wav	279.0
+12	Spectrogram 1	1	414.0	417.0	0	15000	Killdeer	killde	0.3315	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240813_030000.wav	414.0
+13	Spectrogram 1	1	786.0	789.0	0	15000	Black-crowned Night-Heron	bcnher	0.4876	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240813_030000.wav	786.0
+14	Spectrogram 1	1	792.0	795.0	0	15000	Black-crowned Night-Heron	bcnher	0.4301	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240813_030000.wav	792.0
+15	Spectrogram 1	1	894.0	897.0	0	15000	Golden-crowned Kinglet	gockin	0.2604	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240813_030000.wav	894.0

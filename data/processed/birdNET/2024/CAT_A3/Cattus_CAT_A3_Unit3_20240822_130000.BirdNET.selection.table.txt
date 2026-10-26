@@ -1,0 +1,13 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	48.0	51.0	0	15000	Osprey	osprey	0.6266	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240822_130000.wav	48.0
+2	Spectrogram 1	1	129.0	132.0	0	15000	American Crow	amecro	0.2981	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240822_130000.wav	129.0
+3	Spectrogram 1	1	474.0	477.0	0	15000	Tundra Swan	tunswa	0.4012	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240822_130000.wav	474.0
+4	Spectrogram 1	1	525.0	528.0	0	15000	Fish Crow	fiscro	0.6467	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240822_130000.wav	525.0
+5	Spectrogram 1	1	675.0	678.0	0	15000	Red-throated Loon	retloo	0.3061	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240822_130000.wav	675.0
+6	Spectrogram 1	1	687.0	690.0	0	15000	Red-shouldered Hawk	reshaw	0.3005	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240822_130000.wav	687.0
+7	Spectrogram 1	1	708.0	711.0	0	15000	Golden-crowned Kinglet	gockin	0.3285	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240822_130000.wav	708.0
+8	Spectrogram 1	1	732.0	735.0	0	15000	Golden-crowned Kinglet	gockin	0.4039	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240822_130000.wav	732.0
+9	Spectrogram 1	1	747.0	750.0	0	15000	Golden-crowned Kinglet	gockin	0.2513	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240822_130000.wav	747.0
+10	Spectrogram 1	1	786.0	789.0	0	15000	Fish Crow	fiscro	0.5079	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240822_130000.wav	786.0
+11	Spectrogram 1	1	786.0	789.0	0	15000	Black-crowned Night-Heron	bcnher	0.3305	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240822_130000.wav	786.0
+12	Spectrogram 1	1	885.0	888.0	0	15000	American Bullfrog	t-11113588	0.3495	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240822_130000.wav	885.0

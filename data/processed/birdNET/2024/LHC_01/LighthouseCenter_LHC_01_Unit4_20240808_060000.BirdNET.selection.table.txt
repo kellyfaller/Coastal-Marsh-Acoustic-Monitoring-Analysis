@@ -1,0 +1,14 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	12.0	15.0	0	15000	Laughing Gull	laugul	0.4008	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240808_060000.wav	12.0
+2	Spectrogram 1	1	15.0	18.0	0	15000	Laughing Gull	laugul	0.5319	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240808_060000.wav	15.0
+3	Spectrogram 1	1	27.0	30.0	0	15000	Laughing Gull	laugul	0.4453	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240808_060000.wav	27.0
+4	Spectrogram 1	1	30.0	33.0	0	15000	Laughing Gull	laugul	0.7390	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240808_060000.wav	30.0
+5	Spectrogram 1	1	162.0	165.0	0	15000	Royal Tern	royter1	0.4243	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240808_060000.wav	162.0
+6	Spectrogram 1	1	222.0	225.0	0	15000	Red-breasted Nuthatch	rebnut	0.2809	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240808_060000.wav	222.0
+7	Spectrogram 1	1	300.0	303.0	0	15000	Black-bellied Plover	bkbplo	0.2883	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240808_060000.wav	300.0
+8	Spectrogram 1	1	438.0	441.0	0	15000	Black-bellied Plover	bkbplo	0.4147	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240808_060000.wav	438.0
+9	Spectrogram 1	1	615.0	618.0	0	15000	Cooper's Hawk	coohaw	0.6257	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240808_060000.wav	615.0
+10	Spectrogram 1	1	618.0	621.0	0	15000	Royal Tern	royter1	0.2891	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240808_060000.wav	618.0
+11	Spectrogram 1	1	630.0	633.0	0	15000	Ring-billed Gull	ribgul	0.4743	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240808_060000.wav	630.0
+12	Spectrogram 1	1	630.0	633.0	0	15000	Laughing Gull	laugul	0.3477	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240808_060000.wav	630.0
+13	Spectrogram 1	1	639.0	642.0	0	15000	Laughing Gull	laugul	0.2859	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240808_060000.wav	639.0

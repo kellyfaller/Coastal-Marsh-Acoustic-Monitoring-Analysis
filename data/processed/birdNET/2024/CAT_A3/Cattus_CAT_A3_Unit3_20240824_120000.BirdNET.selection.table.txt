@@ -1,0 +1,14 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	276.0	279.0	0	15000	Herring Gull	hergul	0.6039	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240824_120000.wav	276.0
+2	Spectrogram 1	1	279.0	282.0	0	15000	Herring Gull	hergul	0.3635	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240824_120000.wav	279.0
+3	Spectrogram 1	1	291.0	294.0	0	15000	Eastern Screech-Owl	easowl1	0.3767	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240824_120000.wav	291.0
+4	Spectrogram 1	1	294.0	297.0	0	15000	Herring Gull	hergul	0.5759	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240824_120000.wav	294.0
+5	Spectrogram 1	1	297.0	300.0	0	15000	Herring Gull	hergul	0.5723	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240824_120000.wav	297.0
+6	Spectrogram 1	1	306.0	309.0	0	15000	Herring Gull	hergul	0.3569	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240824_120000.wav	306.0
+7	Spectrogram 1	1	309.0	312.0	0	15000	Herring Gull	hergul	0.2685	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240824_120000.wav	309.0
+8	Spectrogram 1	1	324.0	327.0	0	15000	Herring Gull	hergul	0.3676	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240824_120000.wav	324.0
+9	Spectrogram 1	1	327.0	330.0	0	15000	Herring Gull	hergul	0.4127	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240824_120000.wav	327.0
+10	Spectrogram 1	1	489.0	492.0	0	15000	Golden-crowned Kinglet	gockin	0.3040	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240824_120000.wav	489.0
+11	Spectrogram 1	1	540.0	543.0	0	15000	Golden-crowned Kinglet	gockin	0.2971	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240824_120000.wav	540.0
+12	Spectrogram 1	1	579.0	582.0	0	15000	Golden-crowned Kinglet	gockin	0.4177	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240824_120000.wav	579.0
+13	Spectrogram 1	1	597.0	600.0	0	15000	American Goldfinch	amegfi	0.8662	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240824_120000.wav	597.0

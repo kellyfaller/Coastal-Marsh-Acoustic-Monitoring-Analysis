@@ -1,0 +1,4 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	591.0	594.0	0	15000	Mallard	mallar3	0.4092	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-08\Unit4_20260708_030000.wav	591.0
+2	Spectrogram 1	1	750.0	753.0	0	15000	White-breasted Nuthatch	whbnut	0.7629	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-08\Unit4_20260708_030000.wav	750.0
+3	Spectrogram 1	1	819.0	822.0	0	15000	Mallard	mallar3	0.4547	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-08\Unit4_20260708_030000.wav	819.0

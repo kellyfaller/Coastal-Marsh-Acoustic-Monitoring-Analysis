@@ -1,0 +1,10 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	51.0	54.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.3765	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240727_010000.wav	51.0
+2	Spectrogram 1	1	90.0	93.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2898	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240727_010000.wav	90.0
+3	Spectrogram 1	1	165.0	168.0	0	15000	Engine	engine	0.2915	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240727_010000.wav	165.0
+4	Spectrogram 1	1	417.0	420.0	0	15000	Marsh Wren	marwre	0.3100	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240727_010000.wav	417.0
+5	Spectrogram 1	1	453.0	456.0	0	15000	Marsh Wren	marwre	0.5513	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240727_010000.wav	453.0
+6	Spectrogram 1	1	465.0	468.0	0	15000	House Wren	houwre	0.3497	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240727_010000.wav	465.0
+7	Spectrogram 1	1	468.0	471.0	0	15000	House Wren	houwre	0.2879	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240727_010000.wav	468.0
+8	Spectrogram 1	1	699.0	702.0	0	15000	Eastern Screech-Owl	easowl1	0.2601	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240727_010000.wav	699.0
+9	Spectrogram 1	1	705.0	708.0	0	15000	Eastern Screech-Owl	easowl1	0.4147	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240727_010000.wav	705.0

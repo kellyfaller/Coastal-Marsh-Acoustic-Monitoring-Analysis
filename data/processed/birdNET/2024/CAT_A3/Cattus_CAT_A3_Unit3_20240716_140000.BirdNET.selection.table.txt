@@ -1,0 +1,18 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	39.0	42.0	0	15000	Song Sparrow	sonspa	0.5812	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240716_140000.wav	39.0
+2	Spectrogram 1	1	249.0	252.0	0	15000	Song Sparrow	sonspa	0.5611	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240716_140000.wav	249.0
+3	Spectrogram 1	1	279.0	282.0	0	15000	Song Sparrow	sonspa	0.2982	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240716_140000.wav	279.0
+4	Spectrogram 1	1	297.0	300.0	0	15000	Song Sparrow	sonspa	0.3013	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240716_140000.wav	297.0
+5	Spectrogram 1	1	306.0	309.0	0	15000	Song Sparrow	sonspa	0.5851	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240716_140000.wav	306.0
+6	Spectrogram 1	1	315.0	318.0	0	15000	Song Sparrow	sonspa	0.4092	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240716_140000.wav	315.0
+7	Spectrogram 1	1	333.0	336.0	0	15000	Song Sparrow	sonspa	0.4002	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240716_140000.wav	333.0
+8	Spectrogram 1	1	351.0	354.0	0	15000	Song Sparrow	sonspa	0.4015	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240716_140000.wav	351.0
+9	Spectrogram 1	1	360.0	363.0	0	15000	Song Sparrow	sonspa	0.2994	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240716_140000.wav	360.0
+10	Spectrogram 1	1	369.0	372.0	0	15000	Song Sparrow	sonspa	0.5099	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240716_140000.wav	369.0
+11	Spectrogram 1	1	378.0	381.0	0	15000	Song Sparrow	sonspa	0.5257	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240716_140000.wav	378.0
+12	Spectrogram 1	1	399.0	402.0	0	15000	Song Sparrow	sonspa	0.6455	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240716_140000.wav	399.0
+13	Spectrogram 1	1	408.0	411.0	0	15000	Song Sparrow	sonspa	0.3792	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240716_140000.wav	408.0
+14	Spectrogram 1	1	459.0	462.0	0	15000	Song Sparrow	sonspa	0.3360	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240716_140000.wav	459.0
+15	Spectrogram 1	1	573.0	576.0	0	15000	Song Sparrow	sonspa	0.2998	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240716_140000.wav	573.0
+16	Spectrogram 1	1	612.0	615.0	0	15000	Song Sparrow	sonspa	0.2739	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240716_140000.wav	612.0
+17	Spectrogram 1	1	771.0	774.0	0	15000	Song Sparrow	sonspa	0.2734	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240716_140000.wav	771.0

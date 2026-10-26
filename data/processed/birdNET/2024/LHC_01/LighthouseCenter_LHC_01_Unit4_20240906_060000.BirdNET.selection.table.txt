@@ -1,0 +1,13 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	12.0	15.0	0	15000	Stripe-faced Meadow Katydid	t-11875824	0.2845	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240906_060000.wav	12.0
+2	Spectrogram 1	1	15.0	18.0	0	15000	Stripe-faced Meadow Katydid	t-11875824	0.4270	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240906_060000.wav	15.0
+3	Spectrogram 1	1	18.0	21.0	0	15000	Stripe-faced Meadow Katydid	t-11875824	0.2957	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240906_060000.wav	18.0
+4	Spectrogram 1	1	21.0	24.0	0	15000	Stripe-faced Meadow Katydid	t-11875824	0.3663	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240906_060000.wav	21.0
+5	Spectrogram 1	1	24.0	27.0	0	15000	Stripe-faced Meadow Katydid	t-11875824	0.4827	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240906_060000.wav	24.0
+6	Spectrogram 1	1	87.0	90.0	0	15000	Stripe-faced Meadow Katydid	t-11875824	0.2820	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240906_060000.wav	87.0
+7	Spectrogram 1	1	159.0	162.0	0	15000	Stripe-faced Meadow Katydid	t-11875824	0.3654	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240906_060000.wav	159.0
+8	Spectrogram 1	1	177.0	180.0	0	15000	Stripe-faced Meadow Katydid	t-11875824	0.3985	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240906_060000.wav	177.0
+9	Spectrogram 1	1	195.0	198.0	0	15000	Stripe-faced Meadow Katydid	t-11875824	0.2615	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240906_060000.wav	195.0
+10	Spectrogram 1	1	312.0	315.0	0	15000	Stripe-faced Meadow Katydid	t-11875824	0.2671	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240906_060000.wav	312.0
+11	Spectrogram 1	1	318.0	321.0	0	15000	Stripe-faced Meadow Katydid	t-11875824	0.3492	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240906_060000.wav	318.0
+12	Spectrogram 1	1	351.0	354.0	0	15000	Short-winged Meadow Katydid	t-11876252	0.2760	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240906_060000.wav	351.0

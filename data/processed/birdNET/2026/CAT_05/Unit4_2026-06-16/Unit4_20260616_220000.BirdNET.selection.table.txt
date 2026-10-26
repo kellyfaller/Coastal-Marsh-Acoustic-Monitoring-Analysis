@@ -1,0 +1,5 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	72.0	75.0	0	15000	Eastern Screech-Owl	easowl1	0.2660	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-16\Unit4_20260616_220000.wav	72.0
+2	Spectrogram 1	1	99.0	102.0	0	15000	Eastern Screech-Owl	easowl1	0.3441	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-16\Unit4_20260616_220000.wav	99.0
+3	Spectrogram 1	1	159.0	162.0	0	15000	Mallard	mallar3	0.2678	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-16\Unit4_20260616_220000.wav	159.0
+4	Spectrogram 1	1	855.0	858.0	0	15000	Engine	engine	0.6000	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-16\Unit4_20260616_220000.wav	855.0

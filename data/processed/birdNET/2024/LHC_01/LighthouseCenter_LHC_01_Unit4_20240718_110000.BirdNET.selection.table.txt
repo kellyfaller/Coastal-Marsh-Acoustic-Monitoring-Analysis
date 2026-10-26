@@ -1,0 +1,42 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	42.0	45.0	0	15000	Purple Martin	purmar	0.6152	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	42.0
+2	Spectrogram 1	1	45.0	48.0	0	15000	Purple Martin	purmar	0.6009	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	45.0
+3	Spectrogram 1	1	60.0	63.0	0	15000	Evening Grosbeak	evegro	0.3634	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	60.0
+4	Spectrogram 1	1	78.0	81.0	0	15000	Greater Yellowlegs	greyel	0.5966	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	78.0
+5	Spectrogram 1	1	93.0	96.0	0	15000	Purple Martin	purmar	0.5268	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	93.0
+6	Spectrogram 1	1	213.0	216.0	0	15000	American Goldfinch	amegfi	0.4956	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	213.0
+7	Spectrogram 1	1	309.0	312.0	0	15000	Purple Martin	purmar	0.2871	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	309.0
+8	Spectrogram 1	1	312.0	315.0	0	15000	Purple Martin	purmar	0.4497	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	312.0
+9	Spectrogram 1	1	393.0	396.0	0	15000	Purple Martin	purmar	0.2761	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	393.0
+10	Spectrogram 1	1	486.0	489.0	0	15000	Purple Martin	purmar	0.8365	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	486.0
+11	Spectrogram 1	1	489.0	492.0	0	15000	Purple Martin	purmar	0.3684	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	489.0
+12	Spectrogram 1	1	492.0	495.0	0	15000	Purple Martin	purmar	0.5790	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	492.0
+13	Spectrogram 1	1	495.0	498.0	0	15000	Purple Martin	purmar	0.6610	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	495.0
+14	Spectrogram 1	1	504.0	507.0	0	15000	Purple Martin	purmar	0.5034	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	504.0
+15	Spectrogram 1	1	513.0	516.0	0	15000	Purple Martin	purmar	0.7236	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	513.0
+16	Spectrogram 1	1	519.0	522.0	0	15000	Purple Martin	purmar	0.3437	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	519.0
+17	Spectrogram 1	1	534.0	537.0	0	15000	Purple Martin	purmar	0.4946	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	534.0
+18	Spectrogram 1	1	537.0	540.0	0	15000	Osprey	osprey	0.4062	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	537.0
+19	Spectrogram 1	1	537.0	540.0	0	15000	Purple Martin	purmar	0.3606	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	537.0
+20	Spectrogram 1	1	540.0	543.0	0	15000	Osprey	osprey	0.5996	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	540.0
+21	Spectrogram 1	1	543.0	546.0	0	15000	Osprey	osprey	0.8658	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	543.0
+22	Spectrogram 1	1	564.0	567.0	0	15000	Great Horned Owl	grhowl	0.5585	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	564.0
+23	Spectrogram 1	1	573.0	576.0	0	15000	Seaside Sparrow	seaspa	0.3844	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	573.0
+24	Spectrogram 1	1	579.0	582.0	0	15000	Osprey	osprey	0.9635	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	579.0
+25	Spectrogram 1	1	582.0	585.0	0	15000	Osprey	osprey	0.9461	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	582.0
+26	Spectrogram 1	1	603.0	606.0	0	15000	Purple Martin	purmar	0.5297	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	603.0
+27	Spectrogram 1	1	648.0	651.0	0	15000	Purple Martin	purmar	0.2978	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	648.0
+28	Spectrogram 1	1	678.0	681.0	0	15000	Red-winged Blackbird	rewbla	0.4786	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	678.0
+29	Spectrogram 1	1	735.0	738.0	0	15000	Purple Martin	purmar	0.6016	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	735.0
+30	Spectrogram 1	1	756.0	759.0	0	15000	Purple Martin	purmar	0.7951	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	756.0
+31	Spectrogram 1	1	762.0	765.0	0	15000	Great Horned Owl	grhowl	0.2924	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	762.0
+32	Spectrogram 1	1	768.0	771.0	0	15000	Purple Martin	purmar	0.5996	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	768.0
+33	Spectrogram 1	1	816.0	819.0	0	15000	Purple Martin	purmar	0.3021	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	816.0
+34	Spectrogram 1	1	825.0	828.0	0	15000	Purple Martin	purmar	0.6389	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	825.0
+35	Spectrogram 1	1	828.0	831.0	0	15000	Purple Martin	purmar	0.5223	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	828.0
+36	Spectrogram 1	1	831.0	834.0	0	15000	Purple Martin	purmar	0.9101	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	831.0
+37	Spectrogram 1	1	834.0	837.0	0	15000	Purple Martin	purmar	0.8960	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	834.0
+38	Spectrogram 1	1	861.0	864.0	0	15000	Purple Martin	purmar	0.3576	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	861.0
+39	Spectrogram 1	1	873.0	876.0	0	15000	Purple Martin	purmar	0.2655	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	873.0
+40	Spectrogram 1	1	876.0	879.0	0	15000	Purple Martin	purmar	0.3699	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	876.0
+41	Spectrogram 1	1	879.0	882.0	0	15000	Purple Martin	purmar	0.6654	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240718_110000.wav	879.0

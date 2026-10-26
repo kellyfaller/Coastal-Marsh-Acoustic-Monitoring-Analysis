@@ -1,0 +1,5 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	351.0	354.0	0	15000	Great Blue Heron	grbher3	0.3210	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_040000.wav	351.0
+2	Spectrogram 1	1	708.0	711.0	0	15000	Golden-crowned Kinglet	gockin	0.3738	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_040000.wav	708.0
+3	Spectrogram 1	1	888.0	891.0	0	15000	Engine	engine	0.4578	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_040000.wav	888.0
+4	Spectrogram 1	1	891.0	894.0	0	15000	Engine	engine	0.4437	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_040000.wav	891.0

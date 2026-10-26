@@ -1,0 +1,11 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	0.0	3.0	0	15000	Great Horned Owl	grhowl	0.2984	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_020000.wav	0.0
+2	Spectrogram 1	1	27.0	30.0	0	15000	Golden-crowned Kinglet	gockin	0.4038	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_020000.wav	27.0
+3	Spectrogram 1	1	39.0	42.0	0	15000	Golden-crowned Kinglet	gockin	0.2606	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_020000.wav	39.0
+4	Spectrogram 1	1	99.0	102.0	0	15000	Golden-crowned Kinglet	gockin	0.2836	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_020000.wav	99.0
+5	Spectrogram 1	1	105.0	108.0	0	15000	Golden-crowned Kinglet	gockin	0.5697	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_020000.wav	105.0
+6	Spectrogram 1	1	204.0	207.0	0	15000	Golden-crowned Kinglet	gockin	0.4294	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_020000.wav	204.0
+7	Spectrogram 1	1	228.0	231.0	0	15000	Golden-crowned Kinglet	gockin	0.4038	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_020000.wav	228.0
+8	Spectrogram 1	1	270.0	273.0	0	15000	Black-crowned Night-Heron	bcnher	0.9052	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_020000.wav	270.0
+9	Spectrogram 1	1	309.0	312.0	0	15000	Golden-crowned Kinglet	gockin	0.5679	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_020000.wav	309.0
+10	Spectrogram 1	1	573.0	576.0	0	15000	Golden-crowned Kinglet	gockin	0.3073	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_020000.wav	573.0

@@ -1,0 +1,61 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	0.0	3.0	0	15000	Osprey	osprey	0.4440	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	0.0
+2	Spectrogram 1	1	6.0	9.0	0	15000	Osprey	osprey	0.4852	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	6.0
+3	Spectrogram 1	1	24.0	27.0	0	15000	Osprey	osprey	0.8094	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	24.0
+4	Spectrogram 1	1	27.0	30.0	0	15000	Osprey	osprey	0.8686	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	27.0
+5	Spectrogram 1	1	60.0	63.0	0	15000	Osprey	osprey	0.9596	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	60.0
+6	Spectrogram 1	1	90.0	93.0	0	15000	Fish Crow	fiscro	0.6293	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	90.0
+7	Spectrogram 1	1	96.0	99.0	0	15000	Fish Crow	fiscro	0.4444	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	96.0
+8	Spectrogram 1	1	141.0	144.0	0	15000	Fish Crow	fiscro	0.5135	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	141.0
+9	Spectrogram 1	1	147.0	150.0	0	15000	Fish Crow	fiscro	0.9266	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	147.0
+10	Spectrogram 1	1	156.0	159.0	0	15000	Fish Crow	fiscro	0.4635	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	156.0
+11	Spectrogram 1	1	195.0	198.0	0	15000	Common Yellowthroat	comyel	0.4951	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	195.0
+12	Spectrogram 1	1	198.0	201.0	0	15000	Seaside Sparrow	seaspa	0.2888	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	198.0
+13	Spectrogram 1	1	204.0	207.0	0	15000	Seaside Sparrow	seaspa	0.3892	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	204.0
+14	Spectrogram 1	1	210.0	213.0	0	15000	Eastern Kingbird	easkin	0.3650	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	210.0
+15	Spectrogram 1	1	225.0	228.0	0	15000	Seaside Sparrow	seaspa	0.3166	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	225.0
+16	Spectrogram 1	1	294.0	297.0	0	15000	Clapper Rail	clarai11	0.8781	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	294.0
+17	Spectrogram 1	1	297.0	300.0	0	15000	Clapper Rail	clarai11	0.6807	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	297.0
+18	Spectrogram 1	1	297.0	300.0	0	15000	Cooper's Hawk	coohaw	0.4094	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	297.0
+19	Spectrogram 1	1	321.0	324.0	0	15000	Mallard	mallar3	0.4224	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	321.0
+20	Spectrogram 1	1	339.0	342.0	0	15000	Mallard	mallar3	0.3809	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	339.0
+21	Spectrogram 1	1	432.0	435.0	0	15000	Golden-crowned Kinglet	gockin	0.2792	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	432.0
+22	Spectrogram 1	1	462.0	465.0	0	15000	Great Egret	greegr	0.4055	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	462.0
+23	Spectrogram 1	1	465.0	468.0	0	15000	Great Egret	greegr	0.4986	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	465.0
+24	Spectrogram 1	1	483.0	486.0	0	15000	Seaside Sparrow	seaspa	0.8607	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	483.0
+25	Spectrogram 1	1	510.0	513.0	0	15000	Barn Swallow	barswa	0.4166	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	510.0
+26	Spectrogram 1	1	558.0	561.0	0	15000	Evening Grosbeak	evegro	0.2999	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	558.0
+27	Spectrogram 1	1	567.0	570.0	0	15000	Northern Flicker	norfli	0.6031	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	567.0
+28	Spectrogram 1	1	573.0	576.0	0	15000	Seaside Sparrow	seaspa	0.2586	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	573.0
+29	Spectrogram 1	1	576.0	579.0	0	15000	Seaside Sparrow	seaspa	0.7191	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	576.0
+30	Spectrogram 1	1	660.0	663.0	0	15000	Great Egret	greegr	0.6409	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	660.0
+31	Spectrogram 1	1	663.0	666.0	0	15000	Great Egret	greegr	0.9226	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	663.0
+32	Spectrogram 1	1	666.0	669.0	0	15000	Great Egret	greegr	0.8011	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	666.0
+33	Spectrogram 1	1	696.0	699.0	0	15000	Seaside Sparrow	seaspa	0.3960	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	696.0
+34	Spectrogram 1	1	699.0	702.0	0	15000	Carolina Wren	carwre	0.2836	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	699.0
+35	Spectrogram 1	1	768.0	771.0	0	15000	Seaside Sparrow	seaspa	0.9401	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	768.0
+36	Spectrogram 1	1	771.0	774.0	0	15000	Seaside Sparrow	seaspa	0.5952	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	771.0
+37	Spectrogram 1	1	780.0	783.0	0	15000	Great Egret	greegr	0.4614	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	780.0
+38	Spectrogram 1	1	783.0	786.0	0	15000	Great Egret	greegr	0.7249	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	783.0
+39	Spectrogram 1	1	786.0	789.0	0	15000	Great Egret	greegr	0.6913	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	786.0
+40	Spectrogram 1	1	789.0	792.0	0	15000	Great Egret	greegr	0.6944	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	789.0
+41	Spectrogram 1	1	792.0	795.0	0	15000	Great Egret	greegr	0.2568	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	792.0
+42	Spectrogram 1	1	795.0	798.0	0	15000	Great Egret	greegr	0.3407	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	795.0
+43	Spectrogram 1	1	798.0	801.0	0	15000	Great Egret	greegr	0.7869	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	798.0
+44	Spectrogram 1	1	801.0	804.0	0	15000	Seaside Sparrow	seaspa	0.7879	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	801.0
+45	Spectrogram 1	1	807.0	810.0	0	15000	Seaside Sparrow	seaspa	0.2880	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	807.0
+46	Spectrogram 1	1	813.0	816.0	0	15000	Common Yellowthroat	comyel	0.2928	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	813.0
+47	Spectrogram 1	1	816.0	819.0	0	15000	Northern Flicker	norfli	0.4194	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	816.0
+48	Spectrogram 1	1	825.0	828.0	0	15000	Seaside Sparrow	seaspa	0.8929	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	825.0
+49	Spectrogram 1	1	831.0	834.0	0	15000	Seaside Sparrow	seaspa	0.6828	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	831.0
+50	Spectrogram 1	1	834.0	837.0	0	15000	Northern Flicker	norfli	0.3230	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	834.0
+51	Spectrogram 1	1	843.0	846.0	0	15000	Fish Crow	fiscro	0.8817	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	843.0
+52	Spectrogram 1	1	852.0	855.0	0	15000	Seaside Sparrow	seaspa	0.3055	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	852.0
+53	Spectrogram 1	1	855.0	858.0	0	15000	Seaside Sparrow	seaspa	0.3260	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	855.0
+54	Spectrogram 1	1	855.0	858.0	0	15000	Northern Flicker	norfli	0.2801	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	855.0
+55	Spectrogram 1	1	861.0	864.0	0	15000	Seaside Sparrow	seaspa	0.9650	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	861.0
+56	Spectrogram 1	1	864.0	867.0	0	15000	Seaside Sparrow	seaspa	0.9053	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	864.0
+57	Spectrogram 1	1	870.0	873.0	0	15000	Seaside Sparrow	seaspa	0.5546	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	870.0
+58	Spectrogram 1	1	873.0	876.0	0	15000	Seaside Sparrow	seaspa	0.4997	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	873.0
+59	Spectrogram 1	1	879.0	882.0	0	15000	Seaside Sparrow	seaspa	0.8459	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	879.0
+60	Spectrogram 1	1	885.0	888.0	0	15000	Fish Crow	fiscro	0.6536	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240708_190000.wav	885.0

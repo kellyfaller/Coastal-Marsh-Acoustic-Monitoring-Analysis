@@ -1,0 +1,12 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	75.0	78.0	0	15000	Great Horned Owl	grhowl	0.2992	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-13\Unit4_20260813_230000.wav	75.0
+2	Spectrogram 1	1	369.0	372.0	0	15000	Great Horned Owl	grhowl	0.4617	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-13\Unit4_20260813_230000.wav	369.0
+3	Spectrogram 1	1	390.0	393.0	0	15000	Mallard	mallar3	0.4026	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-13\Unit4_20260813_230000.wav	390.0
+4	Spectrogram 1	1	393.0	396.0	0	15000	Great Blue Heron	grbher3	0.7721	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-13\Unit4_20260813_230000.wav	393.0
+5	Spectrogram 1	1	417.0	420.0	0	15000	Great Blue Heron	grbher3	0.6628	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-13\Unit4_20260813_230000.wav	417.0
+6	Spectrogram 1	1	420.0	423.0	0	15000	Great Blue Heron	grbher3	0.7547	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-13\Unit4_20260813_230000.wav	420.0
+7	Spectrogram 1	1	561.0	564.0	0	15000	Black-crowned Night-Heron	bcnher	0.4512	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-13\Unit4_20260813_230000.wav	561.0
+8	Spectrogram 1	1	561.0	564.0	0	15000	Great Horned Owl	grhowl	0.3238	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-13\Unit4_20260813_230000.wav	561.0
+9	Spectrogram 1	1	600.0	603.0	0	15000	Mallard	mallar3	0.3129	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-13\Unit4_20260813_230000.wav	600.0
+10	Spectrogram 1	1	681.0	684.0	0	15000	Golden-crowned Kinglet	gockin	0.3869	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-13\Unit4_20260813_230000.wav	681.0
+11	Spectrogram 1	1	891.0	894.0	0	15000	Black-crowned Night-Heron	bcnher	0.3265	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-13\Unit4_20260813_230000.wav	891.0

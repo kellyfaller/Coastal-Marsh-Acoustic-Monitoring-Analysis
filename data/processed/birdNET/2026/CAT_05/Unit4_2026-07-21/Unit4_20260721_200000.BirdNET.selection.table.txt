@@ -1,0 +1,6 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	114.0	117.0	0	15000	Fish Crow	fiscro	0.3430	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-21\Unit4_20260721_200000.wav	114.0
+2	Spectrogram 1	1	201.0	204.0	0	15000	Yellow Rail	yelrai	0.3748	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-21\Unit4_20260721_200000.wav	201.0
+3	Spectrogram 1	1	216.0	219.0	0	15000	Yellow Rail	yelrai	0.2905	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-21\Unit4_20260721_200000.wav	216.0
+4	Spectrogram 1	1	309.0	312.0	0	15000	Yellow Rail	yelrai	0.5850	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-21\Unit4_20260721_200000.wav	309.0
+5	Spectrogram 1	1	354.0	357.0	0	15000	Yellow Rail	yelrai	0.4211	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-21\Unit4_20260721_200000.wav	354.0

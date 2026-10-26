@@ -1,0 +1,31 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	6.0	9.0	0	15000	Mallard	mallar3	0.5891	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_210000.wav	6.0
+2	Spectrogram 1	1	15.0	18.0	0	15000	Caspian Tern	caster1	0.3025	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_210000.wav	15.0
+3	Spectrogram 1	1	27.0	30.0	0	15000	Mallard	mallar3	0.3470	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_210000.wav	27.0
+4	Spectrogram 1	1	30.0	33.0	0	15000	Caspian Tern	caster1	0.7443	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_210000.wav	30.0
+5	Spectrogram 1	1	30.0	33.0	0	15000	Mallard	mallar3	0.5490	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_210000.wav	30.0
+6	Spectrogram 1	1	36.0	39.0	0	15000	Mallard	mallar3	0.2938	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_210000.wav	36.0
+7	Spectrogram 1	1	39.0	42.0	0	15000	Mallard	mallar3	0.2553	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_210000.wav	39.0
+8	Spectrogram 1	1	42.0	45.0	0	15000	Mallard	mallar3	0.5443	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_210000.wav	42.0
+9	Spectrogram 1	1	75.0	78.0	0	15000	Mallard	mallar3	0.5252	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_210000.wav	75.0
+10	Spectrogram 1	1	78.0	81.0	0	15000	Black-headed Gull	bkhgul	0.3154	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_210000.wav	78.0
+11	Spectrogram 1	1	81.0	84.0	0	15000	Mallard	mallar3	0.3274	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_210000.wav	81.0
+12	Spectrogram 1	1	87.0	90.0	0	15000	Caspian Tern	caster1	0.5202	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_210000.wav	87.0
+13	Spectrogram 1	1	87.0	90.0	0	15000	Mallard	mallar3	0.5107	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_210000.wav	87.0
+14	Spectrogram 1	1	87.0	90.0	0	15000	Black-headed Gull	bkhgul	0.2987	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_210000.wav	87.0
+15	Spectrogram 1	1	93.0	96.0	0	15000	Mallard	mallar3	0.6448	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_210000.wav	93.0
+16	Spectrogram 1	1	93.0	96.0	0	15000	Caspian Tern	caster1	0.2531	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_210000.wav	93.0
+17	Spectrogram 1	1	108.0	111.0	0	15000	Mallard	mallar3	0.5763	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_210000.wav	108.0
+18	Spectrogram 1	1	114.0	117.0	0	15000	Mallard	mallar3	0.3615	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_210000.wav	114.0
+19	Spectrogram 1	1	117.0	120.0	0	15000	Black-headed Gull	bkhgul	0.5775	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_210000.wav	117.0
+20	Spectrogram 1	1	117.0	120.0	0	15000	Mallard	mallar3	0.2557	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_210000.wav	117.0
+21	Spectrogram 1	1	129.0	132.0	0	15000	Mallard	mallar3	0.5774	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_210000.wav	129.0
+22	Spectrogram 1	1	129.0	132.0	0	15000	Black-headed Gull	bkhgul	0.3118	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_210000.wav	129.0
+23	Spectrogram 1	1	135.0	138.0	0	15000	Mallard	mallar3	0.3287	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_210000.wav	135.0
+24	Spectrogram 1	1	192.0	195.0	0	15000	Mallard	mallar3	0.3366	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_210000.wav	192.0
+25	Spectrogram 1	1	216.0	219.0	0	15000	Cedar Waxwing	cedwax	0.3632	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_210000.wav	216.0
+26	Spectrogram 1	1	339.0	342.0	0	15000	Black-headed Gull	bkhgul	0.2754	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_210000.wav	339.0
+27	Spectrogram 1	1	609.0	612.0	0	15000	Yellow-billed Cuckoo	yebcuc	0.4498	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_210000.wav	609.0
+28	Spectrogram 1	1	627.0	630.0	0	15000	Killdeer	killde	0.3696	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_210000.wav	627.0
+29	Spectrogram 1	1	627.0	630.0	0	15000	Least Sandpiper	leasan	0.2768	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_210000.wav	627.0
+30	Spectrogram 1	1	783.0	786.0	0	15000	Chimney Swift	chiswi	0.3050	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_210000.wav	783.0

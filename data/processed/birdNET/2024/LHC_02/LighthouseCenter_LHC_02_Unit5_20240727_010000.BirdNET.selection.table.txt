@@ -1,0 +1,8 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	402.0	405.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2746	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240727_010000.wav	402.0
+2	Spectrogram 1	1	522.0	525.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.7397	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240727_010000.wav	522.0
+3	Spectrogram 1	1	525.0	528.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.7255	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240727_010000.wav	525.0
+4	Spectrogram 1	1	699.0	702.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.6042	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240727_010000.wav	699.0
+5	Spectrogram 1	1	714.0	717.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2748	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240727_010000.wav	714.0
+6	Spectrogram 1	1	741.0	744.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2635	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240727_010000.wav	741.0
+7	Spectrogram 1	1	855.0	858.0	0	15000	Great Horned Owl	grhowl	0.2517	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240727_010000.wav	855.0

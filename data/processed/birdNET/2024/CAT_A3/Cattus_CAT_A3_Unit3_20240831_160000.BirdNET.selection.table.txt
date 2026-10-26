@@ -1,0 +1,19 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	153.0	156.0	0	15000	Tundra Swan	tunswa	0.3169	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240831_160000.wav	153.0
+2	Spectrogram 1	1	177.0	180.0	0	15000	Trumpeter Swan	truswa	0.4683	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240831_160000.wav	177.0
+3	Spectrogram 1	1	270.0	273.0	0	15000	Lesser Black-backed Gull	lbbgul	0.4491	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240831_160000.wav	270.0
+4	Spectrogram 1	1	321.0	324.0	0	15000	Engine	engine	0.2508	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240831_160000.wav	321.0
+5	Spectrogram 1	1	411.0	414.0	0	15000	Trumpeter Swan	truswa	0.5687	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240831_160000.wav	411.0
+6	Spectrogram 1	1	438.0	441.0	0	15000	Cackling Goose	cacgoo1	0.3120	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240831_160000.wav	438.0
+7	Spectrogram 1	1	540.0	543.0	0	15000	Canada Goose	cangoo	0.2557	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240831_160000.wav	540.0
+8	Spectrogram 1	1	567.0	570.0	0	15000	Ring-billed Gull	ribgul	0.5297	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240831_160000.wav	567.0
+9	Spectrogram 1	1	582.0	585.0	0	15000	Long-tailed Duck	lotduc	0.3095	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240831_160000.wav	582.0
+10	Spectrogram 1	1	636.0	639.0	0	15000	White-breasted Nuthatch	whbnut	0.3929	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240831_160000.wav	636.0
+11	Spectrogram 1	1	738.0	741.0	0	15000	Mourning Dove	moudov	0.3307	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240831_160000.wav	738.0
+12	Spectrogram 1	1	750.0	753.0	0	15000	Long-tailed Duck	lotduc	0.4040	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240831_160000.wav	750.0
+13	Spectrogram 1	1	861.0	864.0	0	15000	Engine	engine	0.4753	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240831_160000.wav	861.0
+14	Spectrogram 1	1	867.0	870.0	0	15000	Engine	engine	0.3265	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240831_160000.wav	867.0
+15	Spectrogram 1	1	879.0	882.0	0	15000	Engine	engine	0.3566	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240831_160000.wav	879.0
+16	Spectrogram 1	1	885.0	888.0	0	15000	Engine	engine	0.2620	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240831_160000.wav	885.0
+17	Spectrogram 1	1	888.0	891.0	0	15000	Engine	engine	0.5139	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240831_160000.wav	888.0
+18	Spectrogram 1	1	894.0	897.0	0	15000	Engine	engine	0.4673	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240831_160000.wav	894.0

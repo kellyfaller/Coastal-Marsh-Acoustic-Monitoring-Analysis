@@ -1,0 +1,50 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	30.0	33.0	0	15000	Lesser Yellowlegs	lesyel	0.2709	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	30.0
+2	Spectrogram 1	1	123.0	126.0	0	15000	Gun	gungun	0.3357	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	123.0
+3	Spectrogram 1	1	144.0	147.0	0	15000	Laughing Gull	laugul	0.4070	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	144.0
+4	Spectrogram 1	1	177.0	180.0	0	15000	Fish Crow	fiscro	0.6565	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	177.0
+5	Spectrogram 1	1	222.0	225.0	0	15000	Laughing Gull	laugul	0.4489	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	222.0
+6	Spectrogram 1	1	225.0	228.0	0	15000	Laughing Gull	laugul	0.7055	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	225.0
+7	Spectrogram 1	1	234.0	237.0	0	15000	Semipalmated Plover	semplo	0.5750	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	234.0
+8	Spectrogram 1	1	237.0	240.0	0	15000	Semipalmated Plover	semplo	0.4259	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	237.0
+9	Spectrogram 1	1	240.0	243.0	0	15000	Long-billed Dowitcher	lobdow	0.3125	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	240.0
+10	Spectrogram 1	1	243.0	246.0	0	15000	Black Rail	blkrai	0.6260	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	243.0
+11	Spectrogram 1	1	246.0	249.0	0	15000	Semipalmated Plover	semplo	0.5202	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	246.0
+12	Spectrogram 1	1	261.0	264.0	0	15000	Tinkling Ground Cricket	t-11843287	0.4266	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	261.0
+13	Spectrogram 1	1	267.0	270.0	0	15000	Tinkling Ground Cricket	t-11843287	0.2632	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	267.0
+14	Spectrogram 1	1	273.0	276.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3140	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	273.0
+15	Spectrogram 1	1	303.0	306.0	0	15000	Tinkling Ground Cricket	t-11843287	0.2710	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	303.0
+16	Spectrogram 1	1	315.0	318.0	0	15000	Tinkling Ground Cricket	t-11843287	0.2601	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	315.0
+17	Spectrogram 1	1	333.0	336.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3821	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	333.0
+18	Spectrogram 1	1	339.0	342.0	0	15000	Tinkling Ground Cricket	t-11843287	0.2873	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	339.0
+19	Spectrogram 1	1	342.0	345.0	0	15000	Tinkling Ground Cricket	t-11843287	0.6359	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	342.0
+20	Spectrogram 1	1	399.0	402.0	0	15000	Tinkling Ground Cricket	t-11843287	0.5962	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	399.0
+21	Spectrogram 1	1	411.0	414.0	0	15000	Tinkling Ground Cricket	t-11843287	0.5147	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	411.0
+22	Spectrogram 1	1	414.0	417.0	0	15000	Tinkling Ground Cricket	t-11843287	0.5445	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	414.0
+23	Spectrogram 1	1	417.0	420.0	0	15000	Tinkling Ground Cricket	t-11843287	0.4151	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	417.0
+24	Spectrogram 1	1	429.0	432.0	0	15000	Tinkling Ground Cricket	t-11843287	0.5058	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	429.0
+25	Spectrogram 1	1	438.0	441.0	0	15000	Tinkling Ground Cricket	t-11843287	0.4933	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	438.0
+26	Spectrogram 1	1	441.0	444.0	0	15000	Tinkling Ground Cricket	t-11843287	0.2750	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	441.0
+27	Spectrogram 1	1	444.0	447.0	0	15000	Tinkling Ground Cricket	t-11843287	0.4998	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	444.0
+28	Spectrogram 1	1	447.0	450.0	0	15000	Tinkling Ground Cricket	t-11843287	0.5104	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	447.0
+29	Spectrogram 1	1	465.0	468.0	0	15000	Tinkling Ground Cricket	t-11843287	0.5892	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	465.0
+30	Spectrogram 1	1	468.0	471.0	0	15000	Tinkling Ground Cricket	t-11843287	0.4280	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	468.0
+31	Spectrogram 1	1	504.0	507.0	0	15000	Blue Jay	blujay	0.3722	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	504.0
+32	Spectrogram 1	1	576.0	579.0	0	15000	Fish Crow	fiscro	0.8772	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	576.0
+33	Spectrogram 1	1	579.0	582.0	0	15000	Blue Jay	blujay	0.3045	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	579.0
+34	Spectrogram 1	1	705.0	708.0	0	15000	Laughing Gull	laugul	0.4702	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	705.0
+35	Spectrogram 1	1	711.0	714.0	0	15000	Laughing Gull	laugul	0.5038	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	711.0
+36	Spectrogram 1	1	714.0	717.0	0	15000	Laughing Gull	laugul	0.3386	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	714.0
+37	Spectrogram 1	1	717.0	720.0	0	15000	Laughing Gull	laugul	0.6779	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	717.0
+38	Spectrogram 1	1	720.0	723.0	0	15000	Laughing Gull	laugul	0.6974	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	720.0
+39	Spectrogram 1	1	723.0	726.0	0	15000	Laughing Gull	laugul	0.2651	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	723.0
+40	Spectrogram 1	1	726.0	729.0	0	15000	Laughing Gull	laugul	0.9486	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	726.0
+41	Spectrogram 1	1	729.0	732.0	0	15000	Laughing Gull	laugul	0.9320	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	729.0
+42	Spectrogram 1	1	732.0	735.0	0	15000	Laughing Gull	laugul	0.9613	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	732.0
+43	Spectrogram 1	1	732.0	735.0	0	15000	Seaside Sparrow	seaspa	0.3856	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	732.0
+44	Spectrogram 1	1	735.0	738.0	0	15000	Laughing Gull	laugul	0.8797	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	735.0
+45	Spectrogram 1	1	738.0	741.0	0	15000	Laughing Gull	laugul	0.8751	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	738.0
+46	Spectrogram 1	1	738.0	741.0	0	15000	Seaside Sparrow	seaspa	0.3595	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	738.0
+47	Spectrogram 1	1	861.0	864.0	0	15000	Blue Jay	blujay	0.3922	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	861.0
+48	Spectrogram 1	1	873.0	876.0	0	15000	Blue Jay	blujay	0.4028	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	873.0
+49	Spectrogram 1	1	879.0	882.0	0	15000	Blue Jay	blujay	0.2765	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240805_190000.wav	879.0

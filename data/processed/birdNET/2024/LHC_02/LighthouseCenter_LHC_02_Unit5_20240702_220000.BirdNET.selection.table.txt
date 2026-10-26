@@ -1,0 +1,18 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	12.0	15.0	0	15000	Willet	willet1	0.9419	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240702_220000.wav	12.0
+2	Spectrogram 1	1	15.0	18.0	0	15000	Willet	willet1	0.9892	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240702_220000.wav	15.0
+3	Spectrogram 1	1	18.0	21.0	0	15000	Willet	willet1	0.9861	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240702_220000.wav	18.0
+4	Spectrogram 1	1	21.0	24.0	0	15000	Willet	willet1	0.6707	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240702_220000.wav	21.0
+5	Spectrogram 1	1	39.0	42.0	0	15000	Willet	willet1	0.9359	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240702_220000.wav	39.0
+6	Spectrogram 1	1	42.0	45.0	0	15000	Willet	willet1	0.9837	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240702_220000.wav	42.0
+7	Spectrogram 1	1	54.0	57.0	0	15000	Willet	willet1	0.7724	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240702_220000.wav	54.0
+8	Spectrogram 1	1	63.0	66.0	0	15000	Willet	willet1	0.9544	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240702_220000.wav	63.0
+9	Spectrogram 1	1	66.0	69.0	0	15000	Willet	willet1	0.8997	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240702_220000.wav	66.0
+10	Spectrogram 1	1	75.0	78.0	0	15000	Willet	willet1	0.2813	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240702_220000.wav	75.0
+11	Spectrogram 1	1	81.0	84.0	0	15000	Willet	willet1	0.9278	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240702_220000.wav	81.0
+12	Spectrogram 1	1	84.0	87.0	0	15000	Willet	willet1	0.9885	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240702_220000.wav	84.0
+13	Spectrogram 1	1	87.0	90.0	0	15000	Willet	willet1	0.9747	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240702_220000.wav	87.0
+14	Spectrogram 1	1	90.0	93.0	0	15000	Willet	willet1	0.9897	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240702_220000.wav	90.0
+15	Spectrogram 1	1	99.0	102.0	0	15000	Willet	willet1	0.9215	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240702_220000.wav	99.0
+16	Spectrogram 1	1	582.0	585.0	0	15000	Golden-crowned Kinglet	gockin	0.2592	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240702_220000.wav	582.0
+17	Spectrogram 1	1	894.0	897.0	0	15000	Golden-crowned Kinglet	gockin	0.4921	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240702_220000.wav	894.0

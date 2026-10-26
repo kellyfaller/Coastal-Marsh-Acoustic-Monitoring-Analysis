@@ -1,0 +1,6 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	87.0	90.0	0	15000	Purple Martin	purmar	0.4856	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240803_200000.wav	87.0
+2	Spectrogram 1	1	93.0	96.0	0	15000	Osprey	osprey	0.5955	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240803_200000.wav	93.0
+3	Spectrogram 1	1	111.0	114.0	0	15000	Purple Martin	purmar	0.3503	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240803_200000.wav	111.0
+4	Spectrogram 1	1	114.0	117.0	0	15000	Purple Martin	purmar	0.4252	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240803_200000.wav	114.0
+5	Spectrogram 1	1	819.0	822.0	0	15000	Marsh Wren	marwre	0.8579	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240803_200000.wav	819.0

@@ -1,0 +1,6 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	465.0	468.0	0	15000	Fish Crow	fiscro	0.6781	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_214500.wav	465.0
+2	Spectrogram 1	1	807.0	810.0	0	15000	Red-breasted Nuthatch	rebnut	0.2819	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_214500.wav	807.0
+3	Spectrogram 1	1	810.0	813.0	0	15000	White-breasted Nuthatch	whbnut	0.5086	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_214500.wav	810.0
+4	Spectrogram 1	1	828.0	831.0	0	15000	Fish Crow	fiscro	0.7404	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_214500.wav	828.0
+5	Spectrogram 1	1	834.0	837.0	0	15000	Fish Crow	fiscro	0.6069	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_214500.wav	834.0

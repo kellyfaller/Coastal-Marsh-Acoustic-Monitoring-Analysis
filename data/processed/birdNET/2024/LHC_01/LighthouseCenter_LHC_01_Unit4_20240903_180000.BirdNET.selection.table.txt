@@ -1,0 +1,26 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	12.0	15.0	0	15000	Slender Meadow Katydid	t-11877699	0.2559	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240903_180000.wav	12.0
+2	Spectrogram 1	1	15.0	18.0	0	15000	Agile Meadow Katydid	t-11872394	0.2922	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240903_180000.wav	15.0
+3	Spectrogram 1	1	93.0	96.0	0	15000	Fish Crow	fiscro	0.9239	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240903_180000.wav	93.0
+4	Spectrogram 1	1	162.0	165.0	0	15000	Osprey	osprey	0.2626	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240903_180000.wav	162.0
+5	Spectrogram 1	1	357.0	360.0	0	15000	Fish Crow	fiscro	0.3853	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240903_180000.wav	357.0
+6	Spectrogram 1	1	405.0	408.0	0	15000	Fish Crow	fiscro	0.8993	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240903_180000.wav	405.0
+7	Spectrogram 1	1	501.0	504.0	0	15000	Greater Yellowlegs	greyel	0.9341	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240903_180000.wav	501.0
+8	Spectrogram 1	1	627.0	630.0	0	15000	Fish Crow	fiscro	0.7813	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240903_180000.wav	627.0
+9	Spectrogram 1	1	681.0	684.0	0	15000	Fish Crow	fiscro	0.4552	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240903_180000.wav	681.0
+10	Spectrogram 1	1	723.0	726.0	0	15000	Fish Crow	fiscro	0.7814	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240903_180000.wav	723.0
+11	Spectrogram 1	1	744.0	747.0	0	15000	Fish Crow	fiscro	0.4666	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240903_180000.wav	744.0
+12	Spectrogram 1	1	747.0	750.0	0	15000	Fish Crow	fiscro	0.8447	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240903_180000.wav	747.0
+13	Spectrogram 1	1	762.0	765.0	0	15000	Fish Crow	fiscro	0.2539	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240903_180000.wav	762.0
+14	Spectrogram 1	1	777.0	780.0	0	15000	Fish Crow	fiscro	0.5203	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240903_180000.wav	777.0
+15	Spectrogram 1	1	807.0	810.0	0	15000	Great Egret	greegr	0.5266	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240903_180000.wav	807.0
+16	Spectrogram 1	1	810.0	813.0	0	15000	Great Egret	greegr	0.8981	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240903_180000.wav	810.0
+17	Spectrogram 1	1	813.0	816.0	0	15000	Great Egret	greegr	0.6241	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240903_180000.wav	813.0
+18	Spectrogram 1	1	837.0	840.0	0	15000	Great Egret	greegr	0.3291	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240903_180000.wav	837.0
+19	Spectrogram 1	1	843.0	846.0	0	15000	Great Egret	greegr	0.5880	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240903_180000.wav	843.0
+20	Spectrogram 1	1	852.0	855.0	0	15000	Great Egret	greegr	0.8454	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240903_180000.wav	852.0
+21	Spectrogram 1	1	855.0	858.0	0	15000	Great Egret	greegr	0.7001	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240903_180000.wav	855.0
+22	Spectrogram 1	1	858.0	861.0	0	15000	Great Egret	greegr	0.6339	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240903_180000.wav	858.0
+23	Spectrogram 1	1	861.0	864.0	0	15000	Great Egret	greegr	0.9057	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240903_180000.wav	861.0
+24	Spectrogram 1	1	864.0	867.0	0	15000	Great Egret	greegr	0.4675	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240903_180000.wav	864.0
+25	Spectrogram 1	1	894.0	897.0	0	15000	Northern Flicker	norfli	0.5003	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240903_180000.wav	894.0

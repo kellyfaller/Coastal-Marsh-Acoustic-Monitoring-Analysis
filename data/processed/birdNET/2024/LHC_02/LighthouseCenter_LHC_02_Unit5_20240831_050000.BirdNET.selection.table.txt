@@ -1,0 +1,14 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	0.0	3.0	0	15000	Great Horned Owl	grhowl	0.2778	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240831_050000.wav	0.0
+2	Spectrogram 1	1	516.0	519.0	0	15000	Great Horned Owl	grhowl	0.8600	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240831_050000.wav	516.0
+3	Spectrogram 1	1	561.0	564.0	0	15000	Great Horned Owl	grhowl	0.8966	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240831_050000.wav	561.0
+4	Spectrogram 1	1	564.0	567.0	0	15000	Great Horned Owl	grhowl	0.9167	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240831_050000.wav	564.0
+5	Spectrogram 1	1	597.0	600.0	0	15000	Great Horned Owl	grhowl	0.9662	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240831_050000.wav	597.0
+6	Spectrogram 1	1	600.0	603.0	0	15000	Great Horned Owl	grhowl	0.6917	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240831_050000.wav	600.0
+7	Spectrogram 1	1	621.0	624.0	0	15000	Great Horned Owl	grhowl	0.9449	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240831_050000.wav	621.0
+8	Spectrogram 1	1	717.0	720.0	0	15000	Great Horned Owl	grhowl	0.9526	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240831_050000.wav	717.0
+9	Spectrogram 1	1	747.0	750.0	0	15000	Great Horned Owl	grhowl	0.9500	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240831_050000.wav	747.0
+10	Spectrogram 1	1	750.0	753.0	0	15000	Great Horned Owl	grhowl	0.2864	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240831_050000.wav	750.0
+11	Spectrogram 1	1	774.0	777.0	0	15000	Great Horned Owl	grhowl	0.9015	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240831_050000.wav	774.0
+12	Spectrogram 1	1	777.0	780.0	0	15000	Great Horned Owl	grhowl	0.9465	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240831_050000.wav	777.0
+13	Spectrogram 1	1	798.0	801.0	0	15000	Great Horned Owl	grhowl	0.9316	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240831_050000.wav	798.0

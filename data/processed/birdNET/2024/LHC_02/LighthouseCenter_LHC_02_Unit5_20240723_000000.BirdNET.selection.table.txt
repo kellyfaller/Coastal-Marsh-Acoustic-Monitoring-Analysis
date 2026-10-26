@@ -1,0 +1,27 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	18.0	21.0	0	15000	Stripe-faced Meadow Katydid	t-11875824	0.3280	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240723_000000.wav	18.0
+2	Spectrogram 1	1	45.0	48.0	0	15000	Stripe-faced Meadow Katydid	t-11875824	0.2730	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240723_000000.wav	45.0
+3	Spectrogram 1	1	72.0	75.0	0	15000	Stripe-faced Meadow Katydid	t-11875824	0.2892	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240723_000000.wav	72.0
+4	Spectrogram 1	1	75.0	78.0	0	15000	Stripe-faced Meadow Katydid	t-11875824	0.3092	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240723_000000.wav	75.0
+5	Spectrogram 1	1	78.0	81.0	0	15000	Stripe-faced Meadow Katydid	t-11875824	0.2517	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240723_000000.wav	78.0
+6	Spectrogram 1	1	87.0	90.0	0	15000	Stripe-faced Meadow Katydid	t-11875824	0.8462	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240723_000000.wav	87.0
+7	Spectrogram 1	1	87.0	90.0	0	15000	Short-winged Meadow Katydid	t-11876252	0.5394	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240723_000000.wav	87.0
+8	Spectrogram 1	1	132.0	135.0	0	15000	Stripe-faced Meadow Katydid	t-11875824	0.4787	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240723_000000.wav	132.0
+9	Spectrogram 1	1	150.0	153.0	0	15000	Stripe-faced Meadow Katydid	t-11875824	0.3066	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240723_000000.wav	150.0
+10	Spectrogram 1	1	162.0	165.0	0	15000	Stripe-faced Meadow Katydid	t-11875824	0.3226	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240723_000000.wav	162.0
+11	Spectrogram 1	1	165.0	168.0	0	15000	Stripe-faced Meadow Katydid	t-11875824	0.2975	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240723_000000.wav	165.0
+12	Spectrogram 1	1	222.0	225.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2781	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240723_000000.wav	222.0
+13	Spectrogram 1	1	279.0	282.0	0	15000	Stripe-faced Meadow Katydid	t-11875824	0.2684	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240723_000000.wav	279.0
+14	Spectrogram 1	1	282.0	285.0	0	15000	Stripe-faced Meadow Katydid	t-11875824	0.2765	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240723_000000.wav	282.0
+15	Spectrogram 1	1	357.0	360.0	0	15000	Stripe-faced Meadow Katydid	t-11875824	0.3396	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240723_000000.wav	357.0
+16	Spectrogram 1	1	363.0	366.0	0	15000	Golden-crowned Kinglet	gockin	0.3311	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240723_000000.wav	363.0
+17	Spectrogram 1	1	435.0	438.0	0	15000	Great Horned Owl	grhowl	0.2721	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240723_000000.wav	435.0
+18	Spectrogram 1	1	516.0	519.0	0	15000	Engine	engine	0.3220	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240723_000000.wav	516.0
+19	Spectrogram 1	1	525.0	528.0	0	15000	Engine	engine	0.3279	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240723_000000.wav	525.0
+20	Spectrogram 1	1	528.0	531.0	0	15000	Engine	engine	0.4036	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240723_000000.wav	528.0
+21	Spectrogram 1	1	534.0	537.0	0	15000	Engine	engine	0.3651	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240723_000000.wav	534.0
+22	Spectrogram 1	1	633.0	636.0	0	15000	Black-crowned Night-Heron	bcnher	0.5688	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240723_000000.wav	633.0
+23	Spectrogram 1	1	696.0	699.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.3861	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240723_000000.wav	696.0
+24	Spectrogram 1	1	741.0	744.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2522	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240723_000000.wav	741.0
+25	Spectrogram 1	1	807.0	810.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.3345	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240723_000000.wav	807.0
+26	Spectrogram 1	1	810.0	813.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2969	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240723_000000.wav	810.0

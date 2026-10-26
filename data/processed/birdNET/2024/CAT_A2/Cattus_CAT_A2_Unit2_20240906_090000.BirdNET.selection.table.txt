@@ -1,0 +1,10 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	210.0	213.0	0	15000	Golden-crowned Kinglet	gockin	0.4296	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240906_090000.wav	210.0
+2	Spectrogram 1	1	255.0	258.0	0	15000	Golden-crowned Kinglet	gockin	0.4286	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240906_090000.wav	255.0
+3	Spectrogram 1	1	279.0	282.0	0	15000	Herring Gull	hergul	0.3486	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240906_090000.wav	279.0
+4	Spectrogram 1	1	291.0	294.0	0	15000	Golden-crowned Kinglet	gockin	0.5122	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240906_090000.wav	291.0
+5	Spectrogram 1	1	336.0	339.0	0	15000	Gray Catbird	grycat	0.6258	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240906_090000.wav	336.0
+6	Spectrogram 1	1	339.0	342.0	0	15000	Gray Catbird	grycat	0.3543	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240906_090000.wav	339.0
+7	Spectrogram 1	1	348.0	351.0	0	15000	Gray Catbird	grycat	0.5112	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240906_090000.wav	348.0
+8	Spectrogram 1	1	390.0	393.0	0	15000	Gray Catbird	grycat	0.5883	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240906_090000.wav	390.0
+9	Spectrogram 1	1	747.0	750.0	0	15000	Herring Gull	hergul	0.2982	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240906_090000.wav	747.0

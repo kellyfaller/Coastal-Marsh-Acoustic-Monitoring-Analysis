@@ -1,0 +1,13 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	0.0	3.0	0	15000	American Goldfinch	amegfi	0.2968	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240629_110000.wav	0.0
+2	Spectrogram 1	1	54.0	57.0	0	15000	American Goldfinch	amegfi	0.6648	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240629_110000.wav	54.0
+3	Spectrogram 1	1	57.0	60.0	0	15000	American Goldfinch	amegfi	0.6111	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240629_110000.wav	57.0
+4	Spectrogram 1	1	63.0	66.0	0	15000	American Goldfinch	amegfi	0.5933	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240629_110000.wav	63.0
+5	Spectrogram 1	1	309.0	312.0	0	15000	Lapland Longspur	laplon	0.2552	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240629_110000.wav	309.0
+6	Spectrogram 1	1	312.0	315.0	0	15000	Osprey	osprey	0.7997	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240629_110000.wav	312.0
+7	Spectrogram 1	1	315.0	318.0	0	15000	Osprey	osprey	0.2961	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240629_110000.wav	315.0
+8	Spectrogram 1	1	387.0	390.0	0	15000	Red-winged Blackbird	rewbla	0.3189	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240629_110000.wav	387.0
+9	Spectrogram 1	1	567.0	570.0	0	15000	Tufted Titmouse	tuftit	0.3312	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240629_110000.wav	567.0
+10	Spectrogram 1	1	759.0	762.0	0	15000	Red-winged Blackbird	rewbla	0.5592	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240629_110000.wav	759.0
+11	Spectrogram 1	1	795.0	798.0	0	15000	Song Sparrow	sonspa	0.7679	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240629_110000.wav	795.0
+12	Spectrogram 1	1	861.0	864.0	0	15000	Red-winged Blackbird	rewbla	0.3781	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240629_110000.wav	861.0

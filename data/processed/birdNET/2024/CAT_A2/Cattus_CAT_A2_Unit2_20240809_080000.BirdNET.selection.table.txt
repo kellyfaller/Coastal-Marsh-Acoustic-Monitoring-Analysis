@@ -1,0 +1,20 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	0.0	3.0	0	15000	Herring Gull	hergul	0.5406	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240809_080000.wav	0.0
+2	Spectrogram 1	1	144.0	147.0	0	15000	Bank Swallow	banswa	0.3114	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240809_080000.wav	144.0
+3	Spectrogram 1	1	168.0	171.0	0	15000	Red-breasted Nuthatch	rebnut	0.2547	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240809_080000.wav	168.0
+4	Spectrogram 1	1	198.0	201.0	0	15000	Belted Kingfisher	belkin1	0.2885	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240809_080000.wav	198.0
+5	Spectrogram 1	1	411.0	414.0	0	15000	Belted Kingfisher	belkin1	0.2704	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240809_080000.wav	411.0
+6	Spectrogram 1	1	513.0	516.0	0	15000	Eastern Meadowlark	easmea	0.3350	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240809_080000.wav	513.0
+7	Spectrogram 1	1	570.0	573.0	0	15000	Mourning Dove	moudov	0.3915	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240809_080000.wav	570.0
+8	Spectrogram 1	1	594.0	597.0	0	15000	Mourning Dove	moudov	0.2578	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240809_080000.wav	594.0
+9	Spectrogram 1	1	615.0	618.0	0	15000	Mourning Dove	moudov	0.2667	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240809_080000.wav	615.0
+10	Spectrogram 1	1	675.0	678.0	0	15000	Mourning Dove	moudov	0.5299	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240809_080000.wav	675.0
+11	Spectrogram 1	1	684.0	687.0	0	15000	Mourning Dove	moudov	0.6143	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240809_080000.wav	684.0
+12	Spectrogram 1	1	699.0	702.0	0	15000	Mississippi Kite	miskit	0.5375	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240809_080000.wav	699.0
+13	Spectrogram 1	1	714.0	717.0	0	15000	Mourning Dove	moudov	0.2528	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240809_080000.wav	714.0
+14	Spectrogram 1	1	726.0	729.0	0	15000	Mourning Dove	moudov	0.8903	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240809_080000.wav	726.0
+15	Spectrogram 1	1	744.0	747.0	0	15000	Mourning Dove	moudov	0.2746	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240809_080000.wav	744.0
+16	Spectrogram 1	1	810.0	813.0	0	15000	Mourning Dove	moudov	0.8249	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240809_080000.wav	810.0
+17	Spectrogram 1	1	834.0	837.0	0	15000	Field Sparrow	fiespa	0.3682	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240809_080000.wav	834.0
+18	Spectrogram 1	1	837.0	840.0	0	15000	Mississippi Kite	miskit	0.2961	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240809_080000.wav	837.0
+19	Spectrogram 1	1	897.0	900.0	0	15000	Mississippi Kite	miskit	0.6005	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240809_080000.wav	897.0

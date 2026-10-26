@@ -1,0 +1,18 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	129.0	132.0	0	15000	Greater Yellowlegs	greyel	0.4443	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-23\Unit4_20260623_110000.wav	129.0
+2	Spectrogram 1	1	132.0	135.0	0	15000	Wilson's Snipe	wilsni1	0.3112	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-23\Unit4_20260623_110000.wav	132.0
+3	Spectrogram 1	1	141.0	144.0	0	15000	Osprey	osprey	0.2625	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-23\Unit4_20260623_110000.wav	141.0
+4	Spectrogram 1	1	243.0	246.0	0	15000	Greater Yellowlegs	greyel	0.2931	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-23\Unit4_20260623_110000.wav	243.0
+5	Spectrogram 1	1	261.0	264.0	0	15000	Lapland Longspur	laplon	0.8271	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-23\Unit4_20260623_110000.wav	261.0
+6	Spectrogram 1	1	336.0	339.0	0	15000	Marsh Wren	marwre	0.3792	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-23\Unit4_20260623_110000.wav	336.0
+7	Spectrogram 1	1	372.0	375.0	0	15000	Osprey	osprey	0.2750	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-23\Unit4_20260623_110000.wav	372.0
+8	Spectrogram 1	1	378.0	381.0	0	15000	Osprey	osprey	0.3182	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-23\Unit4_20260623_110000.wav	378.0
+9	Spectrogram 1	1	390.0	393.0	0	15000	Lapland Longspur	laplon	0.3480	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-23\Unit4_20260623_110000.wav	390.0
+10	Spectrogram 1	1	450.0	453.0	0	15000	Lapland Longspur	laplon	0.2923	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-23\Unit4_20260623_110000.wav	450.0
+11	Spectrogram 1	1	483.0	486.0	0	15000	Osprey	osprey	0.7681	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-23\Unit4_20260623_110000.wav	483.0
+12	Spectrogram 1	1	495.0	498.0	0	15000	Lapland Longspur	laplon	0.4024	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-23\Unit4_20260623_110000.wav	495.0
+13	Spectrogram 1	1	525.0	528.0	0	15000	Red-winged Blackbird	rewbla	0.6014	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-23\Unit4_20260623_110000.wav	525.0
+14	Spectrogram 1	1	555.0	558.0	0	15000	Seaside Sparrow	seaspa	0.9330	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-23\Unit4_20260623_110000.wav	555.0
+15	Spectrogram 1	1	576.0	579.0	0	15000	Osprey	osprey	0.7382	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-23\Unit4_20260623_110000.wav	576.0
+16	Spectrogram 1	1	861.0	864.0	0	15000	Song Sparrow	sonspa	0.3622	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-23\Unit4_20260623_110000.wav	861.0
+17	Spectrogram 1	1	897.0	900.0	0	15000	Osprey	osprey	0.9541	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-23\Unit4_20260623_110000.wav	897.0

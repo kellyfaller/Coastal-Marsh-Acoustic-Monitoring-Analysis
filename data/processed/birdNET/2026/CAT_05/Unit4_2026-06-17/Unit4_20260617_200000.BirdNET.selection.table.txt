@@ -1,0 +1,33 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	18.0	21.0	0	15000	Lapland Longspur	laplon	0.5996	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	18.0
+2	Spectrogram 1	1	108.0	111.0	0	15000	Seaside Sparrow	seaspa	0.2984	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	108.0
+3	Spectrogram 1	1	276.0	279.0	0	15000	American Goldfinch	amegfi	0.4013	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	276.0
+4	Spectrogram 1	1	321.0	324.0	0	15000	Horned Lark	horlar	0.4562	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	321.0
+5	Spectrogram 1	1	351.0	354.0	0	15000	Red-winged Blackbird	rewbla	0.3629	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	351.0
+6	Spectrogram 1	1	453.0	456.0	0	15000	Red-winged Blackbird	rewbla	0.3686	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	453.0
+7	Spectrogram 1	1	468.0	471.0	0	15000	American Goldfinch	amegfi	0.2945	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	468.0
+8	Spectrogram 1	1	474.0	477.0	0	15000	American Goldfinch	amegfi	0.5466	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	474.0
+9	Spectrogram 1	1	492.0	495.0	0	15000	Belted Kingfisher	belkin1	0.3782	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	492.0
+10	Spectrogram 1	1	510.0	513.0	0	15000	Great Crested Flycatcher	grcfly	0.3568	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	510.0
+11	Spectrogram 1	1	522.0	525.0	0	15000	Red-winged Blackbird	rewbla	0.3318	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	522.0
+12	Spectrogram 1	1	525.0	528.0	0	15000	Red-winged Blackbird	rewbla	0.3028	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	525.0
+13	Spectrogram 1	1	531.0	534.0	0	15000	Red-winged Blackbird	rewbla	0.3941	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	531.0
+14	Spectrogram 1	1	561.0	564.0	0	15000	Red-winged Blackbird	rewbla	0.2645	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	561.0
+15	Spectrogram 1	1	663.0	666.0	0	15000	Red-winged Blackbird	rewbla	0.3135	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	663.0
+16	Spectrogram 1	1	666.0	669.0	0	15000	Least Bittern	leabit	0.2915	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	666.0
+17	Spectrogram 1	1	687.0	690.0	0	15000	Eastern Meadowlark	easmea	0.2626	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	687.0
+18	Spectrogram 1	1	720.0	723.0	0	15000	Fish Crow	fiscro	0.9910	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	720.0
+19	Spectrogram 1	1	723.0	726.0	0	15000	Fish Crow	fiscro	0.3887	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	723.0
+20	Spectrogram 1	1	726.0	729.0	0	15000	Fish Crow	fiscro	0.9835	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	726.0
+21	Spectrogram 1	1	735.0	738.0	0	15000	Fish Crow	fiscro	0.8504	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	735.0
+22	Spectrogram 1	1	741.0	744.0	0	15000	Eastern Kingbird	easkin	0.8103	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	741.0
+23	Spectrogram 1	1	744.0	747.0	0	15000	Eastern Kingbird	easkin	0.9854	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	744.0
+24	Spectrogram 1	1	747.0	750.0	0	15000	Fish Crow	fiscro	0.5301	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	747.0
+25	Spectrogram 1	1	750.0	753.0	0	15000	Fish Crow	fiscro	0.7981	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	750.0
+26	Spectrogram 1	1	759.0	762.0	0	15000	Fish Crow	fiscro	0.3381	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	759.0
+27	Spectrogram 1	1	777.0	780.0	0	15000	Eastern Kingbird	easkin	0.2805	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	777.0
+28	Spectrogram 1	1	783.0	786.0	0	15000	Fish Crow	fiscro	0.8885	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	783.0
+29	Spectrogram 1	1	792.0	795.0	0	15000	Fish Crow	fiscro	0.5223	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	792.0
+30	Spectrogram 1	1	852.0	855.0	0	15000	Red-winged Blackbird	rewbla	0.2686	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	852.0
+31	Spectrogram 1	1	879.0	882.0	0	15000	Alder Flycatcher	aldfly	0.3494	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	879.0
+32	Spectrogram 1	1	897.0	900.0	0	15000	Least Bittern	leabit	0.3197	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-17\Unit4_20260617_200000.wav	897.0

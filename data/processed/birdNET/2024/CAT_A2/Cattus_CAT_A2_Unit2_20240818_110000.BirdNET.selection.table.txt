@@ -1,0 +1,20 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	45.0	48.0	0	15000	Belted Kingfisher	belkin1	0.2972	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240818_110000.wav	45.0
+2	Spectrogram 1	1	105.0	108.0	0	15000	Engine	engine	0.3700	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240818_110000.wav	105.0
+3	Spectrogram 1	1	111.0	114.0	0	15000	Engine	engine	0.3036	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240818_110000.wav	111.0
+4	Spectrogram 1	1	144.0	147.0	0	15000	Engine	engine	0.2567	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240818_110000.wav	144.0
+5	Spectrogram 1	1	168.0	171.0	0	15000	Belted Kingfisher	belkin1	0.5166	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240818_110000.wav	168.0
+6	Spectrogram 1	1	186.0	189.0	0	15000	Engine	engine	0.2673	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240818_110000.wav	186.0
+7	Spectrogram 1	1	192.0	195.0	0	15000	Great Egret	greegr	0.4940	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240818_110000.wav	192.0
+8	Spectrogram 1	1	285.0	288.0	0	15000	Chimney Swift	chiswi	0.5157	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240818_110000.wav	285.0
+9	Spectrogram 1	1	288.0	291.0	0	15000	Worm-eating Warbler	woewar1	0.3031	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240818_110000.wav	288.0
+10	Spectrogram 1	1	333.0	336.0	0	15000	Belted Kingfisher	belkin1	0.4686	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240818_110000.wav	333.0
+11	Spectrogram 1	1	393.0	396.0	0	15000	Tundra Swan	tunswa	0.7587	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240818_110000.wav	393.0
+12	Spectrogram 1	1	531.0	534.0	0	15000	Belted Kingfisher	belkin1	0.3208	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240818_110000.wav	531.0
+13	Spectrogram 1	1	543.0	546.0	0	15000	Belted Kingfisher	belkin1	0.3237	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240818_110000.wav	543.0
+14	Spectrogram 1	1	669.0	672.0	0	15000	Belted Kingfisher	belkin1	0.6359	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240818_110000.wav	669.0
+15	Spectrogram 1	1	699.0	702.0	0	15000	Yellow-billed Cuckoo	yebcuc	0.6657	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240818_110000.wav	699.0
+16	Spectrogram 1	1	762.0	765.0	0	15000	Yellow-billed Cuckoo	yebcuc	0.4496	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240818_110000.wav	762.0
+17	Spectrogram 1	1	765.0	768.0	0	15000	Mourning Dove	moudov	0.3217	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240818_110000.wav	765.0
+18	Spectrogram 1	1	825.0	828.0	0	15000	Belted Kingfisher	belkin1	0.4844	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240818_110000.wav	825.0
+19	Spectrogram 1	1	882.0	885.0	0	15000	Belted Kingfisher	belkin1	0.6943	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240818_110000.wav	882.0

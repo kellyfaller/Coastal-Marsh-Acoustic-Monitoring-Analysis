@@ -1,0 +1,19 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	261.0	264.0	0	15000	Evening Grosbeak	evegro	0.2627	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-28\Unit4_20260628_040000.wav	261.0
+2	Spectrogram 1	1	351.0	354.0	0	15000	Golden-crowned Kinglet	gockin	0.4575	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-28\Unit4_20260628_040000.wav	351.0
+3	Spectrogram 1	1	357.0	360.0	0	15000	Golden-crowned Kinglet	gockin	0.2912	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-28\Unit4_20260628_040000.wav	357.0
+4	Spectrogram 1	1	402.0	405.0	0	15000	Golden-crowned Kinglet	gockin	0.2953	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-28\Unit4_20260628_040000.wav	402.0
+5	Spectrogram 1	1	504.0	507.0	0	15000	Golden-crowned Kinglet	gockin	0.3735	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-28\Unit4_20260628_040000.wav	504.0
+6	Spectrogram 1	1	639.0	642.0	0	15000	Golden-crowned Kinglet	gockin	0.3114	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-28\Unit4_20260628_040000.wav	639.0
+7	Spectrogram 1	1	732.0	735.0	0	15000	Willow Flycatcher	wilfly	0.8111	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-28\Unit4_20260628_040000.wav	732.0
+8	Spectrogram 1	1	753.0	756.0	0	15000	Willow Flycatcher	wilfly	0.9046	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-28\Unit4_20260628_040000.wav	753.0
+9	Spectrogram 1	1	762.0	765.0	0	15000	Golden-crowned Kinglet	gockin	0.6327	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-28\Unit4_20260628_040000.wav	762.0
+10	Spectrogram 1	1	774.0	777.0	0	15000	Willow Flycatcher	wilfly	0.6758	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-28\Unit4_20260628_040000.wav	774.0
+11	Spectrogram 1	1	783.0	786.0	0	15000	Willow Flycatcher	wilfly	0.9069	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-28\Unit4_20260628_040000.wav	783.0
+12	Spectrogram 1	1	810.0	813.0	0	15000	Willow Flycatcher	wilfly	0.7657	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-28\Unit4_20260628_040000.wav	810.0
+13	Spectrogram 1	1	822.0	825.0	0	15000	Willow Flycatcher	wilfly	0.8305	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-28\Unit4_20260628_040000.wav	822.0
+14	Spectrogram 1	1	834.0	837.0	0	15000	Willow Flycatcher	wilfly	0.6339	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-28\Unit4_20260628_040000.wav	834.0
+15	Spectrogram 1	1	837.0	840.0	0	15000	Willow Flycatcher	wilfly	0.6970	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-28\Unit4_20260628_040000.wav	837.0
+16	Spectrogram 1	1	846.0	849.0	0	15000	Willow Flycatcher	wilfly	0.9659	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-28\Unit4_20260628_040000.wav	846.0
+17	Spectrogram 1	1	867.0	870.0	0	15000	Willow Flycatcher	wilfly	0.4079	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-28\Unit4_20260628_040000.wav	867.0
+18	Spectrogram 1	1	885.0	888.0	0	15000	Willow Flycatcher	wilfly	0.9068	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-28\Unit4_20260628_040000.wav	885.0

@@ -1,0 +1,25 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	108.0	111.0	0	15000	Marsh Wren	marwre	0.2857	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240711_200000.wav	108.0
+2	Spectrogram 1	1	117.0	120.0	0	15000	Marsh Wren	marwre	0.3265	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240711_200000.wav	117.0
+3	Spectrogram 1	1	129.0	132.0	0	15000	Least Bittern	leabit	0.2675	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240711_200000.wav	129.0
+4	Spectrogram 1	1	171.0	174.0	0	15000	Least Bittern	leabit	0.2512	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240711_200000.wav	171.0
+5	Spectrogram 1	1	192.0	195.0	0	15000	Marsh Wren	marwre	0.2659	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240711_200000.wav	192.0
+6	Spectrogram 1	1	216.0	219.0	0	15000	Marsh Wren	marwre	0.2576	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240711_200000.wav	216.0
+7	Spectrogram 1	1	252.0	255.0	0	15000	Gray Catbird	grycat	0.4705	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240711_200000.wav	252.0
+8	Spectrogram 1	1	258.0	261.0	0	15000	Gray Catbird	grycat	0.3488	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240711_200000.wav	258.0
+9	Spectrogram 1	1	270.0	273.0	0	15000	Gray Catbird	grycat	0.4420	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240711_200000.wav	270.0
+10	Spectrogram 1	1	291.0	294.0	0	15000	Gray Catbird	grycat	0.4190	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240711_200000.wav	291.0
+11	Spectrogram 1	1	294.0	297.0	0	15000	Gray Catbird	grycat	0.7214	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240711_200000.wav	294.0
+12	Spectrogram 1	1	303.0	306.0	0	15000	Gray Catbird	grycat	0.2571	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240711_200000.wav	303.0
+13	Spectrogram 1	1	309.0	312.0	0	15000	Orchard Oriole	orcori	0.3627	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240711_200000.wav	309.0
+14	Spectrogram 1	1	330.0	333.0	0	15000	Gray Catbird	grycat	0.6059	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240711_200000.wav	330.0
+15	Spectrogram 1	1	339.0	342.0	0	15000	Barn Swallow	barswa	0.2860	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240711_200000.wav	339.0
+16	Spectrogram 1	1	339.0	342.0	0	15000	Gray Catbird	grycat	0.2723	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240711_200000.wav	339.0
+17	Spectrogram 1	1	390.0	393.0	0	15000	Gray Catbird	grycat	0.3771	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240711_200000.wav	390.0
+18	Spectrogram 1	1	396.0	399.0	0	15000	Gray Catbird	grycat	0.5929	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240711_200000.wav	396.0
+19	Spectrogram 1	1	504.0	507.0	0	15000	Broad-winged Hawk	brwhaw	0.2556	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240711_200000.wav	504.0
+20	Spectrogram 1	1	699.0	702.0	0	15000	Gray Catbird	grycat	0.2827	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240711_200000.wav	699.0
+21	Spectrogram 1	1	774.0	777.0	0	15000	American Goldfinch	amegfi	0.5575	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240711_200000.wav	774.0
+22	Spectrogram 1	1	777.0	780.0	0	15000	American Goldfinch	amegfi	0.7834	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240711_200000.wav	777.0
+23	Spectrogram 1	1	780.0	783.0	0	15000	American Goldfinch	amegfi	0.3174	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240711_200000.wav	780.0
+24	Spectrogram 1	1	876.0	879.0	0	15000	American Goldfinch	amegfi	0.6965	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240711_200000.wav	876.0

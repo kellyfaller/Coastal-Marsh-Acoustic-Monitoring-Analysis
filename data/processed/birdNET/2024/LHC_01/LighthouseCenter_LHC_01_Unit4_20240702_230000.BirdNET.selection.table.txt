@@ -1,0 +1,9 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	213.0	216.0	0	15000	Golden-crowned Kinglet	gockin	0.2611	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240702_230000.wav	213.0
+2	Spectrogram 1	1	240.0	243.0	0	15000	Golden-crowned Kinglet	gockin	0.3612	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240702_230000.wav	240.0
+3	Spectrogram 1	1	255.0	258.0	0	15000	Dog	dogdog	0.4432	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240702_230000.wav	255.0
+4	Spectrogram 1	1	276.0	279.0	0	15000	Yellow-rumped Warbler	yerwar	0.2703	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240702_230000.wav	276.0
+5	Spectrogram 1	1	315.0	318.0	0	15000	Dog	dogdog	0.3672	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240702_230000.wav	315.0
+6	Spectrogram 1	1	420.0	423.0	0	15000	Dog	dogdog	0.2963	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240702_230000.wav	420.0
+7	Spectrogram 1	1	558.0	561.0	0	15000	Short-billed Dowitcher	shbdow	0.2865	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240702_230000.wav	558.0
+8	Spectrogram 1	1	570.0	573.0	0	15000	Greater Yellowlegs	greyel	0.3589	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240702_230000.wav	570.0

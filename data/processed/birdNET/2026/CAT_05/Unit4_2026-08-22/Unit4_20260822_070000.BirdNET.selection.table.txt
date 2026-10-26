@@ -1,0 +1,10 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	120.0	123.0	0	15000	Forster's Tern	forter	0.2676	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-22\Unit4_20260822_070000.wav	120.0
+2	Spectrogram 1	1	129.0	132.0	0	15000	Laughing Gull	laugul	0.8908	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-22\Unit4_20260822_070000.wav	129.0
+3	Spectrogram 1	1	132.0	135.0	0	15000	Laughing Gull	laugul	0.9920	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-22\Unit4_20260822_070000.wav	132.0
+4	Spectrogram 1	1	135.0	138.0	0	15000	Laughing Gull	laugul	0.8661	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-22\Unit4_20260822_070000.wav	135.0
+5	Spectrogram 1	1	234.0	237.0	0	15000	American Goldfinch	amegfi	0.5958	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-22\Unit4_20260822_070000.wav	234.0
+6	Spectrogram 1	1	237.0	240.0	0	15000	American Goldfinch	amegfi	0.8853	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-22\Unit4_20260822_070000.wav	237.0
+7	Spectrogram 1	1	360.0	363.0	0	15000	Short-eared Owl	sheowl	0.3223	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-22\Unit4_20260822_070000.wav	360.0
+8	Spectrogram 1	1	885.0	888.0	0	15000	Herring Gull	hergul	0.4186	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-22\Unit4_20260822_070000.wav	885.0
+9	Spectrogram 1	1	897.0	900.0	0	15000	American Goldfinch	amegfi	0.7378	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-22\Unit4_20260822_070000.wav	897.0

@@ -1,0 +1,9 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	12.0	15.0	0	15000	Mallard	mallar3	0.2766	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_210000.wav	12.0
+2	Spectrogram 1	1	663.0	666.0	0	15000	Eastern Screech-Owl	easowl1	0.2872	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_210000.wav	663.0
+3	Spectrogram 1	1	666.0	669.0	0	15000	Eastern Screech-Owl	easowl1	0.3675	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_210000.wav	666.0
+4	Spectrogram 1	1	714.0	717.0	0	15000	Northern Saw-whet Owl	nswowl	0.3444	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_210000.wav	714.0
+5	Spectrogram 1	1	720.0	723.0	0	15000	Eastern Screech-Owl	easowl1	0.4674	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_210000.wav	720.0
+6	Spectrogram 1	1	732.0	735.0	0	15000	Tundra Swan	tunswa	0.2756	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_210000.wav	732.0
+7	Spectrogram 1	1	738.0	741.0	0	15000	Eastern Screech-Owl	easowl1	0.4264	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_210000.wav	738.0
+8	Spectrogram 1	1	747.0	750.0	0	15000	Eastern Screech-Owl	easowl1	0.4408	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_210000.wav	747.0

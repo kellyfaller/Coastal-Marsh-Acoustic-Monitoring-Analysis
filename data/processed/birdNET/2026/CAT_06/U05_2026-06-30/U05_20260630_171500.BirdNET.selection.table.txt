@@ -1,0 +1,8 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	45.0	48.0	0	15000	Fireworks	frwrks	0.2930	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-30\U05_20260630_171500.wav	45.0
+2	Spectrogram 1	1	168.0	171.0	0	15000	Purple Martin	purmar	0.3516	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-30\U05_20260630_171500.wav	168.0
+3	Spectrogram 1	1	351.0	354.0	0	15000	Marsh Wren	marwre	0.7036	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-30\U05_20260630_171500.wav	351.0
+4	Spectrogram 1	1	714.0	717.0	0	15000	Northern Shrike	norshr4	0.4620	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-30\U05_20260630_171500.wav	714.0
+5	Spectrogram 1	1	783.0	786.0	0	15000	Virginia Rail	virrai	0.3525	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-30\U05_20260630_171500.wav	783.0
+6	Spectrogram 1	1	789.0	792.0	0	15000	Horned Lark	horlar	0.3098	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-30\U05_20260630_171500.wav	789.0
+7	Spectrogram 1	1	810.0	813.0	0	15000	Marsh Wren	marwre	0.4322	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-30\U05_20260630_171500.wav	810.0

@@ -1,0 +1,10 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	264.0	267.0	0	15000	Laughing Gull	laugul	0.3561	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_120000.wav	264.0
+2	Spectrogram 1	1	270.0	273.0	0	15000	Royal Tern	royter1	0.3077	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_120000.wav	270.0
+3	Spectrogram 1	1	273.0	276.0	0	15000	Laughing Gull	laugul	0.7088	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_120000.wav	273.0
+4	Spectrogram 1	1	276.0	279.0	0	15000	Laughing Gull	laugul	0.7026	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_120000.wav	276.0
+5	Spectrogram 1	1	699.0	702.0	0	15000	Great Horned Owl	grhowl	0.6042	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_120000.wav	699.0
+6	Spectrogram 1	1	708.0	711.0	0	15000	Engine	engine	0.3168	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_120000.wav	708.0
+7	Spectrogram 1	1	720.0	723.0	0	15000	Chimney Swift	chiswi	0.2691	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_120000.wav	720.0
+8	Spectrogram 1	1	873.0	876.0	0	15000	Belted Kingfisher	belkin1	0.7621	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_120000.wav	873.0
+9	Spectrogram 1	1	891.0	894.0	0	15000	Great Horned Owl	grhowl	0.8031	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240820_120000.wav	891.0

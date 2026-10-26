@@ -1,0 +1,39 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	57.0	60.0	0	15000	Willet	willet1	0.3471	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	57.0
+2	Spectrogram 1	1	60.0	63.0	0	15000	Willet	willet1	0.6087	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	60.0
+3	Spectrogram 1	1	156.0	159.0	0	15000	Fireworks	frwrks	0.2687	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	156.0
+4	Spectrogram 1	1	288.0	291.0	0	15000	Osprey	osprey	0.5033	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	288.0
+5	Spectrogram 1	1	306.0	309.0	0	15000	American Oystercatcher	ameoys	0.2759	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	306.0
+6	Spectrogram 1	1	309.0	312.0	0	15000	Osprey	osprey	0.4513	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	309.0
+7	Spectrogram 1	1	315.0	318.0	0	15000	Osprey	osprey	0.7131	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	315.0
+8	Spectrogram 1	1	318.0	321.0	0	15000	Osprey	osprey	0.3040	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	318.0
+9	Spectrogram 1	1	327.0	330.0	0	15000	Greater Yellowlegs	greyel	0.3145	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	327.0
+10	Spectrogram 1	1	330.0	333.0	0	15000	Osprey	osprey	0.3993	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	330.0
+11	Spectrogram 1	1	465.0	468.0	0	15000	Willet	willet1	0.6326	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	465.0
+12	Spectrogram 1	1	489.0	492.0	0	15000	Willet	willet1	0.4510	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	489.0
+13	Spectrogram 1	1	492.0	495.0	0	15000	Willet	willet1	0.5387	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	492.0
+14	Spectrogram 1	1	558.0	561.0	0	15000	Willet	willet1	0.6893	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	558.0
+15	Spectrogram 1	1	600.0	603.0	0	15000	Black-bellied Plover	bkbplo	0.2858	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	600.0
+16	Spectrogram 1	1	624.0	627.0	0	15000	Willet	willet1	0.6821	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	624.0
+17	Spectrogram 1	1	660.0	663.0	0	15000	Willet	willet1	0.9288	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	660.0
+18	Spectrogram 1	1	663.0	666.0	0	15000	Willet	willet1	0.9931	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	663.0
+19	Spectrogram 1	1	687.0	690.0	0	15000	Willet	willet1	0.8714	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	687.0
+20	Spectrogram 1	1	690.0	693.0	0	15000	Willet	willet1	0.9714	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	690.0
+21	Spectrogram 1	1	693.0	696.0	0	15000	Willet	willet1	0.7128	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	693.0
+22	Spectrogram 1	1	696.0	699.0	0	15000	Willet	willet1	0.3372	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	696.0
+23	Spectrogram 1	1	702.0	705.0	0	15000	Willet	willet1	0.7075	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	702.0
+24	Spectrogram 1	1	705.0	708.0	0	15000	Willet	willet1	0.9942	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	705.0
+25	Spectrogram 1	1	708.0	711.0	0	15000	Willet	willet1	0.9963	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	708.0
+26	Spectrogram 1	1	711.0	714.0	0	15000	Willet	willet1	0.8824	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	711.0
+27	Spectrogram 1	1	714.0	717.0	0	15000	Willet	willet1	0.8424	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	714.0
+28	Spectrogram 1	1	732.0	735.0	0	15000	Willet	willet1	0.9289	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	732.0
+29	Spectrogram 1	1	735.0	738.0	0	15000	Willet	willet1	0.9546	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	735.0
+30	Spectrogram 1	1	738.0	741.0	0	15000	Willet	willet1	0.8824	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	738.0
+31	Spectrogram 1	1	741.0	744.0	0	15000	Willet	willet1	0.9939	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	741.0
+32	Spectrogram 1	1	744.0	747.0	0	15000	Willet	willet1	0.8621	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	744.0
+33	Spectrogram 1	1	750.0	753.0	0	15000	Willet	willet1	0.4360	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	750.0
+34	Spectrogram 1	1	768.0	771.0	0	15000	Herring Gull	hergul	0.2723	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	768.0
+35	Spectrogram 1	1	771.0	774.0	0	15000	Black Scoter	blksco2	0.8888	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	771.0
+36	Spectrogram 1	1	777.0	780.0	0	15000	Willet	willet1	0.4564	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	777.0
+37	Spectrogram 1	1	870.0	873.0	0	15000	Laughing Gull	laugul	0.7633	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	870.0
+38	Spectrogram 1	1	876.0	879.0	0	15000	Laughing Gull	laugul	0.5388	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240716_140000.wav	876.0

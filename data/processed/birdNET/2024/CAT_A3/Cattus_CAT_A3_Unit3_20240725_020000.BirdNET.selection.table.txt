@@ -1,0 +1,5 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	51.0	54.0	0	15000	Marsh Wren	marwre	0.4938	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240725_020000.wav	51.0
+2	Spectrogram 1	1	75.0	78.0	0	15000	Marsh Wren	marwre	0.6089	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240725_020000.wav	75.0
+3	Spectrogram 1	1	276.0	279.0	0	15000	Marsh Wren	marwre	0.4912	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240725_020000.wav	276.0
+4	Spectrogram 1	1	546.0	549.0	0	15000	Eastern Screech-Owl	easowl1	0.2902	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240725_020000.wav	546.0

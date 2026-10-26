@@ -1,0 +1,10 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	9.0	12.0	0	15000	Northern Saw-whet Owl	nswowl	0.4858	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-19\Unit2_20260619_220000.wav	9.0
+2	Spectrogram 1	1	12.0	15.0	0	15000	Northern Saw-whet Owl	nswowl	0.3776	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-19\Unit2_20260619_220000.wav	12.0
+3	Spectrogram 1	1	15.0	18.0	0	15000	Northern Saw-whet Owl	nswowl	0.2828	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-19\Unit2_20260619_220000.wav	15.0
+4	Spectrogram 1	1	423.0	426.0	0	15000	Golden-crowned Kinglet	gockin	0.2681	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-19\Unit2_20260619_220000.wav	423.0
+5	Spectrogram 1	1	489.0	492.0	0	15000	Golden-crowned Kinglet	gockin	0.3993	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-19\Unit2_20260619_220000.wav	489.0
+6	Spectrogram 1	1	615.0	618.0	0	15000	Black-crowned Night-Heron	bcnher	0.9680	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-19\Unit2_20260619_220000.wav	615.0
+7	Spectrogram 1	1	711.0	714.0	0	15000	Golden-crowned Kinglet	gockin	0.4224	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-19\Unit2_20260619_220000.wav	711.0
+8	Spectrogram 1	1	729.0	732.0	0	15000	Golden-crowned Kinglet	gockin	0.2975	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-19\Unit2_20260619_220000.wav	729.0
+9	Spectrogram 1	1	753.0	756.0	0	15000	Golden-crowned Kinglet	gockin	0.2737	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-19\Unit2_20260619_220000.wav	753.0

@@ -1,0 +1,18 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	117.0	120.0	0	15000	Whimbrel	whimbr	0.3857	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_180000.wav	117.0
+2	Spectrogram 1	1	246.0	249.0	0	15000	Golden-crowned Kinglet	gockin	0.3246	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_180000.wav	246.0
+3	Spectrogram 1	1	324.0	327.0	0	15000	Purple Martin	purmar	0.2510	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_180000.wav	324.0
+4	Spectrogram 1	1	327.0	330.0	0	15000	Purple Martin	purmar	0.7840	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_180000.wav	327.0
+5	Spectrogram 1	1	603.0	606.0	0	15000	American Goldfinch	amegfi	0.6466	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_180000.wav	603.0
+6	Spectrogram 1	1	606.0	609.0	0	15000	American Goldfinch	amegfi	0.8899	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_180000.wav	606.0
+7	Spectrogram 1	1	642.0	645.0	0	15000	American Crow	amecro	0.3814	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_180000.wav	642.0
+8	Spectrogram 1	1	681.0	684.0	0	15000	American Goldfinch	amegfi	0.5079	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_180000.wav	681.0
+9	Spectrogram 1	1	699.0	702.0	0	15000	American Goldfinch	amegfi	0.5118	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_180000.wav	699.0
+10	Spectrogram 1	1	702.0	705.0	0	15000	American Goldfinch	amegfi	0.8313	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_180000.wav	702.0
+11	Spectrogram 1	1	705.0	708.0	0	15000	American Goldfinch	amegfi	0.8526	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_180000.wav	705.0
+12	Spectrogram 1	1	705.0	708.0	0	15000	Eastern Screech-Owl	easowl1	0.5497	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_180000.wav	705.0
+13	Spectrogram 1	1	711.0	714.0	0	15000	Eastern Screech-Owl	easowl1	0.9634	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_180000.wav	711.0
+14	Spectrogram 1	1	753.0	756.0	0	15000	Eastern Screech-Owl	easowl1	0.4294	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_180000.wav	753.0
+15	Spectrogram 1	1	768.0	771.0	0	15000	Eastern Screech-Owl	easowl1	0.8254	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_180000.wav	768.0
+16	Spectrogram 1	1	837.0	840.0	0	15000	Greater Yellowlegs	greyel	0.3062	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_180000.wav	837.0
+17	Spectrogram 1	1	843.0	846.0	0	15000	Osprey	osprey	0.2532	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_180000.wav	843.0

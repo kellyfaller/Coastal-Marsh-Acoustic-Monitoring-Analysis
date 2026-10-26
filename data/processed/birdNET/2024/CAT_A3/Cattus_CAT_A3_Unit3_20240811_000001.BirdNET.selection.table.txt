@@ -1,0 +1,12 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	39.0	42.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2788	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240811_000001.wav	39.0
+2	Spectrogram 1	1	144.0	147.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.4036	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240811_000001.wav	144.0
+3	Spectrogram 1	1	153.0	156.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2618	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240811_000001.wav	153.0
+4	Spectrogram 1	1	177.0	180.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2621	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240811_000001.wav	177.0
+5	Spectrogram 1	1	186.0	189.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2569	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240811_000001.wav	186.0
+6	Spectrogram 1	1	639.0	642.0	0	15000	Eastern Screech-Owl	easowl1	0.2636	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240811_000001.wav	639.0
+7	Spectrogram 1	1	645.0	648.0	0	15000	Eastern Screech-Owl	easowl1	0.2848	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240811_000001.wav	645.0
+8	Spectrogram 1	1	648.0	651.0	0	15000	Eastern Screech-Owl	easowl1	0.2976	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240811_000001.wav	648.0
+9	Spectrogram 1	1	840.0	843.0	0	15000	Great Horned Owl	grhowl	0.2816	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240811_000001.wav	840.0
+10	Spectrogram 1	1	849.0	852.0	0	15000	Eastern Screech-Owl	easowl1	0.2550	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240811_000001.wav	849.0
+11	Spectrogram 1	1	876.0	879.0	0	15000	Eastern Screech-Owl	easowl1	0.2825	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240811_000001.wav	876.0

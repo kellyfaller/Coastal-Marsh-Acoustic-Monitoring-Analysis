@@ -1,0 +1,47 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	42.0	45.0	0	15000	Willet	willet1	0.7844	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	42.0
+2	Spectrogram 1	1	45.0	48.0	0	15000	Willet	willet1	0.2551	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	45.0
+3	Spectrogram 1	1	153.0	156.0	0	15000	Gray Catbird	grycat	0.2662	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	153.0
+4	Spectrogram 1	1	168.0	171.0	0	15000	Herring Gull	hergul	0.2559	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	168.0
+5	Spectrogram 1	1	204.0	207.0	0	15000	Barn Swallow	barswa	0.5394	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	204.0
+6	Spectrogram 1	1	216.0	219.0	0	15000	Blue Jay	blujay	0.5134	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	216.0
+7	Spectrogram 1	1	219.0	222.0	0	15000	Blue Jay	blujay	0.5689	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	219.0
+8	Spectrogram 1	1	222.0	225.0	0	15000	Blue Jay	blujay	0.7039	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	222.0
+9	Spectrogram 1	1	225.0	228.0	0	15000	Blue Jay	blujay	0.6624	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	225.0
+10	Spectrogram 1	1	228.0	231.0	0	15000	Blue Jay	blujay	0.3993	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	228.0
+11	Spectrogram 1	1	249.0	252.0	0	15000	Common Grackle	comgra	0.2985	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	249.0
+12	Spectrogram 1	1	258.0	261.0	0	15000	Blue Jay	blujay	0.6307	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	258.0
+13	Spectrogram 1	1	264.0	267.0	0	15000	Blue Jay	blujay	0.4100	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	264.0
+14	Spectrogram 1	1	273.0	276.0	0	15000	Forster's Tern	forter	0.6323	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	273.0
+15	Spectrogram 1	1	330.0	333.0	0	15000	Barn Swallow	barswa	0.2560	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	330.0
+16	Spectrogram 1	1	342.0	345.0	0	15000	Herring Gull	hergul	0.4812	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	342.0
+17	Spectrogram 1	1	345.0	348.0	0	15000	Herring Gull	hergul	0.4718	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	345.0
+18	Spectrogram 1	1	348.0	351.0	0	15000	Herring Gull	hergul	0.3432	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	348.0
+19	Spectrogram 1	1	360.0	363.0	0	15000	Pied-billed Grebe	pibgre	0.3711	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	360.0
+20	Spectrogram 1	1	363.0	366.0	0	15000	Herring Gull	hergul	0.4708	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	363.0
+21	Spectrogram 1	1	369.0	372.0	0	15000	Laughing Gull	laugul	0.2526	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	369.0
+22	Spectrogram 1	1	372.0	375.0	0	15000	Laughing Gull	laugul	0.2988	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	372.0
+23	Spectrogram 1	1	375.0	378.0	0	15000	Laughing Gull	laugul	0.4867	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	375.0
+24	Spectrogram 1	1	378.0	381.0	0	15000	Laughing Gull	laugul	0.4189	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	378.0
+25	Spectrogram 1	1	381.0	384.0	0	15000	Yellow Warbler	yelwar	0.3249	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	381.0
+26	Spectrogram 1	1	444.0	447.0	0	15000	Willet	willet1	0.6854	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	444.0
+27	Spectrogram 1	1	468.0	471.0	0	15000	Willet	willet1	0.4654	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	468.0
+28	Spectrogram 1	1	474.0	477.0	0	15000	Forster's Tern	forter	0.2869	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	474.0
+29	Spectrogram 1	1	477.0	480.0	0	15000	Common Tern	comter	0.4274	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	477.0
+30	Spectrogram 1	1	510.0	513.0	0	15000	Yellow Warbler	yelwar	0.3785	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	510.0
+31	Spectrogram 1	1	537.0	540.0	0	15000	Purple Martin	purmar	0.8913	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	537.0
+32	Spectrogram 1	1	549.0	552.0	0	15000	Willet	willet1	0.7826	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	549.0
+33	Spectrogram 1	1	555.0	558.0	0	15000	Yellow Warbler	yelwar	0.3214	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	555.0
+34	Spectrogram 1	1	558.0	561.0	0	15000	Gray Catbird	grycat	0.2785	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	558.0
+35	Spectrogram 1	1	564.0	567.0	0	15000	Seaside Sparrow	seaspa	0.2805	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	564.0
+36	Spectrogram 1	1	567.0	570.0	0	15000	Wilson's Snipe	wilsni1	0.4600	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	567.0
+37	Spectrogram 1	1	582.0	585.0	0	15000	Willet	willet1	0.9193	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	582.0
+38	Spectrogram 1	1	585.0	588.0	0	15000	Willet	willet1	0.3603	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	585.0
+39	Spectrogram 1	1	588.0	591.0	0	15000	Yellow Warbler	yelwar	0.2551	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	588.0
+40	Spectrogram 1	1	591.0	594.0	0	15000	Gray Catbird	grycat	0.4234	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	591.0
+41	Spectrogram 1	1	597.0	600.0	0	15000	Willet	willet1	0.3218	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	597.0
+42	Spectrogram 1	1	639.0	642.0	0	15000	Yellow Warbler	yelwar	0.3856	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	639.0
+43	Spectrogram 1	1	648.0	651.0	0	15000	Yellow Warbler	yelwar	0.2636	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	648.0
+44	Spectrogram 1	1	672.0	675.0	0	15000	Yellow Warbler	yelwar	0.3294	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	672.0
+45	Spectrogram 1	1	702.0	705.0	0	15000	Gray Catbird	grycat	0.4358	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	702.0
+46	Spectrogram 1	1	864.0	867.0	0	15000	Seaside Sparrow	seaspa	0.5436	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_090000.wav	864.0

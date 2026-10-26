@@ -1,0 +1,16 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	75.0	78.0	0	15000	Osprey	osprey	0.2516	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240807_150000.wav	75.0
+2	Spectrogram 1	1	78.0	81.0	0	15000	Osprey	osprey	0.9289	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240807_150000.wav	78.0
+3	Spectrogram 1	1	81.0	84.0	0	15000	Evening Grosbeak	evegro	0.5124	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240807_150000.wav	81.0
+4	Spectrogram 1	1	111.0	114.0	0	15000	Least Bittern	leabit	0.2515	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240807_150000.wav	111.0
+5	Spectrogram 1	1	117.0	120.0	0	15000	Osprey	osprey	0.3215	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240807_150000.wav	117.0
+6	Spectrogram 1	1	141.0	144.0	0	15000	Evening Grosbeak	evegro	0.5303	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240807_150000.wav	141.0
+7	Spectrogram 1	1	144.0	147.0	0	15000	Osprey	osprey	0.3990	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240807_150000.wav	144.0
+8	Spectrogram 1	1	153.0	156.0	0	15000	Osprey	osprey	0.2722	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240807_150000.wav	153.0
+9	Spectrogram 1	1	156.0	159.0	0	15000	Evening Grosbeak	evegro	0.4085	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240807_150000.wav	156.0
+10	Spectrogram 1	1	180.0	183.0	0	15000	Evening Grosbeak	evegro	0.5464	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240807_150000.wav	180.0
+11	Spectrogram 1	1	204.0	207.0	0	15000	Osprey	osprey	0.5386	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240807_150000.wav	204.0
+12	Spectrogram 1	1	216.0	219.0	0	15000	Evening Grosbeak	evegro	0.4028	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240807_150000.wav	216.0
+13	Spectrogram 1	1	216.0	219.0	0	15000	Purple Martin	purmar	0.2996	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240807_150000.wav	216.0
+14	Spectrogram 1	1	483.0	486.0	0	15000	Green-winged Teal	gnwtea	0.4432	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240807_150000.wav	483.0
+15	Spectrogram 1	1	567.0	570.0	0	15000	Laughing Gull	laugul	0.2843	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240807_150000.wav	567.0

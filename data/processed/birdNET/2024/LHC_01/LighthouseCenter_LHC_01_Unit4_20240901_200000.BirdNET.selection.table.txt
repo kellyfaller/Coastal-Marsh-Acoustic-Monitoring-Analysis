@@ -1,0 +1,17 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	24.0	27.0	0	15000	Canada Goose	cangoo	0.2556	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240901_200000.wav	24.0
+2	Spectrogram 1	1	30.0	33.0	0	15000	Canada Goose	cangoo	0.5481	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240901_200000.wav	30.0
+3	Spectrogram 1	1	33.0	36.0	0	15000	Canada Goose	cangoo	0.7350	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240901_200000.wav	33.0
+4	Spectrogram 1	1	36.0	39.0	0	15000	Canada Goose	cangoo	0.6983	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240901_200000.wav	36.0
+5	Spectrogram 1	1	39.0	42.0	0	15000	Canada Goose	cangoo	0.5593	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240901_200000.wav	39.0
+6	Spectrogram 1	1	105.0	108.0	0	15000	Canada Goose	cangoo	0.5082	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240901_200000.wav	105.0
+7	Spectrogram 1	1	111.0	114.0	0	15000	Canada Goose	cangoo	0.7235	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240901_200000.wav	111.0
+8	Spectrogram 1	1	114.0	117.0	0	15000	Canada Goose	cangoo	0.6423	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240901_200000.wav	114.0
+9	Spectrogram 1	1	354.0	357.0	0	15000	Golden-crowned Kinglet	gockin	0.2878	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240901_200000.wav	354.0
+10	Spectrogram 1	1	435.0	438.0	0	15000	Common Raven	comrav	0.3579	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240901_200000.wav	435.0
+11	Spectrogram 1	1	468.0	471.0	0	15000	Jumping Bush Cricket	t-11850192	0.4109	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240901_200000.wav	468.0
+12	Spectrogram 1	1	663.0	666.0	0	15000	Great Horned Owl	grhowl	0.3637	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240901_200000.wav	663.0
+13	Spectrogram 1	1	672.0	675.0	0	15000	Great Horned Owl	grhowl	0.8246	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240901_200000.wav	672.0
+14	Spectrogram 1	1	675.0	678.0	0	15000	Great Horned Owl	grhowl	0.3640	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240901_200000.wav	675.0
+15	Spectrogram 1	1	678.0	681.0	0	15000	Great Horned Owl	grhowl	0.6999	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240901_200000.wav	678.0
+16	Spectrogram 1	1	690.0	693.0	0	15000	Great Horned Owl	grhowl	0.2581	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240901_200000.wav	690.0

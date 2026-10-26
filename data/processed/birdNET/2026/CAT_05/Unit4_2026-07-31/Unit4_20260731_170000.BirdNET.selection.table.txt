@@ -1,0 +1,22 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	18.0	21.0	0	15000	Golden-crowned Kinglet	gockin	0.4495	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-31\Unit4_20260731_170000.wav	18.0
+2	Spectrogram 1	1	24.0	27.0	0	15000	Golden-crowned Kinglet	gockin	0.2986	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-31\Unit4_20260731_170000.wav	24.0
+3	Spectrogram 1	1	36.0	39.0	0	15000	Golden-crowned Kinglet	gockin	0.4952	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-31\Unit4_20260731_170000.wav	36.0
+4	Spectrogram 1	1	45.0	48.0	0	15000	Dunlin	dunlin	0.6103	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-31\Unit4_20260731_170000.wav	45.0
+5	Spectrogram 1	1	162.0	165.0	0	15000	Hairy Woodpecker	haiwoo	0.5749	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-31\Unit4_20260731_170000.wav	162.0
+6	Spectrogram 1	1	243.0	246.0	0	15000	Purple Martin	purmar	0.5089	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-31\Unit4_20260731_170000.wav	243.0
+7	Spectrogram 1	1	333.0	336.0	0	15000	Purple Martin	purmar	0.3525	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-31\Unit4_20260731_170000.wav	333.0
+8	Spectrogram 1	1	336.0	339.0	0	15000	Golden-crowned Kinglet	gockin	0.3927	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-31\Unit4_20260731_170000.wav	336.0
+9	Spectrogram 1	1	351.0	354.0	0	15000	Golden-crowned Kinglet	gockin	0.4692	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-31\Unit4_20260731_170000.wav	351.0
+10	Spectrogram 1	1	396.0	399.0	0	15000	Purple Martin	purmar	0.7186	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-31\Unit4_20260731_170000.wav	396.0
+11	Spectrogram 1	1	411.0	414.0	0	15000	Purple Martin	purmar	0.2776	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-31\Unit4_20260731_170000.wav	411.0
+12	Spectrogram 1	1	501.0	504.0	0	15000	Purple Martin	purmar	0.4274	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-31\Unit4_20260731_170000.wav	501.0
+13	Spectrogram 1	1	528.0	531.0	0	15000	Herring Gull	hergul	0.3029	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-31\Unit4_20260731_170000.wav	528.0
+14	Spectrogram 1	1	564.0	567.0	0	15000	Purple Martin	purmar	0.2505	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-31\Unit4_20260731_170000.wav	564.0
+15	Spectrogram 1	1	576.0	579.0	0	15000	Golden-crowned Kinglet	gockin	0.4932	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-31\Unit4_20260731_170000.wav	576.0
+16	Spectrogram 1	1	582.0	585.0	0	15000	Red Crossbill	redcro	0.4454	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-31\Unit4_20260731_170000.wav	582.0
+17	Spectrogram 1	1	684.0	687.0	0	15000	Purple Martin	purmar	0.6895	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-31\Unit4_20260731_170000.wav	684.0
+18	Spectrogram 1	1	744.0	747.0	0	15000	Purple Martin	purmar	0.2772	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-31\Unit4_20260731_170000.wav	744.0
+19	Spectrogram 1	1	750.0	753.0	0	15000	Golden-crowned Kinglet	gockin	0.3209	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-31\Unit4_20260731_170000.wav	750.0
+20	Spectrogram 1	1	768.0	771.0	0	15000	Purple Martin	purmar	0.3523	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-31\Unit4_20260731_170000.wav	768.0
+21	Spectrogram 1	1	867.0	870.0	0	15000	Golden-crowned Kinglet	gockin	0.7259	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-31\Unit4_20260731_170000.wav	867.0

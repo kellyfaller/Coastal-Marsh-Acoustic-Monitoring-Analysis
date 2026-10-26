@@ -1,0 +1,13 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	189.0	192.0	0	15000	Eastern Bluebird	easblu	0.9556	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240819_090000.wav	189.0
+2	Spectrogram 1	1	210.0	213.0	0	15000	Eastern Bluebird	easblu	0.4895	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240819_090000.wav	210.0
+3	Spectrogram 1	1	357.0	360.0	0	15000	Seaside Sparrow	seaspa	0.3635	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240819_090000.wav	357.0
+4	Spectrogram 1	1	435.0	438.0	0	15000	Northern Flicker	norfli	0.5260	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240819_090000.wav	435.0
+5	Spectrogram 1	1	441.0	444.0	0	15000	Northern Flicker	norfli	0.2936	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240819_090000.wav	441.0
+6	Spectrogram 1	1	453.0	456.0	0	15000	Great Egret	greegr	0.8264	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240819_090000.wav	453.0
+7	Spectrogram 1	1	456.0	459.0	0	15000	Great Egret	greegr	0.9115	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240819_090000.wav	456.0
+8	Spectrogram 1	1	546.0	549.0	0	15000	Red-headed Woodpecker	rehwoo	0.2699	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240819_090000.wav	546.0
+9	Spectrogram 1	1	675.0	678.0	0	15000	Seaside Sparrow	seaspa	0.5935	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240819_090000.wav	675.0
+10	Spectrogram 1	1	678.0	681.0	0	15000	Seaside Sparrow	seaspa	0.5495	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240819_090000.wav	678.0
+11	Spectrogram 1	1	732.0	735.0	0	15000	Seaside Sparrow	seaspa	0.3491	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240819_090000.wav	732.0
+12	Spectrogram 1	1	810.0	813.0	0	15000	Seaside Sparrow	seaspa	0.3540	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240819_090000.wav	810.0

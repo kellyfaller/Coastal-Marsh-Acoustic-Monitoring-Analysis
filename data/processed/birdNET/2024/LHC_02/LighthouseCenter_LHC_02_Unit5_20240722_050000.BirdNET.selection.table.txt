@@ -1,0 +1,16 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	159.0	162.0	0	15000	Common Yellowthroat	comyel	0.2674	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240722_050000.wav	159.0
+2	Spectrogram 1	1	165.0	168.0	0	15000	Common Virtuoso Katydid	t-11851326	0.3561	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240722_050000.wav	165.0
+3	Spectrogram 1	1	168.0	171.0	0	15000	Common Virtuoso Katydid	t-11851326	0.2865	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240722_050000.wav	168.0
+4	Spectrogram 1	1	219.0	222.0	0	15000	Walker's Ground Cricket	t-11855914	0.2635	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240722_050000.wav	219.0
+5	Spectrogram 1	1	240.0	243.0	0	15000	Common Yellowthroat	comyel	0.3170	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240722_050000.wav	240.0
+6	Spectrogram 1	1	453.0	456.0	0	15000	Dunlin	dunlin	0.4527	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240722_050000.wav	453.0
+7	Spectrogram 1	1	492.0	495.0	0	15000	Cedar Waxwing	cedwax	0.2557	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240722_050000.wav	492.0
+8	Spectrogram 1	1	612.0	615.0	0	15000	Common Yellowthroat	comyel	0.2684	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240722_050000.wav	612.0
+9	Spectrogram 1	1	615.0	618.0	0	15000	Canada Goose	cangoo	0.3091	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240722_050000.wav	615.0
+10	Spectrogram 1	1	627.0	630.0	0	15000	Northern Saw-whet Owl	nswowl	0.3072	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240722_050000.wav	627.0
+11	Spectrogram 1	1	636.0	639.0	0	15000	Golden-crowned Kinglet	gockin	0.2555	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240722_050000.wav	636.0
+12	Spectrogram 1	1	720.0	723.0	0	15000	Northern Cardinal	norcar	0.3783	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240722_050000.wav	720.0
+13	Spectrogram 1	1	726.0	729.0	0	15000	Slender Meadow Katydid	t-11877699	0.3191	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240722_050000.wav	726.0
+14	Spectrogram 1	1	747.0	750.0	0	15000	Wilson's Snipe	wilsni1	0.2533	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240722_050000.wav	747.0
+15	Spectrogram 1	1	834.0	837.0	0	15000	Mourning Dove	moudov	0.2695	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240722_050000.wav	834.0

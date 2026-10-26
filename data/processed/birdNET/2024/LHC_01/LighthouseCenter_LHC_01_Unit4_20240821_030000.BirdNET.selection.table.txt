@@ -1,0 +1,20 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	132.0	135.0	0	15000	Golden-crowned Kinglet	gockin	0.3854	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240821_030000.wav	132.0
+2	Spectrogram 1	1	192.0	195.0	0	15000	Golden-crowned Kinglet	gockin	0.2877	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240821_030000.wav	192.0
+3	Spectrogram 1	1	204.0	207.0	0	15000	Golden-crowned Kinglet	gockin	0.3760	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240821_030000.wav	204.0
+4	Spectrogram 1	1	210.0	213.0	0	15000	Common Raven	comrav	0.3108	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240821_030000.wav	210.0
+5	Spectrogram 1	1	297.0	300.0	0	15000	White-crowned Sparrow	whcspa	0.3812	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240821_030000.wav	297.0
+6	Spectrogram 1	1	327.0	330.0	0	15000	Golden-crowned Kinglet	gockin	0.2648	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240821_030000.wav	327.0
+7	Spectrogram 1	1	399.0	402.0	0	15000	Golden-crowned Kinglet	gockin	0.5053	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240821_030000.wav	399.0
+8	Spectrogram 1	1	402.0	405.0	0	15000	Golden-crowned Kinglet	gockin	0.4374	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240821_030000.wav	402.0
+9	Spectrogram 1	1	477.0	480.0	0	15000	Golden-crowned Kinglet	gockin	0.8746	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240821_030000.wav	477.0
+10	Spectrogram 1	1	492.0	495.0	0	15000	Golden-crowned Kinglet	gockin	0.4994	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240821_030000.wav	492.0
+11	Spectrogram 1	1	501.0	504.0	0	15000	Golden-crowned Kinglet	gockin	0.4307	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240821_030000.wav	501.0
+12	Spectrogram 1	1	666.0	669.0	0	15000	Golden-crowned Kinglet	gockin	0.7321	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240821_030000.wav	666.0
+13	Spectrogram 1	1	666.0	669.0	0	15000	Red-breasted Nuthatch	rebnut	0.4249	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240821_030000.wav	666.0
+14	Spectrogram 1	1	678.0	681.0	0	15000	Golden-crowned Kinglet	gockin	0.3934	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240821_030000.wav	678.0
+15	Spectrogram 1	1	681.0	684.0	0	15000	Golden-crowned Kinglet	gockin	0.3910	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240821_030000.wav	681.0
+16	Spectrogram 1	1	696.0	699.0	0	15000	Golden-crowned Kinglet	gockin	0.2840	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240821_030000.wav	696.0
+17	Spectrogram 1	1	702.0	705.0	0	15000	Golden-crowned Kinglet	gockin	0.6533	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240821_030000.wav	702.0
+18	Spectrogram 1	1	705.0	708.0	0	15000	Golden-crowned Kinglet	gockin	0.2789	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240821_030000.wav	705.0
+19	Spectrogram 1	1	837.0	840.0	0	15000	Golden-crowned Kinglet	gockin	0.4256	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240821_030000.wav	837.0

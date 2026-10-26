@@ -1,0 +1,23 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	195.0	198.0	0	15000	Seaside Sparrow	seaspa	0.8644	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_100000.wav	195.0
+2	Spectrogram 1	1	219.0	222.0	0	15000	Seaside Sparrow	seaspa	0.8096	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_100000.wav	219.0
+3	Spectrogram 1	1	240.0	243.0	0	15000	Seaside Sparrow	seaspa	0.9133	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_100000.wav	240.0
+4	Spectrogram 1	1	249.0	252.0	0	15000	Seaside Sparrow	seaspa	0.7771	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_100000.wav	249.0
+5	Spectrogram 1	1	261.0	264.0	0	15000	Seaside Sparrow	seaspa	0.3561	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_100000.wav	261.0
+6	Spectrogram 1	1	270.0	273.0	0	15000	Seaside Sparrow	seaspa	0.8231	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_100000.wav	270.0
+7	Spectrogram 1	1	279.0	282.0	0	15000	Seaside Sparrow	seaspa	0.8639	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_100000.wav	279.0
+8	Spectrogram 1	1	285.0	288.0	0	15000	Seaside Sparrow	seaspa	0.9385	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_100000.wav	285.0
+9	Spectrogram 1	1	291.0	294.0	0	15000	Seaside Sparrow	seaspa	0.7656	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_100000.wav	291.0
+10	Spectrogram 1	1	303.0	306.0	0	15000	Seaside Sparrow	seaspa	0.7762	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_100000.wav	303.0
+11	Spectrogram 1	1	309.0	312.0	0	15000	Seaside Sparrow	seaspa	0.9400	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_100000.wav	309.0
+12	Spectrogram 1	1	315.0	318.0	0	15000	Seaside Sparrow	seaspa	0.9290	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_100000.wav	315.0
+13	Spectrogram 1	1	411.0	414.0	0	15000	Seaside Sparrow	seaspa	0.9394	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_100000.wav	411.0
+14	Spectrogram 1	1	420.0	423.0	0	15000	Seaside Sparrow	seaspa	0.4612	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_100000.wav	420.0
+15	Spectrogram 1	1	438.0	441.0	0	15000	Seaside Sparrow	seaspa	0.3525	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_100000.wav	438.0
+16	Spectrogram 1	1	444.0	447.0	0	15000	Seaside Sparrow	seaspa	0.5208	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_100000.wav	444.0
+17	Spectrogram 1	1	447.0	450.0	0	15000	Seaside Sparrow	seaspa	0.9091	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_100000.wav	447.0
+18	Spectrogram 1	1	453.0	456.0	0	15000	Forster's Tern	forter	0.9041	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_100000.wav	453.0
+19	Spectrogram 1	1	456.0	459.0	0	15000	Seaside Sparrow	seaspa	0.9771	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_100000.wav	456.0
+20	Spectrogram 1	1	513.0	516.0	0	15000	Seaside Sparrow	seaspa	0.4457	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_100000.wav	513.0
+21	Spectrogram 1	1	576.0	579.0	0	15000	Seaside Sparrow	seaspa	0.3325	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_100000.wav	576.0
+22	Spectrogram 1	1	849.0	852.0	0	15000	Chipping Sparrow	chispa	0.2934	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-11\Unit4_20260711_100000.wav	849.0

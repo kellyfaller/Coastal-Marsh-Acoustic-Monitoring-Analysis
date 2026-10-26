@@ -1,0 +1,7 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	240.0	243.0	0	15000	Ring-necked Pheasant	rinphe1	0.2694	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240704_030000.wav	240.0
+2	Spectrogram 1	1	249.0	252.0	0	15000	Black Rail	blkrai	0.5705	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240704_030000.wav	249.0
+3	Spectrogram 1	1	303.0	306.0	0	15000	Marsh Wren	marwre	0.7531	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240704_030000.wav	303.0
+4	Spectrogram 1	1	381.0	384.0	0	15000	Least Sandpiper	leasan	0.3005	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240704_030000.wav	381.0
+5	Spectrogram 1	1	615.0	618.0	0	15000	Marsh Wren	marwre	0.3173	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240704_030000.wav	615.0
+6	Spectrogram 1	1	765.0	768.0	0	15000	Dark-eyed Junco	daejun	0.4623	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240704_030000.wav	765.0

@@ -1,0 +1,7 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	147.0	150.0	0	15000	Herring Gull	hergul	0.6820	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240823_180000.wav	147.0
+2	Spectrogram 1	1	228.0	231.0	0	15000	Golden-crowned Kinglet	gockin	0.3716	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240823_180000.wav	228.0
+3	Spectrogram 1	1	327.0	330.0	0	15000	Golden-crowned Kinglet	gockin	0.4170	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240823_180000.wav	327.0
+4	Spectrogram 1	1	363.0	366.0	0	15000	Herring Gull	hergul	0.5982	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240823_180000.wav	363.0
+5	Spectrogram 1	1	735.0	738.0	0	15000	Lapland Longspur	laplon	0.6134	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240823_180000.wav	735.0
+6	Spectrogram 1	1	741.0	744.0	0	15000	Belted Kingfisher	belkin1	0.9029	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240823_180000.wav	741.0

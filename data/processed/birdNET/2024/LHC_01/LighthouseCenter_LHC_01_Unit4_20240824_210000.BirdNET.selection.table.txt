@@ -1,0 +1,21 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	300.0	303.0	0	15000	Common Virtuoso Katydid	t-11851326	0.2529	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240824_210000.wav	300.0
+2	Spectrogram 1	1	318.0	321.0	0	15000	Common Virtuoso Katydid	t-11851326	0.4179	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240824_210000.wav	318.0
+3	Spectrogram 1	1	333.0	336.0	0	15000	Common Virtuoso Katydid	t-11851326	0.5217	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240824_210000.wav	333.0
+4	Spectrogram 1	1	432.0	435.0	0	15000	Common Virtuoso Katydid	t-11851326	0.4698	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240824_210000.wav	432.0
+5	Spectrogram 1	1	444.0	447.0	0	15000	Common Virtuoso Katydid	t-11851326	0.4118	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240824_210000.wav	444.0
+6	Spectrogram 1	1	474.0	477.0	0	15000	Common Virtuoso Katydid	t-11851326	0.8494	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240824_210000.wav	474.0
+7	Spectrogram 1	1	483.0	486.0	0	15000	Common Virtuoso Katydid	t-11851326	0.3369	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240824_210000.wav	483.0
+8	Spectrogram 1	1	498.0	501.0	0	15000	Common Virtuoso Katydid	t-11851326	0.3243	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240824_210000.wav	498.0
+9	Spectrogram 1	1	552.0	555.0	0	15000	Common Virtuoso Katydid	t-11851326	0.3767	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240824_210000.wav	552.0
+10	Spectrogram 1	1	660.0	663.0	0	15000	Common Virtuoso Katydid	t-11851326	0.6319	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240824_210000.wav	660.0
+11	Spectrogram 1	1	672.0	675.0	0	15000	Common Virtuoso Katydid	t-11851326	0.2787	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240824_210000.wav	672.0
+12	Spectrogram 1	1	708.0	711.0	0	15000	Common Virtuoso Katydid	t-11851326	0.4678	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240824_210000.wav	708.0
+13	Spectrogram 1	1	714.0	717.0	0	15000	Common Virtuoso Katydid	t-11851326	0.4858	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240824_210000.wav	714.0
+14	Spectrogram 1	1	720.0	723.0	0	15000	Common Virtuoso Katydid	t-11851326	0.5095	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240824_210000.wav	720.0
+15	Spectrogram 1	1	729.0	732.0	0	15000	Common Virtuoso Katydid	t-11851326	0.5826	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240824_210000.wav	729.0
+16	Spectrogram 1	1	732.0	735.0	0	15000	Common Virtuoso Katydid	t-11851326	0.3299	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240824_210000.wav	732.0
+17	Spectrogram 1	1	753.0	756.0	0	15000	Common Virtuoso Katydid	t-11851326	0.8597	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240824_210000.wav	753.0
+18	Spectrogram 1	1	810.0	813.0	0	15000	Common Virtuoso Katydid	t-11851326	0.3971	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240824_210000.wav	810.0
+19	Spectrogram 1	1	831.0	834.0	0	15000	Common Virtuoso Katydid	t-11851326	0.6957	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240824_210000.wav	831.0
+20	Spectrogram 1	1	843.0	846.0	0	15000	Common Virtuoso Katydid	t-11851326	0.3142	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240824_210000.wav	843.0

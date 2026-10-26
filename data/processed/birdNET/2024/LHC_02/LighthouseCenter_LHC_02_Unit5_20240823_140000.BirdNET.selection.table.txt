@@ -1,0 +1,10 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	246.0	249.0	0	15000	American Woodcock	amewoo	0.3422	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240823_140000.wav	246.0
+2	Spectrogram 1	1	399.0	402.0	0	15000	Laughing Gull	laugul	0.5548	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240823_140000.wav	399.0
+3	Spectrogram 1	1	402.0	405.0	0	15000	Laughing Gull	laugul	0.7705	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240823_140000.wav	402.0
+4	Spectrogram 1	1	405.0	408.0	0	15000	Laughing Gull	laugul	0.7023	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240823_140000.wav	405.0
+5	Spectrogram 1	1	408.0	411.0	0	15000	Fish Crow	fiscro	0.7595	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240823_140000.wav	408.0
+6	Spectrogram 1	1	432.0	435.0	0	15000	Fish Crow	fiscro	0.8797	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240823_140000.wav	432.0
+7	Spectrogram 1	1	459.0	462.0	0	15000	Fish Crow	fiscro	0.9196	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240823_140000.wav	459.0
+8	Spectrogram 1	1	567.0	570.0	0	15000	Marbled Godwit	margod	0.4833	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240823_140000.wav	567.0
+9	Spectrogram 1	1	885.0	888.0	0	15000	American Crow	amecro	0.2892	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240823_140000.wav	885.0

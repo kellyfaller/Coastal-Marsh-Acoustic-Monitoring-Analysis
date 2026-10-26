@@ -1,0 +1,20 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	18.0	21.0	0	15000	Red-tailed Hawk	rethaw	0.3586	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240706_080000.wav	18.0
+2	Spectrogram 1	1	57.0	60.0	0	15000	Fish Crow	fiscro	0.6201	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240706_080000.wav	57.0
+3	Spectrogram 1	1	69.0	72.0	0	15000	Fish Crow	fiscro	0.3033	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240706_080000.wav	69.0
+4	Spectrogram 1	1	81.0	84.0	0	15000	Fish Crow	fiscro	0.8026	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240706_080000.wav	81.0
+5	Spectrogram 1	1	198.0	201.0	0	15000	Osprey	osprey	0.6619	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240706_080000.wav	198.0
+6	Spectrogram 1	1	213.0	216.0	0	15000	Common Yellowthroat	comyel	0.2792	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240706_080000.wav	213.0
+7	Spectrogram 1	1	243.0	246.0	0	15000	Osprey	osprey	0.8438	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240706_080000.wav	243.0
+8	Spectrogram 1	1	246.0	249.0	0	15000	Osprey	osprey	0.8832	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240706_080000.wav	246.0
+9	Spectrogram 1	1	252.0	255.0	0	15000	Osprey	osprey	0.4506	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240706_080000.wav	252.0
+10	Spectrogram 1	1	294.0	297.0	0	15000	Fish Crow	fiscro	0.4057	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240706_080000.wav	294.0
+11	Spectrogram 1	1	303.0	306.0	0	15000	Fish Crow	fiscro	0.3476	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240706_080000.wav	303.0
+12	Spectrogram 1	1	306.0	309.0	0	15000	Least Bittern	leabit	0.2847	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240706_080000.wav	306.0
+13	Spectrogram 1	1	315.0	318.0	0	15000	Osprey	osprey	0.2894	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240706_080000.wav	315.0
+14	Spectrogram 1	1	318.0	321.0	0	15000	Osprey	osprey	0.7162	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240706_080000.wav	318.0
+15	Spectrogram 1	1	360.0	363.0	0	15000	Fish Crow	fiscro	0.7774	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240706_080000.wav	360.0
+16	Spectrogram 1	1	477.0	480.0	0	15000	Osprey	osprey	0.3590	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240706_080000.wav	477.0
+17	Spectrogram 1	1	618.0	621.0	0	15000	American Woodcock	amewoo	0.7620	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240706_080000.wav	618.0
+18	Spectrogram 1	1	843.0	846.0	0	15000	Tree Swallow	treswa	0.5269	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240706_080000.wav	843.0
+19	Spectrogram 1	1	891.0	894.0	0	15000	Seaside Sparrow	seaspa	0.2535	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240706_080000.wav	891.0

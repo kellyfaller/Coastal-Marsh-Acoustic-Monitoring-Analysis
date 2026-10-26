@@ -1,0 +1,11 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	177.0	180.0	0	15000	Black-crowned Night-Heron	bcnher	0.8055	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240712_210000.wav	177.0
+2	Spectrogram 1	1	309.0	312.0	0	15000	Solitary Sandpiper	solsan	0.3763	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240712_210000.wav	309.0
+3	Spectrogram 1	1	318.0	321.0	0	15000	Solitary Sandpiper	solsan	0.9292	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240712_210000.wav	318.0
+4	Spectrogram 1	1	321.0	324.0	0	15000	Solitary Sandpiper	solsan	0.9100	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240712_210000.wav	321.0
+5	Spectrogram 1	1	321.0	324.0	0	15000	Spotted Sandpiper	sposan	0.2926	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240712_210000.wav	321.0
+6	Spectrogram 1	1	333.0	336.0	0	15000	Solitary Sandpiper	solsan	0.3949	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240712_210000.wav	333.0
+7	Spectrogram 1	1	339.0	342.0	0	15000	Solitary Sandpiper	solsan	0.2880	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240712_210000.wav	339.0
+8	Spectrogram 1	1	345.0	348.0	0	15000	Solitary Sandpiper	solsan	0.2667	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240712_210000.wav	345.0
+9	Spectrogram 1	1	885.0	888.0	0	15000	Dog	dogdog	0.7005	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240712_210000.wav	885.0
+10	Spectrogram 1	1	888.0	891.0	0	15000	Dog	dogdog	0.2674	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240712_210000.wav	888.0

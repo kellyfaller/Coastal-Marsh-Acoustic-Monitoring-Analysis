@@ -1,0 +1,23 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	51.0	54.0	0	15000	Worm-eating Warbler	woewar1	0.2768	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_110000.wav	51.0
+2	Spectrogram 1	1	54.0	57.0	0	15000	Worm-eating Warbler	woewar1	0.4258	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_110000.wav	54.0
+3	Spectrogram 1	1	78.0	81.0	0	15000	Chipping Sparrow	chispa	0.5672	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_110000.wav	78.0
+4	Spectrogram 1	1	93.0	96.0	0	15000	Chipping Sparrow	chispa	0.3894	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_110000.wav	93.0
+5	Spectrogram 1	1	147.0	150.0	0	15000	Worm-eating Warbler	woewar1	0.4096	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_110000.wav	147.0
+6	Spectrogram 1	1	168.0	171.0	0	15000	Chipping Sparrow	chispa	0.5495	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_110000.wav	168.0
+7	Spectrogram 1	1	186.0	189.0	0	15000	Chipping Sparrow	chispa	0.3218	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_110000.wav	186.0
+8	Spectrogram 1	1	189.0	192.0	0	15000	Chipping Sparrow	chispa	0.3799	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_110000.wav	189.0
+9	Spectrogram 1	1	453.0	456.0	0	15000	Chipping Sparrow	chispa	0.2650	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_110000.wav	453.0
+10	Spectrogram 1	1	507.0	510.0	0	15000	Chipping Sparrow	chispa	0.6895	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_110000.wav	507.0
+11	Spectrogram 1	1	507.0	510.0	0	15000	Worm-eating Warbler	woewar1	0.2572	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_110000.wav	507.0
+12	Spectrogram 1	1	534.0	537.0	0	15000	Worm-eating Warbler	woewar1	0.5450	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_110000.wav	534.0
+13	Spectrogram 1	1	567.0	570.0	0	15000	Chipping Sparrow	chispa	0.3435	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_110000.wav	567.0
+14	Spectrogram 1	1	633.0	636.0	0	15000	Worm-eating Warbler	woewar1	0.6940	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_110000.wav	633.0
+15	Spectrogram 1	1	639.0	642.0	0	15000	Worm-eating Warbler	woewar1	0.5667	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_110000.wav	639.0
+16	Spectrogram 1	1	747.0	750.0	0	15000	Engine	engine	0.3638	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_110000.wav	747.0
+17	Spectrogram 1	1	807.0	810.0	0	15000	Chipping Sparrow	chispa	0.4875	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_110000.wav	807.0
+18	Spectrogram 1	1	822.0	825.0	0	15000	Chipping Sparrow	chispa	0.3459	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_110000.wav	822.0
+19	Spectrogram 1	1	825.0	828.0	0	15000	Chipping Sparrow	chispa	0.4659	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_110000.wav	825.0
+20	Spectrogram 1	1	825.0	828.0	0	15000	Worm-eating Warbler	woewar1	0.2629	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_110000.wav	825.0
+21	Spectrogram 1	1	888.0	891.0	0	15000	Worm-eating Warbler	woewar1	0.3233	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_110000.wav	888.0
+22	Spectrogram 1	1	894.0	897.0	0	15000	Worm-eating Warbler	woewar1	0.5076	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_110000.wav	894.0

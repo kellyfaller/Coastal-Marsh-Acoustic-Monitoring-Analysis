@@ -1,0 +1,5 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	138.0	141.0	0	15000	Eastern Kingbird	easkin	0.5798	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240711_210000.wav	138.0
+2	Spectrogram 1	1	549.0	552.0	0	15000	Engine	engine	0.5934	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240711_210000.wav	549.0
+3	Spectrogram 1	1	639.0	642.0	0	15000	Engine	engine	0.4998	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240711_210000.wav	639.0
+4	Spectrogram 1	1	657.0	660.0	0	15000	Engine	engine	0.3716	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240711_210000.wav	657.0

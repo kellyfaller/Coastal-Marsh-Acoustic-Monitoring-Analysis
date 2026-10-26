@@ -1,0 +1,13 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	81.0	84.0	0	15000	Osprey	osprey	0.4309	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240714_170000.wav	81.0
+2	Spectrogram 1	1	492.0	495.0	0	15000	House Finch	houfin	0.5598	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240714_170000.wav	492.0
+3	Spectrogram 1	1	534.0	537.0	0	15000	Osprey	osprey	0.3822	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240714_170000.wav	534.0
+4	Spectrogram 1	1	537.0	540.0	0	15000	Osprey	osprey	0.8312	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240714_170000.wav	537.0
+5	Spectrogram 1	1	564.0	567.0	0	15000	Osprey	osprey	0.9904	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240714_170000.wav	564.0
+6	Spectrogram 1	1	567.0	570.0	0	15000	Osprey	osprey	0.9221	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240714_170000.wav	567.0
+7	Spectrogram 1	1	567.0	570.0	0	15000	Purple Martin	purmar	0.3490	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240714_170000.wav	567.0
+8	Spectrogram 1	1	732.0	735.0	0	15000	Great Egret	greegr	0.8107	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240714_170000.wav	732.0
+9	Spectrogram 1	1	735.0	738.0	0	15000	Great Egret	greegr	0.9766	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240714_170000.wav	735.0
+10	Spectrogram 1	1	762.0	765.0	0	15000	Osprey	osprey	0.9817	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240714_170000.wav	762.0
+11	Spectrogram 1	1	765.0	768.0	0	15000	Osprey	osprey	0.9787	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240714_170000.wav	765.0
+12	Spectrogram 1	1	789.0	792.0	0	15000	Golden-crowned Kinglet	gockin	0.2964	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240714_170000.wav	789.0

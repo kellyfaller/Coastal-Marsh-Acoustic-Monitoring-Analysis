@@ -1,0 +1,5 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	15.0	18.0	0	15000	Golden-crowned Kinglet	gockin	0.3282	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240903_050000.wav	15.0
+2	Spectrogram 1	1	21.0	24.0	0	15000	Golden-crowned Kinglet	gockin	0.4229	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240903_050000.wav	21.0
+3	Spectrogram 1	1	78.0	81.0	0	15000	Golden-crowned Kinglet	gockin	0.4767	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240903_050000.wav	78.0
+4	Spectrogram 1	1	195.0	198.0	0	15000	Yellow-rumped Warbler	yerwar	0.2617	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240903_050000.wav	195.0

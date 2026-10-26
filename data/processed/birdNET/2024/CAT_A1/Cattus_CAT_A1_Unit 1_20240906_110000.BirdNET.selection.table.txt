@@ -1,0 +1,4 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	210.0	213.0	0	15000	Semipalmated Plover	semplo	0.4898	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240906_110000.wav	210.0
+2	Spectrogram 1	1	459.0	462.0	0	15000	Great Egret	greegr	0.9193	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240906_110000.wav	459.0
+3	Spectrogram 1	1	657.0	660.0	0	15000	Osprey	osprey	0.7117	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240906_110000.wav	657.0

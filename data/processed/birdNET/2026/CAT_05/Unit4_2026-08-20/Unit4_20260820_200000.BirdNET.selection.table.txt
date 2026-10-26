@@ -1,0 +1,9 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	261.0	264.0	0	15000	Yellow Rail	yelrai	0.3943	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-20\Unit4_20260820_200000.wav	261.0
+2	Spectrogram 1	1	264.0	267.0	0	15000	Yellow Rail	yelrai	0.3047	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-20\Unit4_20260820_200000.wav	264.0
+3	Spectrogram 1	1	351.0	354.0	0	15000	Engine	engine	0.6050	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-20\Unit4_20260820_200000.wav	351.0
+4	Spectrogram 1	1	357.0	360.0	0	15000	Engine	engine	0.5493	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-20\Unit4_20260820_200000.wav	357.0
+5	Spectrogram 1	1	360.0	363.0	0	15000	Engine	engine	0.5284	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-20\Unit4_20260820_200000.wav	360.0
+6	Spectrogram 1	1	366.0	369.0	0	15000	Engine	engine	0.6377	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-20\Unit4_20260820_200000.wav	366.0
+7	Spectrogram 1	1	387.0	390.0	0	15000	Engine	engine	0.3780	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-20\Unit4_20260820_200000.wav	387.0
+8	Spectrogram 1	1	888.0	891.0	0	15000	Engine	engine	0.5232	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-20\Unit4_20260820_200000.wav	888.0

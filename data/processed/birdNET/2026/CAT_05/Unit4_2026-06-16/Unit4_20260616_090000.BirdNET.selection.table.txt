@@ -1,0 +1,6 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	48.0	51.0	0	15000	Greater Yellowlegs	greyel	0.2517	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-16\Unit4_20260616_090000.wav	48.0
+2	Spectrogram 1	1	183.0	186.0	0	15000	Seaside Sparrow	seaspa	0.7722	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-16\Unit4_20260616_090000.wav	183.0
+3	Spectrogram 1	1	189.0	192.0	0	15000	Seaside Sparrow	seaspa	0.9590	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-16\Unit4_20260616_090000.wav	189.0
+4	Spectrogram 1	1	195.0	198.0	0	15000	Seaside Sparrow	seaspa	0.9243	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-16\Unit4_20260616_090000.wav	195.0
+5	Spectrogram 1	1	687.0	690.0	0	15000	Greater Yellowlegs	greyel	0.4099	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-16\Unit4_20260616_090000.wav	687.0

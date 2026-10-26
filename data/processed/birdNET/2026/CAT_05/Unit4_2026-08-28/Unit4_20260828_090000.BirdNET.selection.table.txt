@@ -1,0 +1,5 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	0.0	3.0	0	15000	Broad-winged Hawk	brwhaw	0.3068	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_090000.wav	0.0
+2	Spectrogram 1	1	279.0	282.0	0	15000	Whimbrel	whimbr	0.8583	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_090000.wav	279.0
+3	Spectrogram 1	1	300.0	303.0	0	15000	Whimbrel	whimbr	0.5294	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_090000.wav	300.0
+4	Spectrogram 1	1	300.0	303.0	0	15000	Lesser Yellowlegs	lesyel	0.5116	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-28\Unit4_20260828_090000.wav	300.0

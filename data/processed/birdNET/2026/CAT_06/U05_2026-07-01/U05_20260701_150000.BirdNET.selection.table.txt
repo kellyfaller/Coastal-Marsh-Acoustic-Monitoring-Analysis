@@ -1,0 +1,11 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	57.0	60.0	0	15000	Red-winged Blackbird	rewbla	0.2798	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-01\U05_20260701_150000.wav	57.0
+2	Spectrogram 1	1	57.0	60.0	0	15000	Lapland Longspur	laplon	0.2560	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-01\U05_20260701_150000.wav	57.0
+3	Spectrogram 1	1	237.0	240.0	0	15000	Marsh Wren	marwre	0.7107	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-01\U05_20260701_150000.wav	237.0
+4	Spectrogram 1	1	252.0	255.0	0	15000	Marsh Wren	marwre	0.2729	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-01\U05_20260701_150000.wav	252.0
+5	Spectrogram 1	1	285.0	288.0	0	15000	Yellow-rumped Warbler	yerwar	0.3115	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-01\U05_20260701_150000.wav	285.0
+6	Spectrogram 1	1	498.0	501.0	0	15000	Song Sparrow	sonspa	0.3715	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-01\U05_20260701_150000.wav	498.0
+7	Spectrogram 1	1	507.0	510.0	0	15000	Song Sparrow	sonspa	0.3584	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-01\U05_20260701_150000.wav	507.0
+8	Spectrogram 1	1	663.0	666.0	0	15000	Fireworks	frwrks	0.3264	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-01\U05_20260701_150000.wav	663.0
+9	Spectrogram 1	1	879.0	882.0	0	15000	Osprey	osprey	0.8929	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-01\U05_20260701_150000.wav	879.0
+10	Spectrogram 1	1	897.0	900.0	0	15000	Osprey	osprey	0.4913	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-01\U05_20260701_150000.wav	897.0

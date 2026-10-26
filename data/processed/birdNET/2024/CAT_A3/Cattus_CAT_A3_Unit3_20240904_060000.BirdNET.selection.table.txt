@@ -1,0 +1,30 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	96.0	99.0	0	15000	Golden-crowned Kinglet	gockin	0.3808	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240904_060000.wav	96.0
+2	Spectrogram 1	1	216.0	219.0	0	15000	Mallard	mallar3	0.3482	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240904_060000.wav	216.0
+3	Spectrogram 1	1	231.0	234.0	0	15000	Carolina Wren	carwre	0.3391	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240904_060000.wav	231.0
+4	Spectrogram 1	1	270.0	273.0	0	15000	Carolina Wren	carwre	0.3901	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240904_060000.wav	270.0
+5	Spectrogram 1	1	276.0	279.0	0	15000	Carolina Wren	carwre	0.6711	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240904_060000.wav	276.0
+6	Spectrogram 1	1	282.0	285.0	0	15000	Carolina Wren	carwre	0.3540	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240904_060000.wav	282.0
+7	Spectrogram 1	1	321.0	324.0	0	15000	Carolina Wren	carwre	0.8589	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240904_060000.wav	321.0
+8	Spectrogram 1	1	330.0	333.0	0	15000	Northern Shrike	norshr4	0.5083	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240904_060000.wav	330.0
+9	Spectrogram 1	1	357.0	360.0	0	15000	Carolina Wren	carwre	0.8263	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240904_060000.wav	357.0
+10	Spectrogram 1	1	360.0	363.0	0	15000	Carolina Wren	carwre	0.7756	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240904_060000.wav	360.0
+11	Spectrogram 1	1	396.0	399.0	0	15000	Carolina Wren	carwre	0.8996	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240904_060000.wav	396.0
+12	Spectrogram 1	1	405.0	408.0	0	15000	Carolina Wren	carwre	0.9598	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240904_060000.wav	405.0
+13	Spectrogram 1	1	414.0	417.0	0	15000	Carolina Wren	carwre	0.9003	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240904_060000.wav	414.0
+14	Spectrogram 1	1	435.0	438.0	0	15000	Carolina Wren	carwre	0.6595	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240904_060000.wav	435.0
+15	Spectrogram 1	1	441.0	444.0	0	15000	Carolina Wren	carwre	0.3539	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240904_060000.wav	441.0
+16	Spectrogram 1	1	447.0	450.0	0	15000	Carolina Wren	carwre	0.8777	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240904_060000.wav	447.0
+17	Spectrogram 1	1	450.0	453.0	0	15000	Carolina Wren	carwre	0.8845	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240904_060000.wav	450.0
+18	Spectrogram 1	1	471.0	474.0	0	15000	Carolina Wren	carwre	0.9899	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240904_060000.wav	471.0
+19	Spectrogram 1	1	507.0	510.0	0	15000	Carolina Wren	carwre	0.9125	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240904_060000.wav	507.0
+20	Spectrogram 1	1	546.0	549.0	0	15000	Carolina Wren	carwre	0.9787	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240904_060000.wav	546.0
+21	Spectrogram 1	1	615.0	618.0	0	15000	Gray Catbird	grycat	0.9241	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240904_060000.wav	615.0
+22	Spectrogram 1	1	678.0	681.0	0	15000	Carolina Wren	carwre	0.4102	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240904_060000.wav	678.0
+23	Spectrogram 1	1	696.0	699.0	0	15000	Carolina Wren	carwre	0.7954	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240904_060000.wav	696.0
+24	Spectrogram 1	1	708.0	711.0	0	15000	Carolina Wren	carwre	0.3789	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240904_060000.wav	708.0
+25	Spectrogram 1	1	735.0	738.0	0	15000	Carolina Wren	carwre	0.2704	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240904_060000.wav	735.0
+26	Spectrogram 1	1	888.0	891.0	0	15000	Belted Kingfisher	belkin1	0.9965	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240904_060000.wav	888.0
+27	Spectrogram 1	1	891.0	894.0	0	15000	Belted Kingfisher	belkin1	0.9814	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240904_060000.wav	891.0
+28	Spectrogram 1	1	894.0	897.0	0	15000	Belted Kingfisher	belkin1	0.9143	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240904_060000.wav	894.0
+29	Spectrogram 1	1	897.0	900.0	0	15000	Belted Kingfisher	belkin1	0.9927	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240904_060000.wav	897.0

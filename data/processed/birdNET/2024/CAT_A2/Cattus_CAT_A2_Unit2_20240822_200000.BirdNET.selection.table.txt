@@ -1,0 +1,10 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	117.0	120.0	0	15000	Common Virtuoso Katydid	t-11851326	0.3048	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240822_200000.wav	117.0
+2	Spectrogram 1	1	153.0	156.0	0	15000	Laughing Gull	laugul	0.8214	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240822_200000.wav	153.0
+3	Spectrogram 1	1	375.0	378.0	0	15000	Great Horned Owl	grhowl	0.2780	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240822_200000.wav	375.0
+4	Spectrogram 1	1	558.0	561.0	0	15000	Osprey	osprey	0.4009	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240822_200000.wav	558.0
+5	Spectrogram 1	1	561.0	564.0	0	15000	Osprey	osprey	0.4243	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240822_200000.wav	561.0
+6	Spectrogram 1	1	639.0	642.0	0	15000	Engine	engine	0.4946	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240822_200000.wav	639.0
+7	Spectrogram 1	1	639.0	642.0	0	15000	Siren	siren1	0.3020	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240822_200000.wav	639.0
+8	Spectrogram 1	1	642.0	645.0	0	15000	Engine	engine	0.2636	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240822_200000.wav	642.0
+9	Spectrogram 1	1	783.0	786.0	0	15000	Osprey	osprey	0.2713	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240822_200000.wav	783.0

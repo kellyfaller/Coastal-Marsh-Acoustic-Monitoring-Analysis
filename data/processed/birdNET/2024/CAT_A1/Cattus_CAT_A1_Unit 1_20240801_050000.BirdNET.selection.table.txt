@@ -1,0 +1,15 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	135.0	138.0	0	15000	Seaside Sparrow	seaspa	0.3461	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240801_050000.wav	135.0
+2	Spectrogram 1	1	162.0	165.0	0	15000	Marsh Wren	marwre	0.4146	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240801_050000.wav	162.0
+3	Spectrogram 1	1	189.0	192.0	0	15000	Seaside Sparrow	seaspa	0.3475	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240801_050000.wav	189.0
+4	Spectrogram 1	1	192.0	195.0	0	15000	Marsh Wren	marwre	0.3085	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240801_050000.wav	192.0
+5	Spectrogram 1	1	258.0	261.0	0	15000	Marsh Wren	marwre	0.4373	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240801_050000.wav	258.0
+6	Spectrogram 1	1	327.0	330.0	0	15000	Marsh Wren	marwre	0.3059	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240801_050000.wav	327.0
+7	Spectrogram 1	1	351.0	354.0	0	15000	Seaside Sparrow	seaspa	0.3310	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240801_050000.wav	351.0
+8	Spectrogram 1	1	390.0	393.0	0	15000	Marsh Wren	marwre	0.3350	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240801_050000.wav	390.0
+9	Spectrogram 1	1	402.0	405.0	0	15000	Marsh Wren	marwre	0.4124	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240801_050000.wav	402.0
+10	Spectrogram 1	1	477.0	480.0	0	15000	Seaside Sparrow	seaspa	0.6080	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240801_050000.wav	477.0
+11	Spectrogram 1	1	561.0	564.0	0	15000	Seaside Sparrow	seaspa	0.6922	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240801_050000.wav	561.0
+12	Spectrogram 1	1	666.0	669.0	0	15000	Seaside Sparrow	seaspa	0.4135	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240801_050000.wav	666.0
+13	Spectrogram 1	1	696.0	699.0	0	15000	Marsh Wren	marwre	0.4882	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240801_050000.wav	696.0
+14	Spectrogram 1	1	855.0	858.0	0	15000	Seaside Sparrow	seaspa	0.2535	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240801_050000.wav	855.0

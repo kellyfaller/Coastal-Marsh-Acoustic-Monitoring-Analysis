@@ -1,0 +1,27 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	3.0	6.0	0	15000	Chipping Sparrow	chispa	0.3547	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_100000.wav	3.0
+2	Spectrogram 1	1	6.0	9.0	0	15000	Chipping Sparrow	chispa	0.4611	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_100000.wav	6.0
+3	Spectrogram 1	1	84.0	87.0	0	15000	Chipping Sparrow	chispa	0.3931	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_100000.wav	84.0
+4	Spectrogram 1	1	93.0	96.0	0	15000	Chipping Sparrow	chispa	0.4206	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_100000.wav	93.0
+5	Spectrogram 1	1	102.0	105.0	0	15000	Chipping Sparrow	chispa	0.6146	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_100000.wav	102.0
+6	Spectrogram 1	1	180.0	183.0	0	15000	Belted Kingfisher	belkin1	0.2987	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_100000.wav	180.0
+7	Spectrogram 1	1	186.0	189.0	0	15000	Chipping Sparrow	chispa	0.2693	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_100000.wav	186.0
+8	Spectrogram 1	1	192.0	195.0	0	15000	Red-breasted Nuthatch	rebnut	0.3648	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_100000.wav	192.0
+9	Spectrogram 1	1	204.0	207.0	0	15000	Belted Kingfisher	belkin1	0.2605	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_100000.wav	204.0
+10	Spectrogram 1	1	210.0	213.0	0	15000	Chipping Sparrow	chispa	0.4792	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_100000.wav	210.0
+11	Spectrogram 1	1	219.0	222.0	0	15000	Eastern Towhee	eastow	0.4092	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_100000.wav	219.0
+12	Spectrogram 1	1	297.0	300.0	0	15000	Seaside Sparrow	seaspa	0.8070	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_100000.wav	297.0
+13	Spectrogram 1	1	300.0	303.0	0	15000	Golden-crowned Kinglet	gockin	0.2977	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_100000.wav	300.0
+14	Spectrogram 1	1	324.0	327.0	0	15000	Belted Kingfisher	belkin1	0.3621	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_100000.wav	324.0
+15	Spectrogram 1	1	333.0	336.0	0	15000	Chipping Sparrow	chispa	0.2935	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_100000.wav	333.0
+16	Spectrogram 1	1	375.0	378.0	0	15000	American Goldfinch	amegfi	0.4086	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_100000.wav	375.0
+17	Spectrogram 1	1	411.0	414.0	0	15000	American Goldfinch	amegfi	0.3817	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_100000.wav	411.0
+18	Spectrogram 1	1	471.0	474.0	0	15000	Engine	engine	0.2910	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_100000.wav	471.0
+19	Spectrogram 1	1	486.0	489.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3062	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_100000.wav	486.0
+20	Spectrogram 1	1	546.0	549.0	0	15000	Belted Kingfisher	belkin1	0.4154	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_100000.wav	546.0
+21	Spectrogram 1	1	570.0	573.0	0	15000	Chipping Sparrow	chispa	0.3330	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_100000.wav	570.0
+22	Spectrogram 1	1	639.0	642.0	0	15000	Chipping Sparrow	chispa	0.8445	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_100000.wav	639.0
+23	Spectrogram 1	1	678.0	681.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3246	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_100000.wav	678.0
+24	Spectrogram 1	1	792.0	795.0	0	15000	Belted Kingfisher	belkin1	0.3236	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_100000.wav	792.0
+25	Spectrogram 1	1	798.0	801.0	0	15000	Golden-crowned Kinglet	gockin	0.3308	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_100000.wav	798.0
+26	Spectrogram 1	1	870.0	873.0	0	15000	Sedge Wren	sedwre1	0.3217	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_100000.wav	870.0

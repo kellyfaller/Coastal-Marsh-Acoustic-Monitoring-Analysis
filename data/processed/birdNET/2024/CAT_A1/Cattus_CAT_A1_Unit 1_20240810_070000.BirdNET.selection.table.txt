@@ -1,0 +1,32 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	48.0	51.0	0	15000	Eastern Screech-Owl	easowl1	0.3793	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240810_070000.wav	48.0
+2	Spectrogram 1	1	84.0	87.0	0	15000	Herring Gull	hergul	0.2673	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240810_070000.wav	84.0
+3	Spectrogram 1	1	96.0	99.0	0	15000	Herring Gull	hergul	0.4870	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240810_070000.wav	96.0
+4	Spectrogram 1	1	108.0	111.0	0	15000	Herring Gull	hergul	0.3943	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240810_070000.wav	108.0
+5	Spectrogram 1	1	114.0	117.0	0	15000	Herring Gull	hergul	0.6774	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240810_070000.wav	114.0
+6	Spectrogram 1	1	117.0	120.0	0	15000	Great Crested Flycatcher	grcfly	0.2541	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240810_070000.wav	117.0
+7	Spectrogram 1	1	120.0	123.0	0	15000	Herring Gull	hergul	0.6396	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240810_070000.wav	120.0
+8	Spectrogram 1	1	123.0	126.0	0	15000	Herring Gull	hergul	0.4904	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240810_070000.wav	123.0
+9	Spectrogram 1	1	126.0	129.0	0	15000	Herring Gull	hergul	0.7121	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240810_070000.wav	126.0
+10	Spectrogram 1	1	135.0	138.0	0	15000	Herring Gull	hergul	0.5356	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240810_070000.wav	135.0
+11	Spectrogram 1	1	138.0	141.0	0	15000	Herring Gull	hergul	0.5392	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240810_070000.wav	138.0
+12	Spectrogram 1	1	141.0	144.0	0	15000	Great Crested Flycatcher	grcfly	0.6084	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240810_070000.wav	141.0
+13	Spectrogram 1	1	144.0	147.0	0	15000	Herring Gull	hergul	0.6518	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240810_070000.wav	144.0
+14	Spectrogram 1	1	150.0	153.0	0	15000	Herring Gull	hergul	0.3364	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240810_070000.wav	150.0
+15	Spectrogram 1	1	168.0	171.0	0	15000	Herring Gull	hergul	0.3658	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240810_070000.wav	168.0
+16	Spectrogram 1	1	174.0	177.0	0	15000	Herring Gull	hergul	0.3841	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240810_070000.wav	174.0
+17	Spectrogram 1	1	180.0	183.0	0	15000	Herring Gull	hergul	0.4726	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240810_070000.wav	180.0
+18	Spectrogram 1	1	183.0	186.0	0	15000	Herring Gull	hergul	0.3495	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240810_070000.wav	183.0
+19	Spectrogram 1	1	294.0	297.0	0	15000	Laughing Gull	laugul	0.4003	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240810_070000.wav	294.0
+20	Spectrogram 1	1	294.0	297.0	0	15000	Royal Tern	royter1	0.2888	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240810_070000.wav	294.0
+21	Spectrogram 1	1	294.0	297.0	0	15000	American Golden-Plover	amgplo	0.2624	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240810_070000.wav	294.0
+22	Spectrogram 1	1	297.0	300.0	0	15000	Laughing Gull	laugul	0.9738	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240810_070000.wav	297.0
+23	Spectrogram 1	1	297.0	300.0	0	15000	Royal Tern	royter1	0.3258	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240810_070000.wav	297.0
+24	Spectrogram 1	1	309.0	312.0	0	15000	Semipalmated Plover	semplo	0.2667	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240810_070000.wav	309.0
+25	Spectrogram 1	1	432.0	435.0	0	15000	Walker's Ground Cricket	t-11855914	0.5750	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240810_070000.wav	432.0
+26	Spectrogram 1	1	579.0	582.0	0	15000	Common Tern	comter	0.3523	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240810_070000.wav	579.0
+27	Spectrogram 1	1	645.0	648.0	0	15000	Eastern Bluebird	easblu	0.4192	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240810_070000.wav	645.0
+28	Spectrogram 1	1	648.0	651.0	0	15000	Eastern Bluebird	easblu	0.7943	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240810_070000.wav	648.0
+29	Spectrogram 1	1	651.0	654.0	0	15000	Eastern Bluebird	easblu	0.7508	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240810_070000.wav	651.0
+30	Spectrogram 1	1	654.0	657.0	0	15000	Eastern Bluebird	easblu	0.2926	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240810_070000.wav	654.0
+31	Spectrogram 1	1	678.0	681.0	0	15000	Great Blue Heron	grbher3	0.2657	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240810_070000.wav	678.0

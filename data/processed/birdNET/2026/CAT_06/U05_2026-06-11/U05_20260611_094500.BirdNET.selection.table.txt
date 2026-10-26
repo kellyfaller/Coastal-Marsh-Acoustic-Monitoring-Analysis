@@ -1,0 +1,9 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	72.0	75.0	0	15000	Common Yellowthroat	comyel	0.6053	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_094500.wav	72.0
+2	Spectrogram 1	1	390.0	393.0	0	15000	Engine	engine	0.5750	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_094500.wav	390.0
+3	Spectrogram 1	1	396.0	399.0	0	15000	Engine	engine	0.3456	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_094500.wav	396.0
+4	Spectrogram 1	1	402.0	405.0	0	15000	Engine	engine	0.2764	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_094500.wav	402.0
+5	Spectrogram 1	1	405.0	408.0	0	15000	Engine	engine	0.4981	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_094500.wav	405.0
+6	Spectrogram 1	1	408.0	411.0	0	15000	Engine	engine	0.3521	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_094500.wav	408.0
+7	Spectrogram 1	1	417.0	420.0	0	15000	House Finch	houfin	0.5465	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_094500.wav	417.0
+8	Spectrogram 1	1	504.0	507.0	0	15000	Red Crossbill	redcro	0.5604	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_094500.wav	504.0

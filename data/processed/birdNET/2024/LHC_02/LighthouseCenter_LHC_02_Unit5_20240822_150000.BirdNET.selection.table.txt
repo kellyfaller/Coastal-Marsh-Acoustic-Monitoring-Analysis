@@ -1,0 +1,5 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	33.0	36.0	0	15000	American Crow	amecro	0.3126	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240822_150000.wav	33.0
+2	Spectrogram 1	1	81.0	84.0	0	15000	American Crow	amecro	0.4136	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240822_150000.wav	81.0
+3	Spectrogram 1	1	195.0	198.0	0	15000	Northern Pintail	norpin	0.4487	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240822_150000.wav	195.0
+4	Spectrogram 1	1	210.0	213.0	0	15000	Fish Crow	fiscro	0.3063	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240822_150000.wav	210.0

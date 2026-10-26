@@ -1,0 +1,18 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	9.0	12.0	0	15000	House Finch	houfin	0.7323	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_090000.wav	9.0
+2	Spectrogram 1	1	93.0	96.0	0	15000	House Finch	houfin	0.3956	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_090000.wav	93.0
+3	Spectrogram 1	1	117.0	120.0	0	15000	American Goldfinch	amegfi	0.5946	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_090000.wav	117.0
+4	Spectrogram 1	1	219.0	222.0	0	15000	American Goldfinch	amegfi	0.5247	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_090000.wav	219.0
+5	Spectrogram 1	1	222.0	225.0	0	15000	American Goldfinch	amegfi	0.8154	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_090000.wav	222.0
+6	Spectrogram 1	1	282.0	285.0	0	15000	Brown-headed Nuthatch	bnhnut	0.2952	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_090000.wav	282.0
+7	Spectrogram 1	1	426.0	429.0	0	15000	House Finch	houfin	0.3219	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_090000.wav	426.0
+8	Spectrogram 1	1	429.0	432.0	0	15000	House Finch	houfin	0.3650	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_090000.wav	429.0
+9	Spectrogram 1	1	504.0	507.0	0	15000	Clapper Rail	clarai11	0.5125	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_090000.wav	504.0
+10	Spectrogram 1	1	690.0	693.0	0	15000	Golden-crowned Kinglet	gockin	0.4031	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_090000.wav	690.0
+11	Spectrogram 1	1	789.0	792.0	0	15000	Red-bellied Woodpecker	rebwoo	0.6790	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_090000.wav	789.0
+12	Spectrogram 1	1	819.0	822.0	0	15000	Carolina Chickadee	carchi	0.3144	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_090000.wav	819.0
+13	Spectrogram 1	1	849.0	852.0	0	15000	American Goldfinch	amegfi	0.4285	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_090000.wav	849.0
+14	Spectrogram 1	1	876.0	879.0	0	15000	Red-bellied Woodpecker	rebwoo	0.3191	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_090000.wav	876.0
+15	Spectrogram 1	1	882.0	885.0	0	15000	Red-bellied Woodpecker	rebwoo	0.4222	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_090000.wav	882.0
+16	Spectrogram 1	1	882.0	885.0	0	15000	Red-headed Woodpecker	rehwoo	0.2531	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_090000.wav	882.0
+17	Spectrogram 1	1	888.0	891.0	0	15000	Carolina Chickadee	carchi	0.5089	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240819_090000.wav	888.0

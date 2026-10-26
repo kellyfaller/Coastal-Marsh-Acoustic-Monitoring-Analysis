@@ -1,0 +1,11 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	24.0	27.0	0	15000	Marsh Wren	marwre	0.5474	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240726_050000.wav	24.0
+2	Spectrogram 1	1	39.0	42.0	0	15000	Marsh Wren	marwre	0.2581	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240726_050000.wav	39.0
+3	Spectrogram 1	1	291.0	294.0	0	15000	Marsh Wren	marwre	0.3714	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240726_050000.wav	291.0
+4	Spectrogram 1	1	324.0	327.0	0	15000	Marsh Wren	marwre	0.3274	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240726_050000.wav	324.0
+5	Spectrogram 1	1	414.0	417.0	0	15000	Marsh Wren	marwre	0.2527	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240726_050000.wav	414.0
+6	Spectrogram 1	1	519.0	522.0	0	15000	American Kestrel	amekes	0.2741	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240726_050000.wav	519.0
+7	Spectrogram 1	1	600.0	603.0	0	15000	Belted Kingfisher	belkin1	0.4193	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240726_050000.wav	600.0
+8	Spectrogram 1	1	708.0	711.0	0	15000	Marsh Wren	marwre	0.3636	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240726_050000.wav	708.0
+9	Spectrogram 1	1	792.0	795.0	0	15000	Marsh Wren	marwre	0.3338	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240726_050000.wav	792.0
+10	Spectrogram 1	1	798.0	801.0	0	15000	Marsh Wren	marwre	0.2771	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240726_050000.wav	798.0

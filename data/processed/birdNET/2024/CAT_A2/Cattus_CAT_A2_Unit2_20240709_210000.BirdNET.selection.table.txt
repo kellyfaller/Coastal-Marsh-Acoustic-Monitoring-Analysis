@@ -1,0 +1,12 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	18.0	21.0	0	15000	Engine	engine	0.5380	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240709_210000.wav	18.0
+2	Spectrogram 1	1	21.0	24.0	0	15000	Engine	engine	0.6014	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240709_210000.wav	21.0
+3	Spectrogram 1	1	198.0	201.0	0	15000	Engine	engine	0.6926	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240709_210000.wav	198.0
+4	Spectrogram 1	1	201.0	204.0	0	15000	Engine	engine	0.5715	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240709_210000.wav	201.0
+5	Spectrogram 1	1	246.0	249.0	0	15000	Chuck-will's-widow	chwwid	0.4581	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240709_210000.wav	246.0
+6	Spectrogram 1	1	258.0	261.0	0	15000	Engine	engine	0.3325	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240709_210000.wav	258.0
+7	Spectrogram 1	1	264.0	267.0	0	15000	Chuck-will's-widow	chwwid	0.8617	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240709_210000.wav	264.0
+8	Spectrogram 1	1	279.0	282.0	0	15000	Chuck-will's-widow	chwwid	0.8964	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240709_210000.wav	279.0
+9	Spectrogram 1	1	630.0	633.0	0	15000	Black-crowned Night-Heron	bcnher	0.2593	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240709_210000.wav	630.0
+10	Spectrogram 1	1	786.0	789.0	0	15000	Golden-crowned Kinglet	gockin	0.5843	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240709_210000.wav	786.0
+11	Spectrogram 1	1	819.0	822.0	0	15000	American Goldfinch	amegfi	0.2720	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240709_210000.wav	819.0

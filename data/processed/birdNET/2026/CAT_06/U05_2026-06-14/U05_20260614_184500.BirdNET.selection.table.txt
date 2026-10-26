@@ -1,0 +1,14 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	30.0	33.0	0	15000	Chimney Swift	chiswi	0.6828	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-14\U05_20260614_184500.wav	30.0
+2	Spectrogram 1	1	75.0	78.0	0	15000	Marsh Wren	marwre	0.4031	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-14\U05_20260614_184500.wav	75.0
+3	Spectrogram 1	1	81.0	84.0	0	15000	Marsh Wren	marwre	0.4359	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-14\U05_20260614_184500.wav	81.0
+4	Spectrogram 1	1	126.0	129.0	0	15000	Osprey	osprey	0.6916	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-14\U05_20260614_184500.wav	126.0
+5	Spectrogram 1	1	180.0	183.0	0	15000	Greater Yellowlegs	greyel	0.2612	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-14\U05_20260614_184500.wav	180.0
+6	Spectrogram 1	1	189.0	192.0	0	15000	Osprey	osprey	0.9666	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-14\U05_20260614_184500.wav	189.0
+7	Spectrogram 1	1	456.0	459.0	0	15000	American Oystercatcher	ameoys	0.5475	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-14\U05_20260614_184500.wav	456.0
+8	Spectrogram 1	1	525.0	528.0	0	15000	Eastern Kingbird	easkin	0.8763	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-14\U05_20260614_184500.wav	525.0
+9	Spectrogram 1	1	531.0	534.0	0	15000	Chimney Swift	chiswi	0.5086	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-14\U05_20260614_184500.wav	531.0
+10	Spectrogram 1	1	546.0	549.0	0	15000	Horned Lark	horlar	0.3787	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-14\U05_20260614_184500.wav	546.0
+11	Spectrogram 1	1	699.0	702.0	0	15000	Fireworks	frwrks	0.2796	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-14\U05_20260614_184500.wav	699.0
+12	Spectrogram 1	1	738.0	741.0	0	15000	Marsh Wren	marwre	0.2531	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-14\U05_20260614_184500.wav	738.0
+13	Spectrogram 1	1	879.0	882.0	0	15000	American Oystercatcher	ameoys	0.3327	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-14\U05_20260614_184500.wav	879.0

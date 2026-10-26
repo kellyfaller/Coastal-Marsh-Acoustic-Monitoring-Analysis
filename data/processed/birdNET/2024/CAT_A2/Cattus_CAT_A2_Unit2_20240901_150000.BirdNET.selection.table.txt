@@ -1,0 +1,16 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	6.0	9.0	0	15000	Red-breasted Nuthatch	rebnut	0.3651	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240901_150000.wav	6.0
+2	Spectrogram 1	1	144.0	147.0	0	15000	Greater White-fronted Goose	gwfgoo	0.3257	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240901_150000.wav	144.0
+3	Spectrogram 1	1	306.0	309.0	0	15000	Fish Crow	fiscro	0.4218	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240901_150000.wav	306.0
+4	Spectrogram 1	1	381.0	384.0	0	15000	Caspian Tern	caster1	0.3655	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240901_150000.wav	381.0
+5	Spectrogram 1	1	519.0	522.0	0	15000	Tundra Swan	tunswa	0.2915	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240901_150000.wav	519.0
+6	Spectrogram 1	1	624.0	627.0	0	15000	Golden-crowned Kinglet	gockin	0.4003	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240901_150000.wav	624.0
+7	Spectrogram 1	1	633.0	636.0	0	15000	Golden-crowned Kinglet	gockin	0.2784	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240901_150000.wav	633.0
+8	Spectrogram 1	1	645.0	648.0	0	15000	Golden-crowned Kinglet	gockin	0.7000	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240901_150000.wav	645.0
+9	Spectrogram 1	1	663.0	666.0	0	15000	Seaside Sparrow	seaspa	0.2841	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240901_150000.wav	663.0
+10	Spectrogram 1	1	693.0	696.0	0	15000	Golden-crowned Kinglet	gockin	0.2635	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240901_150000.wav	693.0
+11	Spectrogram 1	1	780.0	783.0	0	15000	Golden-crowned Kinglet	gockin	0.4462	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240901_150000.wav	780.0
+12	Spectrogram 1	1	810.0	813.0	0	15000	Common Nighthawk	comnig	0.2974	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240901_150000.wav	810.0
+13	Spectrogram 1	1	831.0	834.0	0	15000	Golden-crowned Kinglet	gockin	0.7969	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240901_150000.wav	831.0
+14	Spectrogram 1	1	831.0	834.0	0	15000	Red-breasted Nuthatch	rebnut	0.2962	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240901_150000.wav	831.0
+15	Spectrogram 1	1	849.0	852.0	0	15000	Golden-crowned Kinglet	gockin	0.2630	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240901_150000.wav	849.0

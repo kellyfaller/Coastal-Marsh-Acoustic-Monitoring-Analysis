@@ -1,0 +1,17 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	99.0	102.0	0	15000	Fireworks	frwrks	0.3841	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240706_210000.wav	99.0
+2	Spectrogram 1	1	174.0	177.0	0	15000	Fireworks	frwrks	0.3973	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240706_210000.wav	174.0
+3	Spectrogram 1	1	234.0	237.0	0	15000	Fireworks	frwrks	0.3598	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240706_210000.wav	234.0
+4	Spectrogram 1	1	255.0	258.0	0	15000	Black-crowned Night-Heron	bcnher	0.8750	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240706_210000.wav	255.0
+5	Spectrogram 1	1	321.0	324.0	0	15000	Common Virtuoso Katydid	t-11851326	0.4427	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240706_210000.wav	321.0
+6	Spectrogram 1	1	339.0	342.0	0	15000	Yellow-billed Cuckoo	yebcuc	0.3841	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240706_210000.wav	339.0
+7	Spectrogram 1	1	351.0	354.0	0	15000	Fireworks	frwrks	0.4667	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240706_210000.wav	351.0
+8	Spectrogram 1	1	357.0	360.0	0	15000	Fireworks	frwrks	0.2835	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240706_210000.wav	357.0
+9	Spectrogram 1	1	360.0	363.0	0	15000	Golden-crowned Kinglet	gockin	0.3327	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240706_210000.wav	360.0
+10	Spectrogram 1	1	387.0	390.0	0	15000	Great Blue Heron	grbher3	0.4096	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240706_210000.wav	387.0
+11	Spectrogram 1	1	390.0	393.0	0	15000	White-tailed Deer	t-11075702	0.4838	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240706_210000.wav	390.0
+12	Spectrogram 1	1	435.0	438.0	0	15000	American Bullfrog	t-11113588	0.4822	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240706_210000.wav	435.0
+13	Spectrogram 1	1	441.0	444.0	0	15000	Fireworks	frwrks	0.4072	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240706_210000.wav	441.0
+14	Spectrogram 1	1	507.0	510.0	0	15000	Black-crowned Night-Heron	bcnher	0.3652	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240706_210000.wav	507.0
+15	Spectrogram 1	1	510.0	513.0	0	15000	Golden-crowned Kinglet	gockin	0.2593	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240706_210000.wav	510.0
+16	Spectrogram 1	1	810.0	813.0	0	15000	Fireworks	frwrks	0.6333	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240706_210000.wav	810.0

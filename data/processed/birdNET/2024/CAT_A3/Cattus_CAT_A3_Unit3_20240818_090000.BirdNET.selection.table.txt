@@ -1,0 +1,27 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	30.0	33.0	0	15000	Least Sandpiper	leasan	0.3826	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_090000.wav	30.0
+2	Spectrogram 1	1	111.0	114.0	0	15000	Barn Swallow	barswa	0.3349	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_090000.wav	111.0
+3	Spectrogram 1	1	201.0	204.0	0	15000	Eastern Bluebird	easblu	0.8132	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_090000.wav	201.0
+4	Spectrogram 1	1	207.0	210.0	0	15000	Eastern Bluebird	easblu	0.6315	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_090000.wav	207.0
+5	Spectrogram 1	1	249.0	252.0	0	15000	Eastern Bluebird	easblu	0.6243	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_090000.wav	249.0
+6	Spectrogram 1	1	273.0	276.0	0	15000	Eastern Kingbird	easkin	0.3156	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_090000.wav	273.0
+7	Spectrogram 1	1	276.0	279.0	0	15000	Eastern Kingbird	easkin	0.8375	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_090000.wav	276.0
+8	Spectrogram 1	1	279.0	282.0	0	15000	Eastern Kingbird	easkin	0.9703	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_090000.wav	279.0
+9	Spectrogram 1	1	285.0	288.0	0	15000	Eastern Kingbird	easkin	0.3224	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_090000.wav	285.0
+10	Spectrogram 1	1	291.0	294.0	0	15000	Eastern Kingbird	easkin	0.5863	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_090000.wav	291.0
+11	Spectrogram 1	1	297.0	300.0	0	15000	Eastern Kingbird	easkin	0.7987	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_090000.wav	297.0
+12	Spectrogram 1	1	303.0	306.0	0	15000	Eastern Kingbird	easkin	0.9571	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_090000.wav	303.0
+13	Spectrogram 1	1	312.0	315.0	0	15000	Eastern Kingbird	easkin	0.7697	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_090000.wav	312.0
+14	Spectrogram 1	1	351.0	354.0	0	15000	Green-winged Teal	gnwtea	0.3728	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_090000.wav	351.0
+15	Spectrogram 1	1	387.0	390.0	0	15000	Eastern Kingbird	easkin	0.4028	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_090000.wav	387.0
+16	Spectrogram 1	1	390.0	393.0	0	15000	Eastern Kingbird	easkin	0.6662	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_090000.wav	390.0
+17	Spectrogram 1	1	396.0	399.0	0	15000	Eastern Kingbird	easkin	0.3132	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_090000.wav	396.0
+18	Spectrogram 1	1	399.0	402.0	0	15000	Eastern Kingbird	easkin	0.7267	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_090000.wav	399.0
+19	Spectrogram 1	1	408.0	411.0	0	15000	Eastern Kingbird	easkin	0.2670	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_090000.wav	408.0
+20	Spectrogram 1	1	435.0	438.0	0	15000	American Goldfinch	amegfi	0.8416	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_090000.wav	435.0
+21	Spectrogram 1	1	438.0	441.0	0	15000	American Goldfinch	amegfi	0.5245	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_090000.wav	438.0
+22	Spectrogram 1	1	441.0	444.0	0	15000	American Goldfinch	amegfi	0.6347	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_090000.wav	441.0
+23	Spectrogram 1	1	447.0	450.0	0	15000	Eastern Kingbird	easkin	0.6193	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_090000.wav	447.0
+24	Spectrogram 1	1	459.0	462.0	0	15000	Eastern Kingbird	easkin	0.5321	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_090000.wav	459.0
+25	Spectrogram 1	1	513.0	516.0	0	15000	American Goldfinch	amegfi	0.3914	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_090000.wav	513.0
+26	Spectrogram 1	1	519.0	522.0	0	15000	American Goldfinch	amegfi	0.2507	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_090000.wav	519.0

@@ -1,0 +1,26 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	12.0	15.0	0	15000	Purple Martin	purmar	0.2855	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240805_110000.wav	12.0
+2	Spectrogram 1	1	24.0	27.0	0	15000	Golden-crowned Kinglet	gockin	0.2599	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240805_110000.wav	24.0
+3	Spectrogram 1	1	120.0	123.0	0	15000	Engine	engine	0.2510	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240805_110000.wav	120.0
+4	Spectrogram 1	1	123.0	126.0	0	15000	Engine	engine	0.2609	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240805_110000.wav	123.0
+5	Spectrogram 1	1	174.0	177.0	0	15000	Engine	engine	0.2566	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240805_110000.wav	174.0
+6	Spectrogram 1	1	228.0	231.0	0	15000	Marsh Wren	marwre	0.8908	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240805_110000.wav	228.0
+7	Spectrogram 1	1	231.0	234.0	0	15000	Marsh Wren	marwre	0.9227	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240805_110000.wav	231.0
+8	Spectrogram 1	1	240.0	243.0	0	15000	Marsh Wren	marwre	0.8599	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240805_110000.wav	240.0
+9	Spectrogram 1	1	243.0	246.0	0	15000	Marsh Wren	marwre	0.8420	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240805_110000.wav	243.0
+10	Spectrogram 1	1	249.0	252.0	0	15000	Marsh Wren	marwre	0.8077	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240805_110000.wav	249.0
+11	Spectrogram 1	1	264.0	267.0	0	15000	Marsh Wren	marwre	0.9636	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240805_110000.wav	264.0
+12	Spectrogram 1	1	276.0	279.0	0	15000	Northern Flicker	norfli	0.5553	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240805_110000.wav	276.0
+13	Spectrogram 1	1	324.0	327.0	0	15000	Northern Flicker	norfli	0.6519	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240805_110000.wav	324.0
+14	Spectrogram 1	1	330.0	333.0	0	15000	Northern Flicker	norfli	0.6170	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240805_110000.wav	330.0
+15	Spectrogram 1	1	336.0	339.0	0	15000	Northern Flicker	norfli	0.3988	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240805_110000.wav	336.0
+16	Spectrogram 1	1	498.0	501.0	0	15000	Marsh Wren	marwre	0.6796	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240805_110000.wav	498.0
+17	Spectrogram 1	1	501.0	504.0	0	15000	Marsh Wren	marwre	0.8598	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240805_110000.wav	501.0
+18	Spectrogram 1	1	660.0	663.0	0	15000	Purple Martin	purmar	0.5087	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240805_110000.wav	660.0
+19	Spectrogram 1	1	720.0	723.0	0	15000	Purple Martin	purmar	0.5054	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240805_110000.wav	720.0
+20	Spectrogram 1	1	723.0	726.0	0	15000	Purple Martin	purmar	0.2637	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240805_110000.wav	723.0
+21	Spectrogram 1	1	768.0	771.0	0	15000	Osprey	osprey	0.6061	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240805_110000.wav	768.0
+22	Spectrogram 1	1	777.0	780.0	0	15000	Marsh Wren	marwre	0.3004	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240805_110000.wav	777.0
+23	Spectrogram 1	1	843.0	846.0	0	15000	Golden-crowned Kinglet	gockin	0.3011	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240805_110000.wav	843.0
+24	Spectrogram 1	1	894.0	897.0	0	15000	American Goldfinch	amegfi	0.8460	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240805_110000.wav	894.0
+25	Spectrogram 1	1	897.0	900.0	0	15000	American Goldfinch	amegfi	0.6945	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240805_110000.wav	897.0

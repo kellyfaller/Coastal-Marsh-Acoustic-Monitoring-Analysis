@@ -1,0 +1,5 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	9.0	12.0	0	15000	Red-winged Blackbird	rewbla	0.2813	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_154500.wav	9.0
+2	Spectrogram 1	1	84.0	87.0	0	15000	Ruddy Turnstone	rudtur	0.4136	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_154500.wav	84.0
+3	Spectrogram 1	1	390.0	393.0	0	15000	Purple Martin	purmar	0.6458	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_154500.wav	390.0
+4	Spectrogram 1	1	465.0	468.0	0	15000	House Finch	houfin	0.3803	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_154500.wav	465.0

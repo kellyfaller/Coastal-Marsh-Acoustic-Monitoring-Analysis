@@ -1,0 +1,5 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	171.0	174.0	0	15000	Golden-crowned Kinglet	gockin	0.4565	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240801_040000.wav	171.0
+2	Spectrogram 1	1	204.0	207.0	0	15000	Golden-crowned Kinglet	gockin	0.4904	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240801_040000.wav	204.0
+3	Spectrogram 1	1	243.0	246.0	0	15000	Tinkling Ground Cricket	t-11843287	0.2586	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240801_040000.wav	243.0
+4	Spectrogram 1	1	651.0	654.0	0	15000	Great Blue Heron	grbher3	0.3126	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240801_040000.wav	651.0

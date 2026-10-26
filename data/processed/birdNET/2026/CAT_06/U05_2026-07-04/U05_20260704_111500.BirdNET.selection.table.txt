@@ -1,0 +1,14 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	48.0	51.0	0	15000	Northern Flicker	norfli	0.7926	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_111500.wav	48.0
+2	Spectrogram 1	1	591.0	594.0	0	15000	Marsh Wren	marwre	0.3318	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_111500.wav	591.0
+3	Spectrogram 1	1	600.0	603.0	0	15000	Marsh Wren	marwre	0.4742	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_111500.wav	600.0
+4	Spectrogram 1	1	603.0	606.0	0	15000	Marsh Wren	marwre	0.6441	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_111500.wav	603.0
+5	Spectrogram 1	1	609.0	612.0	0	15000	Marsh Wren	marwre	0.6484	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_111500.wav	609.0
+6	Spectrogram 1	1	618.0	621.0	0	15000	Marsh Wren	marwre	0.5133	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_111500.wav	618.0
+7	Spectrogram 1	1	624.0	627.0	0	15000	Marsh Wren	marwre	0.6480	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_111500.wav	624.0
+8	Spectrogram 1	1	636.0	639.0	0	15000	Marsh Wren	marwre	0.3847	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_111500.wav	636.0
+9	Spectrogram 1	1	639.0	642.0	0	15000	Marsh Wren	marwre	0.5516	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_111500.wav	639.0
+10	Spectrogram 1	1	648.0	651.0	0	15000	Marsh Wren	marwre	0.7955	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_111500.wav	648.0
+11	Spectrogram 1	1	654.0	657.0	0	15000	Marsh Wren	marwre	0.4766	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_111500.wav	654.0
+12	Spectrogram 1	1	657.0	660.0	0	15000	Marsh Wren	marwre	0.4736	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_111500.wav	657.0
+13	Spectrogram 1	1	663.0	666.0	0	15000	Marsh Wren	marwre	0.3366	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-04\U05_20260704_111500.wav	663.0

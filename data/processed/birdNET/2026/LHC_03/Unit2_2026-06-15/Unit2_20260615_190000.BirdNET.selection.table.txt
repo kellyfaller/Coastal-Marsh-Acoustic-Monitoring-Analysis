@@ -1,0 +1,21 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	24.0	27.0	0	15000	Laughing Gull	laugul	0.4501	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_190000.wav	24.0
+2	Spectrogram 1	1	24.0	27.0	0	15000	Ring-billed Gull	ribgul	0.2768	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_190000.wav	24.0
+3	Spectrogram 1	1	27.0	30.0	0	15000	Ring-billed Gull	ribgul	0.8286	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_190000.wav	27.0
+4	Spectrogram 1	1	27.0	30.0	0	15000	Lesser Black-backed Gull	lbbgul	0.3534	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_190000.wav	27.0
+5	Spectrogram 1	1	36.0	39.0	0	15000	Laughing Gull	laugul	0.5318	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_190000.wav	36.0
+6	Spectrogram 1	1	36.0	39.0	0	15000	Ring-billed Gull	ribgul	0.3789	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_190000.wav	36.0
+7	Spectrogram 1	1	39.0	42.0	0	15000	Laughing Gull	laugul	0.6604	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_190000.wav	39.0
+8	Spectrogram 1	1	324.0	327.0	0	15000	Hairy Woodpecker	haiwoo	0.3501	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_190000.wav	324.0
+9	Spectrogram 1	1	336.0	339.0	0	15000	American Oystercatcher	ameoys	0.4962	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_190000.wav	336.0
+10	Spectrogram 1	1	426.0	429.0	0	15000	American Oystercatcher	ameoys	0.3524	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_190000.wav	426.0
+11	Spectrogram 1	1	594.0	597.0	0	15000	Canada Goose	cangoo	0.2939	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_190000.wav	594.0
+12	Spectrogram 1	1	726.0	729.0	0	15000	Golden-crowned Kinglet	gockin	0.3885	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_190000.wav	726.0
+13	Spectrogram 1	1	744.0	747.0	0	15000	Fish Crow	fiscro	0.6934	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_190000.wav	744.0
+14	Spectrogram 1	1	753.0	756.0	0	15000	Laughing Gull	laugul	0.6810	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_190000.wav	753.0
+15	Spectrogram 1	1	777.0	780.0	0	15000	Fish Crow	fiscro	0.9545	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_190000.wav	777.0
+16	Spectrogram 1	1	780.0	783.0	0	15000	Fish Crow	fiscro	0.9805	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_190000.wav	780.0
+17	Spectrogram 1	1	783.0	786.0	0	15000	Fish Crow	fiscro	0.9259	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_190000.wav	783.0
+18	Spectrogram 1	1	789.0	792.0	0	15000	Fish Crow	fiscro	0.7445	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_190000.wav	789.0
+19	Spectrogram 1	1	795.0	798.0	0	15000	Fish Crow	fiscro	0.9389	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_190000.wav	795.0
+20	Spectrogram 1	1	804.0	807.0	0	15000	Fish Crow	fiscro	0.9528	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-15\Unit2_20260615_190000.wav	804.0

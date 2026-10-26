@@ -1,0 +1,207 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	0.0	3.0	0	15000	Belted Kingfisher	belkin1	0.8174	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	0.0
+2	Spectrogram 1	1	3.0	6.0	0	15000	Belted Kingfisher	belkin1	0.9939	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	3.0
+3	Spectrogram 1	1	6.0	9.0	0	15000	Belted Kingfisher	belkin1	0.6001	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	6.0
+4	Spectrogram 1	1	9.0	12.0	0	15000	Belted Kingfisher	belkin1	0.7191	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	9.0
+5	Spectrogram 1	1	12.0	15.0	0	15000	Belted Kingfisher	belkin1	0.9908	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	12.0
+6	Spectrogram 1	1	15.0	18.0	0	15000	Belted Kingfisher	belkin1	0.7401	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	15.0
+7	Spectrogram 1	1	18.0	21.0	0	15000	Fish Crow	fiscro	0.9097	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	18.0
+8	Spectrogram 1	1	18.0	21.0	0	15000	Belted Kingfisher	belkin1	0.3463	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	18.0
+9	Spectrogram 1	1	21.0	24.0	0	15000	Belted Kingfisher	belkin1	0.9081	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	21.0
+10	Spectrogram 1	1	24.0	27.0	0	15000	Belted Kingfisher	belkin1	0.6978	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	24.0
+11	Spectrogram 1	1	27.0	30.0	0	15000	Fish Crow	fiscro	0.6084	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	27.0
+12	Spectrogram 1	1	27.0	30.0	0	15000	Seaside Sparrow	seaspa	0.2813	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	27.0
+13	Spectrogram 1	1	30.0	33.0	0	15000	Fish Crow	fiscro	0.7737	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	30.0
+14	Spectrogram 1	1	33.0	36.0	0	15000	Fish Crow	fiscro	0.9079	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	33.0
+15	Spectrogram 1	1	36.0	39.0	0	15000	Fish Crow	fiscro	0.4148	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	36.0
+16	Spectrogram 1	1	42.0	45.0	0	15000	Belted Kingfisher	belkin1	0.6283	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	42.0
+17	Spectrogram 1	1	45.0	48.0	0	15000	Seaside Sparrow	seaspa	0.4752	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	45.0
+18	Spectrogram 1	1	48.0	51.0	0	15000	Belted Kingfisher	belkin1	0.8885	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	48.0
+19	Spectrogram 1	1	51.0	54.0	0	15000	Belted Kingfisher	belkin1	0.9007	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	51.0
+20	Spectrogram 1	1	54.0	57.0	0	15000	Fish Crow	fiscro	0.6354	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	54.0
+21	Spectrogram 1	1	57.0	60.0	0	15000	Fish Crow	fiscro	0.4845	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	57.0
+22	Spectrogram 1	1	57.0	60.0	0	15000	Belted Kingfisher	belkin1	0.2932	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	57.0
+23	Spectrogram 1	1	63.0	66.0	0	15000	Fish Crow	fiscro	0.4999	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	63.0
+24	Spectrogram 1	1	72.0	75.0	0	15000	Fish Crow	fiscro	0.7183	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	72.0
+25	Spectrogram 1	1	78.0	81.0	0	15000	Fish Crow	fiscro	0.3357	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	78.0
+26	Spectrogram 1	1	84.0	87.0	0	15000	Fish Crow	fiscro	0.2552	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	84.0
+27	Spectrogram 1	1	87.0	90.0	0	15000	Fish Crow	fiscro	0.2636	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	87.0
+28	Spectrogram 1	1	90.0	93.0	0	15000	Belted Kingfisher	belkin1	0.4407	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	90.0
+29	Spectrogram 1	1	93.0	96.0	0	15000	Belted Kingfisher	belkin1	0.9840	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	93.0
+30	Spectrogram 1	1	96.0	99.0	0	15000	Belted Kingfisher	belkin1	0.9026	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	96.0
+31	Spectrogram 1	1	99.0	102.0	0	15000	Belted Kingfisher	belkin1	0.7286	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	99.0
+32	Spectrogram 1	1	105.0	108.0	0	15000	Belted Kingfisher	belkin1	0.4578	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	105.0
+33	Spectrogram 1	1	105.0	108.0	0	15000	Fish Crow	fiscro	0.3872	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	105.0
+34	Spectrogram 1	1	108.0	111.0	0	15000	Belted Kingfisher	belkin1	0.3229	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	108.0
+35	Spectrogram 1	1	114.0	117.0	0	15000	Belted Kingfisher	belkin1	0.7605	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	114.0
+36	Spectrogram 1	1	120.0	123.0	0	15000	Fish Crow	fiscro	0.5739	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	120.0
+37	Spectrogram 1	1	126.0	129.0	0	15000	Belted Kingfisher	belkin1	0.6936	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	126.0
+38	Spectrogram 1	1	129.0	132.0	0	15000	Fish Crow	fiscro	0.2926	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	129.0
+39	Spectrogram 1	1	132.0	135.0	0	15000	Fish Crow	fiscro	0.8809	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	132.0
+40	Spectrogram 1	1	141.0	144.0	0	15000	Osprey	osprey	0.9761	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	141.0
+41	Spectrogram 1	1	144.0	147.0	0	15000	Osprey	osprey	0.8285	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	144.0
+42	Spectrogram 1	1	147.0	150.0	0	15000	Osprey	osprey	0.7652	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	147.0
+43	Spectrogram 1	1	150.0	153.0	0	15000	Osprey	osprey	0.8211	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	150.0
+44	Spectrogram 1	1	150.0	153.0	0	15000	Fish Crow	fiscro	0.3694	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	150.0
+45	Spectrogram 1	1	153.0	156.0	0	15000	Osprey	osprey	0.8677	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	153.0
+46	Spectrogram 1	1	159.0	162.0	0	15000	Belted Kingfisher	belkin1	0.3158	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	159.0
+47	Spectrogram 1	1	162.0	165.0	0	15000	Osprey	osprey	0.9597	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	162.0
+48	Spectrogram 1	1	168.0	171.0	0	15000	Belted Kingfisher	belkin1	0.8325	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	168.0
+49	Spectrogram 1	1	174.0	177.0	0	15000	Fish Crow	fiscro	0.8136	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	174.0
+50	Spectrogram 1	1	177.0	180.0	0	15000	Fish Crow	fiscro	0.3965	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	177.0
+51	Spectrogram 1	1	180.0	183.0	0	15000	Osprey	osprey	0.4867	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	180.0
+52	Spectrogram 1	1	189.0	192.0	0	15000	Greater Yellowlegs	greyel	0.3188	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	189.0
+53	Spectrogram 1	1	195.0	198.0	0	15000	Belted Kingfisher	belkin1	0.9504	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	195.0
+54	Spectrogram 1	1	201.0	204.0	0	15000	Short-winged Meadow Katydid	t-11876252	0.3780	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	201.0
+55	Spectrogram 1	1	264.0	267.0	0	15000	Belted Kingfisher	belkin1	0.9865	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	264.0
+56	Spectrogram 1	1	288.0	291.0	0	15000	Belted Kingfisher	belkin1	0.7375	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	288.0
+57	Spectrogram 1	1	291.0	294.0	0	15000	Lesser Yellowlegs	lesyel	0.2570	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	291.0
+58	Spectrogram 1	1	303.0	306.0	0	15000	Belted Kingfisher	belkin1	0.6457	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	303.0
+59	Spectrogram 1	1	306.0	309.0	0	15000	Belted Kingfisher	belkin1	0.9782	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	306.0
+60	Spectrogram 1	1	309.0	312.0	0	15000	Belted Kingfisher	belkin1	0.4715	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	309.0
+61	Spectrogram 1	1	315.0	318.0	0	15000	Belted Kingfisher	belkin1	0.9849	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	315.0
+62	Spectrogram 1	1	318.0	321.0	0	15000	Belted Kingfisher	belkin1	0.7868	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	318.0
+63	Spectrogram 1	1	330.0	333.0	0	15000	Belted Kingfisher	belkin1	0.7839	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	330.0
+64	Spectrogram 1	1	333.0	336.0	0	15000	Belted Kingfisher	belkin1	0.3026	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	333.0
+65	Spectrogram 1	1	336.0	339.0	0	15000	Belted Kingfisher	belkin1	0.8186	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	336.0
+66	Spectrogram 1	1	342.0	345.0	0	15000	Belted Kingfisher	belkin1	0.9802	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	342.0
+67	Spectrogram 1	1	345.0	348.0	0	15000	Belted Kingfisher	belkin1	0.9897	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	345.0
+68	Spectrogram 1	1	360.0	363.0	0	15000	Fish Crow	fiscro	0.5657	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	360.0
+69	Spectrogram 1	1	366.0	369.0	0	15000	Osprey	osprey	0.4357	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	366.0
+70	Spectrogram 1	1	369.0	372.0	0	15000	Osprey	osprey	0.8829	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	369.0
+71	Spectrogram 1	1	372.0	375.0	0	15000	Osprey	osprey	0.4514	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	372.0
+72	Spectrogram 1	1	372.0	375.0	0	15000	Short-winged Meadow Katydid	t-11876252	0.3104	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	372.0
+73	Spectrogram 1	1	384.0	387.0	0	15000	Belted Kingfisher	belkin1	0.5383	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	384.0
+74	Spectrogram 1	1	390.0	393.0	0	15000	Belted Kingfisher	belkin1	0.2907	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	390.0
+75	Spectrogram 1	1	396.0	399.0	0	15000	Osprey	osprey	0.9788	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	396.0
+76	Spectrogram 1	1	405.0	408.0	0	15000	Belted Kingfisher	belkin1	0.9999	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	405.0
+77	Spectrogram 1	1	408.0	411.0	0	15000	Belted Kingfisher	belkin1	0.9998	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	408.0
+78	Spectrogram 1	1	411.0	414.0	0	15000	Belted Kingfisher	belkin1	0.9994	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	411.0
+79	Spectrogram 1	1	414.0	417.0	0	15000	Belted Kingfisher	belkin1	0.9858	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	414.0
+80	Spectrogram 1	1	417.0	420.0	0	15000	Belted Kingfisher	belkin1	0.9191	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	417.0
+81	Spectrogram 1	1	420.0	423.0	0	15000	Belted Kingfisher	belkin1	0.4301	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	420.0
+82	Spectrogram 1	1	423.0	426.0	0	15000	Belted Kingfisher	belkin1	0.8253	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	423.0
+83	Spectrogram 1	1	426.0	429.0	0	15000	Belted Kingfisher	belkin1	0.9944	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	426.0
+84	Spectrogram 1	1	432.0	435.0	0	15000	Belted Kingfisher	belkin1	0.5835	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	432.0
+85	Spectrogram 1	1	435.0	438.0	0	15000	Belted Kingfisher	belkin1	0.8053	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	435.0
+86	Spectrogram 1	1	438.0	441.0	0	15000	Belted Kingfisher	belkin1	0.2921	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	438.0
+87	Spectrogram 1	1	441.0	444.0	0	15000	Belted Kingfisher	belkin1	0.7797	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	441.0
+88	Spectrogram 1	1	444.0	447.0	0	15000	Belted Kingfisher	belkin1	0.3164	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	444.0
+89	Spectrogram 1	1	450.0	453.0	0	15000	Belted Kingfisher	belkin1	0.3694	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	450.0
+90	Spectrogram 1	1	453.0	456.0	0	15000	Belted Kingfisher	belkin1	0.4991	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	453.0
+91	Spectrogram 1	1	456.0	459.0	0	15000	Belted Kingfisher	belkin1	0.9023	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	456.0
+92	Spectrogram 1	1	459.0	462.0	0	15000	Osprey	osprey	0.9099	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	459.0
+93	Spectrogram 1	1	462.0	465.0	0	15000	Fish Crow	fiscro	0.2987	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	462.0
+94	Spectrogram 1	1	465.0	468.0	0	15000	Belted Kingfisher	belkin1	0.9809	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	465.0
+95	Spectrogram 1	1	468.0	471.0	0	15000	Belted Kingfisher	belkin1	0.9764	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	468.0
+96	Spectrogram 1	1	471.0	474.0	0	15000	Belted Kingfisher	belkin1	0.3035	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	471.0
+97	Spectrogram 1	1	474.0	477.0	0	15000	Belted Kingfisher	belkin1	0.8439	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	474.0
+98	Spectrogram 1	1	486.0	489.0	0	15000	Belted Kingfisher	belkin1	0.9935	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	486.0
+99	Spectrogram 1	1	489.0	492.0	0	15000	Belted Kingfisher	belkin1	0.5096	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	489.0
+100	Spectrogram 1	1	492.0	495.0	0	15000	Osprey	osprey	0.5024	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	492.0
+101	Spectrogram 1	1	495.0	498.0	0	15000	Osprey	osprey	0.9758	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	495.0
+102	Spectrogram 1	1	501.0	504.0	0	15000	Osprey	osprey	0.4592	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	501.0
+103	Spectrogram 1	1	516.0	519.0	0	15000	Barn Owl	brnowl	0.9432	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	516.0
+104	Spectrogram 1	1	543.0	546.0	0	15000	Fish Crow	fiscro	0.3376	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	543.0
+105	Spectrogram 1	1	549.0	552.0	0	15000	Fish Crow	fiscro	0.6811	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	549.0
+106	Spectrogram 1	1	552.0	555.0	0	15000	Short-winged Meadow Katydid	t-11876252	0.2634	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	552.0
+107	Spectrogram 1	1	555.0	558.0	0	15000	Belted Kingfisher	belkin1	0.9998	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	555.0
+108	Spectrogram 1	1	558.0	561.0	0	15000	Osprey	osprey	0.9815	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	558.0
+109	Spectrogram 1	1	561.0	564.0	0	15000	Osprey	osprey	0.9903	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	561.0
+110	Spectrogram 1	1	564.0	567.0	0	15000	Osprey	osprey	0.9945	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	564.0
+111	Spectrogram 1	1	573.0	576.0	0	15000	Belted Kingfisher	belkin1	0.2527	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	573.0
+112	Spectrogram 1	1	576.0	579.0	0	15000	Belted Kingfisher	belkin1	0.8595	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	576.0
+113	Spectrogram 1	1	579.0	582.0	0	15000	Belted Kingfisher	belkin1	0.7715	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	579.0
+114	Spectrogram 1	1	594.0	597.0	0	15000	Osprey	osprey	0.3286	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	594.0
+115	Spectrogram 1	1	597.0	600.0	0	15000	Belted Kingfisher	belkin1	0.3185	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	597.0
+116	Spectrogram 1	1	600.0	603.0	0	15000	Belted Kingfisher	belkin1	0.9365	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	600.0
+117	Spectrogram 1	1	603.0	606.0	0	15000	Belted Kingfisher	belkin1	0.9828	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	603.0
+118	Spectrogram 1	1	612.0	615.0	0	15000	Belted Kingfisher	belkin1	0.8338	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	612.0
+119	Spectrogram 1	1	615.0	618.0	0	15000	Belted Kingfisher	belkin1	0.8535	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	615.0
+120	Spectrogram 1	1	621.0	624.0	0	15000	Osprey	osprey	0.9928	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	621.0
+121	Spectrogram 1	1	624.0	627.0	0	15000	Osprey	osprey	0.5933	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	624.0
+122	Spectrogram 1	1	630.0	633.0	0	15000	Belted Kingfisher	belkin1	0.8383	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	630.0
+123	Spectrogram 1	1	633.0	636.0	0	15000	Fish Crow	fiscro	0.5162	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	633.0
+124	Spectrogram 1	1	639.0	642.0	0	15000	Belted Kingfisher	belkin1	0.9997	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	639.0
+125	Spectrogram 1	1	642.0	645.0	0	15000	Belted Kingfisher	belkin1	0.9848	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	642.0
+126	Spectrogram 1	1	645.0	648.0	0	15000	Belted Kingfisher	belkin1	0.9989	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	645.0
+127	Spectrogram 1	1	648.0	651.0	0	15000	Belted Kingfisher	belkin1	0.9662	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	648.0
+128	Spectrogram 1	1	657.0	660.0	0	15000	Osprey	osprey	0.6498	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	657.0
+129	Spectrogram 1	1	657.0	660.0	0	15000	Belted Kingfisher	belkin1	0.6093	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	657.0
+130	Spectrogram 1	1	660.0	663.0	0	15000	Osprey	osprey	0.9480	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	660.0
+131	Spectrogram 1	1	660.0	663.0	0	15000	Belted Kingfisher	belkin1	0.6032	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	660.0
+132	Spectrogram 1	1	663.0	666.0	0	15000	Belted Kingfisher	belkin1	0.8804	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	663.0
+133	Spectrogram 1	1	663.0	666.0	0	15000	Osprey	osprey	0.7886	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	663.0
+134	Spectrogram 1	1	666.0	669.0	0	15000	Osprey	osprey	0.6490	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	666.0
+135	Spectrogram 1	1	669.0	672.0	0	15000	Osprey	osprey	0.9940	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	669.0
+136	Spectrogram 1	1	672.0	675.0	0	15000	Osprey	osprey	0.9153	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	672.0
+137	Spectrogram 1	1	675.0	678.0	0	15000	Osprey	osprey	0.9505	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	675.0
+138	Spectrogram 1	1	678.0	681.0	0	15000	Osprey	osprey	0.8694	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	678.0
+139	Spectrogram 1	1	681.0	684.0	0	15000	Belted Kingfisher	belkin1	0.4458	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	681.0
+140	Spectrogram 1	1	681.0	684.0	0	15000	Osprey	osprey	0.3698	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	681.0
+141	Spectrogram 1	1	684.0	687.0	0	15000	Osprey	osprey	0.5526	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	684.0
+142	Spectrogram 1	1	684.0	687.0	0	15000	Belted Kingfisher	belkin1	0.2681	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	684.0
+143	Spectrogram 1	1	687.0	690.0	0	15000	Belted Kingfisher	belkin1	0.8491	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	687.0
+144	Spectrogram 1	1	690.0	693.0	0	15000	Belted Kingfisher	belkin1	0.8679	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	690.0
+145	Spectrogram 1	1	690.0	693.0	0	15000	Osprey	osprey	0.2906	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	690.0
+146	Spectrogram 1	1	696.0	699.0	0	15000	Belted Kingfisher	belkin1	0.3934	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	696.0
+147	Spectrogram 1	1	705.0	708.0	0	15000	Osprey	osprey	0.9619	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	705.0
+148	Spectrogram 1	1	708.0	711.0	0	15000	Evening Grosbeak	evegro	0.5819	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	708.0
+149	Spectrogram 1	1	708.0	711.0	0	15000	Northern Flicker	norfli	0.4037	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	708.0
+150	Spectrogram 1	1	711.0	714.0	0	15000	Belted Kingfisher	belkin1	0.4307	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	711.0
+151	Spectrogram 1	1	717.0	720.0	0	15000	Osprey	osprey	0.9657	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	717.0
+152	Spectrogram 1	1	720.0	723.0	0	15000	Osprey	osprey	0.7396	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	720.0
+153	Spectrogram 1	1	720.0	723.0	0	15000	Belted Kingfisher	belkin1	0.5441	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	720.0
+154	Spectrogram 1	1	723.0	726.0	0	15000	Osprey	osprey	0.6966	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	723.0
+155	Spectrogram 1	1	726.0	729.0	0	15000	Osprey	osprey	0.7622	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	726.0
+156	Spectrogram 1	1	729.0	732.0	0	15000	Osprey	osprey	0.3963	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	729.0
+157	Spectrogram 1	1	729.0	732.0	0	15000	Belted Kingfisher	belkin1	0.3438	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	729.0
+158	Spectrogram 1	1	732.0	735.0	0	15000	Osprey	osprey	0.6375	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	732.0
+159	Spectrogram 1	1	735.0	738.0	0	15000	Osprey	osprey	0.9730	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	735.0
+160	Spectrogram 1	1	741.0	744.0	0	15000	Belted Kingfisher	belkin1	0.7750	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	741.0
+161	Spectrogram 1	1	744.0	747.0	0	15000	Osprey	osprey	0.9364	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	744.0
+162	Spectrogram 1	1	747.0	750.0	0	15000	Belted Kingfisher	belkin1	0.3824	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	747.0
+163	Spectrogram 1	1	753.0	756.0	0	15000	Osprey	osprey	0.9320	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	753.0
+164	Spectrogram 1	1	756.0	759.0	0	15000	Belted Kingfisher	belkin1	0.3052	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	756.0
+165	Spectrogram 1	1	759.0	762.0	0	15000	Osprey	osprey	0.9532	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	759.0
+166	Spectrogram 1	1	762.0	765.0	0	15000	Osprey	osprey	0.5768	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	762.0
+167	Spectrogram 1	1	765.0	768.0	0	15000	Osprey	osprey	0.9001	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	765.0
+168	Spectrogram 1	1	768.0	771.0	0	15000	Belted Kingfisher	belkin1	0.4896	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	768.0
+169	Spectrogram 1	1	774.0	777.0	0	15000	Belted Kingfisher	belkin1	0.4884	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	774.0
+170	Spectrogram 1	1	774.0	777.0	0	15000	Fish Crow	fiscro	0.2605	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	774.0
+171	Spectrogram 1	1	777.0	780.0	0	15000	Belted Kingfisher	belkin1	0.9673	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	777.0
+172	Spectrogram 1	1	780.0	783.0	0	15000	Belted Kingfisher	belkin1	0.9190	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	780.0
+173	Spectrogram 1	1	786.0	789.0	0	15000	Osprey	osprey	0.9201	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	786.0
+174	Spectrogram 1	1	789.0	792.0	0	15000	Osprey	osprey	0.6474	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	789.0
+175	Spectrogram 1	1	792.0	795.0	0	15000	Osprey	osprey	0.9203	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	792.0
+176	Spectrogram 1	1	795.0	798.0	0	15000	Osprey	osprey	0.5794	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	795.0
+177	Spectrogram 1	1	801.0	804.0	0	15000	Belted Kingfisher	belkin1	0.8833	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	801.0
+178	Spectrogram 1	1	804.0	807.0	0	15000	Belted Kingfisher	belkin1	0.8184	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	804.0
+179	Spectrogram 1	1	807.0	810.0	0	15000	Belted Kingfisher	belkin1	0.9677	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	807.0
+180	Spectrogram 1	1	810.0	813.0	0	15000	Belted Kingfisher	belkin1	0.5071	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	810.0
+181	Spectrogram 1	1	816.0	819.0	0	15000	Belted Kingfisher	belkin1	0.5759	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	816.0
+182	Spectrogram 1	1	819.0	822.0	0	15000	Belted Kingfisher	belkin1	0.4114	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	819.0
+183	Spectrogram 1	1	822.0	825.0	0	15000	Belted Kingfisher	belkin1	0.8505	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	822.0
+184	Spectrogram 1	1	825.0	828.0	0	15000	Osprey	osprey	0.7967	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	825.0
+185	Spectrogram 1	1	828.0	831.0	0	15000	Osprey	osprey	0.9028	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	828.0
+186	Spectrogram 1	1	831.0	834.0	0	15000	Osprey	osprey	0.6016	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	831.0
+187	Spectrogram 1	1	834.0	837.0	0	15000	Osprey	osprey	0.8069	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	834.0
+188	Spectrogram 1	1	840.0	843.0	0	15000	Osprey	osprey	0.4356	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	840.0
+189	Spectrogram 1	1	846.0	849.0	0	15000	Belted Kingfisher	belkin1	0.7481	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	846.0
+190	Spectrogram 1	1	849.0	852.0	0	15000	Belted Kingfisher	belkin1	0.8756	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	849.0
+191	Spectrogram 1	1	852.0	855.0	0	15000	Belted Kingfisher	belkin1	0.6797	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	852.0
+192	Spectrogram 1	1	855.0	858.0	0	15000	Belted Kingfisher	belkin1	0.7461	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	855.0
+193	Spectrogram 1	1	855.0	858.0	0	15000	Osprey	osprey	0.4793	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	855.0
+194	Spectrogram 1	1	858.0	861.0	0	15000	Osprey	osprey	0.9879	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	858.0
+195	Spectrogram 1	1	864.0	867.0	0	15000	Belted Kingfisher	belkin1	0.8458	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	864.0
+196	Spectrogram 1	1	864.0	867.0	0	15000	Osprey	osprey	0.2598	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	864.0
+197	Spectrogram 1	1	879.0	882.0	0	15000	Caspian Tern	caster1	0.4054	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	879.0
+198	Spectrogram 1	1	885.0	888.0	0	15000	Great Egret	greegr	0.4135	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	885.0
+199	Spectrogram 1	1	885.0	888.0	0	15000	Snowy Egret	snoegr	0.3093	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	885.0
+200	Spectrogram 1	1	888.0	891.0	0	15000	Tricolored Heron	triher	0.4500	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	888.0
+201	Spectrogram 1	1	888.0	891.0	0	15000	Great Egret	greegr	0.3593	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	888.0
+202	Spectrogram 1	1	891.0	894.0	0	15000	Great Egret	greegr	0.4973	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	891.0
+203	Spectrogram 1	1	891.0	894.0	0	15000	Belted Kingfisher	belkin1	0.3367	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	891.0
+204	Spectrogram 1	1	894.0	897.0	0	15000	Belted Kingfisher	belkin1	0.4592	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	894.0
+205	Spectrogram 1	1	897.0	900.0	0	15000	Great Egret	greegr	0.3318	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	897.0
+206	Spectrogram 1	1	897.0	900.0	0	15000	Snowy Egret	snoegr	0.2629	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240827_080000.wav	897.0

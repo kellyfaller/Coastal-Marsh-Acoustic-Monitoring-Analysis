@@ -1,0 +1,9 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	15.0	18.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.3965	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240723_210000.wav	15.0
+2	Spectrogram 1	1	78.0	81.0	0	15000	Eastern Screech-Owl	easowl1	0.2812	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240723_210000.wav	78.0
+3	Spectrogram 1	1	135.0	138.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.3798	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240723_210000.wav	135.0
+4	Spectrogram 1	1	138.0	141.0	0	15000	Chuck-will's-widow	chwwid	0.4806	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240723_210000.wav	138.0
+5	Spectrogram 1	1	159.0	162.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2774	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240723_210000.wav	159.0
+6	Spectrogram 1	1	276.0	279.0	0	15000	Canada Goose	cangoo	0.5930	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240723_210000.wav	276.0
+7	Spectrogram 1	1	771.0	774.0	0	15000	Great Horned Owl	grhowl	0.4571	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240723_210000.wav	771.0
+8	Spectrogram 1	1	864.0	867.0	0	15000	Barred Owl	brdowl	0.2998	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240723_210000.wav	864.0

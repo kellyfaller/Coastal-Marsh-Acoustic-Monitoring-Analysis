@@ -1,0 +1,75 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	60.0	63.0	0	15000	Northern Cardinal	norcar	0.2995	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	60.0
+2	Spectrogram 1	1	81.0	84.0	0	15000	Northern Cardinal	norcar	0.4219	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	81.0
+3	Spectrogram 1	1	84.0	87.0	0	15000	Northern Cardinal	norcar	0.3250	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	84.0
+4	Spectrogram 1	1	99.0	102.0	0	15000	Northern Cardinal	norcar	0.3869	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	99.0
+5	Spectrogram 1	1	105.0	108.0	0	15000	Northern Cardinal	norcar	0.2625	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	105.0
+6	Spectrogram 1	1	120.0	123.0	0	15000	Northern Cardinal	norcar	0.3629	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	120.0
+7	Spectrogram 1	1	129.0	132.0	0	15000	Northern Cardinal	norcar	0.5237	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	129.0
+8	Spectrogram 1	1	132.0	135.0	0	15000	Northern Cardinal	norcar	0.3073	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	132.0
+9	Spectrogram 1	1	153.0	156.0	0	15000	Northern Cardinal	norcar	0.5584	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	153.0
+10	Spectrogram 1	1	165.0	168.0	0	15000	Willet	willet1	0.9838	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	165.0
+11	Spectrogram 1	1	168.0	171.0	0	15000	Willet	willet1	0.9923	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	168.0
+12	Spectrogram 1	1	171.0	174.0	0	15000	Semipalmated Sandpiper	semsan	0.2644	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	171.0
+13	Spectrogram 1	1	177.0	180.0	0	15000	Willet	willet1	0.8147	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	177.0
+14	Spectrogram 1	1	180.0	183.0	0	15000	Willet	willet1	0.5960	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	180.0
+15	Spectrogram 1	1	183.0	186.0	0	15000	Willet	willet1	0.7111	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	183.0
+16	Spectrogram 1	1	186.0	189.0	0	15000	Willet	willet1	0.8533	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	186.0
+17	Spectrogram 1	1	195.0	198.0	0	15000	Yellow Warbler	yelwar	0.3164	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	195.0
+18	Spectrogram 1	1	210.0	213.0	0	15000	Willet	willet1	0.2902	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	210.0
+19	Spectrogram 1	1	213.0	216.0	0	15000	Greater Yellowlegs	greyel	0.5997	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	213.0
+20	Spectrogram 1	1	225.0	228.0	0	15000	Greater Yellowlegs	greyel	0.3807	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	225.0
+21	Spectrogram 1	1	237.0	240.0	0	15000	Wilson's Snipe	wilsni1	0.2657	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	237.0
+22	Spectrogram 1	1	246.0	249.0	0	15000	Northern Cardinal	norcar	0.3610	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	246.0
+23	Spectrogram 1	1	249.0	252.0	0	15000	Laughing Gull	laugul	0.6858	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	249.0
+24	Spectrogram 1	1	252.0	255.0	0	15000	Laughing Gull	laugul	0.9287	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	252.0
+25	Spectrogram 1	1	255.0	258.0	0	15000	Laughing Gull	laugul	0.9858	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	255.0
+26	Spectrogram 1	1	258.0	261.0	0	15000	Laughing Gull	laugul	0.9407	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	258.0
+27	Spectrogram 1	1	261.0	264.0	0	15000	Laughing Gull	laugul	0.8997	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	261.0
+28	Spectrogram 1	1	264.0	267.0	0	15000	Laughing Gull	laugul	0.6102	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	264.0
+29	Spectrogram 1	1	264.0	267.0	0	15000	Ring-billed Gull	ribgul	0.2845	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	264.0
+30	Spectrogram 1	1	267.0	270.0	0	15000	Laughing Gull	laugul	0.9834	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	267.0
+31	Spectrogram 1	1	267.0	270.0	0	15000	Ring-billed Gull	ribgul	0.2586	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	267.0
+32	Spectrogram 1	1	270.0	273.0	0	15000	Northern Cardinal	norcar	0.2911	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	270.0
+33	Spectrogram 1	1	303.0	306.0	0	15000	Ruby-crowned Kinglet	ruckin	0.3608	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	303.0
+34	Spectrogram 1	1	318.0	321.0	0	15000	Laughing Gull	laugul	0.2533	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	318.0
+35	Spectrogram 1	1	324.0	327.0	0	15000	Yellow-bellied Sapsucker	yebsap	0.3482	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	324.0
+36	Spectrogram 1	1	330.0	333.0	0	15000	Laughing Gull	laugul	0.7761	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	330.0
+37	Spectrogram 1	1	333.0	336.0	0	15000	Laughing Gull	laugul	0.9945	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	333.0
+38	Spectrogram 1	1	336.0	339.0	0	15000	Laughing Gull	laugul	0.5582	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	336.0
+39	Spectrogram 1	1	339.0	342.0	0	15000	Laughing Gull	laugul	0.4704	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	339.0
+40	Spectrogram 1	1	342.0	345.0	0	15000	Seaside Sparrow	seaspa	0.5194	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	342.0
+41	Spectrogram 1	1	345.0	348.0	0	15000	Laughing Gull	laugul	0.9829	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	345.0
+42	Spectrogram 1	1	348.0	351.0	0	15000	Laughing Gull	laugul	0.9853	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	348.0
+43	Spectrogram 1	1	351.0	354.0	0	15000	Laughing Gull	laugul	0.9610	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	351.0
+44	Spectrogram 1	1	354.0	357.0	0	15000	Laughing Gull	laugul	0.8530	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	354.0
+45	Spectrogram 1	1	357.0	360.0	0	15000	Laughing Gull	laugul	0.6743	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	357.0
+46	Spectrogram 1	1	420.0	423.0	0	15000	Laughing Gull	laugul	0.9316	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	420.0
+47	Spectrogram 1	1	423.0	426.0	0	15000	Laughing Gull	laugul	0.9919	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	423.0
+48	Spectrogram 1	1	441.0	444.0	0	15000	Bobolink	boboli	0.3428	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	441.0
+49	Spectrogram 1	1	546.0	549.0	0	15000	Willet	willet1	0.6729	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	546.0
+50	Spectrogram 1	1	546.0	549.0	0	15000	Seaside Sparrow	seaspa	0.2884	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	546.0
+51	Spectrogram 1	1	564.0	567.0	0	15000	Forster's Tern	forter	0.8473	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	564.0
+52	Spectrogram 1	1	567.0	570.0	0	15000	Forster's Tern	forter	0.6827	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	567.0
+53	Spectrogram 1	1	582.0	585.0	0	15000	Song Sparrow	sonspa	0.3051	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	582.0
+54	Spectrogram 1	1	591.0	594.0	0	15000	Forster's Tern	forter	0.9987	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	591.0
+55	Spectrogram 1	1	597.0	600.0	0	15000	Forster's Tern	forter	0.9996	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	597.0
+56	Spectrogram 1	1	621.0	624.0	0	15000	Song Sparrow	sonspa	0.2701	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	621.0
+57	Spectrogram 1	1	627.0	630.0	0	15000	Song Sparrow	sonspa	0.2955	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	627.0
+58	Spectrogram 1	1	657.0	660.0	0	15000	Herring Gull	hergul	0.3414	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	657.0
+59	Spectrogram 1	1	660.0	663.0	0	15000	Herring Gull	hergul	0.7836	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	660.0
+60	Spectrogram 1	1	669.0	672.0	0	15000	Herring Gull	hergul	0.7891	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	669.0
+61	Spectrogram 1	1	678.0	681.0	0	15000	Forster's Tern	forter	0.2857	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	678.0
+62	Spectrogram 1	1	681.0	684.0	0	15000	Forster's Tern	forter	0.9456	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	681.0
+63	Spectrogram 1	1	741.0	744.0	0	15000	Gray Catbird	grycat	0.2559	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	741.0
+64	Spectrogram 1	1	756.0	759.0	0	15000	Golden-crowned Kinglet	gockin	0.2710	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	756.0
+65	Spectrogram 1	1	801.0	804.0	0	15000	Gray Catbird	grycat	0.6073	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	801.0
+66	Spectrogram 1	1	804.0	807.0	0	15000	Purple Martin	purmar	0.7190	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	804.0
+67	Spectrogram 1	1	825.0	828.0	0	15000	Forster's Tern	forter	0.3352	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	825.0
+68	Spectrogram 1	1	828.0	831.0	0	15000	Forster's Tern	forter	0.6816	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	828.0
+69	Spectrogram 1	1	828.0	831.0	0	15000	Bonaparte's Gull	bongul	0.2919	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	828.0
+70	Spectrogram 1	1	840.0	843.0	0	15000	Song Sparrow	sonspa	0.3407	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	840.0
+71	Spectrogram 1	1	852.0	855.0	0	15000	Song Sparrow	sonspa	0.5976	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	852.0
+72	Spectrogram 1	1	867.0	870.0	0	15000	Song Sparrow	sonspa	0.5472	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	867.0
+73	Spectrogram 1	1	873.0	876.0	0	15000	Laughing Gull	laugul	0.9144	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	873.0
+74	Spectrogram 1	1	876.0	879.0	0	15000	Laughing Gull	laugul	0.8188	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-10\Unit2_20260610_060000.wav	876.0

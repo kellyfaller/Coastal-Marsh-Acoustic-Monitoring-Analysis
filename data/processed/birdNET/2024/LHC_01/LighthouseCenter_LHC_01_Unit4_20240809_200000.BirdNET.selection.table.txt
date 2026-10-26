@@ -1,0 +1,4 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	669.0	672.0	0	15000	Dog	dogdog	0.6595	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240809_200000.wav	669.0
+2	Spectrogram 1	1	675.0	678.0	0	15000	Dog	dogdog	0.9528	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240809_200000.wav	675.0
+3	Spectrogram 1	1	678.0	681.0	0	15000	Dog	dogdog	0.4392	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240809_200000.wav	678.0

@@ -1,0 +1,5 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	297.0	300.0	0	15000	Common Yellowthroat	comyel	0.3876	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-07\Unit4_20260707_120000.wav	297.0
+2	Spectrogram 1	1	504.0	507.0	0	15000	Red-winged Blackbird	rewbla	0.2511	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-07\Unit4_20260707_120000.wav	504.0
+3	Spectrogram 1	1	639.0	642.0	0	15000	Eastern Meadowlark	easmea	0.4371	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-07\Unit4_20260707_120000.wav	639.0
+4	Spectrogram 1	1	645.0	648.0	0	15000	Eastern Meadowlark	easmea	0.3893	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-07\Unit4_20260707_120000.wav	645.0

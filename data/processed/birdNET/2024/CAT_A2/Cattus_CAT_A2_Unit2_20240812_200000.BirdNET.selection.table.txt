@@ -1,0 +1,8 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	183.0	186.0	0	15000	Gray Catbird	grycat	0.2573	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_200000.wav	183.0
+2	Spectrogram 1	1	192.0	195.0	0	15000	Least Sandpiper	leasan	0.3324	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_200000.wav	192.0
+3	Spectrogram 1	1	198.0	201.0	0	15000	Marsh Wren	marwre	0.2656	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_200000.wav	198.0
+4	Spectrogram 1	1	228.0	231.0	0	15000	Black-bellied Plover	bkbplo	0.3217	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_200000.wav	228.0
+5	Spectrogram 1	1	228.0	231.0	0	15000	Red-shouldered Hawk	reshaw	0.3163	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_200000.wav	228.0
+6	Spectrogram 1	1	765.0	768.0	0	15000	Engine	engine	0.7620	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_200000.wav	765.0
+7	Spectrogram 1	1	768.0	771.0	0	15000	Engine	engine	0.3055	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_200000.wav	768.0

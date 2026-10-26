@@ -1,0 +1,7 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	414.0	417.0	0	15000	Laughing Gull	laugul	0.5248	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240821_150000.wav	414.0
+2	Spectrogram 1	1	420.0	423.0	0	15000	Royal Tern	royter1	0.8218	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240821_150000.wav	420.0
+3	Spectrogram 1	1	426.0	429.0	0	15000	Laughing Gull	laugul	0.6511	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240821_150000.wav	426.0
+4	Spectrogram 1	1	489.0	492.0	0	15000	Fireworks	frwrks	0.3137	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240821_150000.wav	489.0
+5	Spectrogram 1	1	663.0	666.0	0	15000	Fireworks	frwrks	0.2585	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240821_150000.wav	663.0
+6	Spectrogram 1	1	708.0	711.0	0	15000	American Crow	amecro	0.7336	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240821_150000.wav	708.0

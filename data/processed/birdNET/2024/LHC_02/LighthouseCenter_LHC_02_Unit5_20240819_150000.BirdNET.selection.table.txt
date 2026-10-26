@@ -1,0 +1,12 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	156.0	159.0	0	15000	Laughing Gull	laugul	0.3810	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240819_150000.wav	156.0
+2	Spectrogram 1	1	162.0	165.0	0	15000	Laughing Gull	laugul	0.3044	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240819_150000.wav	162.0
+3	Spectrogram 1	1	168.0	171.0	0	15000	Laughing Gull	laugul	0.3741	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240819_150000.wav	168.0
+4	Spectrogram 1	1	195.0	198.0	0	15000	Least Sandpiper	leasan	0.7962	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240819_150000.wav	195.0
+5	Spectrogram 1	1	225.0	228.0	0	15000	Laughing Gull	laugul	0.6666	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240819_150000.wav	225.0
+6	Spectrogram 1	1	345.0	348.0	0	15000	Killdeer	killde	0.3015	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240819_150000.wav	345.0
+7	Spectrogram 1	1	357.0	360.0	0	15000	American Crow	amecro	0.2645	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240819_150000.wav	357.0
+8	Spectrogram 1	1	369.0	372.0	0	15000	Laughing Gull	laugul	0.8578	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240819_150000.wav	369.0
+9	Spectrogram 1	1	465.0	468.0	0	15000	Killdeer	killde	0.2898	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240819_150000.wav	465.0
+10	Spectrogram 1	1	486.0	489.0	0	15000	Killdeer	killde	0.2501	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240819_150000.wav	486.0
+11	Spectrogram 1	1	582.0	585.0	0	15000	Chuck-will's-widow	chwwid	0.3719	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240819_150000.wav	582.0

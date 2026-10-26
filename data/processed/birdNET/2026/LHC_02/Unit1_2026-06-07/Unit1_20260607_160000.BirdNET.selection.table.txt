@@ -1,0 +1,30 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	21.0	24.0	0	15000	Golden-crowned Kinglet	gockin	0.3083	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-07\Unit1_20260607_160000.wav	21.0
+2	Spectrogram 1	1	69.0	72.0	0	15000	Golden-crowned Kinglet	gockin	0.2813	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-07\Unit1_20260607_160000.wav	69.0
+3	Spectrogram 1	1	90.0	93.0	0	15000	Golden-crowned Kinglet	gockin	0.2540	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-07\Unit1_20260607_160000.wav	90.0
+4	Spectrogram 1	1	108.0	111.0	0	15000	Golden-crowned Kinglet	gockin	0.3320	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-07\Unit1_20260607_160000.wav	108.0
+5	Spectrogram 1	1	132.0	135.0	0	15000	Golden-crowned Kinglet	gockin	0.2712	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-07\Unit1_20260607_160000.wav	132.0
+6	Spectrogram 1	1	174.0	177.0	0	15000	Willet	willet1	0.4640	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-07\Unit1_20260607_160000.wav	174.0
+7	Spectrogram 1	1	210.0	213.0	0	15000	Golden-crowned Kinglet	gockin	0.3472	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-07\Unit1_20260607_160000.wav	210.0
+8	Spectrogram 1	1	249.0	252.0	0	15000	Whimbrel	whimbr	0.3668	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-07\Unit1_20260607_160000.wav	249.0
+9	Spectrogram 1	1	258.0	261.0	0	15000	Willet	willet1	0.7243	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-07\Unit1_20260607_160000.wav	258.0
+10	Spectrogram 1	1	273.0	276.0	0	15000	Golden-crowned Kinglet	gockin	0.3055	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-07\Unit1_20260607_160000.wav	273.0
+11	Spectrogram 1	1	357.0	360.0	0	15000	Golden-crowned Kinglet	gockin	0.3374	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-07\Unit1_20260607_160000.wav	357.0
+12	Spectrogram 1	1	396.0	399.0	0	15000	Golden-crowned Kinglet	gockin	0.3434	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-07\Unit1_20260607_160000.wav	396.0
+13	Spectrogram 1	1	444.0	447.0	0	15000	Golden-crowned Kinglet	gockin	0.2915	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-07\Unit1_20260607_160000.wav	444.0
+14	Spectrogram 1	1	456.0	459.0	0	15000	Golden-crowned Kinglet	gockin	0.2935	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-07\Unit1_20260607_160000.wav	456.0
+15	Spectrogram 1	1	498.0	501.0	0	15000	Golden-crowned Kinglet	gockin	0.3925	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-07\Unit1_20260607_160000.wav	498.0
+16	Spectrogram 1	1	609.0	612.0	0	15000	Golden-crowned Kinglet	gockin	0.3570	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-07\Unit1_20260607_160000.wav	609.0
+17	Spectrogram 1	1	612.0	615.0	0	15000	Golden-crowned Kinglet	gockin	0.2710	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-07\Unit1_20260607_160000.wav	612.0
+18	Spectrogram 1	1	663.0	666.0	0	15000	Golden-crowned Kinglet	gockin	0.4370	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-07\Unit1_20260607_160000.wav	663.0
+19	Spectrogram 1	1	669.0	672.0	0	15000	Golden-crowned Kinglet	gockin	0.2896	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-07\Unit1_20260607_160000.wav	669.0
+20	Spectrogram 1	1	705.0	708.0	0	15000	Golden-crowned Kinglet	gockin	0.4104	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-07\Unit1_20260607_160000.wav	705.0
+21	Spectrogram 1	1	726.0	729.0	0	15000	Golden-crowned Kinglet	gockin	0.2790	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-07\Unit1_20260607_160000.wav	726.0
+22	Spectrogram 1	1	759.0	762.0	0	15000	Golden-crowned Kinglet	gockin	0.3490	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-07\Unit1_20260607_160000.wav	759.0
+23	Spectrogram 1	1	810.0	813.0	0	15000	Golden-crowned Kinglet	gockin	0.3704	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-07\Unit1_20260607_160000.wav	810.0
+24	Spectrogram 1	1	825.0	828.0	0	15000	Golden-crowned Kinglet	gockin	0.3265	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-07\Unit1_20260607_160000.wav	825.0
+25	Spectrogram 1	1	831.0	834.0	0	15000	Golden-crowned Kinglet	gockin	0.3911	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-07\Unit1_20260607_160000.wav	831.0
+26	Spectrogram 1	1	840.0	843.0	0	15000	Golden-crowned Kinglet	gockin	0.4121	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-07\Unit1_20260607_160000.wav	840.0
+27	Spectrogram 1	1	846.0	849.0	0	15000	Golden-crowned Kinglet	gockin	0.2725	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-07\Unit1_20260607_160000.wav	846.0
+28	Spectrogram 1	1	852.0	855.0	0	15000	Golden-crowned Kinglet	gockin	0.3457	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-07\Unit1_20260607_160000.wav	852.0
+29	Spectrogram 1	1	855.0	858.0	0	15000	Golden-crowned Kinglet	gockin	0.4685	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-07\Unit1_20260607_160000.wav	855.0

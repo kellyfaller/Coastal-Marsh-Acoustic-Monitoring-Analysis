@@ -1,0 +1,5 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	99.0	102.0	0	15000	Belted Kingfisher	belkin1	0.5471	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240902_200000.wav	99.0
+2	Spectrogram 1	1	108.0	111.0	0	15000	Belted Kingfisher	belkin1	0.2835	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240902_200000.wav	108.0
+3	Spectrogram 1	1	396.0	399.0	0	15000	Belted Kingfisher	belkin1	0.5549	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240902_200000.wav	396.0
+4	Spectrogram 1	1	525.0	528.0	0	15000	Northern Cricket Frog	t-11145339	0.2917	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240902_200000.wav	525.0

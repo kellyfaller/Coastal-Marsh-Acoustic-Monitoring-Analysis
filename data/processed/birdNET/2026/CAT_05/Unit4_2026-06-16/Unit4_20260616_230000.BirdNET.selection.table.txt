@@ -1,0 +1,11 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	9.0	12.0	0	15000	Mallard	mallar3	0.7095	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-16\Unit4_20260616_230000.wav	9.0
+2	Spectrogram 1	1	75.0	78.0	0	15000	American Bullfrog	t-11113588	0.2563	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-16\Unit4_20260616_230000.wav	75.0
+3	Spectrogram 1	1	90.0	93.0	0	15000	Mallard	mallar3	0.6490	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-16\Unit4_20260616_230000.wav	90.0
+4	Spectrogram 1	1	93.0	96.0	0	15000	Mallard	mallar3	0.5695	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-16\Unit4_20260616_230000.wav	93.0
+5	Spectrogram 1	1	108.0	111.0	0	15000	Mallard	mallar3	0.2555	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-16\Unit4_20260616_230000.wav	108.0
+6	Spectrogram 1	1	246.0	249.0	0	15000	Mallard	mallar3	0.4537	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-16\Unit4_20260616_230000.wav	246.0
+7	Spectrogram 1	1	285.0	288.0	0	15000	Mallard	mallar3	0.3903	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-16\Unit4_20260616_230000.wav	285.0
+8	Spectrogram 1	1	345.0	348.0	0	15000	Mallard	mallar3	0.2964	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-16\Unit4_20260616_230000.wav	345.0
+9	Spectrogram 1	1	540.0	543.0	0	15000	Osprey	osprey	0.9753	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-16\Unit4_20260616_230000.wav	540.0
+10	Spectrogram 1	1	681.0	684.0	0	15000	Golden-crowned Kinglet	gockin	0.2574	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-16\Unit4_20260616_230000.wav	681.0

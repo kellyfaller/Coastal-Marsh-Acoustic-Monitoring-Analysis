@@ -1,0 +1,19 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	39.0	42.0	0	15000	Marsh Wren	marwre	0.5460	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_090000.wav	39.0
+2	Spectrogram 1	1	81.0	84.0	0	15000	Red Crossbill	redcro	0.3680	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_090000.wav	81.0
+3	Spectrogram 1	1	279.0	282.0	0	15000	Horned Lark	horlar	0.7905	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_090000.wav	279.0
+4	Spectrogram 1	1	327.0	330.0	0	15000	Osprey	osprey	0.8290	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_090000.wav	327.0
+5	Spectrogram 1	1	330.0	333.0	0	15000	Osprey	osprey	0.7701	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_090000.wav	330.0
+6	Spectrogram 1	1	345.0	348.0	0	15000	Osprey	osprey	0.8935	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_090000.wav	345.0
+7	Spectrogram 1	1	348.0	351.0	0	15000	Osprey	osprey	0.9569	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_090000.wav	348.0
+8	Spectrogram 1	1	381.0	384.0	0	15000	Common Yellowthroat	comyel	0.2639	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_090000.wav	381.0
+9	Spectrogram 1	1	384.0	387.0	0	15000	Common Yellowthroat	comyel	0.2669	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_090000.wav	384.0
+10	Spectrogram 1	1	471.0	474.0	0	15000	Eastern Kingbird	easkin	0.2668	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_090000.wav	471.0
+11	Spectrogram 1	1	723.0	726.0	0	15000	Common Yellowthroat	comyel	0.5050	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_090000.wav	723.0
+12	Spectrogram 1	1	747.0	750.0	0	15000	Common Yellowthroat	comyel	0.3321	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_090000.wav	747.0
+13	Spectrogram 1	1	774.0	777.0	0	15000	Common Yellowthroat	comyel	0.4249	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_090000.wav	774.0
+14	Spectrogram 1	1	777.0	780.0	0	15000	Marsh Wren	marwre	0.5022	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_090000.wav	777.0
+15	Spectrogram 1	1	831.0	834.0	0	15000	Marsh Wren	marwre	0.5318	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_090000.wav	831.0
+16	Spectrogram 1	1	840.0	843.0	0	15000	Marsh Wren	marwre	0.2666	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_090000.wav	840.0
+17	Spectrogram 1	1	849.0	852.0	0	15000	Marsh Wren	marwre	0.2752	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_090000.wav	849.0
+18	Spectrogram 1	1	879.0	882.0	0	15000	Marsh Wren	marwre	0.3317	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_090000.wav	879.0

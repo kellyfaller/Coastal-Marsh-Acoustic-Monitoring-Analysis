@@ -1,0 +1,20 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	90.0	93.0	0	15000	Forster's Tern	forter	0.8957	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-14\Unit4_20260814_120000.wav	90.0
+2	Spectrogram 1	1	126.0	129.0	0	15000	Golden-crowned Kinglet	gockin	0.3599	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-14\Unit4_20260814_120000.wav	126.0
+3	Spectrogram 1	1	195.0	198.0	0	15000	Golden-crowned Kinglet	gockin	0.4387	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-14\Unit4_20260814_120000.wav	195.0
+4	Spectrogram 1	1	282.0	285.0	0	15000	Golden-crowned Kinglet	gockin	0.4992	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-14\Unit4_20260814_120000.wav	282.0
+5	Spectrogram 1	1	399.0	402.0	0	15000	Caspian Tern	caster1	0.6204	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-14\Unit4_20260814_120000.wav	399.0
+6	Spectrogram 1	1	408.0	411.0	0	15000	Caspian Tern	caster1	0.4853	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-14\Unit4_20260814_120000.wav	408.0
+7	Spectrogram 1	1	414.0	417.0	0	15000	Caspian Tern	caster1	0.9476	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-14\Unit4_20260814_120000.wav	414.0
+8	Spectrogram 1	1	417.0	420.0	0	15000	Caspian Tern	caster1	0.9944	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-14\Unit4_20260814_120000.wav	417.0
+9	Spectrogram 1	1	423.0	426.0	0	15000	Caspian Tern	caster1	0.7867	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-14\Unit4_20260814_120000.wav	423.0
+10	Spectrogram 1	1	432.0	435.0	0	15000	Caspian Tern	caster1	0.5871	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-14\Unit4_20260814_120000.wav	432.0
+11	Spectrogram 1	1	438.0	441.0	0	15000	Caspian Tern	caster1	0.6280	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-14\Unit4_20260814_120000.wav	438.0
+12	Spectrogram 1	1	456.0	459.0	0	15000	Caspian Tern	caster1	0.6331	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-14\Unit4_20260814_120000.wav	456.0
+13	Spectrogram 1	1	504.0	507.0	0	15000	Golden-crowned Kinglet	gockin	0.4373	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-14\Unit4_20260814_120000.wav	504.0
+14	Spectrogram 1	1	531.0	534.0	0	15000	Golden-crowned Kinglet	gockin	0.2507	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-14\Unit4_20260814_120000.wav	531.0
+15	Spectrogram 1	1	558.0	561.0	0	15000	Golden-crowned Kinglet	gockin	0.3580	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-14\Unit4_20260814_120000.wav	558.0
+16	Spectrogram 1	1	636.0	639.0	0	15000	Tundra Swan	tunswa	0.5925	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-14\Unit4_20260814_120000.wav	636.0
+17	Spectrogram 1	1	639.0	642.0	0	15000	Tundra Swan	tunswa	0.2893	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-14\Unit4_20260814_120000.wav	639.0
+18	Spectrogram 1	1	783.0	786.0	0	15000	Golden-crowned Kinglet	gockin	0.5395	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-14\Unit4_20260814_120000.wav	783.0
+19	Spectrogram 1	1	831.0	834.0	0	15000	Golden-crowned Kinglet	gockin	0.4059	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-14\Unit4_20260814_120000.wav	831.0

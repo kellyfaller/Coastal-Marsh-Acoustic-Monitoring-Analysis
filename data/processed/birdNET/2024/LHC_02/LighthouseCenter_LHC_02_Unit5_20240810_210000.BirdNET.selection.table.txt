@@ -1,0 +1,21 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	45.0	48.0	0	15000	Great Horned Owl	grhowl	0.4333	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240810_210000.wav	45.0
+2	Spectrogram 1	1	147.0	150.0	0	15000	Great Horned Owl	grhowl	0.2883	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240810_210000.wav	147.0
+3	Spectrogram 1	1	495.0	498.0	0	15000	Great Horned Owl	grhowl	0.2800	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240810_210000.wav	495.0
+4	Spectrogram 1	1	564.0	567.0	0	15000	Human vocal	humvoc	0.3088	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240810_210000.wav	564.0
+5	Spectrogram 1	1	570.0	573.0	0	15000	Human vocal	humvoc	0.2691	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240810_210000.wav	570.0
+6	Spectrogram 1	1	711.0	714.0	0	15000	Siren	siren1	0.8334	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240810_210000.wav	711.0
+7	Spectrogram 1	1	714.0	717.0	0	15000	Siren	siren1	0.8010	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240810_210000.wav	714.0
+8	Spectrogram 1	1	717.0	720.0	0	15000	Siren	siren1	0.9445	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240810_210000.wav	717.0
+9	Spectrogram 1	1	720.0	723.0	0	15000	Siren	siren1	0.4952	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240810_210000.wav	720.0
+10	Spectrogram 1	1	723.0	726.0	0	15000	Siren	siren1	0.6153	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240810_210000.wav	723.0
+11	Spectrogram 1	1	723.0	726.0	0	15000	Engine	engine	0.2593	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240810_210000.wav	723.0
+12	Spectrogram 1	1	726.0	729.0	0	15000	Siren	siren1	0.9504	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240810_210000.wav	726.0
+13	Spectrogram 1	1	729.0	732.0	0	15000	Siren	siren1	0.8977	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240810_210000.wav	729.0
+14	Spectrogram 1	1	735.0	738.0	0	15000	Siren	siren1	0.5504	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240810_210000.wav	735.0
+15	Spectrogram 1	1	738.0	741.0	0	15000	Eastern Screech-Owl	easowl1	0.3070	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240810_210000.wav	738.0
+16	Spectrogram 1	1	741.0	744.0	0	15000	Siren	siren1	0.4502	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240810_210000.wav	741.0
+17	Spectrogram 1	1	765.0	768.0	0	15000	Eastern Screech-Owl	easowl1	0.3724	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240810_210000.wav	765.0
+18	Spectrogram 1	1	795.0	798.0	0	15000	Siren	siren1	0.5243	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240810_210000.wav	795.0
+19	Spectrogram 1	1	798.0	801.0	0	15000	Eastern Screech-Owl	easowl1	0.6949	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240810_210000.wav	798.0
+20	Spectrogram 1	1	804.0	807.0	0	15000	Eastern Screech-Owl	easowl1	0.4074	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240810_210000.wav	804.0

@@ -1,0 +1,15 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	9.0	12.0	0	15000	Golden-crowned Kinglet	gockin	0.5093	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240718_030000.wav	9.0
+2	Spectrogram 1	1	96.0	99.0	0	15000	Golden-crowned Kinglet	gockin	0.3752	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240718_030000.wav	96.0
+3	Spectrogram 1	1	288.0	291.0	0	15000	Golden-crowned Kinglet	gockin	0.3310	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240718_030000.wav	288.0
+4	Spectrogram 1	1	423.0	426.0	0	15000	Walker's Ground Cricket	t-11855914	0.2829	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240718_030000.wav	423.0
+5	Spectrogram 1	1	480.0	483.0	0	15000	Allard's Ground Cricket	t-11840984	0.3189	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240718_030000.wav	480.0
+6	Spectrogram 1	1	579.0	582.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2966	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240718_030000.wav	579.0
+7	Spectrogram 1	1	666.0	669.0	0	15000	Golden-crowned Kinglet	gockin	0.6183	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240718_030000.wav	666.0
+8	Spectrogram 1	1	774.0	777.0	0	15000	Grasshopper Sparrow	graspa	0.2724	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240718_030000.wav	774.0
+9	Spectrogram 1	1	795.0	798.0	0	15000	Allard's Ground Cricket	t-11840984	0.3366	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240718_030000.wav	795.0
+10	Spectrogram 1	1	798.0	801.0	0	15000	Walker's Ground Cricket	t-11855914	0.2912	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240718_030000.wav	798.0
+11	Spectrogram 1	1	801.0	804.0	0	15000	Walker's Ground Cricket	t-11855914	0.4240	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240718_030000.wav	801.0
+12	Spectrogram 1	1	813.0	816.0	0	15000	Walker's Ground Cricket	t-11855914	0.4725	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240718_030000.wav	813.0
+13	Spectrogram 1	1	843.0	846.0	0	15000	Least Sandpiper	leasan	0.9580	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240718_030000.wav	843.0
+14	Spectrogram 1	1	849.0	852.0	0	15000	Least Sandpiper	leasan	0.5355	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240718_030000.wav	849.0

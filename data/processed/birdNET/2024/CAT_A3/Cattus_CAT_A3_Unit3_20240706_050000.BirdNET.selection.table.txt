@@ -1,0 +1,27 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	30.0	33.0	0	15000	Eastern Bluebird	easblu	0.8652	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240706_050000.wav	30.0
+2	Spectrogram 1	1	42.0	45.0	0	15000	Eastern Bluebird	easblu	0.7105	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240706_050000.wav	42.0
+3	Spectrogram 1	1	45.0	48.0	0	15000	Marsh Wren	marwre	0.3358	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240706_050000.wav	45.0
+4	Spectrogram 1	1	48.0	51.0	0	15000	Eastern Bluebird	easblu	0.3376	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240706_050000.wav	48.0
+5	Spectrogram 1	1	57.0	60.0	0	15000	Eastern Bluebird	easblu	0.3252	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240706_050000.wav	57.0
+6	Spectrogram 1	1	60.0	63.0	0	15000	Eastern Bluebird	easblu	0.8897	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240706_050000.wav	60.0
+7	Spectrogram 1	1	72.0	75.0	0	15000	Eastern Bluebird	easblu	0.8022	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240706_050000.wav	72.0
+8	Spectrogram 1	1	78.0	81.0	0	15000	Eastern Bluebird	easblu	0.5261	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240706_050000.wav	78.0
+9	Spectrogram 1	1	90.0	93.0	0	15000	Eastern Bluebird	easblu	0.6066	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240706_050000.wav	90.0
+10	Spectrogram 1	1	96.0	99.0	0	15000	Eastern Bluebird	easblu	0.6539	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240706_050000.wav	96.0
+11	Spectrogram 1	1	99.0	102.0	0	15000	Eastern Bluebird	easblu	0.3815	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240706_050000.wav	99.0
+12	Spectrogram 1	1	180.0	183.0	0	15000	Henslow's Sparrow	henspa	0.3386	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240706_050000.wav	180.0
+13	Spectrogram 1	1	315.0	318.0	0	15000	Song Sparrow	sonspa	0.3929	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240706_050000.wav	315.0
+14	Spectrogram 1	1	468.0	471.0	0	15000	Northern Bobwhite	norbob	0.2878	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240706_050000.wav	468.0
+15	Spectrogram 1	1	471.0	474.0	0	15000	Eastern Bluebird	easblu	0.4972	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240706_050000.wav	471.0
+16	Spectrogram 1	1	492.0	495.0	0	15000	Song Sparrow	sonspa	0.2533	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240706_050000.wav	492.0
+17	Spectrogram 1	1	498.0	501.0	0	15000	Eastern Bluebird	easblu	0.6067	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240706_050000.wav	498.0
+18	Spectrogram 1	1	504.0	507.0	0	15000	Eastern Bluebird	easblu	0.7784	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240706_050000.wav	504.0
+19	Spectrogram 1	1	528.0	531.0	0	15000	Eastern Bluebird	easblu	0.7619	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240706_050000.wav	528.0
+20	Spectrogram 1	1	531.0	534.0	0	15000	Eastern Bluebird	easblu	0.2677	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240706_050000.wav	531.0
+21	Spectrogram 1	1	540.0	543.0	0	15000	Eastern Bluebird	easblu	0.2819	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240706_050000.wav	540.0
+22	Spectrogram 1	1	783.0	786.0	0	15000	Gray Catbird	grycat	0.5711	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240706_050000.wav	783.0
+23	Spectrogram 1	1	792.0	795.0	0	15000	Gray Catbird	grycat	0.3022	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240706_050000.wav	792.0
+24	Spectrogram 1	1	846.0	849.0	0	15000	Carolina Wren	carwre	0.5221	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240706_050000.wav	846.0
+25	Spectrogram 1	1	876.0	879.0	0	15000	Gray Catbird	grycat	0.4649	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240706_050000.wav	876.0
+26	Spectrogram 1	1	879.0	882.0	0	15000	Field Sparrow	fiespa	0.2814	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240706_050000.wav	879.0

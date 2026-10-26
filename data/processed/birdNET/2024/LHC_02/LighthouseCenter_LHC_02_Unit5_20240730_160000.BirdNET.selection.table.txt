@@ -1,0 +1,9 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	48.0	51.0	0	15000	Fireworks	frwrks	0.3218	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240730_160000.wav	48.0
+2	Spectrogram 1	1	174.0	177.0	0	15000	Fireworks	frwrks	0.2967	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240730_160000.wav	174.0
+3	Spectrogram 1	1	267.0	270.0	0	15000	Engine	engine	0.2777	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240730_160000.wav	267.0
+4	Spectrogram 1	1	276.0	279.0	0	15000	Fireworks	frwrks	0.5287	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240730_160000.wav	276.0
+5	Spectrogram 1	1	330.0	333.0	0	15000	American Crow	amecro	0.2525	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240730_160000.wav	330.0
+6	Spectrogram 1	1	543.0	546.0	0	15000	Greater Yellowlegs	greyel	0.3163	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240730_160000.wav	543.0
+7	Spectrogram 1	1	672.0	675.0	0	15000	Fireworks	frwrks	0.4186	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240730_160000.wav	672.0
+8	Spectrogram 1	1	846.0	849.0	0	15000	Black Rail	blkrai	0.2772	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240730_160000.wav	846.0

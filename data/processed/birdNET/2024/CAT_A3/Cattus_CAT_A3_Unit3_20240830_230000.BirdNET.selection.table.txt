@@ -1,0 +1,7 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	465.0	468.0	0	15000	Common Virtuoso Katydid	t-11851326	0.4863	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240830_230000.wav	465.0
+2	Spectrogram 1	1	555.0	558.0	0	15000	Common Virtuoso Katydid	t-11851326	0.5469	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240830_230000.wav	555.0
+3	Spectrogram 1	1	555.0	558.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3849	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240830_230000.wav	555.0
+4	Spectrogram 1	1	570.0	573.0	0	15000	Common Virtuoso Katydid	t-11851326	0.4720	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240830_230000.wav	570.0
+5	Spectrogram 1	1	747.0	750.0	0	15000	Common Virtuoso Katydid	t-11851326	0.2663	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240830_230000.wav	747.0
+6	Spectrogram 1	1	864.0	867.0	0	15000	Common Virtuoso Katydid	t-11851326	0.3863	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240830_230000.wav	864.0

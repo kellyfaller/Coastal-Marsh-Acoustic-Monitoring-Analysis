@@ -1,0 +1,27 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	9.0	12.0	0	15000	Song Sparrow	sonspa	0.7052	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240709_100000.wav	9.0
+2	Spectrogram 1	1	108.0	111.0	0	15000	Osprey	osprey	0.9047	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240709_100000.wav	108.0
+3	Spectrogram 1	1	111.0	114.0	0	15000	Osprey	osprey	0.6606	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240709_100000.wav	111.0
+4	Spectrogram 1	1	114.0	117.0	0	15000	Osprey	osprey	0.8284	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240709_100000.wav	114.0
+5	Spectrogram 1	1	114.0	117.0	0	15000	Black-bellied Plover	bkbplo	0.2796	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240709_100000.wav	114.0
+6	Spectrogram 1	1	150.0	153.0	0	15000	Fish Crow	fiscro	0.5347	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240709_100000.wav	150.0
+7	Spectrogram 1	1	153.0	156.0	0	15000	Fish Crow	fiscro	0.3742	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240709_100000.wav	153.0
+8	Spectrogram 1	1	156.0	159.0	0	15000	Song Sparrow	sonspa	0.2660	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240709_100000.wav	156.0
+9	Spectrogram 1	1	234.0	237.0	0	15000	Engine	engine	0.2891	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240709_100000.wav	234.0
+10	Spectrogram 1	1	261.0	264.0	0	15000	Engine	engine	0.3034	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240709_100000.wav	261.0
+11	Spectrogram 1	1	276.0	279.0	0	15000	Engine	engine	0.4934	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240709_100000.wav	276.0
+12	Spectrogram 1	1	279.0	282.0	0	15000	Engine	engine	0.4679	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240709_100000.wav	279.0
+13	Spectrogram 1	1	288.0	291.0	0	15000	Engine	engine	0.4338	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240709_100000.wav	288.0
+14	Spectrogram 1	1	294.0	297.0	0	15000	Engine	engine	0.4310	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240709_100000.wav	294.0
+15	Spectrogram 1	1	297.0	300.0	0	15000	Engine	engine	0.7461	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240709_100000.wav	297.0
+16	Spectrogram 1	1	309.0	312.0	0	15000	American Bullfrog	t-11113588	0.4225	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240709_100000.wav	309.0
+17	Spectrogram 1	1	312.0	315.0	0	15000	Engine	engine	0.3668	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240709_100000.wav	312.0
+18	Spectrogram 1	1	330.0	333.0	0	15000	Osprey	osprey	0.3630	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240709_100000.wav	330.0
+19	Spectrogram 1	1	408.0	411.0	0	15000	Song Sparrow	sonspa	0.5762	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240709_100000.wav	408.0
+20	Spectrogram 1	1	417.0	420.0	0	15000	Osprey	osprey	0.4795	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240709_100000.wav	417.0
+21	Spectrogram 1	1	480.0	483.0	0	15000	Golden-crowned Kinglet	gockin	0.3606	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240709_100000.wav	480.0
+22	Spectrogram 1	1	531.0	534.0	0	15000	Song Sparrow	sonspa	0.2956	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240709_100000.wav	531.0
+23	Spectrogram 1	1	747.0	750.0	0	15000	Yellow-billed Cuckoo	yebcuc	0.2782	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240709_100000.wav	747.0
+24	Spectrogram 1	1	771.0	774.0	0	15000	American Goldfinch	amegfi	0.5062	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240709_100000.wav	771.0
+25	Spectrogram 1	1	780.0	783.0	0	15000	Great Black-backed Gull	gbbgul	0.6219	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240709_100000.wav	780.0
+26	Spectrogram 1	1	891.0	894.0	0	15000	Song Sparrow	sonspa	0.4071	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240709_100000.wav	891.0

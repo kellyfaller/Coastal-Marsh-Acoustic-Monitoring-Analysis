@@ -1,0 +1,25 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	9.0	12.0	0	15000	Eastern Towhee	eastow	0.8853	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_170000.wav	9.0
+2	Spectrogram 1	1	27.0	30.0	0	15000	Eastern Towhee	eastow	0.4575	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_170000.wav	27.0
+3	Spectrogram 1	1	48.0	51.0	0	15000	Eastern Towhee	eastow	0.6361	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_170000.wav	48.0
+4	Spectrogram 1	1	57.0	60.0	0	15000	Eastern Towhee	eastow	0.8408	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_170000.wav	57.0
+5	Spectrogram 1	1	69.0	72.0	0	15000	Eastern Towhee	eastow	0.6530	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_170000.wav	69.0
+6	Spectrogram 1	1	78.0	81.0	0	15000	Eastern Towhee	eastow	0.5052	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_170000.wav	78.0
+7	Spectrogram 1	1	90.0	93.0	0	15000	Eastern Towhee	eastow	0.4757	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_170000.wav	90.0
+8	Spectrogram 1	1	111.0	114.0	0	15000	Eastern Towhee	eastow	0.6543	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_170000.wav	111.0
+9	Spectrogram 1	1	120.0	123.0	0	15000	Eastern Towhee	eastow	0.2771	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_170000.wav	120.0
+10	Spectrogram 1	1	132.0	135.0	0	15000	Eastern Towhee	eastow	0.3019	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_170000.wav	132.0
+11	Spectrogram 1	1	141.0	144.0	0	15000	Eastern Towhee	eastow	0.3227	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_170000.wav	141.0
+12	Spectrogram 1	1	150.0	153.0	0	15000	Eastern Towhee	eastow	0.3006	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_170000.wav	150.0
+13	Spectrogram 1	1	162.0	165.0	0	15000	Eastern Towhee	eastow	0.7119	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_170000.wav	162.0
+14	Spectrogram 1	1	171.0	174.0	0	15000	Eastern Towhee	eastow	0.7049	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_170000.wav	171.0
+15	Spectrogram 1	1	180.0	183.0	0	15000	Eastern Towhee	eastow	0.4096	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_170000.wav	180.0
+16	Spectrogram 1	1	192.0	195.0	0	15000	Eastern Towhee	eastow	0.4135	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_170000.wav	192.0
+17	Spectrogram 1	1	627.0	630.0	0	15000	Marsh Wren	marwre	0.7960	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_170000.wav	627.0
+18	Spectrogram 1	1	633.0	636.0	0	15000	Marsh Wren	marwre	0.8155	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_170000.wav	633.0
+19	Spectrogram 1	1	639.0	642.0	0	15000	Marsh Wren	marwre	0.7849	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_170000.wav	639.0
+20	Spectrogram 1	1	645.0	648.0	0	15000	Marsh Wren	marwre	0.7470	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_170000.wav	645.0
+21	Spectrogram 1	1	789.0	792.0	0	15000	Engine	engine	0.2960	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_170000.wav	789.0
+22	Spectrogram 1	1	792.0	795.0	0	15000	Engine	engine	0.4226	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_170000.wav	792.0
+23	Spectrogram 1	1	798.0	801.0	0	15000	Engine	engine	0.3165	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_170000.wav	798.0
+24	Spectrogram 1	1	807.0	810.0	0	15000	Engine	engine	0.4447	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240704_170000.wav	807.0

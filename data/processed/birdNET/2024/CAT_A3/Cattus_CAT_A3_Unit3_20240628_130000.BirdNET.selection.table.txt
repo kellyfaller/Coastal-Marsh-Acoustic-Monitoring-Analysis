@@ -1,0 +1,23 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	12.0	15.0	0	15000	Gun	gungun	0.2912	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240628_130000.wav	12.0
+2	Spectrogram 1	1	51.0	54.0	0	15000	Gun	gungun	0.3580	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240628_130000.wav	51.0
+3	Spectrogram 1	1	87.0	90.0	0	15000	Gun	gungun	0.6593	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240628_130000.wav	87.0
+4	Spectrogram 1	1	114.0	117.0	0	15000	Gun	gungun	0.4098	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240628_130000.wav	114.0
+5	Spectrogram 1	1	180.0	183.0	0	15000	Power tools	powtoo	0.7308	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240628_130000.wav	180.0
+6	Spectrogram 1	1	180.0	183.0	0	15000	Engine	engine	0.4040	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240628_130000.wav	180.0
+7	Spectrogram 1	1	183.0	186.0	0	15000	Engine	engine	0.2780	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240628_130000.wav	183.0
+8	Spectrogram 1	1	183.0	186.0	0	15000	Power tools	powtoo	0.2617	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240628_130000.wav	183.0
+9	Spectrogram 1	1	195.0	198.0	0	15000	Power tools	powtoo	0.2570	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240628_130000.wav	195.0
+10	Spectrogram 1	1	198.0	201.0	0	15000	Power tools	powtoo	0.2819	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240628_130000.wav	198.0
+11	Spectrogram 1	1	237.0	240.0	0	15000	Gun	gungun	0.2639	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240628_130000.wav	237.0
+12	Spectrogram 1	1	327.0	330.0	0	15000	Sanderling	sander	0.4517	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240628_130000.wav	327.0
+13	Spectrogram 1	1	390.0	393.0	0	15000	Gun	gungun	0.2619	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240628_130000.wav	390.0
+14	Spectrogram 1	1	468.0	471.0	0	15000	Gun	gungun	0.2799	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240628_130000.wav	468.0
+15	Spectrogram 1	1	480.0	483.0	0	15000	Osprey	osprey	0.5022	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240628_130000.wav	480.0
+16	Spectrogram 1	1	513.0	516.0	0	15000	Osprey	osprey	0.6066	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240628_130000.wav	513.0
+17	Spectrogram 1	1	528.0	531.0	0	15000	Peregrine Falcon	perfal	0.6540	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240628_130000.wav	528.0
+18	Spectrogram 1	1	723.0	726.0	0	15000	Osprey	osprey	0.5487	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240628_130000.wav	723.0
+19	Spectrogram 1	1	741.0	744.0	0	15000	American Goldfinch	amegfi	0.2797	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240628_130000.wav	741.0
+20	Spectrogram 1	1	744.0	747.0	0	15000	Osprey	osprey	0.2771	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240628_130000.wav	744.0
+21	Spectrogram 1	1	789.0	792.0	0	15000	Mourning Dove	moudov	0.2735	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240628_130000.wav	789.0
+22	Spectrogram 1	1	798.0	801.0	0	15000	Human non-vocal	humnov	0.8471	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240628_130000.wav	798.0

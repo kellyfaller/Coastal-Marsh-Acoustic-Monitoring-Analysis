@@ -1,0 +1,6 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	54.0	57.0	0	15000	Lapland Longspur	laplon	0.3628	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-14\U05_20260714_184500.wav	54.0
+2	Spectrogram 1	1	642.0	645.0	0	15000	Greater Yellowlegs	greyel	0.5269	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-14\U05_20260714_184500.wav	642.0
+3	Spectrogram 1	1	831.0	834.0	0	15000	Osprey	osprey	0.7894	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-14\U05_20260714_184500.wav	831.0
+4	Spectrogram 1	1	846.0	849.0	0	15000	Osprey	osprey	0.9913	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-14\U05_20260714_184500.wav	846.0
+5	Spectrogram 1	1	849.0	852.0	0	15000	Osprey	osprey	0.9545	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-14\U05_20260714_184500.wav	849.0

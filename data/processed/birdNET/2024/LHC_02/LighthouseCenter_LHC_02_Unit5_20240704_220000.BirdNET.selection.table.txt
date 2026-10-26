@@ -1,0 +1,11 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	237.0	240.0	0	15000	Fireworks	frwrks	0.5158	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240704_220000.wav	237.0
+2	Spectrogram 1	1	339.0	342.0	0	15000	Black Scoter	blksco2	0.5086	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240704_220000.wav	339.0
+3	Spectrogram 1	1	582.0	585.0	0	15000	Fireworks	frwrks	0.3077	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240704_220000.wav	582.0
+4	Spectrogram 1	1	693.0	696.0	0	15000	Fireworks	frwrks	0.6448	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240704_220000.wav	693.0
+5	Spectrogram 1	1	699.0	702.0	0	15000	Fireworks	frwrks	0.7762	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240704_220000.wav	699.0
+6	Spectrogram 1	1	702.0	705.0	0	15000	Fireworks	frwrks	0.5712	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240704_220000.wav	702.0
+7	Spectrogram 1	1	777.0	780.0	0	15000	Fireworks	frwrks	0.8170	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240704_220000.wav	777.0
+8	Spectrogram 1	1	780.0	783.0	0	15000	Fireworks	frwrks	0.8033	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240704_220000.wav	780.0
+9	Spectrogram 1	1	786.0	789.0	0	15000	Fireworks	frwrks	0.9847	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240704_220000.wav	786.0
+10	Spectrogram 1	1	891.0	894.0	0	15000	Black Scoter	blksco2	0.2998	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240704_220000.wav	891.0

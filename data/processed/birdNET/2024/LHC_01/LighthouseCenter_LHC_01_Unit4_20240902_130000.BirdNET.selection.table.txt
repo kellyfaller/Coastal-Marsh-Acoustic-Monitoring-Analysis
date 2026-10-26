@@ -1,0 +1,10 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	150.0	153.0	0	15000	Great Egret	greegr	0.3972	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240902_130000.wav	150.0
+2	Spectrogram 1	1	231.0	234.0	0	15000	Great Egret	greegr	0.2959	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240902_130000.wav	231.0
+3	Spectrogram 1	1	549.0	552.0	0	15000	Herring Gull	hergul	0.2568	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240902_130000.wav	549.0
+4	Spectrogram 1	1	552.0	555.0	0	15000	Herring Gull	hergul	0.3824	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240902_130000.wav	552.0
+5	Spectrogram 1	1	627.0	630.0	0	15000	Chuck-will's-widow	chwwid	0.3502	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240902_130000.wav	627.0
+6	Spectrogram 1	1	639.0	642.0	0	15000	Fish Crow	fiscro	0.2906	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240902_130000.wav	639.0
+7	Spectrogram 1	1	666.0	669.0	0	15000	Great Egret	greegr	0.2899	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240902_130000.wav	666.0
+8	Spectrogram 1	1	735.0	738.0	0	15000	Common Virtuoso Katydid	t-11851326	0.2719	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240902_130000.wav	735.0
+9	Spectrogram 1	1	873.0	876.0	0	15000	Worm-eating Warbler	woewar1	0.4976	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240902_130000.wav	873.0

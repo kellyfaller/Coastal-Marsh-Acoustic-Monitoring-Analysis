@@ -1,0 +1,14 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	420.0	423.0	0	15000	Purple Martin	purmar	0.3319	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-22\Unit4_20260722_090000.wav	420.0
+2	Spectrogram 1	1	651.0	654.0	0	15000	Purple Martin	purmar	0.2790	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-22\Unit4_20260722_090000.wav	651.0
+3	Spectrogram 1	1	663.0	666.0	0	15000	Purple Martin	purmar	0.2637	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-22\Unit4_20260722_090000.wav	663.0
+4	Spectrogram 1	1	666.0	669.0	0	15000	Purple Martin	purmar	0.4756	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-22\Unit4_20260722_090000.wav	666.0
+5	Spectrogram 1	1	669.0	672.0	0	15000	Purple Martin	purmar	0.6244	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-22\Unit4_20260722_090000.wav	669.0
+6	Spectrogram 1	1	672.0	675.0	0	15000	Purple Martin	purmar	0.5411	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-22\Unit4_20260722_090000.wav	672.0
+7	Spectrogram 1	1	675.0	678.0	0	15000	Purple Martin	purmar	0.9207	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-22\Unit4_20260722_090000.wav	675.0
+8	Spectrogram 1	1	678.0	681.0	0	15000	Purple Martin	purmar	0.7770	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-22\Unit4_20260722_090000.wav	678.0
+9	Spectrogram 1	1	690.0	693.0	0	15000	Purple Martin	purmar	0.2849	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-22\Unit4_20260722_090000.wav	690.0
+10	Spectrogram 1	1	729.0	732.0	0	15000	Seaside Sparrow	seaspa	0.8278	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-22\Unit4_20260722_090000.wav	729.0
+11	Spectrogram 1	1	771.0	774.0	0	15000	Purple Martin	purmar	0.3652	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-22\Unit4_20260722_090000.wav	771.0
+12	Spectrogram 1	1	816.0	819.0	0	15000	Purple Martin	purmar	0.6739	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-22\Unit4_20260722_090000.wav	816.0
+13	Spectrogram 1	1	876.0	879.0	0	15000	Seaside Sparrow	seaspa	0.9531	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-22\Unit4_20260722_090000.wav	876.0

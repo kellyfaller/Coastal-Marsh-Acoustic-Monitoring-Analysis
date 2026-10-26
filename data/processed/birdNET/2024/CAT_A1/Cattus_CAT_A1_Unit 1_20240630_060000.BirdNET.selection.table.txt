@@ -1,0 +1,11 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	78.0	81.0	0	15000	Yellow Rail	yelrai	0.3358	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240630_060000.wav	78.0
+2	Spectrogram 1	1	210.0	213.0	0	15000	Lesser Yellowlegs	lesyel	0.3460	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240630_060000.wav	210.0
+3	Spectrogram 1	1	414.0	417.0	0	15000	Marsh Wren	marwre	0.2819	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240630_060000.wav	414.0
+4	Spectrogram 1	1	537.0	540.0	0	15000	Marsh Wren	marwre	0.3911	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240630_060000.wav	537.0
+5	Spectrogram 1	1	555.0	558.0	0	15000	American Bittern	amebit	0.4207	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240630_060000.wav	555.0
+6	Spectrogram 1	1	771.0	774.0	0	15000	Yellow Rail	yelrai	0.3199	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240630_060000.wav	771.0
+7	Spectrogram 1	1	792.0	795.0	0	15000	Yellow Rail	yelrai	0.4197	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240630_060000.wav	792.0
+8	Spectrogram 1	1	843.0	846.0	0	15000	Yellow Rail	yelrai	0.3636	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240630_060000.wav	843.0
+9	Spectrogram 1	1	882.0	885.0	0	15000	Eastern Kingbird	easkin	0.9742	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240630_060000.wav	882.0
+10	Spectrogram 1	1	888.0	891.0	0	15000	Eastern Kingbird	easkin	0.6212	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240630_060000.wav	888.0

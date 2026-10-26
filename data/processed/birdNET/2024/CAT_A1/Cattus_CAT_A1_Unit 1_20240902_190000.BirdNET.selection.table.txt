@@ -1,0 +1,14 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	60.0	63.0	0	15000	Purple Martin	purmar	0.4018	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240902_190000.wav	60.0
+2	Spectrogram 1	1	192.0	195.0	0	15000	Osprey	osprey	0.9321	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240902_190000.wav	192.0
+3	Spectrogram 1	1	195.0	198.0	0	15000	Osprey	osprey	0.5442	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240902_190000.wav	195.0
+4	Spectrogram 1	1	267.0	270.0	0	15000	Black Scoter	blksco2	0.3204	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240902_190000.wav	267.0
+5	Spectrogram 1	1	291.0	294.0	0	15000	Golden-crowned Kinglet	gockin	0.4015	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240902_190000.wav	291.0
+6	Spectrogram 1	1	366.0	369.0	0	15000	Mallard	mallar3	0.5365	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240902_190000.wav	366.0
+7	Spectrogram 1	1	525.0	528.0	0	15000	Mallard	mallar3	0.2962	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240902_190000.wav	525.0
+8	Spectrogram 1	1	528.0	531.0	0	15000	Mallard	mallar3	0.8148	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240902_190000.wav	528.0
+9	Spectrogram 1	1	636.0	639.0	0	15000	Mallard	mallar3	0.3239	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240902_190000.wav	636.0
+10	Spectrogram 1	1	639.0	642.0	0	15000	Mallard	mallar3	0.6612	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240902_190000.wav	639.0
+11	Spectrogram 1	1	780.0	783.0	0	15000	Black Scoter	blksco2	0.6572	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240902_190000.wav	780.0
+12	Spectrogram 1	1	801.0	804.0	0	15000	Great Crested Flycatcher	grcfly	0.2761	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240902_190000.wav	801.0
+13	Spectrogram 1	1	822.0	825.0	0	15000	Northern Saw-whet Owl	nswowl	0.2579	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240902_190000.wav	822.0

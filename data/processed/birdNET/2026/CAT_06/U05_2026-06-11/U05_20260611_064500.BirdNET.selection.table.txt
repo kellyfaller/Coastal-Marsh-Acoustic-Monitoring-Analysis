@@ -1,0 +1,10 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	9.0	12.0	0	15000	Red-winged Blackbird	rewbla	0.2657	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_064500.wav	9.0
+2	Spectrogram 1	1	48.0	51.0	0	15000	Song Sparrow	sonspa	0.2545	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_064500.wav	48.0
+3	Spectrogram 1	1	69.0	72.0	0	15000	Least Bittern	leabit	0.3669	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_064500.wav	69.0
+4	Spectrogram 1	1	129.0	132.0	0	15000	Red-winged Blackbird	rewbla	0.5874	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_064500.wav	129.0
+5	Spectrogram 1	1	138.0	141.0	0	15000	Northern Flicker	norfli	0.5107	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_064500.wav	138.0
+6	Spectrogram 1	1	147.0	150.0	0	15000	Northern Flicker	norfli	0.3823	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_064500.wav	147.0
+7	Spectrogram 1	1	432.0	435.0	0	15000	Purple Martin	purmar	0.4378	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_064500.wav	432.0
+8	Spectrogram 1	1	756.0	759.0	0	15000	House Wren	houwre	0.3087	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_064500.wav	756.0
+9	Spectrogram 1	1	876.0	879.0	0	15000	House Wren	houwre	0.5046	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_064500.wav	876.0

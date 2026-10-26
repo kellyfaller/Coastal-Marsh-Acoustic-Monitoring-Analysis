@@ -1,0 +1,11 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	207.0	210.0	0	15000	Great Crested Flycatcher	grcfly	0.3409	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240629_090000.wav	207.0
+2	Spectrogram 1	1	255.0	258.0	0	15000	Great Crested Flycatcher	grcfly	0.3602	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240629_090000.wav	255.0
+3	Spectrogram 1	1	279.0	282.0	0	15000	Great Crested Flycatcher	grcfly	0.3720	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240629_090000.wav	279.0
+4	Spectrogram 1	1	591.0	594.0	0	15000	Belted Kingfisher	belkin1	0.3076	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240629_090000.wav	591.0
+5	Spectrogram 1	1	726.0	729.0	0	15000	Fish Crow	fiscro	0.8027	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240629_090000.wav	726.0
+6	Spectrogram 1	1	729.0	732.0	0	15000	Fish Crow	fiscro	0.2567	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240629_090000.wav	729.0
+7	Spectrogram 1	1	747.0	750.0	0	15000	Great Blue Heron	grbher3	0.4188	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240629_090000.wav	747.0
+8	Spectrogram 1	1	750.0	753.0	0	15000	Great Blue Heron	grbher3	0.8705	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240629_090000.wav	750.0
+9	Spectrogram 1	1	828.0	831.0	0	15000	Fish Crow	fiscro	0.5053	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240629_090000.wav	828.0
+10	Spectrogram 1	1	885.0	888.0	0	15000	Seaside Sparrow	seaspa	0.5164	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240629_090000.wav	885.0

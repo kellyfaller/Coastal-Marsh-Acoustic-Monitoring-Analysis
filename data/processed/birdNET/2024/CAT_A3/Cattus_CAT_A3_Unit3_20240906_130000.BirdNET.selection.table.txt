@@ -1,0 +1,15 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	21.0	24.0	0	15000	Engine	engine	0.2722	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240906_130000.wav	21.0
+2	Spectrogram 1	1	108.0	111.0	0	15000	Engine	engine	0.4410	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240906_130000.wav	108.0
+3	Spectrogram 1	1	111.0	114.0	0	15000	Engine	engine	0.3944	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240906_130000.wav	111.0
+4	Spectrogram 1	1	159.0	162.0	0	15000	Human vocal	humvoc	0.2511	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240906_130000.wav	159.0
+5	Spectrogram 1	1	198.0	201.0	0	15000	Mute Swan	mutswa	0.3177	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240906_130000.wav	198.0
+6	Spectrogram 1	1	249.0	252.0	0	15000	Engine	engine	0.4043	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240906_130000.wav	249.0
+7	Spectrogram 1	1	267.0	270.0	0	15000	Engine	engine	0.6027	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240906_130000.wav	267.0
+8	Spectrogram 1	1	408.0	411.0	0	15000	Human vocal	humvoc	0.3798	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240906_130000.wav	408.0
+9	Spectrogram 1	1	471.0	474.0	0	15000	Engine	engine	0.3002	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240906_130000.wav	471.0
+10	Spectrogram 1	1	492.0	495.0	0	15000	Engine	engine	0.2553	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240906_130000.wav	492.0
+11	Spectrogram 1	1	498.0	501.0	0	15000	Engine	engine	0.2751	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240906_130000.wav	498.0
+12	Spectrogram 1	1	516.0	519.0	0	15000	Engine	engine	0.2989	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240906_130000.wav	516.0
+13	Spectrogram 1	1	528.0	531.0	0	15000	Snow Goose	snogoo	0.3483	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240906_130000.wav	528.0
+14	Spectrogram 1	1	606.0	609.0	0	15000	Engine	engine	0.2544	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240906_130000.wav	606.0

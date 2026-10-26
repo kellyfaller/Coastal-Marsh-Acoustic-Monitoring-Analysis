@@ -1,0 +1,15 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	93.0	96.0	0	15000	Golden-crowned Kinglet	gockin	0.4868	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_171500.wav	93.0
+2	Spectrogram 1	1	96.0	99.0	0	15000	Cedar Waxwing	cedwax	0.2778	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_171500.wav	96.0
+3	Spectrogram 1	1	195.0	198.0	0	15000	Lapland Longspur	laplon	0.2705	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_171500.wav	195.0
+4	Spectrogram 1	1	618.0	621.0	0	15000	Cedar Waxwing	cedwax	0.8869	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_171500.wav	618.0
+5	Spectrogram 1	1	621.0	624.0	0	15000	Cedar Waxwing	cedwax	0.8157	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_171500.wav	621.0
+6	Spectrogram 1	1	624.0	627.0	0	15000	Cedar Waxwing	cedwax	0.8911	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_171500.wav	624.0
+7	Spectrogram 1	1	627.0	630.0	0	15000	Cedar Waxwing	cedwax	0.5414	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_171500.wav	627.0
+8	Spectrogram 1	1	645.0	648.0	0	15000	Osprey	osprey	0.9270	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_171500.wav	645.0
+9	Spectrogram 1	1	648.0	651.0	0	15000	Osprey	osprey	0.9986	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_171500.wav	648.0
+10	Spectrogram 1	1	735.0	738.0	0	15000	Marsh Wren	marwre	0.4263	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_171500.wav	735.0
+11	Spectrogram 1	1	753.0	756.0	0	15000	Marsh Wren	marwre	0.7515	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_171500.wav	753.0
+12	Spectrogram 1	1	759.0	762.0	0	15000	Marsh Wren	marwre	0.4852	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_171500.wav	759.0
+13	Spectrogram 1	1	771.0	774.0	0	15000	Marsh Wren	marwre	0.6935	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_171500.wav	771.0
+14	Spectrogram 1	1	816.0	819.0	0	15000	American Woodcock	amewoo	0.2897	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-07\U05_20260607_171500.wav	816.0

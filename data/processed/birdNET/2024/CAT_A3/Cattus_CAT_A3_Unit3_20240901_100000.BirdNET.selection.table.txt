@@ -1,0 +1,11 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	99.0	102.0	0	15000	Chipping Sparrow	chispa	0.3205	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240901_100000.wav	99.0
+2	Spectrogram 1	1	171.0	174.0	0	15000	Engine	engine	0.6655	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240901_100000.wav	171.0
+3	Spectrogram 1	1	477.0	480.0	0	15000	Eastern Towhee	eastow	0.2859	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240901_100000.wav	477.0
+4	Spectrogram 1	1	540.0	543.0	0	15000	Belted Kingfisher	belkin1	0.3707	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240901_100000.wav	540.0
+5	Spectrogram 1	1	630.0	633.0	0	15000	Osprey	osprey	0.5632	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240901_100000.wav	630.0
+6	Spectrogram 1	1	633.0	636.0	0	15000	Osprey	osprey	0.8914	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240901_100000.wav	633.0
+7	Spectrogram 1	1	639.0	642.0	0	15000	Chipping Sparrow	chispa	0.4261	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240901_100000.wav	639.0
+8	Spectrogram 1	1	747.0	750.0	0	15000	Chipping Sparrow	chispa	0.3017	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240901_100000.wav	747.0
+9	Spectrogram 1	1	756.0	759.0	0	15000	Chipping Sparrow	chispa	0.3967	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240901_100000.wav	756.0
+10	Spectrogram 1	1	798.0	801.0	0	15000	Chipping Sparrow	chispa	0.3445	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240901_100000.wav	798.0

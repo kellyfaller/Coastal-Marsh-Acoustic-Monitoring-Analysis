@@ -1,0 +1,4 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	468.0	471.0	0	15000	Great Black-backed Gull	gbbgul	0.8149	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240807_160000.wav	468.0
+2	Spectrogram 1	1	471.0	474.0	0	15000	Common Loon	comloo	0.5817	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240807_160000.wav	471.0
+3	Spectrogram 1	1	807.0	810.0	0	15000	Laughing Gull	laugul	0.9156	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240807_160000.wav	807.0

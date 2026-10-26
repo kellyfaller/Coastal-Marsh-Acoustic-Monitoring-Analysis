@@ -1,0 +1,17 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	24.0	27.0	0	15000	American Goldfinch	amegfi	0.5944	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_110000.wav	24.0
+2	Spectrogram 1	1	171.0	174.0	0	15000	American Goldfinch	amegfi	0.4535	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_110000.wav	171.0
+3	Spectrogram 1	1	174.0	177.0	0	15000	American Goldfinch	amegfi	0.2854	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_110000.wav	174.0
+4	Spectrogram 1	1	183.0	186.0	0	15000	American Goldfinch	amegfi	0.2529	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_110000.wav	183.0
+5	Spectrogram 1	1	201.0	204.0	0	15000	American Goldfinch	amegfi	0.6342	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_110000.wav	201.0
+6	Spectrogram 1	1	261.0	264.0	0	15000	Horned Lark	horlar	0.6514	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_110000.wav	261.0
+7	Spectrogram 1	1	303.0	306.0	0	15000	Mourning Dove	moudov	0.3010	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_110000.wav	303.0
+8	Spectrogram 1	1	348.0	351.0	0	15000	Seaside Sparrow	seaspa	0.3336	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_110000.wav	348.0
+9	Spectrogram 1	1	447.0	450.0	0	15000	Eastern Towhee	eastow	0.2733	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_110000.wav	447.0
+10	Spectrogram 1	1	477.0	480.0	0	15000	Red-breasted Nuthatch	rebnut	0.3495	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_110000.wav	477.0
+11	Spectrogram 1	1	678.0	681.0	0	15000	House Finch	houfin	0.3330	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_110000.wav	678.0
+12	Spectrogram 1	1	684.0	687.0	0	15000	House Finch	houfin	0.3555	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_110000.wav	684.0
+13	Spectrogram 1	1	705.0	708.0	0	15000	House Finch	houfin	0.4581	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_110000.wav	705.0
+14	Spectrogram 1	1	783.0	786.0	0	15000	House Finch	houfin	0.3042	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_110000.wav	783.0
+15	Spectrogram 1	1	801.0	804.0	0	15000	Fish Crow	fiscro	0.3529	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_110000.wav	801.0
+16	Spectrogram 1	1	813.0	816.0	0	15000	Pine Barrens Treefrog	t-11128090	0.3040	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240821_110000.wav	813.0

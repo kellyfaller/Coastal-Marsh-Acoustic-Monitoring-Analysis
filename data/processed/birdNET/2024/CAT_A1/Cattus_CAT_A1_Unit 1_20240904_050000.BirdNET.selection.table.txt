@@ -1,0 +1,10 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	39.0	42.0	0	15000	Golden-crowned Kinglet	gockin	0.3446	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_050000.wav	39.0
+2	Spectrogram 1	1	48.0	51.0	0	15000	Golden-crowned Kinglet	gockin	0.2848	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_050000.wav	48.0
+3	Spectrogram 1	1	54.0	57.0	0	15000	Golden-crowned Kinglet	gockin	0.3120	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_050000.wav	54.0
+4	Spectrogram 1	1	135.0	138.0	0	15000	Golden-crowned Kinglet	gockin	0.3141	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_050000.wav	135.0
+5	Spectrogram 1	1	537.0	540.0	0	15000	Golden-crowned Kinglet	gockin	0.2514	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_050000.wav	537.0
+6	Spectrogram 1	1	678.0	681.0	0	15000	Golden-crowned Kinglet	gockin	0.3299	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_050000.wav	678.0
+7	Spectrogram 1	1	759.0	762.0	0	15000	Common Grackle	comgra	0.4768	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_050000.wav	759.0
+8	Spectrogram 1	1	777.0	780.0	0	15000	Golden-crowned Kinglet	gockin	0.3120	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_050000.wav	777.0
+9	Spectrogram 1	1	864.0	867.0	0	15000	Golden-crowned Kinglet	gockin	0.2566	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_050000.wav	864.0

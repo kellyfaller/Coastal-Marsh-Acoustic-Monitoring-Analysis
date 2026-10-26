@@ -1,0 +1,22 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	51.0	54.0	0	15000	Forster's Tern	forter	0.7705	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-05\Unit2_20260605_110000.wav	51.0
+2	Spectrogram 1	1	54.0	57.0	0	15000	Forster's Tern	forter	0.9765	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-05\Unit2_20260605_110000.wav	54.0
+3	Spectrogram 1	1	69.0	72.0	0	15000	Forster's Tern	forter	0.7969	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-05\Unit2_20260605_110000.wav	69.0
+4	Spectrogram 1	1	105.0	108.0	0	15000	Laughing Gull	laugul	0.7679	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-05\Unit2_20260605_110000.wav	105.0
+5	Spectrogram 1	1	114.0	117.0	0	15000	Common Grackle	comgra	0.3844	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-05\Unit2_20260605_110000.wav	114.0
+6	Spectrogram 1	1	117.0	120.0	0	15000	Common Nighthawk	comnig	0.7322	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-05\Unit2_20260605_110000.wav	117.0
+7	Spectrogram 1	1	126.0	129.0	0	15000	Common Nighthawk	comnig	0.4222	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-05\Unit2_20260605_110000.wav	126.0
+8	Spectrogram 1	1	135.0	138.0	0	15000	Laughing Gull	laugul	0.4775	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-05\Unit2_20260605_110000.wav	135.0
+9	Spectrogram 1	1	210.0	213.0	0	15000	Laughing Gull	laugul	0.6016	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-05\Unit2_20260605_110000.wav	210.0
+10	Spectrogram 1	1	213.0	216.0	0	15000	Laughing Gull	laugul	0.8542	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-05\Unit2_20260605_110000.wav	213.0
+11	Spectrogram 1	1	222.0	225.0	0	15000	Herring Gull	hergul	0.3510	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-05\Unit2_20260605_110000.wav	222.0
+12	Spectrogram 1	1	225.0	228.0	0	15000	Herring Gull	hergul	0.8371	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-05\Unit2_20260605_110000.wav	225.0
+13	Spectrogram 1	1	228.0	231.0	0	15000	Herring Gull	hergul	0.5208	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-05\Unit2_20260605_110000.wav	228.0
+14	Spectrogram 1	1	243.0	246.0	0	15000	Herring Gull	hergul	0.7387	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-05\Unit2_20260605_110000.wav	243.0
+15	Spectrogram 1	1	252.0	255.0	0	15000	Herring Gull	hergul	0.4873	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-05\Unit2_20260605_110000.wav	252.0
+16	Spectrogram 1	1	270.0	273.0	0	15000	Common Nighthawk	comnig	0.3002	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-05\Unit2_20260605_110000.wav	270.0
+17	Spectrogram 1	1	465.0	468.0	0	15000	Red-winged Blackbird	rewbla	0.3118	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-05\Unit2_20260605_110000.wav	465.0
+18	Spectrogram 1	1	807.0	810.0	0	15000	Laughing Gull	laugul	0.6026	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-05\Unit2_20260605_110000.wav	807.0
+19	Spectrogram 1	1	810.0	813.0	0	15000	Laughing Gull	laugul	0.8263	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-05\Unit2_20260605_110000.wav	810.0
+20	Spectrogram 1	1	813.0	816.0	0	15000	Laughing Gull	laugul	0.3965	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-05\Unit2_20260605_110000.wav	813.0
+21	Spectrogram 1	1	816.0	819.0	0	15000	Laughing Gull	laugul	0.4207	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-05\Unit2_20260605_110000.wav	816.0

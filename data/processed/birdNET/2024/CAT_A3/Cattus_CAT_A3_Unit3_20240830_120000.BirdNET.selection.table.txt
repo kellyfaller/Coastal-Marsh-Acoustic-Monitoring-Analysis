@@ -1,0 +1,11 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	39.0	42.0	0	15000	American Crow	amecro	0.4427	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240830_120000.wav	39.0
+2	Spectrogram 1	1	57.0	60.0	0	15000	American Crow	amecro	0.7920	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240830_120000.wav	57.0
+3	Spectrogram 1	1	117.0	120.0	0	15000	American Crow	amecro	0.9292	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240830_120000.wav	117.0
+4	Spectrogram 1	1	153.0	156.0	0	15000	American Crow	amecro	0.3158	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240830_120000.wav	153.0
+5	Spectrogram 1	1	288.0	291.0	0	15000	American Crow	amecro	0.5847	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240830_120000.wav	288.0
+6	Spectrogram 1	1	291.0	294.0	0	15000	Canada Goose	cangoo	0.2754	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240830_120000.wav	291.0
+7	Spectrogram 1	1	303.0	306.0	0	15000	American Crow	amecro	0.3395	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240830_120000.wav	303.0
+8	Spectrogram 1	1	390.0	393.0	0	15000	Canada Goose	cangoo	0.2630	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240830_120000.wav	390.0
+9	Spectrogram 1	1	597.0	600.0	0	15000	American Crow	amecro	0.4041	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240830_120000.wav	597.0
+10	Spectrogram 1	1	600.0	603.0	0	15000	American Crow	amecro	0.4097	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240830_120000.wav	600.0

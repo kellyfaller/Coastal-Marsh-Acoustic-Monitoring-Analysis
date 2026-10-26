@@ -1,0 +1,8 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	381.0	384.0	0	15000	White-crowned Sparrow	whcspa	0.3501	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240713_050000.wav	381.0
+2	Spectrogram 1	1	402.0	405.0	0	15000	Seaside Sparrow	seaspa	0.8133	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240713_050000.wav	402.0
+3	Spectrogram 1	1	426.0	429.0	0	15000	White-crowned Sparrow	whcspa	0.3088	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240713_050000.wav	426.0
+4	Spectrogram 1	1	504.0	507.0	0	15000	Engine	engine	0.3882	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240713_050000.wav	504.0
+5	Spectrogram 1	1	534.0	537.0	0	15000	Eastern Towhee	eastow	0.3005	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240713_050000.wav	534.0
+6	Spectrogram 1	1	582.0	585.0	0	15000	Song Sparrow	sonspa	0.2885	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240713_050000.wav	582.0
+7	Spectrogram 1	1	858.0	861.0	0	15000	Mallard	mallar3	0.2850	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240713_050000.wav	858.0

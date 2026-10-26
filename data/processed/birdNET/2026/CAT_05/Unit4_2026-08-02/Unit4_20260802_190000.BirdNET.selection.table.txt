@@ -1,0 +1,45 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	6.0	9.0	0	15000	Black-bellied Plover	bkbplo	0.3340	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	6.0
+2	Spectrogram 1	1	12.0	15.0	0	15000	Eastern Kingbird	easkin	0.8498	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	12.0
+3	Spectrogram 1	1	18.0	21.0	0	15000	Eastern Kingbird	easkin	0.3852	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	18.0
+4	Spectrogram 1	1	21.0	24.0	0	15000	Osprey	osprey	0.4356	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	21.0
+5	Spectrogram 1	1	27.0	30.0	0	15000	Red-tailed Hawk	rethaw	0.2507	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	27.0
+6	Spectrogram 1	1	30.0	33.0	0	15000	Eastern Kingbird	easkin	0.3921	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	30.0
+7	Spectrogram 1	1	33.0	36.0	0	15000	Eastern Bluebird	easblu	0.6173	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	33.0
+8	Spectrogram 1	1	39.0	42.0	0	15000	Eastern Kingbird	easkin	0.6590	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	39.0
+9	Spectrogram 1	1	48.0	51.0	0	15000	Eastern Kingbird	easkin	0.7994	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	48.0
+10	Spectrogram 1	1	51.0	54.0	0	15000	Eastern Kingbird	easkin	0.3615	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	51.0
+11	Spectrogram 1	1	60.0	63.0	0	15000	Eastern Kingbird	easkin	0.5728	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	60.0
+12	Spectrogram 1	1	69.0	72.0	0	15000	Eastern Kingbird	easkin	0.6014	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	69.0
+13	Spectrogram 1	1	78.0	81.0	0	15000	Eastern Kingbird	easkin	0.4504	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	78.0
+14	Spectrogram 1	1	81.0	84.0	0	15000	Eastern Kingbird	easkin	0.5153	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	81.0
+15	Spectrogram 1	1	81.0	84.0	0	15000	Red-tailed Hawk	rethaw	0.4471	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	81.0
+16	Spectrogram 1	1	87.0	90.0	0	15000	Eastern Kingbird	easkin	0.5266	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	87.0
+17	Spectrogram 1	1	132.0	135.0	0	15000	Purple Martin	purmar	0.4188	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	132.0
+18	Spectrogram 1	1	183.0	186.0	0	15000	Osprey	osprey	0.2838	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	183.0
+19	Spectrogram 1	1	186.0	189.0	0	15000	Osprey	osprey	0.5019	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	186.0
+20	Spectrogram 1	1	234.0	237.0	0	15000	Great Blue Heron	grbher3	0.6299	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	234.0
+21	Spectrogram 1	1	249.0	252.0	0	15000	Golden-crowned Kinglet	gockin	0.2555	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	249.0
+22	Spectrogram 1	1	279.0	282.0	0	15000	Golden-crowned Kinglet	gockin	0.3158	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	279.0
+23	Spectrogram 1	1	330.0	333.0	0	15000	Golden-crowned Kinglet	gockin	0.3321	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	330.0
+24	Spectrogram 1	1	429.0	432.0	0	15000	Golden-crowned Kinglet	gockin	0.8505	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	429.0
+25	Spectrogram 1	1	477.0	480.0	0	15000	Golden-crowned Kinglet	gockin	0.7878	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	477.0
+26	Spectrogram 1	1	510.0	513.0	0	15000	Osprey	osprey	0.5633	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	510.0
+27	Spectrogram 1	1	513.0	516.0	0	15000	Osprey	osprey	0.3374	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	513.0
+28	Spectrogram 1	1	522.0	525.0	0	15000	Osprey	osprey	0.6013	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	522.0
+29	Spectrogram 1	1	552.0	555.0	0	15000	Peregrine Falcon	perfal	0.3003	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	552.0
+30	Spectrogram 1	1	552.0	555.0	0	15000	Osprey	osprey	0.2619	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	552.0
+31	Spectrogram 1	1	564.0	567.0	0	15000	Green-winged Teal	gnwtea	0.2864	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	564.0
+32	Spectrogram 1	1	570.0	573.0	0	15000	Black-bellied Plover	bkbplo	0.4557	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	570.0
+33	Spectrogram 1	1	612.0	615.0	0	15000	Osprey	osprey	0.8531	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	612.0
+34	Spectrogram 1	1	642.0	645.0	0	15000	Purple Martin	purmar	0.4708	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	642.0
+35	Spectrogram 1	1	645.0	648.0	0	15000	Purple Martin	purmar	0.3833	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	645.0
+36	Spectrogram 1	1	648.0	651.0	0	15000	Purple Martin	purmar	0.4211	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	648.0
+37	Spectrogram 1	1	657.0	660.0	0	15000	Purple Martin	purmar	0.5196	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	657.0
+38	Spectrogram 1	1	660.0	663.0	0	15000	Evening Grosbeak	evegro	0.2948	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	660.0
+39	Spectrogram 1	1	669.0	672.0	0	15000	Evening Grosbeak	evegro	0.3536	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	669.0
+40	Spectrogram 1	1	681.0	684.0	0	15000	Evening Grosbeak	evegro	0.8539	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	681.0
+41	Spectrogram 1	1	780.0	783.0	0	15000	Eastern Kingbird	easkin	0.3419	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	780.0
+42	Spectrogram 1	1	801.0	804.0	0	15000	Osprey	osprey	0.6737	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	801.0
+43	Spectrogram 1	1	810.0	813.0	0	15000	Tufted Titmouse	tuftit	0.3778	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	810.0
+44	Spectrogram 1	1	876.0	879.0	0	15000	Eastern Kingbird	easkin	0.3731	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-02\Unit4_20260802_190000.wav	876.0

@@ -1,0 +1,6 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	108.0	111.0	0	15000	Bank Swallow	banswa	0.2873	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-03\Unit4_20260903_100000.wav	108.0
+2	Spectrogram 1	1	297.0	300.0	0	15000	Chipping Sparrow	chispa	0.2521	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-03\Unit4_20260903_100000.wav	297.0
+3	Spectrogram 1	1	606.0	609.0	0	15000	Chimney Swift	chiswi	0.2655	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-03\Unit4_20260903_100000.wav	606.0
+4	Spectrogram 1	1	693.0	696.0	0	15000	Chipping Sparrow	chispa	0.3220	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-03\Unit4_20260903_100000.wav	693.0
+5	Spectrogram 1	1	744.0	747.0	0	15000	Brant	brant	0.2555	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-09-03\Unit4_20260903_100000.wav	744.0

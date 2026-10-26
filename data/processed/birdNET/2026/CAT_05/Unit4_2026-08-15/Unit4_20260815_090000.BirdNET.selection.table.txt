@@ -1,0 +1,17 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	12.0	15.0	0	15000	Belted Kingfisher	belkin1	0.4965	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-15\Unit4_20260815_090000.wav	12.0
+2	Spectrogram 1	1	39.0	42.0	0	15000	Forster's Tern	forter	0.2850	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-15\Unit4_20260815_090000.wav	39.0
+3	Spectrogram 1	1	42.0	45.0	0	15000	Forster's Tern	forter	0.7913	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-15\Unit4_20260815_090000.wav	42.0
+4	Spectrogram 1	1	45.0	48.0	0	15000	Forster's Tern	forter	0.4934	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-15\Unit4_20260815_090000.wav	45.0
+5	Spectrogram 1	1	51.0	54.0	0	15000	Bank Swallow	banswa	0.3065	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-15\Unit4_20260815_090000.wav	51.0
+6	Spectrogram 1	1	63.0	66.0	0	15000	Bank Swallow	banswa	0.2866	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-15\Unit4_20260815_090000.wav	63.0
+7	Spectrogram 1	1	120.0	123.0	0	15000	Belted Kingfisher	belkin1	0.6459	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-15\Unit4_20260815_090000.wav	120.0
+8	Spectrogram 1	1	135.0	138.0	0	15000	Belted Kingfisher	belkin1	0.3829	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-15\Unit4_20260815_090000.wav	135.0
+9	Spectrogram 1	1	237.0	240.0	0	15000	Herring Gull	hergul	0.8199	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-15\Unit4_20260815_090000.wav	237.0
+10	Spectrogram 1	1	300.0	303.0	0	15000	Bank Swallow	banswa	0.2800	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-15\Unit4_20260815_090000.wav	300.0
+11	Spectrogram 1	1	381.0	384.0	0	15000	Belted Kingfisher	belkin1	0.7731	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-15\Unit4_20260815_090000.wav	381.0
+12	Spectrogram 1	1	459.0	462.0	0	15000	Belted Kingfisher	belkin1	0.3631	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-15\Unit4_20260815_090000.wav	459.0
+13	Spectrogram 1	1	534.0	537.0	0	15000	Fish Crow	fiscro	0.4429	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-15\Unit4_20260815_090000.wav	534.0
+14	Spectrogram 1	1	537.0	540.0	0	15000	Fish Crow	fiscro	0.3303	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-15\Unit4_20260815_090000.wav	537.0
+15	Spectrogram 1	1	543.0	546.0	0	15000	Fish Crow	fiscro	0.6414	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-15\Unit4_20260815_090000.wav	543.0
+16	Spectrogram 1	1	792.0	795.0	0	15000	Belted Kingfisher	belkin1	0.2594	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-15\Unit4_20260815_090000.wav	792.0

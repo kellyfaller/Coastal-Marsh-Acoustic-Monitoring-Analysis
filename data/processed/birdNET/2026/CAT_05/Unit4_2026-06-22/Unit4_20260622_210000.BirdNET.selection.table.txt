@@ -1,0 +1,14 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	87.0	90.0	0	15000	Mallard	mallar3	0.3586	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_210000.wav	87.0
+2	Spectrogram 1	1	120.0	123.0	0	15000	Mallard	mallar3	0.4612	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_210000.wav	120.0
+3	Spectrogram 1	1	123.0	126.0	0	15000	Mallard	mallar3	0.5421	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_210000.wav	123.0
+4	Spectrogram 1	1	138.0	141.0	0	15000	Mallard	mallar3	0.7218	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_210000.wav	138.0
+5	Spectrogram 1	1	147.0	150.0	0	15000	Mallard	mallar3	0.9233	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_210000.wav	147.0
+6	Spectrogram 1	1	189.0	192.0	0	15000	Mallard	mallar3	0.3744	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_210000.wav	189.0
+7	Spectrogram 1	1	192.0	195.0	0	15000	Mallard	mallar3	0.2617	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_210000.wav	192.0
+8	Spectrogram 1	1	210.0	213.0	0	15000	Mallard	mallar3	0.4531	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_210000.wav	210.0
+9	Spectrogram 1	1	249.0	252.0	0	15000	Great Black-backed Gull	gbbgul	0.2860	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_210000.wav	249.0
+10	Spectrogram 1	1	285.0	288.0	0	15000	Yellow Rail	yelrai	0.6590	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_210000.wav	285.0
+11	Spectrogram 1	1	426.0	429.0	0	15000	Yellow Rail	yelrai	0.2683	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_210000.wav	426.0
+12	Spectrogram 1	1	582.0	585.0	0	15000	Mallard	mallar3	0.5580	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_210000.wav	582.0
+13	Spectrogram 1	1	738.0	741.0	0	15000	Caspian Tern	caster1	0.3516	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-06-22\Unit4_20260622_210000.wav	738.0

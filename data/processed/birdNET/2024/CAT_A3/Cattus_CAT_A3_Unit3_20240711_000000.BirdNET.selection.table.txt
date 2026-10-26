@@ -1,0 +1,4 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	342.0	345.0	0	15000	Fireworks	frwrks	0.3951	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240711_000000.wav	342.0
+2	Spectrogram 1	1	423.0	426.0	0	15000	Fireworks	frwrks	0.4206	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240711_000000.wav	423.0
+3	Spectrogram 1	1	708.0	711.0	0	15000	Fireworks	frwrks	0.3897	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240711_000000.wav	708.0

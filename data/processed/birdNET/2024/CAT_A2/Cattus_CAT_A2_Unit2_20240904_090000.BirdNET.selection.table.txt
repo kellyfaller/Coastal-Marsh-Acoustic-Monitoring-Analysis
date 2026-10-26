@@ -1,0 +1,8 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	75.0	78.0	0	15000	Carolina Wren	carwre	0.5977	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240904_090000.wav	75.0
+2	Spectrogram 1	1	90.0	93.0	0	15000	Carolina Wren	carwre	0.3992	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240904_090000.wav	90.0
+3	Spectrogram 1	1	105.0	108.0	0	15000	Tufted Titmouse	tuftit	0.2680	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240904_090000.wav	105.0
+4	Spectrogram 1	1	171.0	174.0	0	15000	Chipping Sparrow	chispa	0.3999	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240904_090000.wav	171.0
+5	Spectrogram 1	1	366.0	369.0	0	15000	Dog	dogdog	0.2564	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240904_090000.wav	366.0
+6	Spectrogram 1	1	639.0	642.0	0	15000	Summer Tanager	sumtan	0.2578	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240904_090000.wav	639.0
+7	Spectrogram 1	1	705.0	708.0	0	15000	Chimney Swift	chiswi	0.3260	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240904_090000.wav	705.0

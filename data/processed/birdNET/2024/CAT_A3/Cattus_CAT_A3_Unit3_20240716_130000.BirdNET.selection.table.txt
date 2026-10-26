@@ -1,0 +1,14 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	27.0	30.0	0	15000	Eastern Meadowlark	easmea	0.2688	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240716_130000.wav	27.0
+2	Spectrogram 1	1	285.0	288.0	0	15000	Dunlin	dunlin	0.4056	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240716_130000.wav	285.0
+3	Spectrogram 1	1	339.0	342.0	0	15000	Song Sparrow	sonspa	0.4311	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240716_130000.wav	339.0
+4	Spectrogram 1	1	348.0	351.0	0	15000	Song Sparrow	sonspa	0.5729	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240716_130000.wav	348.0
+5	Spectrogram 1	1	366.0	369.0	0	15000	Song Sparrow	sonspa	0.3569	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240716_130000.wav	366.0
+6	Spectrogram 1	1	501.0	504.0	0	15000	Broad-winged Hawk	brwhaw	0.3526	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240716_130000.wav	501.0
+7	Spectrogram 1	1	531.0	534.0	0	15000	Laughing Gull	laugul	0.8436	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240716_130000.wav	531.0
+8	Spectrogram 1	1	555.0	558.0	0	15000	Northern Shrike	norshr4	0.5891	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240716_130000.wav	555.0
+9	Spectrogram 1	1	717.0	720.0	0	15000	Song Sparrow	sonspa	0.2725	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240716_130000.wav	717.0
+10	Spectrogram 1	1	738.0	741.0	0	15000	American Goldfinch	amegfi	0.4231	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240716_130000.wav	738.0
+11	Spectrogram 1	1	744.0	747.0	0	15000	Song Sparrow	sonspa	0.2844	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240716_130000.wav	744.0
+12	Spectrogram 1	1	747.0	750.0	0	15000	American Goldfinch	amegfi	0.3182	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240716_130000.wav	747.0
+13	Spectrogram 1	1	810.0	813.0	0	15000	Song Sparrow	sonspa	0.3823	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240716_130000.wav	810.0

@@ -1,0 +1,44 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	18.0	21.0	0	15000	Lapland Longspur	laplon	0.2584	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	18.0
+2	Spectrogram 1	1	27.0	30.0	0	15000	Willet	willet1	0.6325	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	27.0
+3	Spectrogram 1	1	60.0	63.0	0	15000	European Starling	eursta	0.3188	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	60.0
+4	Spectrogram 1	1	69.0	72.0	0	15000	Common Nighthawk	comnig	0.9540	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	69.0
+5	Spectrogram 1	1	174.0	177.0	0	15000	Forster's Tern	forter	0.9527	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	174.0
+6	Spectrogram 1	1	354.0	357.0	0	15000	Barn Swallow	barswa	0.6749	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	354.0
+7	Spectrogram 1	1	369.0	372.0	0	15000	Forster's Tern	forter	0.8631	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	369.0
+8	Spectrogram 1	1	372.0	375.0	0	15000	Forster's Tern	forter	0.7055	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	372.0
+9	Spectrogram 1	1	375.0	378.0	0	15000	Forster's Tern	forter	0.5206	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	375.0
+10	Spectrogram 1	1	378.0	381.0	0	15000	Forster's Tern	forter	0.3081	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	378.0
+11	Spectrogram 1	1	387.0	390.0	0	15000	Forster's Tern	forter	0.8363	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	387.0
+12	Spectrogram 1	1	417.0	420.0	0	15000	Forster's Tern	forter	0.7392	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	417.0
+13	Spectrogram 1	1	420.0	423.0	0	15000	Common Tern	comter	0.4331	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	420.0
+14	Spectrogram 1	1	423.0	426.0	0	15000	Forster's Tern	forter	0.9354	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	423.0
+15	Spectrogram 1	1	525.0	528.0	0	15000	Forster's Tern	forter	0.8930	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	525.0
+16	Spectrogram 1	1	528.0	531.0	0	15000	Forster's Tern	forter	0.9316	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	528.0
+17	Spectrogram 1	1	534.0	537.0	0	15000	Forster's Tern	forter	0.5267	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	534.0
+18	Spectrogram 1	1	567.0	570.0	0	15000	Belted Kingfisher	belkin1	0.7254	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	567.0
+19	Spectrogram 1	1	576.0	579.0	0	15000	Common Tern	comter	0.4622	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	576.0
+20	Spectrogram 1	1	579.0	582.0	0	15000	Forster's Tern	forter	0.9325	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	579.0
+21	Spectrogram 1	1	588.0	591.0	0	15000	Forster's Tern	forter	0.4803	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	588.0
+22	Spectrogram 1	1	606.0	609.0	0	15000	Forster's Tern	forter	0.4024	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	606.0
+23	Spectrogram 1	1	606.0	609.0	0	15000	Common Tern	comter	0.2850	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	606.0
+24	Spectrogram 1	1	609.0	612.0	0	15000	Forster's Tern	forter	0.4167	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	609.0
+25	Spectrogram 1	1	615.0	618.0	0	15000	Forster's Tern	forter	0.8735	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	615.0
+26	Spectrogram 1	1	618.0	621.0	0	15000	Belted Kingfisher	belkin1	0.9956	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	618.0
+27	Spectrogram 1	1	630.0	633.0	0	15000	Forster's Tern	forter	0.9297	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	630.0
+28	Spectrogram 1	1	633.0	636.0	0	15000	Forster's Tern	forter	0.7878	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	633.0
+29	Spectrogram 1	1	657.0	660.0	0	15000	Forster's Tern	forter	0.9092	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	657.0
+30	Spectrogram 1	1	660.0	663.0	0	15000	Forster's Tern	forter	0.9857	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	660.0
+31	Spectrogram 1	1	663.0	666.0	0	15000	Forster's Tern	forter	0.6311	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	663.0
+32	Spectrogram 1	1	666.0	669.0	0	15000	Forster's Tern	forter	0.9940	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	666.0
+33	Spectrogram 1	1	693.0	696.0	0	15000	Forster's Tern	forter	0.6286	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	693.0
+34	Spectrogram 1	1	702.0	705.0	0	15000	Belted Kingfisher	belkin1	0.8930	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	702.0
+35	Spectrogram 1	1	705.0	708.0	0	15000	Willet	willet1	0.9729	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	705.0
+36	Spectrogram 1	1	708.0	711.0	0	15000	Willet	willet1	0.8780	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	708.0
+37	Spectrogram 1	1	756.0	759.0	0	15000	Rock Pigeon	rocpig	0.4539	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	756.0
+38	Spectrogram 1	1	765.0	768.0	0	15000	Willet	willet1	0.5392	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	765.0
+39	Spectrogram 1	1	771.0	774.0	0	15000	Willet	willet1	0.6799	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	771.0
+40	Spectrogram 1	1	774.0	777.0	0	15000	Forster's Tern	forter	0.9233	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	774.0
+41	Spectrogram 1	1	780.0	783.0	0	15000	Willet	willet1	0.7636	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	780.0
+42	Spectrogram 1	1	783.0	786.0	0	15000	Willet	willet1	0.3338	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	783.0
+43	Spectrogram 1	1	798.0	801.0	0	15000	Forster's Tern	forter	0.2681	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240701_090000.wav	798.0

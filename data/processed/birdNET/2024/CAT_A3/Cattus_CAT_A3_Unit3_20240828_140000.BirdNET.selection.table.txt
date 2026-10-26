@@ -1,0 +1,9 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	111.0	114.0	0	15000	American Goldfinch	amegfi	0.4009	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240828_140000.wav	111.0
+2	Spectrogram 1	1	237.0	240.0	0	15000	Belted Kingfisher	belkin1	0.9982	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240828_140000.wav	237.0
+3	Spectrogram 1	1	243.0	246.0	0	15000	Belted Kingfisher	belkin1	0.9992	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240828_140000.wav	243.0
+4	Spectrogram 1	1	246.0	249.0	0	15000	Belted Kingfisher	belkin1	0.3186	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240828_140000.wav	246.0
+5	Spectrogram 1	1	267.0	270.0	0	15000	Golden-crowned Kinglet	gockin	0.2678	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240828_140000.wav	267.0
+6	Spectrogram 1	1	540.0	543.0	0	15000	Engine	engine	0.4452	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240828_140000.wav	540.0
+7	Spectrogram 1	1	555.0	558.0	0	15000	Engine	engine	0.5786	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240828_140000.wav	555.0
+8	Spectrogram 1	1	558.0	561.0	0	15000	Engine	engine	0.4108	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240828_140000.wav	558.0

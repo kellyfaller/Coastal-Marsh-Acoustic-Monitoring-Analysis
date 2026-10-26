@@ -1,0 +1,9 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	243.0	246.0	0	15000	Osprey	osprey	0.3071	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240902_100000.wav	243.0
+2	Spectrogram 1	1	381.0	384.0	0	15000	Great Horned Owl	grhowl	0.4196	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240902_100000.wav	381.0
+3	Spectrogram 1	1	474.0	477.0	0	15000	Wilson's Plover	wilplo	0.3226	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240902_100000.wav	474.0
+4	Spectrogram 1	1	585.0	588.0	0	15000	Barn Owl	brnowl	0.4678	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240902_100000.wav	585.0
+5	Spectrogram 1	1	684.0	687.0	0	15000	Herring Gull	hergul	0.2996	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240902_100000.wav	684.0
+6	Spectrogram 1	1	834.0	837.0	0	15000	Great Horned Owl	grhowl	0.3244	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240902_100000.wav	834.0
+7	Spectrogram 1	1	849.0	852.0	0	15000	Great Horned Owl	grhowl	0.3411	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240902_100000.wav	849.0
+8	Spectrogram 1	1	867.0	870.0	0	15000	Great Horned Owl	grhowl	0.3399	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240902_100000.wav	867.0

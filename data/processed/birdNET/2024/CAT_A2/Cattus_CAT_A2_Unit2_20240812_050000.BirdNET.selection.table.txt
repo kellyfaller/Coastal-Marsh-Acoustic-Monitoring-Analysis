@@ -1,0 +1,12 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	123.0	126.0	0	15000	Marsh Wren	marwre	0.2504	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_050000.wav	123.0
+2	Spectrogram 1	1	147.0	150.0	0	15000	Engine	engine	0.3697	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_050000.wav	147.0
+3	Spectrogram 1	1	153.0	156.0	0	15000	Engine	engine	0.5919	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_050000.wav	153.0
+4	Spectrogram 1	1	159.0	162.0	0	15000	Engine	engine	0.2940	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_050000.wav	159.0
+5	Spectrogram 1	1	177.0	180.0	0	15000	Engine	engine	0.2799	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_050000.wav	177.0
+6	Spectrogram 1	1	204.0	207.0	0	15000	Marsh Wren	marwre	0.5579	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_050000.wav	204.0
+7	Spectrogram 1	1	492.0	495.0	0	15000	Marsh Wren	marwre	0.2767	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_050000.wav	492.0
+8	Spectrogram 1	1	609.0	612.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.4851	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_050000.wav	609.0
+9	Spectrogram 1	1	633.0	636.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2809	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_050000.wav	633.0
+10	Spectrogram 1	1	870.0	873.0	0	15000	Engine	engine	0.3874	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_050000.wav	870.0
+11	Spectrogram 1	1	882.0	885.0	0	15000	Engine	engine	0.3258	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240812_050000.wav	882.0

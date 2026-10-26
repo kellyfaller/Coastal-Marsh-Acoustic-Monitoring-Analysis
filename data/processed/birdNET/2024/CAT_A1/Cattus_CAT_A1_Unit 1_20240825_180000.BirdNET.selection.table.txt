@@ -1,0 +1,15 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	60.0	63.0	0	15000	Grasshopper Sparrow	graspa	0.3157	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240825_180000.wav	60.0
+2	Spectrogram 1	1	99.0	102.0	0	15000	Cedar Waxwing	cedwax	0.3020	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240825_180000.wav	99.0
+3	Spectrogram 1	1	120.0	123.0	0	15000	Osprey	osprey	0.8113	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240825_180000.wav	120.0
+4	Spectrogram 1	1	123.0	126.0	0	15000	Osprey	osprey	0.2588	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240825_180000.wav	123.0
+5	Spectrogram 1	1	135.0	138.0	0	15000	Purple Martin	purmar	0.4857	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240825_180000.wav	135.0
+6	Spectrogram 1	1	237.0	240.0	0	15000	Cedar Waxwing	cedwax	0.3285	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240825_180000.wav	237.0
+7	Spectrogram 1	1	282.0	285.0	0	15000	Osprey	osprey	0.5396	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240825_180000.wav	282.0
+8	Spectrogram 1	1	297.0	300.0	0	15000	Downy Woodpecker	dowwoo	0.4962	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240825_180000.wav	297.0
+9	Spectrogram 1	1	405.0	408.0	0	15000	Golden-crowned Kinglet	gockin	0.5925	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240825_180000.wav	405.0
+10	Spectrogram 1	1	558.0	561.0	0	15000	Grasshopper Sparrow	graspa	0.5326	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240825_180000.wav	558.0
+11	Spectrogram 1	1	675.0	678.0	0	15000	Cedar Waxwing	cedwax	0.3936	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240825_180000.wav	675.0
+12	Spectrogram 1	1	792.0	795.0	0	15000	Osprey	osprey	0.7536	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240825_180000.wav	792.0
+13	Spectrogram 1	1	807.0	810.0	0	15000	Great Blue Heron	grbher3	0.8391	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240825_180000.wav	807.0
+14	Spectrogram 1	1	876.0	879.0	0	15000	Golden-crowned Kinglet	gockin	0.3501	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240825_180000.wav	876.0

@@ -1,0 +1,21 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	213.0	216.0	0	15000	Engine	engine	0.3653	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240828_200000.wav	213.0
+2	Spectrogram 1	1	351.0	354.0	0	15000	Black-crowned Night-Heron	bcnher	0.5360	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240828_200000.wav	351.0
+3	Spectrogram 1	1	396.0	399.0	0	15000	Black-crowned Night-Heron	bcnher	0.2963	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240828_200000.wav	396.0
+4	Spectrogram 1	1	411.0	414.0	0	15000	Great Blue Heron	grbher3	0.3257	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240828_200000.wav	411.0
+5	Spectrogram 1	1	414.0	417.0	0	15000	Common Virtuoso Katydid	t-11851326	0.2894	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240828_200000.wav	414.0
+6	Spectrogram 1	1	426.0	429.0	0	15000	Common Virtuoso Katydid	t-11851326	0.2892	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240828_200000.wav	426.0
+7	Spectrogram 1	1	468.0	471.0	0	15000	Black-crowned Night-Heron	bcnher	0.3458	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240828_200000.wav	468.0
+8	Spectrogram 1	1	510.0	513.0	0	15000	Engine	engine	0.3245	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240828_200000.wav	510.0
+9	Spectrogram 1	1	513.0	516.0	0	15000	Engine	engine	0.4060	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240828_200000.wav	513.0
+10	Spectrogram 1	1	525.0	528.0	0	15000	Engine	engine	0.3158	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240828_200000.wav	525.0
+11	Spectrogram 1	1	528.0	531.0	0	15000	Engine	engine	0.3090	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240828_200000.wav	528.0
+12	Spectrogram 1	1	534.0	537.0	0	15000	Engine	engine	0.3859	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240828_200000.wav	534.0
+13	Spectrogram 1	1	594.0	597.0	0	15000	Common Virtuoso Katydid	t-11851326	0.3555	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240828_200000.wav	594.0
+14	Spectrogram 1	1	615.0	618.0	0	15000	Engine	engine	0.3224	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240828_200000.wav	615.0
+15	Spectrogram 1	1	618.0	621.0	0	15000	Engine	engine	0.6844	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240828_200000.wav	618.0
+16	Spectrogram 1	1	624.0	627.0	0	15000	Engine	engine	0.7800	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240828_200000.wav	624.0
+17	Spectrogram 1	1	627.0	630.0	0	15000	Engine	engine	0.3954	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240828_200000.wav	627.0
+18	Spectrogram 1	1	648.0	651.0	0	15000	Engine	engine	0.2564	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240828_200000.wav	648.0
+19	Spectrogram 1	1	714.0	717.0	0	15000	Engine	engine	0.2643	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240828_200000.wav	714.0
+20	Spectrogram 1	1	873.0	876.0	0	15000	Engine	engine	0.2584	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240828_200000.wav	873.0

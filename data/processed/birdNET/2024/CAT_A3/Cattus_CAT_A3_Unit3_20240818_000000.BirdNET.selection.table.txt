@@ -1,0 +1,30 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	18.0	21.0	0	15000	Common True Katydid	t-11876111	0.6235	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_000000.wav	18.0
+2	Spectrogram 1	1	129.0	132.0	0	15000	Canada Goose	cangoo	0.3512	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_000000.wav	129.0
+3	Spectrogram 1	1	132.0	135.0	0	15000	Canada Goose	cangoo	0.7931	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_000000.wav	132.0
+4	Spectrogram 1	1	135.0	138.0	0	15000	Canada Goose	cangoo	0.8097	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_000000.wav	135.0
+5	Spectrogram 1	1	138.0	141.0	0	15000	Canada Goose	cangoo	0.7744	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_000000.wav	138.0
+6	Spectrogram 1	1	141.0	144.0	0	15000	Canada Goose	cangoo	0.7729	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_000000.wav	141.0
+7	Spectrogram 1	1	144.0	147.0	0	15000	Canada Goose	cangoo	0.6777	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_000000.wav	144.0
+8	Spectrogram 1	1	147.0	150.0	0	15000	Canada Goose	cangoo	0.6509	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_000000.wav	147.0
+9	Spectrogram 1	1	150.0	153.0	0	15000	Canada Goose	cangoo	0.7801	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_000000.wav	150.0
+10	Spectrogram 1	1	153.0	156.0	0	15000	Canada Goose	cangoo	0.5561	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_000000.wav	153.0
+11	Spectrogram 1	1	156.0	159.0	0	15000	Canada Goose	cangoo	0.6263	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_000000.wav	156.0
+12	Spectrogram 1	1	159.0	162.0	0	15000	Canada Goose	cangoo	0.7333	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_000000.wav	159.0
+13	Spectrogram 1	1	162.0	165.0	0	15000	Canada Goose	cangoo	0.4163	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_000000.wav	162.0
+14	Spectrogram 1	1	297.0	300.0	0	15000	Canada Goose	cangoo	0.5979	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_000000.wav	297.0
+15	Spectrogram 1	1	300.0	303.0	0	15000	Canada Goose	cangoo	0.8469	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_000000.wav	300.0
+16	Spectrogram 1	1	303.0	306.0	0	15000	Canada Goose	cangoo	0.4779	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_000000.wav	303.0
+17	Spectrogram 1	1	306.0	309.0	0	15000	Canada Goose	cangoo	0.7696	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_000000.wav	306.0
+18	Spectrogram 1	1	309.0	312.0	0	15000	Canada Goose	cangoo	0.3097	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_000000.wav	309.0
+19	Spectrogram 1	1	312.0	315.0	0	15000	Canada Goose	cangoo	0.5611	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_000000.wav	312.0
+20	Spectrogram 1	1	315.0	318.0	0	15000	Canada Goose	cangoo	0.3222	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_000000.wav	315.0
+21	Spectrogram 1	1	360.0	363.0	0	15000	Common True Katydid	t-11876111	0.7571	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_000000.wav	360.0
+22	Spectrogram 1	1	387.0	390.0	0	15000	Common True Katydid	t-11876111	0.2832	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_000000.wav	387.0
+23	Spectrogram 1	1	390.0	393.0	0	15000	Common True Katydid	t-11876111	0.4325	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_000000.wav	390.0
+24	Spectrogram 1	1	528.0	531.0	0	15000	Common True Katydid	t-11876111	0.2574	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_000000.wav	528.0
+25	Spectrogram 1	1	699.0	702.0	0	15000	Common True Katydid	t-11876111	0.2534	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_000000.wav	699.0
+26	Spectrogram 1	1	759.0	762.0	0	15000	Common True Katydid	t-11876111	0.2917	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_000000.wav	759.0
+27	Spectrogram 1	1	774.0	777.0	0	15000	Common True Katydid	t-11876111	0.5815	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_000000.wav	774.0
+28	Spectrogram 1	1	780.0	783.0	0	15000	Common True Katydid	t-11876111	0.4240	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_000000.wav	780.0
+29	Spectrogram 1	1	807.0	810.0	0	15000	Common True Katydid	t-11876111	0.4840	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_000000.wav	807.0

@@ -1,0 +1,8 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	0.0	3.0	0	15000	Eastern Screech-Owl	easowl1	0.2884	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240730_020000.wav	0.0
+2	Spectrogram 1	1	93.0	96.0	0	15000	Great Horned Owl	grhowl	0.3171	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240730_020000.wav	93.0
+3	Spectrogram 1	1	321.0	324.0	0	15000	Great Horned Owl	grhowl	0.3424	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240730_020000.wav	321.0
+4	Spectrogram 1	1	543.0	546.0	0	15000	Great Horned Owl	grhowl	0.2864	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240730_020000.wav	543.0
+5	Spectrogram 1	1	561.0	564.0	0	15000	Great Horned Owl	grhowl	0.3036	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240730_020000.wav	561.0
+6	Spectrogram 1	1	567.0	570.0	0	15000	Great Horned Owl	grhowl	0.2686	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240730_020000.wav	567.0
+7	Spectrogram 1	1	681.0	684.0	0	15000	Great Horned Owl	grhowl	0.3003	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240730_020000.wav	681.0

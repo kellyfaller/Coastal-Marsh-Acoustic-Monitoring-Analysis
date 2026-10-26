@@ -1,0 +1,8 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	258.0	261.0	0	15000	Black-crowned Night-Heron	bcnher	0.3797	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240630_210000.wav	258.0
+2	Spectrogram 1	1	450.0	453.0	0	15000	Engine	engine	0.2862	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240630_210000.wav	450.0
+3	Spectrogram 1	1	498.0	501.0	0	15000	Engine	engine	0.2749	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240630_210000.wav	498.0
+4	Spectrogram 1	1	576.0	579.0	0	15000	Engine	engine	0.2672	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240630_210000.wav	576.0
+5	Spectrogram 1	1	597.0	600.0	0	15000	Engine	engine	0.3568	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240630_210000.wav	597.0
+6	Spectrogram 1	1	663.0	666.0	0	15000	Engine	engine	0.2730	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240630_210000.wav	663.0
+7	Spectrogram 1	1	666.0	669.0	0	15000	Engine	engine	0.3397	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240630_210000.wav	666.0

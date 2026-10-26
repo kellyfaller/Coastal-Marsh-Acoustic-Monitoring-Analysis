@@ -1,0 +1,55 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	3.0	6.0	0	15000	Laughing Gull	laugul	0.8604	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	3.0
+2	Spectrogram 1	1	12.0	15.0	0	15000	Laughing Gull	laugul	0.8351	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	12.0
+3	Spectrogram 1	1	15.0	18.0	0	15000	Laughing Gull	laugul	0.9555	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	15.0
+4	Spectrogram 1	1	30.0	33.0	0	15000	Laughing Gull	laugul	0.2575	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	30.0
+5	Spectrogram 1	1	33.0	36.0	0	15000	Laughing Gull	laugul	0.7584	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	33.0
+6	Spectrogram 1	1	36.0	39.0	0	15000	Laughing Gull	laugul	0.9133	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	36.0
+7	Spectrogram 1	1	39.0	42.0	0	15000	Laughing Gull	laugul	0.9774	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	39.0
+8	Spectrogram 1	1	39.0	42.0	0	15000	Seaside Sparrow	seaspa	0.2581	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	39.0
+9	Spectrogram 1	1	42.0	45.0	0	15000	Laughing Gull	laugul	0.8735	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	42.0
+10	Spectrogram 1	1	45.0	48.0	0	15000	Laughing Gull	laugul	0.9579	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	45.0
+11	Spectrogram 1	1	45.0	48.0	0	15000	Ring-billed Gull	ribgul	0.2531	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	45.0
+12	Spectrogram 1	1	54.0	57.0	0	15000	Laughing Gull	laugul	0.8689	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	54.0
+13	Spectrogram 1	1	57.0	60.0	0	15000	Laughing Gull	laugul	0.9290	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	57.0
+14	Spectrogram 1	1	66.0	69.0	0	15000	Laughing Gull	laugul	0.9499	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	66.0
+15	Spectrogram 1	1	69.0	72.0	0	15000	Laughing Gull	laugul	0.9851	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	69.0
+16	Spectrogram 1	1	72.0	75.0	0	15000	Laughing Gull	laugul	0.9829	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	72.0
+17	Spectrogram 1	1	75.0	78.0	0	15000	Laughing Gull	laugul	0.7875	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	75.0
+18	Spectrogram 1	1	78.0	81.0	0	15000	Laughing Gull	laugul	0.8539	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	78.0
+19	Spectrogram 1	1	81.0	84.0	0	15000	Laughing Gull	laugul	0.2753	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	81.0
+20	Spectrogram 1	1	84.0	87.0	0	15000	Laughing Gull	laugul	0.9780	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	84.0
+21	Spectrogram 1	1	102.0	105.0	0	15000	Laughing Gull	laugul	0.9886	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	102.0
+22	Spectrogram 1	1	105.0	108.0	0	15000	Laughing Gull	laugul	0.9072	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	105.0
+23	Spectrogram 1	1	108.0	111.0	0	15000	Laughing Gull	laugul	0.9955	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	108.0
+24	Spectrogram 1	1	111.0	114.0	0	15000	Laughing Gull	laugul	0.9863	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	111.0
+25	Spectrogram 1	1	114.0	117.0	0	15000	Laughing Gull	laugul	0.9887	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	114.0
+26	Spectrogram 1	1	117.0	120.0	0	15000	Laughing Gull	laugul	0.9370	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	117.0
+27	Spectrogram 1	1	141.0	144.0	0	15000	Allard's Ground Cricket	t-11840984	0.2950	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	141.0
+28	Spectrogram 1	1	252.0	255.0	0	15000	Seaside Sparrow	seaspa	0.2608	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	252.0
+29	Spectrogram 1	1	297.0	300.0	0	15000	Short-winged Meadow Katydid	t-11876252	0.3044	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	297.0
+30	Spectrogram 1	1	303.0	306.0	0	15000	Short-winged Meadow Katydid	t-11876252	0.3763	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	303.0
+31	Spectrogram 1	1	309.0	312.0	0	15000	Osprey	osprey	0.8683	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	309.0
+32	Spectrogram 1	1	315.0	318.0	0	15000	Herring Gull	hergul	0.2540	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	315.0
+33	Spectrogram 1	1	324.0	327.0	0	15000	Short-winged Meadow Katydid	t-11876252	0.3128	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	324.0
+34	Spectrogram 1	1	342.0	345.0	0	15000	Laughing Gull	laugul	0.4690	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	342.0
+35	Spectrogram 1	1	345.0	348.0	0	15000	Laughing Gull	laugul	0.9346	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	345.0
+36	Spectrogram 1	1	390.0	393.0	0	15000	Agile Meadow Katydid	t-11872394	0.2878	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	390.0
+37	Spectrogram 1	1	399.0	402.0	0	15000	Short-winged Meadow Katydid	t-11876252	0.3554	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	399.0
+38	Spectrogram 1	1	429.0	432.0	0	15000	Common Virtuoso Katydid	t-11851326	0.6792	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	429.0
+39	Spectrogram 1	1	429.0	432.0	0	15000	Short-winged Meadow Katydid	t-11876252	0.4227	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	429.0
+40	Spectrogram 1	1	447.0	450.0	0	15000	Short-winged Meadow Katydid	t-11876252	0.4110	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	447.0
+41	Spectrogram 1	1	456.0	459.0	0	15000	Wood Duck	wooduc	0.2940	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	456.0
+42	Spectrogram 1	1	459.0	462.0	0	15000	Laughing Gull	laugul	0.7248	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	459.0
+43	Spectrogram 1	1	462.0	465.0	0	15000	Laughing Gull	laugul	0.9829	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	462.0
+44	Spectrogram 1	1	468.0	471.0	0	15000	Laughing Gull	laugul	0.4633	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	468.0
+45	Spectrogram 1	1	477.0	480.0	0	15000	Great Egret	greegr	0.9361	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	477.0
+46	Spectrogram 1	1	480.0	483.0	0	15000	Great Egret	greegr	0.9492	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	480.0
+47	Spectrogram 1	1	537.0	540.0	0	15000	Semipalmated Plover	semplo	0.3647	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	537.0
+48	Spectrogram 1	1	639.0	642.0	0	15000	Black-crowned Night-Heron	bcnher	0.4462	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	639.0
+49	Spectrogram 1	1	666.0	669.0	0	15000	Common Virtuoso Katydid	t-11851326	0.4195	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	666.0
+50	Spectrogram 1	1	732.0	735.0	0	15000	Laughing Gull	laugul	0.5716	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	732.0
+51	Spectrogram 1	1	732.0	735.0	0	15000	Ring-billed Gull	ribgul	0.4324	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	732.0
+52	Spectrogram 1	1	735.0	738.0	0	15000	Laughing Gull	laugul	0.7080	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	735.0
+53	Spectrogram 1	1	738.0	741.0	0	15000	Laughing Gull	laugul	0.9753	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	738.0
+54	Spectrogram 1	1	798.0	801.0	0	15000	Short-winged Meadow Katydid	t-11876252	0.2640	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240825_140000.wav	798.0

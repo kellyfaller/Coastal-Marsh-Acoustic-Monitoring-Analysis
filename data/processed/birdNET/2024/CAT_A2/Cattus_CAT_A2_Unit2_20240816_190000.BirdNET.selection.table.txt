@@ -1,0 +1,25 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	3.0	6.0	0	15000	Eastern Towhee	eastow	0.5840	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240816_190000.wav	3.0
+2	Spectrogram 1	1	6.0	9.0	0	15000	Eastern Towhee	eastow	0.3348	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240816_190000.wav	6.0
+3	Spectrogram 1	1	9.0	12.0	0	15000	Eastern Towhee	eastow	0.5173	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240816_190000.wav	9.0
+4	Spectrogram 1	1	12.0	15.0	0	15000	Eastern Towhee	eastow	0.4975	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240816_190000.wav	12.0
+5	Spectrogram 1	1	15.0	18.0	0	15000	Eastern Towhee	eastow	0.6416	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240816_190000.wav	15.0
+6	Spectrogram 1	1	18.0	21.0	0	15000	Eastern Towhee	eastow	0.6038	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240816_190000.wav	18.0
+7	Spectrogram 1	1	30.0	33.0	0	15000	Eastern Towhee	eastow	0.4254	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240816_190000.wav	30.0
+8	Spectrogram 1	1	33.0	36.0	0	15000	Eastern Towhee	eastow	0.4303	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240816_190000.wav	33.0
+9	Spectrogram 1	1	36.0	39.0	0	15000	Eastern Towhee	eastow	0.4376	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240816_190000.wav	36.0
+10	Spectrogram 1	1	39.0	42.0	0	15000	Eastern Towhee	eastow	0.7701	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240816_190000.wav	39.0
+11	Spectrogram 1	1	45.0	48.0	0	15000	Eastern Towhee	eastow	0.4144	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240816_190000.wav	45.0
+12	Spectrogram 1	1	48.0	51.0	0	15000	Eastern Towhee	eastow	0.7272	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240816_190000.wav	48.0
+13	Spectrogram 1	1	57.0	60.0	0	15000	Eastern Towhee	eastow	0.3833	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240816_190000.wav	57.0
+14	Spectrogram 1	1	60.0	63.0	0	15000	Eastern Towhee	eastow	0.3098	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240816_190000.wav	60.0
+15	Spectrogram 1	1	63.0	66.0	0	15000	Eastern Towhee	eastow	0.3903	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240816_190000.wav	63.0
+16	Spectrogram 1	1	111.0	114.0	0	15000	Golden-crowned Kinglet	gockin	0.6112	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240816_190000.wav	111.0
+17	Spectrogram 1	1	414.0	417.0	0	15000	Seaside Sparrow	seaspa	0.3425	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240816_190000.wav	414.0
+18	Spectrogram 1	1	432.0	435.0	0	15000	Golden-crowned Kinglet	gockin	0.8773	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240816_190000.wav	432.0
+19	Spectrogram 1	1	537.0	540.0	0	15000	Golden-crowned Kinglet	gockin	0.4340	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240816_190000.wav	537.0
+20	Spectrogram 1	1	612.0	615.0	0	15000	Golden-crowned Kinglet	gockin	0.7600	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240816_190000.wav	612.0
+21	Spectrogram 1	1	612.0	615.0	0	15000	Cedar Waxwing	cedwax	0.2904	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240816_190000.wav	612.0
+22	Spectrogram 1	1	624.0	627.0	0	15000	American Goldfinch	amegfi	0.3030	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240816_190000.wav	624.0
+23	Spectrogram 1	1	630.0	633.0	0	15000	American Goldfinch	amegfi	0.3552	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240816_190000.wav	630.0
+24	Spectrogram 1	1	639.0	642.0	0	15000	American Goldfinch	amegfi	0.7223	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240816_190000.wav	639.0

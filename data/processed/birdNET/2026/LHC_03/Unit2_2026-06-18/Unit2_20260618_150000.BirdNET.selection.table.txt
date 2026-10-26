@@ -1,0 +1,56 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	6.0	9.0	0	15000	Least Tern	leater1	0.7670	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	6.0
+2	Spectrogram 1	1	39.0	42.0	0	15000	Least Tern	leater1	0.2753	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	39.0
+3	Spectrogram 1	1	42.0	45.0	0	15000	Least Tern	leater1	0.9417	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	42.0
+4	Spectrogram 1	1	45.0	48.0	0	15000	Least Tern	leater1	0.7934	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	45.0
+5	Spectrogram 1	1	54.0	57.0	0	15000	Least Tern	leater1	0.4419	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	54.0
+6	Spectrogram 1	1	123.0	126.0	0	15000	Forster's Tern	forter	0.8596	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	123.0
+7	Spectrogram 1	1	123.0	126.0	0	15000	Bonaparte's Gull	bongul	0.7485	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	123.0
+8	Spectrogram 1	1	141.0	144.0	0	15000	Least Tern	leater1	0.5451	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	141.0
+9	Spectrogram 1	1	144.0	147.0	0	15000	Least Tern	leater1	0.2751	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	144.0
+10	Spectrogram 1	1	147.0	150.0	0	15000	Least Tern	leater1	0.8360	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	147.0
+11	Spectrogram 1	1	162.0	165.0	0	15000	Least Tern	leater1	0.4671	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	162.0
+12	Spectrogram 1	1	168.0	171.0	0	15000	Least Tern	leater1	0.3149	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	168.0
+13	Spectrogram 1	1	180.0	183.0	0	15000	Forster's Tern	forter	0.9410	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	180.0
+14	Spectrogram 1	1	189.0	192.0	0	15000	Forster's Tern	forter	0.6885	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	189.0
+15	Spectrogram 1	1	198.0	201.0	0	15000	Forster's Tern	forter	0.6434	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	198.0
+16	Spectrogram 1	1	201.0	204.0	0	15000	Forster's Tern	forter	0.5157	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	201.0
+17	Spectrogram 1	1	213.0	216.0	0	15000	Forster's Tern	forter	0.7212	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	213.0
+18	Spectrogram 1	1	219.0	222.0	0	15000	Willet	willet1	0.7448	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	219.0
+19	Spectrogram 1	1	222.0	225.0	0	15000	Willet	willet1	0.9529	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	222.0
+20	Spectrogram 1	1	255.0	258.0	0	15000	Forster's Tern	forter	0.9988	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	255.0
+21	Spectrogram 1	1	258.0	261.0	0	15000	Forster's Tern	forter	0.9754	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	258.0
+22	Spectrogram 1	1	276.0	279.0	0	15000	Killdeer	killde	0.2988	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	276.0
+23	Spectrogram 1	1	279.0	282.0	0	15000	Forster's Tern	forter	0.9883	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	279.0
+24	Spectrogram 1	1	279.0	282.0	0	15000	Common Tern	comter	0.3901	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	279.0
+25	Spectrogram 1	1	312.0	315.0	0	15000	Forster's Tern	forter	0.9937	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	312.0
+26	Spectrogram 1	1	315.0	318.0	0	15000	Forster's Tern	forter	0.9978	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	315.0
+27	Spectrogram 1	1	318.0	321.0	0	15000	Forster's Tern	forter	0.9340	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	318.0
+28	Spectrogram 1	1	321.0	324.0	0	15000	Least Tern	leater1	0.4531	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	321.0
+29	Spectrogram 1	1	384.0	387.0	0	15000	Cliff Swallow	cliswa	0.3975	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	384.0
+30	Spectrogram 1	1	387.0	390.0	0	15000	Least Tern	leater1	0.5989	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	387.0
+31	Spectrogram 1	1	393.0	396.0	0	15000	Least Tern	leater1	0.8015	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	393.0
+32	Spectrogram 1	1	396.0	399.0	0	15000	Least Tern	leater1	0.7775	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	396.0
+33	Spectrogram 1	1	408.0	411.0	0	15000	Willet	willet1	0.7460	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	408.0
+34	Spectrogram 1	1	417.0	420.0	0	15000	Forster's Tern	forter	0.4325	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	417.0
+35	Spectrogram 1	1	426.0	429.0	0	15000	Forster's Tern	forter	0.7509	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	426.0
+36	Spectrogram 1	1	435.0	438.0	0	15000	Forster's Tern	forter	0.9684	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	435.0
+37	Spectrogram 1	1	438.0	441.0	0	15000	Forster's Tern	forter	0.9561	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	438.0
+38	Spectrogram 1	1	441.0	444.0	0	15000	Forster's Tern	forter	0.9062	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	441.0
+39	Spectrogram 1	1	444.0	447.0	0	15000	Forster's Tern	forter	0.4238	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	444.0
+40	Spectrogram 1	1	447.0	450.0	0	15000	Forster's Tern	forter	0.9810	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	447.0
+41	Spectrogram 1	1	450.0	453.0	0	15000	Common Tern	comter	0.4946	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	450.0
+42	Spectrogram 1	1	453.0	456.0	0	15000	Forster's Tern	forter	0.9976	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	453.0
+43	Spectrogram 1	1	459.0	462.0	0	15000	Forster's Tern	forter	0.9989	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	459.0
+44	Spectrogram 1	1	519.0	522.0	0	15000	Forster's Tern	forter	0.9634	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	519.0
+45	Spectrogram 1	1	570.0	573.0	0	15000	Red-breasted Nuthatch	rebnut	0.4275	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	570.0
+46	Spectrogram 1	1	684.0	687.0	0	15000	Forster's Tern	forter	0.5691	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	684.0
+47	Spectrogram 1	1	690.0	693.0	0	15000	Forster's Tern	forter	0.9383	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	690.0
+48	Spectrogram 1	1	693.0	696.0	0	15000	Forster's Tern	forter	0.9697	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	693.0
+49	Spectrogram 1	1	696.0	699.0	0	15000	Forster's Tern	forter	0.4421	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	696.0
+50	Spectrogram 1	1	735.0	738.0	0	15000	Eastern Bluebird	easblu	0.3449	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	735.0
+51	Spectrogram 1	1	825.0	828.0	0	15000	Forster's Tern	forter	0.8176	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	825.0
+52	Spectrogram 1	1	840.0	843.0	0	15000	Forster's Tern	forter	0.4909	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	840.0
+53	Spectrogram 1	1	840.0	843.0	0	15000	Common Tern	comter	0.4160	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	840.0
+54	Spectrogram 1	1	843.0	846.0	0	15000	Forster's Tern	forter	0.7224	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	843.0
+55	Spectrogram 1	1	846.0	849.0	0	15000	Common Tern	comter	0.3264	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_150000.wav	846.0

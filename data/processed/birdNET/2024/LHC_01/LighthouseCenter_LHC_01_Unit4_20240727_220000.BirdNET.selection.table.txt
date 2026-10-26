@@ -1,0 +1,19 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	12.0	15.0	0	15000	Great Horned Owl	grhowl	0.2947	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_220000.wav	12.0
+2	Spectrogram 1	1	15.0	18.0	0	15000	Great Horned Owl	grhowl	0.3156	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_220000.wav	15.0
+3	Spectrogram 1	1	96.0	99.0	0	15000	Great Horned Owl	grhowl	0.4376	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_220000.wav	96.0
+4	Spectrogram 1	1	120.0	123.0	0	15000	Great Horned Owl	grhowl	0.3839	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_220000.wav	120.0
+5	Spectrogram 1	1	123.0	126.0	0	15000	Great Horned Owl	grhowl	0.5993	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_220000.wav	123.0
+6	Spectrogram 1	1	126.0	129.0	0	15000	Great Horned Owl	grhowl	0.6653	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_220000.wav	126.0
+7	Spectrogram 1	1	132.0	135.0	0	15000	Great Horned Owl	grhowl	0.3751	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_220000.wav	132.0
+8	Spectrogram 1	1	138.0	141.0	0	15000	Great Horned Owl	grhowl	0.3223	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_220000.wav	138.0
+9	Spectrogram 1	1	150.0	153.0	0	15000	Great Horned Owl	grhowl	0.3111	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_220000.wav	150.0
+10	Spectrogram 1	1	153.0	156.0	0	15000	Great Horned Owl	grhowl	0.3401	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_220000.wav	153.0
+11	Spectrogram 1	1	156.0	159.0	0	15000	Great Horned Owl	grhowl	0.4720	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_220000.wav	156.0
+12	Spectrogram 1	1	165.0	168.0	0	15000	Great Horned Owl	grhowl	0.4231	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_220000.wav	165.0
+13	Spectrogram 1	1	336.0	339.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.5616	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_220000.wav	336.0
+14	Spectrogram 1	1	576.0	579.0	0	15000	Great Horned Owl	grhowl	0.2554	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_220000.wav	576.0
+15	Spectrogram 1	1	588.0	591.0	0	15000	Engine	engine	0.3037	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_220000.wav	588.0
+16	Spectrogram 1	1	861.0	864.0	0	15000	Great Horned Owl	grhowl	0.3378	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_220000.wav	861.0
+17	Spectrogram 1	1	873.0	876.0	0	15000	Black-crowned Night-Heron	bcnher	0.3999	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_220000.wav	873.0
+18	Spectrogram 1	1	897.0	900.0	0	15000	Black-crowned Night-Heron	bcnher	0.3695	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240727_220000.wav	897.0

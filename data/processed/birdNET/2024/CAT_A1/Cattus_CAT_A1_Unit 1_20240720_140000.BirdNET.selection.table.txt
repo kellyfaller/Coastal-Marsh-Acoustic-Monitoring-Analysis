@@ -1,0 +1,24 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	21.0	24.0	0	15000	House Finch	houfin	0.5692	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240720_140000.wav	21.0
+2	Spectrogram 1	1	63.0	66.0	0	15000	Barn Swallow	barswa	0.4209	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240720_140000.wav	63.0
+3	Spectrogram 1	1	69.0	72.0	0	15000	Barn Swallow	barswa	0.6161	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240720_140000.wav	69.0
+4	Spectrogram 1	1	72.0	75.0	0	15000	Barn Swallow	barswa	0.9102	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240720_140000.wav	72.0
+5	Spectrogram 1	1	81.0	84.0	0	15000	Barn Swallow	barswa	0.5096	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240720_140000.wav	81.0
+6	Spectrogram 1	1	84.0	87.0	0	15000	Barn Swallow	barswa	0.6229	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240720_140000.wav	84.0
+7	Spectrogram 1	1	87.0	90.0	0	15000	Barn Swallow	barswa	0.9602	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240720_140000.wav	87.0
+8	Spectrogram 1	1	90.0	93.0	0	15000	Barn Swallow	barswa	0.9444	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240720_140000.wav	90.0
+9	Spectrogram 1	1	93.0	96.0	0	15000	Barn Swallow	barswa	0.5011	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240720_140000.wav	93.0
+10	Spectrogram 1	1	96.0	99.0	0	15000	Barn Swallow	barswa	0.8904	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240720_140000.wav	96.0
+11	Spectrogram 1	1	117.0	120.0	0	15000	Engine	engine	0.3208	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240720_140000.wav	117.0
+12	Spectrogram 1	1	333.0	336.0	0	15000	Purple Martin	purmar	0.3601	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240720_140000.wav	333.0
+13	Spectrogram 1	1	345.0	348.0	0	15000	Osprey	osprey	0.3602	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240720_140000.wav	345.0
+14	Spectrogram 1	1	348.0	351.0	0	15000	Osprey	osprey	0.8262	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240720_140000.wav	348.0
+15	Spectrogram 1	1	348.0	351.0	0	15000	Purple Martin	purmar	0.6416	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240720_140000.wav	348.0
+16	Spectrogram 1	1	354.0	357.0	0	15000	Osprey	osprey	0.7829	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240720_140000.wav	354.0
+17	Spectrogram 1	1	363.0	366.0	0	15000	Lesser Yellowlegs	lesyel	0.3302	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240720_140000.wav	363.0
+18	Spectrogram 1	1	363.0	366.0	0	15000	Osprey	osprey	0.2609	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240720_140000.wav	363.0
+19	Spectrogram 1	1	366.0	369.0	0	15000	Osprey	osprey	0.3416	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240720_140000.wav	366.0
+20	Spectrogram 1	1	597.0	600.0	0	15000	Barn Swallow	barswa	0.3176	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240720_140000.wav	597.0
+21	Spectrogram 1	1	786.0	789.0	0	15000	Osprey	osprey	0.9280	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240720_140000.wav	786.0
+22	Spectrogram 1	1	789.0	792.0	0	15000	Osprey	osprey	0.3265	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240720_140000.wav	789.0
+23	Spectrogram 1	1	789.0	792.0	0	15000	Evening Grosbeak	evegro	0.3194	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240720_140000.wav	789.0

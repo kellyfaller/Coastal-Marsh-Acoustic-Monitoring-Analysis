@@ -1,0 +1,4 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	225.0	228.0	0	15000	Great Blue Heron	grbher3	0.6761	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_040000.wav	225.0
+2	Spectrogram 1	1	327.0	330.0	0	15000	Common Raven	comrav	0.2960	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_040000.wav	327.0
+3	Spectrogram 1	1	330.0	333.0	0	15000	Great Blue Heron	grbher3	0.4667	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240816_040000.wav	330.0

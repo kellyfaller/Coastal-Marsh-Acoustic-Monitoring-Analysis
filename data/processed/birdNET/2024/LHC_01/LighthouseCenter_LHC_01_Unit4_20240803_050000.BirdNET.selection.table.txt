@@ -1,0 +1,31 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	9.0	12.0	0	15000	Barred Owl	brdowl	0.3664	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_050000.wav	9.0
+2	Spectrogram 1	1	18.0	21.0	0	15000	Barred Owl	brdowl	0.5719	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_050000.wav	18.0
+3	Spectrogram 1	1	21.0	24.0	0	15000	Barred Owl	brdowl	0.3021	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_050000.wav	21.0
+4	Spectrogram 1	1	33.0	36.0	0	15000	Golden-crowned Kinglet	gockin	0.3215	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_050000.wav	33.0
+5	Spectrogram 1	1	36.0	39.0	0	15000	Golden-crowned Kinglet	gockin	0.7334	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_050000.wav	36.0
+6	Spectrogram 1	1	138.0	141.0	0	15000	Black-crowned Night-Heron	bcnher	0.9864	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_050000.wav	138.0
+7	Spectrogram 1	1	144.0	147.0	0	15000	Black-crowned Night-Heron	bcnher	0.9711	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_050000.wav	144.0
+8	Spectrogram 1	1	150.0	153.0	0	15000	Black-crowned Night-Heron	bcnher	0.9365	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_050000.wav	150.0
+9	Spectrogram 1	1	153.0	156.0	0	15000	Black-crowned Night-Heron	bcnher	0.9367	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_050000.wav	153.0
+10	Spectrogram 1	1	171.0	174.0	0	15000	Black-crowned Night-Heron	bcnher	0.9637	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_050000.wav	171.0
+11	Spectrogram 1	1	189.0	192.0	0	15000	Black-crowned Night-Heron	bcnher	0.7262	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_050000.wav	189.0
+12	Spectrogram 1	1	192.0	195.0	0	15000	Black-crowned Night-Heron	bcnher	0.3647	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_050000.wav	192.0
+13	Spectrogram 1	1	228.0	231.0	0	15000	Black-crowned Night-Heron	bcnher	0.9765	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_050000.wav	228.0
+14	Spectrogram 1	1	249.0	252.0	0	15000	Black-crowned Night-Heron	bcnher	0.9312	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_050000.wav	249.0
+15	Spectrogram 1	1	267.0	270.0	0	15000	Black-crowned Night-Heron	bcnher	0.9865	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_050000.wav	267.0
+16	Spectrogram 1	1	381.0	384.0	0	15000	Black-crowned Night-Heron	bcnher	0.4446	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_050000.wav	381.0
+17	Spectrogram 1	1	396.0	399.0	0	15000	Golden-crowned Kinglet	gockin	0.2715	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_050000.wav	396.0
+18	Spectrogram 1	1	492.0	495.0	0	15000	Great Horned Owl	grhowl	0.3456	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_050000.wav	492.0
+19	Spectrogram 1	1	543.0	546.0	0	15000	Golden-crowned Kinglet	gockin	0.5482	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_050000.wav	543.0
+20	Spectrogram 1	1	612.0	615.0	0	15000	Black-crowned Night-Heron	bcnher	0.6563	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_050000.wav	612.0
+21	Spectrogram 1	1	732.0	735.0	0	15000	Black-crowned Night-Heron	bcnher	0.8999	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_050000.wav	732.0
+22	Spectrogram 1	1	735.0	738.0	0	15000	Black-crowned Night-Heron	bcnher	0.6589	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_050000.wav	735.0
+23	Spectrogram 1	1	738.0	741.0	0	15000	Black-crowned Night-Heron	bcnher	0.7999	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_050000.wav	738.0
+24	Spectrogram 1	1	741.0	744.0	0	15000	Barred Owl	brdowl	0.3211	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_050000.wav	741.0
+25	Spectrogram 1	1	756.0	759.0	0	15000	Black-crowned Night-Heron	bcnher	0.7023	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_050000.wav	756.0
+26	Spectrogram 1	1	771.0	774.0	0	15000	Black-crowned Night-Heron	bcnher	0.9811	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_050000.wav	771.0
+27	Spectrogram 1	1	774.0	777.0	0	15000	Black-crowned Night-Heron	bcnher	0.6524	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_050000.wav	774.0
+28	Spectrogram 1	1	789.0	792.0	0	15000	Black-crowned Night-Heron	bcnher	0.8951	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_050000.wav	789.0
+29	Spectrogram 1	1	804.0	807.0	0	15000	Black-crowned Night-Heron	bcnher	0.3739	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_050000.wav	804.0
+30	Spectrogram 1	1	855.0	858.0	0	15000	Golden-crowned Kinglet	gockin	0.2961	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_050000.wav	855.0

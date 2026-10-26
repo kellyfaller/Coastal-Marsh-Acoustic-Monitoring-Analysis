@@ -1,0 +1,20 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	12.0	15.0	0	15000	Belted Kingfisher	belkin1	0.7675	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_110000.wav	12.0
+2	Spectrogram 1	1	33.0	36.0	0	15000	Belted Kingfisher	belkin1	0.2586	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_110000.wav	33.0
+3	Spectrogram 1	1	69.0	72.0	0	15000	Belted Kingfisher	belkin1	0.8113	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_110000.wav	69.0
+4	Spectrogram 1	1	75.0	78.0	0	15000	Belted Kingfisher	belkin1	0.6900	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_110000.wav	75.0
+5	Spectrogram 1	1	135.0	138.0	0	15000	Belted Kingfisher	belkin1	0.3433	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_110000.wav	135.0
+6	Spectrogram 1	1	183.0	186.0	0	15000	Dog	dogdog	0.3565	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_110000.wav	183.0
+7	Spectrogram 1	1	252.0	255.0	0	15000	Mourning Dove	moudov	0.4299	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_110000.wav	252.0
+8	Spectrogram 1	1	261.0	264.0	0	15000	Mourning Dove	moudov	0.3825	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_110000.wav	261.0
+9	Spectrogram 1	1	264.0	267.0	0	15000	Mourning Dove	moudov	0.3015	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_110000.wav	264.0
+10	Spectrogram 1	1	318.0	321.0	0	15000	Golden-crowned Kinglet	gockin	0.5688	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_110000.wav	318.0
+11	Spectrogram 1	1	324.0	327.0	0	15000	Carolina Wren	carwre	0.3783	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_110000.wav	324.0
+12	Spectrogram 1	1	327.0	330.0	0	15000	Carolina Wren	carwre	0.2912	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_110000.wav	327.0
+13	Spectrogram 1	1	363.0	366.0	0	15000	Red-breasted Nuthatch	rebnut	0.5489	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_110000.wav	363.0
+14	Spectrogram 1	1	375.0	378.0	0	15000	Golden-crowned Kinglet	gockin	0.2852	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_110000.wav	375.0
+15	Spectrogram 1	1	384.0	387.0	0	15000	Golden-crowned Kinglet	gockin	0.3253	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_110000.wav	384.0
+16	Spectrogram 1	1	456.0	459.0	0	15000	Red-breasted Nuthatch	rebnut	0.4649	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_110000.wav	456.0
+17	Spectrogram 1	1	612.0	615.0	0	15000	Belted Kingfisher	belkin1	0.3255	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_110000.wav	612.0
+18	Spectrogram 1	1	657.0	660.0	0	15000	Belted Kingfisher	belkin1	0.2571	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_110000.wav	657.0
+19	Spectrogram 1	1	744.0	747.0	0	15000	Tufted Titmouse	tuftit	0.2574	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240814_110000.wav	744.0

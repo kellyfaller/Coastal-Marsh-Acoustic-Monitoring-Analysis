@@ -1,0 +1,10 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	0.0	3.0	0	15000	Tundra Swan	tunswa	0.3874	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240825_160000.wav	0.0
+2	Spectrogram 1	1	15.0	18.0	0	15000	Osprey	osprey	0.2619	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240825_160000.wav	15.0
+3	Spectrogram 1	1	57.0	60.0	0	15000	Osprey	osprey	0.7790	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240825_160000.wav	57.0
+4	Spectrogram 1	1	129.0	132.0	0	15000	Long-tailed Duck	lotduc	0.3525	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240825_160000.wav	129.0
+5	Spectrogram 1	1	162.0	165.0	0	15000	Osprey	osprey	0.7513	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240825_160000.wav	162.0
+6	Spectrogram 1	1	351.0	354.0	0	15000	Fish Crow	fiscro	0.2559	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240825_160000.wav	351.0
+7	Spectrogram 1	1	396.0	399.0	0	15000	Eastern Bluebird	easblu	0.5188	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240825_160000.wav	396.0
+8	Spectrogram 1	1	528.0	531.0	0	15000	Human vocal	humvoc	0.2730	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240825_160000.wav	528.0
+9	Spectrogram 1	1	852.0	855.0	0	15000	Pine Barrens Treefrog	t-11128090	0.4602	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240825_160000.wav	852.0

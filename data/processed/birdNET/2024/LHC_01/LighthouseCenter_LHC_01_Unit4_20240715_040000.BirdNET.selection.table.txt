@@ -1,0 +1,11 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	141.0	144.0	0	15000	Golden-crowned Kinglet	gockin	0.3405	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240715_040000.wav	141.0
+2	Spectrogram 1	1	201.0	204.0	0	15000	Golden-crowned Kinglet	gockin	0.3186	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240715_040000.wav	201.0
+3	Spectrogram 1	1	255.0	258.0	0	15000	Golden-crowned Kinglet	gockin	0.2663	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240715_040000.wav	255.0
+4	Spectrogram 1	1	348.0	351.0	0	15000	Golden-crowned Kinglet	gockin	0.3285	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240715_040000.wav	348.0
+5	Spectrogram 1	1	420.0	423.0	0	15000	Golden-crowned Kinglet	gockin	0.2984	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240715_040000.wav	420.0
+6	Spectrogram 1	1	447.0	450.0	0	15000	Golden-crowned Kinglet	gockin	0.2564	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240715_040000.wav	447.0
+7	Spectrogram 1	1	450.0	453.0	0	15000	Golden-crowned Kinglet	gockin	0.4208	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240715_040000.wav	450.0
+8	Spectrogram 1	1	459.0	462.0	0	15000	Golden-crowned Kinglet	gockin	0.5704	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240715_040000.wav	459.0
+9	Spectrogram 1	1	510.0	513.0	0	15000	Golden-crowned Kinglet	gockin	0.4888	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240715_040000.wav	510.0
+10	Spectrogram 1	1	603.0	606.0	0	15000	Golden-crowned Kinglet	gockin	0.4597	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240715_040000.wav	603.0

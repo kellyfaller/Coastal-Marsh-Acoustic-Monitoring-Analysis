@@ -1,0 +1,27 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	99.0	102.0	0	15000	Canada Goose	cangoo	0.4922	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_040000.wav	99.0
+2	Spectrogram 1	1	204.0	207.0	0	15000	Canada Goose	cangoo	0.8600	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_040000.wav	204.0
+3	Spectrogram 1	1	228.0	231.0	0	15000	Canada Goose	cangoo	0.5737	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_040000.wav	228.0
+4	Spectrogram 1	1	288.0	291.0	0	15000	Canada Goose	cangoo	0.6491	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_040000.wav	288.0
+5	Spectrogram 1	1	390.0	393.0	0	15000	Canada Goose	cangoo	0.5845	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_040000.wav	390.0
+6	Spectrogram 1	1	396.0	399.0	0	15000	Canada Goose	cangoo	0.8755	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_040000.wav	396.0
+7	Spectrogram 1	1	399.0	402.0	0	15000	Canada Goose	cangoo	0.9517	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_040000.wav	399.0
+8	Spectrogram 1	1	402.0	405.0	0	15000	Canada Goose	cangoo	0.9702	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_040000.wav	402.0
+9	Spectrogram 1	1	444.0	447.0	0	15000	Canada Goose	cangoo	0.7240	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_040000.wav	444.0
+10	Spectrogram 1	1	450.0	453.0	0	15000	Canada Goose	cangoo	0.8130	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_040000.wav	450.0
+11	Spectrogram 1	1	489.0	492.0	0	15000	Canada Goose	cangoo	0.4703	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_040000.wav	489.0
+12	Spectrogram 1	1	504.0	507.0	0	15000	Canada Goose	cangoo	0.4494	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_040000.wav	504.0
+13	Spectrogram 1	1	507.0	510.0	0	15000	Canada Goose	cangoo	0.8716	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_040000.wav	507.0
+14	Spectrogram 1	1	528.0	531.0	0	15000	Black-crowned Night-Heron	bcnher	0.3180	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_040000.wav	528.0
+15	Spectrogram 1	1	531.0	534.0	0	15000	Black-crowned Night-Heron	bcnher	0.7105	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_040000.wav	531.0
+16	Spectrogram 1	1	534.0	537.0	0	15000	Black-crowned Night-Heron	bcnher	0.9724	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_040000.wav	534.0
+17	Spectrogram 1	1	537.0	540.0	0	15000	Canada Goose	cangoo	0.8133	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_040000.wav	537.0
+18	Spectrogram 1	1	576.0	579.0	0	15000	Canada Goose	cangoo	0.8036	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_040000.wav	576.0
+19	Spectrogram 1	1	603.0	606.0	0	15000	Canada Goose	cangoo	0.6582	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_040000.wav	603.0
+20	Spectrogram 1	1	606.0	609.0	0	15000	Canada Goose	cangoo	0.6456	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_040000.wav	606.0
+21	Spectrogram 1	1	609.0	612.0	0	15000	Canada Goose	cangoo	0.6677	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_040000.wav	609.0
+22	Spectrogram 1	1	612.0	615.0	0	15000	Canada Goose	cangoo	0.5787	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_040000.wav	612.0
+23	Spectrogram 1	1	615.0	618.0	0	15000	Canada Goose	cangoo	0.7600	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_040000.wav	615.0
+24	Spectrogram 1	1	624.0	627.0	0	15000	Canada Goose	cangoo	0.8584	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_040000.wav	624.0
+25	Spectrogram 1	1	708.0	711.0	0	15000	Canada Goose	cangoo	0.6311	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_040000.wav	708.0
+26	Spectrogram 1	1	765.0	768.0	0	15000	Canada Goose	cangoo	0.5930	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-18\Unit2_20260618_040000.wav	765.0

@@ -1,0 +1,29 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	3.0	6.0	0	15000	Golden-crowned Kinglet	gockin	0.5310	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_180000.wav	3.0
+2	Spectrogram 1	1	18.0	21.0	0	15000	Engine	engine	0.5161	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_180000.wav	18.0
+3	Spectrogram 1	1	42.0	45.0	0	15000	Golden-crowned Kinglet	gockin	0.4327	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_180000.wav	42.0
+4	Spectrogram 1	1	51.0	54.0	0	15000	Golden-crowned Kinglet	gockin	0.4365	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_180000.wav	51.0
+5	Spectrogram 1	1	60.0	63.0	0	15000	Engine	engine	0.3079	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_180000.wav	60.0
+6	Spectrogram 1	1	81.0	84.0	0	15000	Golden-crowned Kinglet	gockin	0.3248	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_180000.wav	81.0
+7	Spectrogram 1	1	87.0	90.0	0	15000	Golden-crowned Kinglet	gockin	0.3647	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_180000.wav	87.0
+8	Spectrogram 1	1	288.0	291.0	0	15000	Red-bellied Woodpecker	rebwoo	0.3278	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_180000.wav	288.0
+9	Spectrogram 1	1	309.0	312.0	0	15000	Ruddy Turnstone	rudtur	0.4793	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_180000.wav	309.0
+10	Spectrogram 1	1	321.0	324.0	0	15000	Golden-crowned Kinglet	gockin	0.3448	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_180000.wav	321.0
+11	Spectrogram 1	1	366.0	369.0	0	15000	Seaside Sparrow	seaspa	0.6122	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_180000.wav	366.0
+12	Spectrogram 1	1	381.0	384.0	0	15000	Northern Flicker	norfli	0.2630	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_180000.wav	381.0
+13	Spectrogram 1	1	387.0	390.0	0	15000	Northern Flicker	norfli	0.7912	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_180000.wav	387.0
+14	Spectrogram 1	1	393.0	396.0	0	15000	Northern Flicker	norfli	0.4066	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_180000.wav	393.0
+15	Spectrogram 1	1	723.0	726.0	0	15000	Golden-crowned Kinglet	gockin	0.3738	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_180000.wav	723.0
+16	Spectrogram 1	1	774.0	777.0	0	15000	Hairy Woodpecker	haiwoo	0.2717	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_180000.wav	774.0
+17	Spectrogram 1	1	777.0	780.0	0	15000	Downy Woodpecker	dowwoo	0.3296	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_180000.wav	777.0
+18	Spectrogram 1	1	783.0	786.0	0	15000	Golden-crowned Kinglet	gockin	0.2913	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_180000.wav	783.0
+19	Spectrogram 1	1	795.0	798.0	0	15000	Carolina Wren	carwre	0.2864	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_180000.wav	795.0
+20	Spectrogram 1	1	798.0	801.0	0	15000	Ruby-crowned Kinglet	ruckin	0.3725	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_180000.wav	798.0
+21	Spectrogram 1	1	804.0	807.0	0	15000	Golden-crowned Kinglet	gockin	0.3967	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_180000.wav	804.0
+22	Spectrogram 1	1	822.0	825.0	0	15000	Ruby-crowned Kinglet	ruckin	0.2630	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_180000.wav	822.0
+23	Spectrogram 1	1	849.0	852.0	0	15000	Golden-crowned Kinglet	gockin	0.3589	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_180000.wav	849.0
+24	Spectrogram 1	1	864.0	867.0	0	15000	Northern Flicker	norfli	0.3825	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_180000.wav	864.0
+25	Spectrogram 1	1	870.0	873.0	0	15000	Northern Flicker	norfli	0.3172	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_180000.wav	870.0
+26	Spectrogram 1	1	876.0	879.0	0	15000	Evening Grosbeak	evegro	0.4065	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_180000.wav	876.0
+27	Spectrogram 1	1	882.0	885.0	0	15000	Evening Grosbeak	evegro	0.4930	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_180000.wav	882.0
+28	Spectrogram 1	1	891.0	894.0	0	15000	Golden-crowned Kinglet	gockin	0.2673	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240904_180000.wav	891.0

@@ -1,0 +1,37 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	96.0	99.0	0	15000	House Finch	houfin	0.2571	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	96.0
+2	Spectrogram 1	1	186.0	189.0	0	15000	Golden-crowned Kinglet	gockin	0.6657	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	186.0
+3	Spectrogram 1	1	234.0	237.0	0	15000	Golden-crowned Kinglet	gockin	0.6137	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	234.0
+4	Spectrogram 1	1	246.0	249.0	0	15000	Golden-crowned Kinglet	gockin	0.6591	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	246.0
+5	Spectrogram 1	1	255.0	258.0	0	15000	Golden-crowned Kinglet	gockin	0.3211	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	255.0
+6	Spectrogram 1	1	273.0	276.0	0	15000	Semipalmated Plover	semplo	0.9633	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	273.0
+7	Spectrogram 1	1	342.0	345.0	0	15000	Golden-crowned Kinglet	gockin	0.2506	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	342.0
+8	Spectrogram 1	1	348.0	351.0	0	15000	Golden-crowned Kinglet	gockin	0.3505	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	348.0
+9	Spectrogram 1	1	363.0	366.0	0	15000	Golden-crowned Kinglet	gockin	0.2906	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	363.0
+10	Spectrogram 1	1	408.0	411.0	0	15000	Golden-crowned Kinglet	gockin	0.3727	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	408.0
+11	Spectrogram 1	1	417.0	420.0	0	15000	Golden-crowned Kinglet	gockin	0.2562	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	417.0
+12	Spectrogram 1	1	426.0	429.0	0	15000	Golden-crowned Kinglet	gockin	0.5158	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	426.0
+13	Spectrogram 1	1	432.0	435.0	0	15000	Golden-crowned Kinglet	gockin	0.5000	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	432.0
+14	Spectrogram 1	1	513.0	516.0	0	15000	Great Crested Flycatcher	grcfly	0.3369	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	513.0
+15	Spectrogram 1	1	519.0	522.0	0	15000	Great Crested Flycatcher	grcfly	0.2905	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	519.0
+16	Spectrogram 1	1	525.0	528.0	0	15000	Great Crested Flycatcher	grcfly	0.4193	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	525.0
+17	Spectrogram 1	1	549.0	552.0	0	15000	Red-breasted Nuthatch	rebnut	0.3595	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	549.0
+18	Spectrogram 1	1	558.0	561.0	0	15000	Great Crested Flycatcher	grcfly	0.3288	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	558.0
+19	Spectrogram 1	1	561.0	564.0	0	15000	Great Crested Flycatcher	grcfly	0.6497	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	561.0
+20	Spectrogram 1	1	594.0	597.0	0	15000	Great Crested Flycatcher	grcfly	0.3605	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	594.0
+21	Spectrogram 1	1	669.0	672.0	0	15000	Osprey	osprey	0.2736	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	669.0
+22	Spectrogram 1	1	672.0	675.0	0	15000	Osprey	osprey	0.4413	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	672.0
+23	Spectrogram 1	1	690.0	693.0	0	15000	American Goldfinch	amegfi	0.6593	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	690.0
+24	Spectrogram 1	1	699.0	702.0	0	15000	Osprey	osprey	0.9563	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	699.0
+25	Spectrogram 1	1	702.0	705.0	0	15000	Osprey	osprey	0.9848	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	702.0
+26	Spectrogram 1	1	705.0	708.0	0	15000	Osprey	osprey	0.9984	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	705.0
+27	Spectrogram 1	1	735.0	738.0	0	15000	Fish Crow	fiscro	0.8370	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	735.0
+28	Spectrogram 1	1	738.0	741.0	0	15000	Fish Crow	fiscro	0.5067	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	738.0
+29	Spectrogram 1	1	741.0	744.0	0	15000	Fish Crow	fiscro	0.9808	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	741.0
+30	Spectrogram 1	1	747.0	750.0	0	15000	Fish Crow	fiscro	0.9448	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	747.0
+31	Spectrogram 1	1	753.0	756.0	0	15000	Fish Crow	fiscro	0.5408	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	753.0
+32	Spectrogram 1	1	762.0	765.0	0	15000	Osprey	osprey	0.9982	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	762.0
+33	Spectrogram 1	1	765.0	768.0	0	15000	Osprey	osprey	0.9984	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	765.0
+34	Spectrogram 1	1	768.0	771.0	0	15000	Red-tailed Hawk	rethaw	0.4208	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	768.0
+35	Spectrogram 1	1	786.0	789.0	0	15000	Osprey	osprey	0.9971	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	786.0
+36	Spectrogram 1	1	789.0	792.0	0	15000	Osprey	osprey	0.9951	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240903_080000.wav	789.0

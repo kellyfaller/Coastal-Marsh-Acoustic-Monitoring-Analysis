@@ -1,0 +1,29 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	42.0	45.0	0	15000	Red-headed Woodpecker	rehwoo	0.2542	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240817_090000.wav	42.0
+2	Spectrogram 1	1	54.0	57.0	0	15000	White-breasted Nuthatch	whbnut	0.5726	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240817_090000.wav	54.0
+3	Spectrogram 1	1	60.0	63.0	0	15000	Gray Catbird	grycat	0.3754	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240817_090000.wav	60.0
+4	Spectrogram 1	1	66.0	69.0	0	15000	White-breasted Nuthatch	whbnut	0.2706	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240817_090000.wav	66.0
+5	Spectrogram 1	1	69.0	72.0	0	15000	White-breasted Nuthatch	whbnut	0.7144	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240817_090000.wav	69.0
+6	Spectrogram 1	1	72.0	75.0	0	15000	White-breasted Nuthatch	whbnut	0.6010	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240817_090000.wav	72.0
+7	Spectrogram 1	1	78.0	81.0	0	15000	Common Virtuoso Katydid	t-11851326	0.2817	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240817_090000.wav	78.0
+8	Spectrogram 1	1	81.0	84.0	0	15000	White-breasted Nuthatch	whbnut	0.6702	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240817_090000.wav	81.0
+9	Spectrogram 1	1	93.0	96.0	0	15000	Common Virtuoso Katydid	t-11851326	0.2932	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240817_090000.wav	93.0
+10	Spectrogram 1	1	375.0	378.0	0	15000	Red-bellied Woodpecker	rebwoo	0.7637	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240817_090000.wav	375.0
+11	Spectrogram 1	1	420.0	423.0	0	15000	Black-crowned Night-Heron	bcnher	0.3300	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240817_090000.wav	420.0
+12	Spectrogram 1	1	471.0	474.0	0	15000	Ruby-throated Hummingbird	rthhum	0.3349	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240817_090000.wav	471.0
+13	Spectrogram 1	1	480.0	483.0	0	15000	Red-bellied Woodpecker	rebwoo	0.6498	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240817_090000.wav	480.0
+14	Spectrogram 1	1	525.0	528.0	0	15000	Belted Kingfisher	belkin1	0.2786	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240817_090000.wav	525.0
+15	Spectrogram 1	1	531.0	534.0	0	15000	Fish Crow	fiscro	0.3677	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240817_090000.wav	531.0
+16	Spectrogram 1	1	630.0	633.0	0	15000	Belted Kingfisher	belkin1	0.5746	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240817_090000.wav	630.0
+17	Spectrogram 1	1	753.0	756.0	0	15000	Herring Gull	hergul	0.2577	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240817_090000.wav	753.0
+18	Spectrogram 1	1	780.0	783.0	0	15000	Tufted Titmouse	tuftit	0.3694	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240817_090000.wav	780.0
+19	Spectrogram 1	1	792.0	795.0	0	15000	Tufted Titmouse	tuftit	0.2946	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240817_090000.wav	792.0
+20	Spectrogram 1	1	813.0	816.0	0	15000	Herring Gull	hergul	0.5392	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240817_090000.wav	813.0
+21	Spectrogram 1	1	813.0	816.0	0	15000	Tufted Titmouse	tuftit	0.2719	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240817_090000.wav	813.0
+22	Spectrogram 1	1	813.0	816.0	0	15000	Golden-crowned Kinglet	gockin	0.2552	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240817_090000.wav	813.0
+23	Spectrogram 1	1	816.0	819.0	0	15000	Cedar Waxwing	cedwax	0.2887	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240817_090000.wav	816.0
+24	Spectrogram 1	1	819.0	822.0	0	15000	Herring Gull	hergul	0.7027	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240817_090000.wav	819.0
+25	Spectrogram 1	1	819.0	822.0	0	15000	Cape May Warbler	camwar	0.2592	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240817_090000.wav	819.0
+26	Spectrogram 1	1	822.0	825.0	0	15000	Herring Gull	hergul	0.9064	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240817_090000.wav	822.0
+27	Spectrogram 1	1	825.0	828.0	0	15000	Herring Gull	hergul	0.5990	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240817_090000.wav	825.0
+28	Spectrogram 1	1	828.0	831.0	0	15000	Herring Gull	hergul	0.5157	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A2\Cattus_CAT_A2_Unit2_20240817_090000.wav	828.0

@@ -1,0 +1,19 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	123.0	126.0	0	15000	Purple Martin	purmar	0.3021	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-19\Unit2_20260619_050000.wav	123.0
+2	Spectrogram 1	1	174.0	177.0	0	15000	Purple Martin	purmar	0.5439	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-19\Unit2_20260619_050000.wav	174.0
+3	Spectrogram 1	1	201.0	204.0	0	15000	Purple Martin	purmar	0.3135	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-19\Unit2_20260619_050000.wav	201.0
+4	Spectrogram 1	1	255.0	258.0	0	15000	Purple Martin	purmar	0.3541	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-19\Unit2_20260619_050000.wav	255.0
+5	Spectrogram 1	1	261.0	264.0	0	15000	Purple Martin	purmar	0.2892	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-19\Unit2_20260619_050000.wav	261.0
+6	Spectrogram 1	1	279.0	282.0	0	15000	Purple Martin	purmar	0.4584	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-19\Unit2_20260619_050000.wav	279.0
+7	Spectrogram 1	1	369.0	372.0	0	15000	Purple Martin	purmar	0.4519	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-19\Unit2_20260619_050000.wav	369.0
+8	Spectrogram 1	1	435.0	438.0	0	15000	Northern Cardinal	norcar	0.2527	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-19\Unit2_20260619_050000.wav	435.0
+9	Spectrogram 1	1	447.0	450.0	0	15000	Northern Cardinal	norcar	0.2667	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-19\Unit2_20260619_050000.wav	447.0
+10	Spectrogram 1	1	456.0	459.0	0	15000	Northern Cardinal	norcar	0.3374	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-19\Unit2_20260619_050000.wav	456.0
+11	Spectrogram 1	1	537.0	540.0	0	15000	Purple Martin	purmar	0.4265	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-19\Unit2_20260619_050000.wav	537.0
+12	Spectrogram 1	1	705.0	708.0	0	15000	Purple Martin	purmar	0.3712	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-19\Unit2_20260619_050000.wav	705.0
+13	Spectrogram 1	1	786.0	789.0	0	15000	Fish Crow	fiscro	0.7963	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-19\Unit2_20260619_050000.wav	786.0
+14	Spectrogram 1	1	789.0	792.0	0	15000	Purple Martin	purmar	0.6169	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-19\Unit2_20260619_050000.wav	789.0
+15	Spectrogram 1	1	798.0	801.0	0	15000	Fish Crow	fiscro	0.8385	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-19\Unit2_20260619_050000.wav	798.0
+16	Spectrogram 1	1	810.0	813.0	0	15000	Fish Crow	fiscro	0.5296	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-19\Unit2_20260619_050000.wav	810.0
+17	Spectrogram 1	1	813.0	816.0	0	15000	Fish Crow	fiscro	0.7308	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-19\Unit2_20260619_050000.wav	813.0
+18	Spectrogram 1	1	897.0	900.0	0	15000	Northern Cardinal	norcar	0.4435	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_03\Unit2_2026-06-19\Unit2_20260619_050000.wav	897.0

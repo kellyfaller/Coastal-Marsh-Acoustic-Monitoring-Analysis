@@ -1,0 +1,16 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	219.0	222.0	0	15000	Common True Katydid	t-11876111	0.2950	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_020000.wav	219.0
+2	Spectrogram 1	1	243.0	246.0	0	15000	Common True Katydid	t-11876111	0.4542	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_020000.wav	243.0
+3	Spectrogram 1	1	252.0	255.0	0	15000	Common Virtuoso Katydid	t-11851326	0.2586	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_020000.wav	252.0
+4	Spectrogram 1	1	285.0	288.0	0	15000	Common True Katydid	t-11876111	0.8051	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_020000.wav	285.0
+5	Spectrogram 1	1	285.0	288.0	0	15000	Common Virtuoso Katydid	t-11851326	0.2731	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_020000.wav	285.0
+6	Spectrogram 1	1	291.0	294.0	0	15000	Common True Katydid	t-11876111	0.5747	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_020000.wav	291.0
+7	Spectrogram 1	1	312.0	315.0	0	15000	Common True Katydid	t-11876111	0.3004	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_020000.wav	312.0
+8	Spectrogram 1	1	360.0	363.0	0	15000	Common True Katydid	t-11876111	0.7623	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_020000.wav	360.0
+9	Spectrogram 1	1	435.0	438.0	0	15000	Common True Katydid	t-11876111	0.7341	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_020000.wav	435.0
+10	Spectrogram 1	1	450.0	453.0	0	15000	Common True Katydid	t-11876111	0.5590	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_020000.wav	450.0
+11	Spectrogram 1	1	483.0	486.0	0	15000	Common True Katydid	t-11876111	0.3601	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_020000.wav	483.0
+12	Spectrogram 1	1	549.0	552.0	0	15000	Common Virtuoso Katydid	t-11851326	0.2509	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_020000.wav	549.0
+13	Spectrogram 1	1	567.0	570.0	0	15000	Common True Katydid	t-11876111	0.6108	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_020000.wav	567.0
+14	Spectrogram 1	1	648.0	651.0	0	15000	Common True Katydid	t-11876111	0.4808	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_020000.wav	648.0
+15	Spectrogram 1	1	759.0	762.0	0	15000	Cedar Waxwing	cedwax	0.7076	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240817_020000.wav	759.0

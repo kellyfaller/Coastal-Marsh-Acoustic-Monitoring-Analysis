@@ -1,0 +1,16 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	3.0	6.0	0	15000	Golden-crowned Kinglet	gockin	0.4544	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-22\Unit4_20260822_190000.wav	3.0
+2	Spectrogram 1	1	81.0	84.0	0	15000	Golden-crowned Kinglet	gockin	0.2986	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-22\Unit4_20260822_190000.wav	81.0
+3	Spectrogram 1	1	96.0	99.0	0	15000	Golden-crowned Kinglet	gockin	0.2573	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-22\Unit4_20260822_190000.wav	96.0
+4	Spectrogram 1	1	147.0	150.0	0	15000	Engine	engine	0.3873	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-22\Unit4_20260822_190000.wav	147.0
+5	Spectrogram 1	1	153.0	156.0	0	15000	Engine	engine	0.5239	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-22\Unit4_20260822_190000.wav	153.0
+6	Spectrogram 1	1	159.0	162.0	0	15000	Engine	engine	0.5884	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-22\Unit4_20260822_190000.wav	159.0
+7	Spectrogram 1	1	348.0	351.0	0	15000	Golden-crowned Kinglet	gockin	0.2856	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-22\Unit4_20260822_190000.wav	348.0
+8	Spectrogram 1	1	444.0	447.0	0	15000	Caspian Tern	caster1	0.2740	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-22\Unit4_20260822_190000.wav	444.0
+9	Spectrogram 1	1	471.0	474.0	0	15000	Caspian Tern	caster1	0.6519	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-22\Unit4_20260822_190000.wav	471.0
+10	Spectrogram 1	1	609.0	612.0	0	15000	Osprey	osprey	0.5119	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-22\Unit4_20260822_190000.wav	609.0
+11	Spectrogram 1	1	645.0	648.0	0	15000	Ring-billed Gull	ribgul	0.4092	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-22\Unit4_20260822_190000.wav	645.0
+12	Spectrogram 1	1	657.0	660.0	0	15000	Ring-billed Gull	ribgul	0.3894	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-22\Unit4_20260822_190000.wav	657.0
+13	Spectrogram 1	1	810.0	813.0	0	15000	Fish Crow	fiscro	0.3554	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-22\Unit4_20260822_190000.wav	810.0
+14	Spectrogram 1	1	819.0	822.0	0	15000	Fish Crow	fiscro	0.2762	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-22\Unit4_20260822_190000.wav	819.0
+15	Spectrogram 1	1	822.0	825.0	0	15000	Fish Crow	fiscro	0.7893	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-22\Unit4_20260822_190000.wav	822.0

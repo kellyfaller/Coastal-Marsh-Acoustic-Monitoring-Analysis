@@ -1,0 +1,8 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	114.0	117.0	0	15000	Common Virtuoso Katydid	t-11851326	0.3647	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240901_020000.wav	114.0
+2	Spectrogram 1	1	417.0	420.0	0	15000	Common Virtuoso Katydid	t-11851326	0.3754	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240901_020000.wav	417.0
+3	Spectrogram 1	1	420.0	423.0	0	15000	Common Virtuoso Katydid	t-11851326	0.3443	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240901_020000.wav	420.0
+4	Spectrogram 1	1	432.0	435.0	0	15000	Common Virtuoso Katydid	t-11851326	0.7448	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240901_020000.wav	432.0
+5	Spectrogram 1	1	456.0	459.0	0	15000	Common Virtuoso Katydid	t-11851326	0.2895	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240901_020000.wav	456.0
+6	Spectrogram 1	1	528.0	531.0	0	15000	Common Virtuoso Katydid	t-11851326	0.3340	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240901_020000.wav	528.0
+7	Spectrogram 1	1	816.0	819.0	0	15000	Common Virtuoso Katydid	t-11851326	0.6749	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240901_020000.wav	816.0

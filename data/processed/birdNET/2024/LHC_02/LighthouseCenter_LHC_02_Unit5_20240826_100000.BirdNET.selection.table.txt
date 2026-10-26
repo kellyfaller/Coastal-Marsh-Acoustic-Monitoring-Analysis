@@ -1,0 +1,25 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	30.0	33.0	0	15000	American Crow	amecro	0.7041	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240826_100000.wav	30.0
+2	Spectrogram 1	1	33.0	36.0	0	15000	Chipping Sparrow	chispa	0.4208	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240826_100000.wav	33.0
+3	Spectrogram 1	1	39.0	42.0	0	15000	American Crow	amecro	0.3219	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240826_100000.wav	39.0
+4	Spectrogram 1	1	48.0	51.0	0	15000	American Crow	amecro	0.5558	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240826_100000.wav	48.0
+5	Spectrogram 1	1	48.0	51.0	0	15000	Fish Crow	fiscro	0.4117	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240826_100000.wav	48.0
+6	Spectrogram 1	1	63.0	66.0	0	15000	American Crow	amecro	0.4796	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240826_100000.wav	63.0
+7	Spectrogram 1	1	66.0	69.0	0	15000	Fish Crow	fiscro	0.2604	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240826_100000.wav	66.0
+8	Spectrogram 1	1	120.0	123.0	0	15000	Fish Crow	fiscro	0.2664	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240826_100000.wav	120.0
+9	Spectrogram 1	1	123.0	126.0	0	15000	American Crow	amecro	0.6327	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240826_100000.wav	123.0
+10	Spectrogram 1	1	123.0	126.0	0	15000	Fish Crow	fiscro	0.3006	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240826_100000.wav	123.0
+11	Spectrogram 1	1	132.0	135.0	0	15000	American Crow	amecro	0.3680	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240826_100000.wav	132.0
+12	Spectrogram 1	1	225.0	228.0	0	15000	Fish Crow	fiscro	0.3356	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240826_100000.wav	225.0
+13	Spectrogram 1	1	225.0	228.0	0	15000	American Crow	amecro	0.3194	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240826_100000.wav	225.0
+14	Spectrogram 1	1	294.0	297.0	0	15000	Osprey	osprey	0.5043	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240826_100000.wav	294.0
+15	Spectrogram 1	1	357.0	360.0	0	15000	American Crow	amecro	0.2606	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240826_100000.wav	357.0
+16	Spectrogram 1	1	501.0	504.0	0	15000	American Crow	amecro	0.2701	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240826_100000.wav	501.0
+17	Spectrogram 1	1	606.0	609.0	0	15000	Killdeer	killde	0.4524	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240826_100000.wav	606.0
+18	Spectrogram 1	1	702.0	705.0	0	15000	American Crow	amecro	0.3218	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240826_100000.wav	702.0
+19	Spectrogram 1	1	765.0	768.0	0	15000	American Crow	amecro	0.2969	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240826_100000.wav	765.0
+20	Spectrogram 1	1	798.0	801.0	0	15000	American Crow	amecro	0.3026	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240826_100000.wav	798.0
+21	Spectrogram 1	1	801.0	804.0	0	15000	American Crow	amecro	0.3588	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240826_100000.wav	801.0
+22	Spectrogram 1	1	816.0	819.0	0	15000	Engine	engine	0.3227	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240826_100000.wav	816.0
+23	Spectrogram 1	1	837.0	840.0	0	15000	Engine	engine	0.2551	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240826_100000.wav	837.0
+24	Spectrogram 1	1	861.0	864.0	0	15000	Alder Flycatcher	aldfly	0.3238	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240826_100000.wav	861.0

@@ -1,0 +1,20 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	102.0	105.0	0	15000	Great Black-backed Gull	gbbgul	0.4043	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-18\Unit4_20260818_070000.wav	102.0
+2	Spectrogram 1	1	108.0	111.0	0	15000	Great Black-backed Gull	gbbgul	0.6352	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-18\Unit4_20260818_070000.wav	108.0
+3	Spectrogram 1	1	111.0	114.0	0	15000	Great Black-backed Gull	gbbgul	0.3560	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-18\Unit4_20260818_070000.wav	111.0
+4	Spectrogram 1	1	117.0	120.0	0	15000	Great Black-backed Gull	gbbgul	0.3110	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-18\Unit4_20260818_070000.wav	117.0
+5	Spectrogram 1	1	156.0	159.0	0	15000	Great Black-backed Gull	gbbgul	0.7360	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-18\Unit4_20260818_070000.wav	156.0
+6	Spectrogram 1	1	174.0	177.0	0	15000	Great Black-backed Gull	gbbgul	0.8493	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-18\Unit4_20260818_070000.wav	174.0
+7	Spectrogram 1	1	186.0	189.0	0	15000	Great Black-backed Gull	gbbgul	0.6962	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-18\Unit4_20260818_070000.wav	186.0
+8	Spectrogram 1	1	204.0	207.0	0	15000	Great Black-backed Gull	gbbgul	0.3735	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-18\Unit4_20260818_070000.wav	204.0
+9	Spectrogram 1	1	207.0	210.0	0	15000	Great Black-backed Gull	gbbgul	0.5474	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-18\Unit4_20260818_070000.wav	207.0
+10	Spectrogram 1	1	219.0	222.0	0	15000	Great Black-backed Gull	gbbgul	0.4957	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-18\Unit4_20260818_070000.wav	219.0
+11	Spectrogram 1	1	228.0	231.0	0	15000	Great Black-backed Gull	gbbgul	0.5059	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-18\Unit4_20260818_070000.wav	228.0
+12	Spectrogram 1	1	231.0	234.0	0	15000	Great Black-backed Gull	gbbgul	0.3081	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-18\Unit4_20260818_070000.wav	231.0
+13	Spectrogram 1	1	240.0	243.0	0	15000	Great Black-backed Gull	gbbgul	0.7684	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-18\Unit4_20260818_070000.wav	240.0
+14	Spectrogram 1	1	255.0	258.0	0	15000	Great Black-backed Gull	gbbgul	0.2686	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-18\Unit4_20260818_070000.wav	255.0
+15	Spectrogram 1	1	264.0	267.0	0	15000	Great Black-backed Gull	gbbgul	0.3421	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-18\Unit4_20260818_070000.wav	264.0
+16	Spectrogram 1	1	273.0	276.0	0	15000	Great Black-backed Gull	gbbgul	0.7904	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-18\Unit4_20260818_070000.wav	273.0
+17	Spectrogram 1	1	420.0	423.0	0	15000	Great Black-backed Gull	gbbgul	0.6078	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-18\Unit4_20260818_070000.wav	420.0
+18	Spectrogram 1	1	429.0	432.0	0	15000	Red-bellied Woodpecker	rebwoo	0.7228	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-18\Unit4_20260818_070000.wav	429.0
+19	Spectrogram 1	1	492.0	495.0	0	15000	Eastern Phoebe	easpho	0.4186	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-18\Unit4_20260818_070000.wav	492.0

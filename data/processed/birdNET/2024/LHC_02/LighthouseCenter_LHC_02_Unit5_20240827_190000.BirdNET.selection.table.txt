@@ -1,0 +1,14 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	135.0	138.0	0	15000	Least Sandpiper	leasan	0.9662	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240827_190000.wav	135.0
+2	Spectrogram 1	1	138.0	141.0	0	15000	Least Sandpiper	leasan	0.2544	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240827_190000.wav	138.0
+3	Spectrogram 1	1	147.0	150.0	0	15000	American Kestrel	amekes	0.2982	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240827_190000.wav	147.0
+4	Spectrogram 1	1	357.0	360.0	0	15000	Northern Saw-whet Owl	nswowl	0.2944	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240827_190000.wav	357.0
+5	Spectrogram 1	1	438.0	441.0	0	15000	Dog	dogdog	0.3199	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240827_190000.wav	438.0
+6	Spectrogram 1	1	639.0	642.0	0	15000	Least Sandpiper	leasan	0.7653	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240827_190000.wav	639.0
+7	Spectrogram 1	1	642.0	645.0	0	15000	Least Sandpiper	leasan	0.9623	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240827_190000.wav	642.0
+8	Spectrogram 1	1	648.0	651.0	0	15000	Least Sandpiper	leasan	0.9692	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240827_190000.wav	648.0
+9	Spectrogram 1	1	648.0	651.0	0	15000	Spotted Sandpiper	sposan	0.2988	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240827_190000.wav	648.0
+10	Spectrogram 1	1	651.0	654.0	0	15000	Least Sandpiper	leasan	0.6835	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240827_190000.wav	651.0
+11	Spectrogram 1	1	882.0	885.0	0	15000	Greater Yellowlegs	greyel	0.8241	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240827_190000.wav	882.0
+12	Spectrogram 1	1	888.0	891.0	0	15000	Greater Yellowlegs	greyel	0.6936	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240827_190000.wav	888.0
+13	Spectrogram 1	1	894.0	897.0	0	15000	Greater Yellowlegs	greyel	0.3799	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240827_190000.wav	894.0

@@ -1,0 +1,23 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	21.0	24.0	0	15000	Golden-crowned Kinglet	gockin	0.2859	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-11\Unit1_20260611_120000.wav	21.0
+2	Spectrogram 1	1	24.0	27.0	0	15000	Golden-crowned Kinglet	gockin	0.3083	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-11\Unit1_20260611_120000.wav	24.0
+3	Spectrogram 1	1	27.0	30.0	0	15000	Golden-crowned Kinglet	gockin	0.3441	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-11\Unit1_20260611_120000.wav	27.0
+4	Spectrogram 1	1	78.0	81.0	0	15000	Golden-crowned Kinglet	gockin	0.2724	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-11\Unit1_20260611_120000.wav	78.0
+5	Spectrogram 1	1	111.0	114.0	0	15000	Golden-crowned Kinglet	gockin	0.3065	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-11\Unit1_20260611_120000.wav	111.0
+6	Spectrogram 1	1	147.0	150.0	0	15000	Golden-crowned Kinglet	gockin	0.3531	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-11\Unit1_20260611_120000.wav	147.0
+7	Spectrogram 1	1	162.0	165.0	0	15000	Golden-crowned Kinglet	gockin	0.7161	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-11\Unit1_20260611_120000.wav	162.0
+8	Spectrogram 1	1	222.0	225.0	0	15000	Golden-crowned Kinglet	gockin	0.3454	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-11\Unit1_20260611_120000.wav	222.0
+9	Spectrogram 1	1	225.0	228.0	0	15000	Golden-crowned Kinglet	gockin	0.2931	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-11\Unit1_20260611_120000.wav	225.0
+10	Spectrogram 1	1	267.0	270.0	0	15000	Golden-crowned Kinglet	gockin	0.3636	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-11\Unit1_20260611_120000.wav	267.0
+11	Spectrogram 1	1	342.0	345.0	0	15000	Golden-crowned Kinglet	gockin	0.3048	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-11\Unit1_20260611_120000.wav	342.0
+12	Spectrogram 1	1	477.0	480.0	0	15000	Golden-crowned Kinglet	gockin	0.2885	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-11\Unit1_20260611_120000.wav	477.0
+13	Spectrogram 1	1	525.0	528.0	0	15000	Golden-crowned Kinglet	gockin	0.6688	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-11\Unit1_20260611_120000.wav	525.0
+14	Spectrogram 1	1	633.0	636.0	0	15000	Golden-crowned Kinglet	gockin	0.2894	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-11\Unit1_20260611_120000.wav	633.0
+15	Spectrogram 1	1	657.0	660.0	0	15000	Golden-crowned Kinglet	gockin	0.4310	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-11\Unit1_20260611_120000.wav	657.0
+16	Spectrogram 1	1	672.0	675.0	0	15000	Golden-crowned Kinglet	gockin	0.4776	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-11\Unit1_20260611_120000.wav	672.0
+17	Spectrogram 1	1	684.0	687.0	0	15000	Golden-crowned Kinglet	gockin	0.6068	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-11\Unit1_20260611_120000.wav	684.0
+18	Spectrogram 1	1	696.0	699.0	0	15000	Golden-crowned Kinglet	gockin	0.4071	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-11\Unit1_20260611_120000.wav	696.0
+19	Spectrogram 1	1	699.0	702.0	0	15000	Golden-crowned Kinglet	gockin	0.3306	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-11\Unit1_20260611_120000.wav	699.0
+20	Spectrogram 1	1	768.0	771.0	0	15000	Red-breasted Nuthatch	rebnut	0.3408	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-11\Unit1_20260611_120000.wav	768.0
+21	Spectrogram 1	1	819.0	822.0	0	15000	Golden-crowned Kinglet	gockin	0.3539	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-11\Unit1_20260611_120000.wav	819.0
+22	Spectrogram 1	1	822.0	825.0	0	15000	Golden-crowned Kinglet	gockin	0.6662	D:\Acoustic Data\Masters - Cattus and LHC\2026\LHC_02\Unit1_2026-06-11\Unit1_20260611_120000.wav	822.0

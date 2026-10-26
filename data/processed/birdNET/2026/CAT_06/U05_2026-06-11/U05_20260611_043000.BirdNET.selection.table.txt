@@ -1,0 +1,27 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	63.0	66.0	0	15000	Gray Catbird	grycat	0.3998	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_043000.wav	63.0
+2	Spectrogram 1	1	69.0	72.0	0	15000	Gray Catbird	grycat	0.5694	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_043000.wav	69.0
+3	Spectrogram 1	1	93.0	96.0	0	15000	Gray Catbird	grycat	0.3584	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_043000.wav	93.0
+4	Spectrogram 1	1	162.0	165.0	0	15000	Gray Catbird	grycat	0.5563	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_043000.wav	162.0
+5	Spectrogram 1	1	204.0	207.0	0	15000	Gray Catbird	grycat	0.3278	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_043000.wav	204.0
+6	Spectrogram 1	1	234.0	237.0	0	15000	Gray Catbird	grycat	0.6061	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_043000.wav	234.0
+7	Spectrogram 1	1	297.0	300.0	0	15000	Gray Catbird	grycat	0.5293	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_043000.wav	297.0
+8	Spectrogram 1	1	378.0	381.0	0	15000	Gray Catbird	grycat	0.4747	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_043000.wav	378.0
+9	Spectrogram 1	1	390.0	393.0	0	15000	Gray Catbird	grycat	0.5466	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_043000.wav	390.0
+10	Spectrogram 1	1	414.0	417.0	0	15000	Gray Catbird	grycat	0.6831	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_043000.wav	414.0
+11	Spectrogram 1	1	417.0	420.0	0	15000	Gray Catbird	grycat	0.8812	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_043000.wav	417.0
+12	Spectrogram 1	1	444.0	447.0	0	15000	Gray Catbird	grycat	0.3382	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_043000.wav	444.0
+13	Spectrogram 1	1	525.0	528.0	0	15000	Osprey	osprey	0.3613	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_043000.wav	525.0
+14	Spectrogram 1	1	528.0	531.0	0	15000	Osprey	osprey	0.6763	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_043000.wav	528.0
+15	Spectrogram 1	1	615.0	618.0	0	15000	Gray Catbird	grycat	0.4864	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_043000.wav	615.0
+16	Spectrogram 1	1	636.0	639.0	0	15000	Brown Thrasher	brnthr	0.3276	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_043000.wav	636.0
+17	Spectrogram 1	1	687.0	690.0	0	15000	Gray Catbird	grycat	0.2969	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_043000.wav	687.0
+18	Spectrogram 1	1	690.0	693.0	0	15000	Gray Catbird	grycat	0.9638	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_043000.wav	690.0
+19	Spectrogram 1	1	693.0	696.0	0	15000	Gray Catbird	grycat	0.4661	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_043000.wav	693.0
+20	Spectrogram 1	1	717.0	720.0	0	15000	Northern Bobwhite	norbob	0.2688	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_043000.wav	717.0
+21	Spectrogram 1	1	726.0	729.0	0	15000	Gray Catbird	grycat	0.6032	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_043000.wav	726.0
+22	Spectrogram 1	1	729.0	732.0	0	15000	Gray Catbird	grycat	0.4419	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_043000.wav	729.0
+23	Spectrogram 1	1	741.0	744.0	0	15000	Gray Catbird	grycat	0.3612	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_043000.wav	741.0
+24	Spectrogram 1	1	774.0	777.0	0	15000	Gray Catbird	grycat	0.7923	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_043000.wav	774.0
+25	Spectrogram 1	1	810.0	813.0	0	15000	Brown Thrasher	brnthr	0.6904	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_043000.wav	810.0
+26	Spectrogram 1	1	813.0	816.0	0	15000	Brown Thrasher	brnthr	0.3234	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_043000.wav	813.0

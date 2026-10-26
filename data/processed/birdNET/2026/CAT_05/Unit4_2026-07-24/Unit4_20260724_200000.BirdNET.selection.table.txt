@@ -1,0 +1,12 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	15.0	18.0	0	15000	Osprey	osprey	0.8114	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-24\Unit4_20260724_200000.wav	15.0
+2	Spectrogram 1	1	18.0	21.0	0	15000	Osprey	osprey	0.9332	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-24\Unit4_20260724_200000.wav	18.0
+3	Spectrogram 1	1	30.0	33.0	0	15000	Osprey	osprey	0.8464	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-24\Unit4_20260724_200000.wav	30.0
+4	Spectrogram 1	1	33.0	36.0	0	15000	Osprey	osprey	0.9669	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-24\Unit4_20260724_200000.wav	33.0
+5	Spectrogram 1	1	54.0	57.0	0	15000	Osprey	osprey	0.9687	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-24\Unit4_20260724_200000.wav	54.0
+6	Spectrogram 1	1	306.0	309.0	0	15000	White-breasted Nuthatch	whbnut	0.3166	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-24\Unit4_20260724_200000.wav	306.0
+7	Spectrogram 1	1	618.0	621.0	0	15000	Golden-crowned Kinglet	gockin	0.3065	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-24\Unit4_20260724_200000.wav	618.0
+8	Spectrogram 1	1	645.0	648.0	0	15000	Northern Saw-whet Owl	nswowl	0.3601	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-24\Unit4_20260724_200000.wav	645.0
+9	Spectrogram 1	1	804.0	807.0	0	15000	Golden-crowned Kinglet	gockin	0.2716	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-24\Unit4_20260724_200000.wav	804.0
+10	Spectrogram 1	1	867.0	870.0	0	15000	Whimbrel	whimbr	0.4921	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-24\Unit4_20260724_200000.wav	867.0
+11	Spectrogram 1	1	888.0	891.0	0	15000	Osprey	osprey	0.3443	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-07-24\Unit4_20260724_200000.wav	888.0

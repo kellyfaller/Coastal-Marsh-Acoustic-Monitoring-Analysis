@@ -1,0 +1,13 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	36.0	39.0	0	15000	Common Raven	comrav	0.3712	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240703_220000.wav	36.0
+2	Spectrogram 1	1	195.0	198.0	0	15000	Tundra Swan	tunswa	0.5229	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240703_220000.wav	195.0
+3	Spectrogram 1	1	249.0	252.0	0	15000	Fireworks	frwrks	0.7009	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240703_220000.wav	249.0
+4	Spectrogram 1	1	399.0	402.0	0	15000	Wild Turkey	wiltur	0.2718	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240703_220000.wav	399.0
+5	Spectrogram 1	1	432.0	435.0	0	15000	Fireworks	frwrks	0.5490	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240703_220000.wav	432.0
+6	Spectrogram 1	1	450.0	453.0	0	15000	Tundra Swan	tunswa	0.3124	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240703_220000.wav	450.0
+7	Spectrogram 1	1	540.0	543.0	0	15000	Fireworks	frwrks	0.6840	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240703_220000.wav	540.0
+8	Spectrogram 1	1	588.0	591.0	0	15000	Fireworks	frwrks	0.9334	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240703_220000.wav	588.0
+9	Spectrogram 1	1	603.0	606.0	0	15000	Fireworks	frwrks	0.4509	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240703_220000.wav	603.0
+10	Spectrogram 1	1	624.0	627.0	0	15000	Fireworks	frwrks	0.4203	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240703_220000.wav	624.0
+11	Spectrogram 1	1	816.0	819.0	0	15000	Fireworks	frwrks	0.4578	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240703_220000.wav	816.0
+12	Spectrogram 1	1	834.0	837.0	0	15000	Black-crowned Night-Heron	bcnher	0.2942	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240703_220000.wav	834.0

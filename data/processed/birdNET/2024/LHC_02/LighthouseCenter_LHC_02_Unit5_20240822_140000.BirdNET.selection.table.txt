@@ -1,0 +1,19 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	42.0	45.0	0	15000	Golden-crowned Kinglet	gockin	0.4007	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240822_140000.wav	42.0
+2	Spectrogram 1	1	63.0	66.0	0	15000	Golden-crowned Kinglet	gockin	0.6085	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240822_140000.wav	63.0
+3	Spectrogram 1	1	171.0	174.0	0	15000	Great Horned Owl	grhowl	0.8297	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240822_140000.wav	171.0
+4	Spectrogram 1	1	240.0	243.0	0	15000	Carolina Wren	carwre	0.3959	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240822_140000.wav	240.0
+5	Spectrogram 1	1	405.0	408.0	0	15000	Royal Tern	royter1	0.4102	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240822_140000.wav	405.0
+6	Spectrogram 1	1	417.0	420.0	0	15000	Laughing Gull	laugul	0.7870	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240822_140000.wav	417.0
+7	Spectrogram 1	1	420.0	423.0	0	15000	Laughing Gull	laugul	0.6307	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240822_140000.wav	420.0
+8	Spectrogram 1	1	426.0	429.0	0	15000	Laughing Gull	laugul	0.4881	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240822_140000.wav	426.0
+9	Spectrogram 1	1	429.0	432.0	0	15000	Laughing Gull	laugul	0.7629	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240822_140000.wav	429.0
+10	Spectrogram 1	1	435.0	438.0	0	15000	Laughing Gull	laugul	0.6723	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240822_140000.wav	435.0
+11	Spectrogram 1	1	438.0	441.0	0	15000	Laughing Gull	laugul	0.8895	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240822_140000.wav	438.0
+12	Spectrogram 1	1	441.0	444.0	0	15000	Seaside Sparrow	seaspa	0.3849	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240822_140000.wav	441.0
+13	Spectrogram 1	1	444.0	447.0	0	15000	Laughing Gull	laugul	0.2687	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240822_140000.wav	444.0
+14	Spectrogram 1	1	447.0	450.0	0	15000	Laughing Gull	laugul	0.2559	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240822_140000.wav	447.0
+15	Spectrogram 1	1	552.0	555.0	0	15000	Evening Grosbeak	evegro	0.2927	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240822_140000.wav	552.0
+16	Spectrogram 1	1	579.0	582.0	0	15000	Golden-crowned Kinglet	gockin	0.3081	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240822_140000.wav	579.0
+17	Spectrogram 1	1	627.0	630.0	0	15000	Golden-crowned Kinglet	gockin	0.2967	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240822_140000.wav	627.0
+18	Spectrogram 1	1	843.0	846.0	0	15000	American Crow	amecro	0.4439	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240822_140000.wav	843.0

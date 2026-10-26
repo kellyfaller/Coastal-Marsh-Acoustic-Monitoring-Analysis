@@ -1,0 +1,13 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	12.0	15.0	0	15000	Lesser Yellowlegs	lesyel	0.4355	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240807_190000.wav	12.0
+2	Spectrogram 1	1	171.0	174.0	0	15000	Osprey	osprey	0.4659	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240807_190000.wav	171.0
+3	Spectrogram 1	1	171.0	174.0	0	15000	Purple Martin	purmar	0.3241	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240807_190000.wav	171.0
+4	Spectrogram 1	1	207.0	210.0	0	15000	Osprey	osprey	0.6254	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240807_190000.wav	207.0
+5	Spectrogram 1	1	222.0	225.0	0	15000	Osprey	osprey	0.9592	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240807_190000.wav	222.0
+6	Spectrogram 1	1	273.0	276.0	0	15000	Osprey	osprey	0.3386	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240807_190000.wav	273.0
+7	Spectrogram 1	1	276.0	279.0	0	15000	Purple Martin	purmar	0.8113	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240807_190000.wav	276.0
+8	Spectrogram 1	1	312.0	315.0	0	15000	Osprey	osprey	0.9458	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240807_190000.wav	312.0
+9	Spectrogram 1	1	387.0	390.0	0	15000	Purple Martin	purmar	0.3453	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240807_190000.wav	387.0
+10	Spectrogram 1	1	390.0	393.0	0	15000	Osprey	osprey	0.4364	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240807_190000.wav	390.0
+11	Spectrogram 1	1	426.0	429.0	0	15000	Purple Martin	purmar	0.2565	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240807_190000.wav	426.0
+12	Spectrogram 1	1	882.0	885.0	0	15000	Purple Martin	purmar	0.6714	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240807_190000.wav	882.0

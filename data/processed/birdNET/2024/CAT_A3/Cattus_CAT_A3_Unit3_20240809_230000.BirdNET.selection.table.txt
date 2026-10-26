@@ -1,0 +1,19 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	315.0	318.0	0	15000	Common True Katydid	t-11876111	0.3336	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240809_230000.wav	315.0
+2	Spectrogram 1	1	318.0	321.0	0	15000	Common True Katydid	t-11876111	0.2804	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240809_230000.wav	318.0
+3	Spectrogram 1	1	408.0	411.0	0	15000	Common True Katydid	t-11876111	0.3149	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240809_230000.wav	408.0
+4	Spectrogram 1	1	465.0	468.0	0	15000	Common True Katydid	t-11876111	0.3092	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240809_230000.wav	465.0
+5	Spectrogram 1	1	525.0	528.0	0	15000	Caspian Tern	caster1	0.6925	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240809_230000.wav	525.0
+6	Spectrogram 1	1	525.0	528.0	0	15000	Barn Owl	brnowl	0.3189	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240809_230000.wav	525.0
+7	Spectrogram 1	1	528.0	531.0	0	15000	Caspian Tern	caster1	0.3333	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240809_230000.wav	528.0
+8	Spectrogram 1	1	540.0	543.0	0	15000	Caspian Tern	caster1	0.3650	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240809_230000.wav	540.0
+9	Spectrogram 1	1	558.0	561.0	0	15000	Barn Owl	brnowl	0.5150	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240809_230000.wav	558.0
+10	Spectrogram 1	1	573.0	576.0	0	15000	Common True Katydid	t-11876111	0.4643	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240809_230000.wav	573.0
+11	Spectrogram 1	1	579.0	582.0	0	15000	Common True Katydid	t-11876111	0.2602	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240809_230000.wav	579.0
+12	Spectrogram 1	1	645.0	648.0	0	15000	Common True Katydid	t-11876111	0.2971	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240809_230000.wav	645.0
+13	Spectrogram 1	1	666.0	669.0	0	15000	Barn Owl	brnowl	0.4782	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240809_230000.wav	666.0
+14	Spectrogram 1	1	720.0	723.0	0	15000	Common True Katydid	t-11876111	0.3436	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240809_230000.wav	720.0
+15	Spectrogram 1	1	729.0	732.0	0	15000	Common True Katydid	t-11876111	0.2583	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240809_230000.wav	729.0
+16	Spectrogram 1	1	753.0	756.0	0	15000	Common True Katydid	t-11876111	0.3366	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240809_230000.wav	753.0
+17	Spectrogram 1	1	825.0	828.0	0	15000	Common True Katydid	t-11876111	0.3604	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240809_230000.wav	825.0
+18	Spectrogram 1	1	849.0	852.0	0	15000	Common True Katydid	t-11876111	0.3170	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240809_230000.wav	849.0

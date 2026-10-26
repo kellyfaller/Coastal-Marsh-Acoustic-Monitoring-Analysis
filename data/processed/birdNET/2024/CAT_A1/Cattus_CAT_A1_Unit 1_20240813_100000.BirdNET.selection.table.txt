@@ -1,0 +1,9 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	87.0	90.0	0	15000	Osprey	osprey	0.4008	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240813_100000.wav	87.0
+2	Spectrogram 1	1	339.0	342.0	0	15000	Osprey	osprey	0.5508	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240813_100000.wav	339.0
+3	Spectrogram 1	1	588.0	591.0	0	15000	Tinkling Ground Cricket	t-11843287	0.5153	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240813_100000.wav	588.0
+4	Spectrogram 1	1	723.0	726.0	0	15000	Osprey	osprey	0.3971	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240813_100000.wav	723.0
+5	Spectrogram 1	1	726.0	729.0	0	15000	Osprey	osprey	0.2794	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240813_100000.wav	726.0
+6	Spectrogram 1	1	729.0	732.0	0	15000	Osprey	osprey	0.6338	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240813_100000.wav	729.0
+7	Spectrogram 1	1	732.0	735.0	0	15000	Osprey	osprey	0.3528	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240813_100000.wav	732.0
+8	Spectrogram 1	1	735.0	738.0	0	15000	Osprey	osprey	0.8730	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240813_100000.wav	735.0

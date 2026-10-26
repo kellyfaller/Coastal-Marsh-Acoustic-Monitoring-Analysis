@@ -1,0 +1,16 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	63.0	66.0	0	15000	Herring Gull	hergul	0.6273	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240905_130000.wav	63.0
+2	Spectrogram 1	1	66.0	69.0	0	15000	Herring Gull	hergul	0.7612	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240905_130000.wav	66.0
+3	Spectrogram 1	1	114.0	117.0	0	15000	Herring Gull	hergul	0.2582	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240905_130000.wav	114.0
+4	Spectrogram 1	1	141.0	144.0	0	15000	Great Blue Heron	grbher3	0.3430	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240905_130000.wav	141.0
+5	Spectrogram 1	1	183.0	186.0	0	15000	Great Blue Heron	grbher3	0.4039	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240905_130000.wav	183.0
+6	Spectrogram 1	1	273.0	276.0	0	15000	Osprey	osprey	0.3364	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240905_130000.wav	273.0
+7	Spectrogram 1	1	330.0	333.0	0	15000	American Crow	amecro	0.7936	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240905_130000.wav	330.0
+8	Spectrogram 1	1	351.0	354.0	0	15000	Mute Swan	mutswa	0.5162	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240905_130000.wav	351.0
+9	Spectrogram 1	1	603.0	606.0	0	15000	Trumpeter Swan	truswa	0.4394	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240905_130000.wav	603.0
+10	Spectrogram 1	1	735.0	738.0	0	15000	Golden-crowned Kinglet	gockin	0.3694	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240905_130000.wav	735.0
+11	Spectrogram 1	1	777.0	780.0	0	15000	Golden-crowned Kinglet	gockin	0.3733	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240905_130000.wav	777.0
+12	Spectrogram 1	1	852.0	855.0	0	15000	American Crow	amecro	0.4127	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240905_130000.wav	852.0
+13	Spectrogram 1	1	861.0	864.0	0	15000	Herring Gull	hergul	0.8013	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240905_130000.wav	861.0
+14	Spectrogram 1	1	864.0	867.0	0	15000	Herring Gull	hergul	0.6247	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240905_130000.wav	864.0
+15	Spectrogram 1	1	870.0	873.0	0	15000	Red-headed Woodpecker	rehwoo	0.2927	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240905_130000.wav	870.0

@@ -1,0 +1,17 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	111.0	114.0	0	15000	Least Bittern	leabit	0.4243	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_190000.wav	111.0
+2	Spectrogram 1	1	165.0	168.0	0	15000	Greater Yellowlegs	greyel	0.3828	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_190000.wav	165.0
+3	Spectrogram 1	1	174.0	177.0	0	15000	Greater Yellowlegs	greyel	0.6039	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_190000.wav	174.0
+4	Spectrogram 1	1	177.0	180.0	0	15000	Purple Martin	purmar	0.2863	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_190000.wav	177.0
+5	Spectrogram 1	1	180.0	183.0	0	15000	Osprey	osprey	0.4080	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_190000.wav	180.0
+6	Spectrogram 1	1	180.0	183.0	0	15000	Purple Martin	purmar	0.2768	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_190000.wav	180.0
+7	Spectrogram 1	1	228.0	231.0	0	15000	Common Eider	comeid	0.4069	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_190000.wav	228.0
+8	Spectrogram 1	1	291.0	294.0	0	15000	Fish Crow	fiscro	0.2758	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_190000.wav	291.0
+9	Spectrogram 1	1	312.0	315.0	0	15000	Red-breasted Nuthatch	rebnut	0.2825	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_190000.wav	312.0
+10	Spectrogram 1	1	372.0	375.0	0	15000	Trumpeter Swan	truswa	0.4272	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_190000.wav	372.0
+11	Spectrogram 1	1	468.0	471.0	0	15000	Tundra Swan	tunswa	0.6961	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_190000.wav	468.0
+12	Spectrogram 1	1	474.0	477.0	0	15000	Tundra Swan	tunswa	0.4309	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_190000.wav	474.0
+13	Spectrogram 1	1	477.0	480.0	0	15000	Tundra Swan	tunswa	0.5796	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_190000.wav	477.0
+14	Spectrogram 1	1	831.0	834.0	0	15000	Black-crowned Night-Heron	bcnher	0.2602	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_190000.wav	831.0
+15	Spectrogram 1	1	864.0	867.0	0	15000	Tundra Swan	tunswa	0.3370	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_190000.wav	864.0
+16	Spectrogram 1	1	879.0	882.0	0	15000	Human vocal	humvoc	0.2567	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240826_190000.wav	879.0

@@ -1,0 +1,23 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	0.0	3.0	0	15000	Song Sparrow	sonspa	0.4097	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240707_150000.wav	0.0
+2	Spectrogram 1	1	150.0	153.0	0	15000	Gray Catbird	grycat	0.2503	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240707_150000.wav	150.0
+3	Spectrogram 1	1	210.0	213.0	0	15000	Gray Catbird	grycat	0.4356	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240707_150000.wav	210.0
+4	Spectrogram 1	1	246.0	249.0	0	15000	Gray Catbird	grycat	0.2507	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240707_150000.wav	246.0
+5	Spectrogram 1	1	375.0	378.0	0	15000	Song Sparrow	sonspa	0.4789	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240707_150000.wav	375.0
+6	Spectrogram 1	1	459.0	462.0	0	15000	Grasshopper Sparrow	graspa	0.2519	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240707_150000.wav	459.0
+7	Spectrogram 1	1	468.0	471.0	0	15000	Gray Catbird	grycat	0.2668	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240707_150000.wav	468.0
+8	Spectrogram 1	1	513.0	516.0	0	15000	Gray Catbird	grycat	0.3182	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240707_150000.wav	513.0
+9	Spectrogram 1	1	537.0	540.0	0	15000	Gray Catbird	grycat	0.3012	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240707_150000.wav	537.0
+10	Spectrogram 1	1	618.0	621.0	0	15000	Song Sparrow	sonspa	0.4802	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240707_150000.wav	618.0
+11	Spectrogram 1	1	723.0	726.0	0	15000	American Goldfinch	amegfi	0.9037	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240707_150000.wav	723.0
+12	Spectrogram 1	1	726.0	729.0	0	15000	American Goldfinch	amegfi	0.5611	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240707_150000.wav	726.0
+13	Spectrogram 1	1	732.0	735.0	0	15000	American Goldfinch	amegfi	0.6531	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240707_150000.wav	732.0
+14	Spectrogram 1	1	735.0	738.0	0	15000	Song Sparrow	sonspa	0.4208	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240707_150000.wav	735.0
+15	Spectrogram 1	1	738.0	741.0	0	15000	American Goldfinch	amegfi	0.4418	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240707_150000.wav	738.0
+16	Spectrogram 1	1	771.0	774.0	0	15000	Laughing Gull	laugul	0.6777	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240707_150000.wav	771.0
+17	Spectrogram 1	1	774.0	777.0	0	15000	Laughing Gull	laugul	0.4528	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240707_150000.wav	774.0
+18	Spectrogram 1	1	822.0	825.0	0	15000	Osprey	osprey	0.4173	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240707_150000.wav	822.0
+19	Spectrogram 1	1	828.0	831.0	0	15000	Osprey	osprey	0.3890	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240707_150000.wav	828.0
+20	Spectrogram 1	1	831.0	834.0	0	15000	Osprey	osprey	0.7078	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240707_150000.wav	831.0
+21	Spectrogram 1	1	873.0	876.0	0	15000	Song Sparrow	sonspa	0.3147	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240707_150000.wav	873.0
+22	Spectrogram 1	1	879.0	882.0	0	15000	American Goldfinch	amegfi	0.3721	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240707_150000.wav	879.0

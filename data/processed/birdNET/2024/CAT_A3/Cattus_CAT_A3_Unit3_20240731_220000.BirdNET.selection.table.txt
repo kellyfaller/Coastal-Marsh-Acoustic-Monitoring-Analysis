@@ -1,0 +1,6 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	135.0	138.0	0	15000	Eastern Screech-Owl	easowl1	0.2602	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240731_220000.wav	135.0
+2	Spectrogram 1	1	375.0	378.0	0	15000	Eastern Screech-Owl	easowl1	0.2971	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240731_220000.wav	375.0
+3	Spectrogram 1	1	453.0	456.0	0	15000	Common True Katydid	t-11876111	0.3374	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240731_220000.wav	453.0
+4	Spectrogram 1	1	639.0	642.0	0	15000	Common True Katydid	t-11876111	0.3384	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240731_220000.wav	639.0
+5	Spectrogram 1	1	753.0	756.0	0	15000	Common True Katydid	t-11876111	0.4075	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240731_220000.wav	753.0

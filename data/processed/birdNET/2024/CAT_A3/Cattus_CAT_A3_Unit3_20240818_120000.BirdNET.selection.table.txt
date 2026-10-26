@@ -1,0 +1,29 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	3.0	6.0	0	15000	Northern Rough-winged Swallow	nrwswa	0.3552	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_120000.wav	3.0
+2	Spectrogram 1	1	9.0	12.0	0	15000	American Goldfinch	amegfi	0.7785	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_120000.wav	9.0
+3	Spectrogram 1	1	42.0	45.0	0	15000	Northern Rough-winged Swallow	nrwswa	0.3604	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_120000.wav	42.0
+4	Spectrogram 1	1	117.0	120.0	0	15000	Eastern Kingbird	easkin	0.6462	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_120000.wav	117.0
+5	Spectrogram 1	1	120.0	123.0	0	15000	Eastern Kingbird	easkin	0.5827	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_120000.wav	120.0
+6	Spectrogram 1	1	123.0	126.0	0	15000	Eastern Kingbird	easkin	0.5675	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_120000.wav	123.0
+7	Spectrogram 1	1	126.0	129.0	0	15000	Eastern Kingbird	easkin	0.2748	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_120000.wav	126.0
+8	Spectrogram 1	1	153.0	156.0	0	15000	Eastern Kingbird	easkin	0.8858	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_120000.wav	153.0
+9	Spectrogram 1	1	162.0	165.0	0	15000	Eastern Kingbird	easkin	0.8037	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_120000.wav	162.0
+10	Spectrogram 1	1	165.0	168.0	0	15000	Eastern Kingbird	easkin	0.7495	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_120000.wav	165.0
+11	Spectrogram 1	1	168.0	171.0	0	15000	Eastern Kingbird	easkin	0.4762	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_120000.wav	168.0
+12	Spectrogram 1	1	171.0	174.0	0	15000	Eastern Kingbird	easkin	0.5461	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_120000.wav	171.0
+13	Spectrogram 1	1	174.0	177.0	0	15000	Eastern Kingbird	easkin	0.8786	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_120000.wav	174.0
+14	Spectrogram 1	1	177.0	180.0	0	15000	Eastern Kingbird	easkin	0.7672	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_120000.wav	177.0
+15	Spectrogram 1	1	180.0	183.0	0	15000	Eastern Kingbird	easkin	0.7624	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_120000.wav	180.0
+16	Spectrogram 1	1	186.0	189.0	0	15000	Eastern Kingbird	easkin	0.4829	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_120000.wav	186.0
+17	Spectrogram 1	1	189.0	192.0	0	15000	Eastern Kingbird	easkin	0.9732	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_120000.wav	189.0
+18	Spectrogram 1	1	192.0	195.0	0	15000	Eastern Kingbird	easkin	0.9310	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_120000.wav	192.0
+19	Spectrogram 1	1	195.0	198.0	0	15000	Eastern Kingbird	easkin	0.9057	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_120000.wav	195.0
+20	Spectrogram 1	1	198.0	201.0	0	15000	Eastern Kingbird	easkin	0.9513	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_120000.wav	198.0
+21	Spectrogram 1	1	210.0	213.0	0	15000	Eastern Kingbird	easkin	0.9752	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_120000.wav	210.0
+22	Spectrogram 1	1	216.0	219.0	0	15000	Dog	dogdog	0.3051	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_120000.wav	216.0
+23	Spectrogram 1	1	300.0	303.0	0	15000	Long-tailed Duck	lotduc	0.3131	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_120000.wav	300.0
+24	Spectrogram 1	1	363.0	366.0	0	15000	Barn Swallow	barswa	0.5361	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_120000.wav	363.0
+25	Spectrogram 1	1	372.0	375.0	0	15000	Fish Crow	fiscro	0.4536	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_120000.wav	372.0
+26	Spectrogram 1	1	498.0	501.0	0	15000	Great Egret	greegr	0.5395	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_120000.wav	498.0
+27	Spectrogram 1	1	507.0	510.0	0	15000	Great Egret	greegr	0.5237	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_120000.wav	507.0
+28	Spectrogram 1	1	624.0	627.0	0	15000	Tundra Swan	tunswa	0.3834	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240818_120000.wav	624.0

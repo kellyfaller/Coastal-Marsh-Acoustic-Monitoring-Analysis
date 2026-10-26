@@ -1,0 +1,4 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	57.0	60.0	0	15000	Herring Gull	hergul	0.6470	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240905_160000.wav	57.0
+2	Spectrogram 1	1	702.0	705.0	0	15000	Agile Meadow Katydid	t-11872394	0.3152	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240905_160000.wav	702.0
+3	Spectrogram 1	1	780.0	783.0	0	15000	Greater Yellowlegs	greyel	0.5500	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240905_160000.wav	780.0

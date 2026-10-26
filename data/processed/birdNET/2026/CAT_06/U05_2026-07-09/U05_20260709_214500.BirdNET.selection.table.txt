@@ -1,0 +1,13 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	324.0	327.0	0	15000	Golden-crowned Kinglet	gockin	0.2605	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_214500.wav	324.0
+2	Spectrogram 1	1	387.0	390.0	0	15000	Osprey	osprey	0.2580	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_214500.wav	387.0
+3	Spectrogram 1	1	390.0	393.0	0	15000	White-breasted Nuthatch	whbnut	0.4773	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_214500.wav	390.0
+4	Spectrogram 1	1	396.0	399.0	0	15000	Osprey	osprey	0.9350	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_214500.wav	396.0
+5	Spectrogram 1	1	411.0	414.0	0	15000	Osprey	osprey	0.2604	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_214500.wav	411.0
+6	Spectrogram 1	1	414.0	417.0	0	15000	Osprey	osprey	0.6322	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_214500.wav	414.0
+7	Spectrogram 1	1	417.0	420.0	0	15000	Osprey	osprey	0.8972	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_214500.wav	417.0
+8	Spectrogram 1	1	516.0	519.0	0	15000	Golden-crowned Kinglet	gockin	0.2835	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_214500.wav	516.0
+9	Spectrogram 1	1	825.0	828.0	0	15000	Golden-crowned Kinglet	gockin	0.2545	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_214500.wav	825.0
+10	Spectrogram 1	1	834.0	837.0	0	15000	Red Crossbill	redcro	0.6286	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_214500.wav	834.0
+11	Spectrogram 1	1	870.0	873.0	0	15000	Red Crossbill	redcro	0.2589	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_214500.wav	870.0
+12	Spectrogram 1	1	879.0	882.0	0	15000	Golden-crowned Kinglet	gockin	0.3192	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-07-09\U05_20260709_214500.wav	879.0

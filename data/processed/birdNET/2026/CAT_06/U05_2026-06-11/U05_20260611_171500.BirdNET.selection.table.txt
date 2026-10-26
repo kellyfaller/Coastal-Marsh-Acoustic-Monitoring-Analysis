@@ -1,0 +1,5 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	204.0	207.0	0	15000	Red-winged Blackbird	rewbla	0.4152	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_171500.wav	204.0
+2	Spectrogram 1	1	678.0	681.0	0	15000	American Oystercatcher	ameoys	0.3902	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_171500.wav	678.0
+3	Spectrogram 1	1	687.0	690.0	0	15000	Osprey	osprey	0.4403	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_171500.wav	687.0
+4	Spectrogram 1	1	831.0	834.0	0	15000	Tree Swallow	treswa	0.3159	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_06\U05_2026-06-11\U05_20260611_171500.wav	831.0

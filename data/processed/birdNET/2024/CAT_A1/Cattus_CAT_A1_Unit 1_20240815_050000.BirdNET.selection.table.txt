@@ -1,0 +1,5 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	144.0	147.0	0	15000	Great Blue Heron	grbher3	0.2955	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240815_050000.wav	144.0
+2	Spectrogram 1	1	147.0	150.0	0	15000	Great Blue Heron	grbher3	0.3522	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240815_050000.wav	147.0
+3	Spectrogram 1	1	345.0	348.0	0	15000	Eastern Towhee	eastow	0.2807	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240815_050000.wav	345.0
+4	Spectrogram 1	1	459.0	462.0	0	15000	Eastern Kingbird	easkin	0.2715	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240815_050000.wav	459.0

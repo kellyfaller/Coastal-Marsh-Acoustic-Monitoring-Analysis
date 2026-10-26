@@ -1,0 +1,4 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	504.0	507.0	0	15000	Dunlin	dunlin	0.2601	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240815_040000.wav	504.0
+2	Spectrogram 1	1	534.0	537.0	0	15000	White-tailed Deer	t-11075702	0.5274	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240815_040000.wav	534.0
+3	Spectrogram 1	1	822.0	825.0	0	15000	White-tailed Deer	t-11075702	0.3461	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240815_040000.wav	822.0

@@ -1,0 +1,8 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	330.0	333.0	0	15000	Golden-crowned Kinglet	gockin	0.2612	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_200000.wav	330.0
+2	Spectrogram 1	1	555.0	558.0	0	15000	Golden-crowned Kinglet	gockin	0.3162	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_200000.wav	555.0
+3	Spectrogram 1	1	609.0	612.0	0	15000	Herring Gull	hergul	0.7311	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_200000.wav	609.0
+4	Spectrogram 1	1	615.0	618.0	0	15000	Herring Gull	hergul	0.5267	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_200000.wav	615.0
+5	Spectrogram 1	1	642.0	645.0	0	15000	Herring Gull	hergul	0.6849	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_200000.wav	642.0
+6	Spectrogram 1	1	684.0	687.0	0	15000	Herring Gull	hergul	0.4913	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_200000.wav	684.0
+7	Spectrogram 1	1	753.0	756.0	0	15000	Herring Gull	hergul	0.8133	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_01 (Mudflat)\LighthouseCenter_LHC_01_Unit4_20240803_200000.wav	753.0

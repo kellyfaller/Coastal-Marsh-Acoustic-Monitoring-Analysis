@@ -1,0 +1,14 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	93.0	96.0	0	15000	Marsh Wren	marwre	0.5323	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240719_030000.wav	93.0
+2	Spectrogram 1	1	309.0	312.0	0	15000	Great Blue Heron	grbher3	0.4320	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240719_030000.wav	309.0
+3	Spectrogram 1	1	489.0	492.0	0	15000	Great Blue Heron	grbher3	0.6961	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240719_030000.wav	489.0
+4	Spectrogram 1	1	492.0	495.0	0	15000	Great Blue Heron	grbher3	0.3774	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240719_030000.wav	492.0
+5	Spectrogram 1	1	495.0	498.0	0	15000	Mute Swan	mutswa	0.2558	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240719_030000.wav	495.0
+6	Spectrogram 1	1	561.0	564.0	0	15000	Marsh Wren	marwre	0.5962	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240719_030000.wav	561.0
+7	Spectrogram 1	1	570.0	573.0	0	15000	Marsh Wren	marwre	0.2724	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240719_030000.wav	570.0
+8	Spectrogram 1	1	594.0	597.0	0	15000	Short-billed Dowitcher	shbdow	0.9189	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240719_030000.wav	594.0
+9	Spectrogram 1	1	621.0	624.0	0	15000	Short-billed Dowitcher	shbdow	0.4524	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240719_030000.wav	621.0
+10	Spectrogram 1	1	630.0	633.0	0	15000	House Wren	houwre	0.2898	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240719_030000.wav	630.0
+11	Spectrogram 1	1	633.0	636.0	0	15000	Short-billed Dowitcher	shbdow	0.3619	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240719_030000.wav	633.0
+12	Spectrogram 1	1	648.0	651.0	0	15000	Marsh Wren	marwre	0.2516	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240719_030000.wav	648.0
+13	Spectrogram 1	1	795.0	798.0	0	15000	Marsh Wren	marwre	0.4714	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240719_030000.wav	795.0

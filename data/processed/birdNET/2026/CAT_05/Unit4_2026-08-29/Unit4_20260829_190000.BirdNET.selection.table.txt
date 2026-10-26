@@ -1,0 +1,11 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	213.0	216.0	0	15000	Laughing Gull	laugul	0.9228	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-29\Unit4_20260829_190000.wav	213.0
+2	Spectrogram 1	1	216.0	219.0	0	15000	Laughing Gull	laugul	0.4125	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-29\Unit4_20260829_190000.wav	216.0
+3	Spectrogram 1	1	327.0	330.0	0	15000	Clapper Rail	clarai11	0.4588	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-29\Unit4_20260829_190000.wav	327.0
+4	Spectrogram 1	1	363.0	366.0	0	15000	Clapper Rail	clarai11	0.2803	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-29\Unit4_20260829_190000.wav	363.0
+5	Spectrogram 1	1	372.0	375.0	0	15000	Common Grackle	comgra	0.4205	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-29\Unit4_20260829_190000.wav	372.0
+6	Spectrogram 1	1	375.0	378.0	0	15000	King Rail	kinrai4	0.4674	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-29\Unit4_20260829_190000.wav	375.0
+7	Spectrogram 1	1	375.0	378.0	0	15000	Clapper Rail	clarai11	0.4389	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-29\Unit4_20260829_190000.wav	375.0
+8	Spectrogram 1	1	507.0	510.0	0	15000	Great Black-backed Gull	gbbgul	0.8134	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-29\Unit4_20260829_190000.wav	507.0
+9	Spectrogram 1	1	540.0	543.0	0	15000	Engine	engine	0.6006	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-29\Unit4_20260829_190000.wav	540.0
+10	Spectrogram 1	1	549.0	552.0	0	15000	Engine	engine	0.2742	D:\Acoustic Data\Masters - Cattus and LHC\2026\CAT_05\Unit4_2026-08-29\Unit4_20260829_190000.wav	549.0

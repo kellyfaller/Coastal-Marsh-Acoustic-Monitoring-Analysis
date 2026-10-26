@@ -1,0 +1,13 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	312.0	315.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.3719	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240804_010000.wav	312.0
+2	Spectrogram 1	1	327.0	330.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.3293	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240804_010000.wav	327.0
+3	Spectrogram 1	1	330.0	333.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.5766	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240804_010000.wav	330.0
+4	Spectrogram 1	1	333.0	336.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.5500	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240804_010000.wav	333.0
+5	Spectrogram 1	1	336.0	339.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.2916	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240804_010000.wav	336.0
+6	Spectrogram 1	1	369.0	372.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.4068	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240804_010000.wav	369.0
+7	Spectrogram 1	1	423.0	426.0	0	15000	Clicker Round-winged Katydid	t-11838680	0.4865	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240804_010000.wav	423.0
+8	Spectrogram 1	1	672.0	675.0	0	15000	Eastern Screech-Owl	easowl1	0.4617	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240804_010000.wav	672.0
+9	Spectrogram 1	1	699.0	702.0	0	15000	Eastern Screech-Owl	easowl1	0.3739	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240804_010000.wav	699.0
+10	Spectrogram 1	1	714.0	717.0	0	15000	Eastern Screech-Owl	easowl1	0.9246	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240804_010000.wav	714.0
+11	Spectrogram 1	1	720.0	723.0	0	15000	Eastern Screech-Owl	easowl1	0.3333	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240804_010000.wav	720.0
+12	Spectrogram 1	1	741.0	744.0	0	15000	Eastern Screech-Owl	easowl1	0.6222	D:\Acoustic Data\Masters - Cattus and LHC\2024\LHC_02 (Southern Marsh)\LighthouseCenter_LHC_02_Unit5_20240804_010000.wav	741.0

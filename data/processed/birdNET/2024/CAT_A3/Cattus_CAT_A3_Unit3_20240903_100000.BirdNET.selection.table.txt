@@ -1,0 +1,13 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	0.0	3.0	0	15000	Belted Kingfisher	belkin1	0.9971	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240903_100000.wav	0.0
+2	Spectrogram 1	1	243.0	246.0	0	15000	Belted Kingfisher	belkin1	0.5661	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240903_100000.wav	243.0
+3	Spectrogram 1	1	279.0	282.0	0	15000	Engine	engine	0.3938	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240903_100000.wav	279.0
+4	Spectrogram 1	1	282.0	285.0	0	15000	Dog	dogdog	0.3560	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240903_100000.wav	282.0
+5	Spectrogram 1	1	282.0	285.0	0	15000	Engine	engine	0.2879	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240903_100000.wav	282.0
+6	Spectrogram 1	1	384.0	387.0	0	15000	Gray Catbird	grycat	0.7372	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240903_100000.wav	384.0
+7	Spectrogram 1	1	402.0	405.0	0	15000	Gray Catbird	grycat	0.5734	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240903_100000.wav	402.0
+8	Spectrogram 1	1	498.0	501.0	0	15000	Belted Kingfisher	belkin1	0.3437	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240903_100000.wav	498.0
+9	Spectrogram 1	1	501.0	504.0	0	15000	Belted Kingfisher	belkin1	0.9431	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240903_100000.wav	501.0
+10	Spectrogram 1	1	636.0	639.0	0	15000	Gray Catbird	grycat	0.3371	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240903_100000.wav	636.0
+11	Spectrogram 1	1	639.0	642.0	0	15000	Gray Catbird	grycat	0.3236	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240903_100000.wav	639.0
+12	Spectrogram 1	1	810.0	813.0	0	15000	Golden-crowned Kinglet	gockin	0.2823	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A3\Cattus_CAT_A3_Unit3_20240903_100000.wav	810.0

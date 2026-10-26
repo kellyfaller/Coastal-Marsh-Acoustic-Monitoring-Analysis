@@ -1,0 +1,87 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)
+1	Spectrogram 1	1	42.0	45.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3979	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	42.0
+2	Spectrogram 1	1	48.0	51.0	0	15000	Tinkling Ground Cricket	t-11843287	0.4558	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	48.0
+3	Spectrogram 1	1	57.0	60.0	0	15000	Osprey	osprey	0.3683	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	57.0
+4	Spectrogram 1	1	63.0	66.0	0	15000	Fish Crow	fiscro	0.3112	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	63.0
+5	Spectrogram 1	1	75.0	78.0	0	15000	Tinkling Ground Cricket	t-11843287	0.5307	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	75.0
+6	Spectrogram 1	1	78.0	81.0	0	15000	Tinkling Ground Cricket	t-11843287	0.2836	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	78.0
+7	Spectrogram 1	1	87.0	90.0	0	15000	Purple Martin	purmar	0.4312	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	87.0
+8	Spectrogram 1	1	87.0	90.0	0	15000	Osprey	osprey	0.2755	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	87.0
+9	Spectrogram 1	1	93.0	96.0	0	15000	Tinkling Ground Cricket	t-11843287	0.2625	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	93.0
+10	Spectrogram 1	1	111.0	114.0	0	15000	Tinkling Ground Cricket	t-11843287	0.2702	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	111.0
+11	Spectrogram 1	1	123.0	126.0	0	15000	Tinkling Ground Cricket	t-11843287	0.4061	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	123.0
+12	Spectrogram 1	1	129.0	132.0	0	15000	Tinkling Ground Cricket	t-11843287	0.2592	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	129.0
+13	Spectrogram 1	1	141.0	144.0	0	15000	Tinkling Ground Cricket	t-11843287	0.7390	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	141.0
+14	Spectrogram 1	1	171.0	174.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3672	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	171.0
+15	Spectrogram 1	1	177.0	180.0	0	15000	Purple Martin	purmar	0.3777	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	177.0
+16	Spectrogram 1	1	189.0	192.0	0	15000	Tinkling Ground Cricket	t-11843287	0.2817	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	189.0
+17	Spectrogram 1	1	192.0	195.0	0	15000	Osprey	osprey	0.2580	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	192.0
+18	Spectrogram 1	1	213.0	216.0	0	15000	Fish Crow	fiscro	0.7453	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	213.0
+19	Spectrogram 1	1	222.0	225.0	0	15000	Fish Crow	fiscro	0.9421	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	222.0
+20	Spectrogram 1	1	228.0	231.0	0	15000	Tinkling Ground Cricket	t-11843287	0.5280	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	228.0
+21	Spectrogram 1	1	231.0	234.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3319	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	231.0
+22	Spectrogram 1	1	243.0	246.0	0	15000	Fish Crow	fiscro	0.7804	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	243.0
+23	Spectrogram 1	1	255.0	258.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3713	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	255.0
+24	Spectrogram 1	1	285.0	288.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3108	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	285.0
+25	Spectrogram 1	1	303.0	306.0	0	15000	Osprey	osprey	0.5003	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	303.0
+26	Spectrogram 1	1	315.0	318.0	0	15000	Osprey	osprey	0.6646	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	315.0
+27	Spectrogram 1	1	318.0	321.0	0	15000	Tinkling Ground Cricket	t-11843287	0.2692	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	318.0
+28	Spectrogram 1	1	321.0	324.0	0	15000	Fish Crow	fiscro	0.9704	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	321.0
+29	Spectrogram 1	1	348.0	351.0	0	15000	Fish Crow	fiscro	0.6075	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	348.0
+30	Spectrogram 1	1	360.0	363.0	0	15000	Fish Crow	fiscro	0.8864	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	360.0
+31	Spectrogram 1	1	363.0	366.0	0	15000	Fish Crow	fiscro	0.8901	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	363.0
+32	Spectrogram 1	1	369.0	372.0	0	15000	Fish Crow	fiscro	0.5059	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	369.0
+33	Spectrogram 1	1	375.0	378.0	0	15000	Fish Crow	fiscro	0.4771	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	375.0
+34	Spectrogram 1	1	375.0	378.0	0	15000	Tinkling Ground Cricket	t-11843287	0.2642	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	375.0
+35	Spectrogram 1	1	390.0	393.0	0	15000	Carolina Wren	carwre	0.3995	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	390.0
+36	Spectrogram 1	1	402.0	405.0	0	15000	Fish Crow	fiscro	0.7329	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	402.0
+37	Spectrogram 1	1	408.0	411.0	0	15000	Fish Crow	fiscro	0.6391	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	408.0
+38	Spectrogram 1	1	420.0	423.0	0	15000	Fish Crow	fiscro	0.6406	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	420.0
+39	Spectrogram 1	1	423.0	426.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3504	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	423.0
+40	Spectrogram 1	1	432.0	435.0	0	15000	Fish Crow	fiscro	0.3772	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	432.0
+41	Spectrogram 1	1	453.0	456.0	0	15000	Fish Crow	fiscro	0.8751	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	453.0
+42	Spectrogram 1	1	459.0	462.0	0	15000	Osprey	osprey	0.6582	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	459.0
+43	Spectrogram 1	1	471.0	474.0	0	15000	Osprey	osprey	0.4001	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	471.0
+44	Spectrogram 1	1	480.0	483.0	0	15000	Seaside Sparrow	seaspa	0.2565	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	480.0
+45	Spectrogram 1	1	492.0	495.0	0	15000	Osprey	osprey	0.7718	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	492.0
+46	Spectrogram 1	1	495.0	498.0	0	15000	Seaside Sparrow	seaspa	0.2545	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	495.0
+47	Spectrogram 1	1	519.0	522.0	0	15000	Red-bellied Woodpecker	rebwoo	0.5406	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	519.0
+48	Spectrogram 1	1	543.0	546.0	0	15000	Wilson's Snipe	wilsni1	0.3203	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	543.0
+49	Spectrogram 1	1	552.0	555.0	0	15000	Tinkling Ground Cricket	t-11843287	0.2687	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	552.0
+50	Spectrogram 1	1	594.0	597.0	0	15000	Tinkling Ground Cricket	t-11843287	0.2693	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	594.0
+51	Spectrogram 1	1	597.0	600.0	0	15000	Tinkling Ground Cricket	t-11843287	0.4898	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	597.0
+52	Spectrogram 1	1	627.0	630.0	0	15000	Fish Crow	fiscro	0.5511	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	627.0
+53	Spectrogram 1	1	630.0	633.0	0	15000	Fish Crow	fiscro	0.2678	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	630.0
+54	Spectrogram 1	1	633.0	636.0	0	15000	Fish Crow	fiscro	0.7336	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	633.0
+55	Spectrogram 1	1	633.0	636.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3835	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	633.0
+56	Spectrogram 1	1	639.0	642.0	0	15000	Tinkling Ground Cricket	t-11843287	0.4013	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	639.0
+57	Spectrogram 1	1	642.0	645.0	0	15000	Tinkling Ground Cricket	t-11843287	0.7725	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	642.0
+58	Spectrogram 1	1	651.0	654.0	0	15000	Tinkling Ground Cricket	t-11843287	0.5650	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	651.0
+59	Spectrogram 1	1	663.0	666.0	0	15000	Carolina Wren	carwre	0.3078	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	663.0
+60	Spectrogram 1	1	666.0	669.0	0	15000	Fish Crow	fiscro	0.5959	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	666.0
+61	Spectrogram 1	1	693.0	696.0	0	15000	Tinkling Ground Cricket	t-11843287	0.5919	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	693.0
+62	Spectrogram 1	1	699.0	702.0	0	15000	Tinkling Ground Cricket	t-11843287	0.4165	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	699.0
+63	Spectrogram 1	1	702.0	705.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3502	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	702.0
+64	Spectrogram 1	1	708.0	711.0	0	15000	Fish Crow	fiscro	0.5965	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	708.0
+65	Spectrogram 1	1	741.0	744.0	0	15000	Carolina Wren	carwre	0.5003	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	741.0
+66	Spectrogram 1	1	747.0	750.0	0	15000	Mourning Dove	moudov	0.2970	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	747.0
+67	Spectrogram 1	1	756.0	759.0	0	15000	Carolina Wren	carwre	0.3267	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	756.0
+68	Spectrogram 1	1	762.0	765.0	0	15000	Carolina Wren	carwre	0.4061	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	762.0
+69	Spectrogram 1	1	765.0	768.0	0	15000	Tinkling Ground Cricket	t-11843287	0.4510	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	765.0
+70	Spectrogram 1	1	780.0	783.0	0	15000	Tinkling Ground Cricket	t-11843287	0.6981	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	780.0
+71	Spectrogram 1	1	789.0	792.0	0	15000	Tinkling Ground Cricket	t-11843287	0.2520	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	789.0
+72	Spectrogram 1	1	792.0	795.0	0	15000	Fish Crow	fiscro	0.2773	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	792.0
+73	Spectrogram 1	1	822.0	825.0	0	15000	Fish Crow	fiscro	0.6424	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	822.0
+74	Spectrogram 1	1	837.0	840.0	0	15000	Tinkling Ground Cricket	t-11843287	0.5324	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	837.0
+75	Spectrogram 1	1	840.0	843.0	0	15000	Carolina Wren	carwre	0.7611	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	840.0
+76	Spectrogram 1	1	843.0	846.0	0	15000	Tinkling Ground Cricket	t-11843287	0.6621	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	843.0
+77	Spectrogram 1	1	864.0	867.0	0	15000	Tinkling Ground Cricket	t-11843287	0.4130	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	864.0
+78	Spectrogram 1	1	870.0	873.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3568	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	870.0
+79	Spectrogram 1	1	873.0	876.0	0	15000	Fish Crow	fiscro	0.7136	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	873.0
+80	Spectrogram 1	1	873.0	876.0	0	15000	Tinkling Ground Cricket	t-11843287	0.6187	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	873.0
+81	Spectrogram 1	1	876.0	879.0	0	15000	Fish Crow	fiscro	0.8518	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	876.0
+82	Spectrogram 1	1	879.0	882.0	0	15000	Tinkling Ground Cricket	t-11843287	0.5195	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	879.0
+83	Spectrogram 1	1	879.0	882.0	0	15000	Fish Crow	fiscro	0.3111	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	879.0
+84	Spectrogram 1	1	882.0	885.0	0	15000	Tinkling Ground Cricket	t-11843287	0.3041	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	882.0
+85	Spectrogram 1	1	894.0	897.0	0	15000	Tinkling Ground Cricket	t-11843287	0.4796	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	894.0
+86	Spectrogram 1	1	897.0	900.0	0	15000	Tinkling Ground Cricket	t-11843287	0.7233	D:\Acoustic Data\Masters - Cattus and LHC\2024\CAT_A1\Cattus_CAT_A1_Unit 1_20240806_100000.wav	897.0

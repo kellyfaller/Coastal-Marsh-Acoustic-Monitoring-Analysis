@@ -37,7 +37,9 @@ standardize_birdnet <- function(dt) {
 }
 
 read_combined_table <- function(path) {
-  dt <- tryCatch(fread(path, encoding = "UTF-8", fill = TRUE),
+  # Set the separator: file paths contain spaces, which fread can mistake for one
+  sep <- if (grepl("\\.csv$", path, ignore.case = TRUE)) "," else "\t"
+  dt <- tryCatch(fread(path, sep = sep, encoding = "UTF-8", fill = TRUE),
                  error = function(e) {
                    warning("Could not read ", path, ": ", conditionMessage(e))
                    NULL
@@ -55,7 +57,7 @@ read_station_folders <- function(root, label = basename(root)) {
 
   per_station <- lapply(stations, function(station) {
     paths <- list.files(file.path(root, station),
-                        pattern = "^BirdNET_CombinedTable",
+                        pattern = "BirdNET_CombinedTable",  # also matches prefixed names like Unit4_CAT_05_2026_BirdNET_CombinedTable.csv
                         full.names = TRUE, recursive = TRUE, ignore.case = TRUE)
     if (length(paths) == 0) {
       warning("No BirdNET_CombinedTable found for ", station, " (", label, ")")

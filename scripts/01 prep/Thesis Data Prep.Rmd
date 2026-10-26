@@ -1,0 +1,267 @@
+---
+title: "Thesis Data Prep: Point Counts, Arbimon and BirdNET"
+author: "Kelly Faller"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+library(ggplot2)
+library(knitr)
+library(kableExtra)
+source(here::here("R", "thesis_functions.R"))
+cfg <- load_thesis_config()
+```
+
+This notebook pulls together the three data streams used in all three thesis chapters and saves them in one standard format, so the chapter notebooks don't each have to re-read and re-clean raw files.
+
+| Data stream | What it is | Unit |
+|---|---|---|
+| Point counts | SHARP point counts, 2 visits per point per season | point x visit |
+| Arbimon | Full project backup: recordings, sites, species, pattern matching ROIs, manual validations, random forest classifications | 1-minute recording |
+| BirdNET | BirdNET-Analyzer combined tables (stock classifier now, fine-tuned classifier later) | 3-second window |
+
+Everything is joined on **station** (ARU location, e.g. CAT_A1), **local date-time** (America/New_York, the time in the recorder file names) and **species** (scientific name, with a 4-letter alpha code to match the point counts). Settings live in `configs/thesis_framework.yml`. Nothing here changes the point count notebook or its outputs.
+
+# Point counts and ARU locations
+
+```{r Point Counts}
+pc <- read_point_counts_thesis(cfg)
+
+pc %>%
+  dplyr::group_by(Site, Year) %>%
+  dplyr::summarise(Points = dplyr::n_distinct(Point_ID), Surveys = dplyr::n_distinct(paste(Point_ID, VisitNum)),
+                   Species = dplyr::n_distinct(AlphaCode), .groups = "drop") %>%
+  kbl_simple("Point count effort")
+```
+
+Each ARU deployment is paired with the nearest point count point. Pairs farther apart than `pc_match_distance_m` (`r cfg$params$pc_match_distance_m` m) are flagged: they can still be compared at the site level but not point-for-point.
+
+```{r ARU Pairing}
+aru_pairs <- match_aru_to_points(cfg, pc)
+
+aru_pairs %>%
+  dplyr::select(Year, Site, station, unit, date_deployed, nearest_point, distance_m, paired) %>%
+  kbl_simple("ARU deployments and their nearest point count point") %>%
+  kableExtra::row_spec(which(!aru_pairs$paired), background = "#FDE0EF")
+
+# deployments whose coordinates put them at the wrong site are almost always a typo in the metadata
+far <- aru_pairs %>% dplyr::filter(distance_m > 5000)
+if (nrow(far)) todo_note("check the coordinates for ", paste(far$station, far$Year, collapse = ", "),
+                         " in ", basename(cfg$paths$aru_metadata), " - they are more than 5 km from any point at their site.")
+```
+
+# Arbimon backup
+
+The backup is a set of related tables (like a database). Recordings link to sites by `site_id`; pattern matching ROIs and manual validations link to recordings by `recording_id` and to species by `species_id` + `songtype_id`; ROIs link to their pattern matching job by `pattern_matching_id`.
+
+```{r Arbimon, results="asis"}
+arb <- list()
+if (dir.exists(cfg$paths$arbimon_backup_dir)) {
+  bk <- read_arbimon_backup(cfg$paths$arbimon_backup_dir)
+  arb <- arbimon_tables(bk, cfg)
+  cat("Tables found:", paste(names(bk), collapse = ", "), "\n\n")
+} else {
+  todo_note("unzip the Arbimon backup into ", cfg$paths$arbimon_backup_dir, " (or change arbimon_backup_dir in the YAML).")
+}
+```
+
+```{r Arbimon Summaries}
+if (!is.null(arb$recordings)) {
+  arb$recordings %>%
+    dplyr::left_join(arb$sites, by = "site_id") %>%
+    dplyr::mutate(Year = lubridate::year(datetime_local)) %>%
+    dplyr::group_by(station, Year) %>%
+    dplyr::summarise(Recordings = dplyr::n(), Days = dplyr::n_distinct(as.Date(datetime_local)),
+                     First = min(datetime_local), Last = max(datetime_local), .groups = "drop") %>%
+    kbl_simple("Arbimon recording effort (1-minute recordings)")
+}
+
+if (!is.null(arb$pm_rois)) {
+  arb$pm_rois %>%
+    dplyr::group_by(pattern_matching_id, pm_name, template_name, scientific_name, pm_threshold) %>%
+    dplyr::summarise(ROIs = dplyr::n(), Present = sum(status == "present"), Absent = sum(status == "absent"),
+                     Unreviewed = sum(status == "unreviewed"), Stations = dplyr::n_distinct(station),
+                     `Median score` = median(score), .groups = "drop") %>%
+    dplyr::arrange(scientific_name) %>%
+    kbl_simple(paste0("Pattern matching jobs (validated = 0 is treated as '", cfg$params$arbimon_pm_zero_means, "')"))
+}
+
+if (!is.null(arb$validations)) {
+  arb$validations %>%
+    dplyr::group_by(scientific_name) %>%
+    dplyr::summarise(Validations = dplyr::n(), Present = sum(present == 1, na.rm = TRUE),
+                     Absent = sum(present == 0, na.rm = TRUE), Stations = dplyr::n_distinct(station), .groups = "drop") %>%
+    kbl_simple("Manual recording validations")
+}
+
+if (!is.null(arb$rfm)) {
+  arb$rfm %>%
+    dplyr::group_by(job_name, model_name, scientific_name) %>%
+    dplyr::summarise(Recordings = dplyr::n(), `Predicted present` = sum(rfm_score == 1, na.rm = TRUE),
+                     Stations = dplyr::n_distinct(station), .groups = "drop") %>%
+    kbl_simple("Random forest model classifications")
+}
+```
+
+# BirdNET
+
+```{r BirdNET, results="asis"}
+bn <- read_birdnet_tables(cfg$paths$birdnet_tables, cfg, source = "BirdNET")
+if (is.null(bn)) {
+  todo_note("put BirdNET-Analyzer combined tables in ", paste(cfg$paths$birdnet_tables, collapse = ", "), ".")
+} else {
+  bad <- bn %>% dplyr::filter(is.na(station) | is.na(file_start)) %>% dplyr::distinct(file)
+  if (nrow(bad)) todo_note(nrow(bad), " BirdNET source files don't follow the Site_Station_UnitN_YYYYMMDD_HHMMSS naming, so they have no station/time: ",
+                           paste(head(basename(gsub("\\\\", "/", bad$file)), 5), collapse = ", "))
+}
+```
+
+```{r BirdNET Summaries, fig.height=7, fig.width=12, results="asis"}
+if (!is.null(bn)) {
+  bn_effort <- bn %>%
+    dplyr::group_by(station, Year) %>%
+    dplyr::summarise(Files = dplyr::n_distinct(file), Detections = dplyr::n(),
+                     `Bird detections` = sum(is_bird), Species = dplyr::n_distinct(scientific_name[is_bird]), .groups = "drop")
+  print(kbl_simple(bn_effort, paste("BirdNET detections (confidence >=", cfg$params$birdnet_min_confidence, ")")))
+
+  non_birds <- bn %>% dplyr::filter(!is_bird) %>% dplyr::count(common_name, name = "Detections", sort = TRUE)
+  print(kbl_simple(head(non_birds, 15), "Labels treated as non-birds (excluded from species analyses)"))
+
+  top_bn <- bn %>%
+    dplyr::filter(is_bird) %>%
+    dplyr::mutate(above = confidence >= birdnet_threshold(scientific_name, cfg)) %>%
+    dplyr::count(common_name, above) %>%
+    dplyr::group_by(common_name) %>% dplyr::mutate(total = sum(n)) %>% dplyr::ungroup() %>%
+    dplyr::slice_max(total, n = 50, with_ties = FALSE)
+  print(ggplot(top_bn, aes(x = n, y = reorder(common_name, total), fill = above)) +
+          geom_col() +
+          scale_fill_manual(values = c(`TRUE` = "#2166AC", `FALSE` = "#BDBDBD"),
+                            labels = c(`TRUE` = "Above presence threshold", `FALSE` = "Below threshold")) +
+          labs(title = "Most frequent BirdNET bird labels", x = "Detections", y = NULL, fill = NULL) +
+          theme_minimal(base_size = 13) + theme(legend.position = "bottom"))
+}
+```
+
+Note: BirdNET combined tables only list files that had at least one detection, so they can't tell us which hours were recorded with nothing detected. Recording effort comes from the Arbimon recordings table (every uploaded minute), which is why both sources are joined by station and minute.
+
+# Species crosswalk
+
+Point counts use 4-letter alpha codes, BirdNET uses scientific + common names, and Arbimon uses scientific names (sometimes with subspecies). The crosswalk links them all through the scientific name. Alpha codes are generated from common names with the standard banding-code rule plus the overrides in the YAML; the table below lists point count codes that still don't match, which need an override.
+
+```{r Crosswalk, results="asis"}
+extra_names <- dplyr::bind_rows(
+  if (!is.null(bn)) dplyr::distinct(bn %>% dplyr::filter(is_bird), scientific_name, common_name),
+  if (!is.null(arb$species)) tibble::tibble(scientific_name = arb$species$scientific_name, common_name = NA_character_))
+crosswalk <- build_species_crosswalk(cfg, extra = extra_names)
+
+unmatched_pc <- pc %>%
+  dplyr::distinct(AlphaCode) %>%
+  dplyr::filter(!AlphaCode %in% crosswalk$alpha_code, !grepl("^UN|nident", AlphaCode))
+print(kbl_simple(unmatched_pc, "Point count codes with no scientific name in the crosswalk (add an override in the YAML)"))
+
+no_code <- crosswalk %>% dplyr::filter(is.na(alpha_code), scientific_name %in% c(arb$species$scientific_name))
+if (nrow(no_code)) print(kbl_simple(no_code, "Arbimon species without a common name / alpha code"))
+```
+
+# One detection table for all methods
+
+Every detection from every method in one long table, with `method`, `station` (ARU station or point count point), local `time`, `scientific_name` and `alpha_code`. Arbimon pattern matching ROIs are only kept if they were validated as present; BirdNET detections keep their confidence score so presence thresholds can be changed later.
+
+```{r Combine}
+add_names <- function(df) df %>% dplyr::left_join(crosswalk %>% dplyr::select(scientific_name, alpha_code), by = "scientific_name")
+
+detections <- dplyr::bind_rows(
+  pc %>%
+    dplyr::filter(TotalCount > 0) %>%
+    dplyr::left_join(crosswalk %>% dplyr::filter(!is.na(alpha_code)) %>% dplyr::distinct(alpha_code, .keep_all = TRUE) %>%
+                       dplyr::select(alpha_code, scientific_name), by = c("AlphaCode" = "alpha_code")) %>%
+    dplyr::transmute(method = "Point count", Site, station = Point_ID, Year, time = Datetime, visit = VisitNum,
+                     scientific_name, alpha_code = AlphaCode, score = NA_real_, count = TotalCount, dist_band = DistBand),
+  if (!is.null(bn)) bn %>% dplyr::filter(is_bird) %>% add_names() %>%
+    dplyr::transmute(method = "BirdNET", station, Year, time = detection_time, minute, scientific_name, alpha_code,
+                     score = confidence, above_threshold = confidence >= birdnet_threshold(scientific_name, cfg)),
+  if (!is.null(arb$pm_rois)) arb$pm_rois %>% dplyr::filter(status == "present") %>% add_names() %>%
+    dplyr::transmute(method = "Arbimon PM", station, Year = lubridate::year(detection_time), time = detection_time,
+                     minute = lubridate::floor_date(datetime_local, "minute"), scientific_name, alpha_code, score,
+                     above_threshold = TRUE, recording_id),
+  if (!is.null(arb$validations)) arb$validations %>% dplyr::filter(present == 1) %>% add_names() %>%
+    dplyr::transmute(method = "Arbimon manual", station, Year = lubridate::year(datetime_local), time = datetime_local,
+                     minute = lubridate::floor_date(datetime_local, "minute"), scientific_name, alpha_code,
+                     above_threshold = TRUE, recording_id)) %>%
+  dplyr::left_join(aru_pairs %>% dplyr::select(Year, station, aru_site = Site, nearest_point, distance_m, paired),
+                   by = c("Year", "station")) %>%
+  dplyr::mutate(Site = dplyr::coalesce(Site, aru_site),
+                date = as.Date(time, tz = cfg$params$timezone),
+                in_season = in_season(date, cfg),
+                diel = diel_period(time, cfg)) %>%
+  dplyr::select(-aru_site)
+
+detections %>%
+  dplyr::count(method, Year, name = "Detections") %>%
+  kbl_simple("Detections by method and year")
+```
+
+# Validation set (shared by Chapters 2 and 3)
+
+Chapters 2 and 3 compare classifiers on the **same** labelled set of 1-minute recordings, so it is built once here. If `validation_set.csv` doesn't exist yet, a starting version is written from everything already validated in Arbimon (pattern matching ROIs marked present/absent and manual recording validations). Add your own reviewed minutes (from listening to BirdNET detections, Raven annotations, etc.) to the same file. Columns:
+
+- `station`, `minute` (local time, start of the 1-minute recording), `recording_id` (Arbimon, if known)
+- `scientific_name`, `truth` (1 = species present in that minute, 0 = reviewed and absent)
+- `label_source` (e.g. Arbimon PM validation, Arbimon manual, listening review), `reviewer`, `notes`
+- `split`: `train` or `test`. Test minutes are never used to build or tune a classifier. Splits are made by recording **day and station** so near-identical clips from the same morning can't end up on both sides.
+
+```{r Validation Set}
+if (file.exists(cfg$paths$validation_set)) {
+  validation <- read_csv_text(cfg$paths$validation_set) %>%
+    dplyr::mutate(minute = lubridate::ymd_hms(minute, tz = cfg$params$timezone), truth = as.integer(truth))
+} else {
+  seeds <- dplyr::bind_rows(
+    if (!is.null(arb$pm_rois)) arb$pm_rois %>% dplyr::filter(status %in% c("present", "absent")) %>%
+      dplyr::transmute(station, minute = lubridate::floor_date(datetime_local, "minute"), recording_id, scientific_name,
+                       truth = as.integer(status == "present"), label_source = "Arbimon PM validation"),
+    if (!is.null(arb$validations)) arb$validations %>% dplyr::filter(!is.na(present)) %>%
+      dplyr::transmute(station, minute = lubridate::floor_date(datetime_local, "minute"), recording_id, scientific_name,
+                       truth = present, label_source = "Arbimon manual validation")) %>%
+    dplyr::group_by(station, minute, recording_id, scientific_name) %>%
+    dplyr::summarise(truth = max(truth), label_source = paste(unique(label_source), collapse = "; "), .groups = "drop")
+  validation <- seeds
+  if (nrow(validation)) {
+    set.seed(2026)
+    blocks <- validation %>% dplyr::distinct(station, day = as.Date(minute, tz = cfg$params$timezone)) %>%
+      dplyr::mutate(split = ifelse(runif(dplyr::n()) < cfg$params$validation_fraction, "test", "train"))
+    validation <- validation %>%
+      dplyr::mutate(day = as.Date(minute, tz = cfg$params$timezone)) %>%
+      dplyr::left_join(blocks, by = c("station", "day")) %>%
+      dplyr::select(-day) %>%
+      dplyr::mutate(reviewer = NA_character_, notes = NA_character_)
+    dir.create(dirname(cfg$paths$validation_set), recursive = TRUE, showWarnings = FALSE)
+    readr::write_csv(validation %>% dplyr::mutate(minute = format(minute, "%Y-%m-%d %H:%M:%S")), cfg$paths$validation_set)
+  }
+}
+
+if (nrow(validation)) {
+  validation %>%
+    dplyr::group_by(scientific_name, split) %>%
+    dplyr::summarise(Minutes = dplyr::n(), Present = sum(truth == 1), Absent = sum(truth == 0), .groups = "drop") %>%
+    kbl_simple("Validation set")
+} else {
+  todo_note("no validated minutes yet. Validate pattern matching results in Arbimon or add reviewed minutes to ", cfg$paths$validation_set, ".")
+}
+```
+
+# Save
+
+```{r Save}
+thesis_data <- list(
+  created = Sys.time(), pc = pc, aru_pairs = aru_pairs, crosswalk = crosswalk,
+  arbimon = arb[setdiff(names(arb), c("playlists", "playlist_recordings"))],
+  birdnet = bn, detections = detections, validation = validation)
+saveRDS(thesis_data, file.path(cfg$outputs$processed_dir, "thesis_data.rds"))
+```
+
+Saved to `r file.path(cfg$outputs$processed_dir, "thesis_data.rds")`. The chapter notebooks in `scripts/03 thesis chapters/` start by reading this file.

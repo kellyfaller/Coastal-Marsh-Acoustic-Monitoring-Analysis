@@ -3,37 +3,168 @@ title: "BirdNET Outputs Data Prep"
 author: "Kelly Faller"
 date: '2023-06-08'
 output: html_document
+# >>> Edit these params; the rest of the script should run without changes <<<
+params:
+  # Folder with BirdNET-Analyzer outputs. Searched recursively, so it can be the top folder with year/station subfolders.
+  # Both per-recording files (*.BirdNET.results.csv) and combined tables (BirdNET_CombinedTable.csv) are read.
+  input_dir: "C:/Users/kelly/Documents/Master's Project Files/02_data_processed/birdNET"
+  input_pattern: "(BirdNET\\.results|CombinedTable)\\.csv$"
+  # Relative paths are inside this repository; full paths (C:/...) also work.
+  metadata: "data/metadata/LHC-Cattus_ARU_Site_Metadata.csv"
+  individual_dir: "data/processed/birdNET/individual"     # one processed file per station and year
+  combined_out: "data/processed/birdNET/birdNET_results.csv"
+  tz: "America/New_York"          # recorder clocks / file names are local time
+  min_confidence: 0               # drop detections below this confidence (0 = keep everything BirdNET wrote)
 ---
 
-
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 ```
 
 ## Load Packages
 
-
 ```{r, warning=FALSE, include=FALSE}
 library(tidyverse)
 library(lubridate)
-library(bit64)
-library(magrittr)
-library(plyr)
-library(readr)
 library(data.table)
-library(chron)
 ```
 
 ## Create one CSV
 
-Taking the folder full of individual CSV files for each output file (in BirdNET, there is one for every recording) and creating one master CSV
+Taking the folder full of BirdNET output files (in BirdNET, there is one for every recording, or one combined table) and creating one master CSV. Every station and year in the input folder is processed in one go: the station, recorder unit and start time come from each recording's file name (e.g. `Cattus_CAT_A1_Unit 1_20240713_230000.wav`), and site, station and coordinates come from the ARU site metadata.
 
-Changing the working directory back to my personal wd that connects with GitHub
-
-Working directory set up - location where the CSV's will be held. This will change every time you run the script. Currently it is referencing my working ARU external
-harddrive. I have it broken down by station, deployment, and day
+```{r paths, include=FALSE}
+in_repo <- function(p) if (fs::is_absolute_path(p)) p else here::here(p)
+if (!dir.exists(params$input_dir)) stop("input_dir doesn't exist: ", params$input_dir, "\nChange input_dir in the YAML header.")
+```
 
 ```{r CSV Binding, include=FALSE}
+all_paths <- list.files(path = params$input_dir, pattern = params$input_pattern, full.names = TRUE, recursive = TRUE)
+if (!length(all_paths)) stop("No BirdNET output files matching '", params$input_pattern, "' in ", params$input_dir)
+
+read_birdnet_file <- function(p) {
+  x <- tryCatch(fread(p, encoding = "UTF-8", data.table = FALSE, colClasses = "character"), error = function(e) NULL)
+  if (is.null(x) || nrow(x) == 0) return(NULL)
+  # standard names from BirdNET's headers ("Start (s)", "Scientific name", ...); fall back to column order
+  std <- c("Start_s", "End_s", "Scientific_Name", "Common_Name", "Confidence", "File")
+  key <- tolower(gsub("[^a-z]", "", tolower(names(x))))
+  map <- c(starts = "Start_s", ends = "End_s", scientificname = "Scientific_Name", commonname = "Common_Name",
+           confidence = "Confidence", file = "File", filepath = "File")
+  hit <- key %in% names(map)
+  names(x)[hit] <- map[key[hit]]
+  if (!all(std[1:5] %in% names(x)) && ncol(x) >= 5) names(x)[1:min(6, ncol(x))] <- std[1:min(6, ncol(x))]
+  # per-recording outputs may not have a File column: the recording is in the results file name
+  if (!"File" %in% names(x)) x$File <- sub("\\.BirdNET\\.results\\.csv$", ".wav", basename(p))
+  x$Source_Table <- p
+  x[, intersect(c(std, "Source_Table"), names(x))]
+}
+
+all_result <- rbindlist(lapply(all_paths, read_birdnet_file), fill = TRUE) %>%
+  as.data.frame() %>%
+  mutate(Start_s = as.numeric(Start_s), End_s = as.numeric(End_s), Confidence = as.numeric(Confidence)) %>%
+  filter(!is.na(Start_s), Confidence >= params$min_confidence)   # drop any non-detection rows
+
+# The same detection can appear in a per-recording file and in a combined table; keep it once
+all_result <- distinct(all_result, File, Start_s, End_s, Scientific_Name, .keep_all = TRUE)
+```
+
+## Parse file names and join site metadata
+
+```{r Parse, include=FALSE}
+# ---- Parse metadata from filename (robust to old 3/4-part stems and current 6-part stems) ----
+# current: Cattus_CAT_A1_Unit 1_20240713_230000  (site, station, unit, date, time)
+# older:   Unit1_20240630_150000 or LHC_20240630_150000 (detector, date, time)
+parse_birdnet_stem <- function(stem) {
+  parts <- unlist(strsplit(stem, "_", fixed = TRUE))
+  n <- length(parts)
+  u <- grep("^Unit ?\\d+$", parts)
+  data.frame(
+    File_Site   = if (n >= 5) parts[1] else NA_character_,
+    Station_ID  = if (length(u) && u[1] >= 3) paste(parts[u[1] - 2], parts[u[1] - 1], sep = "_") else NA_character_,
+    Detector_ID = if (length(u)) gsub(" ", "", parts[u[1]]) else if (n >= 3) parts[n - 2] else NA_character_,   # "Unit 1" -> "Unit1"
+    Date_chr    = if (n >= 2) parts[n - 1] else NA_character_,
+    Time_chr    = if (n >= 1) substr(parts[n], 1, 6) else NA_character_,
+    stringsAsFactors = FALSE)
+}
+
+files <- tibble(File = unique(all_result$File)) %>%
+  mutate(File_Name = basename(gsub("\\\\", "/", File)),          # Windows paths
+         Audio_Stem = sub("\\.(wav|flac|mp3)$", "", File_Name, ignore.case = TRUE))
+files <- bind_cols(files, bind_rows(lapply(files$Audio_Stem, parse_birdnet_stem))) %>%
+  mutate(File_Start = ymd_hms(paste(Date_chr, Time_chr), tz = params$tz, quiet = TRUE),
+         Year = year(File_Start))
+
+# ---- Metadata join: by year + station when the file name has the station, otherwise year + recorder unit ----
+metadata <- fread(in_repo(params$metadata), encoding = "UTF-8", data.table = FALSE)
+names(metadata) <- tolower(gsub("^\ufeff", "", names(metadata)))   # strip the byte-order mark Excel adds; columns are lower case
+metadata <- metadata %>%
+  transmute(Year = as.integer(year), Unit = gsub(" ", "", trimws(unit)),
+            Site = trimws(site), Station = trimws(station), Lat = as.numeric(lat), Long = as.numeric(long),
+            Deployed = mdy(date_deployed, quiet = TRUE))
+
+files <- files %>%
+  left_join(metadata %>% select(Year, Station, Site_by_station = Site, Lat_s = Lat, Long_s = Long, Unit_meta = Unit),
+            by = c("Year", "Station_ID" = "Station")) %>%
+  left_join(metadata %>% select(Year, Unit, Station_by_unit = Station, Site_by_unit = Site, Lat_u = Lat, Long_u = Long),
+            by = c("Year", "Detector_ID" = "Unit")) %>%
+  mutate(Station = coalesce(Station_ID, Station_by_unit),
+         Site = coalesce(Site_by_station, Site_by_unit),
+         Lat = coalesce(Lat_s, Lat_u), Long = coalesce(Long_s, Long_u),
+         # the file name and the metadata disagree about which unit was at this station
+         Unit_mismatch = !is.na(Station_ID) & !is.na(Unit_meta) & Detector_ID != Unit_meta) %>%
+  select(File, File_Name, Detector_ID, Time = Time_chr, File_Start, Year, Site, Station, Lat, Long, Unit_mismatch)
+
+species_data <- all_result %>%
+  left_join(files, by = "File") %>%
+  mutate(Detection_Time = File_Start + Start_s,
+         # same formats as before so 03-BirdNET-Analysis.Rmd reads them unchanged (mdy / mdy_hm)
+         Date = format(as.Date(Detection_Time, tz = params$tz), "%m/%d/%Y"),
+         DateTime = format(Detection_Time, "%m/%d/%Y %H:%M"),
+         Detection_Time = format(Detection_Time, "%Y-%m-%dT%H:%M:%S%z")) %>%
+  select(Start_s, End_s, Scientific_Name, Common_Name, Confidence, File, File_Name, Time, Detector_ID, Date, Year,
+         DateTime, Site, Station, Lat, Long, Detection_Time, Source_Table)
+```
+
+## Checks
+
+```{r Checks, echo=FALSE}
+species_data %>%
+  group_by(Station, Year) %>%
+  summarise(Files = n_distinct(File), Detections = n(), First = min(Date), Last = max(Date), .groups = "drop") %>%
+  knitr::kable(caption = "Detections by station and year")
+
+problems <- files %>%
+  summarise(`File names that couldn't be parsed` = sum(is.na(File_Start)),
+            `Files with no matching ARU metadata` = sum(is.na(Station) | is.na(Site)),
+            `Unit in file name differs from metadata` = sum(Unit_mismatch, na.rm = TRUE))
+knitr::kable(problems, caption = "File checks (all should be 0)")
+
+bad <- files %>% filter(is.na(File_Start) | is.na(Station) | is.na(Site) | Unit_mismatch)
+if (nrow(bad)) knitr::kable(head(bad %>% select(File_Name, Detector_ID, Year, Station, Site), 20), caption = "Files to check (first 20)")
+```
+
+## Write
+
+One processed file per station and year (`STATION_YEAR_BirdNET_processed.csv`) and the combined `birdNET_results.csv` used by the analysis scripts. Note `DateTime` is now the time of the detection itself (file start + offset), not the start of the hourly file.
+
+```{r Write, include=FALSE}
+ind_dir <- in_repo(params$individual_dir)
+dir.create(ind_dir, recursive = TRUE, showWarnings = FALSE)
+for (grp in split(species_data, list(species_data$Station, species_data$Year), drop = TRUE)) {
+  fwrite(grp, file.path(ind_dir, sprintf("%s_%s_BirdNET_processed.csv", grp$Station[1], grp$Year[1])))
+}
+
+dir.create(dirname(in_repo(params$combined_out)), recursive = TRUE, showWarnings = FALSE)
+fwrite(species_data, in_repo(params$combined_out))
+```
+
+Wrote `r format(nrow(species_data), big.mark = ",")` detections from `r n_distinct(species_data$File)` recordings.
+
+## Previous versions
+
+Kept for reference and turned off (`eval=FALSE`). They processed one station at a time from hard-coded paths and joined metadata with capitalised column names (`Year`, `Unit`, `Lat`) that the current metadata file no longer has, so they stop with an error if run.
+
+```{r CSV Binding old, include=FALSE, eval=FALSE}
 root <- "C:/Users/kelly/Documents/Master's Project Files/02_data_processed/birdNET/2024/LHC_01"
 
 all_paths <- list.files(
@@ -98,219 +229,26 @@ write.csv(
   "C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/data/processed/birdNET/individual/LHC_01_2024_BirdNET_processed.csv",
   row.names = FALSE
 )
-
 ```
 
-rebuild
-```{r rebuilt, include=FALSE}
-# Replace your entire script with this (robust + adds a stable filename column)
-# Libraries
-
-
-root <- "C:/Users/kelly/Documents/Master's Project Files/02_data_processed/birdNET/2024/LHC_01"
-
-all_paths <- list.files(
-  path = root,
-  pattern = "BirdNET\\.results\\.csv$",
-  full.names = TRUE,
-  recursive = TRUE
-)
-
-all_content <- lapply(all_paths, function(p) {
-  x <- tryCatch(
-    fread(p, encoding = "UTF-8", data.table = FALSE),
-    error = function(e) NULL
-  )
-  if (is.null(x) || nrow(x) == 0) return(NULL)
-  x
-})
-all_content <- Filter(Negate(is.null), all_content)
-
-all_result <- rbindlist(all_content, fill = TRUE)
-
-# Rename the first 6 columns by position (Start/End/Scientific/Common/Confidence/FilePath)
-all_result <- as.data.frame(all_result)
-if (ncol(all_result) >= 6) {
-  names(all_result)[1:6] <- c(
-    "Start_s", "End_s", "Scientific_Name", "Common_Name", "Confidence", "File"
-  )
-}
-
-# Drop any non-detection rows if present
-all_result <- all_result %>% filter(!is.na(Start_s))
-
-# ---- Parse metadata from filename (robust to 3/4/6-part stems) ----
-parse_birdnet_stem <- function(stem) {
-  parts <- unlist(strsplit(stem, "_", fixed = TRUE))
-  n <- length(parts)
-
-  # defaults
-  out <- list(
-    File_Site   = NA_character_,
-    Detector_ID = NA_character_,  # e.g., LHC_01
-    Unit        = NA_character_,  # e.g., Unit4 (often what metadata uses)
-    Date_chr    = NA_character_,
-    Time_chr    = NA_character_
-  )
-
-  if (n == 3) {
-    # old: detector_date_time
-    out$Detector_ID <- parts[1]
-    out$Date_chr    <- parts[2]
-    out$Time_chr    <- parts[3]
-  } else if (n == 4) {
-    # new simple: site_detector_date_time
-    out$File_Site   <- parts[1]
-    out$Detector_ID <- parts[2]
-    out$Date_chr    <- parts[3]
-    out$Time_chr    <- parts[4]
-  } else if (n >= 6) {
-    # current: LighthouseCenter_LHC_01_Unit4_YYYYMMDD_HHMMSS
-    # Take last two as date/time, token before date as Unit, first token as site.
-    out$File_Site <- parts[1]
-    out$Unit      <- parts[n - 2]
-    out$Date_chr  <- parts[n - 1]
-    out$Time_chr  <- parts[n]
-
-    # Detector_ID as the middle tokens excluding [site] and [unit/date/time]
-    # For your example this becomes LHC_01
-    middle <- parts[2:(n - 3)]
-    out$Detector_ID <- paste(middle, collapse = "_")
-  } else {
-    # fallback: at least try last two as date/time if present
-    if (n >= 2) {
-      out$Date_chr <- parts[n - 1]
-      out$Time_chr <- parts[n]
-    }
-    if (n >= 1) out$Detector_ID <- parts[1]
-  }
-
-  as.data.frame(out, stringsAsFactors = FALSE)
-}
-
-species_data <- all_result %>%
-  mutate(
-    Audio_File = basename(as.character(File)),
-    Audio_Stem = sub("\\.wav$", "", Audio_File, ignore.case = TRUE)
-  )
-
-parsed_df <- do.call(
-  rbind,
-  lapply(species_data$Audio_Stem, parse_birdnet_stem)
-)
-
-species_data <- bind_cols(species_data, parsed_df) %>%
-  mutate(
-    Time_chr = substr(Time_chr, 1, 6),
-    Date = ymd(Date_chr),
-    Year = year(Date),
-    DateTime = ymd_hms(paste(Date_chr, Time_chr), tz = "UTC")
-  )
-
-# ---- Metadata join (Year + Unit) ----
-meta_path <- "C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/data/metadata/LHC-Cattus_ARU_Site_Metadata.csv"
-metadata <- fread(meta_path, encoding = "UTF-8", data.table = FALSE)
-
-metadata <- metadata %>%
-  mutate(
-    Year = as.integer(Year),
-    Unit = trimws(as.character(Unit))
-  ) %>%
-  dplyr::rename(Meta_Site = Site)   # prevent Site.x / Site.y collisions
-
-species_data <- species_data %>%
-  mutate(
-    Year = as.integer(Year),
-    Unit = trimws(as.character(Unit)),
-    Detector_ID = trimws(as.character(Detector_ID))
-  ) %>%
-  left_join(
-    metadata %>% select(Year, Unit, Meta_Site, Station, Lat, Long),
-    by = c("Year" = "Year", "Unit" = "Unit")
-  )
-
-write.csv(
-  species_data,
-  "C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/data/processed/birdNET/individual/LHC_01_2024_BirdNET_processed.csv",
-  row.names = FALSE
-)
-
-
-```
-
-## Create final CSV
-
-Combining the CSVs created from above chunk and create a final working CSV for graphics
-
-```{r CSV Binding2, include=FALSE}
-
+```{r CSV Binding2 old, include=FALSE, eval=FALSE}
 # read file path
 all_paths <-
   list.files(path = "C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/data/processed/birdNET/individual/",
-             pattern = "*.csv",
+             pattern = "\\.csv$",
              full.names = TRUE)
 
-# read file content
-all_content <-
-  all_paths %>%
-  lapply(read.table,
-         header = TRUE,
-         sep = ",",
-         encoding = "UTF-8")
-
-# read file name
-all_filenames <- all_paths %>%
-  basename() %>%
-  as.list()
-
-# combine file content list and file name list
-all_lists <- mapply(c, all_content, all_filenames, SIMPLIFY = FALSE)
-
-# unlist all lists and change column name
-all_result <- rbindlist(all_lists, fill = T)
-
-
-write.csv(all_result,"C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/data/processed/birdNET/birdNET_results.csv", row.names = FALSE)  
-
-```
-
-rebuilding
-
-```{r CSV Binding rebuilt, include=FALSE}
-
-# Replace your entire script with this (robust + adds a stable filename column)
-
-library(data.table)
-
-# 1) List CSV files (use a proper regex for .csv)
-all_paths <- list.files(
-  path = "C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/data/processed/birdNET/individual/",
-  pattern = "\\.csv$",
-  full.names = TRUE
-)
-
-# 2) Read each CSV robustly, and add a consistent source_file column
 all_result <- rbindlist(
   lapply(all_paths, function(p) {
-    dt <- fread(
-      p,
-      encoding = "UTF-8"
-      # If you suspect messy quotes, you can try either of these:
-      # , quote = "\""
-      # , fill = TRUE
-    )
+    dt <- fread(p, encoding = "UTF-8")
     dt[, source_file := basename(p)]
     dt
   }),
   fill = TRUE
 )
 
-# 3) Write combined output
 fwrite(
   all_result,
   file = "C:/Users/kelly/Documents/GitHub/Soundscape-Analysis-Rare-Bird-Detection/data/processed/birdNET/birdNET_results.csv"
 )
 ```
-
-
-

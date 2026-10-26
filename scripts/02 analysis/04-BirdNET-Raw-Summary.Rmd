@@ -277,6 +277,7 @@ Check those clips before using them.
 sparrow_month <- sparrows %>%
   filter(Confidence >= thresholds[1]) %>%
   count(Code, Year, Month) %>%
+  arrange(Month) %>%
   pivot_wider(names_from = Month, values_from = n, values_fill = 0) %>%
   save_table("sparrow_detections_by_month")
 kable(sparrow_month)

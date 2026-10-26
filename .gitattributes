@@ -1,1 +1,8 @@
 *.csv filter=lfs diff=lfs merge=lfs -text
+# Small hand-made tables are stored as normal git files (readable diffs, no LFS needed). Big outputs stay in LFS.
+data/point_count/*.csv !filter !diff !merge -text
+data/metadata/aru_sites_stations.csv !filter !diff !merge -text
+data/metadata/pointcount_site_metadata.csv !filter !diff !merge -text
+data/metadata/LHC-Cattus_ARU_Site_Metadata.csv !filter !diff !merge -text
+data/metadata/species_list.csv !filter !diff !merge -text
+outputs/reports/**/*.csv !filter !diff !merge -text

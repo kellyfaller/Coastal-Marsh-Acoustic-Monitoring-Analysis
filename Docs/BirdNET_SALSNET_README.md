@@ -2,8 +2,9 @@
 
 This guide covers the code that processes the stock BirdNET results (model **M0**) and
 evaluates the saltmarsh sparrow classifiers (models **M1–M5**). It follows the
-**Thesis Analysis Plan: Updated Research Questions and Chapter Design** (Kelly Faller,
-Oct 24, 2026). Step numbers in brackets, such as [B1.3], refer to the steps in that plan.
+[**Thesis Analysis Plan: Updated Research Questions and Chapter Design**](../docs/20261024_updated_analysis_plan.docx)
+(Kelly Faller, Oct 24, 2026; `docs/20261024_updated_analysis_plan.docx`). Step numbers in
+brackets, such as [B1.3], refer to the steps in that plan.
 
 > [!NOTE]
 > This code covers **Phase A3** (stock BirdNET as M0) and the **evaluation and comparison** parts of
@@ -41,7 +42,8 @@ All settings are in `configs/project.yml` (see [Settings](#settings)).
 
 For each year in `birdnet_years` (currently 2024, 2025 and 2026), the script looks in
 `data/processed/birdNET/<year>/<station>/` and stacks every file named
-`BirdNET_CombinedTable` (searching subfolders too). Years without a folder yet are
+whose name contains `BirdNET_CombinedTable`, such as `BirdNET_CombinedTable.csv` or
+`Unit4_CAT_05_2026_BirdNET_CombinedTable.csv` (searching subfolders too). Years without a folder yet are
 skipped, so 2025 is picked up automatically once its BirdNET run is finished.
 
 Columns added:
@@ -226,7 +228,8 @@ from the repository folder before running them.
 
 ## References
 
-The plan's methods draw on these sources (full citations are in the analysis plan):
+The plan's methods draw on these sources (full citations are in the
+[analysis plan](../docs/20261024_updated_analysis_plan.docx)):
 
 - Jacuzzi & Olden (2025) — four-step evaluation workflow, test clip selection, ≥ 2 detections per site
 - Wood & Kahl (2024) — logistic score cut-off for a target precision

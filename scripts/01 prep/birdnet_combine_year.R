@@ -2,7 +2,7 @@
 # Author: Kelly Faller
 #
 # For each year, walks data/processed/birdNET/<year>/<ARU station>/ and finds every
-# file named BirdNET_CombinedTable.* (searched recursively inside each station
+# file whose name contains BirdNET_CombinedTable (searched recursively inside each station
 # folder). All tables for that year are stacked into one file with added columns:
 #   Station - the ARU station folder name (e.g. CAT_A1, LHC_01)
 #   Site    - Cattus_Island (stations starting with CAT) or

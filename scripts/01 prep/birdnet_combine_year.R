@@ -17,7 +17,7 @@ library(here)
 
 cfg <- yaml::read_yaml(here("configs", "project.yml"))
 
-# Years to process - each must have a folder under the BirdNET raw directory
+# Years to process - years without a folder under the BirdNET raw directory yet are skipped
 years <- cfg$params$birdnet_years
 birdnet_dir <- here(cfg$paths$birdnet_raw_dir)
 
@@ -63,7 +63,11 @@ read_combined_table <- function(path) {
 
 combine_year <- function(year) {
   year_dir <- file.path(birdnet_dir, year)
-  if (!dir.exists(year_dir)) stop("Year folder not found: ", year_dir)
+  # Years still being processed in BirdNET may not have a folder yet - skip them
+  if (!dir.exists(year_dir)) {
+    message("Year ", year, ": no folder yet at ", year_dir, " - skipping")
+    return(NULL)
+  }
 
   stations <- list.dirs(year_dir, full.names = FALSE, recursive = FALSE)
   message("Year ", year, ": ", length(stations), " station folders (",
@@ -88,7 +92,10 @@ combine_year <- function(year) {
   })
 
   out <- rbindlist(per_station, fill = TRUE)
-  if (nrow(out) == 0) stop("No detections found for ", year)
+  if (nrow(out) == 0) {
+    warning("No detections found for ", year, " - skipping")
+    return(NULL)
+  }
 
   out[, Site := site_from_station(Station)]
   if (anyNA(out$Site)) {
@@ -120,6 +127,7 @@ combine_year <- function(year) {
 
 for (yr in years) {
   combined <- combine_year(yr)
+  if (is.null(combined)) next
   out_path <- file.path(birdnet_dir, paste0("birdNET_", yr, "_combined.csv"))
   # Times are written without a "Z" because they are recorder clock time, not true UTC
   fwrite(combined, out_path, dateTimeAs = "write.csv")

@@ -41,10 +41,16 @@ fig_dir <- here(cfg$outputs$figures_dir, "birdnet_raw_summary")
 dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
 dir.create(fig_dir, recursive = TRUE, showWarnings = FALSE)
 
-birdnet <- rbindlist(lapply(years, function(yr) {
-  fread(here(cfg$paths$birdnet_raw_dir, paste0("birdNET_", yr, "_combined.csv")),
-        encoding = "UTF-8")
-}), fill = TRUE) %>%
+# Only years whose combined file exists yet (e.g. 2025 may still be running in BirdNET)
+combined_paths <- here(cfg$paths$birdnet_raw_dir, paste0("birdNET_", years, "_combined.csv"))
+missing_years <- years[!file.exists(combined_paths)]
+if (length(missing_years) > 0) {
+  message("No combined BirdNET file yet for: ", paste(missing_years, collapse = ", "))
+}
+years <- years[file.exists(combined_paths)]
+
+birdnet <- rbindlist(lapply(combined_paths[file.exists(combined_paths)], fread, encoding = "UTF-8"),
+                     fill = TRUE) %>%
   as_tibble() %>%
   mutate(
     Year = factor(Year),
@@ -67,6 +73,8 @@ save_table <- function(df, name) {
   df
 }
 ```
+
+`r if (length(missing_years) > 0) paste0("**Not yet included (no combined file):** ", paste(missing_years, collapse = ", "), ".")`
 
 Lowest confidence in the data: **`r round(min(birdnet$Confidence, na.rm = TRUE), 2)`**
 (BirdNET's minimum-confidence setting at analysis time). Thresholds used below:
